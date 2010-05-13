@@ -8,6 +8,7 @@ from cStringIO import StringIO
 from cPickle import Pickler, Unpickler
 import subprocess as sub 
 import string
+from ConfigParser import ConfigParser
 
 reload(sys)
 sys.setdefaultencoding("utf-8") # Needs Python Unicode build !
@@ -191,10 +192,16 @@ class Params:
         if not os.path.exists( os.path.join("config", "processor.cnf") ):
             test_template = '''[jing]
 command: java -jar ../jing/bin/jing.jar
+
+[csl]
+path: /home/bennett/src/citeproc-js/csl
 '''
             ofh = open( os.path.join("config", "processor.cnf"), "w+" )
             ofh.write(test_template)
             ofh.close()
+        cp = ConfigParser()
+        cp.read(os.path.join("config", "processor.cnf"))
+        ## How best to pass the config parameters into CslTest etc?
 
 class CslTest:
     def __init__(self,opt,hpath,testname,pos=0):
@@ -300,6 +307,7 @@ class CslTest:
             sys.exit()
         m = re.match("(?sm).*version=\"([.0-9a-z]+)\".*",self.data["csl"])
         if m:
+            ## Need to get config file parameter here.  How best to do that?
             rnc_path = os.path.join("csl","%s" % m.group(1), "csl.rnc")
         else:
             print "Error: Unable to find CSL version in %s" % self.hp
