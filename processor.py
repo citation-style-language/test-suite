@@ -80,7 +80,7 @@ class Params:
         self.pickle = ".".join((os.path.splitext( self.script )[0], "pkl"))
         self.force = force
         self.files = {}
-        self.tests = os.getcwd()
+        self.tests = os.path.join(os.getcwd(), "processor-tests")
         self.files['humans'] = {}
         self.files['machines'] = []
         mypath = os.path.split(sys.argv[0])[0]
@@ -96,7 +96,6 @@ class Params:
             return (os.path.join(self.tests),)
 
     def getSourcePaths(self):
-        print "getSourcePaths"
         if len(self.args) == 2:
             filename = "%s_%s.txt" % tuple(self.args)
             filepath = None
@@ -109,7 +108,7 @@ class Params:
                 self.files['humans'][filename] = (filepath)
         else:
             for path in self.path():
-                for filename in os.listdir( os.path.join(path,"humans")):
+                for filename in os.listdir(os.path.join(path,"humans")):
                     if not filename.endswith(".txt"): continue
                     if args:
                         if not filename.startswith("%s_" % self.args[0]): continue
@@ -117,15 +116,15 @@ class Params:
                         self.files['humans'][filename] = (path,os.path.join("humans",filename))
     
     def clearSource(self):
-        mstd = os.path.join("machines")
-        for file in os.listdir(mstd):
-            if not file.endswith(".json"): continue
-            os.unlink( os.path.join(mstd, file) )
+        for path in self.path():
+            mstd = os.path.join(path, "machines")
+            for file in os.listdir(mstd):
+                if not file.endswith(".json"): continue
+                os.unlink(os.path.join(mstd, file))
 
     def refreshSource(self,force=False):
         groups = {}
         for filename in self.files['humans'].keys():
-            print filename
             hpath = self.files['humans'][filename]
             mpath = os.path.join( self.files['humans'][filename][0], "machines", "%s.json" % filename[:-4] )
             hp = os.path.sep.join( hpath )
@@ -181,6 +180,10 @@ class Params:
             os.unlink(self.pickle)
 
     def initConfig(self):
+
+        for path in self.path():
+            if not os.path.exists(os.path.join(path, "machines")):
+                os.makedirs(os.path.join(path, "machines"))
 
         if not os.path.exists( os.path.join("config") ):
             os.makedirs( os.path.join("config") )
@@ -391,21 +394,11 @@ if __name__ == "__main__":
     # 
     params = Params(opt,args)
 
-    #
-    # Will do something, so issue date stamp
-    #
-    start = datetime.now()
-    START="%s:%s:%s <--------------START" % (start.hour,start.minute,start.second)
-    print START
-
     try:
         params.getSourcePaths()
         if opt.grind:
-            print "hello1"
             params.clearSource()
-            print "hello2"
             params.refreshSource(force=True)
-            print "hello3"
             print ""
         else:
             params.refreshSource()
@@ -427,9 +420,4 @@ if __name__ == "__main__":
     except NoLicense:
         print '\nError: No license found in load.js'
 
-    end = datetime.now()
-    END="%s:%s:%s <--------------END" % (end.hour,end.minute,end.second)
-    print END
-
-    diff = end-start
-    print "Time: %s seconds" % (diff.seconds)
+    print "Processor tests successfully compiled"
