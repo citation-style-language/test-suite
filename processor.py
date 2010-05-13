@@ -188,11 +188,11 @@ class Params:
         if not os.path.exists( os.path.join("config") ):
             os.makedirs( os.path.join("config") )
 
-        if not os.path.exists( os.path.join("config", "compile.cnf") ):
+        if not os.path.exists( os.path.join("config", "processor.cnf") ):
             test_template = '''[jing]
 command: java -jar ../jing/bin/jing.jar
 '''
-            ofh = open( os.path.join("config", "compile.cnf"), "w+" )
+            ofh = open( os.path.join("config", "processor.cnf"), "w+" )
             ofh.write(test_template)
             ofh.close()
 
