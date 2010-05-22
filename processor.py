@@ -154,7 +154,7 @@ class Params:
     def grindFile(self,hpath,filename,mp):
         if self.opt.verbose:
             sys.stdout.write(".")
-        test = CslTest(opt,hpath,filename)
+        test = CslTest(opt,self.cp,hpath,filename)
         test.parse()
         test.repair()
         test.dump(mp)
@@ -174,7 +174,7 @@ class Params:
             pos += 1
             if pos < skip_to_pos: continue
             p = self.files['humans'][filename]
-            test = CslTest(opt,p,filename,pos=pos)
+            test = CslTest(opt,self.cp,p,filename,pos=pos)
             test.parse()
             test.validate()
         if os.path.exists( self.pickle ):
@@ -199,13 +199,13 @@ path: /home/bennett/src/citeproc-js/csl
             ofh = open( os.path.join("config", "processor.cnf"), "w+" )
             ofh.write(test_template)
             ofh.close()
-        cp = ConfigParser()
-        cp.read(os.path.join("config", "processor.cnf"))
-        ## How best to pass the config parameters into CslTest etc?
+        self.cp = ConfigParser()
+        self.cp.read(os.path.join("config", "processor.cnf"))
 
 class CslTest:
-    def __init__(self,opt,hpath,testname,pos=0):
+    def __init__(self,opt,cp,hpath,testname,pos=0):
         self.opt = opt
+        self.cp = cp
         self.pos = pos
         self.testname = testname
         self.hpath = hpath
@@ -301,14 +301,14 @@ class CslTest:
     def validate(self):
         if self.opt.verbose:
             print self.testname
-        if not os.path.exists(os.path.join("..","jing")):
-            print "Error: jing not found as sibling of processor archive."
-            print "  Looked in: %s" % os.path.join("..","jing")
+        if not os.path.exists(self.cp.get("jing", "path")):
+            print "Error: jing not found."
+            print "  Looked in: %s" % self.cp.get("jing", "path")
             sys.exit()
         m = re.match("(?sm).*version=\"([.0-9a-z]+)\".*",self.data["csl"])
         if m:
             ## Need to get config file parameter here.  How best to do that?
-            rnc_path = os.path.join("csl","%s" % m.group(1), "csl.rnc")
+            rnc_path = os.path.join(self.cp.get("csl", "v%s" % m.group(1)))
         else:
             print "Error: Unable to find CSL version in %s" % self.hp
             sys.exit()
@@ -316,7 +316,7 @@ class CslTest:
         os.write(tfd,self.data["csl"])
         os.close(tfd)
         
-        jfh = os.popen("java -jar %s -c %s %s" % (os.path.join("..","jing","bin","jing.jar"),rnc_path,tfilename))
+        jfh = os.popen("%s %s -c %s %s" % (self.cp.get("jing", "command"), self.cp.get("jing", "path"),rnc_path,tfilename))
         success = True
         plural = ""
         while 1:

@@ -1,0 +1,160 @@
+/*
+ * Copyright (c) 2009 and 2010 Frank G. Bennett, Jr. All Rights Reserved.
+ *
+ * The contents of this file are subject to the Common Public
+ * Attribution License Version 1.0 (the “License”); you may not use
+ * this file except in compliance with the License. You may obtain a
+ * copy of the License at:
+ *
+ * http://bitbucket.org/fbennett/citeproc-js/src/tip/LICENSE.
+ *
+ * The License is based on the Mozilla Public License Version 1.1 but
+ * Sections 14 and 15 have been added to cover use of software over a
+ * computer network and provide for limited attribution for the
+ * Original Developer. In addition, Exhibit A has been modified to be
+ * consistent with Exhibit B.
+ *
+ * Software distributed under the License is distributed on an “AS IS”
+ * basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See
+ * the License for the specific language governing rights and limitations
+ * under the License.
+ *
+ * The Original Code is the citation formatting software known as
+ * "citeproc-js" (an implementation of the Citation Style Language
+ * [CSL]), including the original test fixtures and software located
+ * under the ./std subdirectory of the distribution archive.
+ *
+ * The Original Developer is not the Initial Developer and is
+ * __________. If left blank, the Original Developer is the Initial
+ * Developer.
+ *
+ * The Initial Developer of the Original Code is Frank G. Bennett,
+ * Jr. All portions of the code written by Frank G. Bennett, Jr. are
+ * Copyright (c) 2009 and 2010 Frank G. Bennett, Jr. All Rights Reserved.
+ */
+
+>>===== MODE =====>>
+citation
+<<===== MODE =====<<
+
+
+
+
+>>===== RESULT =====>>
+([1], [3]-[5], [7], [9]-[11])
+<<===== RESULT =====<<
+
+>>===== CITATION-ITEMS =====>>
+[
+    [
+        {
+            "id": "ITEM-1"
+        }, 
+        {
+            "id": "ITEM-3"
+        }, 
+        {
+            "id": "ITEM-4"
+        }, 
+        {
+            "id": "ITEM-5"
+        }, 
+        {
+            "id": "ITEM-7"
+        }, 
+        {
+            "id": "ITEM-9"
+        }, 
+        {
+            "id": "ITEM-10"
+        }, 
+        {
+            "id": "ITEM-11"
+        }
+    ]
+]
+<<===== CITATION-ITEMS =====<<
+
+
+>>===== CSL =====>>
+<style 
+      xmlns="http://purl.org/net/xbiblio/csl"
+      class="note"
+      version="1.0">
+  <info>
+    <id />
+    <title />
+    <updated>2009-08-10T04:49:00+09:00</updated>
+  </info>
+  <citation 
+         collapse="citation-number">
+    <sort>
+      <key variable="citation-number" />
+    </sort>
+    <layout delimiter=", " prefix="(" suffix=")">
+      <text prefix="[" suffix="]" variable="citation-number" />
+    </layout>
+  </citation>
+</style>
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+    {
+        "id": "ITEM-1", 
+        "title": "Paper 1", 
+        "type": "book"
+    }, 
+    {
+        "id": "ITEM-2", 
+        "title": "Paper 2", 
+        "type": "book"
+    }, 
+    {
+        "id": "ITEM-3", 
+        "title": "Paper 3", 
+        "type": "book"
+    },
+    {
+        "id": "ITEM-4", 
+        "title": "Paper 4", 
+        "type": "book"
+    },
+    {
+        "id": "ITEM-5", 
+        "title": "Paper 5", 
+        "type": "book"
+    },
+    {
+        "id": "ITEM-6", 
+        "title": "Paper 6", 
+        "type": "book"
+    },
+    {
+        "id": "ITEM-7", 
+        "title": "Paper 7", 
+        "type": "book"
+    },
+    {
+        "id": "ITEM-8", 
+        "title": "Paper 8", 
+        "type": "book"
+    },
+    {
+        "id": "ITEM-9", 
+        "title": "Paper 9", 
+        "type": "book"
+    },
+    {
+        "id": "ITEM-10", 
+        "title": "Paper 10", 
+        "type": "book"
+    },
+    {
+        "id": "ITEM-11", 
+        "title": "Paper 11", 
+        "type": "book"
+    }
+]
+<<===== INPUT =====<<

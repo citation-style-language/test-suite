@@ -1,0 +1,284 @@
+/*
+ * Copyright (c) 2009 and 2010 Frank G. Bennett, Jr. All Rights Reserved.
+ *
+ * The contents of this file are subject to the Common Public
+ * Attribution License Version 1.0 (the “License”); you may not use
+ * this file except in compliance with the License. You may obtain a
+ * copy of the License at:
+ *
+ * http://bitbucket.org/fbennett/citeproc-js/src/tip/LICENSE.
+ *
+ * The License is based on the Mozilla Public License Version 1.1 but
+ * Sections 14 and 15 have been added to cover use of software over a
+ * computer network and provide for limited attribution for the
+ * Original Developer. In addition, Exhibit A has been modified to be
+ * consistent with Exhibit B.
+ *
+ * Software distributed under the License is distributed on an “AS IS”
+ * basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See
+ * the License for the specific language governing rights and limitations
+ * under the License.
+ *
+ * The Original Code is the citation formatting software known as
+ * "citeproc-js" (an implementation of the Citation Style Language
+ * [CSL]), including the original test fixtures and software located
+ * under the ./std subdirectory of the distribution archive.
+ *
+ * The Original Developer is not the Initial Developer and is
+ * __________. If left blank, the Original Developer is the Initial
+ * Developer.
+ *
+ * The Initial Developer of the Original Code is Frank G. Bennett,
+ * Jr. All portions of the code written by Frank G. Bennett, Jr. are
+ * Copyright (c) 2009 and 2010 Frank G. Bennett, Jr. All Rights Reserved.
+ */
+
+>>===== MODE =====>>
+citation
+<<===== MODE =====<<
+
+
+>>===== RESULT =====>>
+>>[0] Snoakes, “Life of Snoakes” (1902).
+..[1] Doe, “Life of Doe” (1901).
+..[2] Roe, “Life of Roe” (1900).
+>>[3] Doe, supra note 2.
+>>[4] Roe, supra note 3.
+<<===== RESULT =====<<
+
+
+>>===== CSL =====>>
+<style 
+      xmlns="http://purl.org/net/xbiblio/csl"
+      class="note"
+      version="1.0">
+  <info>
+    <id />
+    <title />
+    <updated>2009-08-10T04:49:00+09:00</updated>
+  </info>
+  <citation>
+    <layout suffix=".">
+      <choose>
+        <if position="first">
+          <group delimiter=" ">
+            <group delimiter=", ">
+              <names variable="author">
+                <name form="short"/>
+              </names>
+              <text variable="title" quotes="true"/>
+            </group>
+            <date variable="issued" date-parts="year" form="text" prefix="(" suffix=")"/>
+          </group>
+        </if>
+        <else-if position="subsequent">
+          <group delimiter=", ">
+            <names variable="author">
+              <name form="short"/>
+            </names>
+            <text value="supra"/>
+          </group>
+          <text variable="first-reference-note-number" prefix=" note "/>
+        </else-if>
+        <else>
+          <text term="ibid"/>
+        </else>
+      </choose>
+    </layout>
+  </citation>
+</style>
+<<===== CSL =====<<
+
+
+
+>>=====  CITATIONS =====>>
+[
+    [
+        {
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }
+            ], 
+            "properties": {
+                "index": 0, 
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ], 
+    [
+        {
+            "citationID": "CITATION-2", 
+            "citationItems": [
+                {
+                    "id": "ITEM-2"
+                }
+            ], 
+            "properties": {
+                "index": 1, 
+                "noteIndex": 2
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ]
+        ], 
+        []
+    ], 
+    [
+        {
+            "citationID": "CITATION-3", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }
+            ], 
+            "properties": {
+                "index": 2, 
+                "noteIndex": 3
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ]
+        ], 
+        []
+    ], 
+    [
+        {
+            "citationID": "CITATION-4", 
+            "citationItems": [
+                {
+                    "id": "ITEM-2"
+                }
+            ], 
+            "properties": {
+                "index": 3, 
+                "noteIndex": 4
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ]
+        ], 
+        []
+    ], 
+    [
+        {
+            "citationID": "CITATION-5", 
+            "citationItems": [
+                {
+                    "id": "ITEM-3"
+                }
+            ], 
+            "properties": {
+                "index": 0, 
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        [
+            [
+                "CITATION-1", 
+                2
+            ], 
+            [
+                "CITATION-2", 
+                3
+            ], 
+            [
+                "CITATION-3", 
+                4
+            ], 
+            [
+                "CITATION-4", 
+                5
+            ]
+        ]
+    ]
+]
+<<=====  CITATIONS =====<<
+
+
+>>===== INPUT =====>>
+[
+    {
+        "author": [
+            {
+                "family": "Doe", 
+                "given": "John", 
+                "static-ordering": false
+            }
+        ], 
+        "id": "ITEM-1", 
+        "type": "book",
+        "title": "Life of Doe",
+        "issued": {
+            "date-parts": [
+               [
+                  1901
+               ]
+            ]
+        }
+    }, 
+    {
+        "author": [
+            {
+                "family": "Roe", 
+                "given": "Jane", 
+                "static-ordering": false
+            }
+        ], 
+        "id": "ITEM-2", 
+        "type": "book",
+        "title": "Life of Roe",
+        "issued": {
+            "date-parts": [
+               [
+                  1900
+               ]
+            ]
+        }
+    },
+    {
+        "author": [
+            {
+                "family": "Snoakes", 
+                "given": "Richard", 
+                "static-ordering": false
+            }
+        ], 
+        "id": "ITEM-3", 
+        "type": "book",
+        "title": "Life of Snoakes",
+        "issued": {
+            "date-parts": [
+               [
+                  1902
+               ]
+            ]
+        }
+    }
+]
+<<===== INPUT =====<<

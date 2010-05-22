@@ -1,0 +1,128 @@
+/*
+ * Copyright (c) 2009 and 2010 Frank G. Bennett, Jr. All Rights Reserved.
+ *
+ * The contents of this file are subject to the Common Public
+ * Attribution License Version 1.0 (the “License”); you may not use
+ * this file except in compliance with the License. You may obtain a
+ * copy of the License at:
+ *
+ * http://bitbucket.org/fbennett/citeproc-js/src/tip/LICENSE.
+ *
+ * The License is based on the Mozilla Public License Version 1.1 but
+ * Sections 14 and 15 have been added to cover use of software over a
+ * computer network and provide for limited attribution for the
+ * Original Developer. In addition, Exhibit A has been modified to be
+ * consistent with Exhibit B.
+ *
+ * Software distributed under the License is distributed on an “AS IS”
+ * basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See
+ * the License for the specific language governing rights and limitations
+ * under the License.
+ *
+ * The Original Code is the citation formatting software known as
+ * "citeproc-js" (an implementation of the Citation Style Language
+ * [CSL]), including the original test fixtures and software located
+ * under the ./std subdirectory of the distribution archive.
+ *
+ * The Original Developer is not the Initial Developer and is
+ * __________. If left blank, the Original Developer is the Initial
+ * Developer.
+ *
+ * The Initial Developer of the Original Code is Frank G. Bennett,
+ * Jr. All portions of the code written by Frank G. Bennett, Jr. are
+ * Copyright (c) 2009 and 2010 Frank G. Bennett, Jr. All Rights Reserved.
+ */
+
+>>===== MODE =====>>
+bibliography
+<<===== MODE =====<<
+
+
+>>===== CITATIONS =====>>
+[
+    [
+        {
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }, 
+                {
+                    "id": "ITEM-2"
+                }, 
+                {
+                    "id": "ITEM-3"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ]
+]
+<<===== CITATIONS =====<<
+
+
+>>===== RESULT =====>>
+<div class="csl-bib-body">
+  <div class="csl-entry">People v. Taylor, 73 N.Y.2d 683, 541 N.E.2d 386, 543 N.Y.S.2d 357 (1989).</div>
+</div>
+<<===== RESULT =====<<
+
+
+>>===== CSL =====>>
+chicago-fullnote-bibliography.csl
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+    {
+        "container-title": "N.Y.2d", 
+        "id": "ITEM-1", 
+        "issued": {
+            "date-parts": [
+                [
+                    "1989"
+                ]
+            ]
+        }, 
+        "page": "683", 
+        "title": "People v. Taylor", 
+        "type": "legal_case", 
+        "volume": 73
+    }, 
+    {
+        "container-title": "N.E.2d", 
+        "id": "ITEM-2", 
+        "issued": {
+            "date-parts": [
+                [
+                    "1989"
+                ]
+            ]
+        }, 
+        "page": "386", 
+        "title": "People v. Taylor", 
+        "type": "legal_case", 
+        "volume": 541
+    }, 
+    {
+        "container-title": "N.Y.S.2d", 
+        "id": "ITEM-3", 
+        "issued": {
+            "date-parts": [
+                [
+                    "1989"
+                ]
+            ]
+        }, 
+        "page": "357", 
+        "title": "People v. Taylor", 
+        "type": "legal_case", 
+        "volume": 543
+    }
+]
+<<===== INPUT =====<<
