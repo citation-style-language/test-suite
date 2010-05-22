@@ -191,10 +191,11 @@ class Params:
 
         if not os.path.exists( os.path.join("config", "processor.cnf") ):
             test_template = '''[jing]
-command: java -jar ../jing/bin/jing.jar
+command: java -jar
+path: ../jing/bin/jing.jar
 
 [csl]
-path: /home/bennett/src/citeproc-js/csl
+v1.0: ../citeproc-js/csl/1.0/csl.rnc
 '''
             ofh = open( os.path.join("config", "processor.cnf"), "w+" )
             ofh.write(test_template)
@@ -307,7 +308,6 @@ class CslTest:
             sys.exit()
         m = re.match("(?sm).*version=\"([.0-9a-z]+)\".*",self.data["csl"])
         if m:
-            ## Need to get config file parameter here.  How best to do that?
             rnc_path = os.path.join(self.cp.get("csl", "v%s" % m.group(1)))
         else:
             print "Error: Unable to find CSL version in %s" % self.hp
