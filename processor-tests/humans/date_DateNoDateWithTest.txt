@@ -41,7 +41,7 @@ citation
 
 
 >>===== RESULT =====>>
-(n.d.)
+Title Thing (n.d.)
 <<===== RESULT =====<<
 
 
@@ -57,11 +57,19 @@ citation
   </info>
   <citation>
     <layout>
-      <date prefix="(" suffix=")" variable="issued">
-        <date-part form="long" name="month" />
-        <date-part name="day" suffix=", " />
-        <date-part name="year" />
-      </date>
+      <text variable="title"/>
+      <choose>
+        <if variable="issued">
+          <date prefix=" (" suffix=")" variable="issued">
+            <date-part form="long" name="month" />
+            <date-part name="day" suffix=", " />
+            <date-part name="year" />
+          </date>
+        </if>
+        <else>
+          <text term="no date" form="short" prefix=" (" suffix=")"/>
+        </else>
+      </choose>
     </layout>
   </citation>
 </style>
@@ -72,7 +80,7 @@ citation
 [
     {
         "id": "ITEM-1", 
-        "title": "Ignore me", 
+        "title": "Title Thing", 
         "type": "book"
     }
 ]

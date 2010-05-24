@@ -43,7 +43,7 @@ bibliographies, they are always placed at the end of the sort
 (whether ascending or descending).
 
 >>===== RESULT =====>>
-BookD 1999; BookB 2000; BookA n.d.; BookC n.d.; BookE n.d.
+BookD 1999; BookB 2000; BookA; BookC; BookE.
 <<===== RESULT =====<<
 
 

@@ -34,23 +34,14 @@
  */
 
 >>===== MODE =====>>
-bibliography
+citation
 <<===== MODE =====<<
 
-Sort position of empty dates differs in citations and bibliographies.
-In citations, empty dates have a value equivalent to zero.  In
-bibliographies, they are always placed at the end of the sort
-(whether ascending or descending).
+
 
 
 >>===== RESULT =====>>
-<div class="csl-bib-body">
-  <div class="csl-entry">BookD 1999.</div>
-  <div class="csl-entry">BookB 2000.</div>
-  <div class="csl-entry">BookA.</div>
-  <div class="csl-entry">BookC.</div>
-  <div class="csl-entry">BookE.</div>
-</div>
+[CSL STYLE ERROR: reference with no printed form.]
 <<===== RESULT =====<<
 
 
@@ -66,23 +57,13 @@ bibliographies, they are always placed at the end of the sort
   </info>
   <citation>
     <layout>
-      <text value="Hello"/>
+      <date prefix="(" suffix=")" variable="issued">
+        <date-part form="long" name="month" />
+        <date-part name="day" suffix=", " />
+        <date-part name="year" />
+      </date>
     </layout>
   </citation>
-  <bibliography>
-    <sort>
-      <key variable="issued"/>
-      <key variable="title"/>
-    </sort>
-    <layout prefix="" suffix=".">
-      <group delimiter=" ">
-        <text variable="title" />
-        <date variable="issued">
-          <date-part name="year" />
-        </date>
-      </group>
-    </layout>
-  </bibliography>
 </style>
 <<===== CSL =====<<
 
@@ -91,37 +72,8 @@ bibliographies, they are always placed at the end of the sort
 [
     {
         "id": "ITEM-1", 
-        "title": "BookA"
-    }, 
-    {
-        "id": "ITEM-2", 
-        "issued": {
-            "date-parts": [
-                [
-                    2000
-                ]
-            ]
-        }, 
-        "title": "BookB"
-    }, 
-    {
-        "id": "ITEM-3", 
-        "title": "BookC"
-    }, 
-    {
-        "id": "ITEM-4", 
-        "issued": {
-            "date-parts": [
-                [
-                    1999
-                ]
-            ]
-        }, 
-        "title": "BookD"
-    }, 
-    {
-        "id": "ITEM-5", 
-        "title": "BookE"
+        "title": "Ignore me", 
+        "type": "book"
     }
 ]
 <<===== INPUT =====<<

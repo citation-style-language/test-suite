@@ -38,10 +38,12 @@ citation
 <<===== MODE =====<<
 
 
-
+You wouldn't want to do this in an actual style, of course -- a "no date"
+term should be supplied for the first of the three cites here, to prevent
+confusion.
 
 >>===== RESULT =====>>
-(Smith n.d., 1900, 2000)
+(Smith, 1900, 2000)
 <<===== RESULT =====<<
 
 
