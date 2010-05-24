@@ -41,7 +41,7 @@ citation
 
 
 >>===== RESULT =====>>
-(Smith 325AD, 2000, n.d.)
+(Smith 325AD, 2000, [CSL STYLE ERROR: reference with no printed form.])
 <<===== RESULT =====<<
 
 >>===== CITATION-ITEMS =====>>
