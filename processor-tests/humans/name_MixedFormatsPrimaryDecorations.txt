@@ -40,7 +40,7 @@ citation
 
 
 >>===== RESULT =====>>
-Пётр Ильич ЧАЙКОВСКИЙ, Rip VAN WINKLE, 我妻栄, Carl THUCYDIDES III, TOKUGAWA Ieyasu, PRINCE
+Пётр Ильич ЧАЙКОВСКИЙ, Rip VAN WINKLE, 我妻栄, Carl THUCYDIDES III, TOKUGAWA Ieyasu, Prince
 <<===== RESULT =====<<
 
 
@@ -99,7 +99,7 @@ citation
                 "static-ordering": true
             }, 
             {
-                "family": "Prince", 
+                "given": "Prince", 
                 "static-ordering": false
             }
         ], 
