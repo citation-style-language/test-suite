@@ -111,7 +111,7 @@ citation
                 "static-ordering": true
             }, 
             {
-                "family": "Prince", 
+                "given": "Prince", 
                 "static-ordering": false
             }
         ], 
