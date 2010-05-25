@@ -15,7 +15,7 @@ __ http://citationstyles.org/
 
 .. class:: info-version
 
-   version 1.00##a1##
+   version 1.00##a2##
 
 .. class:: info-date
 
@@ -34,9 +34,9 @@ __ http://citationstyles.org/
 
 ========
 
-------------
+############
 Introduction
-------------
+############
 
 CSL ships with a large bundle of test data for use in the
 development and maintenance of CSL processors.  The tests begin as 

@@ -330,7 +330,7 @@ pre.codeblock span.Error { color: red; font-weight: bold; }
 <h2 class="subtitle" id="developer-s-manual">Developer's Manual</h2>
 
 <p class="fixed"><a class="reference external" href="http://citationstyles.org/">citationstyles.org</a></p>
-<p class="info-version">version 1.00<sub>a1</sub></p>
+<p class="info-version">version 1.00<sub>a2</sub></p>
 <p class="info-date">25 May 2010</p>
 <dl class="contributors docutils">
 <dt>Author of this manual</dt>
@@ -343,7 +343,7 @@ pre.codeblock span.Error { color: red; font-weight: bold; }
 <div class="contents topic" id="table-of-contents">
 <p class="topic-title first">Table of Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#introduction" id="id2">Introduction</a><ul>
+<li><a class="reference internal" href="#introduction" id="id2">Introduction</a></li>
 <li><a class="reference internal" href="#preparing-the-tests" id="id3">Preparing the tests</a></li>
 <li><a class="reference internal" href="#fixture-layout" id="id4">Fixture layout</a><ul>
 <li><a class="reference internal" href="#required-sections" id="id5">Required sections</a><ul>
@@ -363,8 +363,6 @@ pre.codeblock span.Error { color: red; font-weight: bold; }
 </ul>
 </li>
 </ul>
-</li>
-</ul>
 </div>
 <hr class="docutils" />
 <div class="section" id="introduction">
@@ -376,8 +374,9 @@ in the sample file immediately below.  Tests are prepared for use by
 grinding them into a machine-friendly form (JSON).  The JSON form
 of tests can be run against processors in a test-bed environment
 with processor-specific tools prepared for that purpose.</p>
+</div>
 <div class="section" id="preparing-the-tests">
-<h2><a class="toc-backref" href="#id3">Preparing the tests</a></h2>
+<h1><a class="toc-backref" href="#id3">Preparing the tests</a></h1>
 <p>Tests can be validated and prepared (or &quot;compiled&quot;) using
 the <tt class="docutils literal"><span class="pre">./processor.py</span></tt> script in the root
 directory of the archive.  The script accepts the following
@@ -397,7 +396,7 @@ readable form.</dd>
 </dl>
 </div>
 <div class="section" id="fixture-layout">
-<h2><a class="toc-backref" href="#id4">Fixture layout</a></h2>
+<h1><a class="toc-backref" href="#id4">Fixture layout</a></h1>
 <p>The human-readable version of each test fixture is composed in
 the format below.  The five sections <tt class="docutils literal"><span class="pre">MODE</span></tt>,
 <tt class="docutils literal"><span class="pre">RESULT</span></tt>, <tt class="docutils literal"><span class="pre">CSL</span></tt> and <tt class="docutils literal"><span class="pre">INPUT</span></tt> are required, and may be
@@ -531,11 +530,11 @@ John Doe
 </td></tr></table>
 </div>
 <div class="section" id="required-sections">
-<h3><a class="toc-backref" href="#id5">Required sections</a></h3>
+<h2><a class="toc-backref" href="#id5">Required sections</a></h2>
 <p>The following four sections (<tt class="docutils literal"><span class="pre">MODE</span></tt>, <tt class="docutils literal"><span class="pre">CSL</span></tt>, <tt class="docutils literal"><span class="pre">INPUT</span></tt>, <tt class="docutils literal"><span class="pre">RESULT</span></tt>)
 are required in all test fixtures.</p>
 <div class="section" id="mode">
-<h4><a class="toc-backref" href="#id6">MODE</a></h4>
+<h3><a class="toc-backref" href="#id6">MODE</a></h3>
 <p>A single string tells whether to test <tt class="docutils literal"><span class="pre">citation</span></tt> or <tt class="docutils literal"><span class="pre">bibliography</span></tt>
 output.  In the former case, the test will be performed using
 the <tt class="docutils literal"><span class="pre">makeCitationCluster()</span></tt> command if a <tt class="docutils literal"><span class="pre">CITATION-ITEMS</span></tt> area is
@@ -556,7 +555,7 @@ citation
 </div>
 </div>
 <div class="section" id="csl">
-<h4><a class="toc-backref" href="#id7">CSL</a></h4>
+<h3><a class="toc-backref" href="#id7">CSL</a></h3>
 <p>The code to be used in the test must be valid
 as a complete, if minimal, CSL style:</p>
 <div class="codeblock text">
@@ -652,7 +651,7 @@ as a complete, if minimal, CSL style:</p>
 </div>
 </div>
 <div class="section" id="input">
-<h4><a class="toc-backref" href="#id8">INPUT</a></h4>
+<h3><a class="toc-backref" href="#id8">INPUT</a></h3>
 <p>The <tt class="docutils literal"><span class="pre">INPUT</span></tt> section provides the item data to be registered
 in the processor.  In a simple test fixture that contains
 none of the optional areas <tt class="docutils literal"><span class="pre">BIBENTRIES</span></tt>, <tt class="docutils literal"><span class="pre">BIBSECTION</span></tt> <tt class="docutils literal"><span class="pre">CITATIONS</span></tt>
@@ -731,7 +730,7 @@ for details):</p>
 </div>
 </div>
 <div class="section" id="result">
-<h4><a class="toc-backref" href="#id9">RESULT</a></h4>
+<h3><a class="toc-backref" href="#id9">RESULT</a></h3>
 <p>A string to compare with the citation or bibliography output
 received from the processor.</p>
 <div class="codeblock text">
@@ -765,11 +764,11 @@ used for comparison:</p>
 </div>
 </div>
 <div class="section" id="optional-sections">
-<h3><a class="toc-backref" href="#id10">Optional sections</a></h3>
+<h2><a class="toc-backref" href="#id10">Optional sections</a></h2>
 <p>Four optional sections are available for use in a fixture
 to exercise special aspects of processor behavior.</p>
 <div class="section" id="bibentries">
-<h4><a class="toc-backref" href="#id11">BIBENTRIES</a></h4>
+<h3><a class="toc-backref" href="#id11">BIBENTRIES</a></h3>
 <p>The <tt class="docutils literal"><span class="pre">citeproc-js</span></tt> processor maintains a persistent internal registry
 of citation data, and permits the addition, deletion and rearrangement
 of registered items.  The behavior of the processor across a series of
@@ -824,7 +823,7 @@ last in the series.</p>
 </div>
 </div>
 <div class="section" id="bibsection">
-<h4><a class="toc-backref" href="#id12">BIBSECTION</a></h4>
+<h3><a class="toc-backref" href="#id12">BIBSECTION</a></h3>
 <p>When <tt class="docutils literal"><span class="pre">bibliography</span></tt> mode is used, a <tt class="docutils literal"><span class="pre">BIBSECTION</span></tt> area
 can be used to limit the output of the bibligraphy.  The
 filtering logic is described below, but first an example
@@ -1039,7 +1038,7 @@ for which that field is missing or has a nil value.</p>
 </div>
 </div>
 <div class="section" id="citation-items">
-<h4><a class="toc-backref" href="#id13">CITATION-ITEMS</a></h4>
+<h3><a class="toc-backref" href="#id13">CITATION-ITEMS</a></h3>
 <p>When testing in <tt class="docutils literal"><span class="pre">citation</span></tt> mode, the data items to be
 processed are ordinarily rendered as a single citation.
 To test operations that depend upon or may be affected
@@ -1081,7 +1080,7 @@ the full entry consists of a list of such citations:</p>
 </div>
 </div>
 <div class="section" id="citations">
-<h4><a class="toc-backref" href="#id14">CITATIONS</a></h4>
+<h3><a class="toc-backref" href="#id14">CITATIONS</a></h3>
 <p>A <tt class="docutils literal"><span class="pre">CITATIONS</span></tt> area can be used (instead of <tt class="docutils literal"><span class="pre">CITATION-ITEMS</span></tt>)
 to mimic a series of interactions with a word processor plugin.
 In this case, the area should contain a list array of citation
@@ -1176,7 +1175,6 @@ like the following:</p>
 &lt;&lt;===== CITATIONS =====&lt;&lt;
 </pre></div>
 </td></tr></table>
-</div>
 </div>
 </div>
 </div>
