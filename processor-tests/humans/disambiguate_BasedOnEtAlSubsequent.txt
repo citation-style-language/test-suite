@@ -1,0 +1,212 @@
+/*
+ * Copyright (c) 2009 and 2010 Frank G. Bennett, Jr. All Rights Reserved.
+ *
+ * The contents of this file are subject to the Common Public
+ * Attribution License Version 1.0 (the “License”); you may not use
+ * this file except in compliance with the License. You may obtain a
+ * copy of the License at:
+ *
+ * http://bitbucket.org/fbennett/citeproc-js/src/tip/LICENSE.
+ *
+ * The License is based on the Mozilla Public License Version 1.1 but
+ * Sections 14 and 15 have been added to cover use of software over a
+ * computer network and provide for limited attribution for the
+ * Original Developer. In addition, Exhibit A has been modified to be
+ * consistent with Exhibit B.
+ *
+ * Software distributed under the License is distributed on an “AS IS”
+ * basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See
+ * the License for the specific language governing rights and limitations
+ * under the License.
+ *
+ * The Original Code is the citation formatting software known as
+ * "citeproc-js" (an implementation of the Citation Style Language
+ * [CSL]), including the original test fixtures and software located
+ * under the ./std subdirectory of the distribution archive.
+ *
+ * The Original Developer is not the Initial Developer and is
+ * __________. If left blank, the Original Developer is the Initial
+ * Developer.
+ *
+ * The Initial Developer of the Original Code is Frank G. Bennett,
+ * Jr. All portions of the code written by Frank G. Bennett, Jr. are
+ * Copyright (c) 2009 and 2010 Frank G. Bennett, Jr. All Rights Reserved.
+ */
+
+This test illustrates a use case for the following rule, discussed on the Zotero forums:
+
+  "When different groups of authors with the same first author and date 
+  occur, they should be cited thus: (Able, Baker & Charles 1986a; Able, 
+  David & Edwards 1986b), then subsequently abbreviated to (Able et al. 
+  1986a; Able et al. 1986b)."
+
+  "Italicized letters 'a', 'b', 'c', etc., should be added to the date of 
+  papers with the same first authorship and year"
+
+The test illustrates that the first rule can be satisfied with the CSL 0.8
+feature set, and the second using the year-suffix text variable introduced
+in CSL 0.9.  It differs slightly from the example given by the poster
+(asplundj) in that the cites do not include author initials, but this conforms
+to the cited style guide.
+
+
+The discussion can be found at: 
+  http://forums.zotero.org/discussion/5290/collapse-year-suffix/
+
+The style guide containing the rule quoted above can be found 
+at:
+  http://www.wiley.com/bw/submit.asp?ref=0269-8463&site=1
+
+
+The point in all of this for implementers is that evaluation of 
+an in-text key for disambiguation purposes should be based on the 
+subsequent form of the cite, even if it occurs only once in the 
+text.
+
+
+Frank Bennett
+2009-04-14
+
+
+
+>>===== MODE =====>>
+citation
+<<===== MODE =====<<
+
+
+
+>>===== RESULT =====>>
+(Baur, Fröberg, Baur, et al. 2000<i>a</i>; Baur, Schileyko & Baur 2000<i>b</i>; Doe 2000)
+<<===== RESULT =====<<
+
+
+>>===== CSL =====>>
+<style 
+      xmlns="http://purl.org/net/xbiblio/csl"
+      class="note"
+      version="1.0">
+  <info>
+    <id />
+    <title />
+    <updated>2009-08-10T04:49:00+09:00</updated>
+  </info>
+  <citation 
+         disambiguate-add-year-suffix="true"
+         et-al-min="3"
+         et-al-subsequent-min="1"
+         et-al-subsequent-use-first="1"
+         et-al-use-first="3">
+    <layout delimiter="; " prefix="(" suffix=")">
+      <names variable="author">
+        <name and="symbol" delimiter=", " delimiter-precedes-last="never" form="short" />
+      </names>
+      <date prefix=" " variable="issued">
+        <date-part name="year" />
+      </date>
+      <text font-style="italic" variable="year-suffix" />
+    </layout>
+  </citation>
+</style>
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+    {
+        "author": [
+            {
+                "family": "Baur", 
+                "given": "Bruno", 
+                "static-ordering": false
+            }, 
+            {
+                "family": "Fröberg", 
+                "given": "Lars", 
+                "static-ordering": false
+            }, 
+            {
+                "family": "Baur", 
+                "given": "Anette", 
+                "static-ordering": false
+            }, 
+            {
+                "family": "Guggenheim", 
+                "given": "Richard", 
+                "static-ordering": false
+            }, 
+            {
+                "family": "Haase", 
+                "given": "Martin", 
+                "static-ordering": false
+            }
+        ], 
+        "container-title": "Nordic Journal of Botany", 
+        "id": "ITEM-1", 
+        "issued": {
+            "date-parts": [
+                [
+                    "2000"
+                ]
+            ]
+        }, 
+        "page-range": "119-128", 
+        "title": "Ultrastructure of snail grazing damage to calcicolous lichens", 
+        "type": "article-journal", 
+        "volume": "20"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Baur", 
+                "given": "Bruno", 
+                "static-ordering": false
+            }, 
+            {
+                "family": "Schileyko", 
+                "given": "Anatoly A.", 
+                "static-ordering": false
+            }, 
+            {
+                "family": "Baur", 
+                "given": "Anette", 
+                "static-ordering": false
+            }
+        ], 
+        "container-title": "Journal of Molluscan Studies", 
+        "id": "ITEM-2", 
+        "issued": {
+            "date-parts": [
+                [
+                    "2000"
+                ]
+            ]
+        }, 
+        "page-range": "285-289", 
+        "title": "Ecological observations on _Arianta aethiops aethiops_ (Helicidae), a land snail endemic to the South Carpathian mountains, Romania", 
+        "type": "article-journal", 
+        "volume": "66"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Doe", 
+                "given": "John", 
+                "static-ordering": false
+            }
+        ], 
+        "container-title": "Journal of Irreproducible Results", 
+        "id": "ITEM-3", 
+        "issued": {
+            "date-parts": [
+                [
+                    "2000"
+                ]
+            ]
+        }, 
+        "page-range": "000-1", 
+        "title": "Some bogus title", 
+        "type": "article-journal", 
+        "volume": "666"
+    }
+]
+<<===== INPUT =====<<
