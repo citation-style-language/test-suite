@@ -19,7 +19,7 @@ __ http://citationstyles.org/
 
 .. class:: info-date
 
-   =D=23 May 2010=D=
+   =D=25 May 2010=D=
 
 .. class:: contributors
 
