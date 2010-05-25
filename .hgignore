@@ -1,3 +1,4 @@
+.*\.tar\.gz$
 ^/std$
 ^config$
 /machines$
