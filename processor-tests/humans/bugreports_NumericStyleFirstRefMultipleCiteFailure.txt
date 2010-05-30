@@ -1,0 +1,125 @@
+/*
+ * Copyright (c) 2009 and 2010 Frank G. Bennett, Jr. All Rights Reserved.
+ *
+ * The contents of this file are subject to the Common Public
+ * Attribution License Version 1.0 (the “License”); you may not use
+ * this file except in compliance with the License. You may obtain a
+ * copy of the License at:
+ *
+ * http://bitbucket.org/fbennett/citeproc-js/src/tip/LICENSE.
+ *
+ * The License is based on the Mozilla Public License Version 1.1 but
+ * Sections 14 and 15 have been added to cover use of software over a
+ * computer network and provide for limited attribution for the
+ * Original Developer. In addition, Exhibit A has been modified to be
+ * consistent with Exhibit B.
+ *
+ * Software distributed under the License is distributed on an “AS IS”
+ * basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See
+ * the License for the specific language governing rights and limitations
+ * under the License.
+ *
+ * The Original Code is the citation formatting software known as
+ * "citeproc-js" (an implementation of the Citation Style Language
+ * [CSL]), including the original test fixtures and software located
+ * under the ./std subdirectory of the distribution archive.
+ *
+ * The Original Developer is not the Initial Developer and is
+ * __________. If left blank, the Original Developer is the Initial
+ * Developer.
+ *
+ * The Initial Developer of the Original Code is Frank G. Bennett,
+ * Jr. All portions of the code written by Frank G. Bennett, Jr. are
+ * Copyright (c) 2009 and 2010 Frank G. Bennett, Jr. All Rights Reserved.
+ */
+
+>>== MODE ==>>
+citation
+<<== MODE ==<<
+
+
+In Zotero 2.1a1.SVN, a multiple-cite citation fails to create when it is
+in first position.  But the test below runs successfully.  Something is
+amiss, but it doesn't seem to be inside the processor (or at least not
+only inside the processor.)
+
+Aha.  Simon's bug report to the citeproc-js group makes it clear.
+Apparently the problem lies elsewhere; references no longer needed
+are not being deleted from the bib, and updateItems() doesn't play
+nice as a way of forcing an update.  That's another test.
+
+
+>>== RESULT ==>>
+>>[0] [1],[2]
+<<== RESULT ==<<
+
+
+>>== CITATIONS ==>>
+[
+  [
+    {
+      "citationID": "CITATION-1",
+      "citationItems": [
+        {
+          "id": "ITEM-1"
+        },
+        {
+          "id": "ITEM-2"
+        }
+      ],
+      "properties": {
+        "noteIndex": 0
+      }
+    },
+    [],
+    []
+  ]
+]
+<<== CITATIONS ==<<
+
+
+>>===== CSL =====>>
+ieee.csl
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+    {
+        "id": "ITEM-1", 
+        "title": "Book A",
+		"author": [
+			{
+				"family": "Doe",
+				"given": "John"
+			}
+		], 
+        "issued": {
+           "date-parts": [
+             [
+               "2000"
+             ]
+           ]
+        },
+        "type": "book"
+    },
+    {
+        "id": "ITEM-2", 
+        "title": "Book B",
+		"author": [
+			{
+				"family": "Doe",
+				"given": "John"
+			}
+		], 
+        "issued": {
+           "date-parts": [
+             [
+               "2000"
+             ]
+           ]
+        },
+        "type": "book"
+    }
+]
+<<===== INPUT =====<<
