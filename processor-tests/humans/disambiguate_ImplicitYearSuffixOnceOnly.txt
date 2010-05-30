@@ -45,8 +45,8 @@ is printed in the cite.
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">[1990a] Doe, Book A 1990-5-30</div>
-  <div class="csl-entry">[1990b] Doe, Book B 1990-5-30</div>
+  <div class="csl-entry">[1990a] Doe, Book A 05/30/1990</div>
+  <div class="csl-entry">[1990b] Doe, Book B 05/30/1990</div>
 </div>
 <<===== RESULT =====<<
 

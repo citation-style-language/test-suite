@@ -41,7 +41,7 @@ citation
 
 
 >>===== RESULT =====>>
-Some Book or Other (n.d.)
+Some Book or Other (no date)
 <<===== RESULT =====<<
 
 
