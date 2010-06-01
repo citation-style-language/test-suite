@@ -43,11 +43,6 @@ in first position.  But the test below runs successfully.  Something is
 amiss, but it doesn't seem to be inside the processor (or at least not
 only inside the processor.)
 
-Aha.  Simon's bug report to the citeproc-js group makes it clear.
-Apparently the problem lies elsewhere; references no longer needed
-are not being deleted from the bib, and updateItems() doesn't play
-nice as a way of forcing an update.  That's another test.
-
 
 >>== RESULT ==>>
 >>[0] [1],[2]
@@ -58,17 +53,28 @@ nice as a way of forcing an update.  That's another test.
 [
   [
     {
-      "citationID": "CITATION-1",
       "citationItems": [
         {
-          "id": "ITEM-1"
+          "id": 5,
+          "prefix": "",
+          "suffix": "",
+          "label": 0,
+          "locator": "",
+          "suppress-author": false
         },
         {
-          "id": "ITEM-2"
+          "id": 8,
+          "prefix": "",
+          "suffix": "",
+          "label": 0,
+          "locator": "",
+          "suppress-author": false
         }
       ],
       "properties": {
-        "noteIndex": 0
+        "index": 0,
+        "noteIndex": 0,
+        "added": true
       }
     },
     [],
@@ -86,7 +92,7 @@ ieee.csl
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
+        "id": 5, 
         "title": "Book A",
 		"author": [
 			{
@@ -104,7 +110,7 @@ ieee.csl
         "type": "book"
     },
     {
-        "id": "ITEM-2", 
+        "id": 8, 
         "title": "Book B",
 		"author": [
 			{
