@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" page-range-format="chicago">
    <info>
       <title>Chicago Manual of Style (Author-Date format)</title>
       <id>http://www.zotero.org/styles/chicago-author-date</id>
@@ -347,6 +347,7 @@
     <sort>
       <key macro="contributors" />
       <key variable="issued" />
+      <key variable="title" />
     </sort>
     <layout suffix=".">
       <text macro="contributors" suffix=". " />
