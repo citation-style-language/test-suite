@@ -51,6 +51,67 @@ citation
 <<===== MODE =====<<
 
 
+Under the logic described in the CSL specification, this test passes
+before all names have been added at the disambiguate-add-names stage.
+
+We have works authored by the following persons:
+
+Book A (2000) authors
+ Devon Dropsy
+ Edward Enteritis
+ Xavier Fever
+
+Book B (2000) authors
+ Devon Dropsy
+ Ernie Enteritis
+ Yves Fever
+
+We're using the following options:
+        et-al-min="3"
+        et-al-use-first="1"
+        disambiguate-add-names="true"
+        disambiguate-add-givenname="true"
+        disambiguate-add-year-suffix="true"
+        givenname-disambiguation-rule="all-names"
+
+With "all-names" disambiguation, the base form of the names, _before_
+the cites are run through disambiguation, will be:
+
+Book A (2000) authors
+ Dropsy
+ Edward Enteritis
+ X. Fever
+
+Book B (2000) authors
+ Dropsy
+ Ernie Enteritis
+ Y. Fever
+
+This is because, under all-names disambiguation, the _names_ must
+first be distinguished, throughout the document.
+
+We have an et-al-use-first value of 1, so we start with one name:
+
+Book A (2000) authors
+ Dropsy
+
+Book B (2000) authors
+ Dropsy
+
+For disambiguate-add-names, we'll add names until the cites clear, if
+at all.  So we add one name, producing:
+
+Book A (2000) authors
+ Dropsy
+ Edward Enteritis
+
+Book B (2000) authors
+ Dropsy
+ Ernie Enteritis
+
+... and the cites clear.
+
+
 >>===== RESULT =====>>
 Asthma, Bronchitis, Cold (1990a); Asthma, Bronchitis, Cold (1990b); Dropsy, Edward Enteritis, et al. (2000); Dropsy, Ernie Enteritis, et al. (2000)
 <<===== RESULT =====<<

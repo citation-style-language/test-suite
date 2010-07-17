@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-[[X]Jane Roe (ed.); [X]John Doe]
+[[X]Jane Roe (<i>ed.</i>); [X]John Doe]
 <<===== RESULT =====<<
 
 
@@ -67,11 +67,16 @@ citation
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
+  <locale>
+    <terms>
+      <term name="et al.">hello</term>
+    </terms>
+  </locale>
   <citation>
     <layout delimiter="; " prefix="[" suffix="]">
       <names prefix="[X]" variable="author">
         <name />
-        <label form="short" prefix=" (" suffix=".)" />
+        <label form="short" prefix=" (" suffix=".)" font-style="italic"/>
         <substitute>
           <names variable="editor" />
         </substitute>

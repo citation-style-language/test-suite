@@ -56,10 +56,14 @@ Looping was caused by attempt to render:
 
 ([CSL STYLE ERROR: reference with no printed form.]; [CSL STYLE ERROR: reference with no printed form.]; Manstein 1982)
 
-... which should work (and now would do), but with other bug fixes, this comes out as ...
+... which should work (and now would do), but with other bug fixes, this came out as ...
+
+(Anon.a; Anon.b; Manstein 1982)
+
+... but seems more sensibly rendered as ...
 
 >>===== RESULT =====>>
-(Anon.a; Anon.b; Manstein 1982)
+(Anon.; Anon.; Manstein 1982)
 <<===== RESULT =====<<
 
 

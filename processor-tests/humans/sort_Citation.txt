@@ -53,8 +53,32 @@ citation
 
 
 >>===== RESULT =====>>
-Doe; Roe
+>>[0] Doe; Roe
 <<===== RESULT =====<<
+
+
+>>===== CITATIONS =====>>
+[
+  [
+    {
+      "citationID": "CITATION-1",
+      "citationItems": [
+        {
+          "id": "ITEM-1"
+        },
+        {
+          "id": "ITEM-2"
+        }
+      ],
+      "properties": {
+        "noteIndex": 1
+      }
+    },
+    [],
+    []
+  ]
+]
+<<===== CITATIONS =====<<
 
 
 >>===== CSL =====>>
