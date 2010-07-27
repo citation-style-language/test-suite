@@ -53,28 +53,27 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">Smith, John, “Some Title.” <i>Container Title</i>.</div>
+  <div class="csl-entry">1. Family Name N. The Title. In: <i>Container Title</i>.</div>
 </div>
 <<===== RESULT =====<<
 
 
 >>===== CSL =====>>
-mhra-x.csl
+ama2-x.csl
 <<===== CSL =====<<
 
 >>===== INPUT =====>>
 [
     {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John"
-            }
-        ], 
-        "container-title": "Container Title", 
-        "id": "ITEM-1", 
-        "title": "Some Title", 
-        "type": "article-journal"
-    }
+"container-title" : "Container Title",
+"id" : "ITEM-1",
+"title" : "The Title",
+"type" : "chapter",
+"author": [{
+    "family" : "Family Name",
+    "given": "N"
+}
+]
+}
 ]
 <<===== INPUT =====<<
