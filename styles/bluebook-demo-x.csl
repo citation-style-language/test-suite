@@ -148,14 +148,18 @@
 		  <date variable="issued" form="text"/>
 		  <text variable="container-title" font-style="italic" strip-periods="true"/>
 		  <text variable="volume"/>
-		  <names variable="author">
-			<name initialize-with="." font-variant="small-caps"/>
-		  </names>
-          <group>
-            <label variable="page" form="short" suffix=" "/>
+          <group delimiter=" ">
+			<text variable="section"/>
+            <label variable="page" form="short"/>
             <text variable="page"/>
 		  </group>
           <text variable="number"/>
+          <group delimiter=" ">
+            <text variable="genre"/>
+  		    <names variable="author">
+			  <name initialize-with="." font-variant="small-caps"/>
+		    </names>
+		  </group>
 		</group>
 	  </else>
 	</choose>
