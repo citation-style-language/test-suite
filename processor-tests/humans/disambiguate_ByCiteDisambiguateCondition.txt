@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-Doe & Roe, <i>Book A</i> (2000); Doe & Roe, <i>Book B</i> (2000)
+Doe &amp; Roe, <i>Book A</i> (2000); Doe &amp; Roe, <i>Book B</i> (2000)
 <<===== RESULT =====<<
 
 

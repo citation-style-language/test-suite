@@ -58,7 +58,7 @@ This example comes to us via a query to comp.text.tex:
 
 
 >>===== RESULT =====>>
-O’Malley, C. D., & Saunders, J. B. de C. M.
+O’Malley, C. D., &amp; Saunders, J. B. de C. M.
 <<===== RESULT =====<<
 
 

@@ -52,7 +52,7 @@ citation
 
 
 >>===== RESULT =====>>
->>[0] la Berge, Nagel, Dement & Zarcone (1981)
+>>[0] la Berge, Nagel, Dement &amp; Zarcone (1981)
 <<===== RESULT =====<<
 
 

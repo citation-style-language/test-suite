@@ -52,9 +52,9 @@ citation
 
 
 >>===== RESULT =====>>
-Smith, Brown & J. Jones (1980a); Smith, Brown & J. Jones (1980b)
-Smith, Brown & J. Jones (1980a); Smith, Benson, et al. (1980)
-Smith, Brown & J. Jones (1980a); Smith, Brown & A. Jones (1980)
+Smith, Brown &amp; J. Jones (1980a); Smith, Brown &amp; J. Jones (1980b)
+Smith, Brown &amp; J. Jones (1980a); Smith, Benson, et al. (1980)
+Smith, Brown &amp; J. Jones (1980a); Smith, Brown &amp; A. Jones (1980)
 <<===== RESULT =====<<
 
 
