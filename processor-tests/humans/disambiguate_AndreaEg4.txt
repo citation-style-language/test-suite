@@ -53,9 +53,9 @@ citation
 
 
 >>===== RESULT =====>>
-Smith, Brown & J. Jones (1980); Smith, Brown & J. Jones (1980)
-Smith, Brown & J. Jones (1980); Smith, Benson, et al. (1980)
-Smith, Brown & J. Jones (1980); Smith, Brown & A. Jones (1980)
+Smith, Brown &amp; J. Jones (1980); Smith, Brown &amp; J. Jones (1980)
+Smith, Brown &amp; J. Jones (1980); Smith, Benson, et al. (1980)
+Smith, Brown &amp; J. Jones (1980); Smith, Brown &amp; A. Jones (1980)
 <<===== RESULT =====<<
 
 

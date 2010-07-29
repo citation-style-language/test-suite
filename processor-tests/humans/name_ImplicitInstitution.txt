@@ -54,7 +54,7 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">John Noakes, with John Doe & Jane Roe, Multi-National United</div>
+  <div class="csl-entry">John Noakes, with John Doe &amp; Jane Roe, Multi-National United</div>
 </div>
 <<===== RESULT =====<<
 
