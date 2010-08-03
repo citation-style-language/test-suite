@@ -50,10 +50,19 @@
 bibliography-header
 <<===== MODE =====<<
 
+Concerning the bibliography_errors return value, see:
+
+ http://gsl-nagoya-u.net/http/pub/citeproc-doc.html#handling-items-with-no-rendered-form
+
+In Javascript, this is an empty array (a list), rendered as an empty string
+for this test result.
+
+
 
 
 >>===== RESULT =====>>
 bibend: </div>
+bibliography_errors: 
 bibstart: <div class="csl-bib-body">
 
 entry_ids: ITEM-1,ITEM-2
