@@ -24,7 +24,7 @@
    </info>
    <macro name="author">
       <names variable="author">
-         <name initialize-with="." delimiter=", " and="text" name-as-sort-order="all"/>
+         <name initialize-with="." delimiter=", " and="text"/>
          <label form="short" prefix=", " text-case="capitalize-first" suffix="." strip-periods="true"/>
          <substitute>
             <names variable="editor"/>
