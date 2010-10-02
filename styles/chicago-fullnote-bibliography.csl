@@ -268,8 +268,8 @@
       <text macro="interviewer-note" />
       <text variable="medium" />
       <choose>
-        <if match="none" variable="title"> </if>
-        <else-if match="any" type="thesis speech"> </else-if>
+        <if match="none" variable="title"/>
+        <else-if match="any" type="thesis speech"/>
         <else>
           <text variable="genre" />
         </else>
@@ -283,8 +283,8 @@
         <text text-case="capitalize-first" variable="medium" />
       </group>
       <choose>
-        <if match="none" variable="title"> </if>
-        <else-if match="any" type="thesis speech"> </else-if>
+        <if match="none" variable="title"/>
+        <else-if match="any" type="thesis speech"/>
         <else>
           <text text-case="capitalize-first" variable="genre" />
         </else>
@@ -513,7 +513,7 @@
         <group delimiter=", " prefix=" (" suffix=")">
           <group delimiter=" ">
             <choose>
-              <if match="none" variable="title"> </if>
+              <if match="none" variable="title"/>
               <else-if match="any" type="thesis speech">
                 <text variable="genre" />
               </else-if>
@@ -649,7 +649,7 @@
           <text macro="collection-title" prefix=", " />
           <text macro="issue-note" />
           <text macro="locators-newspaper" prefix=", " />
-          <text macro="point-locators" />
+          <text macro="point-locators"/>
           <text macro="access-note" prefix=", " />
         </else>
       </choose>
