@@ -1,0 +1,28 @@
+>>===== MODE =====>>
+bibliography
+<<===== MODE =====<<
+
+Original test submitted by Carles Pina.
+
+>>===== RESULT =====>>
+<div class="csl-bib-body">
+  <div class="csl-entry">I Test J R.</div>
+</div>
+<<===== RESULT =====<<
+
+
+>>===== CSL =====>>
+mla-x.csl
+<<===== CSL =====<<
+
+>>===== INPUT =====>>
+[
+	{
+		"author": [
+			{ 
+				"given": "I Test J R" 
+			}
+		]
+	}
+]
+<<===== INPUT =====<<
