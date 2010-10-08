@@ -55,7 +55,7 @@ bibliography
 >>===== RESULT =====>>
 <div class="csl-bib-body">
   <div class="csl-entry">John Smith and Jane Roe, Book A (2000)</div>
-  <div class="csl-entry">-----, Book B (2001)</div>
+  <div class="csl-entry">———, Book B (2001)</div>
   <div class="csl-entry">John Smith, Book C (2002)</div>
 </div>
 <<===== RESULT =====<<
@@ -79,7 +79,7 @@ bibliography
     </layout>
   </citation>
   <bibliography 
-         subsequent-author-substitute="-----">
+         subsequent-author-substitute="———">
     <layout>
       <group delimiter=" ">
         <group delimiter=", ">
