@@ -50,27 +50,30 @@
 bibliography
 <<===== MODE =====<<
 
-Original test submitted by Carles Pina.
-
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">I Test J R.</div>
+  <div class="csl-entry">Kim, B-X, and A-Y Kim.</div>
 </div>
 <<===== RESULT =====<<
 
 
 >>===== CSL =====>>
-mla-x.csl
+apsa-x.csl
 <<===== CSL =====<<
 
 >>===== INPUT =====>>
 [
 	{
-		"author": [
-			{ 
-				"given": "I Test J R" 
-			}
-		]
+		"author": [{
+			"family" : "Kim",
+			"given": "B-X"
+		},
+		{
+			"family" : "Kim",
+			"given": "A-Y"
+		}
+		],
+		"type":"book"
 	}
 ]
 <<===== INPUT =====<<
