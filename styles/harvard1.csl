@@ -169,7 +169,7 @@
               <text variable="issue" prefix="(" suffix=")"/>
             </group>
             <group prefix=", ">
-              <label variable="locator" suffix="." form="short" strip-periods="true"/>
+              <label variable="page" suffix="." form="short" strip-periods="true"/>
               <text variable="page"/>
             </group>
           </group>
