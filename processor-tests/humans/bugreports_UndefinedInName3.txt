@@ -47,29 +47,51 @@
  */
 
 >>===== MODE =====>>
-bibliography
+citation
 <<===== MODE =====<<
 
-Original test submitted by Carles Pina.
+Bug report by Carles Pina.
 
 >>===== RESULT =====>>
-<div class="csl-bib-body">
-  <div class="csl-entry">I Test J R.</div>
-</div>
+B-X Kim and A-Y Kim.
+B-X Kim and A-Y Kim, 23.
 <<===== RESULT =====<<
 
-
 >>===== CSL =====>>
-mla-x.csl
+mhra_note_without_bibliography-x.csl
 <<===== CSL =====<<
+
+>>===== CITATION-ITEMS =====>>
+[
+	[
+		{
+			"id": "ITEM-1",
+			"position": 0
+		}
+	],
+	[
+		{
+			"id": "ITEM-1",
+			"label": "page",
+			"locator": "23",
+			"position": 2
+		}
+	]
+]
+<<===== CITATION-ITEMS =====<<
 
 >>===== INPUT =====>>
 [
 	{
-		"author": [
-			{ 
-				"given": "I Test J R" 
-			}
+		"id":"ITEM-1",
+		"author": [{
+			"family" : "Kim",
+			"given": "B-X"
+		},
+		{
+			"family" : "Kim",
+			"given": "A-Y"
+		}
 		]
 	}
 ]
