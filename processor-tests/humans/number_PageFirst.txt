@@ -70,7 +70,10 @@ citation
   </info>
   <citation>
     <layout>
-      <text variable="page-first" />
+      <group delimiter="; ">
+        <text variable="title"/>
+        <text variable="page-first" form="short"/>
+      </group>
     </layout>
   </citation>
 </style>
@@ -86,3 +89,4 @@ citation
     }
 ]
 <<===== INPUT =====<<
+
