@@ -50,63 +50,56 @@
 citation
 <<===== MODE =====<<
 
+Note placement of the period after "reference".  Suppression 
+of duplicate punctuation across nesting levels of the output 
+object must be done at the higher of the two.
 
-Note that final period lands inside the italics.  Punctuation
-is suppressed at the highest (outermost) level at which the 
-offending character occurs.
+Note also the period after "etc", which in this case is a
+delimiter supplied by the style.
 
 >>===== RESULT =====>>
->>[0] <span style="font-variant:small-caps;">John Smith</span>, <span style="font-variant:small-caps;">Book</span> (1990); <i>id.</i>
+“His Anonymous Life etc.” (1965) <i>reference.</i> blurble
 <<===== RESULT =====<<
-
->>===== CITATIONS =====>>
-[
-  [
-    {
-      "citationID": "CITATION-1",
-      "citationItems": [
-        {
-          "id": "ITEM-1"
-        },
-        {
-          "id": "ITEM-1"
-        }
-      ],
-      "properties": {
-        "noteIndex": 1
-      }
-    },
-    [],
-    []
-  ]
-]
-<<===== CITATIONS =====<<
-
 
 
 >>===== CSL =====>>
-bluebook-demo-x.csl
+<style 
+      xmlns="http://purl.org/net/xbiblio/csl"
+      class="note"
+      version="1.0">
+  <info>
+    <id />
+    <title />
+    <updated>2009-08-10T04:49:00+09:00</updated>
+  </info>
+  <citation>
+    <layout>
+      <group delimiter=". ">
+        <text variable="title" quotes="true"/>
+        <group delimiter=" ">
+          <date variable="issued" form="text" date-parts="year" prefix="(" suffix=")"/>
+          <text value="reference." font-style="italic"/>
+        </group>
+        <text value="blurble"/>
+      </group>
+    </layout>
+  </citation>
+</style>
 <<===== CSL =====<<
 
 
 >>===== INPUT =====>>
 [
     {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John"
-            }
-        ], 
         "id": "ITEM-1", 
         "issued": {
             "date-parts": [
                 [
-                    "1990"
+                    "1965"
                 ]
             ]
         }, 
-        "title": "Book", 
+        "title": "His Anonymous Life etc", 
         "type": "book"
     }
 ]
