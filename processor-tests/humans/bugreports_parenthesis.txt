@@ -1,0 +1,28 @@
+>>===== MODE =====>>
+bibliography
+<<===== MODE =====<<
+
+>>===== RESULT =====>>
+<div class="csl-bib-body">
+  <div class="csl-entry">, 2006, 1-7.</div>
+</div>
+<<===== RESULT =====<<
+
+>>===== CSL =====>>
+mhra.csl
+<<===== CSL =====<<
+
+>>===== INPUT =====>>
+[
+{
+"id" : "ITEM-1",
+"page" : "1-7",
+"type" : "article-journal",
+"issued" : {
+    "date-parts": [
+    [2006]
+]
+}
+}
+]
+<<===== INPUT =====<<
