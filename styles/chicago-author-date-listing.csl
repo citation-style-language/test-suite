@@ -136,7 +136,7 @@
 			name-as-sort-order="first" 
 			sort-separator=", "  
 			et-al-use-first="1" 
-			et-al-min="2"/>
+			et-al-min="1"/>
 	  <et-al term="and others"/>
       <label form="verb-short" prefix=", " suffix="." text-case="lowercase" />
       <substitute>
