@@ -1,0 +1,58 @@
+>>===== MODE =====>>
+citation
+<<===== MODE =====<<
+
+>>===== RESULT =====>>
+(FamilyA &amp; FamilyB, 2003; FamilyA, FamilyC, &amp; FamilyB, 2007)
+<<===== RESULT =====<<
+
+>>===== CSL =====>>
+apa-x.csl
+<<===== CSL =====<<
+
+>>===== INPUT =====>>
+[
+	{
+		"container-title" : "Container Title01",
+		"id" : "ITEM-1",
+		"title" : "Title01",
+		"type" : "article-journal",
+		"author": [{
+			"family" : "FamilyA",
+			"given": "GivenA D."
+		},
+		{
+			"family" : "FamilyB",
+			"given": "GivenB P."
+		}],
+		"issued" : {
+			"date-parts": [
+			[2003,1]
+		]
+		}
+	},
+	{
+		"container-title" : "Container Title02",
+		"id" : "ITEM-2",
+		"title" : "Title02",
+		"type" : "article-journal",
+		"author": [{
+			"family" : "FamilyA",
+			"given": "GivenA D."
+		},
+		{
+			"family" : "FamilyC",
+			"given": "GivenC1 GivenC2"
+		},
+		{
+			"family" : "FamilyB",
+			"given": "GivenB P"
+		}],
+		"issued" : {
+			"date-parts": [
+			[2007,1]
+		]
+		}
+	}
+]
+<<===== INPUT =====<<
