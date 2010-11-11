@@ -53,7 +53,7 @@ citation
 
 
 >>== RESULT ==>>
-Should print this: Book A ... and this: Book A ... but this only once: Blob
+Should print this: Book A … and this: Book A … but this only once: Blob
 <<== RESULT ==<<
 
 
@@ -70,8 +70,8 @@ Should print this: Book A ... and this: Book A ... but this only once: Blob
   <citation>
     <layout>
       <text prefix="Should print this: " variable="title" />
-      <text prefix=" ... and this: " variable="title" />
-      <names variable="author" prefix=" ... but this only once: ">
+      <text prefix=" &#8230; and this: " variable="title" />
+      <names variable="author" prefix=" &#8230; but this only once: ">
         <name/>
         <substitute>
           <names variable="editor"/>
