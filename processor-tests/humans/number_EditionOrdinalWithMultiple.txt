@@ -54,7 +54,17 @@ citation
 Normalizes punctuation and grouping when multiple numbers are provided in input.
 
 >>===== RESULT =====>>
-edition: 1st; edition: 2nd & 3rd; edition: 4th & 6th; edition: 7th-9th; edition: 10th, 12nd & 14th; edition: 15th, 17th & 19th-21st; edition: 15th, 17th, 19th-21st & 23rd-25th; edition: 16th, 28th, 30th-32nd, 34th & 36th; edition: 37th-40th; edition: 43-41
+edition: 1st
+edition: 2nd & 3rd
+edition: 4th & 6th
+edition: 7th-9th
+edition: 10th, 12nd & 14th
+edition: 15th, 17th & 19th-21st
+edition: 15th, 17th, 19th-21st & 23rd-25th
+edition: 16th, 28th, 30th-32nd, 34th & 36th
+edition: 37th-40th
+edition: 43-41
+edition: 205 - 2000
 <<===== RESULT =====<<
 
 >>===== CSL =====>>
@@ -68,7 +78,7 @@ edition: 1st; edition: 2nd & 3rd; edition: 4th & 6th; edition: 7th-9th; edition:
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
   <citation>
-    <layout delimiter="; ">
+    <layout delimiter="&#x0A;">
       <text value="edition: "/>
       <number variable="edition" form="ordinal"/>
     </layout>
@@ -126,6 +136,11 @@ edition: 1st; edition: 2nd & 3rd; edition: 4th & 6th; edition: 7th-9th; edition:
 	{
 		"id": "ITEM-10",
 		"edition" : "43-41",
+		"type": "book"
+	},
+	{
+		"id": "ITEM-11",
+		"edition" : "205 - 2000",
 		"type": "book"
 	}
 ]
