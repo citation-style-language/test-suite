@@ -54,7 +54,7 @@ citation
 >>===== RESULT =====>>
 ..[0] (Doe p. 12)
 >>[1] (Noakes p. 34)
->>[2] (Ibid)
+>>[2] (Ibid.)
 ..[3] (Snoakes p. 45)
 <<===== RESULT =====<<
 

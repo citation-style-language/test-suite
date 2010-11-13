@@ -90,7 +90,7 @@ citation
 <<===== CITATIONS =====<<
 
 >>===== RESULT =====>>
->>[0] Smith v. Noakes, 222 U.S. 200, 201, 333 L.Ed. 300, 301 (1965); ibid, 333 L.Ed. 301; Jim v. Bob, 444 U.S. 400, 401 (1966).
+>>[0] Smith v. Noakes, 222 U.S. 200, 201, 333 L.Ed. 300, 301 (1965); ibid., 333 L.Ed. 301; Jim v. Bob, 444 U.S. 400, 401 (1966).
 <<===== RESULT =====<<
 
 
