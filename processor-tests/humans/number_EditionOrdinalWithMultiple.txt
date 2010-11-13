@@ -54,7 +54,7 @@ citation
 Normalizes punctuation and grouping when multiple numbers are provided in input.
 
 >>===== RESULT =====>>
-edition: 1st; edition: 2nd & 3rd; edition: 4th & 6th; edition: 7th-9th; edition: 10th, 12nd & 14th; edition: 15th, 17th & 19th-21st; edition: 15th, 17th, 19th-21st & 23rd-25th; edition: 16th, 28th, 30th-32nd, 34th & 36th
+edition: 1st; edition: 2nd & 3rd; edition: 4th & 6th; edition: 7th-9th; edition: 10th, 12nd & 14th; edition: 15th, 17th & 19th-21st; edition: 15th, 17th, 19th-21st & 23rd-25th; edition: 16th, 28th, 30th-32nd, 34th & 36th; edition: 37th-40th; edition: 43-41
 <<===== RESULT =====<<
 
 >>===== CSL =====>>
@@ -85,7 +85,7 @@ edition: 1st; edition: 2nd & 3rd; edition: 4th & 6th; edition: 7th-9th; edition:
 	},
 	{
 		"id": "ITEM-2",
-		"edition" : "2-3",
+		"edition" : "2 - 3",
 		"type": "book"
 	},
 	{
@@ -116,6 +116,16 @@ edition: 1st; edition: 2nd & 3rd; edition: 4th & 6th; edition: 7th-9th; edition:
 	{
 		"id": "ITEM-8",
 		"edition" : "16, 28, 30, 31, 32, 34, 36",
+		"type": "book"
+	},
+	{
+		"id": "ITEM-9",
+		"edition" : "38, 37 - 40",
+		"type": "book"
+	},
+	{
+		"id": "ITEM-10",
+		"edition" : "43-41",
 		"type": "book"
 	}
 ]
