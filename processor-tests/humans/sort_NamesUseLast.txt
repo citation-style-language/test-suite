@@ -54,8 +54,8 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">John Doe et al. Book One 2000</div>
-  <div class="csl-entry">John Doe et al. Book Two 1999</div>
+  <div class="csl-entry">John Doe, Xavier Xerxes, et al. Book One 2000</div>
+  <div class="csl-entry">John Doe, Alvin Anderson, et al. Book Two 1999</div>
 </div>
 <<===== RESULT =====<<
 
@@ -88,7 +88,7 @@ bibliography
       <text value="Ignore me" />
     </layout>
   </citation>
-  <bibliography et-al-min="3" et-al-use-first="1" et-al-use-last="false">
+  <bibliography et-al-min="3" et-al-use-first="2" et-al-use-last="false">
     <sort>
       <key macro="author" names-min="3" names-use-first="1" names-use-last="true"/>
       <key macro="theyear" />
@@ -142,8 +142,8 @@ bibliography
                 "given": "John"
             },
             {
-                "family": "Anderson", 
-                "given": "Alvin"
+                "family": "Xerxes", 
+                "given": "Xavier"
             },
             {
                 "family": "Boop", 
