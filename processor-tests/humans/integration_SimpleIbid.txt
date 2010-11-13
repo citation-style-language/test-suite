@@ -53,7 +53,7 @@ citation
 
 >>===== RESULT =====>>
 ..[0] (Doe p. 12; Roe p. 23)
->>[1] (Noakes p. 34; ibid; Snoakes p. 45)
+>>[1] (Noakes p. 34; ibid.; Snoakes p. 45)
 <<===== RESULT =====<<
 
 

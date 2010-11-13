@@ -54,9 +54,9 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">Roe, Doe, ... Aogh, Book A</div>
-  <div class="csl-entry">Roe, Doe, ... Bogh, Book A</div>
-  <div class="csl-entry">Roe, Doe, ... Gogh, Book A</div>
+  <div class="csl-entry">Roe, Doe, … Aogh, Book A</div>
+  <div class="csl-entry">Roe, Doe, … Bogh, Book A</div>
+  <div class="csl-entry">Roe, Doe, … Gogh, Book A</div>
 </div>
 <<===== RESULT =====<<
 
@@ -71,9 +71,6 @@ bibliography
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
-  <terms>
-    <term name="ellipsis">...</term>
-  </terms>
   <macro name="author-name">
     <names variable="author">
       <name form="short"/>

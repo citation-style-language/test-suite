@@ -54,7 +54,7 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">John Anderson, John Brown, John Catharsis, John Doldrums, John Evergreen, John Fugedaboutit, ... John Houynym</div>
+  <div class="csl-entry">John Anderson, John Brown, John Catharsis, John Doldrums, John Evergreen, John Fugedaboutit, … John Houynym</div>
 </div>
 <<===== RESULT =====<<
 
@@ -69,9 +69,6 @@ bibliography
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
-  <terms>
-    <term name="ellipsis">...</term>
-  </terms>
   <citation>
     <layout>
       <names variable="author">

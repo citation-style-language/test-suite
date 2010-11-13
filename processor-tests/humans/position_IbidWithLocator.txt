@@ -55,7 +55,7 @@ citation
 
 >>===== RESULT =====>>
 Appleton “Tom Swift and His Electric Runabout” (1910).
-Ibid p. 23.
+Ibid. p. 23.
 <<===== RESULT =====<<
 
 
