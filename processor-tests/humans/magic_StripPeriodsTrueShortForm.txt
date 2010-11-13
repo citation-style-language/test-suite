@@ -54,8 +54,12 @@ citation
 
 
 >>===== RESULT =====>>
-“An Article,” Am L J.
+Am L J; Am L J.
 <<===== RESULT =====<<
+
+
+CSL adjusted to reflect user report.
+http://forums.zotero.org/discussion/15166/stripperiods-not-working-yet/
 
 
 >>===== CSL =====>>
@@ -68,12 +72,25 @@ citation
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
+  <macro name="author-biblio">
+    <names variable="author">
+      <name />
+    </names>
+  </macro>
   <citation>
-    <layout suffix=".">
-      <text quotes="true" suffix=", " variable="title" />
+    <layout suffix="." delimiter="; ">
+      <text variable="author" suffix=", " />
       <text strip-periods="true" variable="container-title" form="short" />
     </layout>
   </citation>
+  <bibliography>
+    <sort>
+      <key variable="author" />
+    </sort>
+    <layout>
+      <text macro="author-biblio" suffix=". " />
+    </layout>
+  </bibliography>
 </style>
 <<===== CSL =====<<
 
@@ -81,11 +98,29 @@ citation
 >>===== INPUT =====>>
 [
     {
+        "author": [
+            {
+                "family": "Doe", 
+                "given": "John"
+            }
+        ], 
         "container-title": "American Law Journal", 
         "journalAbbreviation": "Am. L.J.", 
         "id": "ITEM-1", 
         "title": "An Article", 
-        "type": "book"
+        "type": "article-journal"
+    },
+    {
+        "author": [
+            {
+                "family": "Doe", 
+                "given": "John"
+            }
+        ], 
+        "container-title": "Am. L.J.", 
+        "id": "ITEM-2", 
+        "title": "Another Article", 
+        "type": "article-journal"
     }
 ]
 <<===== INPUT =====<<
