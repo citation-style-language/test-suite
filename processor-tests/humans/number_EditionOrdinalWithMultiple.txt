@@ -50,8 +50,11 @@
 citation
 <<===== MODE =====<<
 
+
+Normalizes punctuation and grouping when multiple numbers are provided in input.
+
 >>===== RESULT =====>>
-1st; 2nd-3rd; 4th &amp; 5th; 6th, 7th &amp; 8th
+edition: 1st; edition: 2nd & 3rd; edition: 4th & 6th; edition: 7th-9th; edition: 10th, 12nd & 14th; edition: 15th, 17th & 19th-21st; edition: 15th, 17th, 19th-21st & 23rd-25th; edition: 16th, 28th, 30th-32nd, 34th & 36th
 <<===== RESULT =====<<
 
 >>===== CSL =====>>
@@ -66,6 +69,7 @@ citation
   </info>
   <citation>
     <layout delimiter="; ">
+      <text value="edition: "/>
       <number variable="edition" form="ordinal"/>
     </layout>
   </citation>
@@ -86,12 +90,32 @@ citation
 	},
 	{
 		"id": "ITEM-3",
-		"edition" : "4 & 5",
+		"edition" : "4 & 6",
 		"type": "book"
 	},
 	{
 		"id": "ITEM-4",
-		"edition" : "6, 7 & 8",
+		"edition" : "7, 8 & 9",
+		"type": "book"
+	},
+	{
+		"id": "ITEM-5",
+		"edition" : "10, 12 & 14",
+		"type": "book"
+	},
+	{
+		"id": "ITEM-6",
+		"edition" : "15, 17, 19, 20, 21",
+		"type": "book"
+	},
+	{
+		"id": "ITEM-7",
+		"edition" : "25, 15, 17, 19, 20, 21, 23, 24",
+		"type": "book"
+	},
+	{
+		"id": "ITEM-8",
+		"edition" : "16, 28, 30, 31, 32, 34, 36",
 		"type": "book"
 	}
 ]
