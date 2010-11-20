@@ -46,32 +46,16 @@
  * or the [AGPLv3] License.”
  */
 
->>== MODE ==>>
+>>===== MODE =====>>
 citation
-<<== MODE ==<<
+<<===== MODE =====<<
 
 
+Normalizes punctuation and grouping when multiple numbers are provided in input.
 
->>== RESULT ==>>
-42nd
-ninth
-<<== RESULT ==<<
-
->>== CITATION-ITEMS ==>>
-[
-    [
-        {
-            "id": "item-1"
-        }
-    ], 
-    [
-        {
-            "id": "item-2"
-        }
-    ]
-]
-<<== CITATION-ITEMS ==<<
-
+>>===== RESULT =====>>
+edition: 1stMASC
+<<===== RESULT =====<<
 
 >>===== CSL =====>>
 <style 
@@ -83,30 +67,39 @@ ninth
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
+  <locale>
+    <terms>
+
+      <term name="edition" gender="masculine">edition</term>
+      <term name="edition" form="short">edn</term>
+
+      <term name="ordinal-01" gender-form="masculine">stMASC</term>
+      <term name="ordinal-02" gender-form="masculine">ndMASC</term>
+      <term name="ordinal-03" gender-form="masculine">rdMASC</term>
+      <term name="ordinal-04" gender-form="masculine">thMASC</term>
+
+      <term name="ordinal-01">st</term>
+      <term name="ordinal-02">nd</term>
+      <term name="ordinal-03">rd</term>
+      <term name="ordinal-04">th</term>
+
+    </terms>
+  </locale>
   <citation>
-    <layout>
-      <number form="long-ordinal" variable="volume" />
+    <layout delimiter="&#x0A;">
+      <text value="edition: "/>
+      <number variable="edition" form="ordinal"/>
     </layout>
   </citation>
 </style>
 <<===== CSL =====<<
 
-
-
-
 >>===== INPUT =====>>
 [
-    {
-        "id": "item-1", 
-        "title": "Ignore me", 
-        "type": "book", 
-        "volume": "42"
-    }, 
-    {
-        "id": "item-2", 
-        "title": "Ignore me too", 
-        "type": "book", 
-        "volume": "9"
-    }
+	{
+		"id": "ITEM-1",
+		"edition" : "1",
+		"type": "book"
+	}
 ]
 <<===== INPUT =====<<
