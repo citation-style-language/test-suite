@@ -46,32 +46,16 @@
  * or the [AGPLv3] License.”
  */
 
->>== MODE ==>>
+>>===== MODE =====>>
 citation
-<<== MODE ==<<
+<<===== MODE =====<<
 
 
+Test of month names for gendered languages.
 
->>== RESULT ==>>
-42nd
-ninth
-<<== RESULT ==<<
-
->>== CITATION-ITEMS ==>>
-[
-    [
-        {
-            "id": "item-1"
-        }
-    ], 
-    [
-        {
-            "id": "item-2"
-        }
-    ]
-]
-<<== CITATION-ITEMS ==<<
-
+>>===== RESULT =====>>
+Junie Month 1stMASC, 1965
+<<===== RESULT =====<<
 
 >>===== CSL =====>>
 <style 
@@ -83,30 +67,42 @@ ninth
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
+  <locale>
+    <terms>
+
+      <term name="month-06" gender="masculine">Junie Month</term>
+
+      <term name="ordinal-01" gender-form="masculine">stMASC</term>
+      <term name="ordinal-02" gender-form="masculine">ndMASC</term>
+      <term name="ordinal-03" gender-form="masculine">rdMASC</term>
+      <term name="ordinal-04" gender-form="masculine">thMASC</term>
+
+    </terms>
+  </locale>
   <citation>
     <layout>
-      <number form="long-ordinal" variable="volume" />
+      <date variable="issued" form="text" date-parts="year-month-day">
+        <date-part name="day" form="ordinal"/>
+      </date>
     </layout>
   </citation>
 </style>
 <<===== CSL =====<<
 
-
-
-
 >>===== INPUT =====>>
 [
-    {
-        "id": "item-1", 
-        "title": "Ignore me", 
-        "type": "book", 
-        "volume": "42"
-    }, 
-    {
-        "id": "item-2", 
-        "title": "Ignore me too", 
-        "type": "book", 
-        "volume": "9"
-    }
+	{
+		"id": "ITEM-1",
+        "issued": {
+            "date-parts": [
+                [
+                    "1965", 
+                    "6", 
+                    "1"
+                ]
+            ]
+        }, 
+		"type": "book"
+	}
 ]
 <<===== INPUT =====<<
