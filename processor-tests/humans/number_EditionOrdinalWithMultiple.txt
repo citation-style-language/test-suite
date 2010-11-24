@@ -65,6 +65,7 @@ edition: 16th, 28th, 30th-32nd, 34th & 36th
 edition: 37th-40th
 edition: 43-41
 edition: 205 - 2000
+edition: 1 vol + 1 CD
 <<===== RESULT =====<<
 
 >>===== CSL =====>>
@@ -141,6 +142,11 @@ edition: 205 - 2000
 	{
 		"id": "ITEM-11",
 		"edition" : "205 - 2000",
+		"type": "book"
+	},
+	{
+		"id": "ITEM-12",
+		"edition" : "1 vol + 1 CD",
 		"type": "book"
 	}
 ]
