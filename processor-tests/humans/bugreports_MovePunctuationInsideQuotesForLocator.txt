@@ -53,7 +53,7 @@ citation
 Fault reported by Sean Takats.
 
 >>===== RESULT =====>>
->>[0] Jennifer J. Davis, “Men of Taste: Gender and Authority in the French Culinary Trades, 1730-1830” (Pennsylvania State University, History, 2004), s.v. “gargoyle.”
+>>[0] Jennifer J. Davis, “Men of Taste: Gender and Authority in the French Culinary Trades, 1730-1830” (Ph.D. diss., Pennsylvania State University, History, 2004), s.v. “gargoyle.”
 <<===== RESULT =====<<
 
 >>===== CITATIONS =====>>
