@@ -53,8 +53,8 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">Beijing Zoo. 1974a. Observations on the breeding of the giant panda and the raising of its young [in Chinese]. <i>Acta Zoologica Sinica</i> 20: 154-61.</div>
-  <div class="csl-entry">---. 1974b. On the diseases of the giant panda and their preventive and curative measures [in Chinese]. <i>Acta Zoologica Sinica</i> 20: 139-47.</div>
+  <div class="csl-entry">Beijing Zoo. 1974a. Observations on the breeding of the giant panda and the raising of its young [in Chinese]. <i>Acta Zoologica Sinica</i> 20: 154–61.</div>
+  <div class="csl-entry">---. 1974b. On the diseases of the giant panda and their preventive and curative measures [in Chinese]. <i>Acta Zoologica Sinica</i> 20: 139–47.</div>
 </div>
 <<===== RESULT =====<<
 
