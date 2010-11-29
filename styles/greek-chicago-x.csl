@@ -913,8 +913,10 @@
           </group>
         </else-if>
       </choose>
-      <label variable="locator" form="short" suffix=" "/>
-      <text variable="locator"/>
+	  <group>
+		<label variable="locator" form="short" suffix=" "/>
+		<text variable="locator"/>
+	  </group>
     </group>
   </macro>
   <macro name="point-locators">
