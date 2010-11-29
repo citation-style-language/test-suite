@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-One.&nbsp; Two.
+One.  Two.
 <<===== RESULT =====<<
 
 
@@ -71,7 +71,7 @@ One.&nbsp; Two.
     <layout suffix=".">
       <group delimiter=".">
         <text variable="title"/>
-        <text variable="note" prefix="  "/>
+        <text variable="note" prefix="  "/>
       </group>
     </layout>
   </citation>
