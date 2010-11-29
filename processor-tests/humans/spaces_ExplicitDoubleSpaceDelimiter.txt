@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-One.  Two.
+One.&nbsp; Two.
 <<===== RESULT =====<<
 
 
