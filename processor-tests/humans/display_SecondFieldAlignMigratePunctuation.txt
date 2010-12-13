@@ -99,7 +99,6 @@ ieee.csl
             {
                 "family": "Bennett", 
                 "given": "Frank G.", 
-                "static-ordering": false, 
                 "suffix": "Jr."
             }
         ], 
