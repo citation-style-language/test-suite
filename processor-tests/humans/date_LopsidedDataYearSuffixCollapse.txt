@@ -47,15 +47,14 @@
  */
 
 >>===== MODE =====>>
-bibliography
+citation
 <<===== MODE =====<<
 
 
 
+
 >>===== RESULT =====>>
-<div class="csl-bib-body">
-  <div class="csl-entry">John Noakes, with John Doe &#38; Jane Roe, Multi-National United</div>
-</div>
+(Smith 1982a,b)
 <<===== RESULT =====<<
 
 
@@ -69,20 +68,21 @@ bibliography
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
-  <citation>
-    <layout>
-      <names variable="author">
-        <name/>
-      </names>
+  <citation collapse="year-suffix"
+            disambiguate-add-year-suffix="true"
+            year-suffix-delimiter=","
+            after-collapse-delimiter="; ">
+    <layout prefix="(" suffix=")" delimiter=", ">
+      <group delimiter=" ">
+        <names variable="author">
+          <name form="short"/>
+        </names>
+        <group>
+          <date variable="issued" date-parts="year" form="text"/>
+        </group>
+      </group>
     </layout>
   </citation>
-  <bibliography>
-    <layout>
-      <names variable="author">
-        <name and="symbol" />
-      </names>
-    </layout>
-  </bibliography>
 </style>
 <<===== CSL =====<<
 
@@ -90,27 +90,29 @@ bibliography
 >>===== INPUT =====>>
 [
     {
-        "author": [
-            {
-                "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
-            }, 
-            {
-                "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
-            }, 
-            {
-                "literal": "Department of Alien Weapons Vivisection, Multi-National United"
-            }, 
-            {
-                "family": "Noakes", 
-                "given": "John", 
-                "static-ordering": false
-            }
-        ], 
         "id": "ITEM-1", 
+		"author": [
+			{
+				"family": "Smith",
+				"given": "John"
+			}
+		],
+        "issued": {
+            "raw": "Jun 1982"
+        }, 
+        "type": "book"
+    },
+    {
+        "id": "ITEM-2", 
+		"author": [
+			{
+				"family": "Smith",
+				"given": "John"
+			}
+		],
+        "issued": {
+            "raw": "1982-10-1"
+        }, 
         "type": "book"
     }
 ]

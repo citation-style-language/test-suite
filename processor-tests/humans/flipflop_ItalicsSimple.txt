@@ -58,9 +58,9 @@ One TwoA <i>Three Four</i> Five!
 One TwoC Three <i>Four Five!</i>
 <i>One TwoD</i> Three <i>Four Five!</i>
 <i>One TwoE <span style="font-style:normal;">Three</span> Four Five!</i>
-One TwoF&lt;/i&gt; Three Four Five!
-One <i>TwoG</i> Three&lt;/i&gt; Four Five!
-One &lt;i&gt;TwoH<i> Three</i> Four Five!
+One TwoF&#60;/i&#62; Three Four Five!
+One <i>TwoG</i> Three&#60;/i&#62; Four Five!
+One &#60;i&#62;TwoH<i> Three</i> Four Five!
 <<===== RESULT =====<<
 
 >>===== CITATION-ITEMS =====>>

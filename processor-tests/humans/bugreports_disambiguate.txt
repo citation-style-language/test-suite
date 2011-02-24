@@ -51,7 +51,7 @@ citation
 <<===== MODE =====<<
 
 >>===== RESULT =====>>
-(FamilyA &amp; FamilyB, 2003; FamilyA, FamilyC, &amp; FamilyB, 2007)
+(FamilyA &#38; FamilyB, 2003; FamilyA, FamilyC, &#38; FamilyB, 2007)
 <<===== RESULT =====<<
 
 >>===== CSL =====>>

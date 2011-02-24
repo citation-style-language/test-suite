@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-Albert Asthma et al. (eds. &amp; trans.)
+Albert Asthma et al. (eds. &#38; trans.)
 <<===== RESULT =====<<
 
 
@@ -70,8 +70,8 @@ Albert Asthma et al. (eds. &amp; trans.)
   <locale xml:lang="en">
     <terms>
       <term form="short" name="editortranslator">
-        <single>ed. &amp; trans.</single>
-        <multiple>eds. &amp; trans.</multiple>
+        <single>ed. &#38; trans.</single>
+        <multiple>eds. &#38; trans.</multiple>
       </term>
     </terms>
   </locale>

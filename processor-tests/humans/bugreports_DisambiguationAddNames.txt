@@ -53,38 +53,36 @@ citation
 
 
 >>===== RESULT =====>>
-2
+>>[0] (Roe et al., 1995a; 1995b)
 <<===== RESULT =====<<
 
 
+>>===== CITATIONS =====>>
+[
+  [
+    {
+      "citationID": "CITATION-1",
+      "citationItems": [
+        {
+          "id": "ITEM-1"
+        },
+        {
+          "id": "ITEM-2"
+        }
+      ],
+      "properties": {
+        "noteIndex": 1
+      }
+    },
+    [],
+    []
+  ]
+]
+<<===== CITATIONS =====<<
+
+
 >>===== CSL =====>>
-<style 
-      xmlns="http://purl.org/net/xbiblio/csl"
-      class="note"
-      version="1.0">
-  <info>
-    <id />
-    <title />
-    <updated>2009-08-10T04:49:00+09:00</updated>
-  </info>
-  <locale xml:lang="en">
-    <terms>
-      <term form="short" name="editortranslator">
-        <single>ed. &amp; trans.</single>
-        <multiple>eds. &amp; trans.</multiple>
-      </term>
-    </terms>
-  </locale>
-  <citation 
-         et-al-min="4"
-         et-al-use-first="3">
-    <layout>
-      <names variable="author editor">
-        <name form="count" />
-      </names>
-    </layout>
-  </citation>
-</style>
+copernicus.csl
 <<===== CSL =====<<
 
 
@@ -93,29 +91,47 @@ citation
     {
         "author": [
             {
-                "family": "Noakes", 
-                "given": "John", 
-                "static-ordering": false
-            }, 
+                "family": "Roe", 
+                "given": "Jane" 
+            },
             {
-                "family": "Stoakes", 
-                "given": "Richard", 
-                "static-ordering": false
+                "family": "Doe", 
+                "given": "John" 
+            },
+            {
+                "family": "Smith", 
+                "given": "John" 
             }
         ], 
-        "editor": [
+        "issued": {
+          "date-parts": [
+            [1995]
+          ]
+        },
+        "id": "ITEM-1", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Roe", 
+                "given": "Jane"
+            },
             {
                 "family": "Noakes", 
-                "given": "John", 
-                "static-ordering": false
-            }, 
+                "given": "Richard"
+            },
             {
-                "family": "Stoakes", 
-                "given": "Richard", 
-                "static-ordering": false
+                "family": "Brown", 
+                "given": "Bob" 
             }
         ], 
-        "id": "item-1", 
+        "issued": {
+          "date-parts": [
+            [1995]
+          ]
+        },
+        "id": "ITEM-2", 
         "type": "book"
     }
 ]

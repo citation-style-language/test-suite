@@ -47,15 +47,13 @@
  */
 
 >>===== MODE =====>>
-bibliography
+citation
 <<===== MODE =====<<
 
 
 
 >>===== RESULT =====>>
-<div class="csl-bib-body">
-  <div class="csl-entry">John Noakes, with John Doe &#38; Jane Roe, Multi-National United</div>
-</div>
+4
 <<===== RESULT =====<<
 
 
@@ -69,20 +67,23 @@ bibliography
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
-  <citation>
+  <locale xml:lang="en">
+    <terms>
+      <term form="short" name="editortranslator">
+        <single>ed. &#38; trans.</single>
+        <multiple>eds. &#38; trans.</multiple>
+      </term>
+    </terms>
+  </locale>
+  <citation 
+         et-al-min="4"
+         et-al-use-first="3">
     <layout>
-      <names variable="author">
-        <name/>
+      <names variable="author editor">
+        <name form="count" />
       </names>
     </layout>
   </citation>
-  <bibliography>
-    <layout>
-      <names variable="author">
-        <name and="symbol" />
-      </names>
-    </layout>
-  </bibliography>
 </style>
 <<===== CSL =====<<
 
@@ -92,25 +93,25 @@ bibliography
     {
         "author": [
             {
-                "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
-            }, 
-            {
-                "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
-            }, 
-            {
-                "literal": "Department of Alien Weapons Vivisection, Multi-National United"
-            }, 
-            {
                 "family": "Noakes", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
+            }, 
+            {
+                "family": "Stoakes", 
+                "given": "Richard"
             }
         ], 
-        "id": "ITEM-1", 
+        "editor": [
+            {
+                "family": "Noakes", 
+                "given": "John"
+            }, 
+            {
+                "family": "Stoakes", 
+                "given": "Richard"
+            }
+        ], 
+        "id": "item-1", 
         "type": "book"
     }
 ]
