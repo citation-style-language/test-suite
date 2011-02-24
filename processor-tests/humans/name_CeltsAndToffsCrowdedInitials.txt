@@ -59,7 +59,7 @@ This example comes to us via a query to comp.text.tex:
 post, with no spaces following the periods in initials)
 
 >>===== RESULT =====>>
-O’Malley, C.D., &amp; Saunders, J.B. de C.M.
+O’Malley, C.D., &#38; Saunders, J.B. de C.M.
 <<===== RESULT =====<<
 
 

@@ -52,7 +52,7 @@ citation
 
 
 >>===== RESULT =====>>
->>[0] John Smith &amp; Jane Smith (1980)
+>>[0] John Smith &#38; Jane Smith (1980)
 <<===== RESULT =====<<
 
 

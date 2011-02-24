@@ -54,7 +54,7 @@ bibliography
 >>===== RESULT =====>>
 <div class="csl-bib-body">
   <div class="csl-entry">
-    <div class="csl-left-margin">1.</div><div class="csl-right-inline">FamilyName, G. The Title. at &lt;http://www.test.com&gt;</div>
+    <div class="csl-left-margin">1.</div><div class="csl-right-inline">FamilyName, G. The Title. at &#60;http://www.test.com&#62;</div>
   </div>
 </div>
 <<===== RESULT =====<<

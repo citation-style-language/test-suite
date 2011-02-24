@@ -47,15 +47,64 @@
  */
 
 >>===== MODE =====>>
-bibliography
+citation
 <<===== MODE =====<<
 
 
+>>===== CITATIONS =====>>
+[
+  [
+    {
+      "citationID": "CITATION-1",
+      "citationItems": [
+        {
+          "id": "ITEM-1"
+        }
+      ],
+      "properties": {
+        "noteIndex": 0
+      }
+    },
+    [],
+    []
+  ],
+  [
+    {
+      "citationID": "CITATION-2",
+      "citationItems": [
+        {
+          "id": "ITEM-2"
+        }
+      ],
+      "properties": {
+        "noteIndex": 0
+      }
+    },
+    [["CITATION-1", 0]],
+    []
+  ],
+  [
+    {
+      "citationID": "CITATION-3",
+      "citationItems": [
+        {
+          "id": "ITEM-3"
+        }
+      ],
+      "properties": {
+        "noteIndex": 0
+      }
+    },
+    [["CITATION-1", 0],["CITATION-2", 0]],
+    []
+  ]
+]
+<<===== CITATIONS =====<<
 
 >>===== RESULT =====>>
-<div class="csl-bib-body">
-  <div class="csl-entry">John Noakes, with John Doe &#38; Jane Roe, Multi-National United</div>
-</div>
+..[0] Smith 1990a
+..[1] Smith 1990b
+>>[2] Jones 1990
 <<===== RESULT =====<<
 
 
@@ -69,18 +118,28 @@ bibliography
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
-  <citation>
-    <layout>
-      <names variable="author">
-        <name/>
-      </names>
+  <citation 
+         et-al-min="3"
+         et-al-use-first="1"
+         et-al-subsequent-min="3"
+         et-al-subsequent-use-first="1"
+         disambiguate-add-year-suffix="true">
+    <layout delimiter="; ">
+      <group delimiter=" ">
+        <names variable="author">
+          <name form="short"/>
+        </names>
+        <date  variable="issued" form="text" date-parts="year"/>
+      </group>
     </layout>
   </citation>
   <bibliography>
+    <sort>
+      <key variable="author" />
+      <key variable="title" />
+    </sort>
     <layout>
-      <names variable="author">
-        <name and="symbol" />
-      </names>
+      <text value="Ignore me" />
     </layout>
   </bibliography>
 </style>
@@ -92,25 +151,55 @@ bibliography
     {
         "author": [
             {
-                "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
-            }, 
-            {
-                "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
-            }, 
-            {
-                "literal": "Department of Alien Weapons Vivisection, Multi-National United"
-            }, 
-            {
-                "family": "Noakes", 
-                "given": "John", 
-                "static-ordering": false
+                "family": "Smith", 
+                "given": "John" 
             }
         ], 
         "id": "ITEM-1", 
+        "issued": {
+            "date-parts": [
+                [
+                    "1990"
+                ]
+            ]
+        }, 
+        "title": "Book A", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Smith", 
+                "given": "John" 
+            }
+        ], 
+        "id": "ITEM-2", 
+        "issued": {
+            "date-parts": [
+                [
+                    "1990"
+                ]
+            ]
+        }, 
+        "title": "Book B", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Jones", 
+                "given": "Bob" 
+            }
+        ], 
+        "id": "ITEM-3", 
+        "issued": {
+            "date-parts": [
+                [
+                    "1990"
+                ]
+            ]
+        }, 
+        "title": "Book C", 
         "type": "book"
     }
 ]

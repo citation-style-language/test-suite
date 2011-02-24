@@ -50,50 +50,152 @@
 citation
 <<===== MODE =====<<
 
+>>===== CITATIONS =====>>
+[
+    [
+        {
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 0
+            }
+        }, 
+        [], 
+        []
+    ], 
+    [
+        {
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                },
+                {
+                    "id": "ITEM-2"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 0
+            }
+        }, 
+        [], 
+        []
+    ],
+    [
+        {
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                },
+                {
+                    "id": "ITEM-2"
+                },
+                {
+                    "id": "ITEM-3"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 0
+            }
+        }, 
+        [], 
+        []
+    ]
+
+]
+<<===== CITATIONS =====<<
 
 
 >>===== RESULT =====>>
-numbers = 1-3; numbers = 4 &#38; 5; number = 10
+>>[0] (Morley et al. 2011; Butler and Turner 2010; Rowan, Peel, and Vendeville 2004)
 <<===== RESULT =====<<
 
 
 >>===== CSL =====>>
-<style 
-      xmlns="http://purl.org/net/xbiblio/csl"
-      class="note"
-      version="1.0">
-  <info>
-    <id />
-    <title />
-    <updated>2009-08-10T04:49:00+09:00</updated>
-  </info>
-  <citation>
-    <layout delimiter="; ">
-      <group delimiter=" = ">
-        <label term="issue"/>
-        <text variable="issue" />
-      </group>
-    </layout>
-  </citation>
-</style>
+asa-xx.csl
 <<===== CSL =====<<
 
 
 >>===== INPUT =====>>
 [
     {
+        "author": [
+            {
+                "family": "Morley", 
+                "given": "John"
+            },
+            {
+                "family": "King", 
+                "given": "Richard"
+            },
+            {
+                "family": "Gadget", 
+                "given": "Tom"
+            },
+            {
+                "family": "Widget", 
+                "given": "Peter"
+            }
+        ], 
         "id": "ITEM-1", 
-        "issue": "1-3", 
+        "issued": {
+            "date-parts": [
+                [
+                    "2011" 
+                ]
+            ]
+        }, 
         "type": "book"
     },
     {
+        "author": [
+            {
+                "family": "Butler", 
+                "given": "Sharon"
+            },
+            {
+                "family": "Turner", 
+                "given": "Sarah"
+            }
+        ], 
         "id": "ITEM-2", 
-        "issue": "4 & 5", 
+        "issued": {
+            "date-parts": [
+                [
+                    "2010" 
+                ]
+            ]
+        }, 
         "type": "book"
     },
     {
+        "author": [
+            {
+                "family": "Rowan", 
+                "given": "Steven"
+            },
+            {
+                "family": "Peel", 
+                "given": "Artemus"
+            },
+            {
+                "family": "Vendeville", 
+                "given": "Bruce"
+            }
+        ], 
         "id": "ITEM-3", 
-        "issue": "10", 
+        "issued": {
+            "date-parts": [
+                [
+                    "2004" 
+                ]
+            ]
+        }, 
         "type": "book"
     }
 ]

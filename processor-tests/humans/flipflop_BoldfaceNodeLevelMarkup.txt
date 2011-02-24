@@ -68,7 +68,7 @@ citation
   </info>
   <citation>
     <layout prefix="Speak, " suffix=", and enter." font-weight="bold">
-      <text value="&lt;b&gt;friend&lt;/b&gt;"/>
+      <text value="&#60;b&#62;friend&#60;/b&#62;"/>
     </layout>
   </citation>
 </style>

@@ -54,36 +54,38 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">John Noakes, with John Doe &#38; Jane Roe, Multi-National United</div>
+  <div class="csl-entry">Roe, J., 1995.</div>
+  <div class="csl-entry">Roe, J., 1996.</div>
 </div>
 <<===== RESULT =====<<
 
 
+>>===== CITATIONS =====>>
+[
+  [
+    {
+      "citationID": "CITATION-1",
+      "citationItems": [
+        {
+          "id": "ITEM-1"
+        },
+        {
+          "id": "ITEM-2"
+        }
+      ],
+      "properties": {
+        "noteIndex": 1
+      }
+    },
+    [],
+    []
+  ]
+]
+<<===== CITATIONS =====<<
+
+
 >>===== CSL =====>>
-<style 
-      xmlns="http://purl.org/net/xbiblio/csl"
-      class="note"
-      version="1.0">
-  <info>
-    <id />
-    <title />
-    <updated>2009-08-10T04:49:00+09:00</updated>
-  </info>
-  <citation>
-    <layout>
-      <names variable="author">
-        <name/>
-      </names>
-    </layout>
-  </citation>
-  <bibliography>
-    <layout>
-      <names variable="author">
-        <name and="symbol" />
-      </names>
-    </layout>
-  </bibliography>
-</style>
+copernicus.csl
 <<===== CSL =====<<
 
 
@@ -92,25 +94,31 @@ bibliography
     {
         "author": [
             {
-                "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
-            }, 
-            {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
-            }, 
-            {
-                "literal": "Department of Alien Weapons Vivisection, Multi-National United"
-            }, 
-            {
-                "family": "Noakes", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "Jane" 
             }
         ], 
+        "issued": {
+          "date-parts": [
+            [1996]
+          ]
+        },
         "id": "ITEM-1", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Roe", 
+                "given": "Jane"
+            }
+        ], 
+        "issued": {
+          "date-parts": [
+            [1995]
+          ]
+        },
+        "id": "ITEM-2", 
         "type": "book"
     }
 ]

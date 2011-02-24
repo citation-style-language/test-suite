@@ -47,15 +47,14 @@
  */
 
 >>===== MODE =====>>
-bibliography
+citation
 <<===== MODE =====<<
 
 
 
+
 >>===== RESULT =====>>
-<div class="csl-bib-body">
-  <div class="csl-entry">John Noakes, with John Doe &#38; Jane Roe, Multi-National United</div>
-</div>
+Jane Roe.Journ Title.Jane Roe.Journ Title.
 <<===== RESULT =====<<
 
 
@@ -69,20 +68,22 @@ bibliography
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
+  <macro name="container-title">
+    <text strip-periods="true" variable="container-title" form="short" />
+  </macro>
+  <macro name="author">
+    <names variable="author" >
+      <name and="symbol" delimiter-precedes-last="never" />
+    </names>
+  </macro>
   <citation>
-    <layout>
-      <names variable="author">
-        <name/>
-      </names>
+    <layout delimiter="." suffix=".">
+      <group delimiter=".">
+        <text macro="author"/>
+        <text macro="container-title"/>
+      </group>
     </layout>
   </citation>
-  <bibliography>
-    <layout>
-      <names variable="author">
-        <name and="symbol" />
-      </names>
-    </layout>
-  </bibliography>
 </style>
 <<===== CSL =====<<
 
@@ -91,27 +92,25 @@ bibliography
 [
     {
         "author": [
-            {
-                "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
-            }, 
-            {
-                "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
-            }, 
-            {
-                "literal": "Department of Alien Weapons Vivisection, Multi-National United"
-            }, 
-            {
-                "family": "Noakes", 
-                "given": "John", 
-                "static-ordering": false
-            }
-        ], 
+           {
+              "given": "John",
+              "family": "Doe"
+           }
+        ],
+        "container-title": "Journal Title", 
         "id": "ITEM-1", 
-        "type": "book"
+        "type": "article-journal"
+    },
+    {
+        "author": [
+           {
+              "given": "Jane",
+              "family": "Roe"
+           }
+        ],
+        "container-title": "Journ. Title", 
+        "id": "ITEM-1", 
+        "type": "article-journal"
     }
 ]
 <<===== INPUT =====<<
