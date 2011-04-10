@@ -1,8 +1,7 @@
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
-      class="in-text"
-      version="1.0"
-      default-locale="en-US-x-sort-ja-alalc97-x-sec-en-x-pri-ja-alalc97">
+      class="note"
+      version="1.0">
   <info>
     <title>Chicago Manual of Style (Full Note with Bibliography)</title>
     <id>http://www.zotero.org/styles/chicago-fullnote-bibliography</id>
@@ -622,12 +621,12 @@
 		</if>
         <else-if position="ibid-with-locator">
           <group delimiter=", ">
-            <text suffix="." term="ibid" text-case="capitalize-first" />
+            <text suffix="." term="ibid"/>
             <text macro="point-locators-subsequent" />
           </group>
         </else-if>
         <else-if position="ibid">
-          <text suffix="." term="ibid" text-case="capitalize-first" />
+          <text suffix="." term="ibid"/>
         </else-if>
         <else-if position="subsequent">
           <group delimiter=", ">

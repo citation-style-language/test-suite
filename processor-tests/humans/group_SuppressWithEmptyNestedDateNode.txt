@@ -47,77 +47,52 @@
  */
 
 >>===== MODE =====>>
-citation
+bibliography
 <<===== MODE =====<<
 
 
 
-
 >>===== RESULT =====>>
-(<span style="font-variant:small-caps;">See</span> Smith 2000)
+<div class="csl-bib-body">
+  <div class="csl-entry">Author1, O., Author7, T. &#38; Author3, T., 2008. Test Article. <i>Test Journal</i>, 12.</div>
+</div>
 <<===== RESULT =====<<
 
 
 >>===== CSL =====>>
-<style 
-      xmlns="http://purl.org/net/xbiblio/csl"
-      class="note"
-      version="1.0">
-  <info>
-    <id />
-    <title />
-    <updated>2007-10-26T21:32:52+02:00</updated>
-  </info>
-  <citation>
-    <layout prefix="(" suffix=")">
-      <group delimiter=" ">
-        <names variable="author">
-          <name form="short" />
-        </names>
-        <date variable="issued">
-          <date-part name="year" />
-        </date>
-      </group>
-    </layout>
-  </citation>
-</style>
+harvard1.csl
 <<===== CSL =====<<
-
->>===== CITATION-ITEMS ====>>
-[
-    [
-        {
-            "id": "ITEM-1", 
-            "prefix": "<sc>See</sc> "
-        }
-    ]
-]
-<<===== CITATION-ITEMS ====<<
-
 
 
 >>===== INPUT =====>>
 [
     {
         "author": [
-            {
-                "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
-            }
-        ], 
-        "id": "ITEM-1", 
+           {
+             "family": "Author1",
+             "given": "One"
+           },
+           {
+             "family": "Author7",
+             "given": "Two"
+           },
+           {
+             "family": "Author3",
+             "given": "Three"
+           }
+         ],
+         "pages": "21-32",
+         "title": "Test Article",
+         "volume": "12",
+        "container-title": "Test Journal",
         "issued": {
-            "date-parts": [
-                [
-                    "2000", 
-                    "2", 
-                    "15"
-                ]
-            ]
-        }, 
-        "title": "Book C", 
-        "type": "book"
+           "date-parts": [
+             ["2008", "10", "16"]
+           ]
+         },
+        "type": "article-journal"
     }
 ]
 <<===== INPUT =====<<
+ 
+

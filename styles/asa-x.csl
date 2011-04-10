@@ -14,6 +14,9 @@
     <summary>The ASA style.</summary>
     <link href="http://www.asanet.org/galleries/default-file/asaguidelinesnew.pdf" rel="documentation"/>
   </info>
+  <locale>
+    <style-options punctuation-in-quote="true"/>
+  </locale>
   <macro name="editor">
     <names variable="editor">
       <label form="verb" text-case="lowercase" suffix=" "/>

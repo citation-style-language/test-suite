@@ -47,15 +47,13 @@
  */
 
 >>===== MODE =====>>
-bibliography
+citation
 <<===== MODE =====<<
 
 
 
 >>===== RESULT =====>>
-<div class="csl-bib-body">
-  <div class="csl-entry">John Noakes, with John Doe &#38; Jane Roe, Multi-National United</div>
-</div>
+12:12
 <<===== RESULT =====<<
 
 
@@ -69,20 +67,15 @@ bibliography
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
+  <macro name="page-first">
+    <text variable="page-first"/>
+  </macro>
   <citation>
     <layout>
-      <names variable="author">
-        <name/>
-      </names>
+	  <text variable="page-first" suffix=":"/>
+      <text macro="page-first"/>
     </layout>
   </citation>
-  <bibliography>
-    <layout>
-      <names variable="author">
-        <name and="symbol" />
-      </names>
-    </layout>
-  </bibliography>
 </style>
 <<===== CSL =====<<
 
@@ -90,27 +83,8 @@ bibliography
 >>===== INPUT =====>>
 [
     {
-        "author": [
-            {
-                "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
-            }, 
-            {
-                "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
-            }, 
-            {
-                "literal": "Department of Alien Weapons Vivisection, Multi-National United"
-            }, 
-            {
-                "family": "Noakes", 
-                "given": "John", 
-                "static-ordering": false
-            }
-        ], 
         "id": "ITEM-1", 
+         "page": "12-20", 
         "type": "book"
     }
 ]

@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-(Doe et al. 1965a; 1965b; 1970)
+(Doe et al. 1965a, 1965b, 1970)
 <<===== RESULT =====<<
 
 

@@ -56,7 +56,7 @@ http://groups.google.com/group/citeproc-js/browse_thread/thread/428d4523fbef3beb
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">DʼArcus, Bruce. 2006. <i>Boundaries of Dissent: Protest and State Power in the Media Age</i>. New York: Routledge http://www.test01.com.</div>
+  <div class="csl-entry">D’Arcus, Bruce. 2006. <i>Boundaries of Dissent: Protest and State Power in the Media Age</i>. New York: Routledge http://www.test01.com.</div>
 </div>
 <<===== RESULT =====<<
 

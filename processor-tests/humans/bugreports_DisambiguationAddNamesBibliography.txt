@@ -50,12 +50,14 @@
 bibliography
 <<===== MODE =====<<
 
-
+The test result below looks weird, but only because the
+cites are incomplete; the Copernicus style assumes there will be
+a title and stuff to identify the thing cited.
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">Roe, J., Doe, J. and Smith, J., 1995a.</div>
-  <div class="csl-entry">Roe, J., Noakes, R. and Brown, B., 1995b.</div>
+  <div class="csl-entry">Roe, J., Doe, J. and Smith, J.:, 1995a.</div>
+  <div class="csl-entry">Roe, J., Noakes, R. and Brown, B.:, 1995b.</div>
 </div>
 <<===== RESULT =====<<
 

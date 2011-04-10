@@ -51,7 +51,7 @@ citation
 <<===== MODE =====<<
 
 >>===== RESULT =====>>
-John dʼJones
+John d’Jones
 <<===== RESULT =====<<
 
 >>===== CSL =====>>

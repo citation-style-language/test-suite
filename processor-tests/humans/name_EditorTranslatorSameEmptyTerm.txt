@@ -52,9 +52,8 @@ citation
 
 
 
-
 >>===== RESULT =====>>
-(<span style="font-variant:small-caps;">See</span> Smith 2000)
+John Doe (editor), John Doe (translator)
 <<===== RESULT =====<<
 
 
@@ -66,57 +65,41 @@ citation
   <info>
     <id />
     <title />
-    <updated>2007-10-26T21:32:52+02:00</updated>
+    <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
+  <locale>
+    <terms>
+      <term name="editortranslator"></term>
+    </terms>
+  </locale>
   <citation>
-    <layout prefix="(" suffix=")">
-      <group delimiter=" ">
-        <names variable="author">
-          <name form="short" />
-        </names>
-        <date variable="issued">
-          <date-part name="year" />
-        </date>
-      </group>
+    <layout>
+      <names variable="editor translator" delimiter=", ">
+        <name />
+        <label prefix=" (" suffix=")"/>
+      </names>
     </layout>
   </citation>
 </style>
 <<===== CSL =====<<
 
->>===== CITATION-ITEMS ====>>
-[
-    [
-        {
-            "id": "ITEM-1", 
-            "prefix": "<sc>See</sc> "
-        }
-    ]
-]
-<<===== CITATION-ITEMS ====<<
-
-
 
 >>===== INPUT =====>>
 [
     {
-        "author": [
+        "editor": [
             {
-                "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "family": "Doe", 
+                "given": "John"
+            }
+		],
+		"translator": [
+            {
+                "family": "Doe", 
+                "given": "John"
             }
         ], 
         "id": "ITEM-1", 
-        "issued": {
-            "date-parts": [
-                [
-                    "2000", 
-                    "2", 
-                    "15"
-                ]
-            ]
-        }, 
-        "title": "Book C", 
         "type": "book"
     }
 ]

@@ -84,12 +84,10 @@ John Doe
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false, 
-                "uri": "http://people.org/doej"
+                "given": "John"
             }
         ], 
-        "id": "simple-western-name-1", 
+        "id": "ITEM-1", 
         "issued": {
             "date-parts": [
                 [
