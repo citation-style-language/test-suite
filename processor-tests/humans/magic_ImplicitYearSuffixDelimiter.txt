@@ -52,9 +52,8 @@ citation
 
 
 
-
 >>===== RESULT =====>>
-(<span style="font-variant:small-caps;">See</span> Smith 2000)
+John Doe 1965a; b
 <<===== RESULT =====<<
 
 
@@ -66,34 +65,20 @@ citation
   <info>
     <id />
     <title />
-    <updated>2007-10-26T21:32:52+02:00</updated>
+    <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
-  <citation>
-    <layout prefix="(" suffix=")">
+  <citation disambiguate-add-year-suffix="true" collapse="year-suffix">
+    <layout delimiter="; ">
       <group delimiter=" ">
         <names variable="author">
-          <name form="short" />
+          <name />
         </names>
-        <date variable="issued">
-          <date-part name="year" />
-        </date>
+        <date variable="issued" form="text" date-parts="year"/>
       </group>
     </layout>
   </citation>
 </style>
 <<===== CSL =====<<
-
->>===== CITATION-ITEMS ====>>
-[
-    [
-        {
-            "id": "ITEM-1", 
-            "prefix": "<sc>See</sc> "
-        }
-    ]
-]
-<<===== CITATION-ITEMS ====<<
-
 
 
 >>===== INPUT =====>>
@@ -101,22 +86,35 @@ citation
     {
         "author": [
             {
-                "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "family": "Doe", 
+                "given": "John"
             }
         ], 
         "id": "ITEM-1", 
         "issued": {
             "date-parts": [
                 [
-                    "2000", 
-                    "2", 
-                    "15"
+                    "1965"
                 ]
             ]
         }, 
-        "title": "Book C", 
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+                "family": "Doe", 
+                "given": "John"
+            }
+        ], 
+        "id": "ITEM-2", 
+        "issued": {
+            "date-parts": [
+                [
+                    "1965"
+                ]
+            ]
+        }, 
         "type": "book"
     }
 ]

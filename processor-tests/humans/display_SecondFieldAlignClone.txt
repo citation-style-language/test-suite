@@ -54,10 +54,10 @@ bibliography
 >>===== RESULT =====>>
 <div class="csl-bib-body">
   <div class="csl-entry">
-    <div class="csl-left-margin">[1]</div><div class="csl-right-inline"> John Aloysius Doe, “Johnʼs Book” (1999a)</div>
+    <div class="csl-left-margin">[1]</div><div class="csl-right-inline"> John Aloysius Doe, “John’s Book” (1999a)</div>
   </div>
   <div class="csl-entry">
-    <div class="csl-left-margin">[2]</div><div class="csl-right-inline"> Jane Henrietta Roe, “Janeʼs Book” (2000b)</div>
+    <div class="csl-left-margin">[2]</div><div class="csl-right-inline"> Jane Henrietta Roe, “Jane’s Book” (2000b)</div>
   </div>
 </div>
 <<===== RESULT =====<<

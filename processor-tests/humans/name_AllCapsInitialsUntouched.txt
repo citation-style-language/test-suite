@@ -52,9 +52,8 @@ citation
 
 
 
-
 >>===== RESULT =====>>
-(<span style="font-variant:small-caps;">See</span> Smith 2000)
+Full: JH Hartcourt Doe; Initialized: JH Hartcourt Doe
 <<===== RESULT =====<<
 
 
@@ -66,34 +65,28 @@ citation
   <info>
     <id />
     <title />
-    <updated>2007-10-26T21:32:52+02:00</updated>
+    <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
   <citation>
-    <layout prefix="(" suffix=")">
-      <group delimiter=" ">
-        <names variable="author">
-          <name form="short" />
-        </names>
-        <date variable="issued">
-          <date-part name="year" />
-        </date>
+    <layout>
+      <group delimiter="; ">
+        <group>
+          <text value="Full: "/>
+          <names variable="author">
+            <name/>
+          </names>
+        </group>
+        <group>
+          <text value="Initialized: "/>
+          <names variable="author">
+            <name/>
+          </names>
+        </group>
       </group>
     </layout>
   </citation>
 </style>
 <<===== CSL =====<<
-
->>===== CITATION-ITEMS ====>>
-[
-    [
-        {
-            "id": "ITEM-1", 
-            "prefix": "<sc>See</sc> "
-        }
-    ]
-]
-<<===== CITATION-ITEMS ====<<
-
 
 
 >>===== INPUT =====>>
@@ -101,22 +94,11 @@ citation
     {
         "author": [
             {
-                "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "family": "Doe", 
+                "given": "JH Hartcourt"
             }
         ], 
         "id": "ITEM-1", 
-        "issued": {
-            "date-parts": [
-                [
-                    "2000", 
-                    "2", 
-                    "15"
-                ]
-            ]
-        }, 
-        "title": "Book C", 
         "type": "book"
     }
 ]

@@ -57,7 +57,7 @@ http://groups.google.com/group/citeproc-js/browse_thread/thread/6f9c7620c6c97ff1
 >>===== RESULT =====>>
 <div class="csl-bib-body">
   <div class="csl-entry">
-    <div class="csl-left-margin">[1]</div><div class="csl-right-inline"> B. DʼArcus, <i>Boundaries of Dissent: Protest and State Power in the Media Age</i>, New York: Routledge, 2006.</div>
+    <div class="csl-left-margin">[1]</div><div class="csl-right-inline"> B. D’Arcus, <i>Boundaries of Dissent: Protest and State Power in the Media Age</i>, New York: Routledge, 2006.</div>
   </div>
 </div>
 <<===== RESULT =====<<

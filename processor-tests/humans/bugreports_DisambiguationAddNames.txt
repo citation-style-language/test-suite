@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
->>[0] (Roe et al., 1995a; 1995b)
+>>[0] (Roe et al., 1995a, 1995b)
 <<===== RESULT =====<<
 
 

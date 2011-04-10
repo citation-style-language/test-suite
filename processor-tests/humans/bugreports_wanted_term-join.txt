@@ -55,7 +55,7 @@ error to console in citeproc-js.
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">test01,</div>
+  <div class="csl-entry">test01 and test02,</div>
 </div>
 <<===== RESULT =====<<
 
@@ -70,8 +70,8 @@ harvard1.csl
 		"id":"ITEM-1",
 		"type":"article-journal",
 		"author":[
-			{"family":"test01","given":""},
-			{"family":"test02","given":""}]
+			{"family":"test01","given":"","isInstitution":true},
+			{"family":"test02","given":"","isInstitution":true}]
 	}
 ]
 <<====== INPUT =====

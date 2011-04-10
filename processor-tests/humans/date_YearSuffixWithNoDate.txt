@@ -52,10 +52,32 @@ citation
 
 
 
-
 >>===== RESULT =====>>
-(<span style="font-variant:small-caps;">See</span> Smith 2000)
+>>[0] (John Doe n.d.-a [Accessed: June 01, 1965]; John Doe n.d.-b [Accessed: June 01, 2065])
 <<===== RESULT =====<<
+
+>>===== CITATIONS =====>>
+[
+  [
+    {
+      "citationID": "CITATION-1",
+      "citationItems": [
+        {
+          "id": "ITEM-1"
+        },
+        {
+          "id": "ITEM-2"
+        }
+      ],
+      "properties": {
+        "noteIndex": 1
+      }
+    },
+    [],
+    []
+  ]
+]
+<<===== CITATIONS =====<<
 
 
 >>===== CSL =====>>
@@ -66,57 +88,75 @@ citation
   <info>
     <id />
     <title />
-    <updated>2007-10-26T21:32:52+02:00</updated>
+    <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
-  <citation>
-    <layout prefix="(" suffix=")">
+  <citation disambiguate-add-year-suffix="true">
+    <layout delimiter="; " prefix="(" suffix=")">
       <group delimiter=" ">
         <names variable="author">
-          <name form="short" />
+          <name/>
         </names>
-        <date variable="issued">
-          <date-part name="year" />
-        </date>
+        <group>
+          <choose>
+            <if variable="issued">
+              <date variable="issued" form="text" date-parts="year"/>
+              <text variable="year-suffix"/>
+            </if>
+            <else>
+              <text term="no date" form="short"/>
+              <text variable="year-suffix" prefix="-"/>
+            </else>
+          </choose>
+        </group>
+      </group>
+      <group delimiter=" " prefix=" [" suffix="]">
+        <text term="accessed" suffix=": " text-case="capitalize-first"/>
+        <date variable="accessed" form="text" date-parts="year-month-day"/>
       </group>
     </layout>
   </citation>
 </style>
 <<===== CSL =====<<
 
->>===== CITATION-ITEMS ====>>
-[
-    [
-        {
-            "id": "ITEM-1", 
-            "prefix": "<sc>See</sc> "
-        }
-    ]
-]
-<<===== CITATION-ITEMS ====<<
-
-
 
 >>===== INPUT =====>>
 [
     {
+        "id": "ITEM-1", 
         "author": [
             {
-                "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "family": "Doe", 
+                "given": "John"
             }
         ], 
-        "id": "ITEM-1", 
-        "issued": {
+        "accessed": {
             "date-parts": [
                 [
-                    "2000", 
-                    "2", 
-                    "15"
+                    "1965", 
+                    "6", 
+                    "1"
                 ]
             ]
         }, 
-        "title": "Book C", 
+        "type": "book"
+    },
+    {
+        "id": "ITEM-2", 
+        "author": [
+            {
+                "family": "Doe", 
+                "given": "John"
+            }
+        ], 
+        "accessed": {
+            "date-parts": [
+                [
+                    "2065", 
+                    "6", 
+                    "1"
+                ]
+            ]
+        }, 
         "type": "book"
     }
 ]
