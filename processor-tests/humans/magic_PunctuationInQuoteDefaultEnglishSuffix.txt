@@ -101,7 +101,8 @@ Doe, “Book A,” 1900.
                 ]
             ]
         }, 
-        "title": "Book A"
+        "title": "Book A",
+        "type": "book"
     }
 ]
 <<===== INPUT =====<<
