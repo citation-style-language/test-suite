@@ -103,7 +103,8 @@ bibliographies, they are always placed at the end of the sort
                 ]
             ]
         }, 
-        "title": "BookA"
+        "title": "BookA",
+        "type": "book"
     }, 
     {
         "id": "ITEM-2", 
@@ -116,7 +117,8 @@ bibliographies, they are always placed at the end of the sort
                 ]
             ]
         }, 
-        "title": "BookB"
+        "title": "BookB",
+        "type": "book"
     }, 
     {
         "id": "ITEM-3", 
@@ -129,7 +131,8 @@ bibliographies, they are always placed at the end of the sort
                 ]
             ]
         }, 
-        "title": "BookC"
+        "title": "BookC",
+        "type": "book"
     }, 
     {
         "id": "ITEM-4", 
@@ -142,7 +145,8 @@ bibliographies, they are always placed at the end of the sort
                 ]
             ]
         }, 
-        "title": "BookD"
+        "title": "BookD",
+        "type": "book"
     }
 ]
 <<===== INPUT =====<<

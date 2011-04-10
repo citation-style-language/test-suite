@@ -113,7 +113,8 @@ BookX (100BC-7-14), BookY (100BC-7-13), BookA (68AD-3-16), BookB (68AD-3-15)
                 ]
             ]
         }, 
-        "title": "BookY"
+        "title": "BookY",
+        "type": "book"
     }, 
     {
         "id": "ITEM-2", 
@@ -126,7 +127,8 @@ BookX (100BC-7-14), BookY (100BC-7-13), BookA (68AD-3-16), BookB (68AD-3-15)
                 ]
             ]
         }, 
-        "title": "BookX"
+        "title": "BookX",
+        "type": "book"
     }, 
     {
         "id": "ITEM-3", 
@@ -139,7 +141,8 @@ BookX (100BC-7-14), BookY (100BC-7-13), BookA (68AD-3-16), BookB (68AD-3-15)
                 ]
             ]
         }, 
-        "title": "BookB"
+        "title": "BookB",
+        "type": "book"
     }, 
     {
         "id": "ITEM-4", 
@@ -152,7 +155,8 @@ BookX (100BC-7-14), BookY (100BC-7-13), BookA (68AD-3-16), BookB (68AD-3-15)
                 ]
             ]
         }, 
-        "title": "BookA"
+        "title": "BookA",
+        "type": "book"
     }
 ]
 <<===== INPUT =====<<

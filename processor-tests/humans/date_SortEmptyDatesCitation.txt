@@ -92,7 +92,8 @@ BookD 1999; BookB 2000; BookA; BookC; BookE.
 [
     {
         "id": "ITEM-1", 
-        "title": "BookA"
+        "title": "BookA",
+        "type": "book"
     }, 
     {
         "id": "ITEM-2", 
@@ -103,11 +104,13 @@ BookD 1999; BookB 2000; BookA; BookC; BookE.
                 ]
             ]
         }, 
-        "title": "BookB"
+        "title": "BookB",
+        "type": "book"
     }, 
     {
         "id": "ITEM-3", 
-        "title": "BookC"
+        "title": "BookC",
+        "type": "book"
     }, 
     {
         "id": "ITEM-4", 
@@ -118,11 +121,13 @@ BookD 1999; BookB 2000; BookA; BookC; BookE.
                 ]
             ]
         }, 
-        "title": "BookD"
+        "title": "BookD",
+        "type": "book"
     }, 
     {
         "id": "ITEM-5", 
-        "title": "BookE"
+        "title": "BookE",
+        "type": "book"
     }
 ]
 <<===== INPUT =====<<

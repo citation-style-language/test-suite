@@ -158,7 +158,8 @@ citation
                 ]
             ]
         }, 
-        "id": "ITEM-1"
+        "id": "ITEM-1",
+        "type": "book"
     }, 
     {
         "author": [
@@ -174,7 +175,8 @@ citation
                 ]
             ]
         }, 
-        "id": "ITEM-2"
+        "id": "ITEM-2",
+        "type": "book"
     }
 ]
 <<===== INPUT =====<<

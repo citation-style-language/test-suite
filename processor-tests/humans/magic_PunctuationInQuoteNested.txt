@@ -109,7 +109,8 @@ Doe. <i>“Book A.”</i> 1900.
                 ]
             ]
         }, 
-        "title": "Book A"
+        "title": "Book A",
+        "type": "book"
     }
 ]
 <<===== INPUT =====<<
