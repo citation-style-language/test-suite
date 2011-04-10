@@ -63,17 +63,19 @@ apsa-x.csl
 
 >>===== INPUT =====>>
 [
-	{
-		"author": [{
-			"family" : "Kim",
-			"given": "B-X"
-		},
-		{
-			"family" : "Kim",
-			"given": "A-Y"
-		}
-		],
-		"type":"book"
-	}
+  {
+    "author": [
+      {
+        "family": "Kim", 
+        "given": "B-X"
+      }, 
+      {
+        "family": "Kim", 
+        "given": "A-Y"
+      }
+    ], 
+    "id": "ITEM-1", 
+    "type": "book"
+  }
 ]
 <<===== INPUT =====<<

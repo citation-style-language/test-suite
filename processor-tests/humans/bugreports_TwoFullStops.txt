@@ -62,19 +62,25 @@ chicago-author-date.csl
 
 >>===== INPUT =====>>
 [
-{
-"edition" : "Mega Edition",
-"title" : "Test Title",
-"type" : "book",
-"author": [{
-    "family" : "author01",
-    "given": "author01"
-}],
-"issued" : {
-    "date-parts": [
-    [1998,1]
-]
-}
-}
+  {
+    "author": [
+      {
+        "family": "author01", 
+        "given": "author01"
+      }
+    ], 
+    "edition": "Mega Edition", 
+    "id": "ITEM-1", 
+    "issued": {
+      "date-parts": [
+        [
+          1998, 
+          1
+        ]
+      ]
+    }, 
+    "title": "Test Title", 
+    "type": "book"
+  }
 ]
 <<===== INPUT =====<<
