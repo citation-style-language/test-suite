@@ -120,7 +120,8 @@ Doe 1960; Brown 1990; Ichi 2000.
                 ]
             ]
         }, 
-        "title": "Book A"
+        "title": "Book A",
+        "type": "book"
     }, 
     {
         "author": [
@@ -138,7 +139,8 @@ Doe 1960; Brown 1990; Ichi 2000.
                 ]
             ]
         }, 
-        "title": "Book B"
+        "title": "Book B",
+        "type": "book"
     }, 
     {
         "author": [
@@ -156,7 +158,8 @@ Doe 1960; Brown 1990; Ichi 2000.
                 ]
             ]
         }, 
-        "title": "Book C"
+        "title": "Book C",
+        "type": "book"
     }, 
     {
         "author": [
@@ -174,7 +177,8 @@ Doe 1960; Brown 1990; Ichi 2000.
                 ]
             ]
         }, 
-        "title": "Book D"
+        "title": "Book D",
+        "type": "book"
     }, 
     {
         "author": [
@@ -192,7 +196,8 @@ Doe 1960; Brown 1990; Ichi 2000.
                 ]
             ]
         }, 
-        "title": "Book E"
+        "title": "Book E",
+        "type": "book"
     }
 ]
 <<===== INPUT =====<<

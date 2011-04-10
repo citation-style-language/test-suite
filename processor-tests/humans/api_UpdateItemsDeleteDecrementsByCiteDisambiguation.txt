@@ -126,7 +126,8 @@ initial.
                 ]
             ]
         }, 
-        "title": "Book A"
+        "title": "Book A",
+        "type": "book"
     }, 
     {
         "author": [
@@ -144,7 +145,8 @@ initial.
                 ]
             ]
         }, 
-        "title": "Book B"
+        "title": "Book B",
+        "type": "book"
     }, 
     {
         "author": [
@@ -162,7 +164,8 @@ initial.
                 ]
             ]
         }, 
-        "title": "Book C"
+        "title": "Book C",
+        "type": "book"
     }, 
     {
         "author": [
@@ -180,7 +183,8 @@ initial.
                 ]
             ]
         }, 
-        "title": "Book D"
+        "title": "Book D",
+        "type": "book"
     }, 
     {
         "author": [
@@ -198,7 +202,8 @@ initial.
                 ]
             ]
         }, 
-        "title": "Book E"
+        "title": "Book E",
+        "type": "book"
     }
 ]
 <<===== INPUT =====<<

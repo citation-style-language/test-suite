@@ -70,7 +70,9 @@ apa-x.csl
 		"issued" : {
 			"date-parts": [
 			[2003,1] ]
-		}
+		},
+		"id": "ITEM-1",
+		"type": "book"
 	}
 ]
 <<===== INPUT =====<<

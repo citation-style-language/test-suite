@@ -82,17 +82,19 @@ mhra_note_without_bibliography-x.csl
 
 >>===== INPUT =====>>
 [
-	{
-		"id":"ITEM-1",
-		"author": [{
-			"family" : "Kim",
-			"given": "B-X"
-		},
-		{
-			"family" : "Kim",
-			"given": "A-Y"
-		}
-		]
-	}
+  {
+    "author": [
+      {
+        "family": "Kim", 
+        "given": "B-X"
+      }, 
+      {
+        "family": "Kim", 
+        "given": "A-Y"
+      }
+    ], 
+    "id": "ITEM-1", 
+    "type": "article-journal"
+  }
 ]
 <<===== INPUT =====<<

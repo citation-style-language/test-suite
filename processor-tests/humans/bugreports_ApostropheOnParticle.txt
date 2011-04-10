@@ -81,7 +81,9 @@ John d’Jones
 			"family" : "Jones",
 			"given": "John",
 			"dropping-particle": "d'"
-		}]
+		}],
+		"id": "ITEM-1",
+		"type": "book"
 	}
 ]
 <<===== INPUT =====<<

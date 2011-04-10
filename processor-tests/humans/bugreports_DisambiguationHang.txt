@@ -217,6 +217,7 @@ this in the tainting mechanism.
 		}
 	},
 	{
+		"type" : "article-journal",
 		"id" : "ITEM-3",
 		"author": [
 			{
