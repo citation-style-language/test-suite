@@ -87,8 +87,7 @@ John <i>Doe</i>
             {
                 "family": "Doe", 
                 "given": "John", 
-                "static-ordering": false, 
-                "uri": "http://people.org/doej"
+                "static-ordering": false
             }
         ], 
         "id": "simple-western-name-1", 

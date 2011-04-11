@@ -563,7 +563,7 @@ Chicago Author-Date.
                 "static-ordering": false
             }
         ],
-        "type": "book"
+        "type": "chapter"
     }, 
     {
         "editor": [
@@ -584,10 +584,9 @@ Chicago Author-Date.
         "publisher": "Philip Wilson", 
         "publisher-place": "London", 
         "title": "Georgia: Art and Civilization through the Ages",
-        "type": "book"
+        "type": "chapter"
     }, 
     {
-        "edition": "14", 
         "id": "ITEM-3", 
         "issued": {
             "date-parts": [
@@ -599,7 +598,7 @@ Chicago Author-Date.
         "publisher": "University of Chicago Press", 
         "publisher-place": "Chicago", 
         "title": "The Chicago Manual of Style",
-        "type": "book"
+        "type": "chapter"
     }
 ]
 <<===== INPUT =====<<

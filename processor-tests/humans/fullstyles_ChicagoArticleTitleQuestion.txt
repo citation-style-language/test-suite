@@ -444,8 +444,7 @@ bibliography
                 "static-ordering": false
             }
         ], 
-        "container-title": "New Thinker", 
-        "description": "Pretty good article", 
+        "container-title": "New Thinker",
         "id": "ITEM-5", 
         "issued": {
             "date-parts": [
