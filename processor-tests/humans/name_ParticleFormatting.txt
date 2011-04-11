@@ -90,8 +90,7 @@ LA DOE, John DE
                 "family": "Doe", 
                 "given": "John", 
                 "non-dropping-particle": "la", 
-                "static-ordering": false, 
-                "uri": "http://people.org/doej"
+                "static-ordering": false
             }
         ], 
         "id": "ITEM-1", 

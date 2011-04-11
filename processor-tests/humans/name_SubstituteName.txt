@@ -88,8 +88,7 @@ John Doe
             {
                 "family": "Doe", 
                 "given": "John", 
-                "static-ordering": false, 
-                "uri": "http://people.org/doej"
+                "static-ordering": false
             }
         ], 
         "id": "item-1", 

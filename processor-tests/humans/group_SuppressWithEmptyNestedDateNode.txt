@@ -66,32 +66,35 @@ harvard1.csl
 
 >>===== INPUT =====>>
 [
-    {
-        "author": [
-           {
-             "family": "Author1",
-             "given": "One"
-           },
-           {
-             "family": "Author7",
-             "given": "Two"
-           },
-           {
-             "family": "Author3",
-             "given": "Three"
-           }
-         ],
-         "pages": "21-32",
-         "title": "Test Article",
-         "volume": "12",
-        "container-title": "Test Journal",
-        "issued": {
-           "date-parts": [
-             ["2008", "10", "16"]
-           ]
-         },
-        "type": "article-journal"
-    }
+  {
+    "author": [
+      {
+        "family": "Author1", 
+        "given": "One"
+      }, 
+      {
+        "family": "Author7", 
+        "given": "Two"
+      }, 
+      {
+        "family": "Author3", 
+        "given": "Three"
+      }
+    ], 
+    "container-title": "Test Journal", 
+    "issued": {
+      "date-parts": [
+        [
+          "2008", 
+          "10", 
+          "16"
+        ]
+      ]
+    },
+    "title": "Test Article", 
+    "type": "article-journal", 
+    "volume": "12"
+  }
 ]
 <<===== INPUT =====<<
  

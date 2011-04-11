@@ -86,14 +86,12 @@ John Doe, Jane Roeeditors
             {
                 "family": "Doe", 
                 "given": "John", 
-                "static-ordering": false, 
-                "uri": "http://people.org/doej"
+                "static-ordering": false
             }, 
             {
                 "family": "Roe", 
                 "given": "Jane", 
-                "static-ordering": false, 
-                "uri": "http://people.org/doej"
+                "static-ordering": false
             }
         ], 
         "id": "item-1", 

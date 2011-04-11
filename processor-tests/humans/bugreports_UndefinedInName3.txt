@@ -94,7 +94,7 @@ mhra_note_without_bibliography-x.csl
       }
     ], 
     "id": "ITEM-1", 
-    "type": "article-journal"
+    "type": "book"
   }
 ]
 <<===== INPUT =====<<
