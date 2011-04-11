@@ -162,7 +162,7 @@ citation
                 ]
             ]
         }, 
-        "page-range": "119-128", 
+        "page": "119-128", 
         "title": "Ultrastructure of snail grazing damage to calcicolous lichens", 
         "type": "article-journal", 
         "volume": "20"
@@ -194,7 +194,7 @@ citation
                 ]
             ]
         }, 
-        "page-range": "285-289", 
+        "page": "285-289", 
         "title": "Ecological observations on _Arianta aethiops aethiops_ (Helicidae), a land snail endemic to the South Carpathian mountains, Romania", 
         "type": "article-journal", 
         "volume": "66"
@@ -216,7 +216,7 @@ citation
                 ]
             ]
         }, 
-        "page-range": "000-1", 
+        "page": "5-7", 
         "title": "Some bogus title", 
         "type": "article-journal", 
         "volume": "666"

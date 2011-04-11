@@ -87,7 +87,6 @@ Only Me
     {
         "id": "ITEM-1", 
         "issued": {
-            "broken-entry": "bleah!", 
             "date-parts": []
         }, 
         "title": "Ignore me", 

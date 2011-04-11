@@ -162,7 +162,7 @@ bluebook-demo.csl
             }
         ], 
         "id": "ITEM-2",
-        "series": "\"Chandos classics\"", 
+        "collection-title": "\"Chandos classics\"", 
         "publisher-place": "London; New York",
         "publisher": "F. Warne",
         "issued": {

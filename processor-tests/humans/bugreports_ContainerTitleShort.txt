@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-Anon. J.
+Anon J
 <<===== RESULT =====<<
 
 
@@ -94,7 +94,7 @@ Anon. J.
         "id": "ITEM-1", 
         "container-title": "Anonymous Journal", 
         "journalAbbreviation": "Anon. J.",
-        "type": "journal-article"
+        "type": "article-journal"
     }
 ]
 <<===== INPUT =====<<
