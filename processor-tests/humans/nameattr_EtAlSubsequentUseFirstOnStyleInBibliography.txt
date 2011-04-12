@@ -106,8 +106,7 @@ completely ignored in the bibliography.
                 "given": "Richard"
             }
         ], 
-        "id": "ITEM-1", 
-        "position": 1, 
+        "id": "ITEM-1",
         "type": "book"
     }
 ]

@@ -104,8 +104,7 @@ John Doe, Jane Roe, Richard Snoakes
                 "given": "Richard"
             }
         ], 
-        "id": "ITEM-1", 
-        "position": 1, 
+        "id": "ITEM-1",
         "type": "book"
     }
 ]
