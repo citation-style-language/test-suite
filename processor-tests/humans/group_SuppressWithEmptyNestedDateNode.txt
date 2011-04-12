@@ -67,6 +67,7 @@ harvard1.csl
 >>===== INPUT =====>>
 [
   {
+    "id": "ITEM-1",
     "author": [
       {
         "family": "Author1", 
