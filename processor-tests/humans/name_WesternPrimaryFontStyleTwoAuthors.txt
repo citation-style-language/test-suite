@@ -87,14 +87,12 @@ John <b>Doe</b>; Jane <b>Roe</b>
             {
                 "family": "Doe", 
                 "given": "John", 
-                "static-ordering": false, 
-                "uri": "http://people.org/doej"
+                "static-ordering": false
             }, 
             {
                 "family": "Roe", 
                 "given": "Jane", 
-                "static-ordering": false, 
-                "uri": "http://people.org/roej"
+                "static-ordering": false
             }
         ], 
         "id": "item-1", 
