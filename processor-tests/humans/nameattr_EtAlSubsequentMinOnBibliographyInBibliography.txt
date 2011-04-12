@@ -101,8 +101,7 @@ have no effect in the bibliography.
                 "given": "Jane"
             }
         ], 
-        "id": "ITEM-1", 
-        "position": 1, 
+        "id": "ITEM-1",
         "type": "book"
     }
 ]
