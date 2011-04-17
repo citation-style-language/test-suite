@@ -130,18 +130,15 @@ Smith, Brown &#38; J. Jones (1980); Smith, Brown &#38; A. Jones (1980)
         "author": [
             {
                 "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Brown", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Jones", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-1", 
@@ -158,18 +155,15 @@ Smith, Brown &#38; J. Jones (1980); Smith, Brown &#38; A. Jones (1980)
         "author": [
             {
                 "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Brown", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Jones", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-2", 
@@ -186,18 +180,15 @@ Smith, Brown &#38; J. Jones (1980); Smith, Brown &#38; A. Jones (1980)
        "author": [
            {
                "family": "Smith",
-               "given": "John",
-               "static-ordering": false
+               "given": "John"
            },
            {
                "family": "Benson",
-               "given": "John",
-               "static-ordering": false
+               "given": "John"
            },
            {
                "family": "Jones",
-               "given": "John",
-               "static-ordering": false
+               "given": "John"
            }
        ],
        "id": "ITEM-3",
@@ -214,18 +205,15 @@ Smith, Brown &#38; J. Jones (1980); Smith, Brown &#38; A. Jones (1980)
         "author": [
             {
                 "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Brown", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Jones", 
-                "given": "Arthur", 
-                "static-ordering": false
+                "given": "Arthur"
             }
         ], 
         "id": "ITEM-4", 
