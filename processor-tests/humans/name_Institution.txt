@@ -83,8 +83,7 @@ Multi-National United
     {
         "author": [
             {
-                "literal": "Multi-National United", 
-                "static-ordering": false
+                "literal": "Multi-National United"
             }
         ], 
         "id": "institution-name-1", 

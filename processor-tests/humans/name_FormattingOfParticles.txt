@@ -88,8 +88,7 @@ Gerard VAN DER MEER
                 "dropping-particle": "van", 
                 "family": "Meer", 
                 "given": "Gerard", 
-                "non-dropping-particle": "der", 
-                "static-ordering": false
+                "non-dropping-particle": "der"
             }
         ], 
         "id": "ITEM-1", 

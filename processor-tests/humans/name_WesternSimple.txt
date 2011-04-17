@@ -70,7 +70,7 @@ John Doe
   <citation>
     <layout>
       <names variable="author">
-        <name />
+        <name/>
       </names>
     </layout>
   </citation>
@@ -83,7 +83,7 @@ John Doe
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "John"
             }
         ], 
