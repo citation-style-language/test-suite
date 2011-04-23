@@ -69,10 +69,7 @@ Albert Asthma et al. (eds.), Albert Asthma et al. (trans.)
   </info>
   <locale xml:lang="en">
     <terms>
-      <term form="short" name="editortranslator">
-        <single>ed. &#38; trans.</single>
-        <multiple>eds. &#38; trans.</multiple>
-      </term>
+      <term form="short" name="editortranslator"></term>
     </terms>
   </locale>
   <citation 
@@ -95,18 +92,15 @@ Albert Asthma et al. (eds.), Albert Asthma et al. (trans.)
         "editor": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Bosworth", 
-                "static-ordering": false
+                "given": "Bosworth"
             }, 
             {
                 "family": "Cold", 
-                "given": "Crispin", 
-                "static-ordering": false
+                "given": "Crispin"
             }
         ], 
         "id": "editor-translator-2", 
@@ -121,18 +115,15 @@ Albert Asthma et al. (eds.), Albert Asthma et al. (trans.)
         "translator": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Bosworth", 
-                "static-ordering": false
+                "given": "Bosworth"
             }, 
             {
                 "family": "Cold", 
-                "given": "Constantine", 
-                "static-ordering": false
+                "given": "Constantine"
             }
         ], 
         "type": "book"
