@@ -15,6 +15,11 @@
     <category field="generic-base"/>
     <updated>2008-10-05T18:42:42+00:00</updated>
   </info>
+  <locale>
+	<terms>
+	  <term name="et-al">others</term>
+	</terms>
+  </locale>
   <macro name="zotero2bibtexType">
     <choose>
       <if type="bill book graphic legal_case motion_picture report song" match="any">
@@ -44,10 +49,7 @@
     </choose>
   </macro>
   <macro name="citeKey">
-    <group delimiter="_">
-      <text macro="author-short" text-case="lowercase"/>
-      <text macro="issued-year"/>
-    </group>
+    <text variable="citation-label"/>
   </macro>
   <macro name="author-short">
     <names variable="author">
@@ -133,7 +135,7 @@
       <text macro="citeKey"/>
     </layout>
   </citation>
-  <bibliography hanging-indent="false" et-al-min="10" et-al-use-first="10">
+  <bibliography hanging-indent="false" et-al-min="11" et-al-use-first="10">
     <sort>
       <key macro="author"/>
       <key variable="issued"/>
