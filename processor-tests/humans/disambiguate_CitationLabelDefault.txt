@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-Asthma1900a; Asthma1900b; Bronchitis2000
+Asth00a; Asth00b; Bron00
 <<===== RESULT =====<<
 
 
