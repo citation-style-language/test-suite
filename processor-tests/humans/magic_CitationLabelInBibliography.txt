@@ -47,33 +47,28 @@
  */
 
 >>===== MODE =====>>
-citation
+bibliography
 <<===== MODE =====<<
 
 
 
 >>===== RESULT =====>>
-SpiffLabel1900a; SpiffLabel1900b; Bron00; BrCh98; DEFG26
+<div class="csl-bib-body">
+  <div class="csl-entry">
+    <div class="csl-left-margin">[Doe65]</div><div class="csl-right-inline">Doe, J.: Book A., 1965.</div>
+  </div>
+  <div class="csl-entry">
+    <div class="csl-left-margin">[RoNo78a]</div><div class="csl-right-inline">Roe, J. and Noakes, R.: Book A., 1978.</div>
+  </div>
+  <div class="csl-entry">
+    <div class="csl-left-margin">[RoNo78b]</div><div class="csl-right-inline">Roe, J. and Noakes, R.: Book A., 1978.</div>
+  </div>
+</div>
 <<===== RESULT =====<<
 
 
 >>===== CSL =====>>
-<style 
-      xmlns="http://purl.org/net/xbiblio/csl"
-      class="note"
-      version="1.0">
-  <info>
-    <id />
-    <title />
-    <updated>2009-08-10T04:49:00+09:00</updated>
-  </info>
-  <citation 
-         disambiguate-add-year-suffix="true">
-    <layout delimiter="; ">
-        <text variable="citation-label"/>
-    </layout>
-  </citation>
-</style>
+copernicus-trigraph.csl
 <<===== CSL =====<<
 
 
@@ -82,115 +77,57 @@ SpiffLabel1900a; SpiffLabel1900b; Bron00; BrCh98; DEFG26
     {
         "author": [
             {
-                "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "family": "Roe",
+                "given": "Jane"
+            },
+            {
+                "family": "Noakes",
+                "given": "Richard"
             }
         ], 
-        "citation-label": "SpiffLabel1900", 
         "id": "ITEM-1", 
         "issued": {
             "date-parts": [
-                [
-                    "1900"
-                ]
+                ["1978"]
             ]
         }, 
         "title": "Book A", 
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Asthma", 
-                "given": "Zeppo", 
-                "static-ordering": false
+                "family": "Doe",
+                "given": "John"
             }
         ], 
-        "citation-label": "SpiffLabel1900", 
         "id": "ITEM-2", 
         "issued": {
             "date-parts": [
-                [
-                    "2000"
-                ]
+                ["1965"]
             ]
         }, 
-        "title": "Book B", 
+        "title": "Book A", 
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Bronchitis", 
-                "given": "Buffy"
+                "family": "Roe",
+                "given": "Jane"
+            },
+            {
+                "family": "Noakes",
+                "given": "Richard"
             }
         ], 
         "id": "ITEM-3", 
         "issued": {
             "date-parts": [
-                [
-                    "2000"
-                ]
+                ["1978"]
             ]
         }, 
-        "title": "Book C", 
-        "type": "book"
-    },
-    {
-        "author": [
-            {
-                "family": "Bronchitis", 
-                "given": "Buffy"
-            },
-            {
-                "family": "Cholera", 
-                "given": "Cleopatra"
-            }
-        ], 
-        "id": "ITEM-4", 
-        "issued": {
-            "date-parts": [
-                [
-                    "1998"
-                ]
-            ]
-        }, 
-        "title": "Book D", 
-        "type": "book"
-    },
-    {
-        "author": [
-            {
-                "family": "von Dipheria", 
-                "given": "Doug"
-            },
-            {
-                "family": "Eczema", 
-                "given": "Elihugh"
-            },
-            {
-                "family": "Flatulence", 
-                "given": "Frankie"
-            },
-            {
-                "family": "Goiter", 
-                "given": "Gus"
-            },
-            {
-                "family": "Hiccups", 
-                "given": "Harvey"
-            }
-        ], 
-        "id": "ITEM-5", 
-        "issued": {
-            "date-parts": [
-                [
-                    "1926"
-                ]
-            ]
-        }, 
-        "title": "Book D", 
+        "title": "Book A", 
         "type": "book"
     }
 ]
