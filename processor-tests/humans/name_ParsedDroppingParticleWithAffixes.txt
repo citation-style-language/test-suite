@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-<span style="font-variant:small-caps;">Fontaine</span> (Jean <span style="font-variant:small-caps;">de</span> <span style="font-variant:small-caps;">La</span>)
+<span style="font-variant:small-caps;">Fontaine</span> (Jean de <span style="font-variant:small-caps;">La</span>)
 <<===== RESULT =====<<
 
 

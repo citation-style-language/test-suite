@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-LA DOE, John DE
+LA DOE, John de
 <<===== RESULT =====<<
 
 
