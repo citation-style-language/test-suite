@@ -1,0 +1,311 @@
+/*
+ * Copyright (c) 2009, 2010 and 2011 Frank G. Bennett, Jr. All Rights
+ * Reserved.
+ *
+ * The contents of this file are subject to the Common Public
+ * Attribution License Version 1.0 (the “License”); you may not use
+ * this file except in compliance with the License. You may obtain a
+ * copy of the License at:
+ *
+ * http://bitbucket.org/fbennett/citeproc-js/src/tip/LICENSE.
+ *
+ * The License is based on the Mozilla Public License Version 1.1 but
+ * Sections 14 and 15 have been added to cover use of software over a
+ * computer network and provide for limited attribution for the
+ * Original Developer. In addition, Exhibit A has been modified to be
+ * consistent with Exhibit B.
+ *
+ * Software distributed under the License is distributed on an “AS IS”
+ * basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See
+ * the License for the specific language governing rights and limitations
+ * under the License.
+ *
+ * The Original Code is the citation formatting software known as
+ * "citeproc-js" (an implementation of the Citation Style Language
+ * [CSL]), including the original test fixtures and software located
+ * under the ./std subdirectory of the distribution archive.
+ *
+ * The Original Developer is not the Initial Developer and is
+ * __________. If left blank, the Original Developer is the Initial
+ * Developer.
+ *
+ * The Initial Developer of the Original Code is Frank G. Bennett,
+ * Jr. All portions of the code written by Frank G. Bennett, Jr. are
+ * Copyright (c) 2009 and 2010 Frank G. Bennett, Jr. All Rights Reserved.
+ *
+ * Alternatively, the contents of this file may be used under the
+ * terms of the GNU Affero General Public License (the [AGPLv3]
+ * License), in which case the provisions of [AGPLv3] License are
+ * applicable instead of those above. If you wish to allow use of your
+ * version of this file only under the terms of the [AGPLv3] License
+ * and not to allow others to use your version of this file under the
+ * CPAL, indicate your decision by deleting the provisions above and
+ * replace them with the notice and other provisions required by the
+ * [AGPLv3] License. If you do not delete the provisions above, a
+ * recipient may use your version of this file under either the CPAL
+ * or the [AGPLv3] License.”
+ */
+
+>>===== MODE =====>>
+citation
+<<===== MODE =====<<
+
+
+The Unicode standard provides a number of discrete superscript
+characters, to allow such to be transferred across systems
+without the need for system-specific markup. Because the characters
+are currently not fully supported on all platforms for rendering,
+implementations may desire to convert them into a marked-up
+equivalent when rendering.
+
+The list of characters used in this test is here:
+
+  http://unicode.org/reports/tr30/datafiles/SuperscriptFolding.txt
+
+Relevant discussions:
+
+  http://forums.zotero.org/discussion/18074/edition-with-superscript/
+  https://github.com/citation-style-language/schema/issues/49
+
+
+>>===== RESULT =====>>
+&#60;sup&#62;a&#60;/sup&#62;
+&#60;sup&#62;2&#60;/sup&#62;
+&#60;sup&#62;3&#60;/sup&#62;
+&#60;sup&#62;1&#60;/sup&#62;
+&#60;sup&#62;o&#60;/sup&#62;
+&#60;sup&#62;h&#60;/sup&#62;
+&#60;sup&#62;ɦ&#60;/sup&#62;
+&#60;sup&#62;j&#60;/sup&#62;
+&#60;sup&#62;r&#60;/sup&#62;
+&#60;sup&#62;ɹ&#60;/sup&#62;
+&#60;sup&#62;ɻ&#60;/sup&#62;
+&#60;sup&#62;ʁ&#60;/sup&#62;
+&#60;sup&#62;w&#60;/sup&#62;
+&#60;sup&#62;y&#60;/sup&#62;
+&#60;sup&#62;ɣ&#60;/sup&#62;
+&#60;sup&#62;l&#60;/sup&#62;
+&#60;sup&#62;s&#60;/sup&#62;
+&#60;sup&#62;x&#60;/sup&#62;
+&#60;sup&#62;ʕ&#60;/sup&#62;
+&#60;sup&#62;A&#60;/sup&#62;
+&#60;sup&#62;Æ&#60;/sup&#62;
+&#60;sup&#62;B&#60;/sup&#62;
+&#60;sup&#62;D&#60;/sup&#62;
+&#60;sup&#62;E&#60;/sup&#62;
+&#60;sup&#62;Ǝ&#60;/sup&#62;
+&#60;sup&#62;G&#60;/sup&#62;
+&#60;sup&#62;H&#60;/sup&#62;
+&#60;sup&#62;I&#60;/sup&#62;
+&#60;sup&#62;J&#60;/sup&#62;
+&#60;sup&#62;K&#60;/sup&#62;
+&#60;sup&#62;L&#60;/sup&#62;
+&#60;sup&#62;M&#60;/sup&#62;
+&#60;sup&#62;N&#60;/sup&#62;
+&#60;sup&#62;O&#60;/sup&#62;
+&#60;sup&#62;Ȣ&#60;/sup&#62;
+&#60;sup&#62;P&#60;/sup&#62;
+&#60;sup&#62;R&#60;/sup&#62;
+&#60;sup&#62;T&#60;/sup&#62;
+&#60;sup&#62;U&#60;/sup&#62;
+&#60;sup&#62;W&#60;/sup&#62;
+&#60;sup&#62;a&#60;/sup&#62;
+&#60;sup&#62;ɐ&#60;/sup&#62;
+&#60;sup&#62;ɑ&#60;/sup&#62;
+&#60;sup&#62;ᴂ&#60;/sup&#62;
+&#60;sup&#62;b&#60;/sup&#62;
+&#60;sup&#62;d&#60;/sup&#62;
+&#60;sup&#62;e&#60;/sup&#62;
+&#60;sup&#62;ə&#60;/sup&#62;
+&#60;sup&#62;ɛ&#60;/sup&#62;
+&#60;sup&#62;ɜ&#60;/sup&#62;
+&#60;sup&#62;g&#60;/sup&#62;
+&#60;sup&#62;k&#60;/sup&#62;
+&#60;sup&#62;m&#60;/sup&#62;
+&#60;sup&#62;ŋ&#60;/sup&#62;
+&#60;sup&#62;o&#60;/sup&#62;
+&#60;sup&#62;ɔ&#60;/sup&#62;
+&#60;sup&#62;ᴖ&#60;/sup&#62;
+&#60;sup&#62;ᴗ&#60;/sup&#62;
+&#60;sup&#62;p&#60;/sup&#62;
+&#60;sup&#62;t&#60;/sup&#62;
+&#60;sup&#62;u&#60;/sup&#62;
+&#60;sup&#62;ᴝ&#60;/sup&#62;
+&#60;sup&#62;ɯ&#60;/sup&#62;
+&#60;sup&#62;v&#60;/sup&#62;
+&#60;sup&#62;ᴥ&#60;/sup&#62;
+&#60;sup&#62;β&#60;/sup&#62;
+&#60;sup&#62;γ&#60;/sup&#62;
+&#60;sup&#62;δ&#60;/sup&#62;
+&#60;sup&#62;φ&#60;/sup&#62;
+&#60;sup&#62;χ&#60;/sup&#62;
+&#60;sup&#62;0&#60;/sup&#62;
+&#60;sup&#62;i&#60;/sup&#62;
+&#60;sup&#62;4&#60;/sup&#62;
+&#60;sup&#62;5&#60;/sup&#62;
+&#60;sup&#62;6&#60;/sup&#62;
+&#60;sup&#62;7&#60;/sup&#62;
+&#60;sup&#62;8&#60;/sup&#62;
+&#60;sup&#62;9&#60;/sup&#62;
+&#60;sup&#62;+&#60;/sup&#62;
+&#60;sup&#62;−&#60;/sup&#62;
+&#60;sup&#62;=&#60;/sup&#62;
+&#60;sup&#62;(&#60;/sup&#62;
+&#60;sup&#62;)&#60;/sup&#62;
+&#60;sup&#62;n&#60;/sup&#62;
+&#60;sup&#62;SM&#60;/sup&#62;
+&#60;sup&#62;TM&#60;/sup&#62;
+&#60;sup&#62;一&#60;/sup&#62;
+&#60;sup&#62;二&#60;/sup&#62;
+&#60;sup&#62;三&#60;/sup&#62;
+&#60;sup&#62;四&#60;/sup&#62;
+&#60;sup&#62;上&#60;/sup&#62;
+&#60;sup&#62;中&#60;/sup&#62;
+&#60;sup&#62;下&#60;/sup&#62;
+&#60;sup&#62;甲&#60;/sup&#62;
+&#60;sup&#62;乙&#60;/sup&#62;
+&#60;sup&#62;丙&#60;/sup&#62;
+&#60;sup&#62;丁&#60;/sup&#62;
+&#60;sup&#62;天&#60;/sup&#62;
+&#60;sup&#62;地&#60;/sup&#62;
+&#60;sup&#62;人&#60;/sup&#62;
+&#60;sup&#62;ʔ&#60;/sup&#62;
+&#60;sup&#62;ʕ&#60;/sup&#62;
+&#60;sup&#62;و&#60;/sup&#62;
+&#60;sup&#62;ي&#60;/sup&#62;
+<<===== RESULT =====<<
+
+
+>>===== CSL =====>>
+<style 
+      xmlns="http://purl.org/net/xbiblio/csl"
+      class="note"
+      version="1.0">
+  <info>
+    <id />
+    <title />
+    <updated>2009-08-10T04:49:00+09:00</updated>
+  </info>
+  <citation>
+    <layout>
+      <group delimiter="&#x0A;">
+        <text value="&#x00AA;"/>
+        <text value="&#x00B2;"/>
+        <text value="&#x00B3;"/>
+        <text value="&#x00B9;"/>
+        <text value="&#x00BA;"/>
+        <text value="&#x02B0;"/>
+        <text value="&#x02B1;"/>
+        <text value="&#x02B2;"/>
+        <text value="&#x02B3;"/>
+        <text value="&#x02B4;"/>
+        <text value="&#x02B5;"/>
+        <text value="&#x02B6;"/>
+        <text value="&#x02B7;"/>
+        <text value="&#x02B8;"/>
+        <text value="&#x02E0;"/>
+        <text value="&#x02E1;"/>
+        <text value="&#x02E2;"/>
+        <text value="&#x02E3;"/>
+        <text value="&#x02E4;"/>
+        <text value="&#x1D2C;"/>
+        <text value="&#x1D2D;"/>
+        <text value="&#x1D2E;"/>
+        <text value="&#x1D30;"/>
+        <text value="&#x1D31;"/>
+        <text value="&#x1D32;"/>
+        <text value="&#x1D33;"/>
+        <text value="&#x1D34;"/>
+        <text value="&#x1D35;"/>
+        <text value="&#x1D36;"/>
+        <text value="&#x1D37;"/>
+        <text value="&#x1D38;"/>
+        <text value="&#x1D39;"/>
+        <text value="&#x1D3A;"/>
+        <text value="&#x1D3C;"/>
+        <text value="&#x1D3D;"/>
+        <text value="&#x1D3E;"/>
+        <text value="&#x1D3F;"/>
+        <text value="&#x1D40;"/>
+        <text value="&#x1D41;"/>
+        <text value="&#x1D42;"/>
+        <text value="&#x1D43;"/>
+        <text value="&#x1D44;"/>
+        <text value="&#x1D45;"/>
+        <text value="&#x1D46;"/>
+        <text value="&#x1D47;"/>
+        <text value="&#x1D48;"/>
+        <text value="&#x1D49;"/>
+        <text value="&#x1D4A;"/>
+        <text value="&#x1D4B;"/>
+        <text value="&#x1D4C;"/>
+        <text value="&#x1D4D;"/>
+        <text value="&#x1D4F;"/>
+        <text value="&#x1D50;"/>
+        <text value="&#x1D51;"/>
+        <text value="&#x1D52;"/>
+        <text value="&#x1D53;"/>
+        <text value="&#x1D54;"/>
+        <text value="&#x1D55;"/>
+        <text value="&#x1D56;"/>
+        <text value="&#x1D57;"/>
+        <text value="&#x1D58;"/>
+        <text value="&#x1D59;"/>
+        <text value="&#x1D5A;"/>
+        <text value="&#x1D5B;"/>
+        <text value="&#x1D5C;"/>
+        <text value="&#x1D5D;"/>
+        <text value="&#x1D5E;"/>
+        <text value="&#x1D5F;"/>
+        <text value="&#x1D60;"/>
+        <text value="&#x1D61;"/>
+        <text value="&#x2070;"/>
+        <text value="&#x2071;"/>
+        <text value="&#x2074;"/>
+        <text value="&#x2075;"/>
+        <text value="&#x2076;"/>
+        <text value="&#x2077;"/>
+        <text value="&#x2078;"/>
+        <text value="&#x2079;"/>
+        <text value="&#x207A;"/>
+        <text value="&#x207B;"/>
+        <text value="&#x207C;"/>
+        <text value="&#x207D;"/>
+        <text value="&#x207E;"/>
+        <text value="&#x207F;"/>
+        <text value="&#x2120;"/>
+        <text value="&#x2122;"/>
+        <text value="&#x3192;"/>
+        <text value="&#x3193;"/>
+        <text value="&#x3194;"/>
+        <text value="&#x3195;"/>
+        <text value="&#x3196;"/>
+        <text value="&#x3197;"/>
+        <text value="&#x3198;"/>
+        <text value="&#x3199;"/>
+        <text value="&#x319A;"/>
+        <text value="&#x319B;"/>
+        <text value="&#x319C;"/>
+        <text value="&#x319D;"/>
+        <text value="&#x319E;"/>
+        <text value="&#x319F;"/>
+        <text value="&#x02C0;"/>
+        <text value="&#x02C1;"/>
+        <text value="&#x06E5;"/>
+        <text value="&#x06E6;"/>
+      </group>
+    </layout>
+  </citation>
+</style>
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+    {
+        "id": "ITEM-1", 
+        "title": "Bogus Title", 
+        "type": "book"
+    }
+]
+<<===== INPUT =====<<
