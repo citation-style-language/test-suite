@@ -2,8 +2,7 @@
        xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
       version="1.0"
-      page-range-format="chicago"
-      default-locale="en-US-x-sort-alalc97-x-sec-alalc97-x-pri-alalc97">
+      page-range-format="chicago">
   <info>
     <title>Bluebook (demo-x)</title>
     <id>http://gsl-nagoya-u.net/http/pub/bluebook-demo-x</id>
