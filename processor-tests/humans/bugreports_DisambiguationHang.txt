@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2009 and 2010 Frank G. Bennett, Jr. All Rights
+ * Copyright (c) 2009, 2010 and 2011 Frank G. Bennett, Jr. All Rights
  * Reserved.
  *
  * The contents of this file are subject to the Common Public
@@ -101,22 +101,14 @@ citation
 <<===== CITATIONS =====<<
 
 
-Citeproc-js insists on updating all three; if your processor can get
-by with doing only the last in the final iteration, that's
-a better result.
+Citeproc-js once insisted on updating all three.
 
-The reason for the update is that an internal register that
-counts the preferred number of names is set to 5 when the
-top two names are rendered as a pair, but is reduced to 3
-when the third cite is added. The register is bypassed during
-rendering, so the cites come out looking the same, but it
-would be more costly than it is worth to control for
-this in the tainting mechanism.
+Fixed in release 1.0.165.
 
 
 >>===== RESULT =====>>
->>[0] (Caminiti, Johnson, Burnod, Galli, &#38; Ferraina 1990a)
->>[1] (Caminiti, Johnson, Burnod, Galli, &#38; Ferraina 1990b)
+..[0] (Caminiti, Johnson, Burnod, Galli, &#38; Ferraina 1990a)
+..[1] (Caminiti, Johnson, Burnod, Galli, &#38; Ferraina 1990b)
 >>[2] (Caminiti, Johnson, &#38; Urbano 1990)
 <<===== RESULT =====<<
 
