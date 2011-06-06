@@ -61,6 +61,27 @@ bibliography
 <<===== RESULT =====<<
 
 
+This test originally anticipated that names should be
+forced to long form when generating sort keys. This
+behavior was in conflict with the explicit terms of the
+specification:
+
+  http://citationstyles.org/downloads/specification.html#sorting-macros
+
+It also caught users early in the deployment of citproc-js
+in Zotero:
+
+  http://forums.zotero.org/discussion/18246/sort-bibliography-by-author-priority-of-surnames-given-names-and-initials/
+
+The test has been amended to reflect correct behavior, by switching
+the input order of the "Book B" and "Book C" entries. Three other
+tests based on user data now cover this behavior:
+
+  sort_VariousNameMacros1.txt
+  sort_VariousNameMacros2.txt
+  sort_VariousNameMacros3.txt
+
+
 >>===== CSL =====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
@@ -117,7 +138,7 @@ bibliography
             }
         ], 
         "id": "ITEM-2", 
-        "title": "Book B", 
+        "title": "Book C", 
         "type": "book"
     }, 
     {
@@ -129,7 +150,7 @@ bibliography
             }
         ], 
         "id": "ITEM-3", 
-        "title": "Book C", 
+        "title": "Book B", 
         "type": "book"
     }
 ]
