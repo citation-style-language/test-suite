@@ -107,7 +107,6 @@ citation
     disambiguate-add-year-suffix="true">
     <sort>
       <key variable="issued" />
-      <key variable="author" />
     </sort>
     <layout delimiter="; ">
       <group delimiter=" ">
