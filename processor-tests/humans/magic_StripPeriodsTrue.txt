@@ -54,7 +54,7 @@ citation
 
 
 >>===== RESULT =====>>
-“An Article,” Am L J.
+“An Article,” Am LJ.
 <<===== RESULT =====<<
 
 
