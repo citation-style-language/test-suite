@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-Smith, Brown &#38; Jones (1980); Smith, Brown &#38; Jones (1980)
+Smith et al. (1980); Smith et al. (1980)
 <<===== RESULT =====<<
 
 

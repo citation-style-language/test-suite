@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-Asthma, Bronchitis, Cold (1990); Asthma, Bronchitis, Cold (1990); Dropsy, Enteritis, X. Fever (2000); Dropsy, Enteritis, Y. Fever (2000)
+Asthma et al. (1990); Asthma et al. (1990); Dropsy, Enteritis, X. Fever (2000); Dropsy, Enteritis, Y. Fever (2000)
 <<===== RESULT =====<<
 
 
