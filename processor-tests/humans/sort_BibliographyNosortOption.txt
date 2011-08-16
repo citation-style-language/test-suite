@@ -87,7 +87,7 @@ bibliography-nosort
     <sort>
       <key macro="author" />
     </sort>
-    <layout delimiter="; ">
+    <layout>
       <text macro="author" />
     </layout>
   </bibliography>

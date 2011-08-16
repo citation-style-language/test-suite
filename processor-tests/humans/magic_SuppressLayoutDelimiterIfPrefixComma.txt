@@ -50,13 +50,6 @@
 citation
 <<===== MODE =====<<
 
-
-
->>===== RESULT =====>>
->>[0] Smith 2003, 2010; Jones 2005
-<<===== RESULT =====<<
-
-
 >>===== CITATIONS =====>>
 [
   [
@@ -67,10 +60,8 @@ citation
           "id": "ITEM-1"
         },
         {
-          "id": "ITEM-2"
-        },
-        {
-          "id": "ITEM-3"
+          "id": "ITEM-2",
+          "prefix": ", cited in"
         }
       ],
       "properties": {
@@ -84,35 +75,24 @@ citation
 <<===== CITATIONS =====<<
 
 
+>>===== RESULT =====>>
+>>[0] Book A, cited in Book B
+<<===== RESULT =====<<
+
+
 >>===== CSL =====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
-      class="in-text"
+      class="note"
       version="1.0">
   <info>
     <id />
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
-  <macro name="author">
-    <names variable="author">
-      <name form="short" />
-    </names>
-  </macro>
-  <citation collapse="year-suffix"
-    et-al-min="3"
-    et-al-use-first="1"
-    et-al-subsequent-min="3"
-    et-al-subsequent-use-first="1"
-    disambiguate-add-year-suffix="true">
-    <sort>
-      <key variable="issued" />
-    </sort>
+  <citation>
     <layout delimiter="; ">
-      <group delimiter=" ">
-        <text macro="author"/>
-        <date variable="issued" form="text" date-parts="year"/>
-      </group>
+      <text variable="title"/>
     </layout>
   </citation>
 </style>
@@ -122,48 +102,13 @@ citation
 >>===== INPUT =====>>
 [
     {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John"
-            }
-        ], 
-        "issued":{
-          "date-parts":[
-            [2010]
-          ]
-        },
         "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Jones", 
-                "given": "2005"
-            }
-        ], 
-        "issued":{
-          "date-parts":[
-            [2005]
-          ]
-        },
-        "id": "ITEM-2", 
+        "title": "Book A", 
         "type": "book"
     },
     {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John"
-            }
-        ], 
-        "issued":{
-          "date-parts":[
-            [2003]
-          ]
-        },
-        "id": "ITEM-3", 
+        "id": "ITEM-2", 
+        "title": "Book B", 
         "type": "book"
     }
 ]

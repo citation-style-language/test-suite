@@ -213,7 +213,7 @@ Smith, Brown &#38; J. Jones (1980); Smith, Brown &#38; A. Jones (1980)
             }, 
             {
                 "family": "Jones", 
-                "given": "Arthur"
+                "given": "Alan"
             }
         ], 
         "id": "ITEM-4", 

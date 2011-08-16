@@ -79,7 +79,6 @@ http://forums.zotero.org/discussion/15166/stripperiods-not-working-yet/
   </macro>
   <citation>
     <layout suffix="." delimiter="; ">
-      <text variable="author" suffix=", " />
       <text strip-periods="true" variable="container-title" form="short" />
     </layout>
   </citation>
@@ -98,12 +97,6 @@ http://forums.zotero.org/discussion/15166/stripperiods-not-working-yet/
 >>===== INPUT =====>>
 [
     {
-        "author": [
-            {
-                "family": "Doe", 
-                "given": "John"
-            }
-        ], 
         "container-title": "American Law Journal", 
         "journalAbbreviation": "Am. L.J.", 
         "id": "ITEM-1", 
@@ -111,12 +104,6 @@ http://forums.zotero.org/discussion/15166/stripperiods-not-working-yet/
         "type": "article-journal"
     },
     {
-        "author": [
-            {
-                "family": "Doe", 
-                "given": "John"
-            }
-        ], 
         "container-title": "Am. L.J.", 
         "id": "ITEM-2", 
         "title": "Another Article", 

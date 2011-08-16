@@ -48,123 +48,170 @@
 
 >>===== MODE =====>>
 citation
-<<===== MODE =====<<
+<<===== MODE===== <<
 
-
+Test data from Zotero user brazuca.
 
 >>===== RESULT =====>>
->>[0] Smith 2003, 2010; Jones 2005
-<<===== RESULT =====<<
-
+>>[0] (UN DESA 2011b)
+>>[1] (UN DESA 2011c)
+>>[2] (UN DESA 2011a)
+<<===== RESULT===== <<
 
 >>===== CITATIONS =====>>
 [
   [
     {
-      "citationID": "CITATION-1",
       "citationItems": [
         {
-          "id": "ITEM-1"
-        },
-        {
-          "id": "ITEM-2"
-        },
-        {
-          "id": "ITEM-3"
+          "id": 76
         }
       ],
       "properties": {
-        "noteIndex": 1
-      }
+        "noteIndex": 0,
+        "index": 0
+      },
+      "citationID": "206sm2hms3"
     },
     [],
     []
+  ],
+  [
+    {
+      "citationItems": [
+        {
+          "id": 71
+        }
+      ],
+      "properties": {
+        "noteIndex": 0,
+        "index": 1
+      },
+      "citationID": "2ntq47t8li"
+    },
+    [
+      [
+        "206sm2hms3",
+        0
+      ]
+    ],
+    []
+  ],
+  [
+    {
+      "citationID": "1i0a7a5iuk",
+      "citationItems": [
+        {
+          "id": 72
+        }
+      ],
+      "properties": {
+        "noteIndex": 0,
+        "index": 2
+      }
+    },
+    [
+      [
+        "206sm2hms3",
+        0
+      ],
+      [
+        "2ntq47t8li",
+        0
+      ]
+    ],
+    []
   ]
 ]
-<<===== CITATIONS =====<<
-
+<<===== CITATIONS===== <<
 
 >>===== CSL =====>>
-<style 
-      xmlns="http://purl.org/net/xbiblio/csl"
-      class="in-text"
-      version="1.0">
-  <info>
-    <id />
-    <title />
-    <updated>2009-08-10T04:49:00+09:00</updated>
-  </info>
-  <macro name="author">
-    <names variable="author">
-      <name form="short" />
-    </names>
-  </macro>
-  <citation collapse="year-suffix"
-    et-al-min="3"
-    et-al-use-first="1"
-    et-al-subsequent-min="3"
-    et-al-subsequent-use-first="1"
-    disambiguate-add-year-suffix="true">
-    <sort>
-      <key variable="issued" />
-    </sort>
-    <layout delimiter="; ">
-      <group delimiter=" ">
-        <text macro="author"/>
-        <date variable="issued" form="text" date-parts="year"/>
-      </group>
-    </layout>
-  </citation>
-</style>
-<<===== CSL =====<<
-
+chicago-author-date.csl
+<<===== CSL===== <<
 
 >>===== INPUT =====>>
 [
-    {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John"
-            }
-        ], 
-        "issued":{
-          "date-parts":[
-            [2010]
-          ]
-        },
-        "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Jones", 
-                "given": "2005"
-            }
-        ], 
-        "issued":{
-          "date-parts":[
-            [2005]
-          ]
-        },
-        "id": "ITEM-2", 
-        "type": "book"
+  {
+    "id": 76,
+    "type": "report",
+    "multi": {
+      "_keys": {}
     },
-    {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John"
-            }
-        ], 
-        "issued":{
-          "date-parts":[
-            [2003]
-          ]
-        },
-        "id": "ITEM-3", 
-        "type": "book"
+    "title": "Monthly Briefing: World Economic Situation and Prospects",
+    "collection-title": "Monthly Briefing",
+    "publisher": "United Nations",
+    "URL": "http://www.un.org/en/development/desa/policy/wesp/wesp_mb/wesp_mb30.pdf",
+    "number": "30",
+    "author": [
+      {
+        "family": "UN DESA",
+        "given": "",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011",
+          4,
+          11
+        ]
+      ]
     }
+  },
+  {
+    "id": 71,
+    "type": "report",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "World Economic Situation and Prospects 2011: Update as of mid-2011",
+    "collection-title": "WESP",
+    "publisher": "United Nations",
+    "URL": "http://www.un.org/en/development/desa/policy/wesp/wesp_current/2011wespupdate_pr_en.pdf",
+    "author": [
+      {
+        "family": "UN DESA",
+        "given": "",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011",
+          5,
+          25
+        ]
+      ]
+    }
+  },
+  {
+    "id": 72,
+    "type": "book",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "World Economic Situation and Prospects 2011",
+    "publisher": "United Nations",
+    "call-number": "E.11.II.C.2",
+    "note": "#",
+    "author": [
+      {
+        "family": "UN DESA",
+        "given": "",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          1,
+          13
+        ]
+      ]
+    }
+  }
 ]
-<<===== INPUT =====<<
+<<===== INPUT===== <<

@@ -47,15 +47,14 @@
  */
 
 >>===== MODE =====>>
-citation
-<<===== MODE =====<<
-
-
+bibliography
+<<===== MODE===== <<
 
 >>===== RESULT =====>>
-Doe, John J, Jane G Roe &#38; Richard Q Snoakes.
-<<===== RESULT =====<<
-
+<div class="csl-bib-body">
+  <div class="csl-entry">J Doe, J Roe and R Noakes eds. Book Title</div>
+</div>
+<<===== RESULT===== <<
 
 >>===== CSL =====>>
 <style 
@@ -67,49 +66,51 @@ Doe, John J, Jane G Roe &#38; Richard Q Snoakes.
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
-  <macro name="container-title">
-    <text strip-periods="true" variable="container-title" form="short" />
-  </macro>
-  <macro name="author">
-    <names variable="author" >
-      <name and="symbol" name-as-sort-order="first" delimiter-precedes-last="never">
-	    <name-part name="given" strip-periods="true"/>
-	  </name>
+  <macro name="creator-macro">
+    <names variable="author">
+      <name and="text" delimiter-precedes-last="never" initialize-with=""/>
+      <label form="short" prefix=" "/>
+      <substitute>
+        <names variable="editor"/>
+      </substitute>
     </names>
   </macro>
-  <citation et-al-min="4" et-al-use-first="1" >
-    <layout delimiter="; " suffix="." >
-      <text macro="author"/>
+  <citation>
+    <layout>
+      <text value="bogus"/>
     </layout>
   </citation>
   <bibliography>
     <layout>
-      <text macro="author"/>
+      <group delimiter=". ">
+        <text macro="creator-macro"/>
+        <text variable="title"/>
+      </group>
     </layout>
-  </bibliography> 
+  </bibliography>
 </style>
-<<===== CSL =====<<
-
+<<===== CSL===== <<
 
 >>===== INPUT =====>>
 [
-    {
-        "author": [
-            {
-                "family": "Doe",
-                "given": "John J."
-            },
-            {
-                "family": "Roe",
-                "given": "Jane G."
-            },
-            {
-                "family": "Snoakes",
-                "given": "Richard Q."
-            }
-        ], 
-        "id": "ITEM-1", 
-        "type": "book"
-    }
+  {
+    "id": 45,
+    "type": "book",
+    "title": "Book Title",
+    "editor": [
+      {
+        "family": "Doe",
+        "given": "John"
+      },
+      {
+        "family": "Roe",
+        "given": "Jane"
+      },
+      {
+        "family": "Noakes",
+        "given": "Richard"
+      }
+    ]
+  }
 ]
-<<===== INPUT =====<<
+<<===== INPUT===== <<

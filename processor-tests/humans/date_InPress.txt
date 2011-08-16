@@ -51,11 +51,11 @@ citation
 <<===== MODE =====<<
 
 
-Test of month names for gendered languages.
 
 >>===== RESULT =====>>
-Junie Month 1stMASC, 1965
+(John Doe (in press))
 <<===== RESULT =====<<
+
 
 >>===== CSL =====>>
 <style 
@@ -67,42 +67,34 @@ Junie Month 1stMASC, 1965
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
-  <locale>
-    <terms>
-
-      <term name="month-06" gender="masculine">Junie Month</term>
-
-      <term name="ordinal-01" gender-form="masculine">stMASC</term>
-      <term name="ordinal-02" gender-form="masculine">ndMASC</term>
-      <term name="ordinal-03" gender-form="masculine">rdMASC</term>
-      <term name="ordinal-04" gender-form="masculine">thMASC</term>
-
-    </terms>
-  </locale>
   <citation>
-    <layout>
-      <date variable="issued" form="text" date-parts="year-month-day">
-        <date-part name="day" form="ordinal"/>
-      </date>
+    <layout prefix="(" suffix=")">
+      <group delimiter=" ">
+        <names variable="author">
+          <name/>
+        </names>
+        <date variable="issued" form="text" date-parts="year"/>
+      </group>
     </layout>
   </citation>
 </style>
 <<===== CSL =====<<
 
+
 >>===== INPUT =====>>
 [
-	{
-		"id": "ITEM-1",
+    {
+        "author": [
+            {
+                "family": "Doe",
+                "given": "John"
+            }
+        ], 
+        "id": "ITEM-1", 
         "issued": {
-            "date-parts": [
-                [
-                    "1965", 
-                    "6", 
-                    "1"
-                ]
-            ]
+            "literal": "(in press)"
         }, 
-		"type": "book"
-	}
+        "type": "book"
+    }
 ]
 <<===== INPUT =====<<

@@ -53,7 +53,9 @@ citation
 
 
 >>===== RESULT =====>>
->>[0] Smith 2003, 2010; Jones 2005
+..[0] (Aalto, <i>Book A</i>)
+..[1] (Aalto, <i>Book B</i>)
+>>[2] (Aalto, <i>Book C</i>)
 <<===== RESULT =====<<
 
 
@@ -65,12 +67,6 @@ citation
       "citationItems": [
         {
           "id": "ITEM-1"
-        },
-        {
-          "id": "ITEM-2"
-        },
-        {
-          "id": "ITEM-3"
         }
       ],
       "properties": {
@@ -78,6 +74,36 @@ citation
       }
     },
     [],
+    []
+  ],
+  [
+    {
+      "citationID": "CITATION-2",
+      "citationItems": [
+        {
+          "id": "ITEM-2"
+        }
+      ],
+      "properties": {
+        "noteIndex": 2
+      }
+    },
+    [],
+    []
+  ],
+  [
+    {
+      "citationID": "CITATION-3",
+      "citationItems": [
+        {
+          "id": "ITEM-3"
+        }
+      ],
+      "properties": {
+        "noteIndex": 3
+      }
+    },
+    [["CITATION-1",1],["CITATION-2",2]],
     []
   ]
 ]
@@ -87,7 +113,7 @@ citation
 >>===== CSL =====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
-      class="in-text"
+      class="note"
       version="1.0">
   <info>
     <id />
@@ -99,19 +125,15 @@ citation
       <name form="short" />
     </names>
   </macro>
-  <citation collapse="year-suffix"
-    et-al-min="3"
-    et-al-use-first="1"
-    et-al-subsequent-min="3"
-    et-al-subsequent-use-first="1"
-    disambiguate-add-year-suffix="true">
-    <sort>
-      <key variable="issued" />
-    </sort>
-    <layout delimiter="; ">
-      <group delimiter=" ">
-        <text macro="author"/>
-        <date variable="issued" form="text" date-parts="year"/>
+  <citation et-al-min="4" et-al-use-first="1" disambiguate-add-names="true" disambiguate-add-givenname="true">
+    <layout prefix="(" suffix=")">
+      <group delimiter=", ">
+        <text macro="author" />
+        <choose>
+          <if disambiguate="true">
+            <text variable="title" font-style="italic"/>
+          </if>
+        </choose>
       </group>
     </layout>
   </citation>
@@ -124,45 +146,33 @@ citation
     {
         "author": [
             {
-                "family": "Smith", 
-                "given": "John"
+                "family": "Aalto", 
+                "given": "Alan"
             }
         ], 
-        "issued":{
-          "date-parts":[
-            [2010]
-          ]
-        },
+        "title": "Book A",
         "id": "ITEM-1", 
         "type": "book"
     }, 
     {
         "author": [
             {
-                "family": "Jones", 
-                "given": "2005"
+                "family": "Aalto", 
+                "given": "Alan"
             }
         ], 
-        "issued":{
-          "date-parts":[
-            [2005]
-          ]
-        },
+        "title": "Book B",
         "id": "ITEM-2", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-                "family": "Smith", 
-                "given": "John"
+                "family": "Aalto", 
+                "given": "Alan"
             }
         ], 
-        "issued":{
-          "date-parts":[
-            [2003]
-          ]
-        },
+        "title": "Book C",
         "id": "ITEM-3", 
         "type": "book"
     }

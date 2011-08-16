@@ -47,15 +47,14 @@
  */
 
 >>===== MODE =====>>
-citation
-<<===== MODE =====<<
-
-
+bibliography
+<<===== MODE===== <<
 
 >>===== RESULT =====>>
-numbers = 1-3; numbers = 4 &#38; 5; number = 10
-<<===== RESULT =====<<
-
+<div class="csl-bib-body">
+  <div class="csl-entry">J Doe, J Roe and R Noakes eds. Book Title</div>
+</div>
+<<===== RESULT===== <<
 
 >>===== CSL =====>>
 <style 
@@ -67,34 +66,59 @@ numbers = 1-3; numbers = 4 &#38; 5; number = 10
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
+  <locale>
+    <terms>
+      <term name="editor" form="short">
+        <single>ed</single>
+        <multiple>eds</multiple>
+      </term>
+    </terms>
+  </locale>
+  <macro name="creator-macro">
+    <names variable="author">
+      <name and="text" delimiter-precedes-last="never" initialize-with=""/>
+      <label form="short" prefix=" "/>
+      <substitute>
+        <names variable="editor"/>
+      </substitute>
+    </names>
+  </macro>
   <citation>
-    <layout delimiter="; ">
-      <group delimiter=" = ">
-        <label term="issue"/>
-        <text variable="issue" />
-      </group>
+    <layout>
+      <text value="bogus"/>
     </layout>
   </citation>
+  <bibliography>
+    <layout>
+      <group delimiter=". ">
+        <text macro="creator-macro"/>
+        <text variable="title"/>
+      </group>
+    </layout>
+  </bibliography>
 </style>
-<<===== CSL =====<<
-
+<<===== CSL===== <<
 
 >>===== INPUT =====>>
 [
-    {
-        "id": "ITEM-1", 
-        "issue": "1-3", 
-        "type": "book"
-    },
-    {
-        "id": "ITEM-2", 
-        "issue": "4 & 5", 
-        "type": "book"
-    },
-    {
-        "id": "ITEM-3", 
-        "issue": "10", 
-        "type": "book"
-    }
+  {
+    "id": 45,
+    "type": "book",
+    "title": "Book Title",
+    "editor": [
+      {
+        "family": "Doe",
+        "given": "John"
+      },
+      {
+        "family": "Roe",
+        "given": "Jane"
+      },
+      {
+        "family": "Noakes",
+        "given": "Richard"
+      }
+    ]
+  }
 ]
-<<===== INPUT =====<<
+<<===== INPUT===== <<

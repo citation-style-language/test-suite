@@ -48,58 +48,49 @@
 
 >>===== MODE =====>>
 citation
-<<===== MODE =====<<
+<<===== MODE=====<<
 
+This is correct APA.
 
-Normalizes punctuation and grouping when multiple numbers are provided in input.
+See http://forums.zotero.org/discussion/17859/style-error-for-apa-non-primary-author-initials-incorrectly-included/
+
 
 >>===== RESULT =====>>
-edition: 1stMASC
+(D. G. Oblinger &#38; Oblinger, 2009)
 <<===== RESULT =====<<
 
 >>===== CSL =====>>
-<style 
-      xmlns="http://purl.org/net/xbiblio/csl"
-      class="note"
-      version="1.0">
-  <info>
-    <id />
-    <title />
-    <updated>2009-08-10T04:49:00+09:00</updated>
-  </info>
-  <locale>
-    <terms>
-
-      <term name="edition" gender="masculine">edition</term>
-      <term name="edition" form="short">edn</term>
-
-      <term name="ordinal-01" gender-form="masculine">stMASC</term>
-      <term name="ordinal-02" gender-form="masculine">ndMASC</term>
-      <term name="ordinal-03" gender-form="masculine">rdMASC</term>
-      <term name="ordinal-04" gender-form="masculine">thMASC</term>
-
-      <term name="ordinal-01">st</term>
-      <term name="ordinal-02">nd</term>
-      <term name="ordinal-03">rd</term>
-      <term name="ordinal-04">th</term>
-
-    </terms>
-  </locale>
-  <citation>
-    <layout delimiter="&#x0A;">
-      <text value="edition: "/>
-      <number variable="edition" form="ordinal"/>
-    </layout>
-  </citation>
-</style>
-<<===== CSL =====<<
+apa6th.csl
+<<===== CSL===== <<
 
 >>===== INPUT =====>>
 [
-	{
-		"id": "ITEM-1",
-		"edition" : "1",
-		"type": "book"
-	}
+  {
+    "id": 3,
+    "type": "book",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "Bookie",
+    "author": [
+      {
+        "family": "Oblinger",
+        "given": "Dan Gerry",
+        "isInstitution": ""
+      },
+      {
+        "family": "Oblinger",
+        "given": "Susan Mary",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
+    }
+  }
 ]
-<<===== INPUT =====<<
+<<===== INPUT===== <<
