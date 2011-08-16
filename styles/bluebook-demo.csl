@@ -1,7 +1,7 @@
 <style
        xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
-      version="1.0"
+      version="1.1x"
       page-range-format="chicago"
       default-locale="en-US-x-sort-ja-alalc97-x-sec-en-x-pri-ja-alalc97">
   <info>
@@ -21,7 +21,6 @@
   <locale>
 	<terms>
 	  <term name="ibid">id.</term>
-      <term name="rule"></term>
 	</terms>
   </locale>
 

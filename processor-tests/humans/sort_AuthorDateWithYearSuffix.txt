@@ -1,0 +1,198 @@
+/*
+ * Copyright (c) 2009, 2010 and 2011 Frank G. Bennett, Jr. All Rights
+ * Reserved.
+ *
+ * The contents of this file are subject to the Common Public
+ * Attribution License Version 1.0 (the “License”); you may not use
+ * this file except in compliance with the License. You may obtain a
+ * copy of the License at:
+ *
+ * http://bitbucket.org/fbennett/citeproc-js/src/tip/LICENSE.
+ *
+ * The License is based on the Mozilla Public License Version 1.1 but
+ * Sections 14 and 15 have been added to cover use of software over a
+ * computer network and provide for limited attribution for the
+ * Original Developer. In addition, Exhibit A has been modified to be
+ * consistent with Exhibit B.
+ *
+ * Software distributed under the License is distributed on an “AS IS”
+ * basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See
+ * the License for the specific language governing rights and limitations
+ * under the License.
+ *
+ * The Original Code is the citation formatting software known as
+ * "citeproc-js" (an implementation of the Citation Style Language
+ * [CSL]), including the original test fixtures and software located
+ * under the ./std subdirectory of the distribution archive.
+ *
+ * The Original Developer is not the Initial Developer and is
+ * __________. If left blank, the Original Developer is the Initial
+ * Developer.
+ *
+ * The Initial Developer of the Original Code is Frank G. Bennett,
+ * Jr. All portions of the code written by Frank G. Bennett, Jr. are
+ * Copyright (c) 2009 and 2010 Frank G. Bennett, Jr. All Rights Reserved.
+ *
+ * Alternatively, the contents of this file may be used under the
+ * terms of the GNU Affero General Public License (the [AGPLv3]
+ * License), in which case the provisions of [AGPLv3] License are
+ * applicable instead of those above. If you wish to allow use of your
+ * version of this file only under the terms of the [AGPLv3] License
+ * and not to allow others to use your version of this file under the
+ * CPAL, indicate your decision by deleting the provisions above and
+ * replace them with the notice and other provisions required by the
+ * [AGPLv3] License. If you do not delete the provisions above, a
+ * recipient may use your version of this file under either the CPAL
+ * or the [AGPLv3] License.”
+ */
+
+>>===== MODE =====>>
+citation
+<<===== MODE===== <<
+
+>>===== RESULT =====>>
+>>[0] (Day and Fitzpatrick, 2005a, 2005b; Mian et al., 2005)
+<<===== RESULT===== <<
+
+>>===== CITATIONS =====>>
+[
+  [
+    {
+      "citationID": "21j4228k5n",
+      "properties": {
+        "noteIndex": 0
+      },
+      "citationItems": [
+        {
+          "label": "page",
+          "id": 30
+        },
+        {
+          "label": "page",
+          "id": 32
+        },
+        {
+          "label": "page",
+          "id": 29
+        }
+      ]
+    },
+    [],
+    []
+  ]
+]
+<<===== CITATIONS===== <<
+
+>>===== CSL =====>>
+journal-neuroscience.csl
+<<===== CSL===== <<
+
+>>===== INPUT =====>>
+[
+  {
+    "id": 30,
+    "type": "article-journal",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "The vestibular system",
+    "container-title": "Curr Biol",
+    "page": "R583-6",
+    "volume": "15",
+    "issue": "15",
+    "author": [
+      {
+        "family": "Day",
+        "given": "B. L.",
+        "isInstitution": ""
+      },
+      {
+        "family": "Fitzpatrick",
+        "given": "R. C.",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "type": "paper-conference",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "Stair descent: kinematics in healthy young and older adults",
+    "publisher-place": "Belgrade, Serbia",
+    "page": "129-130",
+    "event": "European College of Sport Science 10th Annual Congress",
+    "event-place": "Belgrade, Serbia",
+    "author": [
+      {
+        "family": "Mian",
+        "given": "O.S.",
+        "isInstitution": ""
+      },
+      {
+        "family": "Thom",
+        "given": "J. M.",
+        "isInstitution": ""
+      },
+      {
+        "family": "Narici",
+        "given": "M. V.",
+        "isInstitution": ""
+      },
+      {
+        "family": "Baltzopoulos",
+        "given": "V.",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "type": "article-journal",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "Virtual head rotation reveals a process of route reconstruction from human vestibular signals",
+    "container-title": "J Physiol",
+    "page": "591-7",
+    "volume": "567",
+    "issue": "Pt 2",
+    "abstract": "The vestibular organs can feed perceptual processes that build a picture of our route as we move about in the world. However, raw vestibular signals do not define the path taken because, during travel, the head can undergo accelerations unrelated to the route and also be orientated in any direction to vary the signal. This study investigated the computational process by which the brain transforms raw vestibular signals for the purpose of route reconstruction. We electrically stimulated the vestibular nerves of human subjects to evoke a virtual head rotation fixed in skull co-ordinates and measure its perceptual effect. The virtual head rotation caused subjects to perceive an illusory whole-body rotation that was a cyclic function of head-pitch angle. They perceived whole-body yaw rotation in one direction with the head pitched forwards, the opposite direction with the head pitched backwards, and no rotation with the head in an intermediate position. A model based on vector operations and the anatomy and firing properties of semicircular canals precisely predicted these perceptions. In effect, a neural process computes the vector dot product between the craniocentric vestibular vector of head rotation and the gravitational unit vector. This computation yields the signal of body rotation in the horizontal plane that feeds our perception of the route travelled.",
+    "author": [
+      {
+        "family": "Day",
+        "given": "B. L.",
+        "isInstitution": ""
+      },
+      {
+        "family": "Fitzpatrick",
+        "given": "R. C.",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    }
+  }
+]
+<<===== INPUT===== <<
+

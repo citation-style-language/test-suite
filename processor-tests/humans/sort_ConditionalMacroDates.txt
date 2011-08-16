@@ -47,74 +47,62 @@
  */
 
 >>===== MODE =====>>
-citation
+bibliography
 <<===== MODE =====<<
 
 
 
 >>===== RESULT =====>>
->>[0] Smith 2003, 2010; Jones 2005
+<div class="csl-bib-body">
+  <div class="csl-entry">Book 3</div>
+  <div class="csl-entry">Book 1</div>
+  <div class="csl-entry">Book 2</div>
+</div>
 <<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
-[
-  [
-    {
-      "citationID": "CITATION-1",
-      "citationItems": [
-        {
-          "id": "ITEM-1"
-        },
-        {
-          "id": "ITEM-2"
-        },
-        {
-          "id": "ITEM-3"
-        }
-      ],
-      "properties": {
-        "noteIndex": 1
-      }
-    },
-    [],
-    []
-  ]
-]
-<<===== CITATIONS =====<<
 
 
 >>===== CSL =====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
-      class="in-text"
+      class="note"
       version="1.0">
   <info>
     <id />
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
-  <macro name="author">
-    <names variable="author">
-      <name form="short" />
-    </names>
+  <macro name="issued-date">
+    <group prefix="[" suffix="]">
+    <text variable="title"/>
+    <choose>
+      <if type="book">
+        <date variable="issued">
+          <date-part name="year" form="long"/>
+        </date>
+      </if>
+      <else>
+        <date variable="issued">
+          <date-part name="year" form="long" suffix="-"/>
+          <date-part name="month" form="numeric" suffix="-"/>
+          <date-part name="day" form="numeric"/>
+        </date>
+      </else>
+    </choose>
+    </group>
   </macro>
-  <citation collapse="year-suffix"
-    et-al-min="3"
-    et-al-use-first="1"
-    et-al-subsequent-min="3"
-    et-al-subsequent-use-first="1"
-    disambiguate-add-year-suffix="true">
-    <sort>
-      <key variable="issued" />
-    </sort>
-    <layout delimiter="; ">
-      <group delimiter=" ">
-        <text macro="author"/>
-        <date variable="issued" form="text" date-parts="year"/>
-      </group>
+  <citation>
+    <layout>
+      <text value="bogus"/>
     </layout>
   </citation>
+  <bibliography>
+    <sort>
+      <key macro="issued-date" sort="ascending"/>
+    </sort>
+    <layout>
+      <text variable="title" />
+    </layout>
+  </bibliography>
 </style>
 <<===== CSL =====<<
 
@@ -122,49 +110,28 @@ citation
 >>===== INPUT =====>>
 [
     {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John"
-            }
-        ], 
-        "issued":{
-          "date-parts":[
-            [2010]
-          ]
-        },
-        "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Jones", 
-                "given": "2005"
-            }
-        ], 
-        "issued":{
-          "date-parts":[
-            [2005]
-          ]
-        },
-        "id": "ITEM-2", 
-        "type": "book"
+        "id": "item-1", 
+        "title": "Book 2", 
+        "type": "article-journal",
+        "issued": {
+          "date-parts": [[2002,12,25]]
+        }
     },
     {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John"
-            }
-        ], 
-        "issued":{
-          "date-parts":[
-            [2003]
-          ]
-        },
-        "id": "ITEM-3", 
-        "type": "book"
+        "id": "item-2", 
+        "title": "Book 3", 
+        "type": "book",
+        "issued": {
+          "date-parts": [[2002,11,30]]
+        }
+    }, 
+    {
+        "id": "item-3", 
+        "title": "Book 1", 
+        "type": "article-journal",
+        "issued": {
+          "date-parts": [[2002,10,25]]
+        }
     }
 ]
 <<===== INPUT =====<<

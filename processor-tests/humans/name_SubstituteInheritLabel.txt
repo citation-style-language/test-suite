@@ -69,7 +69,7 @@ citation
   </info>
   <locale>
     <terms>
-      <term name="et al.">hello</term>
+      <term name="et-al">hello</term>
     </terms>
   </locale>
   <citation>

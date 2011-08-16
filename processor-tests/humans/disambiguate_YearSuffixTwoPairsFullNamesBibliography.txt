@@ -96,7 +96,7 @@ Original test by Bruce D'Arcus.
   <bibliography>
     <sort>
       <key macro="author"/>
-      <key variable="date" />
+      <key macro="date" />
     </sort>
     <layout>
       <text macro="author" suffix=", "/>

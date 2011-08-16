@@ -50,33 +50,29 @@
 citation
 <<===== MODE =====<<
 
-This test confirms that the symptoms described here have been
-addressed: http://forums.zotero.org/discussion/3579
-
 
 >>===== RESULT =====>>
-..[0] [1]
->>[1] [1]–[4]
+..[0] (Doe p. 12)
+..[1] (ibid-with-locator)
+..[2] (Roe bk. 20)
+>>[3] (ibid-with-locator)
 <<===== RESULT =====<<
 
->>===== CITATIONS =====>>
+
+>>=====  CITATIONS =====>>
 [
     [
         {
             "citationID": "CITATION-1", 
             "citationItems": [
                 {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }, 
-                {
-                    "id": "ITEM-3"
+                    "id": "ITEM-1", 
+                    "locator": "12"
                 }
             ], 
             "properties": {
-                "noteIndex": 0
+                "index": 0, 
+                "noteIndex": 1
             }
         }, 
         [], 
@@ -87,52 +83,85 @@ addressed: http://forums.zotero.org/discussion/3579
             "citationID": "CITATION-2", 
             "citationItems": [
                 {
-                    "id": "ITEM-4"
+                    "id": "ITEM-1", 
+                    "locator": "12",
+                    "label": "book"
                 }
             ], 
             "properties": {
-                "noteIndex": 0
+                "index": 1, 
+                "noteIndex": 2
             }
         }, 
-        [], 
         [
             [
                 "CITATION-1", 
-                0
+                1
             ]
-        ]
-    ], 
+        ], 
+        []
+    ],
     [
         {
-            "citationID": "CITATION-1", 
+            "citationID": "CITATION-3", 
             "citationItems": [
                 {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }, 
-                {
-                    "id": "ITEM-3"
-                }, 
-                {
-                    "id": "ITEM-4"
+                    "id": "ITEM-2", 
+                    "locator": "20",
+					"label": "book"
                 }
             ], 
             "properties": {
-                "noteIndex": 0
+                "index": 2, 
+                "noteIndex": 3
             }
         }, 
         [
             [
+                "CITATION-1", 
+                1
+            ],
+            [
                 "CITATION-2", 
-                0
+                2
+            ]
+        ], 
+        []
+    ], 
+    [
+        {
+            "citationID": "CITATION-4", 
+            "citationItems": [
+                {
+                    "id": "ITEM-2", 
+                    "locator": "20",
+					"label": "chapter"
+                }
+            ], 
+            "properties": {
+                "index": 3, 
+                "noteIndex": 4
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ],
+            [
+                "CITATION-2", 
+                2
+            ],
+            [
+                "CITATION-3", 
+                3
             ]
         ], 
         []
     ]
 ]
-<<===== CITATIONS =====<<
+<<=====  CITATIONS =====<<
+
 
 
 >>===== CSL =====>>
@@ -145,13 +174,31 @@ addressed: http://forums.zotero.org/discussion/3579
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
-  <citation 
-         collapse="citation-number">
-    <sort>
-      <key variable="citation-number" />
-    </sort>
-    <layout delimiter=", ">
-      <text prefix="[" suffix="]" variable="citation-number" />
+  <citation>
+    <layout delimiter="; " prefix="(" suffix=")">
+      <choose>
+        <if position="first">
+          <names variable="author">
+            <name form="short"/>
+          </names>
+          <group prefix=" ">
+            <label variable="locator" form="short" suffix=" "/>
+            <text variable="locator"/>
+          </group>
+        </if>
+        <else-if position="ibid-with-locator">
+          <text value="ibid-with-locator"/>
+        </else-if>
+        <else-if position="ibid">
+          <text term="ibid"/>
+        </else-if>
+        <else-if position="subsequent">
+          <text value="subsequent"/>
+        </else-if>
+        <else>
+          <text value="huh?"/>
+        </else>
+      </choose>
     </layout>
   </citation>
 </style>
@@ -161,23 +208,47 @@ addressed: http://forums.zotero.org/discussion/3579
 >>===== INPUT =====>>
 [
     {
+        "author": [
+            {
+                "family": "Doe", 
+                "given": "John", 
+                "static-ordering": false
+            }
+        ], 
         "id": "ITEM-1", 
-        "title": "Paper 1", 
         "type": "book"
     }, 
     {
+        "author": [
+            {
+                "family": "Roe", 
+                "given": "Jane", 
+                "static-ordering": false
+            }
+        ], 
         "id": "ITEM-2", 
-        "title": "Paper 2", 
         "type": "book"
     }, 
     {
+        "author": [
+            {
+                "family": "Noakes", 
+                "given": "John", 
+                "static-ordering": false
+            }
+        ], 
         "id": "ITEM-3", 
-        "title": "Paper 3", 
         "type": "book"
-    },
+    }, 
     {
+        "author": [
+            {
+                "family": "Snoakes", 
+                "given": "Richard", 
+                "static-ordering": false
+            }
+        ], 
         "id": "ITEM-4", 
-        "title": "Paper 4", 
         "type": "book"
     }
 ]

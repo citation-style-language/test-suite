@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-33210
+Count=(3) | Count=(3) | Count=(2) | Count=(1) | Count=()
 <<===== RESULT =====<<
 
 
@@ -70,10 +70,12 @@ citation
   <citation 
          et-al-min="4"
          et-al-use-first="3">
-    <layout>
+    <layout delimiter=" | ">
+      <text value="Count=("/>
       <names variable="author">
         <name form="count" />
       </names>
+      <text value=")"/>
     </layout>
   </citation>
 </style>

@@ -57,6 +57,7 @@ UK
 Review of Book by A.N. Author
 Writings on UK People and Places
 All for One. For All.
+OC 1
 <<===== RESULT =====<<
 
 
@@ -99,6 +100,11 @@ All for One. For All.
     {
         "id": "ITEM-4",
         "title": "All for one. For all.", 
+        "type": "book"
+    },
+    {
+        "id": "ITEM-5",
+        "title": "OC 1", 
         "type": "book"
     }
 ]

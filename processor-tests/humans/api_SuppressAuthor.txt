@@ -53,7 +53,8 @@ citation
 
 
 >>===== RESULT =====>>
->>[0] Smith 2003, 2010; Jones 2005
+..[0] Blevins
+>>[1] Colostomy
 <<===== RESULT =====<<
 
 
@@ -64,13 +65,8 @@ citation
       "citationID": "CITATION-1",
       "citationItems": [
         {
-          "id": "ITEM-1"
-        },
-        {
-          "id": "ITEM-2"
-        },
-        {
-          "id": "ITEM-3"
+          "id": "ITEM-1",
+          "suppress-author": true
         }
       ],
       "properties": {
@@ -78,6 +74,22 @@ citation
       }
     },
     [],
+    []
+  ],
+  [
+    {
+      "citationID": "CITATION-2",
+      "citationItems": [
+        {
+          "id": "ITEM-2",
+          "suppress-author": true
+        }
+      ],
+      "properties": {
+        "noteIndex": 2
+      }
+    },
+    [["CITATION-1", 1]],
     []
   ]
 ]
@@ -87,33 +99,24 @@ citation
 >>===== CSL =====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
-      class="in-text"
+      class="note"
       version="1.0">
   <info>
     <id />
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
-  <macro name="author">
-    <names variable="author">
-      <name form="short" />
-    </names>
-  </macro>
-  <citation collapse="year-suffix"
-    et-al-min="3"
-    et-al-use-first="1"
-    et-al-subsequent-min="3"
-    et-al-subsequent-use-first="1"
-    disambiguate-add-year-suffix="true">
-    <sort>
-      <key variable="issued" />
-    </sort>
-    <layout delimiter="; ">
-      <group delimiter=" ">
-        <text macro="author"/>
-        <date variable="issued" form="text" date-parts="year"/>
-      </group>
-    </layout>
+   <citation>
+     <layout delimiter="; ">
+       <group delimiter="+">
+         <names variable="author">
+           <name form="short" />
+         </names>
+         <names variable="editor">
+           <name form="short" />
+         </names>
+       </group>
+     </layout>
   </citation>
 </style>
 <<===== CSL =====<<
@@ -124,46 +127,27 @@ citation
     {
         "author": [
             {
-                "family": "Smith", 
-                "given": "John"
+                "family": "Aalto", 
+                "given": "Alan"
             }
         ], 
-        "issued":{
-          "date-parts":[
-            [2010]
-          ]
-        },
-        "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "author": [
+        "editor": [
             {
-                "family": "Jones", 
-                "given": "2005"
+                "family": "Blevins", 
+                "given": "Butthead"
             }
         ], 
-        "issued":{
-          "date-parts":[
-            [2005]
-          ]
-        },
-        "id": "ITEM-2", 
+        "id": "ITEM-1", 
         "type": "book"
     },
     {
-        "author": [
+        "editor": [
             {
-                "family": "Smith", 
-                "given": "John"
+                "family": "Colostomy", 
+                "given": "Colin"
             }
         ], 
-        "issued":{
-          "date-parts":[
-            [2003]
-          ]
-        },
-        "id": "ITEM-3", 
+        "id": "ITEM-2", 
         "type": "book"
     }
 ]

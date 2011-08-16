@@ -47,124 +47,95 @@
  */
 
 >>===== MODE =====>>
-citation
-<<===== MODE =====<<
-
-
+bibliography
+<<===== MODE===== <<
 
 >>===== RESULT =====>>
->>[0] Smith 2003, 2010; Jones 2005
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
-[
-  [
-    {
-      "citationID": "CITATION-1",
-      "citationItems": [
-        {
-          "id": "ITEM-1"
-        },
-        {
-          "id": "ITEM-2"
-        },
-        {
-          "id": "ITEM-3"
-        }
-      ],
-      "properties": {
-        "noteIndex": 1
-      }
-    },
-    [],
-    []
-  ]
-]
-<<===== CITATIONS =====<<
-
+<div class="csl-bib-body">
+  <div class="csl-entry">Brooker, C. (2011, July 24). The news coverage of the Norway mass-killings was fact-free conjecture. <i>The Guardian</i>. London. Retrieved from http://www.guardian.co.uk/commentisfree/2011/jul/24/charlie-brooker-norway-mass-killings</div>
+  <div class="csl-entry">Brooker, C. (2011, July 31). Let’s think outside the box here: maybe blue-sky thinking is nonsense. <i>The Guardian</i>. London. Retrieved from http://www.guardian.co.uk/commentisfree/2011/jul/31/blue-sky-thinking</div>
+</div>
+<<===== RESULT===== <<
 
 >>===== CSL =====>>
-<style 
-      xmlns="http://purl.org/net/xbiblio/csl"
-      class="in-text"
-      version="1.0">
-  <info>
-    <id />
-    <title />
-    <updated>2009-08-10T04:49:00+09:00</updated>
-  </info>
-  <macro name="author">
-    <names variable="author">
-      <name form="short" />
-    </names>
-  </macro>
-  <citation collapse="year-suffix"
-    et-al-min="3"
-    et-al-use-first="1"
-    et-al-subsequent-min="3"
-    et-al-subsequent-use-first="1"
-    disambiguate-add-year-suffix="true">
-    <sort>
-      <key variable="issued" />
-    </sort>
-    <layout delimiter="; ">
-      <group delimiter=" ">
-        <text macro="author"/>
-        <date variable="issued" form="text" date-parts="year"/>
-      </group>
-    </layout>
-  </citation>
-</style>
-<<===== CSL =====<<
-
+apa.csl
+<<===== CSL===== <<
 
 >>===== INPUT =====>>
 [
-    {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John"
-            }
-        ], 
-        "issued":{
-          "date-parts":[
-            [2010]
-          ]
-        },
-        "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Jones", 
-                "given": "2005"
-            }
-        ], 
-        "issued":{
-          "date-parts":[
-            [2005]
-          ]
-        },
-        "id": "ITEM-2", 
-        "type": "book"
+  {
+    "id": 67,
+    "type": "article-newspaper",
+    "multi": {
+      "_keys": {}
     },
-    {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John"
-            }
-        ], 
-        "issued":{
-          "date-parts":[
-            [2003]
-          ]
-        },
-        "id": "ITEM-3", 
-        "type": "book"
+    "title": "Let's think outside the box here: maybe blue-sky thinking is nonsense",
+    "container-title": "The Guardian",
+    "publisher-place": "London",
+    "event-place": "London",
+    "URL": "http://www.guardian.co.uk/commentisfree/2011/jul/31/blue-sky-thinking",
+    "author": [
+      {
+        "family": "Brooker",
+        "given": "Charlie",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          7,
+          31
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2011,
+          7,
+          31
+        ]
+      ]
     }
+  },
+  {
+    "id": 66,
+    "type": "article-newspaper",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "The news coverage of the Norway mass-killings was fact-free conjecture",
+    "container-title": "The Guardian",
+    "publisher-place": "London",
+    "event-place": "London",
+    "URL": "http://www.guardian.co.uk/commentisfree/2011/jul/24/charlie-brooker-norway-mass-killings",
+    "author": [
+      {
+        "family": "Brooker",
+        "given": "Charlie",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011",
+          7,
+          24
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2011,
+          7,
+          31
+        ]
+      ]
+    }
+  }
 ]
-<<===== INPUT =====<<
+<<===== INPUT===== <<
