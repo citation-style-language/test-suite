@@ -54,7 +54,7 @@ citation
 
 
 >>===== RESULT =====>>
-Doe, Book A, 2000, pp. 100–101; Roe, Book B, 2001, chap. 200–201.
+Doe, Book A, 2000, pp. 100–103; Roe, Book B, 2001, chap. 200 &#38; 201.
 <<===== RESULT =====<<
 
 
@@ -64,12 +64,12 @@ Doe, Book A, 2000, pp. 100–101; Roe, Book B, 2001, chap. 200–201.
         {
             "id": "ITEM-1", 
             "label": "page", 
-            "locator": "100-101"
+            "locator": "100 - 103"
         }, 
         {
             "id": "ITEM-2", 
             "label": "chapter", 
-            "locator": "200-201"
+            "locator": "200 - 201"
         }
     ]
 ]
@@ -98,7 +98,7 @@ Doe, Book A, 2000, pp. 100–101; Roe, Book B, 2001, chap. 200–201.
         </date>
         <group delimiter=" ">
           <label form="short" strip-periods="false" variable="locator" />
-          <text variable="locator" />
+          <number variable="locator" />
         </group>
       </group>
     </layout>
@@ -132,8 +132,7 @@ Doe, Book A, 2000, pp. 100–101; Roe, Book B, 2001, chap. 200–201.
         "author": [
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }
         ], 
         "id": "ITEM-2", 
