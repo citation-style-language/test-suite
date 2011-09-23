@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-5
+5 ed.; 5
 <<===== RESULT =====<<
 
 
@@ -68,7 +68,7 @@ citation
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
   <citation>
-    <layout>
+    <layout delimiter="; ">
       <number variable="edition"/>
     </layout>
   </citation>
@@ -79,8 +79,13 @@ citation
 >>===== INPUT =====>>
 [
     {
-        "edition": "5th ed.", 
+        "edition": "5 ed.", 
         "id": "ITEM-1", 
+        "type": "book"
+    },
+    {
+        "edition": "5 edition", 
+        "id": "ITEM-2", 
         "type": "book"
     }
 ]
