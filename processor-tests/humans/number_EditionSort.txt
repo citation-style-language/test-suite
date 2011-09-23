@@ -54,7 +54,7 @@ citation
 
 
 >>===== RESULT =====>>
-first, second, third, special edition
+first, 2nd, third, special issue
 <<===== RESULT =====<<
 
 
@@ -102,7 +102,7 @@ first, second, third, special edition
         "type": "book"
     }, 
     {
-        "edition": "special edition", 
+        "edition": "special issue", 
         "id": "ITEM-3", 
         "title": "Item 3", 
         "type": "book"
