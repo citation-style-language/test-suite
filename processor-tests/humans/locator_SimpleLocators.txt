@@ -54,7 +54,7 @@ citation
 
 
 >>===== RESULT =====>>
-Doe, Book A, 2000, pp. 100–103; Roe, Book B, 2001, chap. 200 &#38; 201.
+Doe, Book A, 2000, pp. 100–103; Roe, Book B, 2001, chap. 200–201.
 <<===== RESULT =====<<
 
 
