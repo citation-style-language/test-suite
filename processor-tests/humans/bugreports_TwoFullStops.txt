@@ -52,7 +52,7 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">author01, author01. 1998. <i>Test Title</i>. Mega Edition. January.</div>
+  <div class="csl-entry">author01, author01. 1998. <i>Test Title</i>. Mega ed. January.</div>
 </div>
 <<===== RESULT =====<<
 

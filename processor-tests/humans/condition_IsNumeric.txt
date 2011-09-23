@@ -53,9 +53,9 @@ citation
 
 
 >>===== RESULT =====>>
-Numeric true: 2
-Numeric true: 2
-Numeric false: Second volume
+Numeric false: Volume 2
+Numeric true: 2nd
+Numeric false: Second vol.
 <<===== RESULT =====<<
 
 >>===== CITATION-ITEMS =====>>
@@ -124,7 +124,7 @@ Numeric false: Second volume
     {
         "id": "ITEM-3", 
         "title": "Work 3", 
-        "volume": "Second volume",
+        "volume": "Second vol.",
         "type": "book"
     }
 ]

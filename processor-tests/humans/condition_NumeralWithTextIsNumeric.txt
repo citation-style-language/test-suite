@@ -86,7 +86,7 @@ TRUE
 >>===== INPUT =====>>
 [
     {
-        "edition": "5th ed.", 
+        "edition": "5th", 
         "id": "ITEM-1", 
         "type": "book"
     }
