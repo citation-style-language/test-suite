@@ -319,13 +319,13 @@ Example T, at n11564–68
     }, 
     {
         "id": "ITEM-19", 
-        "page": "n11564-n1568", 
+        "page": "n11564 - n1568", 
         "title": "Example S", 
         "type": "book"
     }, 
     {
         "id": "ITEM-20", 
-        "page": "n11564-1568", 
+        "page": "n11564 - 1568", 
         "title": "Example T", 
         "type": "book"
     }

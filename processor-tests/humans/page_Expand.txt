@@ -135,37 +135,37 @@ Example: first less than second, at 123N110–N115, 000c23–22
     }, 
     {
         "id": "ITEM-2", 
-        "page": "N110-5", 
+        "page": "N110 - 5", 
         "title": "Example: prefix on one number only", 
         "type": "book"
     }, 
     {
         "id": "ITEM-3", 
-        "page": "N110-N5", 
+        "page": "N110 - N5", 
         "title": "Example: same prefix on both numbers", 
         "type": "book"
     }, 
     {
         "id": "ITEM-4", 
-        "page": "N110-P5", 
+        "page": "N110 - P5", 
         "title": "Example: different prefixes on both numbers", 
         "type": "book"
     }, 
     {
         "id": "ITEM-5", 
-        "page": "123N110-N5", 
+        "page": "123N110 - N5", 
         "title": "Example: leading number before prefix", 
         "type": "book"
     }, 
     {
         "id": "ITEM-6", 
-        "page": "123N110-N5, 456K200-99", 
+        "page": "123N110 - N5, 456K200 - 99", 
         "title": "Example: multiple ranges", 
         "type": "book"
     }, 
     {
         "id": "ITEM-7", 
-        "page": "123N110-N5, 000c23-22", 
+        "page": "123N110 - N5, 000c23 - 22", 
         "title": "Example: first less than second", 
         "type": "book"
     }
