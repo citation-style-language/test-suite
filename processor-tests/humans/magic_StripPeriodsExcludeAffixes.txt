@@ -54,7 +54,7 @@ citation
 
 
 >>===== RESULT =====>>
-Jane Roe.Journ Title.Jane Roe.Journ Title.
+John Doe.Journal Title.Jane Roe.Journ Title.
 <<===== RESULT =====<<
 
 
@@ -69,7 +69,7 @@ Jane Roe.Journ Title.Jane Roe.Journ Title.
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
   <macro name="container-title">
-    <text strip-periods="true" variable="container-title" form="short" />
+    <text strip-periods="true" variable="container-title" form="short"/>
   </macro>
   <macro name="author">
     <names variable="author" >
@@ -109,7 +109,7 @@ Jane Roe.Journ Title.Jane Roe.Journ Title.
            }
         ],
         "container-title": "Journ. Title", 
-        "id": "ITEM-1", 
+        "id": "ITEM-2", 
         "type": "article-journal"
     }
 ]
