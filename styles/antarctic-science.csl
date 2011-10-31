@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0"
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.1mlz1"
 	   page-range-format="expanded"
 	   demote-non-dropping-particle="never">
   <info>
@@ -90,7 +90,7 @@
 	</choose>
   </macro>
   <macro name="publisher">
-	<group delimiter=": ">
+	<group delimiter=": " subgroup-delimiter=", " and="symbol">
 	  <text variable="publisher-place"/>
 	  <text variable="publisher"/>
 	</group>
