@@ -94,16 +94,6 @@ One &#60;i&#62;TwoH<i> Three</i> Four Five!
         {
             "id": "ITEM-6"
         }
-    ], 
-    [
-        {
-            "id": "ITEM-7"
-        }
-    ], 
-    [
-        {
-            "id": "ITEM-8"
-        }
     ]
 ]
 <<===== CITATION-ITEMS =====<<
@@ -160,16 +150,6 @@ One &#60;i&#62;TwoH<i> Three</i> Four Five!
     {
         "id": "ITEM-6", 
         "title": "One TwoF</i> Three Four Five!", 
-        "type": "book"
-    }, 
-    {
-        "id": "ITEM-7", 
-        "title": "One <i>TwoG</i> Three</i> Four Five!", 
-        "type": "book"
-    }, 
-    {
-        "id": "ITEM-8", 
-        "title": "One <i>TwoH<i> Three</i> Four Five!", 
         "type": "book"
     }
 ]
