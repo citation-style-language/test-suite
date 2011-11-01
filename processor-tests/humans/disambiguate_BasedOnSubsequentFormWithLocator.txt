@@ -58,7 +58,7 @@ John Noakes, His Book 34 (1730).
 Jane Roe, Her Book 45 (1998).
 Jane Roe, Her Other Book 56 (1999).
 Doe, His Book, supra note 1, at 67.
-Roe, Her Book, supra note 3, at 78.
+Roe, Her Book, supra note 2, at 78.
 Noakes, supra note 2, at 89.
 <<===== RESULT =====<<
 
@@ -108,7 +108,7 @@ Noakes, supra note 2, at 89.
     ], 
     [
         {
-            "first-reference-note-number": "3", 
+            "first-reference-note-number": "2", 
             "id": "ITEM-3", 
             "locator": "78", 
             "note-number": "5", 
