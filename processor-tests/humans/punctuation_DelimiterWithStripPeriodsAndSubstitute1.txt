@@ -52,7 +52,7 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">J Doe, J Roe and R Noakes eds. Book Title</div>
+  <div class="csl-entry">J Doe, J Roe and R Noakes eds. Book Title. http://example.com/</div>
 </div>
 <<===== RESULT===== <<
 
@@ -85,6 +85,7 @@ bibliography
       <group delimiter=". ">
         <text macro="creator-macro" strip-periods="true"/>
         <text variable="title"/>
+        <text variable="URL"/>
       </group>
     </layout>
   </bibliography>
@@ -97,6 +98,7 @@ bibliography
     "id": 45,
     "type": "book",
     "title": "Book Title",
+    "URL": "http://example.com/",
     "editor": [
       {
         "family": "Doe",
