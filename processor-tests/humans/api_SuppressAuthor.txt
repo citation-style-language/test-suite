@@ -53,8 +53,8 @@ citation
 
 
 >>===== RESULT =====>>
-..[0] Blevins
->>[1] Colostomy
+..[0] Blevins (editor)
+>>[1] Dropsie (translator)
 <<===== RESULT =====<<
 
 
@@ -111,9 +111,15 @@ citation
        <group delimiter="+">
          <names variable="author">
            <name form="short" />
+           <label prefix=" (" suffix=")"/>
          </names>
          <names variable="editor">
            <name form="short" />
+           <label prefix=" (" suffix=")"/>
+         </names>
+         <names variable="translator">
+           <name form="short" />
+           <label prefix=" (" suffix=")"/>
          </names>
        </group>
      </layout>
@@ -145,6 +151,12 @@ citation
             {
                 "family": "Colostomy", 
                 "given": "Colin"
+            }
+        ],
+        "translator": [
+            {
+                "family": "Dropsie", 
+                "given": "David"
             }
         ], 
         "id": "ITEM-2", 
