@@ -50,10 +50,11 @@
 citation
 <<===== MODE =====<<
 
-
+This no longer does what the fixture name suggests, because the
+names-based disambiguation no longer fails.
 
 >>===== RESULT =====>>
-Asthma et al. (1990); Asthma et al. (1990); Dropsy, Enteritis, X. Fever (2000); Dropsy, Enteritis, Y. Fever (2000)
+Asthma, Bosworth Bronchitis, et al. (1990); Asthma, Beauregarde Bronchitis, et al. (1990); Dropsy, Edward Enteritis, et al. (2000); Dropsy, Ernie Enteritis, et al. (2000)
 <<===== RESULT =====<<
 
 

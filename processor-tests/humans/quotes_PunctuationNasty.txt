@@ -47,105 +47,44 @@
  */
 
 >>===== MODE =====>>
-citation
+bibliography
 <<===== MODE =====<<
 
 
 
 >>===== RESULT =====>>
-..[0] <i>My Prefix</i> My Title My Suffix
-..[1] My Prefix. My Title, My Suffix
->>[2] My Prefix My Title My Suffix
+<div class="csl-bib-body">
+  <div class="csl-entry">Savage, Thomas. “Report of Labors in Archives and Procuring Material for History of California: And Related Material,” 1879. MSS C-E 191. Bancroft Library, University of California at Berkeley.</div>
+</div>
 <<===== RESULT =====<<
 
 
->>===== CITATIONS =====>>
-[
-  [
-    {
-      "citationID": "CITATION-1",
-      "citationItems": [
-        {
-          "id": "ITEM-1",
-          "prefix": "<i>My Prefix</i>",
-          "suffix": "My Suffix"
-        }
-      ],
-      "properties": {
-        "noteIndex": 1
-      }
-    },
-    [],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-2",
-      "citationItems": [
-        {
-          "id": "ITEM-1",
-          "prefix": "My Prefix.",
-          "suffix": ", My Suffix"
-        }
-      ],
-      "properties": {
-        "noteIndex": 2
-      }
-    },
-    [["CITATION-1", 1]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-3",
-      "citationItems": [
-        {
-          "id": "ITEM-1",
-          "prefix": "My Prefix ",
-          "suffix": " My Suffix"
-        }
-      ],
-      "properties": {
-        "noteIndex": 3
-      }
-    },
-    [["CITATION-1", 1], ["CITATION-2", 2]],
-    []
-  ]
-]
-<<===== CITATIONS =====<<
-
-
 >>===== CSL =====>>
-<style 
-      xmlns="http://purl.org/net/xbiblio/csl"
-      class="note"
-      version="1.0">
-  <info>
-    <id />
-    <title />
-    <updated>2009-08-10T04:49:00+09:00</updated>
-  </info>
-  <macro name="author">
-    <names variable="author">
-      <name form="short" />
-    </names>
-  </macro>
-  <citation>
-    <layout>
-      <text variable="title"/>
-    </layout>
-  </citation>
-</style>
+chicago-fullnote-bibliography-no-ibid.csl
 <<===== CSL =====<<
 
 
 >>===== INPUT =====>>
 [
     {
-        "title": "My Title",
+        "author": [
+            {
+                "family": "Savage",
+                "given": "Thomas"
+            }
+        ], 
         "id": "ITEM-1", 
-        "type": "book"
+        "issued": {
+            "date-parts": [
+                [
+                    "1879" 
+                ]
+            ]
+        }, 
+        "archive_location": "MSS C-E 191",
+        "archive": "Bancroft Library, University of California at Berkeley",
+        "title": "Report of Labors in Archives and Procuring Material for History of California: And Related Material", 
+        "type": "manuscript"
     }
 ]
 <<===== INPUT =====<<

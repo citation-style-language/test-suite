@@ -1,0 +1,477 @@
+/*
+ * Copyright (c) 2009, 2010 and 2011 Frank G. Bennett, Jr. All Rights
+ * Reserved.
+ *
+ * The contents of this file are subject to the Common Public
+ * Attribution License Version 1.0 (the “License”); you may not use
+ * this file except in compliance with the License. You may obtain a
+ * copy of the License at:
+ *
+ * http://bitbucket.org/fbennett/citeproc-js/src/tip/LICENSE.
+ *
+ * The License is based on the Mozilla Public License Version 1.1 but
+ * Sections 14 and 15 have been added to cover use of software over a
+ * computer network and provide for limited attribution for the
+ * Original Developer. In addition, Exhibit A has been modified to be
+ * consistent with Exhibit B.
+ *
+ * Software distributed under the License is distributed on an “AS IS”
+ * basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See
+ * the License for the specific language governing rights and limitations
+ * under the License.
+ *
+ * The Original Code is the citation formatting software known as
+ * "citeproc-js" (an implementation of the Citation Style Language
+ * [CSL]), including the original test fixtures and software located
+ * under the ./std subdirectory of the distribution archive.
+ *
+ * The Original Developer is not the Initial Developer and is
+ * __________. If left blank, the Original Developer is the Initial
+ * Developer.
+ *
+ * The Initial Developer of the Original Code is Frank G. Bennett,
+ * Jr. All portions of the code written by Frank G. Bennett, Jr. are
+ * Copyright (c) 2009, 2010 and 2011 Frank G. Bennett, Jr. All Rights Reserved.
+ *
+ * Alternatively, the contents of this file may be used under the
+ * terms of the GNU Affero General Public License (the [AGPLv3]
+ * License), in which case the provisions of [AGPLv3] License are
+ * applicable instead of those above. If you wish to allow use of your
+ * version of this file only under the terms of the [AGPLv3] License
+ * and not to allow others to use your version of this file under the
+ * CPAL, indicate your decision by deleting the provisions above and
+ * replace them with the notice and other provisions required by the
+ * [AGPLv3] License. If you do not delete the provisions above, a
+ * recipient may use your version of this file under either the CPAL
+ * or the [AGPLv3] License.”
+ */
+
+>>===== MODE =====>>
+citation
+<<===== MODE===== <<
+
+>>===== RESULT =====>>
+>>[0] (Beck 1991; Beck and Katz 2001, 2011; Beck, Katz, and Tucker 1998; Beck, King, and Zeng 2000; Colaresi 2006; Colaresi, Rasler, and Thompson 2007; Colaresi and Thompson 2002; Gochman 1993; Gochman and Leng 1983; Gochman and Maoz 1984)
+<<===== RESULT===== <<
+
+>>===== CITATIONS =====>>
+[
+  [
+    {
+      "citationID": "29lcbr8ict",
+      "properties": {
+        "noteIndex": 0,
+        "index": 0
+      },
+      "citationItems": [
+        {
+          "label": "page",
+          "id": "315"
+        },
+        {
+          "label": "page",
+          "id": "313"
+        },
+        {
+          "label": "page",
+          "id": "328"
+        },
+        {
+          "label": "page",
+          "id": "317"
+        },
+        {
+          "label": "page",
+          "id": "327"
+        },
+        {
+          "label": "page",
+          "id": "311"
+        },
+        {
+          "label": "page",
+          "id": "320"
+        },
+        {
+          "label": "page",
+          "id": "318"
+        },
+        {
+          "label": "page",
+          "id": "323"
+        },
+        {
+          "label": "page",
+          "id": "324"
+        },
+        {
+          "label": "page",
+          "id": "325"
+        }
+      ],
+      "schema": "https://github.com/citation-style-language/schema/raw/master/csl-citation.json"
+    },
+    [],
+    []
+  ]
+]
+<<===== CITATIONS===== <<
+
+>>===== CSL =====>>
+apsa.csl
+<<===== CSL===== <<
+
+>>===== INPUT =====>>
+[
+  {
+    "id": 315,
+    "type": "article-journal",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "Comparing Dynamic Specifications: The Case of Presidential Approval",
+    "container-title": "Political Analysis",
+    "page": "51-87",
+    "volume": "3",
+    "issue": "1",
+    "abstract": "This article compares a variety of models of presidential approval in terms of their dynamic properties and their theoretical underpinnings. Exponential distributed lags, partial adjustment, error correction, and transfer function models are considered. The major difference between the models lies in interpretation rather than statistical properties. The error correction model seems most satisfactory. Approval models based on individual level theories are examined, and found to give no additional purchase.",
+    "shortTitle": "Comparing Dynamic Specifications",
+    "author": [
+      {
+        "family": "Beck",
+        "given": "Nathaniel",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "year": 1991,
+      "month": 1,
+      "day": 1
+    },
+    "accessed": {
+      "year": 2011,
+      "month": 9,
+      "day": 20
+    }
+  },
+  {
+    "id": 313,
+    "type": "article-journal",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "Throwing Out the Baby with the Bath Water: A Comment on Green, Kim, and Yoon",
+    "container-title": "International Organization",
+    "page": "487-495",
+    "volume": "55",
+    "issue": "2",
+    "shortTitle": "Throwing Out the Baby with the Bath Water",
+    "author": [
+      {
+        "family": "Beck",
+        "given": "Nathaniel",
+        "isInstitution": ""
+      },
+      {
+        "family": "Katz",
+        "given": "Jonathan",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "year": 2001
+    }
+  },
+  {
+    "id": 328,
+    "type": "article-journal",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "Dynamics in Time Series Cross Section Data",
+    "container-title": "Annual Review of Political Science",
+    "page": "331-352",
+    "volume": "14",
+    "issue": "1",
+    "journalAbbreviation": "Annu. Rev. Polit. Sci.",
+    "author": [
+      {
+        "family": "Beck",
+        "given": "Nathaniel",
+        "isInstitution": ""
+      },
+      {
+        "family": "Katz",
+        "given": "Jonathan",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "year": 2011
+    },
+    "accessed": {
+      "year": 2011,
+      "month": 4,
+      "day": 4
+    }
+  },
+  {
+    "id": 317,
+    "type": "article-journal",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "Taking Time Seriously: Time-Series-Cross-Section Analysis with a Binary Dependent Variable",
+    "container-title": "American Journal of Political Science",
+    "page": "1260-1288",
+    "volume": "42",
+    "issue": "4",
+    "author": [
+      {
+        "family": "Beck",
+        "given": "Nathaniel",
+        "isInstitution": ""
+      },
+      {
+        "family": "Katz",
+        "given": "Jonathan",
+        "isInstitution": ""
+      },
+      {
+        "family": "Tucker",
+        "given": "Richard",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "year": 1998
+    }
+  },
+  {
+    "id": 327,
+    "type": "article-journal",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "Improving Quantitative Studies of International Conflict: A Conjecture",
+    "container-title": "American Political Science Review",
+    "page": "21-35",
+    "volume": "94",
+    "issue": "1",
+    "abstract": "<p>We address a well-known but infrequently discussed problem in the quantitative study of international conflict: Despite immense data collections, prestigious journals, and sophisticated analyses, empirical findings in the literature on international conflict are often unsatisfying. Many statistical results change from article to article and specification to specification. Accurate forecasts are nonexistent. In this article we offer a conjecture about one source of this problem: The causes of conflict, theorized to be important but often found to be small or ephemeral, are indeed tiny for the vast majority of dyads, but they are large, stable, and replicable wherever the ex ante probability of conflict is large. This simple idea has an unexpectedly rich array of observable implications, all consistent with the literature. We directly test our conjecture by formulating a statistical model that includes its critical features. Our approach, a version of a \"neural network\" model, uncovers some interesting structural features of international conflict and, as one evaluative measure, forecasts substantially better than any previous effort. Moreover, this improvement comes at little cost, and it is easy to evaluate whether the model is a statistical improvement over the simpler models commonly used.</p>",
+    "note": "ArticleType: research-article / Full publication date: Mar., 2000 / Copyright © 2000 American Political Science Association",
+    "shortTitle": "Improving Quantitative Studies of International Conflict",
+    "author": [
+      {
+        "family": "Beck",
+        "given": "Nathaniel",
+        "isInstitution": ""
+      },
+      {
+        "family": "King",
+        "given": "Gary",
+        "isInstitution": ""
+      },
+      {
+        "family": "Zeng",
+        "given": "Langche",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "year": 2000,
+      "month": 3,
+      "day": 1
+    },
+    "accessed": {
+      "year": 2011,
+      "month": 4,
+      "day": 6
+    }
+  },
+  {
+    "id": 311,
+    "type": "book",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "Scare Tactics: The Politics of International Rivalry",
+    "publisher": "Syracuse University Press",
+    "publisher-place": "Syracuse, NY",
+    "number-of-pages": "262",
+    "event-place": "Syracuse, NY",
+    "shortTitle": "Scare Tactics",
+    "author": [
+      {
+        "family": "Colaresi",
+        "given": "Michael P.",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "year": 2006,
+      "month": 1,
+      "day": 31
+    }
+  },
+  {
+    "id": 320,
+    "type": "article-journal",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "Hot Spots or Hot Hands? Serial Crisis Behavior, Escalating Risks, and Rivalry",
+    "container-title": "Journal of Politics",
+    "page": "1175-1198",
+    "volume": "64",
+    "issue": "4",
+    "abstract": "Recently, a debate has begun concerning the relationship between conflict events over time between the same disputants. While research on rivalries and recurrent conflict suggest that crises are related over time, others (Gartzke and Simon 1999) doubt the empirical and theoretical foundations of this research. We agree with the critics that the proposition that conflicts between adversaries are related over time remains only weakly substantiated. To fill this lacuna, we test four hypotheses relating past crisis behavior and sequences to subsequent conflict, using International Crisis Behavior (ICB) project data. Our results support the serial crisis hypothesis and suggest that the probability of subsequent crises and wars increase with each past crisis. Our findings also reinforce the inclination to give more emphasis to the analysis of rivalries.",
+    "shortTitle": "Hot Spots or Hot Hands?",
+    "author": [
+      {
+        "family": "Colaresi",
+        "given": "Michael P.",
+        "isInstitution": ""
+      },
+      {
+        "family": "Thompson",
+        "given": "William R.",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "year": 2002
+    },
+    "accessed": {
+      "year": 2011,
+      "month": 7,
+      "day": 8
+    }
+  },
+  {
+    "id": 318,
+    "type": "book",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "Strategic Rivalries in World Politics: Position, Space and Conflict Escalation",
+    "publisher": "Cambridge University Press",
+    "edition": "1",
+    "shortTitle": "Strategic Rivalries in World Politics",
+    "author": [
+      {
+        "family": "Colaresi",
+        "given": "Michael P.",
+        "isInstitution": ""
+      },
+      {
+        "family": "Rasler",
+        "given": "Karen",
+        "isInstitution": ""
+      },
+      {
+        "family": "Thompson",
+        "given": "William R.",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "year": 2007
+    }
+  },
+  {
+    "id": 323,
+    "type": "article-journal",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "The Evolution of Militarized Disputes",
+    "container-title": "International Interactions",
+    "page": "49-76",
+    "volume": "19",
+    "issue": "1-2",
+    "author": [
+      {
+        "family": "Gochman",
+        "given": "Charles S.",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "year": 1993
+    }
+  },
+  {
+    "id": 324,
+    "type": "article-journal",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "Realpolitik and the Road to War: An Analysis of Attributes and Behavior",
+    "container-title": "International Studies Quarterly",
+    "page": "97-120",
+    "volume": "27",
+    "issue": "1",
+    "abstract": "<p>The authors address the question of why some militarized interstate disputes evolve into wars, while others do not. They note from previous investigations that the probability of such disputes ending in war is associated with the types of bargaining behavior adopted by disputants. Particularly important are the degrees of escalation and reciprocity that characterize that behavior. This leads them to ask two questions: first, why do statesmen involved in militarized interstate disputes adopt the bargaining behavior they do?; second, what accounts for variations in outcomes for those disputes in which similar patterns of bargaining behavior are observed? Based upon an analysis of 30 militarized interstate disputes, the authors conclude that (1) escalation in interstate bargaining is strongly associated with the nature of the issues in contention and the types of threat of force initially employed in dispute bargaining, that (2) there exists an association between the relative capabilities of disputants and the degree of reciprocity in bargaining exchanges, and that (3) variations in the outcomes of disputes largely can be accounted for in terms of the interests at stake and the diplomacy of the great powers. These findings prove to be consistent with the basic tenets of political realism, and suggest that the behavior of decision makers engaged in militarized interstate disputes is generally rational in that they respond to cost-benefit considerations.",
+    "note": "ArticleType: research-article / Full publication date: Mar., 1983 / Copyright © 1983 The International Studies Association",
+    "shortTitle": "Realpolitik and the Road to War",
+    "author": [
+      {
+        "family": "Gochman",
+        "given": "Charles S.",
+        "isInstitution": ""
+      },
+      {
+        "family": "Leng",
+        "given": "Russell J.",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "year": 1983,
+      "month": 3,
+      "day": 1
+    },
+    "accessed": {
+      "year": 2011,
+      "month": 5,
+      "day": 31
+    }
+  },
+  {
+    "id": 325,
+    "type": "article-journal",
+    "multi": {
+      "_keys": {}
+    },
+    "title": "Militarized Interstate Disputes, 1816-1976",
+    "container-title": "Journal of Conflict Resolution",
+    "page": "585-616",
+    "volume": "28",
+    "issue": "4",
+    "abstract": "This article offers an empirical description and discussion of interstate conflict behavior. The basis is a recently completed data set consisting of all recorded instances of threats, displays, and uses of military force among states since 1816. We detail historical trends in the data and describe major dimensions of dispute behavior, including patterns of participation, duration, severity and escalation, regional distribution, and national dispute proneness. The following conclusions are suggested: First, patterns of dispute behavior have been more persistent over time than we often assume. Second, when these patterns have changed, the changes have been evolutionary in nature and have paralleled changes in the size and composition of the interstate system. Third, despite the diversity of the political units that constitute the interstate system, patterns of dispute behavior are generalizable across geographic boundaries.",
+    "author": [
+      {
+        "family": "Gochman",
+        "given": "Charles S.",
+        "isInstitution": ""
+      },
+      {
+        "family": "Maoz",
+        "given": "Zeev",
+        "isInstitution": ""
+      }
+    ],
+    "issued": {
+      "year": 1984,
+      "month": 12,
+      "day": 1
+    },
+    "accessed": {
+      "year": 2011,
+      "month": 5,
+      "day": 30
+    }
+  }
+]
+<<===== INPUT===== <<

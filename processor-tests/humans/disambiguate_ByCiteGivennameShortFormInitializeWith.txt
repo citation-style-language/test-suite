@@ -53,13 +53,22 @@ citation
 
 Disambiguation by given name, when used with the short form and an 
 initialize-with attribute on the name, will add an initial as required.
-Disambiguation by full name expansion will not be attempted, and failed
-attempts at disambiguation will fall back to the short form.
+
+Edit 2011-01-14:
+
+  Was:
+    Disambiguation by full name expansion will not be attempted, and failed
+    attempts at disambiguation will fall back to the short form.
+
+  Now:
+    By-cite disambiguation will attempt all givenname forms up to full
+    expansion. To restrain expansion at the initialized form, we will
+    need a separate disambiguation rule.
 
 >>===== RESULT =====>>
 Roe
 J Doe; A Doe
-Smith; Smith
+Thomas Smith; Ted Smith
 <<===== RESULT =====<<
 
 

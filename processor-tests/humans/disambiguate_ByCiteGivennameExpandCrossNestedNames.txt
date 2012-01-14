@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-J. Doe, Jane Roe, Robert Jones; J. Doe, Josephine Roe, R. Jones; J. Doe, Jane Roe, Richard Jones
+J. Doe, Jane Roe, Robert Jones; J. Doe, Josephine Roe, et al.; J. Doe, Jane Roe, Richard Jones
 <<===== RESULT =====<<
 
 
