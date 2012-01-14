@@ -53,87 +53,38 @@ citation
 
 
 >>===== RESULT =====>>
-..[0] <i>My Prefix</i> My Title My Suffix
-..[1] My Prefix. My Title, My Suffix
->>[2] My Prefix My Title My Suffix
+John Doe (edxitor) + Jane roe (translator)
 <<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
-[
-  [
-    {
-      "citationID": "CITATION-1",
-      "citationItems": [
-        {
-          "id": "ITEM-1",
-          "prefix": "<i>My Prefix</i>",
-          "suffix": "My Suffix"
-        }
-      ],
-      "properties": {
-        "noteIndex": 1
-      }
-    },
-    [],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-2",
-      "citationItems": [
-        {
-          "id": "ITEM-1",
-          "prefix": "My Prefix.",
-          "suffix": ", My Suffix"
-        }
-      ],
-      "properties": {
-        "noteIndex": 2
-      }
-    },
-    [["CITATION-1", 1]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-3",
-      "citationItems": [
-        {
-          "id": "ITEM-1",
-          "prefix": "My Prefix ",
-          "suffix": " My Suffix"
-        }
-      ],
-      "properties": {
-        "noteIndex": 3
-      }
-    },
-    [["CITATION-1", 1], ["CITATION-2", 2]],
-    []
-  ]
-]
-<<===== CITATIONS =====<<
 
 
 >>===== CSL =====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
-      version="1.0">
+      version="1.0"
+      default-locale="gx">
   <info>
     <id />
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
-  <macro name="author">
-    <names variable="author">
-      <name form="short" />
-    </names>
-  </macro>
+  <locale xml:lang="gx">
+    <terms>
+      <term name="editor">edxitor</term>
+    </terms>
+  </locale>
   <citation>
     <layout>
-      <text variable="title"/>
+      <group delimiter=" + ">
+        <names variable="editor">
+          <name/>
+          <label prefix=" (" suffix=")"/>
+        </names>
+        <names variable="translator">
+          <name/>
+          <label prefix=" (" suffix=")"/>
+        </names>
+      </group>
     </layout>
   </citation>
 </style>
@@ -143,7 +94,18 @@ citation
 >>===== INPUT =====>>
 [
     {
-        "title": "My Title",
+        "editor": [
+            {
+                "family": "Doe",
+                "given": "John"
+            }
+        ], 
+        "translator": [
+            {
+                "family": "roe",
+                "given": "Jane"
+            }
+        ], 
         "id": "ITEM-1", 
         "type": "book"
     }

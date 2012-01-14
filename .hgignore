@@ -3,3 +3,4 @@
 ^config$
 /machines$
 .*~$
+schemas.xml
