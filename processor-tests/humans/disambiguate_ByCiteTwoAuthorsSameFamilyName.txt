@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-A. Asthma and B. Asthma (1980); Bronchitis (1995); Asthma (1885)
+Asthma and Asthma (1980); Bronchitis (1995); Asthma (1885)
 <<===== RESULT =====<<
 
 
