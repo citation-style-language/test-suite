@@ -52,7 +52,7 @@ citation
 
 
 >>===== RESULT =====>>
-	..[0] (Doe)
+..[0] (Doe)
 >>[1] (I am subsequent)
 <<===== RESULT =====<<
 
