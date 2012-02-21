@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-Book Thing, at 110-5
+Book Thing, at 110–5
 <<===== RESULT =====<<
 
 
