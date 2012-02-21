@@ -53,7 +53,7 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry"> (2006): 1-7.</div>
+  <div class="csl-entry"> (2006): 1–7.</div>
 </div>
 <<===== RESULT =====<<
 

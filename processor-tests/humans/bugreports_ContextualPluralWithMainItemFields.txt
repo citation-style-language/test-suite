@@ -53,7 +53,7 @@ citation
 Bug report by Carles Pina.
 
 >>===== RESULT =====>>
-pages 1 &#38; 2; pages 1, 2; pages 1-2; page 1
+pages 1 &#38; 2; pages 1, 2; pages 1–2; page 1
 <<===== RESULT =====<<
 
 >>===== CSL =====>>

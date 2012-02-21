@@ -105,7 +105,7 @@ Beck v. Beck, 1999 ME 110, ¶ 6, 733 A.2d 981, 983.
             </group>
           </group>
         </group>
-        <date variable="issued" date-parts="year" form="text" prefix="(" suffix=")"/>
+        <date variable="original-date" date-parts="year" form="text" prefix="(" suffix=")"/>
       </group>
     </layout>
   </citation>
@@ -117,7 +117,7 @@ Beck v. Beck, 1999 ME 110, ¶ 6, 733 A.2d 981, 983.
 [
     {
         "id": "ITEM-1", 
-        "issued": {
+        "original-date": {
             "date-parts": [
                 [
                     "1999"
@@ -132,7 +132,7 @@ Beck v. Beck, 1999 ME 110, ¶ 6, 733 A.2d 981, 983.
     },
     {
         "id": "ITEM-2", 
-        "issued": {
+        "original-date": {
             "date-parts": [
                 [
                     "1999"

@@ -52,7 +52,7 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">Doe, J., 1992. In <i>Some title</i>. Vintage, pp. 250-300.</div>
+  <div class="csl-entry">Doe, J., 1992. In <i>Some title</i>. Vintage, pp. 250–300.</div>
 </div>
 <<===== RESULT =====<<
 

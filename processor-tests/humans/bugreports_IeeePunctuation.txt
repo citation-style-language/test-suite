@@ -53,7 +53,7 @@ bibliography
 >>===== RESULT =====>>
 <div class="csl-bib-body">
   <div class="csl-entry">
-    <div class="csl-left-margin">[1]</div><div class="csl-right-inline"> P.G. Zimbardo, “Does Psychology make a significant difference in our lives?,” <i>American Psychologist</i>, vol. 59, Jan. 2004, pp. 339-351.</div>
+    <div class="csl-left-margin">[1]</div><div class="csl-right-inline"> P.G. Zimbardo, “Does Psychology make a significant difference in our lives?,” <i>American Psychologist</i>, vol. 59, Jan. 2004, pp. 339–351.</div>
   </div>
 </div>
 <<===== RESULT =====<<
