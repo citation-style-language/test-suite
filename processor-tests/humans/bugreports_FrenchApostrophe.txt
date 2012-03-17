@@ -50,7 +50,7 @@
 citation
 <<===== MODE =====<<
 
-
+Space on guillemet is half-width non-breaking space.
 
 >>===== RESULT =====>>
 « Life’s “Little” Surprises »
