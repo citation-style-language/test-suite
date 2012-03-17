@@ -55,7 +55,7 @@ citation
 
 >>===== RESULT =====>>
 ..[0] Appleton “Tom Swift and His Electric Runabout” (1910).
-..[1] Ury “A Very Short Book Indeed” (2012).
+..[1] Bloggs “A Very Short Book Indeed” (2012).
 >>[2] Ibid.
 <<===== RESULT =====<<
 
@@ -169,7 +169,7 @@ citation
     {
         "author": [
             {
-                "family": "Ury", 
+                "family": "Bloggs", 
                 "given": "Joe" 
             }
         ], 
