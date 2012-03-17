@@ -51,6 +51,7 @@ bibliography
 <<===== MODE =====<<
 
 
+Space on guillemet is half-width non-breaking space.
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
