@@ -57,8 +57,8 @@ Original test by Bruce D'Arcus.
 <div class="csl-bib-body">
   <div class="csl-entry">J. Doe and S. Jones, 1999a</div>
   <div class="csl-entry">J. Doe and S. Jones, 1999b</div>
-  <div class="csl-entry">J. Doe and S. Smith, 1999c</div>
-  <div class="csl-entry">J. Doe and S. Smith, 1999d</div>
+  <div class="csl-entry">J. Doe and S. Smith, 1999a</div>
+  <div class="csl-entry">J. Doe and S. Smith, 1999b</div>
 </div>
 <<===== RESULT =====<<
 
@@ -85,7 +85,7 @@ Original test by Bruce D'Arcus.
     </names>
   </macro>
   <citation 
-         et-al-min="2"
+         et-al-min="3"
          et-al-use-first="1"
          disambiguate-add-year-suffix="true">
     <layout>
