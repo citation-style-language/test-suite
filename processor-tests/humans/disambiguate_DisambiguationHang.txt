@@ -101,14 +101,33 @@ citation
 <<===== CITATIONS =====<<
 
 
-Citeproc-js once insisted on updating all three.
 
-Fixed in release 1.0.165.
+Updating all three is correct here, at least on the current
+processor design. The logic is not simple.
 
+Disambiguation is based on the subsequent form. In this test case,
+the value of et-al-subsequent-min is 3. In the first two insertions,
+the Burnod cites come out with one name only, because the list
+of names is 3 or greater in length, and adding names contributes
+nothing to disambiguation.
+
+When the Urban cite is inserted, the internal parameters are
+correctly adjusted to 3 for the first two cites, and that difference
+triggers tainting, hence all three cites are queued for updating.
+
+This is not entirely optimal, because in the *rendered* form,
+all three insertions will result in five names on the Burnod
+cites. However, controlling the redundant update in this case
+would require that we code position context adjustments into
+the disambiguation module. That is not practicable because
+the et-al parameters may vary between name nodes in the CSL.
+
+A clean and precise solution to this is possible, but it doesn't
+seem to be worth the candle.
 
 >>===== RESULT =====>>
-..[0] (Caminiti, Johnson, Burnod, Galli, &#38; Ferraina 1990a)
-..[1] (Caminiti, Johnson, Burnod, Galli, &#38; Ferraina 1990b)
+>>[0] (Caminiti, Johnson, Burnod, Galli, &#38; Ferraina 1990a)
+>>[1] (Caminiti, Johnson, Burnod, Galli, &#38; Ferraina 1990b)
 >>[2] (Caminiti, Johnson, &#38; Urbano 1990)
 <<===== RESULT =====<<
 
@@ -256,3 +275,6 @@ Fixed in release 1.0.165.
     }
 ]
 <<===== INPUT =====<<
+
+
+
