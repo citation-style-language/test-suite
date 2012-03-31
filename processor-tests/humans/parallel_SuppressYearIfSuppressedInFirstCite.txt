@@ -91,11 +91,19 @@ Beck v. Beck, 1999 ME 110, ¶ 6, 733 A.2d 981, 983.
   <citation>
     <layout delimiter="; " suffix=".">
       <group delimiter=" ">
+        <!-- Hello -->
         <group delimiter=", ">
           <text variable="title"/>
           <group delimiter="">
             <group delimiter=" ">
-              <text variable="volume"/>
+              <choose>
+                <if variable="collection-number">
+                   <number variable="collection-number"/>
+                </if>
+                <else>
+                   <number variable="volume"/>
+                </else>
+              </choose>
               <text variable="container-title"/>
               <text variable="page"/>
             </group>
@@ -124,7 +132,7 @@ Beck v. Beck, 1999 ME 110, ¶ 6, 733 A.2d 981, 983.
                 ]
             ]
         }, 
-        "volume" : "1999",
+        "collection-number" : "1999",
         "page" : "110",
         "title": "Beck v. Beck", 
         "container-title": "ME", 
