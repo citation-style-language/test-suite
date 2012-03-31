@@ -1,0 +1,185 @@
+/*
+ * Copyright (c) 2009, 2010 and 2011 Frank G. Bennett, Jr. All Rights
+ * Reserved.
+ *
+ * The contents of this file are subject to the Common Public
+ * Attribution License Version 1.0 (the “License”); you may not use
+ * this file except in compliance with the License. You may obtain a
+ * copy of the License at:
+ *
+ * http://bitbucket.org/fbennett/citeproc-js/src/tip/LICENSE.
+ *
+ * The License is based on the Mozilla Public License Version 1.1 but
+ * Sections 14 and 15 have been added to cover use of software over a
+ * computer network and provide for limited attribution for the
+ * Original Developer. In addition, Exhibit A has been modified to be
+ * consistent with Exhibit B.
+ *
+ * Software distributed under the License is distributed on an “AS IS”
+ * basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See
+ * the License for the specific language governing rights and limitations
+ * under the License.
+ *
+ * The Original Code is the citation formatting software known as
+ * "citeproc-js" (an implementation of the Citation Style Language
+ * [CSL]), including the original test fixtures and software located
+ * under the ./std subdirectory of the distribution archive.
+ *
+ * The Original Developer is not the Initial Developer and is
+ * __________. If left blank, the Original Developer is the Initial
+ * Developer.
+ *
+ * The Initial Developer of the Original Code is Frank G. Bennett,
+ * Jr. All portions of the code written by Frank G. Bennett, Jr. are
+ * Copyright (c) 2009, 2010 and 2011 Frank G. Bennett, Jr. All Rights Reserved.
+ *
+ * Alternatively, the contents of this file may be used under the
+ * terms of the GNU Affero General Public License (the [AGPLv3]
+ * License), in which case the provisions of [AGPLv3] License are
+ * applicable instead of those above. If you wish to allow use of your
+ * version of this file only under the terms of the [AGPLv3] License
+ * and not to allow others to use your version of this file under the
+ * CPAL, indicate your decision by deleting the provisions above and
+ * replace them with the notice and other provisions required by the
+ * [AGPLv3] License. If you do not delete the provisions above, a
+ * recipient may use your version of this file under either the CPAL
+ * or the [AGPLv3] License.”
+ */
+
+>>===== MODE =====>>
+citation
+<<===== MODE =====<<
+
+
+Test a combination reported by Zotero user @gauthamg, 2012-03-12
+
+>>===== RESULT =====>>
+(Ely, Gautam, et al. 2001; Ely, Inouye, et al. 2001; Ely, Margolin, et al. 2001)
+<<===== RESULT =====<<
+
+
+>>===== CSL =====>>
+harvard3.csl
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+   {
+      "id": 15892,
+      "type": "article-journal",
+      "key": "CX6579SQ",
+      "title": "The impact of delirium in the intensive care unit on hospital length of stay",
+      "container-title": "Intensive Care Medicine",
+      "page": "1892–1900",
+      "volume": "27",
+      "issue": "12",
+      "URL": "http://www.ncbi.nlm.nih.gov/pubmed/11797025",
+      "DOI": "10.1007/s00134-001-1132-2",
+      "note": "PMID: 11797025",
+      "author": [
+         {
+            "family": "Ely",
+            "given": "E W"
+         },
+         {
+            "family": "Gautam",
+            "given": "S"
+         },
+         {
+            "family": "Margolin",
+            "given": "R"
+         },
+         {
+            "family": "Francis",
+            "given": "J"
+         }
+      ],
+      "issued": {
+         "date-parts": [
+            [
+               "2001",
+               12
+            ]
+         ]
+      }
+   },
+   {
+      "id": 15893,
+      "type": "article-journal",
+      "key": "VKWUI22E",
+      "title": "Delirium in Mechanically Ventilated Patients",
+      "container-title": "JAMA: The Journal of the American Medical Association",
+      "page": "2703 –2710",
+      "volume": "286",
+      "issue": "21",
+      "URL": "http://jama.ama-assn.org/content/286/21/2703.abstract",
+      "DOI": "10.1001/jama.286.21.2703",
+      "author": [
+         {
+            "family": "Ely",
+            "given": "E W"
+         },
+         {
+            "family": "Inouye",
+            "given": "Sharon K."
+         },
+         {
+            "family": "Bernard",
+            "given": "Gordon R."
+         },
+         {
+            "family": "Gordon",
+            "given": "Sharon"
+         }
+      ],
+      "issued": {
+         "date-parts": [
+            [
+               "2001",
+               12
+            ]
+         ]
+      }
+   },
+   {
+      "id": 15894,
+      "type": "article-journal",
+      "key": "9E5QVF4E",
+      "title": "Evaluation of delirium in critically ill patients: validation of the Confusion Assessment Method for the Intensive Care Unit (CAM-ICU)",
+      "container-title": "Critical Care Medicine",
+      "page": "1370–1379",
+      "volume": "29",
+      "issue": "7",
+      "URL": "http://www.ncbi.nlm.nih.gov/pubmed/11445689",
+      "note": "PMID: 11445689",
+      "shortTitle": "Evaluation of delirium in critically ill patients",
+      "author": [
+         {
+            "family": "Ely",
+            "given": "E W"
+         },
+         {
+            "family": "Margolin",
+            "given": "R"
+         },
+         {
+            "family": "Francis",
+            "given": "J"
+         },
+         {
+            "family": "May",
+            "given": "L"
+         }
+      ],
+      "issued": {
+         "date-parts": [
+            [
+               "2001",
+               7
+            ]
+         ]
+      }
+   }
+]
+<<===== INPUT =====<<
