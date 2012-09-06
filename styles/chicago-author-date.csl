@@ -176,7 +176,7 @@
             </group>
           </if>
           <else>
-            <text suffix="." variable="edition" />
+            <text suffix="." variable="edition" form="short"/>
           </else>
         </choose>
       </if>
