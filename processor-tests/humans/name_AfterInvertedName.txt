@@ -50,10 +50,57 @@
 citation
 <<===== MODE =====<<
 
+>>===== CITATIONS =====>>
+[
+  [
+    {
+      "citationID": "CITATION-1",
+      "citationItems": [
+        {
+          "id": "ITEM-1"
+        },
+        {
+          "id": "ITEM-2"
+        },
+        {
+          "id": "ITEM-3"
+        }
+      ],
+      "properties": {
+        "noteIndex": 1
+      }
+    },
+    [],
+    []
+  ],
+  [
+    {
+      "citationID": "CITATION-2",
+      "citationItems": [
+        {
+          "id": "ITEM-4"
+        },
+        {
+          "id": "ITEM-5"
+        },
+        {
+          "id": "ITEM-6"
+        }
+      ],
+      "properties": {
+        "noteIndex": 2
+      }
+    },
+    [["CITATION-1",1]],
+    []
+  ]
+]
+<<===== CITATIONS =====<<
 
 
 >>===== RESULT =====>>
-Doebuck, Jonathan, et al.; Doe, John, Jane Roe et al.; Doe, John, Janice Roebuck et al.
+..[0] DOEBUCK, Jonathan, et al.; DOE, John, Jane ROE et al.; DOE, John, Janice ROEBUCK et al.
+>>[1] APPLEBY, Aloysius, and Bobby BROWN; APPLEBY, Aloysius, Bobby BROWN and Cecile CREAM; APPLEBY, Aloysius, Bobby BROWN and Enola EVERGREEN
 <<===== RESULT =====<<
 
 
@@ -70,7 +117,12 @@ Doebuck, Jonathan, et al.; Doe, John, Jane Roe et al.; Doe, John, Janice Roebuck
   <citation et-al-min="3" et-al-use-first="1" disambiguate-add-names="true">
     <layout delimiter="; ">
       <names variable="author">
-        <name name-as-sort-order="first" delimiter-precedes-et-al="after-inverted-name"/>
+        <name name-as-sort-order="first"
+              delimiter-precedes-et-al="after-inverted-name"
+              delimiter-precedes-last="after-inverted-name"
+              and="text">
+          <name-part name="family" text-case="uppercase"/>
+        </name>
       </names>
     </layout>
   </citation>
@@ -140,6 +192,56 @@ Doebuck, Jonathan, et al.; Doe, John, Jane Roe et al.; Doe, John, Janice Roebuck
             }
         ], 
         "id": "ITEM-3", 
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+                "family": "Appleby",
+                "given": "Aloysius"
+            },
+            {
+                "family": "Brown",
+                "given": "Bobby"
+            }
+        ], 
+        "id": "ITEM-4", 
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+                "family": "Appleby",
+                "given": "Aloysius"
+            },
+            {
+                "family": "Brown",
+                "given": "Bobby"
+            },
+            {
+                "family": "Cream",
+                "given": "Cecile"
+            }
+        ], 
+        "id": "ITEM-5", 
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+                "family": "Appleby",
+                "given": "Aloysius"
+            },
+            {
+                "family": "Brown",
+                "given": "Bobby"
+            },
+            {
+                "family": "Evergreen",
+                "given": "Enola"
+            }
+        ], 
+        "id": "ITEM-6", 
         "type": "book"
     }
 ]
