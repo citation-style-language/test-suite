@@ -103,7 +103,7 @@ citation
     <sort>
       <key variable="issued" />
     </sort>
-    <layout  cite-group-delimiter="; " delimiter=", ">
+    <layout  cite-group-delimiter=", " delimiter="; ">
       <group delimiter=" ">
         <text macro="author" />
         <date form="text" variable="issued" date-parts="year"/>
