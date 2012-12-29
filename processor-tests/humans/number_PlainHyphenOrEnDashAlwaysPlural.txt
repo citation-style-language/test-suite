@@ -57,7 +57,7 @@ Test to cover request here:
 
 
 >>===== RESULT =====>>
-His Anonymous Life (1) pages 1–2 (cs:text) vs His Anonymous Life (1) pages 1–2 (cs:number); His Anonymous Life (2) pages i–ix (cs:text) vs His Anonymous Life (2) pages i–ix (cs:number); His Anonymous Life (3) page 3-B (cs:text) vs His Anonymous Life (3) page 3-B (cs:number); His Anonymous Life (4) pages 4–6 (cs:text) vs His Anonymous Life (4) pages 4–6 (cs:number)
+His Anonymous Life (1) pages 1–2 (cs:text) vs His Anonymous Life (1) pages 1–2 (cs:number); His Anonymous Life (2) pages i–ix (cs:text) vs His Anonymous Life (2) pages i–ix (cs:number); His Anonymous Life (3) page 3-B (cs:text) vs His Anonymous Life (3) page 3-B (cs:number); His Anonymous Life (4) page Michaelson–Morely (cs:text) vs His Anonymous Life (4) page Michaelson–Morely (cs:number)
 <<===== RESULT =====<<
 
 
@@ -112,6 +112,12 @@ His Anonymous Life (1) pages 1–2 (cs:text) vs His Anonymous Life (1) pages 1�
     {
         "id": "ITEM-4", 
         "page": "4\u20136",
+        "title": "His Anonymous Life (4)", 
+        "type": "book"
+    },
+    {
+        "id": "ITEM-4", 
+        "page": "Michaelson-Morely",
         "title": "His Anonymous Life (4)", 
         "type": "book"
     }

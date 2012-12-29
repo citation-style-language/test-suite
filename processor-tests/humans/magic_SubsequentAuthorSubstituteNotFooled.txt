@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2009, 2010 and 2011 Frank G. Bennett, Jr. All Rights
+ * Copyright (c) 2009, 2010, 2011 and 2012 Frank G. Bennett, Jr. All Rights
  * Reserved.
  *
  * The contents of this file are subject to the Common Public
@@ -10,7 +10,7 @@
  * http://bitbucket.org/fbennett/citeproc-js/src/tip/LICENSE.
  *
  * The License is based on the Mozilla Public License Version 1.1 but
- * Sections 14 and 15 have been added to cover use of software over a
+ * Sections 1.13, 14 and 15 have been added to cover use of software over a
  * computer network and provide for limited attribution for the
  * Original Developer. In addition, Exhibit A has been modified to be
  * consistent with Exhibit B.
@@ -23,7 +23,7 @@
  * The Original Code is the citation formatting software known as
  * "citeproc-js" (an implementation of the Citation Style Language
  * [CSL]), including the original test fixtures and software located
- * under the ./std subdirectory of the distribution archive.
+ * under the ./tests subdirectory of the distribution archive.
  *
  * The Original Developer is not the Initial Developer and is
  * __________. If left blank, the Original Developer is the Initial
@@ -31,7 +31,7 @@
  *
  * The Initial Developer of the Original Code is Frank G. Bennett,
  * Jr. All portions of the code written by Frank G. Bennett, Jr. are
- * Copyright (c) 2009, 2010 and 2011 Frank G. Bennett, Jr. All Rights Reserved.
+ * Copyright (c) 2009, 2010, 2011, and 2012 Frank G. Bennett, Jr. All Rights Reserved.
  *
  * Alternatively, the contents of this file may be used under the
  * terms of the GNU Affero General Public License (the [AGPLv3]
@@ -54,7 +54,7 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">Silverstein, Theodore, trans. “Sir Gawain and the Green Knight”. Chicago: University of Chicago Press, 1974.</div>
+  <div class="csl-entry">Silverstein, Theodore, tran. “Sir Gawain and the Green Knight”. Chicago: University of Chicago Press, 1974.</div>
   <div class="csl-entry">Soltes, Ori A., ed. “Georgia: Art and Civilization through the Ages”. London: Philip Wilson, 1999.</div>
   <div class="csl-entry">“The Chicago Manual of Style”. Chicago: University of Chicago Press, 1993.</div>
 </div>
@@ -147,7 +147,7 @@ Chicago Author-Date.
   <macro name="translator">
     <names variable="translator">
       <name and="text" delimiter=", " delimiter-precedes-last="always" name-as-sort-order="first" sort-separator=", " />
-      <label form="verb-short" prefix=", " suffix="." />
+      <label form="short" prefix=", " suffix="." />
     </names>
   </macro>
   <macro name="recipient-note">
@@ -200,7 +200,7 @@ Chicago Author-Date.
   <macro name="contributors-sort">
     <names variable="author">
       <name and="text" delimiter=", " delimiter-precedes-last="always" name-as-sort-order="all" sort-separator=", " />
-      <label form="verb-short" prefix=", " suffix="." />
+      <label form="short" prefix=", " suffix="." />
       <substitute>
         <names variable="editor" />
         <names variable="translator" />
