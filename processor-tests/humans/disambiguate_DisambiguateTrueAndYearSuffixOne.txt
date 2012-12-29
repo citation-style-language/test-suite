@@ -1,0 +1,348 @@
+/*
+ * Copyright (c) 2009, 2010, 2011 and 2012 Frank G. Bennett, Jr. All Rights
+ * Reserved.
+ *
+ * The contents of this file are subject to the Common Public
+ * Attribution License Version 1.0 (the “License”); you may not use
+ * this file except in compliance with the License. You may obtain a
+ * copy of the License at:
+ *
+ * http://bitbucket.org/fbennett/citeproc-js/src/tip/LICENSE.
+ *
+ * The License is based on the Mozilla Public License Version 1.1 but
+ * Sections 1.13, 14 and 15 have been added to cover use of software over a
+ * computer network and provide for limited attribution for the
+ * Original Developer. In addition, Exhibit A has been modified to be
+ * consistent with Exhibit B.
+ *
+ * Software distributed under the License is distributed on an “AS IS”
+ * basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See
+ * the License for the specific language governing rights and limitations
+ * under the License.
+ *
+ * The Original Code is the citation formatting software known as
+ * "citeproc-js" (an implementation of the Citation Style Language
+ * [CSL]), including the original test fixtures and software located
+ * under the ./tests subdirectory of the distribution archive.
+ *
+ * The Original Developer is not the Initial Developer and is
+ * __________. If left blank, the Original Developer is the Initial
+ * Developer.
+ *
+ * The Initial Developer of the Original Code is Frank G. Bennett,
+ * Jr. All portions of the code written by Frank G. Bennett, Jr. are
+ * Copyright (c) 2009, 2010, 2011, and 2012 Frank G. Bennett, Jr. All Rights Reserved.
+ *
+ * Alternatively, the contents of this file may be used under the
+ * terms of the GNU Affero General Public License (the [AGPLv3]
+ * License), in which case the provisions of [AGPLv3] License are
+ * applicable instead of those above. If you wish to allow use of your
+ * version of this file only under the terms of the [AGPLv3] License
+ * and not to allow others to use your version of this file under the
+ * CPAL, indicate your decision by deleting the provisions above and
+ * replace them with the notice and other provisions required by the
+ * [AGPLv3] License. If you do not delete the provisions above, a
+ * recipient may use your version of this file under either the CPAL
+ * or the [AGPLv3] License.”
+ */
+
+>>===== MODE =====>>
+citation
+<<===== MODE =====<<
+
+
+
+>>===== RESULT =====>>
+>>[0] Pollock, 1979
+>>[1] Pollock, 1980
+<<===== RESULT =====<<
+
+
+>>===== CITATIONS =====>>
+[
+  [
+    {
+      "citationID": "CITATION-1",
+      "citationItems": [
+        {
+          "id": "ITEM-1"
+        }
+      ],
+      "properties": {
+        "noteIndex": 0
+      }
+    },
+    [],
+    []
+  ],
+  [
+    {
+      "citationID": "CITATION-2",
+      "citationItems": [
+        {
+          "id": "ITEM-2"
+        }
+      ],
+      "properties": {
+        "noteIndex": 0
+      }
+    },
+    [["CITATION-1",0]],
+    []
+  ]
+]
+<<===== CITATIONS =====<<
+
+
+>>===== CSL =====>>
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-GB">
+  <info>
+    <title>zzz</title>
+    <id>http://www.zotero.org/styles/zzz</id>
+    <link href="http://www.zotero.org/styles/zzz" rel="self"/>
+    <author>
+      <name>zzz</name>
+      <email>zzz@gmail.com</email>
+    </author>
+    <category citation-format="author-date"/>
+    <category field="humanities"/>
+    <updated>2012-06-29T00:00:00+00:00</updated>
+    <summary>The University College London version of Harvard author-date style</summary>
+    <link href="http://www.ucl.ac.uk/art-history/current_students/writing-guide/" rel="documentation"/>
+    <rights>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License: http://creativecommons.org/licenses/by-sa/3.0/</rights>
+  </info>
+  <locale xml:lang="en-GB">
+    <terms>
+      <term name="editor" form="short">
+        <single>ed.</single>
+        <multiple>eds</multiple>
+      </term>
+    </terms>
+  </locale>
+  <macro name="editor">
+    <names variable="editor" delimiter=", ">
+      <name name-as-sort-order="all" and="text" sort-separator=", " initialize-with=". " delimiter-precedes-last="never" delimiter=", "/>
+      <label form="short" prefix=" (" text-case="lowercase" suffix=".)" strip-periods="true"/>
+    </names>
+  </macro>
+  <macro name="editor-or-author">
+    <names variable="editor" delimiter=", ">
+      <name name-as-sort-order="all" and="text" sort-separator=", " initialize-with=". " delimiter-precedes-last="never" delimiter=", "/>
+      <label form="short" prefix=" (" text-case="lowercase" suffix=".)" strip-periods="true"/>
+      <substitute>
+        <names variable="author"/>
+        <text macro="anon"/>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="anon">
+    <text term="anonymous" form="short" text-case="capitalize-first" strip-periods="true"/>
+  </macro>
+  <macro name="author">
+    <names variable="author">
+      <!-- set text-case="capitalize-first" to "uppercase" if names required  in CAPS -->
+      <name name-as-sort-order="all" and="text" sort-separator=", " initialize-with=". " delimiter-precedes-last="never" delimiter=", "/>
+      <label form="short" prefix=" (" suffix=".)" text-case="lowercase"/>
+      <substitute>
+        <names variable="editor"/>
+        <text macro="anon"/>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="author-short">
+    <names variable="author">
+      <name form="short" and="text" delimiter=", " initialize-with=". "/>
+      <substitute>
+        <names variable="editor"/>
+        <names variable="translator"/>
+        <choose>
+          <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
+            <text variable="title" form="short" font-style="italic"/>
+          </if>
+          <else>
+            <text variable="title" form="short" quotes="true"/>
+          </else>
+        </choose>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="access">
+    <choose>
+      <if variable="URL">
+        <text term="online" prefix="[" suffix="]."/>
+        <text value=" Available from: "/>
+        <text variable="URL"/>
+        <group prefix=" (" delimiter=" " suffix=")">
+          <text term="accessed" text-case="capitalize-first"/>
+          <date variable="accessed">
+            <date-part name="day" suffix=" "/>
+            <date-part name="month" suffix=" "/>
+            <date-part name="year"/>
+          </date>
+        </group>
+      </if>
+    </choose>
+  </macro>
+  <macro name="title">
+    <choose>
+      <if type="book webpage graphic" match="any">
+        <text variable="title" font-style="italic"/>
+      </if>
+      <else-if variable="container-title" match="none">
+        <text variable="title" font-style="italic"/>
+      </else-if>
+      <else>
+        <text variable="title"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="publisher">
+    <group delimiter=", ">
+      <text variable="publisher"/>
+      <text variable="publisher-place"/>
+	</group>
+  </macro>
+  <macro name="year-date">
+    <choose>
+      <if variable="issued">
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+        <text variable="year-suffix"/>
+      </if>
+      <else>
+        <text term="no date" form="short"/>
+        <text variable="year-suffix" prefix="-"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="pages">
+    <group>
+      <text variable="page"/>
+    </group>
+  </macro>
+  <macro name="online">
+    <choose>
+      <if variable="DOI">
+        <text value="[Online]"/>
+      </if>
+    </choose>
+  </macro>
+  <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true">
+    <layout>
+      <group delimiter=", ">
+        <text macro="author-short"/>
+		<choose>
+		   <if disambiguate="true">
+		        <text macro="year-date"/>
+		   </if>
+		</choose>
+      </group>
+    </layout>
+  </citation>
+  <bibliography hanging-indent="true" et-al-min="3" et-al-use-first="1">
+    <sort>
+      <key macro="author"/>
+      <key variable="title"/>
+    </sort>
+    <layout>
+      <text macro="author"/>
+      <choose>
+        <!-- format different types of source -->
+        <if type="book" match="any">
+          <group prefix=" " delimiter=", " suffix=".">
+            <text macro="title"/>
+            <text macro="publisher"/>
+            <text macro="year-date"/>
+          </group>
+        </if>
+        <else-if type="chapter" match="any">
+          <text macro="title" prefix=" '" suffix="', "/>
+          <text term="in" text-case="lowercase"/>
+          <text macro="editor-or-author" prefix=" " suffix=""/>
+          <group prefix=" " delimiter=", " suffix=".">
+            <text variable="container-title" font-style="italic"/>
+            <text macro="publisher"/>
+            <text macro="year-date" prefix="" suffix="."/>
+          </group>
+          <label variable="page" form="short" prefix=" "/>
+          <text macro="pages" suffix="."/>
+        </else-if>
+        <else-if type="article-journal article-newspaper broadcast personal_communication thesis webpage paper-conference" match="any">
+          <text macro="title" prefix=" '" suffix="', "/>
+          <text term="in" text-case="lowercase"/>
+          <text macro="editor" prefix=" "/>
+          <group prefix=" " delimiter=", " suffix=".">
+            <text variable="container-title" font-style="italic"/>
+            <text variable="volume" prefix="vol."/>
+            <text variable="issue" prefix="no."/>
+            <text macro="publisher"/>
+            <text macro="year-date" prefix=""/>
+          </group>
+          <label variable="page" form="short" prefix=" "/>
+          <text macro="pages" suffix="."/>
+        </else-if>
+        <else>
+          <group prefix=" " delimiter=", " suffix=".">
+            <text macro="title"/>
+            <text macro="publisher"/>
+            <text macro="year-date"/>
+          </group>
+        </else>
+      </choose>
+      <text prefix=" " macro="access" suffix="."/>
+    </layout>
+  </bibliography>
+</style>
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+   {
+      "id": "ITEM-1",
+      "type": "book",
+      "title": "The land laws",
+      "publisher": "Fred B. Rothman",
+      "publisher-place": "Litteleton, Colo.",
+      "event-place": "Litteleton, Colo.",
+      "archive-place": "Litteleton, Colo.",
+      "author": [
+         {
+            "family": "Pollock",
+            "given": "Sir Frederick"
+         }
+      ],
+      "issued": {
+         "date-parts": [
+            [
+               1979
+            ]
+         ]
+      }
+   },
+   {
+      "id": "ITEM-2",
+      "type": "book",
+      "title": "The land lawsX",
+      "publisher": "Fred B. Rothman",
+      "publisher-place": "Litteleton, Colo.",
+      "event-place": "Litteleton, Colo.",
+      "archive-place": "Litteleton, Colo.",
+      "author": [
+         {
+            "family": "Pollock",
+            "given": "Sir Frederick"
+         }
+      ],
+      "issued": {
+         "date-parts": [
+            [
+               1980
+            ]
+         ]
+      }
+   }
+]
+<<===== INPUT =====<<
