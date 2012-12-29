@@ -53,7 +53,21 @@ citation
 
 
 >>===== RESULT =====>>
-???
+..[0] Title 1: 1st-one
+..[1] Title 2: 2nd-two-end
+..[2] Title 3: 3rd-three-end
+..[3] Title 4: 4th
+..[4] Title 5: 5th-default
+..[5] Title 10: 10th-zero
+..[6] Title 11: 11th-default
+..[7] Title 12: 12th-twelve
+..[8] Title 13: 13th-thirteen-end
+..[9] Title 14: 14th
+..[10] Title 110: 110th-zero
+..[11] Title 111: 111th-default
+..[12] Title 112: 112nd-two-end
+..[13] Title 113: 113th-thirteen-end
+>>[14] Title 114: 114th
 <<===== RESULT =====<<
 
 >>===== CITATIONS =====>>
