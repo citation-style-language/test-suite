@@ -59,27 +59,27 @@ citation
 
 >>===== CITATIONS =====>>
 [
-  [
-    {
-      "citationID": "CITATION-1",
-      "citationItems": [
+    [
         {
-          "id": "ITEM-1"
-        },
-        {
-          "id": "ITEM-3"
-        },
-        {
-          "id": "ITEM-2"
-        }
-      ],
-      "properties": {
-        "noteIndex": 1
-      }
-    },
-    [],
-    []
-  ]
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }, 
+                {
+                    "id": "ITEM-3"
+                }, 
+                {
+                    "id": "ITEM-2"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ]
 ]
 <<===== CITATIONS =====<<
 
@@ -99,11 +99,11 @@ citation
       <name form="short" />
     </names>
   </macro>
-  <citation>
+  <citation cite-group-delimiter=", ">
     <sort>
       <key variable="issued" />
     </sort>
-    <layout  cite-group-delimiter=", " delimiter="; ">
+    <layout delimiter="; ">
       <group delimiter=" ">
         <text macro="author" />
         <date form="text" variable="issued" date-parts="year"/>
