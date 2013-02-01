@@ -54,9 +54,9 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">Book 3</div>
-  <div class="csl-entry">Book 1</div>
-  <div class="csl-entry">Book 2</div>
+  <div class="csl-entry">Title 3</div>
+  <div class="csl-entry">Title 1</div>
+  <div class="csl-entry">Title 2</div>
 </div>
 <<===== RESULT =====<<
 
@@ -111,27 +111,45 @@ bibliography
 [
     {
         "id": "item-1", 
-        "title": "Book 2", 
-        "type": "article-journal",
         "issued": {
-          "date-parts": [[2002,12,25]]
-        }
-    },
+            "date-parts": [
+                [
+                    2002, 
+                    12, 
+                    25
+                ]
+            ]
+        }, 
+        "title": "Title 2", 
+        "type": "article-journal"
+    }, 
     {
         "id": "item-2", 
-        "title": "Book 3", 
-        "type": "book",
         "issued": {
-          "date-parts": [[2002,11,30]]
-        }
+            "date-parts": [
+                [
+                    2002, 
+                    11, 
+                    30
+                ]
+            ]
+        }, 
+        "title": "Title 3", 
+        "type": "book"
     }, 
     {
         "id": "item-3", 
-        "title": "Book 1", 
-        "type": "article-journal",
         "issued": {
-          "date-parts": [[2002,10,25]]
-        }
+            "date-parts": [
+                [
+                    2002, 
+                    10, 
+                    25
+                ]
+            ]
+        }, 
+        "title": "Title 1", 
+        "type": "article-journal"
     }
 ]
 <<===== INPUT =====<<
