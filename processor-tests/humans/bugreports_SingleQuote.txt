@@ -1,0 +1,22 @@
+>>===== MODE =====>>
+bibliography
+<<===== MODE =====<<
+
+>>===== RESULT =====>>
+xxxxxxxxx
+<<===== RESULT =====<<
+
+
+>>===== CSL =====>>
+ieee.csl
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+	{
+		"id" : "ITEM-1",
+		"title" : "production d ' eau glacée à condensation à eau avec récupération de chaleur . Modélisation simplifiée dans l ’ optique d ’ un calcul des consommations d ’ énergie d ’ une insta"
+	}
+]
+<<===== INPUT =====<<
