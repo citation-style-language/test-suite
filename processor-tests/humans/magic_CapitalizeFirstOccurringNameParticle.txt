@@ -51,9 +51,11 @@ citation
 <<== MODE ==<<
 
 
+We no longer capitalise particles in citations. Magic capitalisation
+is still performed on first-position particles in bibliography, however.
 
 >>== RESULT ==>>
-De Simone
+de Simone
 <<== RESULT ==<<
 
 
@@ -81,13 +83,13 @@ De Simone
 >>===== INPUT =====>>
 [
     {
-        "id": "item-1", 
         "author": [
-           {
-              "family": "de Simone",
-              "given": "Samuel"
-           }
-        ],
+            {
+                "family": "de Simone", 
+                "given": "Samuel"
+            }
+        ], 
+        "id": "item-1", 
         "type": "book"
     }
 ]
