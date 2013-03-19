@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-Van Gogh, Vincent; Humboldt, Alexander von; van der Vlist, Eric
+van Gogh, Vincent; Humboldt, Alexander von; van der Vlist, Eric
 <<===== RESULT =====<<
 
 

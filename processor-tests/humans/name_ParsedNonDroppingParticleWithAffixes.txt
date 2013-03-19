@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-(<span style="font-variant:small-caps;">La</span> <span style="font-variant:small-caps;">Fontaine</span>) Jean de
+(<span style="font-variant:small-caps;">la</span> <span style="font-variant:small-caps;">Fontaine</span>) Jean de
 <<===== RESULT =====<<
 
 
@@ -87,7 +87,7 @@ citation
     {
         "author": [
             {
-                "family": "la Fontaine",
+                "family": "la Fontaine", 
                 "given": "Jean de"
             }
         ], 

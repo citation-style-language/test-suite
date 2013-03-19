@@ -52,7 +52,7 @@ citation
 
 
 >>===== RESULT =====>>
->>[0] La Berge, Nagel, Dement &#38; Zarcone (1981)
+>>[0] la Berge, Nagel, Dement &#38; Zarcone (1981)
 <<===== RESULT =====<<
 
 
@@ -72,7 +72,7 @@ citation
         }, 
         [], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-1", 
@@ -87,7 +87,7 @@ citation
         }, 
         [], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-1", 
