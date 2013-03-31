@@ -90,19 +90,19 @@ ed. by Γ. Π. Σαββίδης
         "author": [
             {
                 "family": "Άγρας", 
-                "given": "Τέλλος" 
-            }
-        ], 
-        "editor": [
-            {
-                "family": "Σαββίδης", 
-                "given": "Γ. Π." 
+                "given": "Τέλλος"
             }
         ], 
         "container-author": [
             {
                 "family": "Καρυωτάκης ", 
-                "given": "Κώστας" 
+                "given": "Κώστας"
+            }
+        ], 
+        "editor": [
+            {
+                "family": "Σαββίδης", 
+                "given": "Γ. Π."
             }
         ], 
         "id": "ITEM-1", 

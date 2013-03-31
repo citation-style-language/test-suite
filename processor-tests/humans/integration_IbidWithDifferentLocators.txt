@@ -84,8 +84,8 @@ citation
             "citationItems": [
                 {
                     "id": "ITEM-1", 
-                    "locator": "12",
-                    "label": "book"
+                    "label": "book", 
+                    "locator": "12"
                 }
             ], 
             "properties": {
@@ -100,15 +100,15 @@ citation
             ]
         ], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-3", 
             "citationItems": [
                 {
                     "id": "ITEM-2", 
-                    "locator": "20",
-					"label": "book"
+                    "label": "book", 
+                    "locator": "20"
                 }
             ], 
             "properties": {
@@ -120,7 +120,7 @@ citation
             [
                 "CITATION-1", 
                 1
-            ],
+            ], 
             [
                 "CITATION-2", 
                 2
@@ -134,8 +134,8 @@ citation
             "citationItems": [
                 {
                     "id": "ITEM-2", 
-                    "locator": "20",
-					"label": "chapter"
+                    "label": "chapter", 
+                    "locator": "20"
                 }
             ], 
             "properties": {
@@ -147,11 +147,11 @@ citation
             [
                 "CITATION-1", 
                 1
-            ],
+            ], 
             [
                 "CITATION-2", 
                 2
-            ],
+            ], 
             [
                 "CITATION-3", 
                 3

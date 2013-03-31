@@ -83,26 +83,26 @@ Collier and Collier
 
 >>===== INPUT =====>>
 [
-   {
-      "id": 15895,
-      "type": "book",
-      "author": [
-         {
-            "family": "Collier",
-            "given": "Ruth Berins"
-         },
-         {
-            "family": "Collier",
-            "given": "David"
-         }
-      ],
-      "issued": {
-         "date-parts": [
-            [
-               2002
+    {
+        "author": [
+            {
+                "family": "Collier", 
+                "given": "Ruth Berins"
+            }, 
+            {
+                "family": "Collier", 
+                "given": "David"
+            }
+        ], 
+        "id": 15895, 
+        "issued": {
+            "date-parts": [
+                [
+                    2002
+                ]
             ]
-         ]
-      }
-   }
+        }, 
+        "type": "book"
+    }
 ]
 <<===== INPUT =====<<

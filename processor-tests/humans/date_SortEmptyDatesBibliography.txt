@@ -104,7 +104,7 @@ bibliographies, they are always placed at the end of the sort
 [
     {
         "id": "ITEM-1", 
-        "title": "BookA",
+        "title": "BookA", 
         "type": "book"
     }, 
     {
@@ -116,12 +116,12 @@ bibliographies, they are always placed at the end of the sort
                 ]
             ]
         }, 
-        "title": "BookB",
+        "title": "BookB", 
         "type": "book"
     }, 
     {
         "id": "ITEM-3", 
-        "title": "BookC",
+        "title": "BookC", 
         "type": "book"
     }, 
     {
@@ -133,12 +133,12 @@ bibliographies, they are always placed at the end of the sort
                 ]
             ]
         }, 
-        "title": "BookD",
+        "title": "BookD", 
         "type": "book"
     }, 
     {
         "id": "ITEM-5", 
-        "title": "BookE",
+        "title": "BookE", 
         "type": "book"
     }
 ]

@@ -61,57 +61,71 @@ citation
 
 >>===== CITATIONS =====>>
 [
-  [
-    {
-      "citationID": "CITATION-1",
-      "citationItems": [
+    [
         {
-          "id": "ITEM-1",
-          "prefix": "<i>My Prefix</i>",
-          "suffix": "My Suffix"
-        }
-      ],
-      "properties": {
-        "noteIndex": 1
-      }
-    },
-    [],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-2",
-      "citationItems": [
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1", 
+                    "prefix": "<i>My Prefix</i>", 
+                    "suffix": "My Suffix"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-1",
-          "prefix": "My Prefix.",
-          "suffix": ", My Suffix"
-        }
-      ],
-      "properties": {
-        "noteIndex": 2
-      }
-    },
-    [["CITATION-1", 1]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-3",
-      "citationItems": [
+            "citationID": "CITATION-2", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1", 
+                    "prefix": "My Prefix.", 
+                    "suffix": ", My Suffix"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 2
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-1",
-          "prefix": "My Prefix ",
-          "suffix": " My Suffix"
-        }
-      ],
-      "properties": {
-        "noteIndex": 3
-      }
-    },
-    [["CITATION-1", 1], ["CITATION-2", 2]],
-    []
-  ]
+            "citationID": "CITATION-3", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1", 
+                    "prefix": "My Prefix ", 
+                    "suffix": " My Suffix"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 3
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ]
+        ], 
+        []
+    ]
 ]
 <<===== CITATIONS =====<<
 

@@ -59,23 +59,23 @@ citation
 
 >>===== CITATIONS =====>>
 [
-  [
-    {
-      "citationID": "CITATION-1",
-      "citationItems": [
+    [
         {
-          "id": "ITEM-1",
-          "label": "folio",
-          "locator": "101"
-        }
-      ],
-      "properties": {
-        "noteIndex": 1
-      }
-    },
-    [],
-    []
-  ]
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1", 
+                    "label": "folio", 
+                    "locator": "101"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ]
 ]
 <<===== CITATIONS =====<<
 

@@ -68,9 +68,19 @@ new-zealand-veterinary-journal.csl
 >>===== INPUT =====>>
 [
     {
+        "URL": "http://example.com", 
+        "accessed": {
+            "date-parts": [
+                [
+                    "2000", 
+                    "12", 
+                    "15"
+                ]
+            ]
+        }, 
         "author": [
             {
-                "family": "Doe",
+                "family": "Doe", 
                 "given": "John"
             }
         ], 
@@ -84,7 +94,11 @@ new-zealand-veterinary-journal.csl
                 ]
             ]
         }, 
-        "URL": "http://example.com",
+        "title": "His Anonymous Life", 
+        "type": "book"
+    }, 
+    {
+        "URL": "http://example.com", 
         "accessed": {
             "date-parts": [
                 [
@@ -94,13 +108,9 @@ new-zealand-veterinary-journal.csl
                 ]
             ]
         }, 
-        "title": "His Anonymous Life", 
-        "type": "book"
-    },
-    {
         "author": [
             {
-                "family": "Doe",
+                "family": "Doe", 
                 "given": "John"
             }
         ], 
@@ -111,16 +121,6 @@ new-zealand-veterinary-journal.csl
                     "1965", 
                     "6", 
                     "1"
-                ]
-            ]
-        }, 
-        "URL": "http://example.com",
-        "accessed": {
-            "date-parts": [
-                [
-                    "2000", 
-                    "12", 
-                    "15"
                 ]
             ]
         }, 

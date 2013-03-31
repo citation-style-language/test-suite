@@ -67,24 +67,23 @@ Smith, Brown &#38; J. Jones (1980a); Smith, Brown &#38; A. Jones (1980)
         {
             "id": "ITEM-2"
         }
-    ],
-   [
-       {
-           "id": "ITEM-1"
-       },
-       {
-           "id": "ITEM-3"
-       }
-   ],
+    ], 
     [
-       {
-           "id": "ITEM-1"
-       },
+        {
+            "id": "ITEM-1"
+        }, 
+        {
+            "id": "ITEM-3"
+        }
+    ], 
+    [
+        {
+            "id": "ITEM-1"
+        }, 
         {
             "id": "ITEM-4"
         }
     ]
-
 ]
 <<===== CITATION-ITEMS =====<<
 

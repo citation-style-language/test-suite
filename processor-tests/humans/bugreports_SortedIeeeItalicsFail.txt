@@ -77,13 +77,12 @@ sorin-ieee.csl
     {
         "author": [
             {
-                "family": "Roe",
+                "family": "Roe", 
                 "given": "Jane"
             }
         ], 
-        "id": "ITEM-2",
-        "page": "15", 
-		"volume": "100",
+        "container-title": "Journal of Obscurity", 
+        "id": "ITEM-2", 
         "issued": {
             "date-parts": [
                 [
@@ -93,20 +92,20 @@ sorin-ieee.csl
                 ]
             ]
         }, 
+        "page": "15", 
         "title": "His Anonymous Article", 
-        "container-title": "Journal of Obscurity", 
-        "type": "article-journal"
-    },
+        "type": "article-journal", 
+        "volume": "100"
+    }, 
     {
         "author": [
             {
-                "family": "Doe",
+                "family": "Doe", 
                 "given": "John"
             }
         ], 
-        "id": "ITEM-1",
-        "page": "15", 
-		"volume": "100",
+        "container-title": "Journal of Obscurity", 
+        "id": "ITEM-1", 
         "issued": {
             "date-parts": [
                 [
@@ -116,20 +115,20 @@ sorin-ieee.csl
                 ]
             ]
         }, 
+        "page": "15", 
         "title": "His Anonymous Article", 
-        "container-title": "Journal of Obscurity", 
-        "type": "article-journal"
-    },
+        "type": "article-journal", 
+        "volume": "100"
+    }, 
     {
         "author": [
             {
-                "family": "Everhardt",
+                "family": "Everhardt", 
                 "given": "Ganzaheit"
             }
         ], 
-        "id": "ITEM-3",
-        "page": "15", 
-		"volume": "100",
+        "container-title": "Journal of Obscurity", 
+        "id": "ITEM-3", 
         "issued": {
             "date-parts": [
                 [
@@ -139,9 +138,10 @@ sorin-ieee.csl
                 ]
             ]
         }, 
+        "page": "15", 
         "title": "His Anonymous Article", 
-        "container-title": "Journal of Obscurity", 
-        "type": "article-journal"
+        "type": "article-journal", 
+        "volume": "100"
     }
 ]
 <<===== INPUT =====<<

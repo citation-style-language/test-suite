@@ -122,11 +122,11 @@ class="in-text">
             {
                 "family": "Doe", 
                 "given": "John"
-            },
+            }, 
             {
                 "family": "Roe", 
                 "given": "Jane"
-            },
+            }, 
             {
                 "family": "Noakes", 
                 "given": "Richard"
@@ -141,17 +141,17 @@ class="in-text">
             ]
         }, 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
                 "family": "Doe", 
                 "given": "John"
-            },
+            }, 
             {
                 "family": "Spindlethrift", 
                 "given": "Melanie"
-            },
+            }, 
             {
                 "family": "Korkblougher", 
                 "given": "Weegas"
@@ -166,17 +166,17 @@ class="in-text">
             ]
         }, 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
                 "family": "Doe", 
                 "given": "John"
-            },
+            }, 
             {
                 "family": "Blub", 
                 "given": "Sophie"
-            },
+            }, 
             {
                 "family": "Lanbright", 
                 "given": "Bugeyes"

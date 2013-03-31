@@ -83,27 +83,27 @@ JJ Doe; G Jones; B Smith; Alfred Benzon Foundation; James Benson Foundation; Joh
     {
         "author": [
             {
-                "family": "Doe",
+                "family": "Doe", 
                 "given": "John J."
-            },
+            }, 
             {
-                "family": "Jones",
+                "family": "Jones", 
                 "given": "Gregory"
-            },
+            }, 
             {
-                "family": "Smith",
+                "family": "Smith", 
                 "given": "Bob"
-            },
+            }, 
             {
-                "family": "Alfred Benzon Foundation",
+                "family": "Alfred Benzon Foundation", 
                 "isInstitution": "true"
-            },
+            }, 
             {
-                "family": "James Benson Foundation",
+                "family": "James Benson Foundation", 
                 "isInstitution": "true"
-            },
+            }, 
             {
-                "family": "John Candy Foundation",
+                "family": "John Candy Foundation", 
                 "isInstitution": "true"
             }
         ], 

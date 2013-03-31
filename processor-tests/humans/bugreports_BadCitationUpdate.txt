@@ -65,36 +65,41 @@ was being ignored for update purposes.  NOW, it's working.
 
 >>===== CITATIONS =====>>
 [
-  [
-    {
-      "citationID": "CITATION-1",
-      "citationItems": [
+    [
         {
-          "id": "ITEM-0"
-        }
-      ],
-      "properties": {
-        "noteIndex": 1
-      }
-    },
-    [],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-2",
-      "citationItems": [
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-0"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-1"
-        }
-      ],
-      "properties": {
-        "noteIndex": 2
-      }
-    },
-    [["CITATION-1",1]],
-    []
-  ]
+            "citationID": "CITATION-2", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 2
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ]
+        ], 
+        []
+    ]
 ]
 <<===== CITATIONS =====<<
 

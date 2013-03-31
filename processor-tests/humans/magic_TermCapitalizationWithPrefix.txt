@@ -62,68 +62,95 @@ citation
 
 >>===== CITATIONS =====>>
 [
-  [
-    {
-      "citationID": "CITATION-1",
-      "citationItems": [
+    [
         {
-          "id": "ITEM-1"
-        }
-      ],
-      "properties": {
-        "noteIndex": 1
-      }
-    },
-    [],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-2",
-      "citationItems": [
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-1",
-          "prefix":"See "
-        }
-      ],
-      "properties": {
-        "noteIndex": 2
-      }
-    },
-    [["CITATION-1",1]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-3",
-      "citationItems": [
+            "citationID": "CITATION-2", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1", 
+                    "prefix": "See "
+                }
+            ], 
+            "properties": {
+                "noteIndex": 2
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-1",
-          "prefix": "This has been said. "
-        }
-      ],
-      "properties": {
-        "noteIndex": 3
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-4",
-      "citationItems": [
+            "citationID": "CITATION-3", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1", 
+                    "prefix": "This has been said. "
+                }
+            ], 
+            "properties": {
+                "noteIndex": 3
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-1"
-        }
-      ],
-      "properties": {
-        "noteIndex": 4
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2],["CITATION-3",3]],
-    []
-  ]
+            "citationID": "CITATION-4", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 4
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ]
+        ], 
+        []
+    ]
 ]
 <<===== CITATIONS =====<<
 

@@ -84,7 +84,7 @@ John Doe
     {
         "composer": [
             {
-                "family": "Doe",
+                "family": "Doe", 
                 "given": "John"
             }
         ], 

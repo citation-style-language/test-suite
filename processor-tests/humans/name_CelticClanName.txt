@@ -84,7 +84,7 @@ Susan McMurphy Smith
     {
         "author": [
             {
-                "family": "Smith",
+                "family": "Smith", 
                 "given": "Susan McMurphy"
             }
         ], 

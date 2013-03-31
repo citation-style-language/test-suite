@@ -246,15 +246,15 @@ mla-x.csl
                 "family": "Noakes", 
                 "given": "Richard"
             }
-		],
-		"translator": [
+        ], 
+        "id": "ITEM-1", 
+        "title": "Hello", 
+        "translator": [
             {
                 "family": "Roe", 
                 "given": "Jane"
             }
         ], 
-        "title": "Hello",
-        "id": "ITEM-1", 
         "type": "book"
     }
 ]

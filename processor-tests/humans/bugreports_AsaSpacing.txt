@@ -101,6 +101,7 @@ bibliography
                 "given": "John"
             }
         ], 
+        "container-title": "His Anonymous Book", 
         "id": "ITEM-1", 
         "issued": {
             "date-parts": [
@@ -111,9 +112,8 @@ bibliography
                 ]
             ]
         }, 
+        "page": "100", 
         "title": "His Anonymous Chapter", 
-        "container-title": "His Anonymous Book", 
-        "page": "100",
         "type": "chapter"
     }
 ]

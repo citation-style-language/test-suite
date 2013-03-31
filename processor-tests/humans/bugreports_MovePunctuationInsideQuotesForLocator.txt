@@ -58,23 +58,23 @@ Fault reported by Sean Takats.
 
 >>===== CITATIONS =====>>
 [
-  [
-    {
-      "citationID": "CITATION-1",
-      "citationItems": [
+    [
         {
-          "id": "ITEM-1",
-          "locator": "\"gargoyle\"",
-          "label": "sub verbo"
-        }
-      ],
-      "properties": {
-        "noteIndex": 1
-      }
-    },
-    [],
-    []
-  ]
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1", 
+                    "label": "sub verbo", 
+                    "locator": "\"gargoyle\""
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ]
 ]
 <<===== CITATIONS =====<<
 

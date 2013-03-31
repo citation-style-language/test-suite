@@ -71,8 +71,8 @@ asm-journals.csl
     {
         "author": [
             {
-                "family": "Doe Co.",
-				"isInstitution": true
+                "family": "Doe Co.", 
+                "isInstitution": true
             }
         ], 
         "id": "ITEM-1", 

@@ -56,30 +56,30 @@ citation
 
 >>===== CITATIONS =====>>
 [
-  [
-    {
-      "citationID": "21j4228k5n",
-      "properties": {
-        "noteIndex": 0
-      },
-      "citationItems": [
+    [
         {
-          "label": "page",
-          "id": 30
-        },
-        {
-          "label": "page",
-          "id": 32
-        },
-        {
-          "label": "page",
-          "id": 29
-        }
-      ]
-    },
-    [],
-    []
-  ]
+            "citationID": "21j4228k5n", 
+            "citationItems": [
+                {
+                    "id": 30, 
+                    "label": "page"
+                }, 
+                {
+                    "id": 32, 
+                    "label": "page"
+                }, 
+                {
+                    "id": 29, 
+                    "label": "page"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 0
+            }
+        }, 
+        [], 
+        []
+    ]
 ]
 <<===== CITATIONS===== <<
 

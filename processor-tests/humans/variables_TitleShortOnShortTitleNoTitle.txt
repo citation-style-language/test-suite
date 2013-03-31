@@ -80,7 +80,7 @@ My Short Title
 [
     {
         "id": "ITEM-1", 
-        "shortTitle": "My Short Title",
+        "shortTitle": "My Short Title", 
         "type": "book"
     }
 ]

@@ -82,9 +82,9 @@ citation
 >>===== INPUT =====>>
 [
     {
+        "container-title": "His <span style=\"font-variant:small-caps;\">Anthology</span>", 
         "id": "ITEM-1", 
         "title": "His <span style=\"font-variant:small-caps;\">Anonymous</span> Life", 
-        "container-title": "His <span style=\"font-variant:small-caps;\">Anthology</span>", 
         "type": "book"
     }
 ]

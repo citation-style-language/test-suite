@@ -67,32 +67,32 @@ apa6th.csl
 
 >>===== INPUT =====>>
 [
-  {
-    "id": 3,
-    "type": "book",
-    "multi": {
-      "_keys": {}
-    },
-    "title": "Bookie",
-    "author": [
-      {
-        "family": "Oblinger",
-        "given": "Dan Gerry",
-        "isInstitution": ""
-      },
-      {
-        "family": "Oblinger",
-        "given": "Susan Mary",
-        "isInstitution": ""
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2009
-        ]
-      ]
+    {
+        "author": [
+            {
+                "family": "Oblinger", 
+                "given": "Dan Gerry", 
+                "isInstitution": ""
+            }, 
+            {
+                "family": "Oblinger", 
+                "given": "Susan Mary", 
+                "isInstitution": ""
+            }
+        ], 
+        "id": 3, 
+        "issued": {
+            "date-parts": [
+                [
+                    2009
+                ]
+            ]
+        }, 
+        "multi": {
+            "_keys": {}
+        }, 
+        "title": "Bookie", 
+        "type": "book"
     }
-  }
 ]
 <<===== INPUT===== <<

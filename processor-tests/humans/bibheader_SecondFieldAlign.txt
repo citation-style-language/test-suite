@@ -94,15 +94,15 @@ second-field-align: flush
 >>===== INPUT =====>>
 [
     {
+        "container-title": "Big Series", 
         "id": "ITEM-1", 
         "title": "One", 
-        "container-title": "Big Series",
         "type": "book"
     }, 
     {
+        "container-title": "Big Series", 
         "id": "ITEM-2", 
         "title": "One+", 
-        "container-title": "Big Series",
         "type": "book"
     }
 ]

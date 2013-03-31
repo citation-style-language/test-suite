@@ -101,21 +101,21 @@ bibliography
 >>===== INPUT =====>>
 [
     {
+        "author": [
+            {
+                "family": "ABC"
+            }
+        ], 
         "id": "ITEM-1", 
-        "author": [
-          {
-            "family": "ABC"
-          }
-        ],
         "type": "book"
-    },
+    }, 
     {
-        "id": "ITEM-2", 
         "author": [
-          {
-            "family": "Aaa"
-          }
-        ],
+            {
+                "family": "Aaa"
+            }
+        ], 
+        "id": "ITEM-2", 
         "type": "book"
     }
 ]

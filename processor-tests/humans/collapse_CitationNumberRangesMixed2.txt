@@ -94,7 +94,7 @@ citation
         {
             "id": "ITEM-11"
         }
-    ],
+    ], 
     [
         {
             "id": "ITEM-1"

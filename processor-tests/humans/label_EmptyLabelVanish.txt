@@ -90,9 +90,9 @@ citation
 [
     {
         "id": "ITEM-1", 
+        "page": "22-45", 
         "title": "His Anonymous Life", 
-        "type": "book",
-        "page": "22-45"
+        "type": "book"
     }
 ]
 <<===== INPUT =====<<

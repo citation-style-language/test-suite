@@ -92,7 +92,12 @@ citation
                 "noteIndex": 2
             }
         }, 
-        [["CITATION-1",1]], 
+        [
+            [
+                "CITATION-1", 
+                1
+            ]
+        ], 
         []
     ], 
     [
@@ -111,7 +116,16 @@ citation
             }
         }, 
         [], 
-        [["CITATION-1", 2],["CITATION-2",3]]
+        [
+            [
+                "CITATION-1", 
+                2
+            ], 
+            [
+                "CITATION-2", 
+                3
+            ]
+        ]
     ]
 ]
 <<=====  CITATIONS =====<<

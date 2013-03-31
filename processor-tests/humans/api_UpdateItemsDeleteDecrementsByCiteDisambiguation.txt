@@ -126,7 +126,7 @@ initial.
                 ]
             ]
         }, 
-        "title": "Book A",
+        "title": "Book A", 
         "type": "book"
     }, 
     {
@@ -145,7 +145,7 @@ initial.
                 ]
             ]
         }, 
-        "title": "Book B",
+        "title": "Book B", 
         "type": "book"
     }, 
     {
@@ -164,7 +164,7 @@ initial.
                 ]
             ]
         }, 
-        "title": "Book C",
+        "title": "Book C", 
         "type": "book"
     }, 
     {
@@ -183,7 +183,7 @@ initial.
                 ]
             ]
         }, 
-        "title": "Book D",
+        "title": "Book D", 
         "type": "book"
     }, 
     {
@@ -202,7 +202,7 @@ initial.
                 ]
             ]
         }, 
-        "title": "Book E",
+        "title": "Book E", 
         "type": "book"
     }
 ]

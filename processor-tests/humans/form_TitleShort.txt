@@ -80,8 +80,8 @@ Book A
 [
     {
         "id": "ITEM-1", 
-        "title": "Book A: The Long Version", 
         "shortTitle": "Book A", 
+        "title": "Book A: The Long Version", 
         "type": "book"
     }
 ]

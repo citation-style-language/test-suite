@@ -67,28 +67,30 @@ chicago-fullnote-bibliography.csl
 >>===== INPUT =====>>
 [
     {
-		"id": "ITEM-1",
-		"title":"Bourgeois Revolution Revivified: 1789 and Social Change",
-		"author": [
-			{
-				"family": "Jones",
-				"given": "Colin"
-			}
-		],
-		"editor": [
-			{
-				"family": "Lucas",
-				"given": "Colin"
-			}
-		],
-		"publisher": "Clarendon Press",
-        "publisher-place": "Oxford",
-		"issued": {
-			"date-parts":[
-				[1991]
-			]
-		},
-		"type": "book"
-	}
+        "author": [
+            {
+                "family": "Jones", 
+                "given": "Colin"
+            }
+        ], 
+        "editor": [
+            {
+                "family": "Lucas", 
+                "given": "Colin"
+            }
+        ], 
+        "id": "ITEM-1", 
+        "issued": {
+            "date-parts": [
+                [
+                    1991
+                ]
+            ]
+        }, 
+        "publisher": "Clarendon Press", 
+        "publisher-place": "Oxford", 
+        "title": "Bourgeois Revolution Revivified: 1789 and Social Change", 
+        "type": "book"
+    }
 ]
 <<===== INPUT =====<<

@@ -94,25 +94,25 @@ bibliography
 
 >>===== INPUT =====>>
 [
-  {
-    "id": 45,
-    "type": "book",
-    "title": "Book Title",
-    "URL": "http://example.com/",
-    "editor": [
-      {
-        "family": "Doe",
-        "given": "John"
-      },
-      {
-        "family": "Roe",
-        "given": "Jane"
-      },
-      {
-        "family": "Noakes",
-        "given": "Richard"
-      }
-    ]
-  }
+    {
+        "URL": "http://example.com/", 
+        "editor": [
+            {
+                "family": "Doe", 
+                "given": "John"
+            }, 
+            {
+                "family": "Roe", 
+                "given": "Jane"
+            }, 
+            {
+                "family": "Noakes", 
+                "given": "Richard"
+            }
+        ], 
+        "id": 45, 
+        "title": "Book Title", 
+        "type": "book"
+    }
 ]
 <<===== INPUT===== <<

@@ -67,22 +67,24 @@ chicago-fullnote-bibliography.csl
 >>===== INPUT =====>>
 [
     {
-		"id": "ITEM-1",
-		"title":"Men of Taste: Gender and Authority in the French Culinary Trades, 1730-1830",
-		"author": [
-			{
-				"family": "Davis",
-				"given": "Jennifer J."
-			}
-		],
-		"genre": "Ph.D. diss.",
-        "publisher": "Pennsylvania State University, History",
-		"issued": {
-			"date-parts":[
-				[2004]
-			]
-		},
-		"type": "thesis"
-	}
+        "author": [
+            {
+                "family": "Davis", 
+                "given": "Jennifer J."
+            }
+        ], 
+        "genre": "Ph.D. diss.", 
+        "id": "ITEM-1", 
+        "issued": {
+            "date-parts": [
+                [
+                    2004
+                ]
+            ]
+        }, 
+        "publisher": "Pennsylvania State University, History", 
+        "title": "Men of Taste: Gender and Authority in the French Culinary Trades, 1730-1830", 
+        "type": "thesis"
+    }
 ]
 <<===== INPUT =====<<

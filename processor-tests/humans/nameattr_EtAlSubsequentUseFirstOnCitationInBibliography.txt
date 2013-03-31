@@ -107,7 +107,7 @@ NOTE: no effect, of course.
                 "given": "Richard"
             }
         ], 
-        "id": "ITEM-1",
+        "id": "ITEM-1", 
         "type": "book"
     }
 ]

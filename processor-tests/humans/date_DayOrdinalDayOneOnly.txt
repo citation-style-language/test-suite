@@ -92,15 +92,27 @@ Day One (1st June 1965); Day Two (2 June 1965)
     {
         "id": "ITEM-1", 
         "issued": {
-            "date-parts": [["1965","6","1"]]
+            "date-parts": [
+                [
+                    "1965", 
+                    "6", 
+                    "1"
+                ]
+            ]
         }, 
         "title": "Day One", 
         "type": "book"
-    },
+    }, 
     {
         "id": "ITEM-2", 
         "issued": {
-            "date-parts": [["1965","6","2"]]
+            "date-parts": [
+                [
+                    "1965", 
+                    "6", 
+                    "2"
+                ]
+            ]
         }, 
         "title": "Day Two", 
         "type": "book"

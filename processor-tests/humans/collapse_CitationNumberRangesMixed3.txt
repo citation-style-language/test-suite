@@ -83,7 +83,7 @@ citation
         {
             "id": "ITEM-8"
         }
-    ],
+    ], 
     [
         {
             "id": "ITEM-1"

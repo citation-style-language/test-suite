@@ -96,27 +96,27 @@ second-field-align: flush
 >>===== INPUT =====>>
 [
     {
+        "author": [
+            {
+                "family": "Hodgins", 
+                "given": "Christopher"
+            }
+        ], 
+        "container-title": "Big Series", 
         "id": "ITEM-1", 
         "title": "One", 
-        "author": [
-		  {
-            "family": "Hodgins",
-            "given": "Christopher"
-          }
-        ],
-        "container-title": "Big Series",
         "type": "book"
     }, 
     {
-        "id": "ITEM-2", 
         "author": [
-		  {
-            "family": "Smith",
-            "given": "John"
-          }
-        ],
+            {
+                "family": "Smith", 
+                "given": "John"
+            }
+        ], 
+        "container-title": "Big Series", 
+        "id": "ITEM-2", 
         "title": "One+", 
-        "container-title": "Big Series",
         "type": "book"
     }
 ]

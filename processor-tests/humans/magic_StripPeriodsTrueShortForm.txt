@@ -98,11 +98,11 @@ http://forums.zotero.org/discussion/15166/stripperiods-not-working-yet/
 [
     {
         "container-title": "American Law Journal", 
-        "journalAbbreviation": "Am. L.J.", 
         "id": "ITEM-1", 
+        "journalAbbreviation": "Am. L.J.", 
         "title": "An Article", 
         "type": "article-journal"
-    },
+    }, 
     {
         "container-title": "Am. L.J.", 
         "id": "ITEM-2", 

@@ -60,30 +60,30 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
 
 >>===== CITATIONS =====>>
 [
-  [
-    {
-      "citationID": "CITATION-1",
-      "citationItems": [
+    [
         {
-          "id": "ITEM-1",
-          "prefix": "See",
-		  "suffix": "for a detailed discussion."
-        },
-        {
-          "id": "ITEM-2",
-          "prefix": "See also"
-        },
-        {
-          "id": "ITEM-3"
-        }
-      ],
-      "properties": {
-        "noteIndex": 1
-      }
-    },
-    [],
-    []
-  ]
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1", 
+                    "prefix": "See", 
+                    "suffix": "for a detailed discussion."
+                }, 
+                {
+                    "id": "ITEM-2", 
+                    "prefix": "See also"
+                }, 
+                {
+                    "id": "ITEM-3"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ]
 ]
 <<===== CITATIONS =====<<
 

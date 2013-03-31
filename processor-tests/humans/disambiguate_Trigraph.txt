@@ -61,51 +61,65 @@ citation
 
 >>===== CITATIONS =====>>
 [
-  [
-    {
-      "citationID": "CITATION-1",
-      "citationItems": [
+    [
         {
-          "id": "ITEM-1"
-        }
-      ],
-      "properties": {
-        "noteIndex": 1
-      }
-    },
-    [],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-2",
-      "citationItems": [
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-2"
-        }
-      ],
-      "properties": {
-        "noteIndex": 2
-      }
-    },
-    [["CITATION-1", 1]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-3",
-      "citationItems": [
+            "citationID": "CITATION-2", 
+            "citationItems": [
+                {
+                    "id": "ITEM-2"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 2
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-3"
-        }
-      ],
-      "properties": {
-        "noteIndex": 3
-      }
-    },
-    [["CITATION-1", 1],["CITATION-2",2]],
-    []
-  ]
+            "citationID": "CITATION-3", 
+            "citationItems": [
+                {
+                    "id": "ITEM-3"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 3
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ]
+        ], 
+        []
+    ]
 ]
 <<===== CITATIONS =====<<
 

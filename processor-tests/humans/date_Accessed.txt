@@ -79,8 +79,11 @@ January 22, 1976
 >>===== INPUT =====>>
 [
     {
+        "accessed": {
+            "date-parts": [], 
+            "raw": "22 jan 1976"
+        }, 
         "id": "ITEM-1", 
-        "accessed": { "raw": "22 jan 1976" }, 
         "type": "book"
     }
 ]

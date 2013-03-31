@@ -81,8 +81,9 @@ July 1964
     {
         "id": "ITEM-1", 
         "issued": {
-            "raw":"7\u67081964"
-        },
+            "date-parts": [], 
+            "raw": "7月1964"
+        }, 
         "title": "My Title", 
         "type": "book"
     }

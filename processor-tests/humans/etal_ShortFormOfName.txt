@@ -87,17 +87,18 @@ Doe <i>et al.</i>
         "author": [
             {
                 "family": "Doe", 
-                "given": "John" 
-            },
+                "given": "John"
+            }, 
             {
                 "family": "Roe", 
                 "given": "Jane"
-            },            {
+            }, 
+            {
                 "family": "Noakes", 
                 "given": "Richard"
             }
         ], 
-        "id": "ITEM-1",
+        "id": "ITEM-1", 
         "type": "book"
     }
 ]

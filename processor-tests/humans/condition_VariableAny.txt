@@ -87,14 +87,14 @@ FALSE
 >>===== INPUT =====>>
 [
     {
-        "title": "His Book", 
         "id": "ITEM-1", 
+        "title": "His Book", 
         "type": "book"
-    },
+    }, 
     {
-        "volume": "101", 
         "id": "ITEM-2", 
-        "type": "book"
+        "type": "book", 
+        "volume": "101"
     }
 ]
 <<===== INPUT =====<<

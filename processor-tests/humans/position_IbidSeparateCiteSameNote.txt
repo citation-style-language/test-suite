@@ -66,124 +66,214 @@ citation
 
 >>===== CITATIONS =====>>
 [
-  [
-    {
-      "citationID": "CITATION-1",
-      "citationItems": [
+    [
         {
-          "id": "ITEM-1",
-          "prefix": "[citation1-item1-note1] "
-        }
-      ],
-      "properties": {
-        "noteIndex": 1
-      }
-    },
-    [],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-2",
-      "citationItems": [
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1", 
+                    "prefix": "[citation1-item1-note1] "
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-1",
-          "prefix": "[citation2-item1-note2] "
-        }
-      ],
-      "properties": {
-        "noteIndex": 2
-      }
-    },
-    [["CITATION-1",1]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-3",
-      "citationItems": [
+            "citationID": "CITATION-2", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1", 
+                    "prefix": "[citation2-item1-note2] "
+                }
+            ], 
+            "properties": {
+                "noteIndex": 2
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-1",
-          "locator": "33",
-          "prefix": "[citation3-item1-note2] "
-        }
-      ],
-      "properties": {
-        "noteIndex": 2
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-4",
-      "citationItems": [
+            "citationID": "CITATION-3", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1", 
+                    "locator": "33", 
+                    "prefix": "[citation3-item1-note2] "
+                }
+            ], 
+            "properties": {
+                "noteIndex": 2
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-2",
-          "prefix": "[citation4-item2-note3] "
-        },
+            "citationID": "CITATION-4", 
+            "citationItems": [
+                {
+                    "id": "ITEM-2", 
+                    "prefix": "[citation4-item2-note3] "
+                }, 
+                {
+                    "id": "ITEM-1", 
+                    "prefix": "[citation4-item1-note3] "
+                }
+            ], 
+            "properties": {
+                "noteIndex": 3
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                2
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-1",
-          "prefix": "[citation4-item1-note3] "
-        }
-      ],
-      "properties": {
-        "noteIndex": 3
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2],["CITATION-3",2]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-5",
-      "citationItems": [
+            "citationID": "CITATION-5", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1", 
+                    "locator": "99", 
+                    "prefix": "[citation5-item1-note4] "
+                }
+            ], 
+            "properties": {
+                "noteIndex": 4
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                2
+            ], 
+            [
+                "CITATION-4", 
+                3
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-1",
-          "locator": "99",
-          "prefix": "[citation5-item1-note4] "
-        }
-      ],
-      "properties": {
-        "noteIndex": 4
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2],["CITATION-3",2],["CITATION-4",3]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-6",
-      "citationItems": [
+            "citationID": "CITATION-6", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1", 
+                    "prefix": "[citation6-item1-note4] "
+                }
+            ], 
+            "properties": {
+                "noteIndex": 4
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                2
+            ], 
+            [
+                "CITATION-4", 
+                3
+            ], 
+            [
+                "CITATION-5", 
+                4
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-1",
-          "prefix": "[citation6-item1-note4] "
-        }
-      ],
-      "properties": {
-        "noteIndex": 4
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2],["CITATION-3",2],["CITATION-4",3],["CITATION-5",4]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-7",
-      "citationItems": [
-        {
-          "id": "ITEM-1",
-          "prefix": "[citation7-item1-note4] "
-        }
-      ],
-      "properties": {
-        "noteIndex": 4
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2],["CITATION-3",2],["CITATION-4",3],["CITATION-5",4],["CITATION-6",4]],
-    []
-  ]
+            "citationID": "CITATION-7", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1", 
+                    "prefix": "[citation7-item1-note4] "
+                }
+            ], 
+            "properties": {
+                "noteIndex": 4
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                2
+            ], 
+            [
+                "CITATION-4", 
+                3
+            ], 
+            [
+                "CITATION-5", 
+                4
+            ], 
+            [
+                "CITATION-6", 
+                4
+            ]
+        ], 
+        []
+    ]
 ]
 <<===== CITATIONS =====<<
 

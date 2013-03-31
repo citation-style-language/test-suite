@@ -70,13 +70,14 @@ philo.csl
     {
         "author": [
             {
-                "family": "Doe",
+                "family": "Doe", 
                 "given": "John"
             }
         ], 
+        "container-title": "His Anonymous Life", 
         "editor": [
             {
-                "family": "Roe",
+                "family": "Roe", 
                 "given": "Jane"
             }
         ], 
@@ -91,7 +92,6 @@ philo.csl
             ]
         }, 
         "title": "His Anonymous Life", 
-        "container-title": "His Anonymous Life", 
         "type": "chapter"
     }
 ]

@@ -84,7 +84,7 @@ François Hédelin, abbé d’Aubignac
     {
         "author": [
             {
-                "family": "Aubignac",
+                "family": "Aubignac", 
                 "given": "François Hédelin, abbé d'"
             }
         ], 

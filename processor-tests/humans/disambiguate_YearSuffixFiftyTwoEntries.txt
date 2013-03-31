@@ -67,154 +67,154 @@ Note the two-full-stops prefix on the first entry, which shows that the processo
             "citationItems": [
                 {
                     "id": "ITEM-1"
-                },
+                }, 
                 {
                     "id": "ITEM-2"
-                },
+                }, 
                 {
                     "id": "ITEM-3"
-                },
+                }, 
                 {
                     "id": "ITEM-4"
-                },
+                }, 
                 {
                     "id": "ITEM-5"
-                },
+                }, 
                 {
                     "id": "ITEM-6"
-                },
+                }, 
                 {
                     "id": "ITEM-7"
-                },
+                }, 
                 {
                     "id": "ITEM-8"
-                },
+                }, 
                 {
                     "id": "ITEM-9"
-                },
+                }, 
                 {
                     "id": "ITEM-10"
-                },
+                }, 
                 {
                     "id": "ITEM-11"
-                },
+                }, 
                 {
                     "id": "ITEM-12"
-                },
+                }, 
                 {
                     "id": "ITEM-13"
-                },
+                }, 
                 {
                     "id": "ITEM-14"
-                },
+                }, 
                 {
                     "id": "ITEM-15"
-                },
+                }, 
                 {
                     "id": "ITEM-16"
-                },
+                }, 
                 {
                     "id": "ITEM-17"
-                },
+                }, 
                 {
                     "id": "ITEM-18"
-                },
+                }, 
                 {
                     "id": "ITEM-19"
-                },
+                }, 
                 {
                     "id": "ITEM-20"
-                },
+                }, 
                 {
                     "id": "ITEM-22"
-                },
+                }, 
                 {
                     "id": "ITEM-23"
-                },
+                }, 
                 {
                     "id": "ITEM-24"
-                },
+                }, 
                 {
                     "id": "ITEM-25"
-                },
+                }, 
                 {
                     "id": "ITEM-26"
-                },
+                }, 
                 {
                     "id": "ITEM-27"
-                },
+                }, 
                 {
                     "id": "ITEM-28"
-                },
+                }, 
                 {
                     "id": "ITEM-29"
-                },
+                }, 
                 {
                     "id": "ITEM-30"
-                },
+                }, 
                 {
                     "id": "ITEM-31"
-                },
+                }, 
                 {
                     "id": "ITEM-32"
-                },
+                }, 
                 {
                     "id": "ITEM-33"
-                },
+                }, 
                 {
                     "id": "ITEM-34"
-                },
+                }, 
                 {
                     "id": "ITEM-35"
-                },
+                }, 
                 {
                     "id": "ITEM-36"
-                },
+                }, 
                 {
                     "id": "ITEM-37"
-                },
+                }, 
                 {
                     "id": "ITEM-38"
-                },
+                }, 
                 {
                     "id": "ITEM-39"
-                },
+                }, 
                 {
                     "id": "ITEM-40"
-                },
+                }, 
                 {
                     "id": "ITEM-41"
-                },
+                }, 
                 {
                     "id": "ITEM-42"
-                },
+                }, 
                 {
                     "id": "ITEM-43"
-                },
+                }, 
                 {
                     "id": "ITEM-44"
-                },
+                }, 
                 {
                     "id": "ITEM-45"
-                },
+                }, 
                 {
                     "id": "ITEM-46"
-                },
+                }, 
                 {
                     "id": "ITEM-47"
-                },
+                }, 
                 {
                     "id": "ITEM-48"
-                },
+                }, 
                 {
                     "id": "ITEM-49"
-                },
+                }, 
                 {
                     "id": "ITEM-50"
-                },
+                }, 
                 {
                     "id": "ITEM-51"
-                },
+                }, 
                 {
                     "id": "ITEM-52"
                 }
@@ -225,7 +225,7 @@ Note the two-full-stops prefix on the first entry, which shows that the processo
         }, 
         [], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-2", 
@@ -238,10 +238,14 @@ Note the two-full-stops prefix on the first entry, which shows that the processo
                 "index": 1
             }
         }, 
-        [["CITATION-1", 0]], 
+        [
+            [
+                "CITATION-1", 
+                0
+            ]
+        ], 
         []
     ]
-
 ]
 <<=====  CITATIONS =====<<
 

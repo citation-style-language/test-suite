@@ -67,9 +67,11 @@ chicago-fullnote-bibliography-no-ibid.csl
 >>===== INPUT =====>>
 [
     {
+        "archive": "Bancroft Library, University of California at Berkeley", 
+        "archive_location": "MSS C-E 191", 
         "author": [
             {
-                "family": "Savage",
+                "family": "Savage", 
                 "given": "Thomas"
             }
         ], 
@@ -77,12 +79,10 @@ chicago-fullnote-bibliography-no-ibid.csl
         "issued": {
             "date-parts": [
                 [
-                    "1879" 
+                    "1879"
                 ]
             ]
         }, 
-        "archive_location": "MSS C-E 191",
-        "archive": "Bancroft Library, University of California at Berkeley",
         "title": "Report of Labors in Archives and Procuring Material for History of California: And Related Material", 
         "type": "manuscript"
     }

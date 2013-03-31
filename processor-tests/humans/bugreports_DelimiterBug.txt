@@ -1031,8 +1031,8 @@ Farenheit 451 Ballantine Books
 [
     {
         "id": "ITEM-1", 
-        "title": "Farenheit 451", 
         "publisher": "Ballantine Books", 
+        "title": "Farenheit 451", 
         "type": "book"
     }
 ]

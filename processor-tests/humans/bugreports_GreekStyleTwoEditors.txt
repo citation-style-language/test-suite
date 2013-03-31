@@ -68,23 +68,18 @@ greek-chicago-x.csl
         "author": [
             {
                 "family": "Άγρας", 
-                "given": "Τέλλος" 
+                "given": "Τέλλος"
             }
         ], 
-        "translator": [
-            {
-                "family": "Dimitriadis", 
-                "given": "Andreas" 
-            }
-        ], 
+        "container-title": "Ποιήματα και πεζά", 
         "editor": [
             {
                 "family": "Σαββίδης", 
-                "given": "Γ. Π." 
-            },
+                "given": "Γ. Π."
+            }, 
             {
                 "family": "Καρυωτάκης", 
-                "given": "Κώστας" 
+                "given": "Κώστας"
             }
         ], 
         "id": "ITEM-1", 
@@ -95,8 +90,13 @@ greek-chicago-x.csl
                 ]
             ]
         }, 
-        "title": "Ο Καρυωτάκης και οι Σάτιρες",
-         "container-title":"Ποιήματα και πεζά",
+        "title": "Ο Καρυωτάκης και οι Σάτιρες", 
+        "translator": [
+            {
+                "family": "Dimitriadis", 
+                "given": "Andreas"
+            }
+        ], 
         "type": "chapter"
     }
 ]

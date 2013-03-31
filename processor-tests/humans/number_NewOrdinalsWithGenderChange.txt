@@ -90,9 +90,9 @@ Title 1: 1<sup>r</sup><sup>e</sup>femmie
 >>===== INPUT =====>>
 [
     {
+        "edition": 1, 
         "id": "ITEM-1", 
-        "title": "Title 1",
-        "edition": 1,
+        "title": "Title 1", 
         "type": "book"
     }
 ]

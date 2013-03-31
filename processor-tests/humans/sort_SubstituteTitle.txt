@@ -63,79 +63,79 @@ apa.csl
 
 >>===== INPUT =====>>
 [
-  {
-    "id": 67,
-    "type": "article-newspaper",
-    "multi": {
-      "_keys": {}
-    },
-    "title": "Let's think outside the box here: maybe blue-sky thinking is nonsense",
-    "container-title": "The Guardian",
-    "publisher-place": "London",
-    "event-place": "London",
-    "URL": "http://www.guardian.co.uk/commentisfree/2011/jul/31/blue-sky-thinking",
-    "author": [
-      {
-        "family": "Brooker",
-        "given": "Charlie",
-        "isInstitution": ""
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2011,
-          7,
-          31
-        ]
-      ]
-    },
-    "accessed": {
-      "date-parts": [
-        [
-          2011,
-          7,
-          31
-        ]
-      ]
+    {
+        "URL": "http://www.guardian.co.uk/commentisfree/2011/jul/31/blue-sky-thinking", 
+        "accessed": {
+            "date-parts": [
+                [
+                    2011, 
+                    7, 
+                    31
+                ]
+            ]
+        }, 
+        "author": [
+            {
+                "family": "Brooker", 
+                "given": "Charlie", 
+                "isInstitution": ""
+            }
+        ], 
+        "container-title": "The Guardian", 
+        "event-place": "London", 
+        "id": 67, 
+        "issued": {
+            "date-parts": [
+                [
+                    2011, 
+                    7, 
+                    31
+                ]
+            ]
+        }, 
+        "multi": {
+            "_keys": {}
+        }, 
+        "publisher-place": "London", 
+        "title": "Let's think outside the box here: maybe blue-sky thinking is nonsense", 
+        "type": "article-newspaper"
+    }, 
+    {
+        "URL": "http://www.guardian.co.uk/commentisfree/2011/jul/24/charlie-brooker-norway-mass-killings", 
+        "accessed": {
+            "date-parts": [
+                [
+                    2011, 
+                    7, 
+                    31
+                ]
+            ]
+        }, 
+        "author": [
+            {
+                "family": "Brooker", 
+                "given": "Charlie", 
+                "isInstitution": ""
+            }
+        ], 
+        "container-title": "The Guardian", 
+        "event-place": "London", 
+        "id": 66, 
+        "issued": {
+            "date-parts": [
+                [
+                    "2011", 
+                    7, 
+                    24
+                ]
+            ]
+        }, 
+        "multi": {
+            "_keys": {}
+        }, 
+        "publisher-place": "London", 
+        "title": "The news coverage of the Norway mass-killings was fact-free conjecture", 
+        "type": "article-newspaper"
     }
-  },
-  {
-    "id": 66,
-    "type": "article-newspaper",
-    "multi": {
-      "_keys": {}
-    },
-    "title": "The news coverage of the Norway mass-killings was fact-free conjecture",
-    "container-title": "The Guardian",
-    "publisher-place": "London",
-    "event-place": "London",
-    "URL": "http://www.guardian.co.uk/commentisfree/2011/jul/24/charlie-brooker-norway-mass-killings",
-    "author": [
-      {
-        "family": "Brooker",
-        "given": "Charlie",
-        "isInstitution": ""
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2011",
-          7,
-          24
-        ]
-      ]
-    },
-    "accessed": {
-      "date-parts": [
-        [
-          2011,
-          7,
-          31
-        ]
-      ]
-    }
-  }
 ]
 <<===== INPUT===== <<

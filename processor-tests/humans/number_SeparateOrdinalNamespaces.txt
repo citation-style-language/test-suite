@@ -101,23 +101,23 @@ With One, 1.<sup>a</sup> edition, 1.<sup>o</sup> issue; With Two, 2.<sup>a</sup>
 >>===== INPUT =====>>
 [
     {
+        "edition": "1", 
         "id": "ITEM-1", 
-        "issue": "1",
-        "edition": "1",
+        "issue": "1", 
         "title": "With One", 
         "type": "book"
-    },
+    }, 
     {
+        "edition": "2", 
         "id": "ITEM-2", 
-        "issue": "2",
-        "edition": "2",
+        "issue": "2", 
         "title": "With Two", 
         "type": "book"
-    },
+    }, 
     {
+        "edition": "3", 
         "id": "ITEM-3", 
-        "issue": "3",
-        "edition": "3",
+        "issue": "3", 
         "title": "With Three", 
         "type": "book"
     }

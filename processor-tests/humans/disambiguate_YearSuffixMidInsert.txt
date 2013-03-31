@@ -60,68 +60,68 @@ Test data from Zotero user brazuca.
 
 >>===== CITATIONS =====>>
 [
-  [
-    {
-      "citationItems": [
-        {
-          "id": 76
-        }
-      ],
-      "properties": {
-        "noteIndex": 0,
-        "index": 0
-      },
-      "citationID": "206sm2hms3"
-    },
-    [],
-    []
-  ],
-  [
-    {
-      "citationItems": [
-        {
-          "id": 71
-        }
-      ],
-      "properties": {
-        "noteIndex": 0,
-        "index": 1
-      },
-      "citationID": "2ntq47t8li"
-    },
     [
-      [
-        "206sm2hms3",
-        0
-      ]
-    ],
-    []
-  ],
-  [
-    {
-      "citationID": "1i0a7a5iuk",
-      "citationItems": [
         {
-          "id": 72
-        }
-      ],
-      "properties": {
-        "noteIndex": 0,
-        "index": 2
-      }
-    },
+            "citationID": "206sm2hms3", 
+            "citationItems": [
+                {
+                    "id": 76
+                }
+            ], 
+            "properties": {
+                "index": 0, 
+                "noteIndex": 0
+            }
+        }, 
+        [], 
+        []
+    ], 
     [
-      [
-        "206sm2hms3",
-        0
-      ],
-      [
-        "2ntq47t8li",
-        0
-      ]
-    ],
-    []
-  ]
+        {
+            "citationID": "2ntq47t8li", 
+            "citationItems": [
+                {
+                    "id": 71
+                }
+            ], 
+            "properties": {
+                "index": 1, 
+                "noteIndex": 0
+            }
+        }, 
+        [
+            [
+                "206sm2hms3", 
+                0
+            ]
+        ], 
+        []
+    ], 
+    [
+        {
+            "citationID": "1i0a7a5iuk", 
+            "citationItems": [
+                {
+                    "id": 72
+                }
+            ], 
+            "properties": {
+                "index": 2, 
+                "noteIndex": 0
+            }
+        }, 
+        [
+            [
+                "206sm2hms3", 
+                0
+            ], 
+            [
+                "2ntq47t8li", 
+                0
+            ]
+        ], 
+        []
+    ]
 ]
 <<===== CITATIONS===== <<
 

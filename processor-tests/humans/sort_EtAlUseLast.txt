@@ -105,22 +105,22 @@ bibliography
                 "family": "Roe", 
                 "given": "Jane", 
                 "static-ordering": false
-            },
+            }, 
             {
                 "family": "Doe", 
                 "given": "John", 
                 "static-ordering": false
-            },
+            }, 
             {
                 "family": "Blow", 
                 "given": "Joe", 
                 "static-ordering": false
-            },
+            }, 
             {
                 "family": "Snow", 
                 "given": "John", 
                 "static-ordering": false
-            },
+            }, 
             {
                 "family": "Gogh", 
                 "given": "Vincent", 
@@ -137,22 +137,22 @@ bibliography
                 "family": "Roe", 
                 "given": "Jane", 
                 "static-ordering": false
-            },
+            }, 
             {
                 "family": "Doe", 
                 "given": "John", 
                 "static-ordering": false
-            },
+            }, 
             {
                 "family": "Blow", 
                 "given": "Joe", 
                 "static-ordering": false
-            },
+            }, 
             {
                 "family": "Snow", 
                 "given": "John", 
                 "static-ordering": false
-            },
+            }, 
             {
                 "family": "Bogh", 
                 "given": "Vincent", 
@@ -169,22 +169,22 @@ bibliography
                 "family": "Roe", 
                 "given": "Jane", 
                 "static-ordering": false
-            },
+            }, 
             {
                 "family": "Doe", 
                 "given": "John", 
                 "static-ordering": false
-            },
+            }, 
             {
                 "family": "Blow", 
                 "given": "Joe", 
                 "static-ordering": false
-            },
+            }, 
             {
                 "family": "Snow", 
                 "given": "John", 
                 "static-ordering": false
-            },
+            }, 
             {
                 "family": "Aogh", 
                 "given": "Vincent", 

@@ -87,7 +87,7 @@ citation
     {
         "author": [
             {
-                "family": "d'Aubignac",
+                "family": "d'Aubignac", 
                 "given": "François Hédelin"
             }
         ], 

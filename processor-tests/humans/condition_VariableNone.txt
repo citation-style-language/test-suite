@@ -89,10 +89,10 @@ FALSE
     {
         "id": "ITEM-1", 
         "type": "book"
-    },
+    }, 
     {
-        "title": "His Book", 
         "id": "ITEM-2", 
+        "title": "His Book", 
         "type": "book"
     }
 ]

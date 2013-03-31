@@ -108,13 +108,13 @@ SMITH, John: THIS IS A PEN THAT IS A SMITH PENCIL
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
         "author": [
-          {
-            "family": "Smith",
-            "given": "John"
-          }
-        ],
+            {
+                "family": "Smith", 
+                "given": "John"
+            }
+        ], 
+        "id": "ITEM-1", 
         "title": "This is a pen that is a <span class=\"nocase\">Smith</span> pencil", 
         "type": "book"
     }

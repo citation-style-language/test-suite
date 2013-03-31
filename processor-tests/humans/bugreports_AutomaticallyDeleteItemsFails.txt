@@ -69,45 +69,45 @@ from the bib, but it seems to be happening.  Possible API problem?
 
 >>== CITATIONS ==>>
 [
-  [
-    {
-      "citationID": "CITATION-1",
-      "citationItems": [
+    [
         {
-          "id": "ITEM-1"
-        },
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }, 
+                {
+                    "id": "ITEM-2"
+                }, 
+                {
+                    "id": "ITEM-3"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 0
+            }
+        }, 
+        [], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-2"
-        },
-        {
-          "id": "ITEM-3"
-        }
-      ],
-      "properties": {
-        "noteIndex": 0
-      }
-    },
-    [],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-1",
-      "citationItems": [
-        {
-          "id": "ITEM-1"
-        },
-        {
-          "id": "ITEM-2"
-        }
-      ],
-      "properties": {
-        "noteIndex": 0
-      }
-    },
-    [],
-    []
-  ]
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }, 
+                {
+                    "id": "ITEM-2"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 0
+            }
+        }, 
+        [], 
+        []
+    ]
 ]
 <<== CITATIONS ==<<
 
