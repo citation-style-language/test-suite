@@ -67,14 +67,12 @@ chicago-author-date.csl
 >>===== INPUT =====>>
 [
     {
-        "container-title": "Acta Zoologica Sinica",
-        "volume": "20",
-        "page": "154-161",
         "author": [
             {
                 "family": "Beijing Zoo"
             }
         ], 
+        "container-title": "Acta Zoologica Sinica", 
         "id": "ITEM-1", 
         "issued": {
             "date-parts": [
@@ -83,18 +81,18 @@ chicago-author-date.csl
                 ]
             ]
         }, 
+        "page": "154-161", 
         "title": "Observations on the breeding of the giant panda and the raising of its young [in Chinese]", 
-        "type": "article-journal"
-    },
+        "type": "article-journal", 
+        "volume": "20"
+    }, 
     {
-        "container-title": "Acta Zoologica Sinica",
-        "volume": "20",
-        "page": "139-147",
         "author": [
             {
                 "literal": "Beijing Zoo"
             }
         ], 
+        "container-title": "Acta Zoologica Sinica", 
         "id": "ITEM-2", 
         "issued": {
             "date-parts": [
@@ -103,8 +101,10 @@ chicago-author-date.csl
                 ]
             ]
         }, 
+        "page": "139-147", 
         "title": "On the diseases of the giant panda and their preventive and curative measures [in Chinese]", 
-        "type": "article-journal"
+        "type": "article-journal", 
+        "volume": "20"
     }
 ]
 <<===== INPUT =====<<

@@ -53,11 +53,11 @@ citation
 
 >>===== ABBREVIATIONS =====>>
 {
-  "default": {
-    "number": {
-      "2nd volume": "2nd"
+    "default": {
+        "number": {
+            "2nd volume": "2nd"
+        }
     }
-  }
 }
 <<===== ABBREVIATIONS =====<<
 

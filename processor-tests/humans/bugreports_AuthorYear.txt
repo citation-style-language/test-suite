@@ -60,19 +60,25 @@ apa-x.csl
 
 >>===== INPUT =====>>
 [
-	{
-		"title" : "This is some title",
-		"volume" : "2003",
-		"author": [{
-			"family" : "Family01",
-			"given": "Given01"
-		}],
-		"issued" : {
-			"date-parts": [
-			[2003,1] ]
-		},
-		"id": "ITEM-1",
-		"type": "book"
-	}
+    {
+        "author": [
+            {
+                "family": "Family01", 
+                "given": "Given01"
+            }
+        ], 
+        "id": "ITEM-1", 
+        "issued": {
+            "date-parts": [
+                [
+                    2003, 
+                    1
+                ]
+            ]
+        }, 
+        "title": "This is some title", 
+        "type": "book", 
+        "volume": "2003"
+    }
 ]
 <<===== INPUT =====<<

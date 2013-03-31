@@ -72,7 +72,7 @@ citation
         }, 
         [], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-1", 
@@ -80,7 +80,7 @@ citation
                 {
                     "id": "ITEM-2"
                 }
-            ],
+            ], 
             "properties": {
                 "index": 0
             }

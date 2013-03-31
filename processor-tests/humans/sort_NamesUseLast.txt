@@ -114,11 +114,11 @@ bibliography
             {
                 "family": "Doe", 
                 "given": "John"
-            },
+            }, 
             {
                 "family": "Anderson", 
                 "given": "Alvin"
-            },
+            }, 
             {
                 "family": "Zotero", 
                 "given": "Zoe"
@@ -140,11 +140,11 @@ bibliography
             {
                 "family": "Doe", 
                 "given": "John"
-            },
+            }, 
             {
                 "family": "Xerxes", 
                 "given": "Xavier"
-            },
+            }, 
             {
                 "family": "Boop", 
                 "given": "Betty"

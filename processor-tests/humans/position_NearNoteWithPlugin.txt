@@ -54,22 +54,22 @@ citation
 <<===== RESULT===== <<
 >>===== CITATIONS =====>>
 [
-  [
-    {
-      "citationID": "1bpvp16as0",
-      "citationItems": [
+    [
         {
-          "id": 97
-        }
-      ],
-      "properties": {
-        "noteIndex": 1,
-        "index": 0
-      }
-    },
-    [],
-    []
-  ]
+            "citationID": "1bpvp16as0", 
+            "citationItems": [
+                {
+                    "id": 97
+                }
+            ], 
+            "properties": {
+                "index": 0, 
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ]
 ]
 <<===== CITATIONS===== <<
 >>===== CSL =====>>

@@ -93,14 +93,14 @@ John Doe (ed. &#38; tran.)
                 "family": "Doe", 
                 "given": "John"
             }
-		],
-		"translator": [
+        ], 
+        "id": "ITEM-1", 
+        "translator": [
             {
                 "family": "Doe", 
                 "given": "John"
             }
         ], 
-        "id": "ITEM-1", 
         "type": "book"
     }
 ]

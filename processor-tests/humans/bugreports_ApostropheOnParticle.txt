@@ -76,14 +76,16 @@ John d’Jones
 
 >>===== INPUT =====>>
 [
-	{
-		"author": [{
-			"family" : "Jones",
-			"given": "John",
-			"dropping-particle": "d'"
-		}],
-		"id": "ITEM-1",
-		"type": "book"
-	}
+    {
+        "author": [
+            {
+                "dropping-particle": "d'", 
+                "family": "Jones", 
+                "given": "John"
+            }
+        ], 
+        "id": "ITEM-1", 
+        "type": "book"
+    }
 ]
 <<===== INPUT =====<<

@@ -68,95 +68,95 @@ journal-of-physiology-bib-sort-test-2.csl
 
 >>===== INPUT =====>>
 [
-  {
-    "id": 19,
-    "type": "article-journal",
-    "multi": {
-      "_keys": {}
-    },
-    "title": "Title 1",
-    "container-title": "Test",
-    "page": "1-2",
-    "volume": "1",
-    "author": [
-      {
-        "family": "Doe",
-        "given": "Jane B.",
-        "isInstitution": ""
-      },
-      {
-        "family": "Doe",
-        "given": "John A.",
-        "isInstitution": ""
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2009
-        ]
-      ]
+    {
+        "author": [
+            {
+                "family": "Doe", 
+                "given": "Jane B.", 
+                "isInstitution": ""
+            }, 
+            {
+                "family": "Doe", 
+                "given": "John A.", 
+                "isInstitution": ""
+            }
+        ], 
+        "container-title": "Test", 
+        "id": 19, 
+        "issued": {
+            "date-parts": [
+                [
+                    2009
+                ]
+            ]
+        }, 
+        "multi": {
+            "_keys": {}
+        }, 
+        "page": "1-2", 
+        "title": "Title 1", 
+        "type": "article-journal", 
+        "volume": "1"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Doe", 
+                "given": "John A.", 
+                "isInstitution": ""
+            }, 
+            {
+                "family": "Smith", 
+                "given": "John A.", 
+                "isInstitution": ""
+            }
+        ], 
+        "container-title": "Test", 
+        "id": 25, 
+        "issued": {
+            "date-parts": [
+                [
+                    2010
+                ]
+            ]
+        }, 
+        "multi": {
+            "_keys": {}
+        }, 
+        "page": "1-2", 
+        "title": "Title 2", 
+        "type": "article-journal", 
+        "volume": "2"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Doe", 
+                "given": "John A.", 
+                "isInstitution": ""
+            }, 
+            {
+                "family": "Bloggs", 
+                "given": "Joe A.", 
+                "isInstitution": ""
+            }
+        ], 
+        "container-title": "Test", 
+        "id": 27, 
+        "issued": {
+            "date-parts": [
+                [
+                    2011
+                ]
+            ]
+        }, 
+        "multi": {
+            "_keys": {}
+        }, 
+        "page": "3-4", 
+        "title": "Title 3", 
+        "type": "article-journal", 
+        "volume": "3"
     }
-  },
-  {
-    "id": 25,
-    "type": "article-journal",
-    "multi": {
-      "_keys": {}
-    },
-    "title": "Title 2",
-    "container-title": "Test",
-    "page": "1-2",
-    "volume": "2",
-    "author": [
-      {
-        "family": "Doe",
-        "given": "John A.",
-        "isInstitution": ""
-      },
-      {
-        "family": "Smith",
-        "given": "John A.",
-        "isInstitution": ""
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2010
-        ]
-      ]
-    }
-  },
-  {
-    "id": 27,
-    "type": "article-journal",
-    "multi": {
-      "_keys": {}
-    },
-    "title": "Title 3",
-    "container-title": "Test",
-    "page": "3-4",
-    "volume": "3",
-    "author": [
-      {
-        "family": "Doe",
-        "given": "John A.",
-        "isInstitution": ""
-      },
-      {
-        "family": "Bloggs",
-        "given": "Joe A.",
-        "isInstitution": ""
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2011
-        ]
-      ]
-    }
-  }
 ]
 <<===== INPUT =====<<

@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-[Doe65, RoNo78b, RoNo78a]
+[Doe65, RoNo78a, RoNo78b]
 <<===== RESULT =====<<
 
 
@@ -67,54 +67,60 @@ copernicus-trigraph.csl
     {
         "author": [
             {
-                "family": "Roe",
+                "family": "Roe", 
                 "given": "Jane"
-            },
+            }, 
             {
-                "family": "Noakes",
+                "family": "Noakes", 
                 "given": "Richard"
             }
         ], 
         "id": "ITEM-1", 
         "issued": {
             "date-parts": [
-                ["1978"]
+                [
+                    "1978"
+                ]
             ]
         }, 
         "title": "Book A", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-                "family": "Doe",
+                "family": "Doe", 
                 "given": "John"
             }
         ], 
         "id": "ITEM-2", 
         "issued": {
             "date-parts": [
-                ["1965"]
+                [
+                    "1965"
+                ]
             ]
         }, 
         "title": "Book A", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-                "family": "Roe",
+                "family": "Roe", 
                 "given": "Jane"
-            },
+            }, 
             {
-                "family": "Noakes",
+                "family": "Noakes", 
                 "given": "Richard"
             }
         ], 
         "id": "ITEM-3", 
         "issued": {
             "date-parts": [
-                ["1978"]
+                [
+                    "1978"
+                ]
             ]
         }, 
         "title": "Book A", 

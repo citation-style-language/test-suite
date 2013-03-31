@@ -56,64 +56,64 @@ citation
 
 >>===== CITATIONS =====>>
 [
-  [
-    {
-      "citationID": "29lcbr8ict",
-      "properties": {
-        "noteIndex": 0,
-        "index": 0
-      },
-      "citationItems": [
+    [
         {
-          "label": "page",
-          "id": "315"
-        },
-        {
-          "label": "page",
-          "id": "313"
-        },
-        {
-          "label": "page",
-          "id": "328"
-        },
-        {
-          "label": "page",
-          "id": "317"
-        },
-        {
-          "label": "page",
-          "id": "327"
-        },
-        {
-          "label": "page",
-          "id": "311"
-        },
-        {
-          "label": "page",
-          "id": "320"
-        },
-        {
-          "label": "page",
-          "id": "318"
-        },
-        {
-          "label": "page",
-          "id": "323"
-        },
-        {
-          "label": "page",
-          "id": "324"
-        },
-        {
-          "label": "page",
-          "id": "325"
-        }
-      ],
-      "schema": "https://github.com/citation-style-language/schema/raw/master/csl-citation.json"
-    },
-    [],
-    []
-  ]
+            "citationID": "29lcbr8ict", 
+            "citationItems": [
+                {
+                    "id": "315", 
+                    "label": "page"
+                }, 
+                {
+                    "id": "313", 
+                    "label": "page"
+                }, 
+                {
+                    "id": "328", 
+                    "label": "page"
+                }, 
+                {
+                    "id": "317", 
+                    "label": "page"
+                }, 
+                {
+                    "id": "327", 
+                    "label": "page"
+                }, 
+                {
+                    "id": "311", 
+                    "label": "page"
+                }, 
+                {
+                    "id": "320", 
+                    "label": "page"
+                }, 
+                {
+                    "id": "318", 
+                    "label": "page"
+                }, 
+                {
+                    "id": "323", 
+                    "label": "page"
+                }, 
+                {
+                    "id": "324", 
+                    "label": "page"
+                }, 
+                {
+                    "id": "325", 
+                    "label": "page"
+                }
+            ], 
+            "properties": {
+                "index": 0, 
+                "noteIndex": 0
+            }, 
+            "schema": "https://github.com/citation-style-language/schema/raw/master/csl-citation.json"
+        }, 
+        [], 
+        []
+    ]
 ]
 <<===== CITATIONS===== <<
 

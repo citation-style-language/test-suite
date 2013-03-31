@@ -152,7 +152,7 @@ Original test by Bruce D'Arcus.
         }, 
         "title": "Book B", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {

@@ -86,13 +86,13 @@ citation
 >>===== INPUT =====>>
 [
     {
-        "page": "para. 22-25",
         "id": "ITEM-1", 
+        "page": "para. 22-25", 
         "type": "legal_case"
-    },
+    }, 
     {
-        "page": "47-52",
         "id": "ITEM-2", 
+        "page": "47-52", 
         "type": "legal_case"
     }
 ]

@@ -67,7 +67,7 @@ impcoll.csl
     {
         "author": [
             {
-                "family": "Doe",
+                "family": "Doe", 
                 "given": "John"
             }
         ], 
@@ -81,11 +81,11 @@ impcoll.csl
         }, 
         "title": "His Anonymous Life", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-                "family": "Doe",
+                "family": "Doe", 
                 "given": "Heroclitus"
             }
         ], 

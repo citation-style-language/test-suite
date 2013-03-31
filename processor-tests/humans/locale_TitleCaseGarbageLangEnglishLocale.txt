@@ -81,8 +81,8 @@ His anonymous life
 [
     {
         "id": "ITEM-1", 
+        "language": "french language", 
         "title": "His anonymous life", 
-        "language":"french language",
         "type": "book"
     }
 ]

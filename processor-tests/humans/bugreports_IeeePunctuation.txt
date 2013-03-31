@@ -66,23 +66,28 @@ ieee.csl
 
 >>===== INPUT =====>>
 [
-	{
-		"container-title" : "American Psychologist",
-		"id" : "ITEM-1",
-		"issue" : "5",
-		"page" : "339-351",
-		"title" : "Does Psychology make a significant difference in our lives?",
-		"type" : "article-journal",
-		"volume" : "59",
-		"author": [{
-			"family" : "Zimbardo",
-			"given": "Philip G"
-		}],
-		"issued" : {
-			"date-parts": [
-			[2004,1]
-		]
-		}
-	}
+    {
+        "author": [
+            {
+                "family": "Zimbardo", 
+                "given": "Philip G"
+            }
+        ], 
+        "container-title": "American Psychologist", 
+        "id": "ITEM-1", 
+        "issue": "5", 
+        "issued": {
+            "date-parts": [
+                [
+                    2004, 
+                    1
+                ]
+            ]
+        }, 
+        "page": "339-351", 
+        "title": "Does Psychology make a significant difference in our lives?", 
+        "type": "article-journal", 
+        "volume": "59"
+    }
 ]
 <<===== INPUT =====<<

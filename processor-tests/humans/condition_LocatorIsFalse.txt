@@ -60,7 +60,7 @@ Book One: (1) Locator true (2) Locator true; Book Two: (1) Locator false (2) Loc
 [
     [
         {
-            "id": "ITEM-1",
+            "id": "ITEM-1", 
             "locator": "1"
         }, 
         {

@@ -69,24 +69,26 @@ asa-x.csl
 >>===== INPUT =====>>
 [
     {
-		"id": "ITEM-1",
-		"title":"Boundaries of Dissent: Protest and State Power in the Media Age",
-		"author": [
-			{
-				"family": "D'Arcus",
-				"given": "Bruce",
-				"static-ordering": false
-			}
-		],
-		"publisher": "Routledge",
-        "publisher-place": "New York",
-		"issued": {
-			"date-parts":[
-				[2006]
-			]
-		},
-		"type": "book",
-		"URL": "http://www.test01.com"
-	}
+        "URL": "http://www.test01.com", 
+        "author": [
+            {
+                "family": "D'Arcus", 
+                "given": "Bruce", 
+                "static-ordering": false
+            }
+        ], 
+        "id": "ITEM-1", 
+        "issued": {
+            "date-parts": [
+                [
+                    2006
+                ]
+            ]
+        }, 
+        "publisher": "Routledge", 
+        "publisher-place": "New York", 
+        "title": "Boundaries of Dissent: Protest and State Power in the Media Age", 
+        "type": "book"
+    }
 ]
 <<===== INPUT =====<<

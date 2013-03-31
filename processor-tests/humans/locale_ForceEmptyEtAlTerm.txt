@@ -90,11 +90,11 @@ John Doe
             {
                 "family": "Doe", 
                 "given": "John"
-            },
+            }, 
             {
                 "family": "Roe", 
                 "given": "Jane"
-            },
+            }, 
             {
                 "family": "Noakes", 
                 "given": "Richard"

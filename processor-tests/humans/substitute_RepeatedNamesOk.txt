@@ -103,7 +103,7 @@ Ma Ry, Ma Ry, Kwite Kontrari
                 "family": "Ry", 
                 "given": "Ma"
             }
-        ],
+        ], 
         "editor": [
             {
                 "family": "Kontrari", 

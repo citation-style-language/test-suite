@@ -136,13 +136,13 @@ SpiffLabel1900a; SpiffLabel1900b; Bron00; BrCh98; DEFG26
         }, 
         "title": "Book C", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
                 "family": "Bronchitis", 
                 "given": "Buffy"
-            },
+            }, 
             {
                 "family": "Cholera", 
                 "given": "Cleopatra"
@@ -158,25 +158,25 @@ SpiffLabel1900a; SpiffLabel1900b; Bron00; BrCh98; DEFG26
         }, 
         "title": "Book D", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
                 "family": "von Dipheria", 
                 "given": "Doug"
-            },
+            }, 
             {
                 "family": "Eczema", 
                 "given": "Elihugh"
-            },
+            }, 
             {
                 "family": "Flatulence", 
                 "given": "Frankie"
-            },
+            }, 
             {
                 "family": "Goiter", 
                 "given": "Gus"
-            },
+            }, 
             {
                 "family": "Hiccups", 
                 "given": "Harvey"

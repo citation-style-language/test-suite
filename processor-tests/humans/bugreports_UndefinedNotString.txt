@@ -69,10 +69,10 @@ advanced-engineering-materials-x.csl
 
 >>===== INPUT =====>>
 [
-  {
-    "container-title": "FOO BAR", 
-    "id": "ITEM-1", 
-    "type": "article-journal"
-  }
+    {
+        "container-title": "FOO BAR", 
+        "id": "ITEM-1", 
+        "type": "article-journal"
+    }
 ]
 <<===== INPUT =====<<

@@ -87,7 +87,7 @@ citation
     {
         "author": [
             {
-                "family": "La Fontaine",
+                "family": "La Fontaine", 
                 "given": "Jean de"
             }
         ], 

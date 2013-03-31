@@ -861,7 +861,7 @@ J. Doe, <i>His Anonymous Life</i>, , 1965.
     {
         "author": [
             {
-                "family": "Doe",
+                "family": "Doe", 
                 "given": "John"
             }
         ], 

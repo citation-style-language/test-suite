@@ -89,32 +89,42 @@ bibliography
 
 >>===== INPUT =====>>
 [
-	{
-                "id": "ITEM-1",
-		"type" : "article-journal",
-		"author": [{
-		    "family" : "van Happel",
-		    "given": "Eduard",
-                    "parse-names": 0
-		}],
-		"issued" : {
-		    "date-parts": [
-		    [2008,1]
-		]
-		}
-	},
-	{
-                "id": "ITEM-2",
-		"type" : "article-journal",
-		"author": [{
-		    "family" : "von Hoppel",
-		    "given": "Gustav"
-		}],
-		"issued" : {
-		    "date-parts": [
-		    [2008,1]
-		]
-		}
-	}
+    {
+        "author": [
+            {
+                "family": "van Happel", 
+                "given": "Eduard", 
+                "parse-names": 0
+            }
+        ], 
+        "id": "ITEM-1", 
+        "issued": {
+            "date-parts": [
+                [
+                    2008, 
+                    1
+                ]
+            ]
+        }, 
+        "type": "article-journal"
+    }, 
+    {
+        "author": [
+            {
+                "family": "von Hoppel", 
+                "given": "Gustav"
+            }
+        ], 
+        "id": "ITEM-2", 
+        "issued": {
+            "date-parts": [
+                [
+                    2008, 
+                    1
+                ]
+            ]
+        }, 
+        "type": "article-journal"
+    }
 ]
 <<===== INPUT =====<<

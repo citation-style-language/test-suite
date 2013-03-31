@@ -99,7 +99,7 @@ John Doe 1965a; b
             ]
         }, 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {

@@ -84,7 +84,7 @@ citation
 [
     {
         "id": "ITEM-1", 
-         "page": "12-20", 
+        "page": "12-20", 
         "type": "book"
     }
 ]

@@ -113,7 +113,7 @@ citation
             ]
         }, 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {

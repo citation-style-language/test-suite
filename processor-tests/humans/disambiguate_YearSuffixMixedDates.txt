@@ -93,56 +93,56 @@ citation
 
 >>===== INPUT =====>>
 [
-  {
-    "id": 22,
-    "type": "article-journal",
-    "author": [
-      {
-        "family": "Ylinen",
-        "given": "A"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          1995
-        ]
-      ]
+    {
+        "author": [
+            {
+                "family": "Ylinen", 
+                "given": "A"
+            }
+        ], 
+        "id": 22, 
+        "issued": {
+            "date-parts": [
+                [
+                    1995
+                ]
+            ]
+        }, 
+        "type": "article-journal"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Ylinen", 
+                "given": "A"
+            }
+        ], 
+        "id": 21, 
+        "issued": {
+            "date-parts": [
+                [
+                    "1995"
+                ]
+            ]
+        }, 
+        "type": "article-journal"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Ylinen", 
+                "given": "A"
+            }
+        ], 
+        "id": 23, 
+        "issued": {
+            "date-parts": [
+                [
+                    "1995"
+                ]
+            ]
+        }, 
+        "type": "article-journal"
     }
-   },
-  {
-    "id": 21,
-    "type": "article-journal",
-    "author": [
-      {
-        "family": "Ylinen",
-        "given": "A"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1995"
-        ]
-      ]
-    }
-  },
-  {
-    "id": 23,
-    "type": "article-journal",
-    "author": [
-      {
-        "family": "Ylinen",
-        "given": "A"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "1995"
-        ]
-      ]
-    }
-  }
 ]
 <<===== INPUT===== <<

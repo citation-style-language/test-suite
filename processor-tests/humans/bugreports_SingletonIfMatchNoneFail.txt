@@ -84,9 +84,9 @@ PhD. diss.
 >>===== INPUT =====>>
 [
     {
+        "genre": "PhD. diss.", 
         "id": "ITEM-1", 
         "title": "His Anonymous Life", 
-        "genre": "PhD. diss.",
         "type": "thesis"
     }
 ]

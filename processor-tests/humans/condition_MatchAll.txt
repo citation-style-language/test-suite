@@ -89,7 +89,6 @@ Some Title or Other
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
         "accessed": {
             "date-parts": [
                 [
@@ -99,7 +98,8 @@ Some Title or Other
                 ]
             ]
         }, 
-        "title": "Some Title or Other",
+        "id": "ITEM-1", 
+        "title": "Some Title or Other", 
         "type": "book"
     }
 ]

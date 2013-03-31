@@ -69,33 +69,31 @@ chicago-fullnote-bibliography-delimiter-fixes.csl
     [
         {
             "id": "ITEM-1"
-        },
+        }, 
         {
             "id": "ITEM-2", 
             "prefix": ", and "
         }
-    ],
+    ], 
     [
         {
-            "id": "ITEM-1",
+            "id": "ITEM-1", 
             "suffix": " is one source,"
-        },
+        }, 
         {
-            "id": "ITEM-2",
+            "id": "ITEM-2", 
             "suffix": " is another."
-
         }
-    ],
+    ], 
     [
         {
-            "id": "ITEM-1",
-            "suffix": " is one source,",
-            "locator": 23
-        },
+            "id": "ITEM-1", 
+            "locator": 23, 
+            "suffix": " is one source,"
+        }, 
         {
-            "id": "ITEM-2",
+            "id": "ITEM-2", 
             "suffix": " is another."
-
         }
     ]
 ]

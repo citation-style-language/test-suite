@@ -83,50 +83,50 @@ Vietnamese On Item; Vietnamese On Name; Hungarian On Item; Hungarian On Name
     {
         "author": [
             {
-                "family": "Vietnamese",
+                "family": "Vietnamese", 
                 "given": "On Item"
             }
         ], 
-        "language": "hu",
         "id": "ITEM-1", 
+        "language": "hu", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-                "family": "Vietnamese",
-                "given": "On Name",
+                "family": "Vietnamese", 
+                "given": "On Name", 
                 "multi": {
-                            "main": "hu"
-                         }
+                    "main": "hu"
+                }
             }
         ], 
         "id": "ITEM-2", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-                "family": "Hungarian",
+                "family": "Hungarian", 
                 "given": "On Item"
             }
         ], 
-        "language": "hu",
         "id": "ITEM-3", 
+        "language": "hu", 
         "type": "book"
-    },
+    }, 
     {
-       "author": [
-           {
-               "family": "Hungarian",
-               "given": "On Name",
+        "author": [
+            {
+                "family": "Hungarian", 
+                "given": "On Name", 
                 "multi": {
-                            "main": "hu"
-                         }
-           }
-       ], 
-       "id": "ITEM-4", 
-       "type": "book"
+                    "main": "hu"
+                }
+            }
+        ], 
+        "id": "ITEM-4", 
+        "type": "book"
     }
 ]
 <<===== INPUT =====<<

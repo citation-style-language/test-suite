@@ -126,32 +126,32 @@ bibliography
 [
     {
         "id": "ITEM-1", 
-        "title": "The Title",
-        "publisher":"The Publisher",
+        "publisher": "The Publisher", 
+        "title": "The Title", 
         "type": "book"
-    },
+    }, 
     {
+        "editor": [
+            {
+                "family": "Doe", 
+                "given": "John-boy"
+            }
+        ], 
         "id": "ITEM-2", 
-        "editor": [
-          {
-            "family":"Doe",
-            "given": "John-boy"
-          }
-        ],
-        "title": "The Title",
-        "publisher":"The Publisher",
+        "publisher": "The Publisher", 
+        "title": "The Title", 
         "type": "book"
-    },
+    }, 
     {
-        "id": "ITEM-3", 
         "editor": [
-          {
-            "family":"Doe",
-            "given": "Jane-girl"
-          }
-        ],
-        "title": "The Title",
-        "publisher":"The Organization",
+            {
+                "family": "Doe", 
+                "given": "Jane-girl"
+            }
+        ], 
+        "id": "ITEM-3", 
+        "publisher": "The Organization", 
+        "title": "The Title", 
         "type": "report"
     }
 ]

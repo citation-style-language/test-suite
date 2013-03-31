@@ -92,22 +92,22 @@ John Doe.Journal Title.Jane Roe.Journ Title.
 [
     {
         "author": [
-           {
-              "given": "John",
-              "family": "Doe"
-           }
-        ],
+            {
+                "family": "Doe", 
+                "given": "John"
+            }
+        ], 
         "container-title": "Journal Title", 
         "id": "ITEM-1", 
         "type": "article-journal"
-    },
+    }, 
     {
         "author": [
-           {
-              "given": "Jane",
-              "family": "Roe"
-           }
-        ],
+            {
+                "family": "Roe", 
+                "given": "Jane"
+            }
+        ], 
         "container-title": "Journ. Title", 
         "id": "ITEM-2", 
         "type": "article-journal"

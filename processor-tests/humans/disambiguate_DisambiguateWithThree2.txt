@@ -58,68 +58,68 @@ citation
 
 >>===== CITATIONS =====>>
 [
-  [
-    {
-      "citationItems": [
-        {
-          "id": 55
-        }
-      ],
-      "properties": {
-        "noteIndex": 0,
-        "index": 0
-      },
-      "citationID": "14eia8mbkt"
-    },
-    [],
-    []
-  ],
-  [
-    {
-      "citationItems": [
-        {
-          "id": 53
-        }
-      ],
-      "properties": {
-        "noteIndex": 0,
-        "index": 1
-      },
-      "citationID": "6vv2a1gh3"
-    },
     [
-      [
-        "14eia8mbkt",
-        0
-      ]
-    ],
-    []
-  ],
-  [
-    {
-      "citationID": "1p1h161do",
-      "citationItems": [
         {
-          "id": 59
-        }
-      ],
-      "properties": {
-        "noteIndex": 0,
-        "index": 2
-      }
-    },
+            "citationID": "14eia8mbkt", 
+            "citationItems": [
+                {
+                    "id": 55
+                }
+            ], 
+            "properties": {
+                "index": 0, 
+                "noteIndex": 0
+            }
+        }, 
+        [], 
+        []
+    ], 
     [
-      [
-        "14eia8mbkt",
-        0
-      ],
-      [
-        "6vv2a1gh3",
-        0
-      ]
-    ],
-    []
-  ]
+        {
+            "citationID": "6vv2a1gh3", 
+            "citationItems": [
+                {
+                    "id": 53
+                }
+            ], 
+            "properties": {
+                "index": 1, 
+                "noteIndex": 0
+            }
+        }, 
+        [
+            [
+                "14eia8mbkt", 
+                0
+            ]
+        ], 
+        []
+    ], 
+    [
+        {
+            "citationID": "1p1h161do", 
+            "citationItems": [
+                {
+                    "id": 59
+                }
+            ], 
+            "properties": {
+                "index": 2, 
+                "noteIndex": 0
+            }
+        }, 
+        [
+            [
+                "14eia8mbkt", 
+                0
+            ], 
+            [
+                "6vv2a1gh3", 
+                0
+            ]
+        ], 
+        []
+    ]
 ]
 <<===== CITATIONS===== <<
 

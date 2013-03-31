@@ -57,50 +57,50 @@ citation
 
 >>===== CITATIONS =====>>
 [
-  [
-    {
-      "citationID": "10fplksp7n",
-      "citationItems": [
-        {
-          "locator": "47",
-          "label": "page",
-          "id": 1
-        }
-      ],
-      "properties": {
-        "noteIndex": 1,
-        "index": 0
-      }
-    },
-    [],
-    []
-  ],
-  [
-    {
-      "citationID": "2cmt1f5kan",
-      "citationItems": [
-        {
-          "label": "page",
-          "id": "5"
-        },
-        {
-          "label": "page",
-          "id": "1"
-        }
-      ],
-      "properties": {
-        "noteIndex": 2,
-        "index": 1
-      }
-    },
     [
-      [
-        "10fplksp7n",
-        1
-      ]
-    ],
-    []
-  ]
+        {
+            "citationID": "10fplksp7n", 
+            "citationItems": [
+                {
+                    "id": 1, 
+                    "label": "page", 
+                    "locator": "47"
+                }
+            ], 
+            "properties": {
+                "index": 0, 
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ], 
+    [
+        {
+            "citationID": "2cmt1f5kan", 
+            "citationItems": [
+                {
+                    "id": "5", 
+                    "label": "page"
+                }, 
+                {
+                    "id": "1", 
+                    "label": "page"
+                }
+            ], 
+            "properties": {
+                "index": 1, 
+                "noteIndex": 2
+            }
+        }, 
+        [
+            [
+                "10fplksp7n", 
+                1
+            ]
+        ], 
+        []
+    ]
 ]
 <<===== CITATIONS===== <<
 

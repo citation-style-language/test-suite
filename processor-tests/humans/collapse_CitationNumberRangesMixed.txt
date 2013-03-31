@@ -82,7 +82,7 @@ citation
         {
             "id": "ITEM-7"
         }
-    ],
+    ], 
     [
         {
             "id": "ITEM-1"

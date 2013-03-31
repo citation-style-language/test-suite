@@ -65,14 +65,14 @@ mla-x.csl
 
 >>===== INPUT =====>>
 [
-  {
-    "author": [
-      {
-        "given": "I Test J R"
-      }
-    ], 
-    "id": "ITEM-1", 
-    "type": "book"
-  }
+    {
+        "author": [
+            {
+                "given": "I Test J R"
+            }
+        ], 
+        "id": "ITEM-1", 
+        "type": "book"
+    }
 ]
 <<===== INPUT =====<<

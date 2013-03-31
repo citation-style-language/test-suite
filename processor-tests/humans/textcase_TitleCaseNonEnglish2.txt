@@ -81,8 +81,8 @@ Review of Book by A.N. Author
 [
     {
         "id": "ITEM-1", 
+        "language": "en", 
         "title": "Review of book by A.N. author", 
-		"language": "en",
         "type": "book"
     }
 ]

@@ -50,6 +50,15 @@
 citation
 <<===== MODE =====<<
 
+Input data for this test included a key with irregular capitalization.
+This option controls for it.
+
+>>===== OPTIONS =====>>
+{
+  "normalize_lang_keys_to_lowercase": true
+}
+<<===== OPTIONS =====<<
+
 
 
 >>===== RESULT =====>>
@@ -80,8 +89,8 @@ His Anonymous Life
 [
     {
         "id": "ITEM-1", 
+        "language": "EN", 
         "title": "His anonymous life", 
-        "language":"EN",
         "type": "book"
     }
 ]

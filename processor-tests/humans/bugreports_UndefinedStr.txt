@@ -67,13 +67,15 @@ acta-materialia-x.csl
 >>===== INPUT =====>>
 [
     {
-	"id" : "ITEM-1",
-	"title" : "The Title",
-	"type" : "article-journal",
-	"author": [{
-	    "family" : "FamilyName",
-	    "given": "GivenName"
-	}]
+        "author": [
+            {
+                "family": "FamilyName", 
+                "given": "GivenName"
+            }
+        ], 
+        "id": "ITEM-1", 
+        "title": "The Title", 
+        "type": "article-journal"
     }
 ]
 <<===== INPUT =====<<

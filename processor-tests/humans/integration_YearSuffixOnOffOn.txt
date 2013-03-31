@@ -64,10 +64,10 @@ citation
             "citationItems": [
                 {
                     "id": "ITEM-1"
-                },
+                }, 
                 {
                     "id": "ITEM-2"
-                },
+                }, 
                 {
                     "id": "ITEM-3"
                 }
@@ -78,42 +78,42 @@ citation
         }, 
         [], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-1", 
             "citationItems": [
                 {
                     "id": "ITEM-1"
-                },
+                }, 
                 {
                     "id": "ITEM-2"
                 }
-            ],
+            ], 
             "properties": {
                 "index": 0
             }
         }, 
         [], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-1", 
             "citationItems": [
                 {
                     "id": "ITEM-1"
-                },
+                }, 
                 {
                     "id": "ITEM-2"
-                },
+                }, 
                 {
                     "id": "ITEM-3"
-                },
+                }, 
                 {
                     "id": "ITEM-4"
                 }
-            ],
+            ], 
             "properties": {
                 "index": 0
             }

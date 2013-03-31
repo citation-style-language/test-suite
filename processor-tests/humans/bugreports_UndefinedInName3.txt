@@ -63,20 +63,20 @@ mhra_note_without_bibliography-x.csl
 
 >>===== CITATION-ITEMS =====>>
 [
-	[
-		{
-			"id": "ITEM-1",
-			"position": 0
-		}
-	],
-	[
-		{
-			"id": "ITEM-1",
-			"label": "page",
-			"locator": "23",
-			"position": 2
-		}
-	]
+    [
+        {
+            "id": "ITEM-1", 
+            "position": 0
+        }
+    ], 
+    [
+        {
+            "id": "ITEM-1", 
+            "label": "page", 
+            "locator": "23", 
+            "position": 2
+        }
+    ]
 ]
 <<===== CITATION-ITEMS =====<<
 

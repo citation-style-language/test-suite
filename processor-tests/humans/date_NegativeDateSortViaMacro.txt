@@ -103,7 +103,7 @@ bibliographies, they are always placed at the end of the sort
                 ]
             ]
         }, 
-        "title": "BookA",
+        "title": "BookA", 
         "type": "book"
     }, 
     {
@@ -117,7 +117,7 @@ bibliographies, they are always placed at the end of the sort
                 ]
             ]
         }, 
-        "title": "BookB",
+        "title": "BookB", 
         "type": "book"
     }, 
     {
@@ -131,7 +131,7 @@ bibliographies, they are always placed at the end of the sort
                 ]
             ]
         }, 
-        "title": "BookC",
+        "title": "BookC", 
         "type": "book"
     }, 
     {
@@ -145,7 +145,7 @@ bibliographies, they are always placed at the end of the sort
                 ]
             ]
         }, 
-        "title": "BookD",
+        "title": "BookD", 
         "type": "book"
     }
 ]

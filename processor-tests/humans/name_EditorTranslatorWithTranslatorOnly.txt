@@ -81,13 +81,13 @@ Jane Roe
 >>===== INPUT =====>>
 [
     {
+        "id": "ITEM-1", 
         "translator": [
             {
-                "family": "Roe",
+                "family": "Roe", 
                 "given": "Jane"
             }
         ], 
-        "id": "ITEM-1", 
         "type": "book"
     }
 ]

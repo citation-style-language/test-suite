@@ -56,59 +56,59 @@ citation
 
 >>===== CITATIONS =====>>
 [
-  [
-    {
-      "citationItems": [
-        {
-          "id": 4
-        }
-      ],
-      "properties": {
-        "noteIndex": 0,
-        "index": 0
-      },
-      "citationID": "13hs217jtl"
-    },
-    [],
-    []
-  ],
-  [
-    {
-      "citationItems": [
-        {
-          "id": 5
-        }
-      ],
-      "properties": {
-        "noteIndex": 0,
-        "index": 1
-      },
-      "citationID": "m6h52lmhh"
-    },
     [
-      [
-        "13hs217jtl",
-        0
-      ]
-    ],
-    []
-  ],
-  [
-    {
-      "citationItems": [
         {
-          "id": 5
-        }
-      ],
-      "properties": {
-        "noteIndex": 0,
-        "index": 1
-      },
-      "citationID": "m6h52lmhh"
-    },
-    [],
-    []
-  ]
+            "citationID": "13hs217jtl", 
+            "citationItems": [
+                {
+                    "id": 4
+                }
+            ], 
+            "properties": {
+                "index": 0, 
+                "noteIndex": 0
+            }
+        }, 
+        [], 
+        []
+    ], 
+    [
+        {
+            "citationID": "m6h52lmhh", 
+            "citationItems": [
+                {
+                    "id": 5
+                }
+            ], 
+            "properties": {
+                "index": 1, 
+                "noteIndex": 0
+            }
+        }, 
+        [
+            [
+                "13hs217jtl", 
+                0
+            ]
+        ], 
+        []
+    ], 
+    [
+        {
+            "citationID": "m6h52lmhh", 
+            "citationItems": [
+                {
+                    "id": 5
+                }
+            ], 
+            "properties": {
+                "index": 1, 
+                "noteIndex": 0
+            }
+        }, 
+        [], 
+        []
+    ]
 ]
 <<===== CITATIONS===== <<
 

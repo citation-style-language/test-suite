@@ -86,10 +86,10 @@ citation
     {
         "author": [
             {
-                "given": "Jean",
-                "dropping-particle": "de",
-                "non-dropping-particle": "La",
-                "family": "Fontaine",
+                "dropping-particle": "de", 
+                "family": "Fontaine", 
+                "given": "Jean", 
+                "non-dropping-particle": "La", 
                 "suffix": "III"
             }
         ], 

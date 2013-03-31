@@ -88,11 +88,11 @@ C. Smith; J. Brown; and F. Wilson
             {
                 "family": "Smith", 
                 "given": "Cecil"
-            },
+            }, 
             {
                 "family": "Brown", 
                 "given": "Jimminey"
-            },
+            }, 
             {
                 "family": "Wilson", 
                 "given": "Fred"

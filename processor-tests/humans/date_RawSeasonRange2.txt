@@ -81,14 +81,14 @@ Summer–Spring 1999
     {
         "id": "ITEM-1", 
         "issued": {
-			"raw": "Summer 1999 - Spring 1999",
             "date-parts": [
                 [
                     "1965", 
                     "6", 
                     "1"
                 ]
-            ]
+            ], 
+            "raw": "Summer 1999 - Spring 1999"
         }, 
         "type": "book"
     }

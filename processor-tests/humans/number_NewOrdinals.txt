@@ -72,231 +72,665 @@ citation
 
 >>===== CITATIONS =====>>
 [
-  [
-    {
-      "citationID": "CITATION-1",
-      "citationItems": [
+    [
         {
-          "id": "ITEM-1"
-        }
-      ],
-      "properties": {
-        "noteIndex": 1
-      }
-    },
-    [],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-2",
-      "citationItems": [
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-2"
-        }
-      ],
-      "properties": {
-        "noteIndex": 2
-      }
-    },
-    [["CITATION-1",1]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-3",
-      "citationItems": [
+            "citationID": "CITATION-2", 
+            "citationItems": [
+                {
+                    "id": "ITEM-2"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 2
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-3"
-        }
-      ],
-      "properties": {
-        "noteIndex": 3
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-4",
-      "citationItems": [
+            "citationID": "CITATION-3", 
+            "citationItems": [
+                {
+                    "id": "ITEM-3"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 3
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-4"
-        }
-      ],
-      "properties": {
-        "noteIndex": 4
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2],["CITATION-3",3]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-5",
-      "citationItems": [
+            "citationID": "CITATION-4", 
+            "citationItems": [
+                {
+                    "id": "ITEM-4"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 4
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-5"
-        }
-      ],
-      "properties": {
-        "noteIndex": 5
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2],["CITATION-3",3],["CITATION-4",4]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-6",
-      "citationItems": [
+            "citationID": "CITATION-5", 
+            "citationItems": [
+                {
+                    "id": "ITEM-5"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 5
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ], 
+            [
+                "CITATION-4", 
+                4
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-10"
-        }
-      ],
-      "properties": {
-        "noteIndex": 6
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2],["CITATION-3",3],["CITATION-4",4],["CITATION-5",5]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-7",
-      "citationItems": [
+            "citationID": "CITATION-6", 
+            "citationItems": [
+                {
+                    "id": "ITEM-10"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 6
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ], 
+            [
+                "CITATION-4", 
+                4
+            ], 
+            [
+                "CITATION-5", 
+                5
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-11"
-        }
-      ],
-      "properties": {
-        "noteIndex": 7
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2],["CITATION-3",3],["CITATION-4",4],["CITATION-5",5],["CITATION-6",6]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-8",
-      "citationItems": [
+            "citationID": "CITATION-7", 
+            "citationItems": [
+                {
+                    "id": "ITEM-11"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 7
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ], 
+            [
+                "CITATION-4", 
+                4
+            ], 
+            [
+                "CITATION-5", 
+                5
+            ], 
+            [
+                "CITATION-6", 
+                6
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-12"
-        }
-      ],
-      "properties": {
-        "noteIndex": 8
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2],["CITATION-3",3],["CITATION-4",4],["CITATION-5",5],["CITATION-6",6],["CITATION-7",7]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-9",
-      "citationItems": [
+            "citationID": "CITATION-8", 
+            "citationItems": [
+                {
+                    "id": "ITEM-12"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 8
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ], 
+            [
+                "CITATION-4", 
+                4
+            ], 
+            [
+                "CITATION-5", 
+                5
+            ], 
+            [
+                "CITATION-6", 
+                6
+            ], 
+            [
+                "CITATION-7", 
+                7
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-13"
-        }
-      ],
-      "properties": {
-        "noteIndex": 9
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2],["CITATION-3",3],["CITATION-4",4],["CITATION-5",5],["CITATION-6",6],["CITATION-7",7],["CITATION-8",8]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-10",
-      "citationItems": [
+            "citationID": "CITATION-9", 
+            "citationItems": [
+                {
+                    "id": "ITEM-13"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 9
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ], 
+            [
+                "CITATION-4", 
+                4
+            ], 
+            [
+                "CITATION-5", 
+                5
+            ], 
+            [
+                "CITATION-6", 
+                6
+            ], 
+            [
+                "CITATION-7", 
+                7
+            ], 
+            [
+                "CITATION-8", 
+                8
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-14"
-        }
-      ],
-      "properties": {
-        "noteIndex": 10
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2],["CITATION-3",3],["CITATION-4",4],["CITATION-5",5],["CITATION-6",6],["CITATION-7",7],["CITATION-8",8],["CITATION-9",9]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-11",
-      "citationItems": [
+            "citationID": "CITATION-10", 
+            "citationItems": [
+                {
+                    "id": "ITEM-14"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 10
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ], 
+            [
+                "CITATION-4", 
+                4
+            ], 
+            [
+                "CITATION-5", 
+                5
+            ], 
+            [
+                "CITATION-6", 
+                6
+            ], 
+            [
+                "CITATION-7", 
+                7
+            ], 
+            [
+                "CITATION-8", 
+                8
+            ], 
+            [
+                "CITATION-9", 
+                9
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-110"
-        }
-      ],
-      "properties": {
-        "noteIndex": 11
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2],["CITATION-3",3],["CITATION-4",4],["CITATION-5",5],["CITATION-6",6],["CITATION-7",7],["CITATION-8",8],["CITATION-9",9],["CITATION-10",10]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-12",
-      "citationItems": [
+            "citationID": "CITATION-11", 
+            "citationItems": [
+                {
+                    "id": "ITEM-110"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 11
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ], 
+            [
+                "CITATION-4", 
+                4
+            ], 
+            [
+                "CITATION-5", 
+                5
+            ], 
+            [
+                "CITATION-6", 
+                6
+            ], 
+            [
+                "CITATION-7", 
+                7
+            ], 
+            [
+                "CITATION-8", 
+                8
+            ], 
+            [
+                "CITATION-9", 
+                9
+            ], 
+            [
+                "CITATION-10", 
+                10
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-111"
-        }
-      ],
-      "properties": {
-        "noteIndex": 12
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2],["CITATION-3",3],["CITATION-4",4],["CITATION-5",5],["CITATION-6",6],["CITATION-7",7],["CITATION-8",8],["CITATION-9",9],["CITATION-10",10],["CITATION-11",11]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-13",
-      "citationItems": [
+            "citationID": "CITATION-12", 
+            "citationItems": [
+                {
+                    "id": "ITEM-111"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 12
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ], 
+            [
+                "CITATION-4", 
+                4
+            ], 
+            [
+                "CITATION-5", 
+                5
+            ], 
+            [
+                "CITATION-6", 
+                6
+            ], 
+            [
+                "CITATION-7", 
+                7
+            ], 
+            [
+                "CITATION-8", 
+                8
+            ], 
+            [
+                "CITATION-9", 
+                9
+            ], 
+            [
+                "CITATION-10", 
+                10
+            ], 
+            [
+                "CITATION-11", 
+                11
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-112"
-        }
-      ],
-      "properties": {
-        "noteIndex": 13
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2],["CITATION-3",3],["CITATION-4",4],["CITATION-5",5],["CITATION-6",6],["CITATION-7",7],["CITATION-8",8],["CITATION-9",9],["CITATION-10",10],["CITATION-11",11],["CITATION-12",12]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-14",
-      "citationItems": [
+            "citationID": "CITATION-13", 
+            "citationItems": [
+                {
+                    "id": "ITEM-112"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 13
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ], 
+            [
+                "CITATION-4", 
+                4
+            ], 
+            [
+                "CITATION-5", 
+                5
+            ], 
+            [
+                "CITATION-6", 
+                6
+            ], 
+            [
+                "CITATION-7", 
+                7
+            ], 
+            [
+                "CITATION-8", 
+                8
+            ], 
+            [
+                "CITATION-9", 
+                9
+            ], 
+            [
+                "CITATION-10", 
+                10
+            ], 
+            [
+                "CITATION-11", 
+                11
+            ], 
+            [
+                "CITATION-12", 
+                12
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-113"
-        }
-      ],
-      "properties": {
-        "noteIndex": 14
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2],["CITATION-3",3],["CITATION-4",4],["CITATION-5",5],["CITATION-6",6],["CITATION-7",7],["CITATION-8",8],["CITATION-9",9],["CITATION-10",10],["CITATION-11",11],["CITATION-12",12],["CITATION-13",13]],
-    []
-  ],
-  [
-    {
-      "citationID": "CITATION-15",
-      "citationItems": [
+            "citationID": "CITATION-14", 
+            "citationItems": [
+                {
+                    "id": "ITEM-113"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 14
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ], 
+            [
+                "CITATION-4", 
+                4
+            ], 
+            [
+                "CITATION-5", 
+                5
+            ], 
+            [
+                "CITATION-6", 
+                6
+            ], 
+            [
+                "CITATION-7", 
+                7
+            ], 
+            [
+                "CITATION-8", 
+                8
+            ], 
+            [
+                "CITATION-9", 
+                9
+            ], 
+            [
+                "CITATION-10", 
+                10
+            ], 
+            [
+                "CITATION-11", 
+                11
+            ], 
+            [
+                "CITATION-12", 
+                12
+            ], 
+            [
+                "CITATION-13", 
+                13
+            ]
+        ], 
+        []
+    ], 
+    [
         {
-          "id": "ITEM-114"
-        }
-      ],
-      "properties": {
-        "noteIndex": 16
-      }
-    },
-    [["CITATION-1",1],["CITATION-2",2],["CITATION-3",3],["CITATION-4",4],["CITATION-5",5],["CITATION-6",6],["CITATION-7",7],["CITATION-8",8],["CITATION-9",9],["CITATION-10",10],["CITATION-11",11],["CITATION-12",12],["CITATION-13",13],["CITATION-14",14]],
-    []
-  ]
+            "citationID": "CITATION-15", 
+            "citationItems": [
+                {
+                    "id": "ITEM-114"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 16
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ], 
+            [
+                "CITATION-4", 
+                4
+            ], 
+            [
+                "CITATION-5", 
+                5
+            ], 
+            [
+                "CITATION-6", 
+                6
+            ], 
+            [
+                "CITATION-7", 
+                7
+            ], 
+            [
+                "CITATION-8", 
+                8
+            ], 
+            [
+                "CITATION-9", 
+                9
+            ], 
+            [
+                "CITATION-10", 
+                10
+            ], 
+            [
+                "CITATION-11", 
+                11
+            ], 
+            [
+                "CITATION-12", 
+                12
+            ], 
+            [
+                "CITATION-13", 
+                13
+            ], 
+            [
+                "CITATION-14", 
+                14
+            ]
+        ], 
+        []
+    ]
 ]
 <<===== CITATIONS =====<<
 

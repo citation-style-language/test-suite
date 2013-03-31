@@ -91,16 +91,6 @@ citation
 >>===== INPUT =====>>
 [
     {
-        "translator": [
-            {
-                "family": "Noakes", 
-                "given": "John"
-            }, 
-            {
-                "family": "Stoakes", 
-                "given": "Richard"
-            }
-        ], 
         "editor": [
             {
                 "family": "Noakes", 
@@ -112,6 +102,16 @@ citation
             }
         ], 
         "id": "item-1", 
+        "translator": [
+            {
+                "family": "Noakes", 
+                "given": "John"
+            }, 
+            {
+                "family": "Stoakes", 
+                "given": "Richard"
+            }
+        ], 
         "type": "book"
     }
 ]

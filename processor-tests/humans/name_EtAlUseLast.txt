@@ -97,31 +97,31 @@ bibliography
             {
                 "family": "Anderson", 
                 "given": "John"
-            },
+            }, 
             {
                 "family": "Brown", 
                 "given": "John"
-            },
+            }, 
             {
                 "family": "Catharsis", 
                 "given": "John"
-            },
+            }, 
             {
                 "family": "Doldrums", 
                 "given": "John"
-            },
+            }, 
             {
                 "family": "Evergreen", 
                 "given": "John"
-            },
+            }, 
             {
                 "family": "Fugedaboutit", 
                 "given": "John"
-            },
+            }, 
             {
                 "family": "Gargoyle", 
                 "given": "John"
-            },
+            }, 
             {
                 "family": "Houynym", 
                 "given": "John"

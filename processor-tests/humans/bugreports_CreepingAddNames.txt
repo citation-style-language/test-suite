@@ -73,7 +73,7 @@ citation
             "citationItems": [
                 {
                     "id": "ITEM-1"
-                },
+                }, 
                 {
                     "id": "ITEM-2"
                 }
@@ -84,17 +84,17 @@ citation
         }, 
         [], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-1", 
             "citationItems": [
                 {
                     "id": "ITEM-1"
-                },
+                }, 
                 {
                     "id": "ITEM-2"
-                },
+                }, 
                 {
                     "id": "ITEM-3"
                 }
@@ -106,7 +106,6 @@ citation
         [], 
         []
     ]
-
 ]
 <<===== CITATIONS =====<<
 

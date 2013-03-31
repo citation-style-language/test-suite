@@ -73,9 +73,10 @@ harvard1.csl
     {
         "author": [
             {
-                "literal": "Africa News" 
+                "literal": "Africa News"
             }
         ], 
+        "container-title": "Africa News", 
         "id": "ITEM-1", 
         "issued": {
             "date-parts": [
@@ -85,15 +86,15 @@ harvard1.csl
             ]
         }, 
         "title": "Burkina Faso: Journalist Case Puts Spotlight On Justice System", 
-        "container-title": "Africa News",
         "type": "article-journal"
-    },
+    }, 
     {
         "author": [
             {
-                "literal": "Africa News" 
+                "literal": "Africa News"
             }
         ], 
+        "container-title": "Africa News", 
         "id": "ITEM-2", 
         "issued": {
             "date-parts": [
@@ -103,15 +104,15 @@ harvard1.csl
             ]
         }, 
         "title": "Niger: Who Really Ousted Tandja, And Why?", 
-        "container-title": "Africa News",
         "type": "article-journal"
-    },
+    }, 
     {
         "author": [
             {
-                "literal": "Africa News" 
+                "literal": "Africa News"
             }
         ], 
+        "container-title": "Africa News", 
         "id": "ITEM-3", 
         "issued": {
             "date-parts": [
@@ -121,15 +122,15 @@ harvard1.csl
             ]
         }, 
         "title": "Uganda: Police Protect Besigye Rally", 
-        "container-title": "Africa News",
         "type": "article-journal"
-    },
+    }, 
     {
         "author": [
             {
-                "literal": "Africa News" 
+                "literal": "Africa News"
             }
         ], 
+        "container-title": "Africa News", 
         "id": "ITEM-4", 
         "issued": {
             "date-parts": [
@@ -139,7 +140,6 @@ harvard1.csl
             ]
         }, 
         "title": "Uganda: UK, US Deploy Observers", 
-        "container-title": "Africa News",
         "type": "article-journal"
     }
 ]

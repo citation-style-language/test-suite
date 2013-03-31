@@ -64,7 +64,7 @@ citation
             "citationItems": [
                 {
                     "id": "ITEM-1"
-                 }
+                }
             ], 
             "properties": {
                 "index": 0, 
@@ -87,11 +87,15 @@ citation
                 "noteIndex": 2
             }
         }, 
-        [["CITATION-1", 1]], 
+        [
+            [
+                "CITATION-1", 
+                1
+            ]
+        ], 
         []
     ]
 ]
-
 <<===== CITATIONS =====<<
 
 >>===== CSL =====>>

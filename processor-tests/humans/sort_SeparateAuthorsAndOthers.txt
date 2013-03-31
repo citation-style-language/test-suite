@@ -54,10 +54,10 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">Doe, John. <i>Hello</i>.</div>
-  <div class="csl-entry">Doe, John ed. <i>Hello</i>.</div>
-  <div class="csl-entry">Doe, John Barbitol. <i>Hello</i>.</div>
-  <div class="csl-entry">Doe, John Egbert. <i>Hello</i>.</div>
+  <div class="csl-entry">Doe, John. <i>Hello 4</i>.</div>
+  <div class="csl-entry">--- ed. <i>Hello 1</i>.</div>
+  <div class="csl-entry">Doe, John Barbitol. <i>Hello 2</i>.</div>
+  <div class="csl-entry">Doe, John Egbert. <i>Hello 3</i>.</div>
 </div>
 <<===== RESULT =====<<
 
@@ -184,42 +184,42 @@ mla-x.csl
                 "family": "Doe", 
                 "given": "John"
             }
-		],
-        "title": "Hello",
+        ], 
         "id": "ITEM-1", 
+        "title": "Hello 1", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
                 "family": "Doe", 
                 "given": "John"
             }
-		],
-        "title": "Hello",
+        ], 
         "id": "ITEM-4", 
+        "title": "Hello 4", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
                 "family": "Doe", 
                 "given": "John Barbitol"
             }
-		],
-        "title": "Hello",
+        ], 
         "id": "ITEM-2", 
+        "title": "Hello 2", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
                 "family": "Doe", 
                 "given": "John Egbert"
             }
-		],
-        "title": "Hello",
+        ], 
         "id": "ITEM-3", 
+        "title": "Hello 3", 
         "type": "book"
     }
 ]

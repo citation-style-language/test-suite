@@ -64,35 +64,35 @@ only inside the processor.)
 
 >>== CITATIONS ==>>
 [
-  [
-    {
-      "citationItems": [
+    [
         {
-          "id": 5,
-          "prefix": "",
-          "suffix": "",
-          "label": 0,
-          "locator": "",
-          "suppress-author": false
-        },
-        {
-          "id": 8,
-          "prefix": "",
-          "suffix": "",
-          "label": 0,
-          "locator": "",
-          "suppress-author": false
-        }
-      ],
-      "properties": {
-        "index": 0,
-        "noteIndex": 0,
-        "added": true
-      }
-    },
-    [],
-    []
-  ]
+            "citationItems": [
+                {
+                    "id": 5, 
+                    "label": 0, 
+                    "locator": "", 
+                    "prefix": "", 
+                    "suffix": "", 
+                    "suppress-author": false
+                }, 
+                {
+                    "id": 8, 
+                    "label": 0, 
+                    "locator": "", 
+                    "prefix": "", 
+                    "suffix": "", 
+                    "suppress-author": false
+                }
+            ], 
+            "properties": {
+                "added": true, 
+                "index": 0, 
+                "noteIndex": 0
+            }
+        }, 
+        [], 
+        []
+    ]
 ]
 <<== CITATIONS ==<<
 

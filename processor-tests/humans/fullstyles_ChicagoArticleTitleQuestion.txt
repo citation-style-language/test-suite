@@ -444,7 +444,7 @@ bibliography
                 "static-ordering": false
             }
         ], 
-        "container-title": "New Thinker",
+        "container-title": "New Thinker", 
         "id": "ITEM-5", 
         "issued": {
             "date-parts": [

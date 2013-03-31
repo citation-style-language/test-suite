@@ -86,7 +86,7 @@ François Hédelin (d’Aubignac)
     {
         "author": [
             {
-                "family": "Aubignac",
+                "family": "Aubignac", 
                 "given": "François Hédelin d'"
             }
         ], 

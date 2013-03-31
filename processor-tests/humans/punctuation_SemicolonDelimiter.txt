@@ -105,70 +105,70 @@ bibliography
 
 >>===== INPUT =====>>
 [
-  {
-    "id": 1,
-    "type": "report",
-    "multi": {
-      "_keys": {}
-    },
-    "title": "Report on something many authors",
-    "publisher": "Institution",
-    "publisher-place": "Reportplace",
-    "genre": "Report Type",
-    "archive_location": "loc archieve",
-    "event-place": "Reportplace",
-    "URL": "www.reporturl.com",
-    "number": "17",
-    "author": [
-      {
-        "family": "Bauthor",
-        "given": "One Two",
-        "isInstitution": ""
-      },
-      {
-        "family": "Cauthor",
-        "given": "Two",
-        "isInstitution": ""
-      },
-      {
-        "family": "Dauthor",
-        "given": "Three",
-        "isInstitution": ""
-      },
-      {
-        "family": "Eauthor",
-        "given": "Edward",
-        "isInstitution": ""
-      },
-      {
-        "family": "Fauthor",
-        "given": "Fritz",
-        "isInstitution": ""
-      },
-      {
-        "family": "Gauthor",
-        "given": "Gerd",
-        "isInstitution": ""
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2009,
-          12,
-          12
-        ]
-      ]
-    },
-    "accessed": {
-      "date-parts": [
-        [
-          2007,
-          12,
-          12
-        ]
-      ]
+    {
+        "URL": "www.reporturl.com", 
+        "accessed": {
+            "date-parts": [
+                [
+                    2007, 
+                    12, 
+                    12
+                ]
+            ]
+        }, 
+        "archive_location": "loc archieve", 
+        "author": [
+            {
+                "family": "Bauthor", 
+                "given": "One Two", 
+                "isInstitution": ""
+            }, 
+            {
+                "family": "Cauthor", 
+                "given": "Two", 
+                "isInstitution": ""
+            }, 
+            {
+                "family": "Dauthor", 
+                "given": "Three", 
+                "isInstitution": ""
+            }, 
+            {
+                "family": "Eauthor", 
+                "given": "Edward", 
+                "isInstitution": ""
+            }, 
+            {
+                "family": "Fauthor", 
+                "given": "Fritz", 
+                "isInstitution": ""
+            }, 
+            {
+                "family": "Gauthor", 
+                "given": "Gerd", 
+                "isInstitution": ""
+            }
+        ], 
+        "event-place": "Reportplace", 
+        "genre": "Report Type", 
+        "id": 1, 
+        "issued": {
+            "date-parts": [
+                [
+                    2009, 
+                    12, 
+                    12
+                ]
+            ]
+        }, 
+        "multi": {
+            "_keys": {}
+        }, 
+        "number": "17", 
+        "publisher": "Institution", 
+        "publisher-place": "Reportplace", 
+        "title": "Report on something many authors", 
+        "type": "report"
     }
-  }
 ]
 <<===== INPUT===== <<

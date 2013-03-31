@@ -80,16 +80,16 @@ G Chen
 
 >>===== INPUT =====>>
 [
-   {
-      "id": "ITEM-1",
-      "type": "article-journal",
-      "author": [
-         {
-            "family": "Chen",
-            "given": "Guo-ping"
-         }
-      ]
-   }
+    {
+        "author": [
+            {
+                "family": "Chen", 
+                "given": "Guo-ping"
+            }
+        ], 
+        "id": "ITEM-1", 
+        "type": "article-journal"
+    }
 ]
 <<===== INPUT =====<<
 

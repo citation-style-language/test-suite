@@ -67,13 +67,7 @@ apa.csl
 >>===== INPUT =====>>
 [
     {
-        "author": [
-            {
-                "family": "Doe Inc.",
-                "isInstitution": true
-            }
-        ], 
-        "id": "ITEM-1", 
+        "URL": "http://example.com/", 
         "accessed": {
             "date-parts": [
                 [
@@ -83,7 +77,13 @@ apa.csl
                 ]
             ]
         }, 
-        "URL": "http://example.com/",
+        "author": [
+            {
+                "family": "Doe Inc.", 
+                "isInstitution": true
+            }
+        ], 
+        "id": "ITEM-1", 
         "type": "webpage"
     }
 ]

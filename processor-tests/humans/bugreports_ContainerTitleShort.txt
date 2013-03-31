@@ -91,9 +91,9 @@ Anon J
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
         "container-title": "Anonymous Journal", 
-        "journalAbbreviation": "Anon. J.",
+        "id": "ITEM-1", 
+        "journalAbbreviation": "Anon. J.", 
         "type": "article-journal"
     }
 ]

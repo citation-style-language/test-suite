@@ -79,24 +79,24 @@ pages 1 &#38; 2; pages 1, 2; pages 1–2; page 1
 >>===== INPUT =====>>
 [
     {
-		"id": "ITEM-1",
-        "page": "1 & 2",
-		"type": "book"
-	},
+        "id": "ITEM-1", 
+        "page": "1 & 2", 
+        "type": "book"
+    }, 
     {
-		"id": "ITEM-2",
-        "page": "1, 2",
-		"type": "book"
-	},
+        "id": "ITEM-2", 
+        "page": "1, 2", 
+        "type": "book"
+    }, 
     {
-		"id": "ITEM-3",
-        "page": "1-2",
-		"type": "book"
-	},
+        "id": "ITEM-3", 
+        "page": "1-2", 
+        "type": "book"
+    }, 
     {
-		"id": "ITEM-4",
-        "page": "1",
-		"type": "book"
-	}
+        "id": "ITEM-4", 
+        "page": "1", 
+        "type": "book"
+    }
 ]
 <<===== INPUT =====<<

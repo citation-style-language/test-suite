@@ -98,12 +98,12 @@ Smith; Smith; B. Muggins; J. Muggins
         "author": [
             {
                 "family": "Smith", 
-                "given": "Charles" 
+                "given": "Charles"
             }
         ], 
         "id": "ITEM-2", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
@@ -118,7 +118,7 @@ Smith; Smith; B. Muggins; J. Muggins
         "author": [
             {
                 "family": "Muggins", 
-                "given": "Jardine" 
+                "given": "Jardine"
             }
         ], 
         "id": "ITEM-4", 

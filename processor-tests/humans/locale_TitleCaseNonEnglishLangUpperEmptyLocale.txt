@@ -80,8 +80,8 @@ His anonymous life
 [
     {
         "id": "ITEM-1", 
+        "language": "FR", 
         "title": "His anonymous life", 
-        "language":"FR",
         "type": "book"
     }
 ]

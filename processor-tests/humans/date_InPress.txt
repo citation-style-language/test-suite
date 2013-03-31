@@ -86,12 +86,13 @@ citation
     {
         "author": [
             {
-                "family": "Doe",
+                "family": "Doe", 
                 "given": "John"
             }
         ], 
         "id": "ITEM-1", 
         "issued": {
+            "date-parts": [], 
             "literal": "(in press)"
         }, 
         "type": "book"

@@ -67,22 +67,21 @@ citation
         }, 
         {
             "id": "ITEM-2"
-        },
+        }, 
         {
             "id": "ITEM-3"
         }
-    ],
-   [
-       {
-           "id": "ITEM-2"
-       }
-   ],
+    ], 
     [
-       {
-           "id": "ITEM-3"
-       }
+        {
+            "id": "ITEM-2"
+        }
+    ], 
+    [
+        {
+            "id": "ITEM-3"
+        }
     ]
-
 ]
 <<===== CITATION-ITEMS =====<<
 

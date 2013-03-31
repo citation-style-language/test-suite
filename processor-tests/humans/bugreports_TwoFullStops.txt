@@ -52,11 +52,11 @@ bibliography
 
 >>===== ABBREVIATIONS =====>>
 {
-  "default": {
-      "number":{
-          "Mega Edition": "Mega ed."
-      }
-  }
+    "default": {
+        "number": {
+            "Mega Edition": "Mega ed."
+        }
+    }
 }
 <<===== ABBREVIATIONS =====<<
 

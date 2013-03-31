@@ -57,37 +57,42 @@ citation
             "citationID": "Citation-1", 
             "citationItems": [
                 {
-                    "id": 1,
+                    "id": 1, 
                     "position": 0
                 }
             ], 
             "properties": {
-                "index": 0,
-                "noteIndex": 1,
-                "near-note": true,
-                "first-reference-note-number": 0
+                "first-reference-note-number": 0, 
+                "index": 0, 
+                "near-note": true, 
+                "noteIndex": 1
             }
         }, 
         [], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "Citation-2", 
             "citationItems": [
                 {
-                    "id": 2,
+                    "id": 2, 
                     "position": 0
                 }
             ], 
             "properties": {
-                "index": 1,
-                "noteIndex": 2,
-                "near-note": true,
-                "first-reference-note-number": 0
+                "first-reference-note-number": 0, 
+                "index": 1, 
+                "near-note": true, 
+                "noteIndex": 2
             }
         }, 
-        [["Citation-1", 1]], 
+        [
+            [
+                "Citation-1", 
+                1
+            ]
+        ], 
         []
     ]
 ]

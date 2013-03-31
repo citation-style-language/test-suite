@@ -81,7 +81,7 @@ Detroit, Mich.: Random
 [
     {
         "id": "ITEM-1", 
-        "publisher": "Random",
+        "publisher": "Random", 
         "publisher-place": "Detroit, Mich.", 
         "type": "book"
     }

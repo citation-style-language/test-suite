@@ -62,15 +62,15 @@ asm-journals-x.csl
 
 >>===== INPUT =====>>
 [
-  {
-    "author": [
-      {
-        "family": "FamilyName"
-      }
-    ], 
-    "id": "ITEM-1", 
-    "title": "Title", 
-    "type": "article"
-  }
+    {
+        "author": [
+            {
+                "family": "FamilyName"
+            }
+        ], 
+        "id": "ITEM-1", 
+        "title": "Title", 
+        "type": "article"
+    }
 ]
 <<===== INPUT =====<<
