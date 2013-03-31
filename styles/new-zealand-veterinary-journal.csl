@@ -18,13 +18,12 @@
     <summary>New Zealand Veterinary Journal Style</summary>
     <rights>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License: http://creativecommons.org/licenses/by-sa/3.0/</rights>
   </info>
-<locale xml:lang="en">
-<terms>
-<term name="edition" form="short">Edtn.</term>
-<term name="no date" form="long">date unknown</term>
-</terms>
-
-</locale>
+  <locale xml:lang="en">
+    <terms>
+      <term name="edition" form="short">Edtn.</term>
+      <term name="no date" form="long">date unknown</term>
+    </terms>
+  </locale>
   <macro name="anon">
     <text term="anonymous" form="short" text-case="capitalize-first" strip-periods="true"/>
   </macro>
