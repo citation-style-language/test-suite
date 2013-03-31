@@ -129,7 +129,9 @@
   <macro name="year">
 	<choose>
 	  <if variable="issued" match="any">
-		<date variable="issued" form="text" date-parts="year"/>
+		<date variable="issued">
+          <date-part name="year"/>
+        </date>
 	  </if>
 	  <else-if variable="status">
 		<text variable="status" text-case="capitalize-first"/>
