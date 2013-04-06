@@ -54,7 +54,7 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">His Anonymous Life[x]100:555</div>
+  <div class="csl-entry">His Anonymous Life[x]100[x]:555</div>
 </div>
 <<===== RESULT =====<<
 
