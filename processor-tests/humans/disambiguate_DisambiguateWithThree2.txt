@@ -51,8 +51,8 @@ citation
 <<===== MODE===== <<
 
 >>===== RESULT =====>>
-..[0] (Spivak, <i>A Critique</i>)
-..[1] (Spivak, “Cultural Talks”)
+>>[0] (Spivak, <i>A Critique</i>)
+>>[1] (Spivak, “Cultural Talks”)
 >>[2] (Spivak, <i>Death of a Discipline</i>)
 <<===== RESULT===== <<
 

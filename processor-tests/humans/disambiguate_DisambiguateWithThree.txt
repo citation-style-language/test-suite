@@ -53,8 +53,8 @@ citation
 
 
 >>===== RESULT =====>>
-..[0] (Aalto, <i>Book A</i>)
-..[1] (Aalto, <i>Book B</i>)
+>>[0] (Aalto, <i>Book A</i>)
+>>[1] (Aalto, <i>Book B</i>)
 >>[2] (Aalto, <i>Book C</i>)
 <<===== RESULT =====<<
 
