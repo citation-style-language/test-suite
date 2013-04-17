@@ -50,6 +50,11 @@
 citation
 <<===== MODE =====<<
 
+## 2013-04-17 :: Frank Bennett <biercenator@gmail.com>
+
+  This test previously had no givenname-disambiguation-rule attribute.
+  It has been added because the CSL specification requires processors
+  to adopt by-cite disambiguation as the default.
 
 
 >>===== RESULT =====>>
@@ -68,7 +73,7 @@ citation
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
   <citation 
-         disambiguate-add-givenname="true">
+         disambiguate-add-givenname="true" givenname-disambiguation-rule="all-names">
     <layout delimiter="; " prefix="(" suffix=")">
       <group delimiter=" ">
         <names delimiter=", " variable="author">
