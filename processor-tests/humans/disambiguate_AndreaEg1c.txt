@@ -55,11 +55,11 @@ citation
 
   This test has been recast in three forms, with:
 
-    (1) disambiguate-add-names="true" disambiguate-add-givenname="true"
+    (1) disambiguate-add-names="true" disambiguate-add-givenname="true" (default by-cite rule)
     (2) disambiguate-add-names="true"
     (3) disambiguate-add-givenname="true"
 
-  This version is (2).
+  This version is (3).
 
 
 >>===== RESULT =====>>
@@ -111,7 +111,7 @@ Smith, Brown, et al. (1980); Smith, Brown, et al. (1980)
   <citation 
          et-al-min="3"
          et-al-use-first="1"
-         disambiguate-add-names="true">
+         disambiguate-add-givenname="true">
 
     <layout delimiter="; ">
       <group delimiter=" ">
