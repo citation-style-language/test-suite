@@ -61,11 +61,13 @@ citation
 
   This version is (3).
 
+  The result would be useless in this case, but it is what the style
+  has been set to deliver.
 
 >>===== RESULT =====>>
-Smith, Brown, et al. (1980); Smith, Brown, et al. (1980)
-Smith, Brown, et al. (1980); Smith, Benson, et al. (1980)
-Smith, Brown, et al. (1980); Smith, Brown, et al. (1980)
+Smith et al. (1980); Smith et al. (1980)
+Smith et al. (1980); Smith et al. (1980)
+Smith et al. (1980); Smith et al. (1980)
 <<===== RESULT =====<<
 
 
