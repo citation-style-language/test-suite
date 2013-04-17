@@ -50,8 +50,16 @@
 citation
 <<===== MODE===== <<
 
+## 2013-04-17 :: Frank Bennett <biercenator@gmail.com>
+
+  I believe that the full name is correct here. With by-cite
+  disambiguation, an uncited item in the bibliography that would clash
+  with a cite in the document should trigger disambiguation. That's my
+  call on this one, anyway.
+
+
 >>===== RESULT =====>>
->>[0] (Smith)
+>>[0] (James Smith)
 <<===== RESULT===== <<
 
 >>===== CITATIONS =====>>
