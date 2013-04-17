@@ -52,9 +52,17 @@ citation
 
 Bug report by Carles Pina.
 
+## 2013-04-17 :: Frank Bennett <biercenator@gmail.com>
+
+  At the time of reporting, the target style had no
+  "givenname-disambiguation-rule" set (and MHRA still does not). The
+  specification was subsequently revised to required "by-cite"
+  disambiguation. Under by-cite disambiguation, the subsequent form in
+  the style is "Kim and Kim", without the given names.
+
 >>===== RESULT =====>>
 B-X Kim and A-Y Kim.
-B-X Kim and A-Y Kim, 23.
+Kim and Kim, 23.
 <<===== RESULT =====<<
 
 >>===== CSL =====>>
