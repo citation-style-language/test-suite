@@ -54,13 +54,6 @@ citation
 <<===== MODE =====<<
 
 
-
-
->>===== RESULT =====>>
->>[0] <b>([1]–[3])</b>
-<<===== RESULT =====<<
-
-
 >>===== CITATIONS =====>>
 [
     [
@@ -71,7 +64,9 @@ citation
                     "id": "ITEM-1"
                 }, 
                 {
-                    "id": "ITEM-2"
+                    "id": "ITEM-2",
+                    "label": "page",
+                    "locator": 23
                 },
                 {
                     "id": "ITEM-3"
@@ -88,6 +83,13 @@ citation
 <<===== CITATIONS =====<<
 
 
+
+
+>>===== RESULT =====>>
+>>[0] <b>([1],[2, p. 23],[3])</b>
+<<===== RESULT =====<<
+
+
 >>===== CSL =====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
@@ -98,10 +100,26 @@ citation
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
+  <macro name="citation-locator">
+    <group delimiter=" ">
+      <choose>
+        <if locator="page">
+          <label variable="locator" form="short"/>
+        </if>
+        <else>
+          <label variable="locator" form="short" text-case="capitalize-first"/>
+        </else>
+      </choose>
+      <text variable="locator"/>
+    </group>
+  </macro>
   <citation 
          collapse="citation-number">
     <layout delimiter="," font-weight="bold" prefix="(" suffix=")">
-      <text variable="citation-number" prefix="[" suffix="]"/>
+      <group prefix="[" suffix="]" delimiter=", ">
+        <text variable="citation-number"/>
+        <text macro="citation-locator"/>
+      </group>
     </layout>
   </citation>
 </style>
@@ -117,8 +135,7 @@ citation
     }, 
     {
         "id": "ITEM-2", 
-        "title": "Paper 2", 
-        "type": "book"
+        "title": "Paper 2"
     }, 
     {
         "id": "ITEM-3", 
