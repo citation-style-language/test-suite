@@ -124,6 +124,10 @@ question? question
           <text value="question" suffix="?"/>
           <text value="colon" prefix=": "/>
         </group>
+        <group>
+          <text value="comma" suffix=","/>
+          <text value="colon" prefix=": "/>
+        </group>
         <text value="&#x0A;ENDING IN PERIOD"/>
         <group>
           <text value="colon" suffix=":"/>
@@ -143,6 +147,10 @@ question? question
         </group>
         <group>
           <text value="question" suffix="?"/>
+          <text value="period" prefix=". "/>
+        </group>
+        <group>
+          <text value="comma" suffix=","/>
           <text value="period" prefix=". "/>
         </group>
         <text value="&#x0A;ENDING IN SEMICOLON"/>
@@ -166,6 +174,10 @@ question? question
           <text value="question" suffix="?"/>
           <text value="semicolon" prefix="; "/>
         </group>
+        <group>
+          <text value="comma" suffix=","/>
+          <text value="semicolon" prefix="; "/>
+        </group>
         <text value="&#x0A;ENDING IN EXCLAMATION"/>
         <group>
           <text value="colon" suffix=":"/>
@@ -185,6 +197,10 @@ question? question
         </group>
         <group>
           <text value="question" suffix="?"/>
+          <text value="exclamation" prefix="! "/>
+        </group>
+        <group>
+          <text value="comma" suffix=","/>
           <text value="exclamation" prefix="! "/>
         </group>
         <text value="&#x0A;ENDING IN QUESTION"/>
@@ -207,6 +223,35 @@ question? question
         <group>
           <text value="question" suffix="?"/>
           <text value="question" prefix="? "/>
+        </group>
+        <group>
+          <text value="comma" suffix=","/>
+          <text value="question" prefix="? "/>
+        </group>
+        <text value="&#x0A;ENDING IN COMMA"/>
+        <group>]
+          <text value="colon" suffix=":"/>
+          <text value="comma" prefix=", "/>
+        </group>
+        <group>
+          <text value="period" suffix="."/>
+          <text value="comma" prefix=", "/>
+        </group>
+        <group>
+          <text value="semicolon" suffix=";"/>
+          <text value="comma" prefix=", "/>
+        </group>
+        <group>
+          <text value="exclamation" suffix="!"/>
+          <text value="comma" prefix=", "/>
+        </group>
+        <group>
+          <text value="question" suffix="?"/>
+          <text value="comma" prefix=", "/>
+        </group>
+        <group>
+          <text value="comma" suffix=","/>
+          <text value="comma" prefix=", "/>
         </group>
       </group>
     </layout>
