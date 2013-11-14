@@ -57,16 +57,21 @@ citation
   with a cite in the document should trigger disambiguation. That's my
   call on this one, anyway.
 
+## 2013-05-09 :: Frank Bennett <biercenator@gmail.com>
+
+  Well, that would have been true if this test resulted in an uncited
+  item. But the third operation deletes the initial citation completely.
+  The orginal test result "Smith" is correct here.
 
 >>===== RESULT =====>>
->>[0] (James Smith)
+>>[0] (Smith)
 <<===== RESULT===== <<
 
 >>===== CITATIONS =====>>
 [
     [
         {
-            "citationID": "13hs217jtl", 
+            "citationID": "CITATION-1", 
             "citationItems": [
                 {
                     "id": 4
@@ -82,7 +87,7 @@ citation
     ], 
     [
         {
-            "citationID": "m6h52lmhh", 
+            "citationID": "CITATION-2", 
             "citationItems": [
                 {
                     "id": 5
@@ -93,17 +98,12 @@ citation
                 "noteIndex": 0
             }
         }, 
-        [
-            [
-                "13hs217jtl", 
-                0
-            ]
-        ], 
+        [["CITATION-1",0]], 
         []
     ], 
     [
         {
-            "citationID": "m6h52lmhh", 
+            "citationID": "CITATION-2", 
             "citationItems": [
                 {
                     "id": 5
@@ -129,30 +129,22 @@ mla.csl
   {
     "id": 5,
     "type": "book",
-    "multi": {
-      "_keys": {}
-    },
     "title": "Book B",
     "author": [
       {
         "family": "Smith",
-        "given": "James",
-        "isInstitution": ""
+        "given": "James"
       }
     ]
   },
   {
     "id": 4,
     "type": "book",
-    "multi": {
-      "_keys": {}
-    },
     "title": "Book C",
     "author": [
       {
         "family": "Smith",
-        "given": "John",
-        "isInstitution": ""
+        "given": "John"
       }
     ]
   }
