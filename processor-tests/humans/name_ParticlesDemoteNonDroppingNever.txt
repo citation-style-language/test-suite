@@ -64,6 +64,7 @@ XXX: This shows the current result of two-field parsing with
      <b>v.d. Familyname</b>, <i>Givenname</i>
      <b>Familyname</b>, <i>Givenname ’t</i>
      <b>Familyname</b>, <i>Givenname v.</i>
+     <b>L’Familyname</b>, <i>Givenname</i>
 
 
 >>===== RESULT =====>>
@@ -90,7 +91,7 @@ XXX: This shows the current result of two-field parsing with
 <b>Familyname</b>, <i>Givenname</i> <i>d’</i>
 <b>Le</b> <b>Familyname</b>, <i>Givenname</i>
 <b>La</b> <b>Familyname</b>, <i>Givenname</i>
-<b>L’</b> <b>Familyname</b>, <i>Givenname</i>
+<b>L’Familyname</b>, <i>Givenname</i>
 <b>Saint Familyname</b>, <i>Givenname</i>
 <b>Sainte Familyname</b>, <i>Givenname</i>
 <b>St. Familyname</b>, <i>Givenname</i>
@@ -392,7 +393,7 @@ XXX: This shows the current result of two-field parsing with
         "author": [
             {
               "given":"Givenname", 
-              "family":"L' Familyname"
+              "family":"L'Familyname"
             }
         ],
         "id": "ITEM-24",
