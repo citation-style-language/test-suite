@@ -51,9 +51,83 @@ citation
 <<===== MODE =====<<
 
 
+XXX: This shows the current result of two-field parsing with
+     citeproc-js. There are incorrect results that need to be
+     addressed, and some items may need discussion. Here are
+     the current anomalies:
+
+     <b>Pietro Familyname</b>, <i>Givenname</i>
+     <b>Saint Familyname</b>, <i>Givenname</i>
+     <b>Sainte Familyname</b>, <i>Givenname</i>
+     <b>St. Familyname</b>, <i>Givenname</i>
+     <b>Ste. Familyname</b>, <i>Givenname</i>
+     <b>v.d. Familyname</b>, <i>Givenname</i>
+     <b>Familyname</b>, <i>Givenname ’t</i>
+     <b>Familyname</b>, <i>Givenname v.</i>
+
 
 >>===== RESULT =====>>
-John Doe
+<b>Familyname</b>, <i>Givenname</i> <i>al</i>
+<b>Familyname</b>, <i>Givenname</i> <i>dos</i>
+<b>Familyname</b>, <i>Givenname</i> <i>el</i>
+<b>Las</b> <b>Familyname</b>, <i>Givenname</i> <i>de</i>
+<b>Familyname</b>, <i>Givenname</i> <i>lo</i>
+<b>Familyname</b>, <i>Givenname</i> <i>les</i>
+<b>Familyname</b>, <i>Givenname</i> <i>il</i>
+<b>del</b> <b>Familyname</b>, <i>Givenname</i>
+<b>Familyname</b>, <i>Givenname</i> <i>dela</i>
+<b>Familyname</b>, <i>Givenname</i> <i>della</i>
+<b>Familyname</b>, <i>Givenname</i> <i>dello</i>
+<b>Di</b> <b>Familyname</b>, <i>Givenname</i>
+<b>Da</b> <b>Familyname</b>, <i>Givenname</i>
+<b>Do</b> <b>Familyname</b>, <i>Givenname</i>
+<b>Des</b> <b>Familyname</b>, <i>Givenname</i>
+<b>Lou</b> <b>Familyname</b>, <i>Givenname</i>
+<b>Pietro Familyname</b>, <i>Givenname</i>
+<b>de</b> <b>Familyname</b>, <i>Givenname</i>
+<b>La</b> <b>Familyname</b>, <i>Givenname</i> <i>de</i>
+<b>Familyname</b>, <i>Givenname</i> <i>du</i>
+<b>Familyname</b>, <i>Givenname</i> <i>d’</i>
+<b>Le</b> <b>Familyname</b>, <i>Givenname</i>
+<b>La</b> <b>Familyname</b>, <i>Givenname</i>
+<b>L’</b> <b>Familyname</b>, <i>Givenname</i>
+<b>Saint Familyname</b>, <i>Givenname</i>
+<b>Sainte Familyname</b>, <i>Givenname</i>
+<b>St. Familyname</b>, <i>Givenname</i>
+<b>Ste. Familyname</b>, <i>Givenname</i>
+<b>van</b> <b>Familyname</b>, <i>Givenname</i>
+<b>van de</b> <b>Familyname</b>, <i>Givenname</i>
+<b>van der</b> <b>Familyname</b>, <i>Givenname</i>
+<b>van den</b> <b>Familyname</b>, <i>Givenname</i>
+<b>vander</b> <b>Familyname</b>, <i>Givenname</i>
+<b>v.d. Familyname</b>, <i>Givenname</i>
+<b>vd</b> <b>Familyname</b>, <i>Givenname</i>
+<b>van het</b> <b>Familyname</b>, <i>Givenname</i>
+<b>ver</b> <b>Familyname</b>, <i>Givenname</i>
+<b>Familyname</b>, <i>Givenname</i> <i>ten</i>
+<b>Familyname</b>, <i>Givenname</i> <i>ter</i>
+<b>Familyname</b>, <i>Givenname</i> <i>te</i>
+<b>Familyname</b>, <i>Givenname</i> <i>op de</i>
+<b>Familyname</b>, <i>Givenname</i> <i>in de</i>
+<b>Familyname</b>, <i>Givenname</i> <i>in ’t</i>
+<b>Familyname</b>, <i>Givenname ’t</i>
+<b>Familyname</b>, <i>Givenname</i> <i>in het</i>
+<b>Familyname</b>, <i>Givenname</i> <i>uit de</i>
+<b>Familyname</b>, <i>Givenname</i> <i>uit den</i>
+<b>Familyname</b>, <i>Givenname</i> <i>von</i>
+<b>Familyname</b>, <i>Givenname</i> <i>von der</i>
+<b>Familyname</b>, <i>Givenname</i> <i>von dem</i>
+<b>Familyname</b>, <i>Givenname</i> <i>von zu</i>
+<b>Familyname</b>, <i>Givenname v.</i>
+<b>Familyname</b>, <i>Givenname</i> <i>v</i>
+<b>Familyname</b>, <i>Givenname</i> <i>vom</i>
+<b>Familyname</b>, <i>Givenname</i> <i>das</i>
+<b>Familyname</b>, <i>Givenname</i> <i>zum</i>
+<b>Familyname</b>, <i>Givenname</i> <i>zur</i>
+<b>Familyname</b>, <i>Givenname</i> <i>den</i>
+<b>Familyname</b>, <i>Givenname</i> <i>der</i>
+<b>Familyname</b>, <i>Givenname</i> <i>des</i>
+<b>Familyname</b>, <i>Givenname</i> <i>auf den</i>
 <<===== RESULT =====<<
 
 
