@@ -1,0 +1,698 @@
+/*
+ * Copyright (c) 2009-2013 Frank G. Bennett, Jr. All Rights
+ * Reserved.
+ *
+ * The contents of this file are subject to the Common Public
+ * Attribution License Version 1.0 (the “License”); you may not use
+ * this file except in compliance with the License. You may obtain a
+ * copy of the License at:
+ *
+ * http://bitbucket.org/fbennett/citeproc-js/src/tip/LICENSE.
+ *
+ * The License is based on the Mozilla Public License Version 1.1 but
+ * Sections 1.13, 14 and 15 have been added to cover use of software over a
+ * computer network and provide for limited attribution for the
+ * Original Developer. In addition, Exhibit A has been modified to be
+ * consistent with Exhibit B.
+ *
+ * Software distributed under the License is distributed on an “AS IS”
+ * basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See
+ * the License for the specific language governing rights and limitations
+ * under the License.
+ *
+ * The Original Code is the citation formatting software known as
+ * "citeproc-js" (an implementation of the Citation Style Language
+ * [CSL]), including the original test fixtures and software located
+ * under the ./tests subdirectory of the distribution archive.
+ *
+ * The Original Developer is not the Initial Developer and is
+ * __________. If left blank, the Original Developer is the Initial
+ * Developer.
+ *
+ * The Initial Developer of the Original Code is Frank G. Bennett,
+ * Jr. All portions of the code written by Frank G. Bennett, Jr. are
+ * Copyright (c) 2009-2013 Frank G. Bennett, Jr. All Rights Reserved.
+ *
+ * Alternatively, the contents of this file may be used under the
+ * terms of the GNU Affero General Public License (the [AGPLv3]
+ * License), in which case the provisions of [AGPLv3] License are
+ * applicable instead of those above. If you wish to allow use of your
+ * version of this file only under the terms of the [AGPLv3] License
+ * and not to allow others to use your version of this file under the
+ * CPAL, indicate your decision by deleting the provisions above and
+ * replace them with the notice and other provisions required by the
+ * [AGPLv3] License. If you do not delete the provisions above, a
+ * recipient may use your version of this file under either the CPAL
+ * or the [AGPLv3] License.”
+ */
+
+>>===== MODE =====>>
+citation
+<<===== MODE =====<<
+
+
+
+>>===== RESULT =====>>
+John Doe
+<<===== RESULT =====<<
+
+
+>>===== CSL =====>>
+<style 
+      xmlns="http://purl.org/net/xbiblio/csl"
+      class="note"
+      version="1.0"
+      demote-non-dropping-particle="never">
+  <info>
+    <id />
+    <title />
+    <updated>2009-08-10T04:49:00+09:00</updated>
+  </info>
+  <citation>
+    <layout delimiter="&#x0A;">
+        <names variable="author">
+          <name name-as-sort-order="all">
+            <name-part name="given" font-style="italic"/>
+            <name-part name="family" font-weight="bold"/>
+          </name>
+        </names>
+    </layout>
+  </citation>
+</style>
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+    {
+        "author": [  
+            {
+              "given":"Givenname al", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-1",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname dos", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-2",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname el", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-3",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname de", 
+              "family":"Las Familyname"
+            }
+        ],
+        "id": "ITEM-4",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname lo", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-5",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname les", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-6",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname il", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-7",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"del Familyname"
+            }
+        ],
+        "id": "ITEM-8",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname dela", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-9",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname della", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-10",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname dello", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-11",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"Di Familyname"
+            }
+        ],
+        "id": "ITEM-12",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"Da Familyname"
+            }
+        ],
+        "id": "ITEM-13",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"Do Familyname"
+            }
+        ],
+        "id": "ITEM-14",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"Des Familyname"
+            }
+        ],
+        "id": "ITEM-15",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"Lou Familyname"
+            }
+        ],
+        "id": "ITEM-16",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"Pietro Familyname"
+            }
+        ],
+        "id": "ITEM-17",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"de Familyname"
+            }
+        ],
+        "id": "ITEM-18",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname de", 
+              "family":"La Familyname"
+            }
+        ],
+        "id": "ITEM-19",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname du", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-20",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname d'", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-21",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"Le Familyname"
+            }
+        ],
+        "id": "ITEM-22",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"La Familyname"
+            }
+        ],
+        "id": "ITEM-23",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"L' Familyname"
+            }
+        ],
+        "id": "ITEM-24",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"Saint Familyname"
+            }
+        ],
+        "id": "ITEM-25",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"Sainte Familyname"
+            }
+        ],
+        "id": "ITEM-26",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"St. Familyname"
+            }
+        ],
+        "id": "ITEM-27",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"Ste. Familyname"
+            }
+        ],
+        "id": "ITEM-28",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"van Familyname"
+            }
+        ],
+        "id": "ITEM-29",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"van de Familyname"
+            }
+        ],
+        "id": "ITEM-30",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"van der Familyname"
+            }
+        ],
+        "id": "ITEM-31",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"van den Familyname"
+            }
+        ],
+        "id": "ITEM-32",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"vander Familyname"
+            }
+        ],
+        "id": "ITEM-33",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"v.d. Familyname"
+            }
+        ],
+        "id": "ITEM-34",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"vd Familyname"
+            }
+        ],
+        "id": "ITEM-35",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"van het Familyname"
+            }
+        ],
+        "id": "ITEM-36",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname", 
+              "family":"ver Familyname"
+            }
+        ],
+        "id": "ITEM-37",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname ten", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-38",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname ter", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-39",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname te", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-40",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname op de", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-41",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname in de", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-42",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname in 't", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-43",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname 't", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-44",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname in het", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-45",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname uit de", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-46",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname uit den", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-47",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname von", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-48",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname von der", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-49",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname von dem", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-50",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname von zu", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-51",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname v.", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-52",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname v", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-53",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname vom", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-54",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname das", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-55",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname zum", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-56",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname zur", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-57",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname den", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-58",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname der", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-59",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname des", 
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-60",
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+              "given":"Givenname auf den",
+              "family":"Familyname"
+            }
+        ],
+        "id": "ITEM-61",
+        "type": "book"
+    }
+]
+<<===== INPUT =====<<
