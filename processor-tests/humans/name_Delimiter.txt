@@ -57,7 +57,7 @@ citation
 
 
 >>===== RESULT =====>>
-John Doe; Jane Roe
+John Doe; Jane Roe OR Doe Inc.; Doe Inc.; Noakes Inc.
 <<===== RESULT =====<<
 
 
@@ -72,7 +72,7 @@ John Doe; Jane Roe
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
   <citation>
-    <layout>
+    <layout delimiter=" OR ">
       <names variable="author">
         <name delimiter="; ">
           <name-part name="family" />
@@ -90,24 +90,35 @@ John Doe; Jane Roe
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }
         ], 
         "id": "item-1", 
-        "issued": {
-            "date-parts": [
-                [
-                    "2000"
-                ]
-            ]
-        }, 
-        "title": "Our Anonymous Lives", 
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+                "family": "Doe Inc.", 
+                "given": "",
+		"isInstitution": true
+            }, 
+            {
+                "family": "Doe Inc.", 
+                "given": "",
+		"isInstitution": true
+            }, 
+            {
+                "family": "Noakes Inc.", 
+                "given": "",
+		"isInstitution": true
+            }
+        ], 
+        "id": "item-2", 
         "type": "book"
     }
 ]
