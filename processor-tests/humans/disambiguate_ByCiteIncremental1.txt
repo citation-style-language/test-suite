@@ -1,0 +1,257 @@
+/*
+ * Copyright (c) 2009-2013 Frank G. Bennett, Jr. All Rights
+ * Reserved.
+ *
+ * The contents of this file are subject to the Common Public
+ * Attribution License Version 1.0 (the “License”); you may not use
+ * this file except in compliance with the License. You may obtain a
+ * copy of the License at:
+ *
+ * http://bitbucket.org/fbennett/citeproc-js/src/tip/LICENSE.
+ *
+ * The License is based on the Mozilla Public License Version 1.1 but
+ * Sections 1.13, 14 and 15 have been added to cover use of software over a
+ * computer network and provide for limited attribution for the
+ * Original Developer. In addition, Exhibit A has been modified to be
+ * consistent with Exhibit B.
+ *
+ * Software distributed under the License is distributed on an “AS IS”
+ * basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See
+ * the License for the specific language governing rights and limitations
+ * under the License.
+ *
+ * The Original Code is the citation formatting software known as
+ * "citeproc-js" (an implementation of the Citation Style Language
+ * [CSL]), including the original test fixtures and software located
+ * under the ./tests subdirectory of the distribution archive.
+ *
+ * The Original Developer is not the Initial Developer and is
+ * __________. If left blank, the Original Developer is the Initial
+ * Developer.
+ *
+ * The Initial Developer of the Original Code is Frank G. Bennett,
+ * Jr. All portions of the code written by Frank G. Bennett, Jr. are
+ * Copyright (c) 2009-2013 Frank G. Bennett, Jr. All Rights Reserved.
+ *
+ * Alternatively, the contents of this file may be used under the
+ * terms of the GNU Affero General Public License (the [AGPLv3]
+ * License), in which case the provisions of [AGPLv3] License are
+ * applicable instead of those above. If you wish to allow use of your
+ * version of this file only under the terms of the [AGPLv3] License
+ * and not to allow others to use your version of this file under the
+ * CPAL, indicate your decision by deleting the provisions above and
+ * replace them with the notice and other provisions required by the
+ * [AGPLv3] License. If you do not delete the provisions above, a
+ * recipient may use your version of this file under either the CPAL
+ * or the [AGPLv3] License.”
+ */
+
+>>===== MODE =====>>
+citation
+<<===== MODE =====<<
+
+
+
+>>===== RESULT =====>>
+..[0] (Baines, Lightfoot, Benedettini, et al., 2009)
+..[1] (Baines, Lightfoot and Kay, 2009)
+>>[2] (Grubic et al., 2009)
+<<===== RESULT =====<<
+
+
+>>===== CITATIONS =====>>
+[
+    [
+        {
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 0
+            }
+        }, 
+        [], 
+        []
+    ],
+    [
+        {
+            "citationID": "CITATION-2", 
+            "citationItems": [
+                {
+                    "id": "ITEM-2"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 0
+            }
+        }, 
+        [["CITATION-1",1]], 
+        []
+    ],
+    [
+        {
+            "citationID": "CITATION-3", 
+            "citationItems": [
+                {
+                    "id": "ITEM-3"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 0
+            }
+        }, 
+        [["CITATION-1",1],["CITATION-2",2]], 
+        []
+    ]
+]
+<<===== CITATIONS =====<<
+
+
+>>===== CSL =====>>
+emerald-harvard.csl
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+	{
+		"id": "ITEM-1",
+		"type": "article-journal",
+		"key": "T44568NT",
+		"title": "The servitization of manufacturing: a review of literature and reflection on future challenges",
+		"container-title": "Journal of Manufacturing Technology Management",
+		"page": "547–567",
+		"volume": "20",
+		"issue": "5",
+		"source": "Google Scholar",
+		"URL": "http://www.emeraldinsight.com/journals.htm?articleid=1795171&show=abstract",
+		"shortTitle": "The servitization of manufacturing",
+		"author": [
+			{
+				"family": "Baines",
+				"given": "T. S."
+			},
+			{
+				"family": "Lightfoot",
+				"given": "H. W."
+			},
+			{
+				"family": "Benedettini",
+				"given": "O."
+			},
+			{
+				"family": "Kay",
+				"given": "J. M."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2009"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2013",
+					1,
+					30
+				]
+			],
+			"season": "22:56:08"
+		}
+	},
+	{
+		"id": "ITEM-2",
+		"type": "article-journal",
+		"key": "BZ6F9U6V",
+		"title": "Servitized manufacture: Practical challenges of delivering integrated products and services",
+		"container-title": "Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture",
+		"page": "1207-1215",
+		"volume": "223",
+		"issue": "9",
+		"source": "pib.sagepub.com",
+		"URL": "http://pib.sagepub.com/content/223/9/1207",
+		"DOI": "10.1243/09544054JEM1552",
+		"ISSN": "0954-4054, 2041-2975",
+		"shortTitle": "Servitized manufacture",
+		"journalAbbreviation": "Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture",
+		"language": "en",
+		"author": [
+			{
+				"family": "Baines",
+				"given": "T. S."
+			},
+			{
+				"family": "Lightfoot",
+				"given": "H. W."
+			},
+			{
+				"family": "Kay",
+				"given": "J. M."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2009",
+					9,
+					1
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2013",
+					1,
+					30
+				]
+			],
+			"season": "22:38:38"
+		}
+	},
+	{
+		"id": "ITEM-3",
+		"type": "paper-conference",
+		"key": "3GG82XQE",
+		"title": "The Interaction of PSS and PHM-a mutual benefit case",
+		"source": "Google Scholar",
+		"URL": "http://72.27.231.73/sites/phmsociety.org/files/phm_submission/2009/phmc_09_49.pdf",
+		"author": [
+			{
+				"family": "Grubic",
+				"given": "T."
+			},
+			{
+				"family": "Jennions",
+				"given": "I."
+			},
+			{
+				"family": "Baines",
+				"given": "T. S."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2009"
+				]
+			]
+		},
+		"accessed": {
+			"date-parts": [
+				[
+					"2012",
+					10,
+					22
+				]
+			]
+		}
+	}
+]
+<<===== INPUT =====<<
