@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
->>[0] (John Doe n.d.-a [Accessed: June 01, 1965]; John Doe n.d.-b [Accessed: June 01, 2065])
+>>[0] (John Doe n.d.-a [Accessed: June 1, 1965]; John Doe n.d.-b [Accessed: June 1, 2065])
 <<===== RESULT =====<<
 
 >>===== CITATIONS =====>>
