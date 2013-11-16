@@ -75,14 +75,14 @@ bibliography
   </citation>
   <bibliography>
     <layout>
- <group delimiter=" // ">
-      <names variable="author">
-        <name et-al-min="2" et-al-use-first="0"/>
-      </names>
-      <names variable="author">
-        <name et-al-min="2" et-al-use-first="1"/>
-      </names>
-</group>
+      <group delimiter=" // ">
+        <names variable="author">
+          <name et-al-min="2" et-al-use-first="0"/>
+        </names>
+        <names variable="author">
+          <name et-al-min="2" et-al-use-first="1"/>
+        </names>
+      </group>
     </layout>
   </bibliography>
 </style>
