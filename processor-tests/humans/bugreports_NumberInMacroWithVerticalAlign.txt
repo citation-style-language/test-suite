@@ -53,7 +53,7 @@ citation
 
 
 >>===== RESULT =====>>
-John Doe
+<sup><i>2</i></sup>; <sup><i>3</i>–<i>5</i></sup>
 <<===== RESULT =====<<
 
 
