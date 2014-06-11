@@ -16,9 +16,10 @@ Roe, Her Book, supra note 2.
 [
     [
         {
+            "first-reference-note-number": "1", 
             "id": "ITEM-1", 
             "note-number": "1"
-        }, 
+        },
         {
             "id": "ITEM-2", 
             "note-number": "1"
@@ -26,6 +27,7 @@ Roe, Her Book, supra note 2.
     ], 
     [
         {
+            "first-reference-note-number": "2", 
             "id": "ITEM-3", 
             "note-number": "2"
         }

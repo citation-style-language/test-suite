@@ -5,7 +5,7 @@ citation
 
 
 >>===== RESULT =====>>
-..[0] John Doe, “His Anonymous Life”, 1965; Jane Roe, “Her Anonymous Life”, 1965.
+..[0] John Doe, “His Anonymous Life,” 1965; Jane Roe, “Her Anonymous Life,” 1965.
 >>[1] Doe, “His Anonymous Life”; Roe, “Her Anonymous Life.”
 <<===== RESULT =====<<
 

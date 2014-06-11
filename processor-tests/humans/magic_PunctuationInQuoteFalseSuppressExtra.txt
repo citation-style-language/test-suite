@@ -6,7 +6,7 @@ citation
 
 
 >>===== RESULT =====>>
-“Article A?” Journal B
+“Article A?”, Journal B
 <<===== RESULT =====<<
 
 
@@ -26,7 +26,7 @@ citation
   <citation>
     <layout>
       <text quotes="true" variable="title" />
-      <text variable="container-title" prefix=". "/>
+      <text variable="container-title" prefix=", "/>
     </layout>
   </citation>
 </style>
