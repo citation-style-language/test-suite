@@ -69,7 +69,7 @@ citation
 
 
 >>===== RESULT =====>>
-..[0] <span style="font-variant:small-caps;">Ken Follett</span>, <span style="font-variant:small-caps;">A Dangerous Fortune</span> (1994).
+>>[0] <span style="font-variant:small-caps;">Ken Follett</span>, <span style="font-variant:small-caps;">A Dangerous Fortune</span> (1994).
 ..[1] <span style="font-variant:small-caps;">Samuel Butler et al.</span>, <span style="font-variant:small-caps;">Hudibras</span> (1890).
 >>[2] <span style="font-variant:small-caps;">Follett</span>, <i>supra</i> note 1.
 <<===== RESULT =====<<

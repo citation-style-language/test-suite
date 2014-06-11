@@ -4,7 +4,7 @@ citation
 
 
 >>== RESULT ==>>
-..[0] John Doe, <i>Book A</i>, 2000; John Doe, <i>Book B</i>, 2000.
+>>[0] John Doe, <i>Book A</i>, 2000; John Doe, <i>Book B</i>, 2000.
 >>[1] Doe, Book A; Doe, Book B.
 <<== RESULT ==<<
 
