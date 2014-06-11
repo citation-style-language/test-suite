@@ -1,0 +1,246 @@
+>>===== MODE =====>>
+citation
+<<===== MODE =====<<
+
+>>===== OPTIONS =====>>
+{
+  "main_title_from_short_title": true
+}
+<<===== OPTIONS =====<<
+
+In this test:
+
+* the title is added in the subsequent reference only if needed
+  for disambiguation of references within the same note; and
+
+* the square-braced note is applied to the first reference
+  only if there is a subsequent reference that refers back to it.
+
+>>===== RESULT =====>>
+..[0] John Doe, “His Book: His Story Complete and Unblemished” (2000) [hereinafter “His Book”]; John Doe, “His Other Book” (2001).
+>>[1] Jane Roe, “Her Book” (1998).
+..[2] Jane Roe, “Her Other Book” (1999).
+..[3] Doe, “His Book,” supra note 1.
+>>[4] Roe, supra note 2.
+<<===== RESULT =====<<
+
+>>===== CITATIONS =====>>
+[
+    [
+        {
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                },
+                {
+                    "id": "ITEM-2"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ],
+    [
+        {
+            "citationID": "CITATION-2", 
+            "citationItems": [
+                {
+                    "id": "ITEM-3"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 2
+            }
+        }, 
+        [["CITATION-1",1]], 
+        []
+    ],
+    [
+        {
+            "citationID": "CITATION-3", 
+            "citationItems": [
+                {
+                    "id": "ITEM-4"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 3
+            }
+        }, 
+        [["CITATION-1",1],["CITATION-2",2]], 
+        []
+    ],
+    [
+        {
+            "citationID": "CITATION-4", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 4
+            }
+        }, 
+        [["CITATION-1",1],["CITATION-2",2],["CITATION-3",3]], 
+        []
+    ],
+    [
+        {
+            "citationID": "CITATION-5", 
+            "citationItems": [
+                {
+                    "id": "ITEM-3"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 5
+            }
+        }, 
+        [["CITATION-1",1],["CITATION-2",2],["CITATION-3",3],["CITATION-4",4]], 
+        []
+    ]
+]
+<<===== CITATIONS =====<<
+
+
+>>===== CSL =====>>
+<style 
+      xmlns="http://purl.org/net/xbiblio/csl"
+      class="note"
+      version="1.0">
+  <info>
+    <id />
+    <title />
+    <updated>2009-08-10T04:49:00+09:00</updated>
+  </info>
+  <citation>
+    <layout delimiter="; " suffix=".">
+      <choose>
+        <if position="first">
+          <group delimiter=" ">
+            <group delimiter=", ">
+              <names variable="author">
+                <name />
+              </names>
+              <text variable="title" quotes="true"/>
+            </group>
+            <date variable="issued">
+              <date-part name="year" prefix=" (" suffix=")" />
+            </date>
+            <choose>
+              <if disambiguate="check-ambiguity-and-backreference">
+                <choose>
+                  <if disambiguate="true">
+                    <text variable="title-main" quotes="true" form="short" prefix="[hereinafter " suffix="]"/>
+                  </if>
+                </choose>
+              </if>
+            </choose>
+          </group>
+        </if>
+        <else-if position="subsequent">
+          <names variable="author">
+            <name form="short" />
+          </names>
+          <choose>
+            <if disambiguate="true">
+               <text prefix=", " variable="title-main" quotes="true"/>
+            </if>
+          </choose>
+          <text prefix=", " suffix=" " value="supra note" />
+          <text variable="first-reference-note-number" />
+        </else-if>
+        <else>
+          <text value="FAILED TO MATCH"/>
+        </else>
+      </choose>
+    </layout>
+  </citation>
+</style>
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+    {
+        "author": [
+            {
+                "family": "Doe", 
+                "given": "John"
+            }
+        ], 
+        "id": "ITEM-1", 
+        "issued": {
+            "date-parts": [
+                [
+                    "2000"
+                ]
+            ]
+        }, 
+        "title": "His Book: His Story Complete and Unblemished", 
+        "title-short":"His Book",
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Doe", 
+                "given": "John"
+            }
+        ], 
+        "id": "ITEM-2", 
+        "issued": {
+            "date-parts": [
+                [
+                    "2001"
+                ]
+            ]
+        }, 
+        "title": "His Other Book", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Roe", 
+                "given": "Jane", 
+                "static-ordering": false
+            }
+        ], 
+        "id": "ITEM-3", 
+        "issued": {
+            "date-parts": [
+                [
+                    "1998"
+                ]
+            ]
+        }, 
+        "title": "Her Book", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Roe", 
+                "given": "Jane", 
+                "static-ordering": false
+            }
+        ], 
+        "id": "ITEM-4", 
+        "issued": {
+            "date-parts": [
+                [
+                    "1999"
+                ]
+            ]
+        }, 
+        "title": "Her Other Book", 
+        "type": "book"
+    }
+]
+<<===== INPUT =====<<
