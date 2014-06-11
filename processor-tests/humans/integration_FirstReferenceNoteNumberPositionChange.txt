@@ -5,8 +5,8 @@ citation
 
 >>===== RESULT =====>>
 >>[0] Snoakes, “Life of Snoakes” (1902).
-..[1] Doe, “Life of Doe” (1901).
-..[2] Roe, “Life of Roe” (1900).
+>>[1] Doe, “Life of Doe” (1901).
+>>[2] Roe, “Life of Roe” (1900).
 >>[3] Doe, supra note 2.
 >>[4] Roe, supra note 3.
 <<===== RESULT =====<<
