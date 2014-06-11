@@ -3,7 +3,7 @@ citation
 <<===== MODE===== <<
 
 >>===== RESULT =====>>
-..[0] Center <sup>for</sup> History <sub>and</sub> New Media, “<b>Zotero</b> … ‘Quick Start’ &#38; <span style="font-variant:small-caps;">Guide</span> 日本語”, 47, http://zotero.org/support/quick_start_guide.
+..[0] Center <sup>for</sup> History <sub>and</sub> New Media, “<b>Zotero</b> … ‘Quick Start’ &#38; <span style="font-variant:small-caps;">Guide</span> 日本語,” 47, http://zotero.org/support/quick_start_guide.
 >>[1] John Smith, <i>Book A</i>, 2000; Center <sup>for</sup> History <sub>and</sub> New Media, “<b>Zotero</b> … ‘Quick Start’ &#38; <span style="font-variant:small-caps;">Guide</span> 日本語.”
 <<===== RESULT===== <<
 

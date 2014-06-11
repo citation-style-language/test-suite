@@ -166,7 +166,7 @@ _______________________________________________________________________________ 
     <names variable="author" suffix=". ">
       <!-- Добавить запятую между фамилией и инициалами автора: sort-separator=",&#160;", иначе sort-separator="&#160;" -->
       <!-- Сделать шрифт фамилий и инициалов авторов наклонным: font-style="italic", иначе font-style="normal" -->
-      <name et-al-min="2" et-al-use-first="1" initialize-with="." font-style="normal" name-as-sort-order="first" sort-separator="&#160;"/> 
+      <name et-al-min="2" et-al-use-first="1" initialize-with="." name-as-sort-order="first" sort-separator="&#160;"/> 
       <et-al term="and others"/>
     </names>
     <text variable="title"/>
