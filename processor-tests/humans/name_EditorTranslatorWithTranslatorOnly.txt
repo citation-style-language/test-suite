@@ -5,7 +5,7 @@ citation
 
 
 >>===== RESULT =====>>
-Jane Roe
+trans.: John Doe with Setsuo Miyazawa and Eri Osaka, Japan Federation of Bar Associations
 <<===== RESULT =====<<
 
 
@@ -21,9 +21,12 @@ Jane Roe
   </info>
   <citation>
     <layout>
-      <names variable="editor translator">
-        <name/>
-      </names>
+      <group delimiter=": ">
+        <label variable="translator" form="verb-short"/>
+        <names variable="editor translator">
+          <name and="text"/>
+        </names>
+      </group>
     </layout>
   </citation>
 </style>
@@ -32,15 +35,31 @@ Jane Roe
 
 >>===== INPUT =====>>
 [
-    {
-        "id": "ITEM-1", 
-        "translator": [
+	{
+		"id": 10775,
+		"type": "book",
+		"translator": [
+			{
+				"family": "Miyazawa",
+				"given": "Setsuo",
+				"isInstitution": ""
+			},
+			{
+				"family": "Osaka",
+				"given": "Eri",
+				"isInstitution": ""
+			},
+			{
+				"family": "Japan Federation of Bar Associations",
+				"given": "",
+				"isInstitution": 1
+			},
             {
-                "family": "Roe", 
-                "given": "Jane"
+				"family": "Doe",
+				"given": "John",
+				"isInstitution": ""
             }
-        ], 
-        "type": "book"
-    }
+		]
+	}
 ]
 <<===== INPUT =====<<
