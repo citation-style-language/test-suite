@@ -66,8 +66,6 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
 	  <term name="ibid">id.</term>
 	</terms>
   </locale>
-
-  <!-- ### BLUEBOOK AUTHOR ### -->
   <macro name="bb-author">
 	<names variable="author">
 	  <name/>
@@ -78,15 +76,11 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
 	  <name form="short"/>
 	</names>
   </macro>
-
-  <!-- ### BLUEBOOK ISSUED ### -->
   <macro name="bb-issued">
 	<group prefix="(" suffix=")">
 	  <date variable="issued" form="text" date-parts="year"/>
 	</group>
   </macro>
-
-  <!-- ### ID BACKREFERENCES ### -->
   <macro name="bb-ibid">
 	<choose> 
 	  <if position="ibid-with-locator">
@@ -109,8 +103,6 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
 	  </else-if>
 	</choose>
   </macro>
-
-  <!-- ### POINT LOCATORS -->
   <macro name="bb-point-locator-comma">
 	<group delimiter=" ">
 	  <choose>
@@ -134,8 +126,6 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
 	</choose>
 	<text variable="locator"/>
   </macro>
-
-  <!-- ### LEGAL CASE ### -->
   <macro name="bb-legal-case">
 	<choose>
 	  <if position="first">
@@ -183,7 +173,6 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
 		</group>
 	  </if>
       <else>
-		<!-- Civil law cases -->
 		<group delimiter=", ">
 		  <text variable="authority"/>
 		  <text variable="title" form="short"/>
@@ -231,8 +220,6 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
       </group>
 	</group>
   </macro>
-
-  <!-- ### LEGISLATION ### -->
   <macro name="bb-legislation">
 	<choose>
 	  <if position="first">
@@ -308,8 +295,6 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
 	  </group>
 	</group>
   </macro>
-
-  <!-- ### BOOK ### -->
   <macro name="bb-book">
 	<choose>
 	  <if position="first">
@@ -374,8 +359,6 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
 	  </group>
 	</group>
   </macro>
-
-  <!-- ### PERIODICAL ### -->
   <macro name="bb-periodical">
 	<choose>
 	  <if position="first">
@@ -432,7 +415,6 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
     </layout>
   </citation>
 </style>
-
 <<===== CSL =====<<
 
 

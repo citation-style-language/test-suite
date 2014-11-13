@@ -950,7 +950,7 @@ citation
 	<text value="bb-periodical-subsequent"/>
   </macro>
 
-  <!-- ### CITATIONS ARE BLUEBOOK (demo version) ### -->
+  <!-- ### CITES ARE BLUEBOOK (demo version) ### -->
   <citation
          near-note-distance="5"
          et-al-min="2"
