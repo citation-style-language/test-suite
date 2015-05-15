@@ -5,7 +5,7 @@ citation
 
 
 >>===== RESULT =====>>
-<span style="font-variant:small-caps;">Aubignac</span> (François Hédelin <span style="font-variant:small-caps;">d’</span>)
+<span style="font-variant:small-caps;">Aubignac</span> (François Hédelin d’)
 <<===== RESULT =====<<
 
 
