@@ -39,7 +39,8 @@ AUBIGNAC, François Hédelin, abbé d’
         "author": [
             {
                 "family": "Aubignac", 
-                "given": "François Hédelin, abbé d'"
+                "given": "François Hédelin, abbé d'",
+                "static-particles": true
             }
         ], 
         "id": "ITEM-1", 

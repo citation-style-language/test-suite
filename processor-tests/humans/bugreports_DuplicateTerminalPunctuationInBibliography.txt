@@ -232,7 +232,7 @@ http://groups.google.com/group/citeproc-js/browse_thread/thread/428d4523fbef3beb
             {
                 "family": "D'Arcus", 
                 "given": "Bruce", 
-                "static-ordering": false
+                "static-particles": true
             }
         ], 
         "id": "ITEM-1", 
