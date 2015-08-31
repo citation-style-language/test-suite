@@ -7,8 +7,8 @@ bibliography
 >>===== RESULT =====>>
 <div class="csl-bib-body">
   <div class="csl-entry">Carter</div>
-  <div class="csl-entry">Noakes</div>
   <div class="csl-entry">De Quincey</div>
+  <div class="csl-entry">Noakes</div>
 </div>
 <<===== RESULT =====<<
 
