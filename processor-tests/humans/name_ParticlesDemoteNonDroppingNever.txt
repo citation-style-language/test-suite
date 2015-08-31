@@ -7,7 +7,7 @@ citation
 <b>Familyname</b>, <i>Givenname</i> <i>al</i>
 <b>Familyname</b>, <i>Givenname</i> <i>dos</i>
 <b>Familyname</b>, <i>Givenname</i> <i>el</i>
-<b>Las</b> <b>Familyname</b>, <i>Givenname</i> <i>de</i>
+<b>Las Familyname</b>, <i>Givenname</i> <i>de</i>
 <b>Familyname</b>, <i>Givenname</i> <i>lo</i>
 <b>Familyname</b>, <i>Givenname</i> <i>les</i>
 <b>Familyname</b>, <i>Givenname</i> <i>il</i>
@@ -15,23 +15,23 @@ citation
 <b>Familyname</b>, <i>Givenname</i> <i>dela</i>
 <b>Familyname</b>, <i>Givenname</i> <i>della</i>
 <b>Familyname</b>, <i>Givenname</i> <i>dello</i>
-<b>Di</b> <b>Familyname</b>, <i>Givenname</i>
-<b>Da</b> <b>Familyname</b>, <i>Givenname</i>
-<b>Do</b> <b>Familyname</b>, <i>Givenname</i>
-<b>Des</b> <b>Familyname</b>, <i>Givenname</i>
-<b>Lou</b> <b>Familyname</b>, <i>Givenname</i>
-<b>Pietro</b> <b>Familyname</b>, <i>Givenname</i>
+<b>Di Familyname</b>, <i>Givenname</i>
+<b>Da Familyname</b>, <i>Givenname</i>
+<b>Do Familyname</b>, <i>Givenname</i>
+<b>Des Familyname</b>, <i>Givenname</i>
+<b>Lou Familyname</b>, <i>Givenname</i>
+<b>Pietro Familyname</b>, <i>Givenname</i>
 <b>de</b> <b>Familyname</b>, <i>Givenname</i>
-<b>La</b> <b>Familyname</b>, <i>Givenname</i> <i>de</i>
+<b>La Familyname</b>, <i>Givenname</i> <i>de</i>
 <b>Familyname</b>, <i>Givenname</i> <i>du</i>
 <b>Familyname</b>, <i>Givenname</i> <i>d’</i>
-<b>Le</b> <b>Familyname</b>, <i>Givenname</i>
-<b>La</b> <b>Familyname</b>, <i>Givenname</i>
-<b>L’</b><b>Familyname</b>, <i>Givenname</i>
-<b>Saint</b> <b>Familyname</b>, <i>Givenname</i>
-<b>Sainte</b> <b>Familyname</b>, <i>Givenname</i>
-<b>St.</b> <b>Familyname</b>, <i>Givenname</i>
-<b>Ste.</b> <b>Familyname</b>, <i>Givenname</i>
+<b>Le Familyname</b>, <i>Givenname</i>
+<b>La Familyname</b>, <i>Givenname</i>
+<b>L’Familyname</b>, <i>Givenname</i>
+<b>Saint Familyname</b>, <i>Givenname</i>
+<b>Sainte Familyname</b>, <i>Givenname</i>
+<b>St. Familyname</b>, <i>Givenname</i>
+<b>Ste. Familyname</b>, <i>Givenname</i>
 <b>van</b> <b>Familyname</b>, <i>Givenname</i>
 <b>van de</b> <b>Familyname</b>, <i>Givenname</i>
 <b>van der</b> <b>Familyname</b>, <i>Givenname</i>
@@ -41,22 +41,22 @@ citation
 <b>vd</b> <b>Familyname</b>, <i>Givenname</i>
 <b>van het</b> <b>Familyname</b>, <i>Givenname</i>
 <b>ver</b> <b>Familyname</b>, <i>Givenname</i>
-<b>Familyname</b>, <i>Givenname</i> <i>ten</i>
-<b>Familyname</b>, <i>Givenname</i> <i>ter</i>
-<b>Familyname</b>, <i>Givenname</i> <i>te</i>
+<b>ten</b> <b>Familyname</b>, <i>Givenname</i>
+<b>ter</b> <b>Familyname</b>, <i>Givenname</i>
+<b>te</b> <b>Familyname</b>, <i>Givenname</i>
 <b>Familyname</b>, <i>Givenname</i> <i>op de</i>
-<b>Familyname</b>, <i>Givenname</i> <i>in de</i>
-<b>Familyname</b>, <i>Givenname</i> <i>in ’t</i>
-<b>Familyname</b>, <i>Givenname</i> <i>’t</i>
-<b>Familyname</b>, <i>Givenname</i> <i>in het</i>
-<b>Familyname</b>, <i>Givenname</i> <i>uit de</i>
-<b>Familyname</b>, <i>Givenname</i> <i>uit den</i>
+<b>in de</b> <b>Familyname</b>, <i>Givenname</i>
+<b>in ’t</b> <b>Familyname</b>, <i>Givenname</i>
+<b>’t</b> <b>Familyname</b>, <i>Givenname</i>
+<b>in het</b> <b>Familyname</b>, <i>Givenname</i>
+<b>uit de</b> <b>Familyname</b>, <i>Givenname</i>
+<b>uit den</b> <b>Familyname</b>, <i>Givenname</i>
 <b>Familyname</b>, <i>Givenname</i> <i>von</i>
 <b>Familyname</b>, <i>Givenname</i> <i>von der</i>
 <b>Familyname</b>, <i>Givenname</i> <i>von dem</i>
 <b>Familyname</b>, <i>Givenname</i> <i>von zu</i>
-<b>Familyname</b>, <i>Givenname</i> <i>v.</i>
-<b>Familyname</b>, <i>Givenname</i> <i>v</i>
+<b>v.</b> <b>Familyname</b>, <i>Givenname</i>
+<b>v</b> <b>Familyname</b>, <i>Givenname</i>
 <b>Familyname</b>, <i>Givenname</i> <i>vom</i>
 <b>Familyname</b>, <i>Givenname</i> <i>das</i>
 <b>Familyname</b>, <i>Givenname</i> <i>zum</i>
