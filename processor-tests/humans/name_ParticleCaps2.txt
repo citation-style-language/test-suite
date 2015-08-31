@@ -6,8 +6,8 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">Van One, O., van Two, T.</div>
-  <div class="csl-entry">Van Three, T., Van Four, F.</div>
+  <div class="csl-entry">van One, O., van Two, T.</div>
+  <div class="csl-entry">van Three, T., Van Four, F.</div>
 </div>
 <<===== RESULT =====<<
 
