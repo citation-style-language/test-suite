@@ -13,8 +13,8 @@ citation
 <b>Familyname</b>, <i>Givenname</i> <i>il</i>
 <b>del</b> <b>Familyname</b>, <i>Givenname</i>
 <b>Familyname</b>, <i>Givenname</i> <i>dela</i>
-<b>Familyname</b>, <i>Givenname</i> <i>della</i>
-<b>Familyname</b>, <i>Givenname</i> <i>dello</i>
+<b>della</b> <b>Familyname</b>, <i>Givenname</i>
+<b>dello</b> <b>Familyname</b>, <i>Givenname</i>
 <b>Di Familyname</b>, <i>Givenname</i>
 <b>Da Familyname</b>, <i>Givenname</i>
 <b>Do Familyname</b>, <i>Givenname</i>
