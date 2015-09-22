@@ -1,17 +1,32 @@
 #!/usr/bin/python -u
+from __future__ import print_function
 
 import sys,os,re
 from datetime import datetime
 from stat import *
 import tempfile
-from cStringIO import StringIO
-from cPickle import Pickler, Unpickler
+try:
+    from cStringIO import StringIO
+except ImportError:
+    from io import StringIO
+try:
+    from cPickle import Pickler, Unpickler
+except ImportError:
+    from pickle import Pickler, Unpickler
+
 import subprocess as sub 
 import string
-from ConfigParser import ConfigParser
 
-reload(sys)
-sys.setdefaultencoding("utf-8") # Needs Python Unicode build !
+try:
+    from ConfigParser import ConfigParser
+except ImportError:
+    from configparser import ConfigParser
+
+try:
+    reload(sys)
+    sys.setdefaultencoding("utf-8") # Needs Python Unicode build !
+except:
+    pass
 
 try:
     import json
@@ -36,10 +51,10 @@ class MissingHumansFile(Exception):
 class NoLicense(Exception):
     pass
 
-def fixEndings(str):
-    str = string.replace(str, '\r\n', '\n')
-    str = string.replace(str, '\r', '\n')
-    return str
+def fixEndings(s):
+    s = s.replace('\r\n', '\n')
+    s = s.replace('\r', '\n')
+    return s
 
 
 class ApplyLicense:
@@ -51,7 +66,7 @@ class ApplyLicense:
             self.license = "%s\n" % m.group(1).strip()
         else:
             raise NoLicense
-        print self.license
+        print(self.license)
 
     def apply(self):
         for path in [".", "src", os.path.join("tests", "std"), os.path.join("tests","std","humans"),os.path.join("tests","std","bundled"), os.path.join("tests","std","machines"),os.path.join("tests","citeproc-js")]:
@@ -113,7 +128,7 @@ class Params:
                     if not filename.endswith(".txt"): continue
                     if args:
                         if not filename.startswith("%s_" % self.args[0]): continue
-                    if not self.files['humans'].has_key(filename):
+                    if not self.files['humans'].get(filename):
                         self.files['humans'][filename] = (path,os.path.join("humans",filename))
     
     def clearSource(self):
@@ -135,17 +150,17 @@ class Params:
             if not os.path.exists( mp ):
                 self.grindFile(hpath,filename,mp)
                 if self.opt.verbose:
-                    print "Created: %s" % mp
+                    print("Created: %s" % mp)
             hmod = os.stat(hp)[ST_MTIME]
             mmod = os.stat(mp)[ST_MTIME]
             if hmod > mmod:
                 if self.opt.verbose:
-                    print "Old: %s" % mp
+                    print("Old: %s" % mp)
                 self.grindFile(hpath,filename,mp)
             m = re.match("([a-z]*)_.*",filename)
             if m:
                 groupkey = m.group(1)
-                if not groups.has_key(groupkey):
+                if not groups.get(groupkey):
                     groups[groupkey] = {"mtime":0,"tests":[]}
                 groups[groupkey]["tests"].append(filename)
                 if hmod > groups[groupkey]["mtime"]:
@@ -162,15 +177,13 @@ class Params:
     def validateSource(self):
         skip_to_pos = 0
         if os.path.exists( self.pickle ):
-            upfh = open(self.pickle)
+            upfh = open(self.pickle, 'rb')
             unpickler = Unpickler(upfh)
             old_opt,old_pos = unpickler.load()
             if self.opt == old_opt:
                 skip_to_pos = old_pos
         pos = -1
-        files = self.files['humans'].keys()
-        files.sort()
-        for filename in files:
+        for filename in sorted(self.files['humans']):
             pos += 1
             if pos < skip_to_pos: continue
             p = self.files['humans'][filename]
@@ -211,7 +224,7 @@ class CslTest:
         self.testname = testname
         self.hpath = hpath
         self.hp = os.path.sep.join( hpath )
-	self.CREATORS = ["author","editor","translator","recipient","interviewer"]
+        self.CREATORS = ["author","editor","translator","recipient","interviewer"]
         self.CREATORS += ["composer","original-author","container-author","collection-editor"]
         self.RE_ELEMENT = '(?sm)^(.*>>=.*%s[^\n]+)(.*)(\n<<=.*%s.*)'
         self.RE_FILENAME = '^[a-z]+_[a-zA-Z0-9]+\.txt$'
@@ -273,12 +286,12 @@ class CslTest:
     def fix_dates(self):
         for pos in range(0, len(self.data["input"]),1):
             for k in ["issued", "event-date", "accessed", "container", "original-date"]:
-                if self.data["input"][pos].has_key(k):
+                if self.data["input"][pos].get(k):
                     newdate = []
-                    if not self.data["input"][pos][k].has_key("date-parts"):
+                    if not self.data["input"][pos][k].get("date-parts"):
                         start = []
                         for e in ["year","month","day"]:
-                            if self.data["input"][pos][k].has_key(e):
+                            if self.data["input"][pos][k].get(e):
                                 start.append( self.data["input"][pos][k][e] )
                                 self.data["input"][pos][k].pop(e)
                             else:
@@ -287,7 +300,7 @@ class CslTest:
                             newdate.append(start)
                         end = []
                         for e in ["year_end","month_end","day_end"]:
-                            if self.data["input"][pos][k].has_key(e):
+                            if self.data["input"][pos][k].get(e):
                                 end.append( self.data["input"][pos][k][e] )
                                 self.data["input"][pos][k].pop(e)
                             else:
@@ -301,19 +314,19 @@ class CslTest:
 
     def validate(self):
         if self.opt.verbose:
-            print self.testname
+            print(self.testname)
         if not os.path.exists(self.cp.get("jing", "path")):
-            print "Error: jing not found."
-            print "  Looked in: %s" % self.cp.get("jing", "path")
+            print("Error: jing not found.")
+            print("  Looked in: %s" % self.cp.get("jing", "path"))
             sys.exit()
         m = re.match("(?sm).*version=\"([.0-9a-z]+)\".*",self.data["csl"])
         if m:
             rnc_path = os.path.join(self.cp.get("csl", "v%s" % m.group(1)))
         else:
-            print "Error: Unable to find CSL version in %s" % self.hp
+            print("Error: Unable to find CSL version in %s" % self.hp)
             sys.exit()
         tfd,tfilename = tempfile.mkstemp(dir=".")
-        os.write(tfd,self.data["csl"])
+        os.write(tfd,self.data["csl"].encode('utf8'))
         os.close(tfd)
         
         jfh = os.popen("%s %s -c %s %s" % (self.cp.get("jing", "command"), self.cp.get("jing", "path"),rnc_path,tfilename))
@@ -325,21 +338,21 @@ class CslTest:
             line = line.strip()
             e = re.match("^fatal:",line)
             if e:
-                print line
+                print(line)
                 sys.exit()
             m = re.match(".*:([0-9]+):([0-9]+):  *error:(.*)",line)
             if m:
               if success:
-                  print "\n##"
-                  print "#### Error%s in CSL for test: %s" % (plural,self.hp)
-                  print "##\n"
+                  print("\n##")
+                  print("#### Error%s in CSL for test: %s" % (plural,self.hp))
+                  print("##\n")
                   success = False
-              print "  %s @ line %s" %(m.group(3).upper(),m.group(1))
+              print("  %s @ line %s" %(m.group(3).upper(),m.group(1)))
               plural = "s"
         jfh.close()
         os.unlink(tfilename)
         if not success:
-            print ""
+            print("")
             io = StringIO()
             io.write(self.data["csl"])
             io.seek(0)
@@ -348,9 +361,9 @@ class CslTest:
                 cslline = io.readline()
                 if not cslline: break
                 cslline = cslline.rstrip()
-                print "%3d  %s" % (linepos,cslline)
+                print("%3d  %s" % (linepos,cslline))
                 linepos += 1
-            pfh = open( self.pickle,"w+")
+            pfh = open( self.pickle,"wb+")
             pickler = Pickler( pfh )
 
             pickler.dump( (opt, self.pos) )
@@ -359,7 +372,6 @@ class CslTest:
  
 if __name__ == "__main__":
 
-    from ConfigParser import ConfigParser
     from optparse import OptionParser
 
     os.environ['LANG'] = "en_US.UTF-8"
@@ -407,7 +419,7 @@ if __name__ == "__main__":
         if opt.grind:
             params.clearSource()
             params.refreshSource(force=True)
-            print ""
+            print("")
         else:
             params.refreshSource()
         if opt.cranky:
@@ -419,13 +431,13 @@ if __name__ == "__main__":
         sys.exit()
     except MissingHumansFile as error:
         parser.print_help()
-        print '''\nError: File \"%s\" not found.
-       Looked in:''' % error[0]
+        print('''\nError: File \"%s\" not found.
+       Looked in:''' % error[0])
         for path in error[1]:
-            print '         %s' % path
+            print('         %s' % path)
     except NoFilesError:
-        print '\nError: No files to process!\n'
+        print('\nError: No files to process!\n')
     except NoLicense:
-        print '\nError: No license found in load.js'
+        print('\nError: No license found in load.js')
 
-    print "Processor tests successfully compiled"
+    print("Processor tests successfully compiled")
