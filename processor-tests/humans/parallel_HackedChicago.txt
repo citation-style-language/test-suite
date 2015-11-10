@@ -2,7 +2,6 @@
 bibliography
 <<===== MODE =====<<
 
-
 >>===== CITATIONS =====>>
 [
     [
@@ -32,7 +31,7 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">People v. Taylor, 73 N.Y.2d 683, 541 N.E.2d 386, 543 N.Y.S.2d 357 (1989).</div>
+  <div class="csl-entry">People v. Taylor, 73 N.Y.2d 683, 541 N.E.2d 386, 543 N.Y.S.2d 357 (1989)</div>
 </div>
 <<===== RESULT =====<<
 
@@ -654,7 +653,7 @@ bibliography
          et-al-subsequent-min="4"
          et-al-subsequent-use-first="1"
          et-al-use-first="1">
-    <layout delimiter="; " prefix="" suffix=".">
+    <layout delimiter="; " prefix="">
       <choose>
         <if type="legal_case">
           <text macro="legal-case-first"/>
@@ -704,7 +703,7 @@ bibliography
       <key macro="sort-key" />
       <key variable="issued" />
     </sort>
-    <layout suffix=".">
+    <layout>
 	  <choose>
 	  <if type="legal_case">
 		<text macro="legal-case-first"/>
