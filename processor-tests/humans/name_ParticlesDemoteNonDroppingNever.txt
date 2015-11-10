@@ -13,8 +13,8 @@ citation
 <b>Familyname</b>, <i>Givenname</i> <i>il</i>
 <b>del</b> <b>Familyname</b>, <i>Givenname</i>
 <b>Familyname</b>, <i>Givenname</i> <i>dela</i>
-<b>della</b> <b>Familyname</b>, <i>Givenname</i>
-<b>dello</b> <b>Familyname</b>, <i>Givenname</i>
+<b>Familyname</b>, <i>Givenname</i> <i>della</i>
+<b>Familyname</b>, <i>Givenname</i> <i>dello</i>
 <b>Di Familyname</b>, <i>Givenname</i>
 <b>Da Familyname</b>, <i>Givenname</i>
 <b>Do Familyname</b>, <i>Givenname</i>
@@ -468,8 +468,8 @@ citation
     {
         "author": [
             {
-              "given":"Givenname ten", 
-              "family":"Familyname"
+              "given":"Givenname", 
+              "family":"ten Familyname"
             }
         ],
         "id": "ITEM-38",
@@ -478,8 +478,8 @@ citation
     {
         "author": [
             {
-              "given":"Givenname ter", 
-              "family":"Familyname"
+              "given":"Givenname", 
+              "family":"ter Familyname"
             }
         ],
         "id": "ITEM-39",
@@ -488,8 +488,8 @@ citation
     {
         "author": [
             {
-              "given":"Givenname te", 
-              "family":"Familyname"
+              "given":"Givenname", 
+              "family":"te Familyname"
             }
         ],
         "id": "ITEM-40",
@@ -508,8 +508,8 @@ citation
     {
         "author": [
             {
-              "given":"Givenname in de", 
-              "family":"Familyname"
+              "given":"Givenname", 
+              "family":"in de Familyname"
             }
         ],
         "id": "ITEM-42",
@@ -518,8 +518,8 @@ citation
     {
         "author": [
             {
-              "given":"Givenname in 't", 
-              "family":"Familyname"
+              "given":"Givenname", 
+              "family":"in 't Familyname"
             }
         ],
         "id": "ITEM-43",
@@ -528,8 +528,8 @@ citation
     {
         "author": [
             {
-              "given":"Givenname 't", 
-              "family":"Familyname"
+              "given":"Givenname", 
+              "family":"'t Familyname"
             }
         ],
         "id": "ITEM-44",
@@ -538,8 +538,8 @@ citation
     {
         "author": [
             {
-              "given":"Givenname in het", 
-              "family":"Familyname"
+              "given":"Givenname", 
+              "family":"in het Familyname"
             }
         ],
         "id": "ITEM-45",
@@ -548,8 +548,8 @@ citation
     {
         "author": [
             {
-              "given":"Givenname uit de", 
-              "family":"Familyname"
+              "given":"Givenname", 
+              "family":"uit de Familyname"
             }
         ],
         "id": "ITEM-46",
@@ -558,8 +558,8 @@ citation
     {
         "author": [
             {
-              "given":"Givenname uit den", 
-              "family":"Familyname"
+              "given":"Givenname", 
+              "family":"uit den Familyname"
             }
         ],
         "id": "ITEM-47",
@@ -608,8 +608,8 @@ citation
     {
         "author": [
             {
-              "given":"Givenname v.", 
-              "family":"Familyname"
+              "given":"Givenname", 
+              "family":"v. Familyname"
             }
         ],
         "id": "ITEM-52",
@@ -618,8 +618,8 @@ citation
     {
         "author": [
             {
-              "given":"Givenname v", 
-              "family":"Familyname"
+              "given":"Givenname", 
+              "family":"v Familyname"
             }
         ],
         "id": "ITEM-53",

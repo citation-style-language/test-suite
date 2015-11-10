@@ -6,7 +6,8 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">Frinkle, B</div>
+  <div class="csl-entry">de’ Frinkle, B</div>
+  <div class="csl-entry">d’Wander, W</div>
   <div class="csl-entry">in ’t Horvath, P A B</div>
   <div class="csl-entry">in ’t Horvath, P A D</div>
   <div class="csl-entry">Klabdaggit, M</div>
@@ -43,6 +44,9 @@ bibliography
                 },
                 {
                     "id": "ITEM-7"
+                },
+                {
+                    "id": "ITEM-8"
                 }
             ], 
             "properties": {
@@ -88,14 +92,18 @@ bibliography
 </style>
 <<===== CSL =====<<
 
+2015-09-20: added test for space after trailing apostrophe
+
+XXX: Is the leading apostrophe meant to be an open single quote
+     in Dutch orthography?
 
 >>===== INPUT =====>>
 [
     {
         "author": [
             {
-                "family": "Horvath", 
-                "given": "Peter A.A. 't"
+                "family": "'t Horvath", 
+                "given": "Peter A.A."
             }
         ], 
         "id": "ITEM-1", 
@@ -104,8 +112,8 @@ bibliography
     {
         "author": [
             {
-                "family": "Horvath", 
-                "given": "Peter A.B. in 't"
+                "family": "in 't Horvath", 
+                "given": "Peter A.B."
             }
         ], 
         "id": "ITEM-2", 
@@ -134,7 +142,7 @@ bibliography
     {
         "author": [
             {
-                "family": "Frinkle", 
+                "family": "de' Frinkle", 
                 "given": "Bevis" 
             }
         ], 
@@ -159,6 +167,16 @@ bibliography
             }
         ], 
         "id": "ITEM-7", 
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+                "family": "d'Wander", 
+                "given": "William" 
+            }
+        ], 
+        "id": "ITEM-8", 
         "type": "book"
     }
 ]
