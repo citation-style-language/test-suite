@@ -2,7 +2,13 @@
 bibliography
 <<===== MODE =====<<
 
+>>===== OPTIONS =====>>
+{
+   "variableWrapper": true
 
+}
+<<===== OPTIONS =====<<
+   
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
@@ -21,12 +27,6 @@ bibliography
             "citationItems": [
                 {
                     "id": "ITEM-2"
-                },
-                {
-                    "id": "ITEM-1"
-                },
-                {
-                    "id": "ITEM-3"
                 }
             ], 
             "properties": {
@@ -40,7 +40,13 @@ bibliography
 <<===== CITATIONS =====<<
 
 
-
+,
+                {
+                    "id": "ITEM-1"
+                },
+                {
+                    "id": "ITEM-3"
+                }
 
 
 >>===== CSL =====>>
@@ -72,6 +78,7 @@ bibliography
     </sort>
     <layout delimiter="; ">
       <text macro="author" />
+      <text variable="title"/>
     </layout>
   </bibliography>
 </style>
@@ -112,6 +119,7 @@ bibliography
                 "given": "Kelly" 
             }
         ], 
+        "title": "Title Thing",
         "id": "ITEM-2", 
         "type": "book"
     }
