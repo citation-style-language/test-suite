@@ -22,8 +22,6 @@ Example O, at 11564–78
 Example P, at 13792–803
 Example Q, at 1496–1504
 Example R, at 2787–2816
-Example S, at n11564–68
-Example T, at n11564–68
 <<===== RESULT =====<<
 
 
@@ -117,16 +115,6 @@ Example T, at n11564–68
     [
         {
             "id": "ITEM-18"
-        }
-    ], 
-    [
-        {
-            "id": "ITEM-19"
-        }
-    ], 
-    [
-        {
-            "id": "ITEM-20"
         }
     ]
 ]
@@ -267,18 +255,6 @@ Example T, at n11564–68
         "id": "ITEM-18", 
         "page": "2787-816", 
         "title": "Example R", 
-        "type": "book"
-    }, 
-    {
-        "id": "ITEM-19", 
-        "page": "n11564 - n1568", 
-        "title": "Example S", 
-        "type": "book"
-    }, 
-    {
-        "id": "ITEM-20", 
-        "page": "n11564 - 1568", 
-        "title": "Example T", 
         "type": "book"
     }
 ]

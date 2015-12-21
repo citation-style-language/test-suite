@@ -4,6 +4,18 @@ citation
 
 
 
+## This test currently produces this:
+
+Example: minimal, at 110–115
+Example: prefix on one number only, at N110–N115
+Example: same prefix on both numbers, at N110–N115
+Example: different prefixes on both numbers, at N110–P5
+Example: leading number before prefix, at 123N110–5
+Example: multiple ranges, at 123N110–5, 456K200–99
+Example: first less than second, at 123N110–5, 000c23–22
+
+## It used to expect this:
+
 >>===== RESULT =====>>
 Example: minimal, at 110–115
 Example: prefix on one number only, at N110–N115
@@ -13,6 +25,9 @@ Example: leading number before prefix, at 123N110–N115
 Example: multiple ranges, at 123N110–N115, 456K200–K299
 Example: first less than second, at 123N110–N115, 000c23–22
 <<===== RESULT =====<<
+
+## Which is correct, do you think?
+
 
 
 >>===== CITATION-ITEMS =====>>

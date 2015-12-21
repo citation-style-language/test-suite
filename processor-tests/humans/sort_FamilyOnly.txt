@@ -2,8 +2,6 @@
 bibliography
 <<===== MODE =====<<
 
-
-
 >>===== RESULT =====>>
 <div class="csl-bib-body">
   <div class="csl-entry">Aardvaark</div>
