@@ -12,7 +12,7 @@ citation
 
 
 >>===== RESULT =====>>
->>[0] chap. 13
+>>[0] p. ch. 13
 <<===== RESULT =====<<
 
 
