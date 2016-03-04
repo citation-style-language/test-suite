@@ -6,7 +6,7 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">John Doe，Ziggy Zither等人。</div>
+  <div class="csl-entry">John Doe著，Ziggy Zither等點校。</div>
 </div>
 <<===== RESULT =====<<
 

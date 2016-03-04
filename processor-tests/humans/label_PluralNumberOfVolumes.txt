@@ -19,6 +19,12 @@ volume 1; volumes 2
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
+  <locale>
+    <term name="number-of-volumes">
+      <single>volume</single>
+      <multiple>volumes</multiple>
+    </term>
+  </locale>
   <citation>
     <layout delimiter="; ">
       <group delimiter=" ">

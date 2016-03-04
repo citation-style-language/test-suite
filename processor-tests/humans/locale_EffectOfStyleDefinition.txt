@@ -27,6 +27,7 @@ John Doe &#38; Jane Roe
   </info>
   <locale xml:lang="en-US">
     <term name="and">und</term>
+    <term name="and" form="symbol">&amp;</term>
   </locale>
   <citation>
     <layout>
