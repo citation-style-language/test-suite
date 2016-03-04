@@ -23,7 +23,7 @@ Example P, at 13792–803
 Example Q, at 1496–504
 Example R, at 2787–816
 Example S, at n11564–8
-Example T, at n11564–8
+Example T, at n11564-1568
 <<===== RESULT =====<<
 
 

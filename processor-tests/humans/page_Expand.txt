@@ -6,13 +6,13 @@ citation
 
 >>===== RESULT =====>>
 Example: minimal, at 110–115
-Example: prefix on first number only, at N110–N115
+Example: prefix on first number only, at N110-5
 Example: same prefix on both numbers, at N110–N115
-Example: prefix on last number only, at 110–N6
-Example: different prefixes on both numbers, at N110–P5
-Example: leading number before prefix, at 123N110–N5
-Example: multiple ranges, at 123N110–N5, 456K200–99
-Example: first less than second, at 123N110–N5, 000c23–22
+Example: prefix on last number only, at 110-N6
+Example: different prefixes on both numbers, at N110-P5
+Example: leading number before prefix, at 123N110-N5
+Example: multiple ranges, at 123N110-N5, 456K200-99
+Example: first less than second, at 123N110-N5, 000c23-22
 <<===== RESULT =====<<
 
 
