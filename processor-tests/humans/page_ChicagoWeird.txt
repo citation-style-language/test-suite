@@ -1,0 +1,64 @@
+>>===== MODE =====>>
+citation
+<<===== MODE =====<<
+
+
+>>===== RESULT =====>>
+Example S, at n11564–68
+Example T, at n11564-1568
+<<===== RESULT =====<<
+
+
+>>===== CITATION-ITEMS =====>>
+[
+    [
+        {
+            "id": "ITEM-19"
+        }
+    ], 
+    [
+        {
+            "id": "ITEM-20"
+        }
+    ]
+]
+<<===== CITATION-ITEMS =====<<
+
+
+>>===== CSL =====>>
+<style 
+      xmlns="http://purl.org/net/xbiblio/csl"
+      class="note"
+      version="1.0"
+      page-range-format="chicago">
+  <info>
+    <id />
+    <title />
+    <updated>2009-08-10T04:49:00+09:00</updated>
+  </info>
+  <citation>
+    <layout>
+      <text variable="title"/>
+      <text variable="page" prefix=", at "/>
+    </layout>
+  </citation>
+</style>
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+    {
+        "id": "ITEM-19", 
+        "page": "n11564 - n1568", 
+        "title": "Example S", 
+        "type": "book"
+    }, 
+    {
+        "id": "ITEM-20", 
+        "page": "n11564 - 1568", 
+        "title": "Example T", 
+        "type": "book"
+    }
+]
+<<===== INPUT =====<<
