@@ -7,7 +7,7 @@ citation
 {
     "default": {
         "number": {
-            "2nd volume": "2nd"
+            "2nd volume": "2ND"
         }
     }
 }
@@ -18,7 +18,7 @@ rescued before the test by the abbreviations engine.
 
 >>===== RESULT =====>>
 Numeric false: Volume 2
-Numeric true: 2nd
+Numeric true: 2ND
 Numeric false: Second vol.
 <<===== RESULT =====<<
 
