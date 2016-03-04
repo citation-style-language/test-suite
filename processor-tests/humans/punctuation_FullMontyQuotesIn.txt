@@ -172,7 +172,7 @@ ENDING IN COMMA
           <text value="exclamation" prefix="! "/>
         </group>
         <text value="&#x0A;ENDING IN QUESTION"/>
-        <group>]
+        <group>
           <text quotes="true" value="colon" suffix=":"/>
           <text value="question" prefix="? "/>
         </group>
@@ -197,7 +197,7 @@ ENDING IN COMMA
           <text value="question" prefix="? "/>
         </group>
         <text value="&#x0A;ENDING IN COMMA"/>
-        <group>]
+        <group>
           <text quotes="true" value="colon" suffix=":"/>
           <text value="comma" prefix=", "/>
         </group>
