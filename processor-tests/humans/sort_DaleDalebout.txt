@@ -26,7 +26,13 @@ bibliography
             "citationID": "CITATION-1", 
             "citationItems": [
                 {
+                    "id": "ITEM-1"
+                },
+                {
                     "id": "ITEM-2"
+                },
+                {
+                    "id": "ITEM-3"
                 }
             ], 
             "properties": {
@@ -119,7 +125,6 @@ bibliography
                 "given": "Kelly" 
             }
         ], 
-        "title": "Title Thing",
         "id": "ITEM-2", 
         "type": "book"
     }
