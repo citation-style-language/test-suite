@@ -34,14 +34,14 @@ citation
 >>===== INPUT =====>>
 [
     {
+        "edition": "2", 
         "id": "ITEM-1", 
-        "edition": "2",
         "title": "His Anonymous Life", 
         "type": "book"
-    },
+    }, 
     {
+        "edition": "3-5", 
         "id": "ITEM-2", 
-        "edition": "3-5",
         "title": "His Anonymous Life", 
         "type": "book"
     }

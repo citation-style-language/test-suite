@@ -71,7 +71,7 @@ citation
        <text variable="title"/>
        <group delimiter=" ">
          <label variable="locator"/>
-         <number variable="locator"/>
+         <text variable="locator"/>
        </group>
      </group>
     </layout>

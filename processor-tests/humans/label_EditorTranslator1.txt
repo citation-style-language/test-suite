@@ -553,80 +553,81 @@ _______________________________________________________________________________ 
 
 >>===== INPUT =====>>
 [
-	{
-		"id": "ITEM-1",
-		"type": "book",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"system_id": "0_6CD2WX2A",
-		"title": "Пример оформления книги с редактором и переводчиком в одном лице",
-		"collection-title": "вид издания",
-		"collection-number": "10",
-		"publisher": "Дом",
-		"publisher-place": "Тюмень",
-		"volume": "2",
-		"number-of-volumes": "5",
-		"number-of-pages": "100",
-		"edition": "2-е изд. перераб. и доп.",
-		"event-place": "Тюмень",
-		"archive-place": "Тюмень",
-		"note": "Дополнительно",
-		"author": [
-			{
-				"family": "Иванов",
-				"given": "Иван Иванович",
-				"isInstitution": "",
-				"multi": {
-					"_key": {},
-					"main": false
-				}
-			},
-			{
-				"family": "Петров",
-				"given": "П.П.",
-				"isInstitution": "",
-				"multi": {
-					"_key": {},
-					"main": false
-				}
-			},
-			{
-				"family": "Сидоров",
-				"given": "С.С.",
-				"isInstitution": "",
-				"multi": {
-					"_key": {},
-					"main": false
-				}
-			}
-		],
+    {
+        "archive-place": "Тюмень", 
+        "author": [
+            {
+                "family": "Иванов", 
+                "given": "Иван Иванович", 
+                "isInstitution": "", 
+                "multi": {
+                    "_key": {}, 
+                    "main": false
+                }
+            }, 
+            {
+                "family": "Петров", 
+                "given": "П.П.", 
+                "isInstitution": "", 
+                "multi": {
+                    "_key": {}, 
+                    "main": false
+                }
+            }, 
+            {
+                "family": "Сидоров", 
+                "given": "С.С.", 
+                "isInstitution": "", 
+                "multi": {
+                    "_key": {}, 
+                    "main": false
+                }
+            }
+        ], 
+        "collection-number": "10", 
+        "collection-title": "вид издания", 
+        "edition": "2-е изд. перераб. и доп.", 
         "editor": [
             {
-				"family": "Романов",
-				"given": "Р.Р.",
-				"isInstitution": "",
-				"multi": {
-					"_key": {},
-					"main": false
-				}
+                "family": "Романов", 
+                "given": "Р.Р.", 
+                "isInstitution": "", 
+                "multi": {
+                    "_key": {}, 
+                    "main": false
+                }
             }
-        ],
+        ], 
+        "event-place": "Тюмень", 
+        "id": "ITEM-1", 
+        "issued": {
+            "date-parts": [], 
+            "raw": "2013"
+        }, 
+        "multi": {
+            "_keys": {}, 
+            "main": {}
+        }, 
+        "note": "Дополнительно", 
+        "number-of-pages": "100", 
+        "number-of-volumes": "5", 
+        "publisher": "Дом", 
+        "publisher-place": "Тюмень", 
+        "system_id": "0_6CD2WX2A", 
+        "title": "Пример оформления книги с редактором и переводчиком в одном лице", 
         "translator": [
             {
-				"family": "Романов",
-				"given": "Р.Р.",
-				"isInstitution": "",
-				"multi": {
-					"_key": {},
-					"main": false
-				}
+                "family": "Романов", 
+                "given": "Р.Р.", 
+                "isInstitution": "", 
+                "multi": {
+                    "_key": {}, 
+                    "main": false
+                }
             }
-        ],
-		"issued": {
-			"raw": "2013"
-		}
-	}
+        ], 
+        "type": "book", 
+        "volume": "2"
+    }
 ]
 <<===== INPUT =====<<

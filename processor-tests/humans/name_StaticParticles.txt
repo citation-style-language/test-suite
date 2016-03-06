@@ -35,8 +35,8 @@ von Doe, John
     {
         "author": [
             {
-                "family": "von Doe",
-                "given": "John",
+                "family": "von Doe", 
+                "given": "John", 
                 "static-particles": true
             }
         ], 

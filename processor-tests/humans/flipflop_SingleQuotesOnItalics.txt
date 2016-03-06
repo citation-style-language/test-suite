@@ -30,8 +30,8 @@ It is official (“<i>My Title</i>”) now
 >>===== INPUT =====>>
 [
     {
-        "id":"ITEM-1",
-        "title":"It is official (\"<i>My Title</i>\") now"
+        "id": "ITEM-1", 
+        "title": "It is official (\"<i>My Title</i>\") now"
     }
 ]
 <<===== INPUT =====<<

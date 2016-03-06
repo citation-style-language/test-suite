@@ -34,17 +34,17 @@ John von Doe: An about up Life; John van Doe? A Life; John d’Doe! A Life; John
         "id": "ITEM-1", 
         "title": "John von Doe: an about up life", 
         "type": "book"
-    },
+    }, 
     {
         "id": "ITEM-4", 
         "title": "John van Doe? a life", 
         "type": "book"
-    },
+    }, 
     {
         "id": "ITEM-2", 
         "title": "John d'Doe! a life", 
         "type": "book"
-    },
+    }, 
     {
         "id": "ITEM-3", 
         "title": "John de Doe a life", 

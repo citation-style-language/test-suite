@@ -50,7 +50,12 @@ citation
                 "noteIndex": 0
             }
         }, 
-        [["CITATION-1",0]], 
+        [
+            [
+                "CITATION-1", 
+                0
+            ]
+        ], 
         []
     ], 
     [

@@ -27,10 +27,10 @@ bibliography
             "citationItems": [
                 {
                     "id": "ITEM-1"
-                },
+                }, 
                 {
                     "id": "ITEM-2"
-                },
+                }, 
                 {
                     "id": "ITEM-3"
                 }
@@ -82,7 +82,7 @@ bibliography
     <sort>
       <key variable="author" />
     </sort>
-    <layout delimiter="; ">
+    <layout>
       <text macro="author" />
       <text variable="title"/>
     </layout>

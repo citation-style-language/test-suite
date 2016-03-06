@@ -105,7 +105,7 @@ Example: first less than second, at 123N110-N5, 000c23-22
         {
             "id": "ITEM-7"
         }
-    ],
+    ], 
     [
         {
             "id": "ITEM-8"

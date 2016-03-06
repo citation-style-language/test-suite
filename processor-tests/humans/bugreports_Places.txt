@@ -15,31 +15,13 @@ bibliography
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" demote-non-dropping-particle="sort-only" page-range-format="chicago" version="1.1mlz1" year-range-format="expanded">
   <info>
-    <title>MLZ Chicago Manual of Style (Full Note)</title>
-    <id>http://citationstylist.org/styles/mlz-cms-full</id>
-    <link href="http://citationstylist.org/styles/mlz-cms-full" rel="self"/>
-    <link href="http://www.chicagomanualofstyle.org/tools_citationguide.html" rel="documentation"/>
-    <author>
-      <name>Julian Onions</name>
-      <email>julian.onions@gmail.com</email>
-    </author>
-    <contributor>
-      <name>Simon Kornblith</name>
-      <email>simon@simonster.com</email>
-    </contributor>
-    <contributor>
-      <name>Elena Razlogova</name>
-      <email>elena.razlogova@gmail.com</email>
-    </contributor>
-    <contributor>
-      <name>Frank Bennett</name>
-      <email>biercenator@gmail.com</email>
-    </contributor>
-    <summary>Chicago format with full notes and bibliography (MLZ version)</summary>
-    <category field="generic-base"/>
-    <category citation-format="note"/>
-    <updated>2009-12-04T20:22:16+00:00</updated>
-    <rights>This work is licensed under a Creative Commons Attribution-Share Alike 3.0 License: http://creativecommons.org/licenses/by-sa/3.0/</rights>
+    <title>Test fixture</title>
+    <id>http://citationstyles.org/tests/fixture</id>
+    <link href="http://citationstyles.org/tests/fixture" rel="self"/>
+    <link href="http://citationstyles.org/documentation/text" rel="documentation"/>
+    <category citation-format="author-date"/>
+    <updated>2014-04-30T13:19:38+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en">
     <style-options name-never-short="my kr zh ja hu km"
@@ -1055,7 +1037,7 @@ bibliography
             <text macro="event"/>
           </group>
           <text macro="publisher"/>
-          <text variable="locator-revision"/>
+          <text variable="locator-extra"/>
           <text macro="issued"/>
         </group>
       </else-if>
@@ -3134,50 +3116,50 @@ bibliography
 
 >>===== INPUT =====>>
 [
-	{
-		"id": 2997,
-		"type": "speech",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"system_id": "0_B6BZ2WXB",
-		"title": "Keynote",
-		"publisher-place": "PUBLISHER Hamburg",
-		"event": "29th Chaos Communication Congress",
-		"event-place": "EVENT Hamburg",
-		"archive-place": "ARCHIVE Hamburg",
-		"URL": "http://boingboing.net/2013/02/15/jacob-appelbaums-29c3-keynot.html",
-		"author": [
-			{
-				"family": "Appelbaum",
-				"given": "Jacob",
-				"isInstitution": "",
-				"multi": {
-					"_key": {},
-					"main": false
-				}
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2012",
-					12,
-					27
-				]
-			]
-		},
-		"accessed": {
-			"date-parts": [
-				[
-					"2013",
-					6,
-					9
-				]
-			]
-		}
-	}
+    {
+        "URL": "http://boingboing.net/2013/02/15/jacob-appelbaums-29c3-keynot.html", 
+        "accessed": {
+            "date-parts": [
+                [
+                    "2013", 
+                    6, 
+                    9
+                ]
+            ]
+        }, 
+        "archive-place": "ARCHIVE Hamburg", 
+        "author": [
+            {
+                "family": "Appelbaum", 
+                "given": "Jacob", 
+                "isInstitution": "", 
+                "multi": {
+                    "_key": {}, 
+                    "main": false
+                }
+            }
+        ], 
+        "event": "29th Chaos Communication Congress", 
+        "event-place": "EVENT Hamburg", 
+        "id": 2997, 
+        "issued": {
+            "date-parts": [
+                [
+                    "2012", 
+                    12, 
+                    27
+                ]
+            ]
+        }, 
+        "multi": {
+            "_keys": {}, 
+            "main": {}
+        }, 
+        "publisher-place": "PUBLISHER Hamburg", 
+        "system_id": "0_B6BZ2WXB", 
+        "title": "Keynote", 
+        "type": "speech"
+    }
 ]
 <<===== INPUT =====<<
 </if>

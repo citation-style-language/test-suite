@@ -96,613 +96,613 @@ citation
 >>===== INPUT =====>>
 [
     {
-        "author": [  
+        "author": [
             {
-              "given":"Givenname al", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname al"
             }
-        ],
-        "id": "ITEM-1",
+        ], 
+        "id": "ITEM-1", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname dos", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname dos"
             }
-        ],
-        "id": "ITEM-2",
+        ], 
+        "id": "ITEM-2", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname el", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname el"
             }
-        ],
-        "id": "ITEM-3",
+        ], 
+        "id": "ITEM-3", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname de", 
-              "family":"Las Familyname"
+                "family": "Las Familyname", 
+                "given": "Givenname de"
             }
-        ],
-        "id": "ITEM-4",
+        ], 
+        "id": "ITEM-4", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname lo", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname lo"
             }
-        ],
-        "id": "ITEM-5",
+        ], 
+        "id": "ITEM-5", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname les", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname les"
             }
-        ],
-        "id": "ITEM-6",
+        ], 
+        "id": "ITEM-6", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname il", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname il"
             }
-        ],
-        "id": "ITEM-7",
+        ], 
+        "id": "ITEM-7", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"del Familyname"
+                "family": "del Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-8",
+        ], 
+        "id": "ITEM-8", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname dela", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname dela"
             }
-        ],
-        "id": "ITEM-9",
+        ], 
+        "id": "ITEM-9", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname della", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname della"
             }
-        ],
-        "id": "ITEM-10",
+        ], 
+        "id": "ITEM-10", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname dello", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname dello"
             }
-        ],
-        "id": "ITEM-11",
+        ], 
+        "id": "ITEM-11", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"Di Familyname"
+                "family": "Di Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-12",
+        ], 
+        "id": "ITEM-12", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"Da Familyname"
+                "family": "Da Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-13",
+        ], 
+        "id": "ITEM-13", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"Do Familyname"
+                "family": "Do Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-14",
+        ], 
+        "id": "ITEM-14", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"Des Familyname"
+                "family": "Des Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-15",
+        ], 
+        "id": "ITEM-15", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"Lou Familyname"
+                "family": "Lou Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-16",
+        ], 
+        "id": "ITEM-16", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"Pietro Familyname"
+                "family": "Pietro Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-17",
+        ], 
+        "id": "ITEM-17", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"de Familyname"
+                "family": "de Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-18",
+        ], 
+        "id": "ITEM-18", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname de", 
-              "family":"La Familyname"
+                "family": "La Familyname", 
+                "given": "Givenname de"
             }
-        ],
-        "id": "ITEM-19",
+        ], 
+        "id": "ITEM-19", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname du", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname du"
             }
-        ],
-        "id": "ITEM-20",
+        ], 
+        "id": "ITEM-20", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname d'", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname d'"
             }
-        ],
-        "id": "ITEM-21",
+        ], 
+        "id": "ITEM-21", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"Le Familyname"
+                "family": "Le Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-22",
+        ], 
+        "id": "ITEM-22", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"La Familyname"
+                "family": "La Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-23",
+        ], 
+        "id": "ITEM-23", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"L'Familyname"
+                "family": "L'Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-24",
+        ], 
+        "id": "ITEM-24", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"Saint Familyname"
+                "family": "Saint Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-25",
+        ], 
+        "id": "ITEM-25", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"Sainte Familyname"
+                "family": "Sainte Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-26",
+        ], 
+        "id": "ITEM-26", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"St. Familyname"
+                "family": "St. Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-27",
+        ], 
+        "id": "ITEM-27", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"Ste. Familyname"
+                "family": "Ste. Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-28",
+        ], 
+        "id": "ITEM-28", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"van Familyname"
+                "family": "van Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-29",
+        ], 
+        "id": "ITEM-29", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"van de Familyname"
+                "family": "van de Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-30",
+        ], 
+        "id": "ITEM-30", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"van der Familyname"
+                "family": "van der Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-31",
+        ], 
+        "id": "ITEM-31", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"van den Familyname"
+                "family": "van den Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-32",
+        ], 
+        "id": "ITEM-32", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"vander Familyname"
+                "family": "vander Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-33",
+        ], 
+        "id": "ITEM-33", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"v.d. Familyname"
+                "family": "v.d. Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-34",
+        ], 
+        "id": "ITEM-34", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"vd Familyname"
+                "family": "vd Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-35",
+        ], 
+        "id": "ITEM-35", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"van het Familyname"
+                "family": "van het Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-36",
+        ], 
+        "id": "ITEM-36", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"ver Familyname"
+                "family": "ver Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-37",
+        ], 
+        "id": "ITEM-37", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"ten Familyname"
+                "family": "ten Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-38",
+        ], 
+        "id": "ITEM-38", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"ter Familyname"
+                "family": "ter Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-39",
+        ], 
+        "id": "ITEM-39", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"te Familyname"
+                "family": "te Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-40",
+        ], 
+        "id": "ITEM-40", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname op de", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname op de"
             }
-        ],
-        "id": "ITEM-41",
+        ], 
+        "id": "ITEM-41", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"in de Familyname"
+                "family": "in de Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-42",
+        ], 
+        "id": "ITEM-42", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"in 't Familyname"
+                "family": "in 't Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-43",
+        ], 
+        "id": "ITEM-43", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"'t Familyname"
+                "family": "'t Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-44",
+        ], 
+        "id": "ITEM-44", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"in het Familyname"
+                "family": "in het Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-45",
+        ], 
+        "id": "ITEM-45", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"uit de Familyname"
+                "family": "uit de Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-46",
+        ], 
+        "id": "ITEM-46", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"uit den Familyname"
+                "family": "uit den Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-47",
+        ], 
+        "id": "ITEM-47", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname von", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname von"
             }
-        ],
-        "id": "ITEM-48",
+        ], 
+        "id": "ITEM-48", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname von der", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname von der"
             }
-        ],
-        "id": "ITEM-49",
+        ], 
+        "id": "ITEM-49", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname von dem", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname von dem"
             }
-        ],
-        "id": "ITEM-50",
+        ], 
+        "id": "ITEM-50", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname von zu", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname von zu"
             }
-        ],
-        "id": "ITEM-51",
+        ], 
+        "id": "ITEM-51", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"v. Familyname"
+                "family": "v. Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-52",
+        ], 
+        "id": "ITEM-52", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname", 
-              "family":"v Familyname"
+                "family": "v Familyname", 
+                "given": "Givenname"
             }
-        ],
-        "id": "ITEM-53",
+        ], 
+        "id": "ITEM-53", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname vom", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname vom"
             }
-        ],
-        "id": "ITEM-54",
+        ], 
+        "id": "ITEM-54", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname das", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname das"
             }
-        ],
-        "id": "ITEM-55",
+        ], 
+        "id": "ITEM-55", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname zum", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname zum"
             }
-        ],
-        "id": "ITEM-56",
+        ], 
+        "id": "ITEM-56", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname zur", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname zur"
             }
-        ],
-        "id": "ITEM-57",
+        ], 
+        "id": "ITEM-57", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname den", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname den"
             }
-        ],
-        "id": "ITEM-58",
+        ], 
+        "id": "ITEM-58", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname der", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname der"
             }
-        ],
-        "id": "ITEM-59",
+        ], 
+        "id": "ITEM-59", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname des", 
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname des"
             }
-        ],
-        "id": "ITEM-60",
+        ], 
+        "id": "ITEM-60", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
-              "given":"Givenname auf den",
-              "family":"Familyname"
+                "family": "Familyname", 
+                "given": "Givenname auf den"
             }
-        ],
-        "id": "ITEM-61",
+        ], 
+        "id": "ITEM-61", 
         "type": "book"
     }
 ]

@@ -16,9 +16,9 @@ citation
             "citationItems": [
                 {
                     "id": "ITEM-1"
-                },
+                }, 
                 {
-                    "id": "ITEM-1",
+                    "id": "ITEM-1", 
                     "prefix": ". He said \"Please work.\""
                 }
             ], 

@@ -29,9 +29,9 @@ items without title or author were submitted for names disambiguation.
                 "noteIndex": 1
             }
         }, 
-        [],
+        [], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-2", 
@@ -44,9 +44,14 @@ items without title or author were submitted for names disambiguation.
                 "noteIndex": 2
             }
         }, 
-        [["CITATION-1", 1]], 
+        [
+            [
+                "CITATION-1", 
+                1
+            ]
+        ], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-3", 
@@ -59,7 +64,16 @@ items without title or author were submitted for names disambiguation.
                 "noteIndex": 3
             }
         }, 
-        [["CITATION-1", 1],["CITATION-2", 2]], 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ]
+        ], 
         []
     ]
 ]

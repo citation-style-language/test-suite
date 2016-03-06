@@ -43,18 +43,13 @@ offending character occurs.
       version="1.1mlz1"
       page-range-format="chicago">
   <info>
-    <title>Bluebook (demo-x)</title>
-    <id>http://gsl-nagoya-u.net/http/pub/bluebook-demo-x</id>
-    <link rel="self" href="http://gsl-nagoya-u.net/http/pub/bluebook-demo-x.csl" />
-    <link href="http://www.legalbluebook.com/" rel="documentation" />
-    <author>
-      <name>Frank Bennett</name>
-      <email>biercenator@gmail.com</email>
-    </author>
-    <summary>Bluebook Style for legal materials (CSL 1.0 experimental)</summary>
-    <category field="generic-base" />
-    <category citation-format="note" />
-    <updated>2010-04-24T04:49:00+09:00</updated>
+    <title>Test fixture</title>
+    <id>http://citationstyles.org/tests/fixture</id>
+    <link href="http://citationstyles.org/tests/fixture" rel="self"/>
+    <link href="http://citationstyles.org/documentation/text" rel="documentation"/>
+    <category citation-format="author-date"/>
+    <updated>2014-04-30T13:19:38+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
 	<terms>
@@ -68,20 +63,11 @@ offending character occurs.
 	  <name/>
 	</names>
   </macro>
-  <macro name="bb-author-short">
-	<names variable="author">
-	  <name form="short"/>
-	</names>
-  </macro>
-
-  <!-- ### BLUEBOOK ISSUED ### -->
   <macro name="bb-issued">
 	<group prefix="(" suffix=")">
 	  <date variable="issued" form="text" date-parts="year"/>
 	</group>
   </macro>
-
-  <!-- ### ID BACKREFERENCES ### -->
   <macro name="bb-ibid">
 	<choose> 
 	  <if position="ibid-with-locator">
@@ -104,207 +90,6 @@ offending character occurs.
 	  </else-if>
 	</choose>
   </macro>
-
-  <!-- ### POINT LOCATORS -->
-  <macro name="bb-point-locator-comma">
-	<group delimiter=" ">
-	  <choose>
-        <if variable="number page" position="ibid" match="any">
-		  <text value=","/>
-        </if>
-	  </choose>
-	  <choose>
-        <if locator="page" match="none">
-		  <label form="symbol" variable="locator" suffix=" "/>
-	    </if>
-	  </choose>
-	  <text variable="locator"/>
-	</group>
-  </macro>
-  <macro name="bb-point-locator-base">
-	<choose>
-      <if locator="page" match="none">
-		<label form="symbol" variable="locator" suffix=" "/>
-	  </if>
-	</choose>
-	<text variable="locator"/>
-  </macro>
-
-  <!-- ### LEGAL CASE ### -->
-  <macro name="bb-legal-case">
-	<choose>
-	  <if position="first">
-		<text macro="bb-legal-case-first"/>
-	  </if>
-	  <else-if position="ibid">
-		<text macro="bb-ibid"/>
-	  </else-if>
-	  <else-if position="near-note">
-		<text macro="bb-legal-case-subsequent"/>
-	  </else-if>
-	  <else>
-		<text macro="bb-legal-case-first"/>
-	  </else>
-	</choose>
-  </macro>
-  <macro name="bb-legal-case-first">
-    <choose>
-      <if variable="title">
-        <!-- Common law cases -->
-		<group delimiter=", ">
-		  <text variable="title"/>
-		  <group delimiter=" ">
-			<choose>
-			  <if variable="issue">
-				<text variable="volume" prefix="[" suffix="]"/>
-				<text variable="issue"/>
-			  </if>
-			  <else>
-				<text variable="volume"/>
-			  </else>
-			</choose>
-			<text variable="container-title" form="short"/>
-			<group>
-			  <text variable="page"/>
-			  <text macro="bb-point-locator-comma"/>
-			</group>
-			<group prefix="(" suffix=")" delimiter=" ">
-			  <text variable="authority" form="short"/>
-			  <date variable="issued">
-				<date-part name="year"/>	
-			  </date>
-			</group>	
-		  </group>
-		</group>
-	  </if>
-      <else>
-		<!-- Civil law cases -->
-		<group delimiter=", ">
-		  <text variable="authority"/>
-		  <text variable="title" form="short"/>
-		  <date variable="issued" form="text"/>
-		  <text variable="container-title" font-style="italic" strip-periods="true"/>
-		  <text variable="volume"/>
-          <group delimiter=" ">
-			<text variable="section"/>
-            <label variable="page" form="short"/>
-            <text variable="page"/>
-		  </group>
-          <text variable="number"/>
-          <group delimiter=" ">
-            <text variable="genre"/>
-  		    <names variable="author">
-			  <name initialize-with="." font-variant="small-caps"/>
-		    </names>
-		  </group>
-		</group>
-	  </else>
-	</choose>
-  </macro>
-  <macro name="bb-legal-case-subsequent">
-    <group delimiter=", ">
-      <text variable="title" form="short"/>
-      <group delimiter=" ">
-		<choose>
-		  <if variable="issue">
-			<text variable="volume" prefix="[" suffix="]"/>
-			<text variable="issue"/>
-		  </if>
-		  <else>
-			<text variable="volume"/>
-		  </else>
-		</choose>
-        <text variable="container-title" form="short"/>
-		<choose>
-          <if variable="locator">
-            <text macro="bb-point-locator-base"/>
-		  </if>
-		  <else>
-		    <text variable="page"/>
-		  </else>
-		</choose>
-      </group>
-	</group>
-  </macro>
-
-  <!-- ### LEGISLATION ### -->
-  <macro name="bb-legislation">
-	<choose>
-	  <if position="first">
-		<text macro="bb-legislation-first"/>
-	  </if>
-	  <else-if position="near-note">
-		<text macro="bb-legislation-subsequent"/>
-	  </else-if>
-	  <else>
-		<text macro="bb-legislation-first"/>
-	  </else>
-	</choose>
-  </macro>
-  <macro name="bb-legislation-first">
-	<choose>
-	  <if variable="container-title">
-		<text macro="bb-statute-first"/>
-	  </if>
-	  <else>
-		<text macro="bb-code-first"/>
-	  </else>
-	</choose>
-  </macro>
-  <macro name="bb-legislation-subsequent">
-	<choose>
-	  <if variable="container-title">
-		<text macro="bb-statute-subsequent"/>
-	  </if>
-	  <else>
-		<text macro="bb-code-subsequent"/>
-	  </else>
-	</choose>
-  </macro>
-  <macro name="bb-statute-first">
-	<group delimiter=", ">
-	  <text variable="title"/>
-	  <text macro="bb-statute-subsequent"/>
-	</group>
-  </macro>
-  <macro name="bb-statute-subsequent">
-	<group delimiter="">
-	  <group delimiter=" ">
-		<text variable="volume"/>
-		<text variable="container-title"/>
-		<text variable="number"/>
-		<text variable="page"/>
-		<choose>
-		  <if is-numeric="section">
-			<text term="section" form="symbol"/>
-			<text variable="section"/>
-		  </if>
-		</choose>
-	  </group>
-	  <text macro="bb-point-locator-comma"/>
-	  <date prefix=" (" variable="issued" date-parts="year" form="text" suffix=")"/>
-	</group>
-  </macro>
-  <macro name="bb-code-first">
-	<group delimiter=" ">
-	  <text variable="title" font-variant="small-caps"/>
-	  <group delimiter=" ">
-		<label variable="locator" form="symbol"/>
-		<text variable="locator"/>
-	  </group>
-	</group>
-  </macro>
-  <macro name="bb-code-subsequent">
-	<group delimiter=" ">
-	  <text variable="title" form="short" font-variant="small-caps"/>
-	  <group delimiter=" ">
-		<label variable="locator" form="symbol"/>
-		<text variable="locator"/>
-	  </group>
-	</group>
-  </macro>
-
-  <!-- ### BOOK ### -->
   <macro name="bb-book">
 	<choose>
 	  <if position="first">
@@ -312,9 +97,6 @@ offending character occurs.
 	  </if>
 	  <else-if position="ibid">
 		<text macro="bb-ibid"/>
-	  </else-if>
-	  <else-if position="subsequent">
-		<text macro="bb-book-subsequent"/>
 	  </else-if>
 	</choose>
   </macro>
@@ -334,74 +116,6 @@ offending character occurs.
 		<text macro="bb-issued"/>
 	  </group>
 	</group>
-    <text variable="references" prefix=" [" suffix="]"/>
-  </macro>
-  <macro name="bb-book-subsequent">
-    <group delimiter=", ">
-	  <text macro="bb-author-short" font-variant="small-caps"/>
-	  <choose>
-		<if disambiguate="true">
-		  <text variable="title" font-variant="small-caps"/>
-		</if>
-	  </choose>
-	  <group delimiter="">
-		<group delimiter=" ">
-		  <text value="supra" font-style="italic"/>
-		  <choose>
-			<if variable="first-reference-note-number">
-			  <text value="note"/>
-			  <text variable="first-reference-note-number"/>
-			</if>
-		  </choose>
-		</group>
-		<group delimiter=" ">
-		  <choose>
-			<if locator="page">
-			  <text value=","/>
-			  <text value="at"/>
-			</if>
-			<else>
-			  <label variable="locator"/>
-			</else>
-		  </choose>
-		  <text variable="locator"/>
-		</group>
-	  </group>
-	</group>
-  </macro>
-
-  <!-- ### PERIODICAL ### -->
-  <macro name="bb-periodical">
-	<choose>
-	  <if position="first">
-		<text macro="bb-periodical-first"/>
-	  </if>
-	  <else-if position="ibid">
-		<text term="ibid" font-style="italic"/>
-	  </else-if>
-	  <else-if position="subsequent">
-		<text macro="bb-periodical-subsequent"/>
-	  </else-if>
-	</choose>
-  </macro>
-  <macro name="bb-periodical-first">
-	<group delimiter=" ">
-	  <group delimiter=", ">
-		<names variable="author">
-		  <name/>
-		</names>
-		<text variable="title" font-style="italic"/>
-		<group delimiter=" ">
-		  <text variable="volume"/>
-		  <text variable="container-title" form="short" font-variant="small-caps"/>
-		  <text variable="page-first"/>
-		</group>
-	  </group>
-	  <text macro="bb-issued"/>
-	</group>
-  </macro>
-  <macro name="bb-periodical-subsequent">
-	<text value="bb-periodical-subsequent"/>
   </macro>
   <citation
          near-note-distance="5"
@@ -410,20 +124,7 @@ offending character occurs.
          et-al-subsequent-use-first="2"
          et-al-use-first="1">
     <layout delimiter="; " suffix=".">
-      <choose>
-        <if type="legal_case">
-          <text macro="bb-legal-case"/>
-        </if>
-		<else-if type="legislation">
-		  <text macro="bb-legislation"/>
-		</else-if>
-		<else-if type="book" match="any">
-		  <text macro="bb-book"/>
-		</else-if>
-        <else>
-		  <text macro="bb-periodical"/>
-		</else>
-	  </choose>
+      <text macro="bb-book"/>
     </layout>
   </citation>
 </style>

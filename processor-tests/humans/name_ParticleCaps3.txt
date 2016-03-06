@@ -58,7 +58,7 @@ bibliography
         }, 
         [], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-2", 
@@ -71,9 +71,14 @@ bibliography
                 "noteIndex": 2
             }
         }, 
-        [["CITATION-1",1]], 
+        [
+            [
+                "CITATION-1", 
+                1
+            ]
+        ], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-3", 
@@ -86,7 +91,16 @@ bibliography
                 "noteIndex": 3
             }
         }, 
-        [["CITATION-1",1],["CITATION-2",2]], 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ]
+        ], 
         []
     ]
 ]

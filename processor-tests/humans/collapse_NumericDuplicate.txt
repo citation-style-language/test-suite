@@ -20,13 +20,13 @@ citation
                 }, 
                 {
                     "id": "ITEM-2"
-                },
+                }, 
                 {
                     "id": "ITEM-2"
-                },
+                }, 
                 {
                     "id": "ITEM-3"
-                },
+                }, 
                 {
                     "id": "ITEM-4"
                 }
@@ -45,7 +45,7 @@ citation
 >>===== CSL =====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
-      class="numeric"
+      class="in-text"
       version="1.0">
   <info>
     <id />

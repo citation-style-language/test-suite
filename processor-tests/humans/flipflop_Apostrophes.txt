@@ -1061,11 +1061,11 @@ citation
 >>===== INPUT =====>>
 [
     {
-        "id":"ITEM-1",
-        "title":"Supplément aux annales du Service des Antiquités de l\\'Égypte, Cahier",
-        "publisher":"Conseil Suprême des Antiquités de l\\'Égypte [formerly Imprimerie de l\\'Institut français d\\'archéologie orientale]",
-        "publisher-place":"Cairo",
-        "type":""
+        "id": "ITEM-1", 
+        "publisher": "Conseil Suprême des Antiquités de l\\'Égypte [formerly Imprimerie de l\\'Institut français d\\'archéologie orientale]", 
+        "publisher-place": "Cairo", 
+        "title": "Supplément aux annales du Service des Antiquités de l\\'Égypte, Cahier", 
+        "type": ""
     }
 ]
 <<===== INPUT =====<<

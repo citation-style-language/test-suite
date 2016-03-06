@@ -27,7 +27,7 @@ citation
         }, 
         [], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-2", 
@@ -40,9 +40,14 @@ citation
                 "noteIndex": 2
             }
         }, 
-        [["CITATION-1",1]], 
+        [
+            [
+                "CITATION-1", 
+                1
+            ]
+        ], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-3", 
@@ -55,7 +60,16 @@ citation
                 "noteIndex": 3
             }
         }, 
-        [["CITATION-1",1],["CITATION-2",2]], 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ]
+        ], 
         []
     ]
 ]

@@ -34,9 +34,11 @@ Test for issue described here:
     <sort>
       <key variable="author"/>
     </sort>
-    <names variable="author">
-      <name/>
-    </names>
+    <layout>
+      <names variable="author">
+        <name/>
+      </names>
+    </layout>
   </bibliography>
 </style>
 <<===== CSL =====<<
@@ -52,7 +54,7 @@ Test for issue described here:
         ], 
         "id": "ITEM-1", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
@@ -61,7 +63,7 @@ Test for issue described here:
         ], 
         "id": "ITEM-2", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {

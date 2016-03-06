@@ -47,23 +47,23 @@ John Doe; Jane Roe OR Doe Inc.; Doe Inc.; Noakes Inc.
         ], 
         "id": "item-1", 
         "type": "book"
-    },
+    }, 
     {
         "author": [
             {
                 "family": "Doe Inc.", 
-                "given": "",
-		"isInstitution": true
+                "given": "", 
+                "isInstitution": true
             }, 
             {
                 "family": "Doe Inc.", 
-                "given": "",
-		"isInstitution": true
+                "given": "", 
+                "isInstitution": true
             }, 
             {
                 "family": "Noakes Inc.", 
-                "given": "",
-		"isInstitution": true
+                "given": "", 
+                "isInstitution": true
             }
         ], 
         "id": "item-2", 

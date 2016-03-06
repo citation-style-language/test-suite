@@ -29,7 +29,7 @@ citation
         }, 
         [], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-1", 
@@ -42,9 +42,14 @@ citation
                 "noteIndex": 2
             }
         }, 
-        [["CITATION-0",1]], 
+        [
+            [
+                "CITATION-0", 
+                1
+            ]
+        ], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-2", 
@@ -57,9 +62,18 @@ citation
                 "noteIndex": 2
             }
         }, 
-        [["CITATION-0",1],["CITATION-1",2]], 
+        [
+            [
+                "CITATION-0", 
+                1
+            ], 
+            [
+                "CITATION-1", 
+                2
+            ]
+        ], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-3", 
@@ -72,9 +86,22 @@ citation
                 "noteIndex": 3
             }
         }, 
-        [["CITATION-0",1],["CITATION-1",2],["CITATION-2",3]], 
+        [
+            [
+                "CITATION-0", 
+                1
+            ], 
+            [
+                "CITATION-1", 
+                2
+            ], 
+            [
+                "CITATION-2", 
+                3
+            ]
+        ], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-4", 
@@ -87,7 +114,24 @@ citation
                 "noteIndex": 4
             }
         }, 
-        [["CITATION-0",1],["CITATION-1",2],["CITATION-2",3],["CITATION-3",4]], 
+        [
+            [
+                "CITATION-0", 
+                1
+            ], 
+            [
+                "CITATION-1", 
+                2
+            ], 
+            [
+                "CITATION-2", 
+                3
+            ], 
+            [
+                "CITATION-3", 
+                4
+            ]
+        ], 
         []
     ]
 ]

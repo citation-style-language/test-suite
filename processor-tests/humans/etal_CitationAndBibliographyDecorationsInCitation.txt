@@ -104,15 +104,15 @@ citation
     {
         "author": [
             {
-                "family": "Doe",
+                "family": "Doe", 
                 "given": "John"
-            },
+            }, 
             {
-                "family": "Roe",
+                "family": "Roe", 
                 "given": "Jane"
-            },
+            }, 
             {
-                "family": "Noakes",
+                "family": "Noakes", 
                 "given": "Richard"
             }
         ], 

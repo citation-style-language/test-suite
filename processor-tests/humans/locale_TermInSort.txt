@@ -20,9 +20,13 @@ bibliography
       class="note"
       version="1.1mlz1">
   <info>
-    <id />
-    <title />
-    <updated>2009-08-10T04:49:00+09:00</updated>
+    <title>Test fixture</title>
+    <id>http://citationstyles.org/tests/fixture</id>
+    <link href="http://citationstyles.org/tests/fixture" rel="self"/>
+    <link href="http://citationstyles.org/documentation/text" rel="documentation"/>
+    <category citation-format="author-date"/>
+    <updated>2014-04-30T13:19:38+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="en-US">
     <terms>
@@ -75,30 +79,30 @@ bibliography
 >>===== INPUT =====>>
 [
     {
+        "genre": "radio broadcast", 
         "id": "ITEM-1", 
+        "language": "zh-TW", 
         "title": "Title 1", 
-        "genre": "radio broadcast",
-        "language": "zh-TW",
         "type": "broadcast"
-    },
+    }, 
     {
+        "genre": "television broadcast", 
         "id": "ITEM-2", 
+        "language": "zh-TW", 
         "title": "Title 2", 
-        "genre": "television broadcast",
-        "language": "zh-TW",
         "type": "broadcast"
-    },
+    }, 
     {
+        "genre": "zzzz", 
         "id": "ITEM-3", 
         "title": "Title 3", 
-        "genre": "zzzz",
         "type": "broadcast"
-    },
+    }, 
     {
+        "genre": "zzzz", 
         "id": "ITEM-4", 
+        "language": "qx-YY", 
         "title": "Title 4", 
-        "genre": "zzzz",
-        "language": "qx-YY",
         "type": "broadcast"
     }
 ]

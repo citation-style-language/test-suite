@@ -675,29 +675,33 @@ a ulitiliza em italico-->
 >>===== INPUT =====>>
 [
     {
+        "DOI": "10.1016/j.jhydrol.2008.05.025", 
+        "ISSN": "0022-1694", 
         "author": [
             {
                 "family": "Cole", 
                 "given": "Steven J."
-            },
+            }, 
             {
-                "family":"Moore",
-                "given":"Robert"
+                "family": "Moore", 
+                "given": "Robert"
             }
         ], 
+        "container-title": "Journal of Hydrology", 
         "id": "ITEM-1", 
-        "title": "Hydrological modelling using raingauge- and radar-based estimators of areal rainfall",
-        "container-title":"Journal of Hydrology",
+        "issue": "3-4", 
         "issued": {
-            "date-parts":[[2008]]
-        },
-        "volume": "358",
-        "page": "159-181",
-        "issue": "3-4",
-        "DOI": "10.1016/j.jhydrol.2008.05.025",
-        "ISSN": "0022-1694",
-        "url": "http://www.sciencedirect.com/science/article/pii/S0022169408002394",
-        "type": "article-journal"
+            "date-parts": [
+                [
+                    2008
+                ]
+            ]
+        }, 
+        "page": "159-181", 
+        "title": "Hydrological modelling using raingauge- and radar-based estimators of areal rainfall", 
+        "type": "article-journal", 
+        "url": "http://www.sciencedirect.com/science/article/pii/S0022169408002394", 
+        "volume": "358"
     }
 ]
 <<===== INPUT =====<<

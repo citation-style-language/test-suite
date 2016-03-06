@@ -41,7 +41,7 @@ citation
         "author": [
             {
                 "family": "תפוח"
-            },
+            }, 
             {
                 "family": "תפוז"
             }

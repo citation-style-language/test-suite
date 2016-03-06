@@ -24,7 +24,7 @@ citation
                 }, 
                 {
                     "id": "ITEM-2"
-                },
+                }, 
                 {
                     "id": "ITEM-3"
                 }

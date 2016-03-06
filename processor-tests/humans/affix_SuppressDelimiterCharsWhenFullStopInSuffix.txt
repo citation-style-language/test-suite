@@ -48,18 +48,13 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
       version="1.1mlz1"
       page-range-format="chicago">
   <info>
-    <title>Bluebook (demo-x)</title>
-    <id>http://gsl-nagoya-u.net/http/pub/bluebook-demo-x</id>
-    <link rel="self" href="http://gsl-nagoya-u.net/http/pub/bluebook-demo-x.csl" />
-    <link href="http://www.legalbluebook.com/" rel="documentation" />
-    <author>
-      <name>Frank Bennett</name>
-      <email>biercenator@gmail.com</email>
-    </author>
-    <summary>Bluebook Style for legal materials (CSL 1.0 experimental)</summary>
-    <category field="generic-base" />
-    <category citation-format="note" />
-    <updated>2010-04-24T04:49:00+09:00</updated>
+    <title>Test fixture</title>
+    <id>http://citationstyles.org/tests/fixture</id>
+    <link href="http://citationstyles.org/tests/fixture" rel="self"/>
+    <link href="http://citationstyles.org/documentation/text" rel="documentation"/>
+    <category citation-format="author-date"/>
+    <updated>2014-04-30T13:19:38+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale>
 	<terms>
@@ -112,18 +107,20 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
 	  </choose>
 	  <choose>
         <if locator="page" match="none">
-		  <label form="symbol" variable="locator" suffix=" "/>
+		  <label form="symbol" variable="locator"/>
 	    </if>
 	  </choose>
 	  <text variable="locator"/>
 	</group>
   </macro>
   <macro name="bb-point-locator-base">
-	<choose>
-      <if locator="page" match="none">
-		<label form="symbol" variable="locator" suffix=" "/>
-	  </if>
-	</choose>
+    <group delimiter=" ">
+  	  <choose>
+        <if locator="page" match="none">
+		  <label form="symbol" variable="locator"/>
+	    </if>
+	  </choose>
+    </group>
 	<text variable="locator"/>
   </macro>
   <macro name="bb-legal-case">
@@ -151,20 +148,22 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
 		  <group delimiter=" ">
 			<choose>
 			  <if variable="issue">
-				<text variable="volume" prefix="[" suffix="]"/>
-				<text variable="issue"/>
+				<number variable="volume" prefix="[" suffix="]"/>
+				<number variable="issue"/>
 			  </if>
 			  <else>
-				<text variable="volume"/>
+				<number variable="volume"/>
 			  </else>
 			</choose>
 			<text variable="container-title" form="short"/>
 			<group>
-			  <text variable="page"/>
+			  <number variable="page"/>
 			  <text macro="bb-point-locator-comma"/>
 			</group>
 			<group prefix="(" suffix=")" delimiter=" ">
-			  <text variable="authority" form="short"/>
+              <names variable="authority">
+                <name form="short"/>
+              </names>
 			  <date variable="issued">
 				<date-part name="year"/>	
 			  </date>
@@ -174,17 +173,19 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
 	  </if>
       <else>
 		<group delimiter=", ">
-		  <text variable="authority"/>
+              <names variable="authority">
+                <name/>
+              </names>
 		  <text variable="title" form="short"/>
 		  <date variable="issued" form="text"/>
 		  <text variable="container-title" font-style="italic" strip-periods="true"/>
-		  <text variable="volume"/>
+		  <number variable="volume"/>
           <group delimiter=" ">
 			<text variable="section"/>
             <label variable="page" form="short"/>
-            <text variable="page"/>
+            <number variable="page"/>
 		  </group>
-          <text variable="number"/>
+          <number variable="number"/>
           <group delimiter=" ">
             <text variable="genre"/>
   		    <names variable="author">
@@ -201,11 +202,11 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
       <group delimiter=" ">
 		<choose>
 		  <if variable="issue">
-			<text variable="volume" prefix="[" suffix="]"/>
-			<text variable="issue"/>
+			<number variable="volume" prefix="[" suffix="]"/>
+			<number variable="issue"/>
 		  </if>
 		  <else>
-			<text variable="volume"/>
+			<number variable="volume"/>
 		  </else>
 		</choose>
         <text variable="container-title" form="short"/>
@@ -214,7 +215,7 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
             <text macro="bb-point-locator-base"/>
 		  </if>
 		  <else>
-		    <text variable="page"/>
+		    <number variable="page"/>
 		  </else>
 		</choose>
       </group>
@@ -260,12 +261,13 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
 	</group>
   </macro>
   <macro name="bb-statute-subsequent">
+   <group delimiter=" ">
 	<group delimiter="">
 	  <group delimiter=" ">
-		<text variable="volume"/>
+		<number variable="volume"/>
 		<text variable="container-title"/>
-		<text variable="number"/>
-		<text variable="page"/>
+		<number variable="number"/>
+		<number variable="page"/>
 		<choose>
 		  <if is-numeric="section">
 			<text term="section" form="symbol"/>
@@ -274,7 +276,8 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
 		</choose>
 	  </group>
 	  <text macro="bb-point-locator-comma"/>
-	  <date prefix=" (" variable="issued" date-parts="year" form="text" suffix=")"/>
+     </group>
+	 <date prefix="(" variable="issued" date-parts="year" form="text" suffix=")"/>
 	</group>
   </macro>
   <macro name="bb-code-first">
@@ -309,6 +312,7 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
 	</choose>
   </macro>
   <macro name="bb-book-first">
+    <group delimiter=" ">
 	<group delimiter=", ">
 	  <text macro="bb-author" font-variant="small-caps"/>
 	  <group delimiter=" ">
@@ -324,7 +328,8 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
 		<text macro="bb-issued"/>
 	  </group>
 	</group>
-    <text variable="references" prefix=" [" suffix="]"/>
+    <text variable="references" prefix="[" suffix="]"/>
+    </group>
   </macro>
   <macro name="bb-book-subsequent">
     <group delimiter=", ">
@@ -380,9 +385,9 @@ The semicolon after the phrase "for a detailed discussion." should be suppressed
 		</names>
 		<text variable="title" font-style="italic"/>
 		<group delimiter=" ">
-		  <text variable="volume"/>
+		  <number variable="volume"/>
 		  <text variable="container-title" form="short" font-variant="small-caps"/>
-		  <text variable="page-first"/>
+		  <number variable="page-first"/>
 		</group>
 	  </group>
 	  <text macro="bb-issued"/>

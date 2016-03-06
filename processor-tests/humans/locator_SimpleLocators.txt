@@ -50,7 +50,7 @@ Doe, Book A, 2000, pp. 100–103; Roe, Book B, 2001, chaps. 200–201.
         </date>
         <group delimiter=" ">
           <label form="short" strip-periods="false" variable="locator" />
-          <number variable="locator" />
+          <text variable="locator" />
         </group>
       </group>
     </layout>

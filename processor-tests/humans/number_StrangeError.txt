@@ -23,7 +23,7 @@ Delimiter is a non-breaking Unicode hyphen U+2011, supplied by the CSL 1.0.1 fr-
   </info>
   <citation>
     <layout>
-      <number variable="page"/>
+      <text variable="page"/>
     </layout>
   </citation>
 </style>

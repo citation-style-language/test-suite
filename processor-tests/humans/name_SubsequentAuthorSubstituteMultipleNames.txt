@@ -28,7 +28,7 @@ bibliography
         }, 
         [], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-2", 
@@ -41,7 +41,12 @@ bibliography
                 "noteIndex": 2
             }
         }, 
-        [["CITATION-1",1]], 
+        [
+            [
+                "CITATION-1", 
+                1
+            ]
+        ], 
         []
     ]
 ]

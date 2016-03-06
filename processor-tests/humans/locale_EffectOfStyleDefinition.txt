@@ -4,7 +4,7 @@ citation
 
 >>===== OPTIONS =====>>
 {
-   "expect_and_symbol_form":true
+    "expect_and_symbol_form": true
 }
 <<===== OPTIONS =====<<
 
@@ -26,8 +26,10 @@ John Doe &#38; Jane Roe
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
   <locale xml:lang="en-US">
-    <term name="and">und</term>
-    <term name="and" form="symbol">&amp;</term>
+    <terms>
+      <term name="and">und</term>
+      <term name="and" form="symbol">&amp;</term>
+    </terms>
   </locale>
   <citation>
     <layout>

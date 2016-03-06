@@ -7,7 +7,7 @@ This option controls for it.
 
 >>===== OPTIONS =====>>
 {
-  "normalize_lang_keys_to_lowercase": true
+    "normalize_lang_keys_to_lowercase": true
 }
 <<===== OPTIONS =====<<
 

@@ -32,7 +32,7 @@ In this test:
             "citationItems": [
                 {
                     "id": "ITEM-1"
-                },
+                }, 
                 {
                     "id": "ITEM-2"
                 }
@@ -43,7 +43,7 @@ In this test:
         }, 
         [], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-2", 
@@ -56,9 +56,14 @@ In this test:
                 "noteIndex": 2
             }
         }, 
-        [["CITATION-1",1]], 
+        [
+            [
+                "CITATION-1", 
+                1
+            ]
+        ], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-3", 
@@ -71,9 +76,18 @@ In this test:
                 "noteIndex": 3
             }
         }, 
-        [["CITATION-1",1],["CITATION-2",2]], 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ]
+        ], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-4", 
@@ -86,9 +100,22 @@ In this test:
                 "noteIndex": 4
             }
         }, 
-        [["CITATION-1",1],["CITATION-2",2],["CITATION-3",3]], 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ]
+        ], 
         []
-    ],
+    ], 
     [
         {
             "citationID": "CITATION-5", 
@@ -101,7 +128,24 @@ In this test:
                 "noteIndex": 5
             }
         }, 
-        [["CITATION-1",1],["CITATION-2",2],["CITATION-3",3],["CITATION-4",4]], 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ], 
+            [
+                "CITATION-4", 
+                4
+            ]
+        ], 
         []
     ]
 ]
@@ -112,11 +156,15 @@ In this test:
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
-      version="1.0">
+      version="1.1mlz1">
   <info>
-    <id />
-    <title />
-    <updated>2009-08-10T04:49:00+09:00</updated>
+    <title>Test fixture</title>
+    <id>http://citationstyles.org/tests/fixture</id>
+    <link href="http://citationstyles.org/tests/fixture" rel="self"/>
+    <link href="http://citationstyles.org/documentation/text" rel="documentation"/>
+    <category citation-format="author-date"/>
+    <updated>2014-04-30T13:19:38+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <citation>
     <layout delimiter="; " suffix=".">
@@ -152,8 +200,10 @@ In this test:
                <text prefix=", " variable="title-main" quotes="true"/>
             </if>
           </choose>
-          <text prefix=", " suffix=" " value="supra note" />
-          <text variable="first-reference-note-number" />
+          <group delimiter=" ">
+            <text prefix=", " value="supra note" />
+            <text variable="first-reference-note-number" />
+          </group>
         </else-if>
         <else>
           <text value="FAILED TO MATCH"/>

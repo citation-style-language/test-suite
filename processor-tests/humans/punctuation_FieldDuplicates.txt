@@ -39,7 +39,7 @@ citation
     {
         "author": [
             {
-                "family": "Doe",
+                "family": "Doe", 
                 "given": "John"
             }
         ], 
