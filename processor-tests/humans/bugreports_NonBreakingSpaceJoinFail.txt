@@ -5,7 +5,7 @@ citation-rtf
 
 
 >>===== RESULT =====>>
->>[0] {\scaps Smith} J., {\i{}Book One}\u160; {\scaps Jackson} J., {\i{}Book Two}.
+>>[0] {\scaps Smith} J., {\i{}Book One}\uc0\u160{}; {\scaps Jackson} J., {\i{}Book Two}.
 <<===== RESULT =====<<
 
 
