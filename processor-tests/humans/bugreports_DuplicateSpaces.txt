@@ -155,8 +155,7 @@ http://groups.google.com/group/citeproc-js/browse_thread/thread/6f9c7620c6c97ff1
         "author": [
             {
                 "family": "D'Arcus", 
-                "given": "Bruce", 
-                "static-ordering": false
+                "given": "Bruce"
             }
         ], 
         "id": "ITEM-1", 

@@ -65,8 +65,7 @@ Doe, Book A, 2000, pp. 100–103; Roe, Book B, 2001, chaps. 200–201.
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-1", 

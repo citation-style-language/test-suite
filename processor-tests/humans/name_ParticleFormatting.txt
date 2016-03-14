@@ -41,8 +41,7 @@ LA DOE, John de
                 "dropping-particle": "de", 
                 "family": "Doe", 
                 "given": "John", 
-                "non-dropping-particle": "la", 
-                "static-ordering": false
+                "non-dropping-particle": "la"
             }
         ], 
         "id": "ITEM-1", 

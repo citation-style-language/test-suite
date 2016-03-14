@@ -47,18 +47,15 @@ A. Asthma et al. (1980); G. Asthma et al. (1995); Dropsy and Asthma (1995)
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Bosworth", 
-                "static-ordering": false
+                "given": "Bosworth"
             }, 
             {
                 "family": "Cold", 
-                "given": "Crispin", 
-                "static-ordering": false
+                "given": "Crispin"
             }
         ], 
         "id": "ITEM-1", 
@@ -76,18 +73,15 @@ A. Asthma et al. (1980); G. Asthma et al. (1995); Dropsy and Asthma (1995)
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Gargoyle", 
-                "static-ordering": false
+                "given": "Gargoyle"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Billy", 
-                "static-ordering": false
+                "given": "Billy"
             }, 
             {
                 "family": "Cold", 
-                "given": "Odeous", 
-                "static-ordering": false
+                "given": "Odeous"
             }
         ], 
         "id": "ITEM-2", 
@@ -105,13 +99,11 @@ A. Asthma et al. (1980); G. Asthma et al. (1995); Dropsy and Asthma (1995)
         "author": [
             {
                 "family": "Dropsy", 
-                "given": "Duncan", 
-                "static-ordering": false
+                "given": "Duncan"
             }, 
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }
         ], 
         "id": "ITEM-3", 

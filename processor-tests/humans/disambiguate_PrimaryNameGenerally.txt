@@ -43,13 +43,11 @@ Aloysius Asthma and Bronchitis (1980); Artemis Asthma and Bronchitis (1995)
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Aloysius", 
-                "static-ordering": false
+                "given": "Aloysius"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Bosworth", 
-                "static-ordering": false
+                "given": "Bosworth"
             }
         ], 
         "id": "ITEM-1", 
@@ -66,13 +64,11 @@ Aloysius Asthma and Bronchitis (1980); Artemis Asthma and Bronchitis (1995)
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Artemis", 
-                "static-ordering": false
+                "given": "Artemis"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Beauregarde", 
-                "static-ordering": false
+                "given": "Beauregarde"
             }
         ], 
         "id": "ITEM-2", 

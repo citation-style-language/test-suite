@@ -81,28 +81,23 @@ citation
         "author": [
             {
                 "family": "Baur", 
-                "given": "Bruno", 
-                "static-ordering": false
+                "given": "Bruno"
             }, 
             {
                 "family": "Fröberg", 
-                "given": "Lars", 
-                "static-ordering": false
+                "given": "Lars"
             }, 
             {
                 "family": "Baur", 
-                "given": "Anette", 
-                "static-ordering": false
+                "given": "Anette"
             }, 
             {
                 "family": "Guggenheim", 
-                "given": "Richard", 
-                "static-ordering": false
+                "given": "Richard"
             }, 
             {
                 "family": "Haase", 
-                "given": "Martin", 
-                "static-ordering": false
+                "given": "Martin"
             }
         ], 
         "container-title": "Nordic Journal of Botany", 
@@ -123,18 +118,15 @@ citation
         "author": [
             {
                 "family": "Baur", 
-                "given": "Bruno", 
-                "static-ordering": false
+                "given": "Bruno"
             }, 
             {
                 "family": "Schileyko", 
-                "given": "Anatoly A.", 
-                "static-ordering": false
+                "given": "Anatoly A."
             }, 
             {
                 "family": "Baur", 
-                "given": "Anette", 
-                "static-ordering": false
+                "given": "Anette"
             }
         ], 
         "container-title": "Journal of Molluscan Studies", 
@@ -155,8 +147,7 @@ citation
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "container-title": "Journal of Irreproducible Results", 

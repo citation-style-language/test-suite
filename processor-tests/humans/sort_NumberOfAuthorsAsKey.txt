@@ -69,8 +69,7 @@ bibliography
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "item-1", 
@@ -88,18 +87,15 @@ bibliography
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Doe", 
-                "given": "Jake", 
-                "static-ordering": false
+                "given": "Jake"
             }, 
             {
                 "family": "Jones", 
-                "given": "Robert", 
-                "static-ordering": false
+                "given": "Robert"
             }
         ], 
         "id": "item-2", 
@@ -117,13 +113,11 @@ bibliography
         "editor": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }
         ], 
         "id": "item-3", 

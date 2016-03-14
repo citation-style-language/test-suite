@@ -44,18 +44,15 @@ Smith, Brown, et al. (1980); Smith, Beefheart, et al. (1980)
         "author": [
             {
                 "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Brown", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Jones", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-1", 
@@ -72,18 +69,15 @@ Smith, Brown, et al. (1980); Smith, Beefheart, et al. (1980)
         "author": [
             {
                 "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Beefheart", 
-                "given": "Captain", 
-                "static-ordering": false
+                "given": "Captain"
             }, 
             {
                 "family": "Jones", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-2", 

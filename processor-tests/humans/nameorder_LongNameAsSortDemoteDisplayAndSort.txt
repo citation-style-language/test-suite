@@ -40,7 +40,6 @@ Martinière, Gérard de la, III
                 "family": "Martinière", 
                 "given": "Gérard", 
                 "non-dropping-particle": "la", 
-                "static-ordering": false, 
                 "suffix": "III"
             }
         ], 

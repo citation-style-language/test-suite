@@ -35,8 +35,7 @@ Asth00a; Asth00b; Bron00
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }
         ], 
         "id": "ITEM-1", 
@@ -54,8 +53,7 @@ Asth00a; Asth00b; Bron00
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Zeppo", 
-                "static-ordering": false
+                "given": "Zeppo"
             }
         ], 
         "id": "ITEM-2", 
@@ -73,8 +71,7 @@ Asth00a; Asth00b; Bron00
         "author": [
             {
                 "family": "Bronchitis", 
-                "given": "Buffy", 
-                "static-ordering": false
+                "given": "Buffy"
             }
         ], 
         "id": "ITEM-3", 

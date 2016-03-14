@@ -100,8 +100,7 @@ bibliography
         "author": [
             {
                 "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "item-3", 

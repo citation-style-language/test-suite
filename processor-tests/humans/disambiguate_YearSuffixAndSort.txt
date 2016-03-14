@@ -95,33 +95,27 @@ citation
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Bosworth", 
-                "static-ordering": false
+                "given": "Bosworth"
             }, 
             {
                 "family": "Cold", 
-                "given": "Crispin", 
-                "static-ordering": false
+                "given": "Crispin"
             }, 
             {
                 "family": "Dropsy", 
-                "given": "David", 
-                "static-ordering": false
+                "given": "David"
             }, 
             {
                 "family": "Ebola", 
-                "given": "Elvin", 
-                "static-ordering": false
+                "given": "Elvin"
             }, 
             {
                 "family": "Fever", 
-                "given": "Fergus", 
-                "static-ordering": false
+                "given": "Fergus"
             }
         ], 
         "id": "ambigs-1", 
@@ -139,33 +133,27 @@ citation
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Bosworth", 
-                "static-ordering": false
+                "given": "Bosworth"
             }, 
             {
                 "family": "Cold", 
-                "given": "Crispin", 
-                "static-ordering": false
+                "given": "Crispin"
             }, 
             {
                 "family": "Dropsy", 
-                "given": "David", 
-                "static-ordering": false
+                "given": "David"
             }, 
             {
                 "family": "Enteritis", 
-                "given": "Ernie", 
-                "static-ordering": false
+                "given": "Ernie"
             }, 
             {
                 "family": "Fever", 
-                "given": "Fergus", 
-                "static-ordering": false
+                "given": "Fergus"
             }
         ], 
         "id": "ambigs-2", 
@@ -183,33 +171,27 @@ citation
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Bosworth", 
-                "static-ordering": false
+                "given": "Bosworth"
             }, 
             {
                 "family": "Cold", 
-                "given": "Crispin", 
-                "static-ordering": false
+                "given": "Crispin"
             }, 
             {
                 "family": "Dropsy", 
-                "given": "David", 
-                "static-ordering": false
+                "given": "David"
             }, 
             {
                 "family": "Ebola", 
-                "given": "Elvin", 
-                "static-ordering": false
+                "given": "Elvin"
             }, 
             {
                 "family": "Fever", 
-                "given": "Fergus", 
-                "static-ordering": false
+                "given": "Fergus"
             }
         ], 
         "id": "ambigs-3", 
@@ -227,18 +209,15 @@ citation
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Bosworth", 
-                "static-ordering": false
+                "given": "Bosworth"
             }, 
             {
                 "family": "Cold", 
-                "given": "Crispin", 
-                "static-ordering": false
+                "given": "Crispin"
             }
         ], 
         "id": "ambigs-4", 
@@ -256,18 +235,15 @@ citation
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Beauregarde", 
-                "static-ordering": false
+                "given": "Beauregarde"
             }, 
             {
                 "family": "Cold", 
-                "given": "Crispin", 
-                "static-ordering": false
+                "given": "Crispin"
             }
         ], 
         "id": "ambigs-5", 
@@ -285,33 +261,27 @@ citation
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Alan", 
-                "static-ordering": false
+                "given": "Alan"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Bosworth", 
-                "static-ordering": false
+                "given": "Bosworth"
             }, 
             {
                 "family": "Cold", 
-                "given": "Crispin", 
-                "static-ordering": false
+                "given": "Crispin"
             }, 
             {
                 "family": "Dropsy", 
-                "given": "David", 
-                "static-ordering": false
+                "given": "David"
             }, 
             {
                 "family": "Ebola", 
-                "given": "Elvin", 
-                "static-ordering": false
+                "given": "Elvin"
             }, 
             {
                 "family": "Fever", 
-                "given": "Fergus", 
-                "static-ordering": false
+                "given": "Fergus"
             }
         ], 
         "id": "ambigs-6", 
@@ -329,13 +299,11 @@ citation
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Roe", 
-                "given": "Janet", 
-                "static-ordering": false
+                "given": "Janet"
             }
         ], 
         "id": "ambigs-7", 
@@ -353,13 +321,11 @@ citation
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }
         ], 
         "id": "ambigs-8", 
@@ -377,13 +343,11 @@ citation
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }
         ], 
         "id": "ambigs-9", 
@@ -401,13 +365,11 @@ citation
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Roe", 
-                "given": "Janet", 
-                "static-ordering": false
+                "given": "Janet"
             }
         ], 
         "id": "ambigs-10", 
@@ -425,18 +387,15 @@ citation
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }, 
             {
                 "family": "Jones", 
-                "given": "Robert", 
-                "static-ordering": false
+                "given": "Robert"
             }
         ], 
         "id": "ambigs-11", 
@@ -454,18 +413,15 @@ citation
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Roe", 
-                "given": "Josephine", 
-                "static-ordering": false
+                "given": "Josephine"
             }, 
             {
                 "family": "Jones", 
-                "given": "Robert", 
-                "static-ordering": false
+                "given": "Robert"
             }
         ], 
         "id": "ambigs-12", 
@@ -483,18 +439,15 @@ citation
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }, 
             {
                 "family": "Jones", 
-                "given": "Richard", 
-                "static-ordering": false
+                "given": "Richard"
             }
         ], 
         "id": "ambigs-13", 

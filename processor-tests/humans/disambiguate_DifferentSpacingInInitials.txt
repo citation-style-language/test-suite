@@ -41,8 +41,7 @@ Doe, His Anonymous Life (part 1); Doe, His Anonymous Life (part 2)
         "author": [
             {
                 "family": "Doe", 
-                "given": "J. J.", 
-                "static-ordering": false
+                "given": "J. J."
             }
         ], 
         "id": "ITEM-1", 
@@ -53,8 +52,7 @@ Doe, His Anonymous Life (part 1); Doe, His Anonymous Life (part 2)
         "author": [
             {
                 "family": "Doe", 
-                "given": "J.J.", 
-                "static-ordering": false
+                "given": "J.J."
             }
         ], 
         "id": "ITEM-2", 

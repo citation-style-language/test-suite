@@ -396,8 +396,7 @@ bibliography
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-1", 
@@ -417,13 +416,11 @@ bibliography
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }
         ], 
         "id": "ITEM-2", 
@@ -441,18 +438,15 @@ bibliography
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }, 
             {
                 "family": "Asthma", 
-                "given": "Alvin", 
-                "static-ordering": false
+                "given": "Alvin"
             }
         ], 
         "id": "ITEM-3", 
@@ -470,58 +464,47 @@ bibliography
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }, 
             {
                 "family": "Asthma", 
-                "given": "Alvin", 
-                "static-ordering": false
+                "given": "Alvin"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Bob", 
-                "static-ordering": false
+                "given": "Bob"
             }, 
             {
                 "family": "Cold", 
-                "given": "Chris", 
-                "static-ordering": false
+                "given": "Chris"
             }, 
             {
                 "family": "Dropsy", 
-                "given": "Don", 
-                "static-ordering": false
+                "given": "Don"
             }, 
             {
                 "family": "Enteritis", 
-                "given": "Ernie", 
-                "static-ordering": false
+                "given": "Ernie"
             }, 
             {
                 "family": "Fever", 
-                "given": "Frank", 
-                "static-ordering": false
+                "given": "Frank"
             }, 
             {
                 "family": "Goiter", 
-                "given": "George", 
-                "static-ordering": false
+                "given": "George"
             }, 
             {
                 "family": "Hiccup", 
-                "given": "Herb", 
-                "static-ordering": false
+                "given": "Herb"
             }, 
             {
                 "family": "Impetigo", 
-                "given": "Irwin", 
-                "static-ordering": false
+                "given": "Irwin"
             }
         ], 
         "id": "ITEM-4", 
@@ -539,63 +522,51 @@ bibliography
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }, 
             {
                 "family": "Asthma", 
-                "given": "Alvin", 
-                "static-ordering": false
+                "given": "Alvin"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Bob", 
-                "static-ordering": false
+                "given": "Bob"
             }, 
             {
                 "family": "Cold", 
-                "given": "Chris", 
-                "static-ordering": false
+                "given": "Chris"
             }, 
             {
                 "family": "Dropsy", 
-                "given": "Don", 
-                "static-ordering": false
+                "given": "Don"
             }, 
             {
                 "family": "Enteritis", 
-                "given": "Ernie", 
-                "static-ordering": false
+                "given": "Ernie"
             }, 
             {
                 "family": "Fever", 
-                "given": "Frank", 
-                "static-ordering": false
+                "given": "Frank"
             }, 
             {
                 "family": "Goiter", 
-                "given": "George", 
-                "static-ordering": false
+                "given": "George"
             }, 
             {
                 "family": "Hiccup", 
-                "given": "Herb", 
-                "static-ordering": false
+                "given": "Herb"
             }, 
             {
                 "family": "Impetigo", 
-                "given": "Irwin", 
-                "static-ordering": false
+                "given": "Irwin"
             }, 
             {
                 "family": "Jaudice", 
-                "given": "Jeff", 
-                "static-ordering": false
+                "given": "Jeff"
             }
         ], 
         "id": "ITEM-5", 

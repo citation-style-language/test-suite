@@ -35,8 +35,7 @@ SpiffLabel1900a; SpiffLabel1900b; Bron00; BrCh98; DEFG26
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }
         ], 
         "citation-label": "SpiffLabel1900", 
@@ -55,8 +54,7 @@ SpiffLabel1900a; SpiffLabel1900b; Bron00; BrCh98; DEFG26
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Zeppo", 
-                "static-ordering": false
+                "given": "Zeppo"
             }
         ], 
         "citation-label": "SpiffLabel1900", 

@@ -62,8 +62,7 @@ Doe 1960; Brown 1990; Ichi 2000; Roe 1970; Smith 1980.
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-1", 
@@ -81,8 +80,7 @@ Doe 1960; Brown 1990; Ichi 2000; Roe 1970; Smith 1980.
         "author": [
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }
         ], 
         "id": "ITEM-2", 
@@ -100,8 +98,7 @@ Doe 1960; Brown 1990; Ichi 2000; Roe 1970; Smith 1980.
         "author": [
             {
                 "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-3", 
@@ -119,8 +116,7 @@ Doe 1960; Brown 1990; Ichi 2000; Roe 1970; Smith 1980.
         "author": [
             {
                 "family": "Brown", 
-                "given": "Robert", 
-                "static-ordering": false
+                "given": "Robert"
             }
         ], 
         "id": "ITEM-4", 
@@ -138,8 +134,7 @@ Doe 1960; Brown 1990; Ichi 2000; Roe 1970; Smith 1980.
         "author": [
             {
                 "family": "Ichi", 
-                "given": "Taro", 
-                "static-ordering": false
+                "given": "Taro"
             }
         ], 
         "id": "ITEM-5", 

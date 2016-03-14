@@ -39,8 +39,7 @@ Doe, J. J., His Anonymous Life
         "author": [
             {
                 "family": "Doe", 
-                "given": "John Jeeves", 
-                "static-ordering": false
+                "given": "John Jeeves"
             }
         ], 
         "id": "ITEM-1", 

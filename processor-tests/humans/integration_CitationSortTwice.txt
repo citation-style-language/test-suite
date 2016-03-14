@@ -106,8 +106,7 @@ citation
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-1", 
@@ -117,8 +116,7 @@ citation
         "author": [
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }
         ], 
         "id": "ITEM-2", 
@@ -128,8 +126,7 @@ citation
         "author": [
             {
                 "family": "Noakes", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-3", 
@@ -139,8 +136,7 @@ citation
         "author": [
             {
                 "family": "Snoakes", 
-                "given": "Richard", 
-                "static-ordering": false
+                "given": "Richard"
             }
         ], 
         "id": "ITEM-4", 

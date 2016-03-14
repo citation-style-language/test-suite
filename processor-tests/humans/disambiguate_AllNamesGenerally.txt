@@ -45,18 +45,15 @@ Asthma, Bosworth Bronchitis and C. Cold (1980); Asthma, Beauregarde Bronchitis a
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Bosworth", 
-                "static-ordering": false
+                "given": "Bosworth"
             }, 
             {
                 "family": "Cold", 
-                "given": "Crispin", 
-                "static-ordering": false
+                "given": "Crispin"
             }
         ], 
         "id": "ITEM-1", 
@@ -74,18 +71,15 @@ Asthma, Bosworth Bronchitis and C. Cold (1980); Asthma, Beauregarde Bronchitis a
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Beauregarde", 
-                "static-ordering": false
+                "given": "Beauregarde"
             }, 
             {
                 "family": "Cold", 
-                "given": "Odeous", 
-                "static-ordering": false
+                "given": "Odeous"
             }
         ], 
         "id": "ITEM-2", 

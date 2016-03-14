@@ -84,8 +84,7 @@ the grouping of authors in the AAA style bibliography format.
         "author": [
             {
                 "family": "Doe", 
-                "given": "John Aloysius", 
-                "static-ordering": false
+                "given": "John Aloysius"
             }
         ], 
         "id": "ITEM-1", 
@@ -103,8 +102,7 @@ the grouping of authors in the AAA style bibliography format.
         "author": [
             {
                 "family": "Doe", 
-                "given": "John Aloysius", 
-                "static-ordering": false
+                "given": "John Aloysius"
             }
         ], 
         "id": "ITEM-2", 
@@ -122,8 +120,7 @@ the grouping of authors in the AAA style bibliography format.
         "author": [
             {
                 "family": "Roe", 
-                "given": "Jane Henrietta", 
-                "static-ordering": false
+                "given": "Jane Henrietta"
             }
         ], 
         "id": "ITEM-3", 
@@ -141,8 +138,7 @@ the grouping of authors in the AAA style bibliography format.
         "author": [
             {
                 "family": "Roe", 
-                "given": "Jane Henrietta", 
-                "static-ordering": false
+                "given": "Jane Henrietta"
             }
         ], 
         "id": "ITEM-4", 
@@ -160,8 +156,7 @@ the grouping of authors in the AAA style bibliography format.
         "author": [
             {
                 "family": "Roe", 
-                "given": "Jane Henrietta", 
-                "static-ordering": false
+                "given": "Jane Henrietta"
             }
         ], 
         "id": "ITEM-5", 

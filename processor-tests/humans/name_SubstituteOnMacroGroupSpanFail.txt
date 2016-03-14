@@ -47,8 +47,7 @@ boo
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "edition": "5", 

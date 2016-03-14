@@ -45,13 +45,11 @@ Asthma and Asthma (1980); Bronchitis (1995); Asthma (1885)
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }, 
             {
                 "family": "Asthma", 
-                "given": "Bridget", 
-                "static-ordering": false
+                "given": "Bridget"
             }
         ], 
         "id": "ITEM-1", 
@@ -69,8 +67,7 @@ Asthma and Asthma (1980); Bronchitis (1995); Asthma (1885)
         "author": [
             {
                 "family": "Bronchitis", 
-                "given": "Beauregarde", 
-                "static-ordering": false
+                "given": "Beauregarde"
             }
         ], 
         "id": "ITEM-2", 
@@ -88,8 +85,7 @@ Asthma and Asthma (1980); Bronchitis (1995); Asthma (1885)
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }
         ], 
         "id": "ITEM-3", 

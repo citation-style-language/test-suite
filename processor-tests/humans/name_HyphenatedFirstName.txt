@@ -36,8 +36,7 @@ H.-X. L. Y. Liu
         "author": [
             {
                 "family": "Liu", 
-                "given": "Hui-Xiao Li Yuan", 
-                "static-ordering": false
+                "given": "Hui-Xiao Li Yuan"
             }
         ], 
         "id": "ITEM-1", 

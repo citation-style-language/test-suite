@@ -67,8 +67,7 @@ citation
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }
         ], 
         "id": "ITEM-1", 
@@ -86,8 +85,7 @@ citation
         "editor": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }
         ], 
         "id": "ITEM-2", 

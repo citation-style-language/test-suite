@@ -48,8 +48,7 @@ bibliography
         "author": [
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }
         ], 
         "id": "ITEM-1", 
@@ -59,8 +58,7 @@ bibliography
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-2", 
@@ -70,8 +68,7 @@ bibliography
         "author": [
             {
                 "family": "[F]linders", 
-                "given": "Jacob", 
-                "static-ordering": false
+                "given": "Jacob"
             }
         ], 
         "id": "ITEM-3", 

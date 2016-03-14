@@ -116,18 +116,15 @@ Asthma et al. (1990a); Asthma et al. (1990b); Dropsy, Edward Enteritis, et al. (
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Bosworth", 
-                "static-ordering": false
+                "given": "Bosworth"
             }, 
             {
                 "family": "Cold", 
-                "given": "Crispin", 
-                "static-ordering": false
+                "given": "Crispin"
             }
         ], 
         "id": "ITEM-1", 
@@ -145,18 +142,15 @@ Asthma et al. (1990a); Asthma et al. (1990b); Dropsy, Edward Enteritis, et al. (
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Bosworth", 
-                "static-ordering": false
+                "given": "Bosworth"
             }, 
             {
                 "family": "Cold", 
-                "given": "Crispin", 
-                "static-ordering": false
+                "given": "Crispin"
             }
         ], 
         "id": "ITEM-2", 
@@ -174,18 +168,15 @@ Asthma et al. (1990a); Asthma et al. (1990b); Dropsy, Edward Enteritis, et al. (
         "author": [
             {
                 "family": "Dropsy", 
-                "given": "Devon", 
-                "static-ordering": false
+                "given": "Devon"
             }, 
             {
                 "family": "Enteritis", 
-                "given": "Edward", 
-                "static-ordering": false
+                "given": "Edward"
             }, 
             {
                 "family": "Fever", 
-                "given": "Xavier", 
-                "static-ordering": false
+                "given": "Xavier"
             }
         ], 
         "id": "ITEM-3", 
@@ -203,18 +194,15 @@ Asthma et al. (1990a); Asthma et al. (1990b); Dropsy, Edward Enteritis, et al. (
         "author": [
             {
                 "family": "Dropsy", 
-                "given": "Devon", 
-                "static-ordering": false
+                "given": "Devon"
             }, 
             {
                 "family": "Enteritis", 
-                "given": "Ernie", 
-                "static-ordering": false
+                "given": "Ernie"
             }, 
             {
                 "family": "Fever", 
-                "given": "Yves", 
-                "static-ordering": false
+                "given": "Yves"
             }
         ], 
         "id": "ITEM-4", 

@@ -38,7 +38,6 @@ Jeffrey Doe, Jr.
                 "comma-suffix": true, 
                 "family": "Doe", 
                 "given": "Jeffrey", 
-                "static-ordering": false, 
                 "suffix": "Jr."
             }
         ], 

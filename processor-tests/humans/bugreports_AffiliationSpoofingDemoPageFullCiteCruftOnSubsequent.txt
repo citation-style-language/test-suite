@@ -732,8 +732,7 @@ Malone, U.S. Bureau of the Census, <i>Evaluating Components of International Mig
 		"author": [
 			{
 				"family": "Malone",
-				"given": "Nolan J.",
-				"static-ordering": false
+				"given": "Nolan J."
 			},
 			{
 				"literal": "U.S. Bureau of the Census"

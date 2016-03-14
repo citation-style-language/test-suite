@@ -38,8 +38,7 @@ John <i>Doe</i>
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "simple-western-name-1", 

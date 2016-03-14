@@ -39,7 +39,6 @@ la Martinière
                 "family": "Martinière", 
                 "given": "Gérard", 
                 "non-dropping-particle": "la", 
-                "static-ordering": false, 
                 "suffix": "III"
             }
         ], 

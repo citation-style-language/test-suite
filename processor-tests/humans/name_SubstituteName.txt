@@ -39,8 +39,7 @@ John Doe
         "editor": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "item-1", 

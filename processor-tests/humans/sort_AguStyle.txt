@@ -95,8 +95,7 @@ bibliography
         "author": [
             {
                 "family": "Smith", 
-                "given": "Al", 
-                "static-ordering": false
+                "given": "Al"
             }
         ], 
         "id": "item-1", 
@@ -114,8 +113,7 @@ bibliography
         "editor": [
             {
                 "family": "Smith", 
-                "given": "Al", 
-                "static-ordering": false
+                "given": "Al"
             }
         ], 
         "id": "item-3", 
@@ -133,13 +131,11 @@ bibliography
         "editor": [
             {
                 "family": "Smith", 
-                "given": "Al", 
-                "static-ordering": false
+                "given": "Al"
             }, 
             {
                 "family": "Allen", 
-                "given": "Carl", 
-                "static-ordering": false
+                "given": "Carl"
             }
         ], 
         "id": "item-4", 
@@ -157,13 +153,11 @@ bibliography
         "editor": [
             {
                 "family": "Smith", 
-                "given": "Al", 
-                "static-ordering": false
+                "given": "Al"
             }, 
             {
                 "family": "Frank", 
-                "given": "Beauregarde", 
-                "static-ordering": false
+                "given": "Beauregarde"
             }
         ], 
         "id": "item-6", 
@@ -181,8 +175,7 @@ bibliography
         "author": [
             {
                 "family": "Smith", 
-                "given": "Al", 
-                "static-ordering": false
+                "given": "Al"
             }
         ], 
         "id": "item-2", 
@@ -200,13 +193,11 @@ bibliography
         "editor": [
             {
                 "family": "Smith", 
-                "given": "Al", 
-                "static-ordering": false
+                "given": "Al"
             }, 
             {
                 "family": "Frank", 
-                "given": "Beauregarde", 
-                "static-ordering": false
+                "given": "Beauregarde"
             }
         ], 
         "id": "item-5", 
@@ -224,18 +215,15 @@ bibliography
         "editor": [
             {
                 "family": "Smith", 
-                "given": "Al", 
-                "static-ordering": false
+                "given": "Al"
             }, 
             {
                 "family": "Roberts", 
-                "given": "Lionel", 
-                "static-ordering": false
+                "given": "Lionel"
             }, 
             {
                 "family": "Jones", 
-                "given": "Theresa", 
-                "static-ordering": false
+                "given": "Theresa"
             }
         ], 
         "id": "item-7", 
@@ -253,18 +241,15 @@ bibliography
         "editor": [
             {
                 "family": "Smith", 
-                "given": "Al", 
-                "static-ordering": false
+                "given": "Al"
             }, 
             {
                 "family": "Jones", 
-                "given": "Theresa", 
-                "static-ordering": false
+                "given": "Theresa"
             }, 
             {
                 "family": "Roberts", 
-                "given": "Lionel", 
-                "static-ordering": false
+                "given": "Lionel"
             }
         ], 
         "id": "item-8", 

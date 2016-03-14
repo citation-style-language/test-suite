@@ -511,8 +511,7 @@ Chicago Author-Date.
         "translator": [
             {
                 "family": "Silverstein", 
-                "given": "Theodore", 
-                "static-ordering": false
+                "given": "Theodore"
             }
         ], 
         "type": "chapter"
@@ -521,8 +520,7 @@ Chicago Author-Date.
         "editor": [
             {
                 "family": "Soltes", 
-                "given": "Ori A.", 
-                "static-ordering": false
+                "given": "Ori A."
             }
         ], 
         "id": "ITEM-2", 

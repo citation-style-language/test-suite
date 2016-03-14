@@ -109,8 +109,7 @@ Roe, Her Book, supra note 2.
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-1", 
@@ -128,8 +127,7 @@ Roe, Her Book, supra note 2.
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-2", 
@@ -147,8 +145,7 @@ Roe, Her Book, supra note 2.
         "author": [
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }
         ], 
         "id": "ITEM-3", 
@@ -166,8 +163,7 @@ Roe, Her Book, supra note 2.
         "author": [
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }
         ], 
         "id": "ITEM-4", 

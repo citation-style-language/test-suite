@@ -79,8 +79,7 @@ Ibid.
         "author": [
             {
                 "family": "Appleton", 
-                "given": "Victor", 
-                "static-ordering": false
+                "given": "Victor"
             }
         ], 
         "id": "ITEM-1", 

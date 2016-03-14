@@ -73,8 +73,7 @@ tests based on user data now cover this behavior:
         "author": [
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }
         ], 
         "id": "ITEM-1", 
@@ -85,8 +84,7 @@ tests based on user data now cover this behavior:
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-2", 
@@ -97,8 +95,7 @@ tests based on user data now cover this behavior:
         "author": [
             {
                 "family": "Doe", 
-                "given": "James", 
-                "static-ordering": false
+                "given": "James"
             }
         ], 
         "id": "ITEM-3", 

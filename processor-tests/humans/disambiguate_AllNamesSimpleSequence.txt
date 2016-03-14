@@ -48,8 +48,7 @@ citation
         "author": [
             {
                 "family": "Malone", 
-                "given": "Nolan J.", 
-                "static-ordering": false
+                "given": "Nolan J."
             }
         ], 
         "id": "ITEM-1", 
@@ -66,8 +65,7 @@ citation
         "author": [
             {
                 "family": "Malone", 
-                "given": "Kemp", 
-                "static-ordering": false
+                "given": "Kemp"
             }
         ], 
         "id": "ITEM-2", 

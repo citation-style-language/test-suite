@@ -66,8 +66,7 @@ initial.
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-1", 
@@ -85,8 +84,7 @@ initial.
         "author": [
             {
                 "family": "Doe", 
-                "given": "Jake", 
-                "static-ordering": false
+                "given": "Jake"
             }
         ], 
         "id": "ITEM-2", 
@@ -104,8 +102,7 @@ initial.
         "author": [
             {
                 "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-3", 
@@ -123,8 +120,7 @@ initial.
         "author": [
             {
                 "family": "Brown", 
-                "given": "Robert", 
-                "static-ordering": false
+                "given": "Robert"
             }
         ], 
         "id": "ITEM-4", 
@@ -142,8 +138,7 @@ initial.
         "author": [
             {
                 "family": "Ichi", 
-                "given": "Taro", 
-                "static-ordering": false
+                "given": "Taro"
             }
         ], 
         "id": "ITEM-5", 

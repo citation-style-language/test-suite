@@ -37,7 +37,6 @@ Doe, James, III
             {
                 "family": "Doe", 
                 "given": "James", 
-                "static-ordering": false, 
                 "suffix": "III"
             }
         ], 

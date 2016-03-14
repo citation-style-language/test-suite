@@ -37,8 +37,7 @@ Roe, Jane van
             {
                 "family": "Roe", 
                 "given": "Jane", 
-                "non-dropping-particle": "van", 
-                "static-ordering": false
+                "non-dropping-particle": "van"
             }
         ], 
         "id": "ITEM-1", 

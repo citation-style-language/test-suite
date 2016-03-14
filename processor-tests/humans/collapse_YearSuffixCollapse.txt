@@ -93,8 +93,7 @@ Smith 2000a,c–e, 2001
         "author": [
             {
                 "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-1", 
@@ -112,8 +111,7 @@ Smith 2000a,c–e, 2001
         "author": [
             {
                 "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-2", 
@@ -131,8 +129,7 @@ Smith 2000a,c–e, 2001
         "author": [
             {
                 "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-3", 
@@ -150,8 +147,7 @@ Smith 2000a,c–e, 2001
         "author": [
             {
                 "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-4", 
@@ -169,8 +165,7 @@ Smith 2000a,c–e, 2001
         "author": [
             {
                 "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-5", 
@@ -188,8 +183,7 @@ Smith 2000a,c–e, 2001
         "author": [
             {
                 "family": "Smith", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-6", 

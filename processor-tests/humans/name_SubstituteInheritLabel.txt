@@ -45,8 +45,7 @@ citation
         "editor": [
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }
         ], 
         "id": "item-1", 
@@ -64,8 +63,7 @@ citation
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "simple-western-name-1", 

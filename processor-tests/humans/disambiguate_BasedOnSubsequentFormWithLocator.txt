@@ -133,8 +133,7 @@ Noakes, supra note 2, at 89.
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-1", 
@@ -152,8 +151,7 @@ Noakes, supra note 2, at 89.
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-2", 
@@ -171,8 +169,7 @@ Noakes, supra note 2, at 89.
         "author": [
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }
         ], 
         "id": "ITEM-3", 
@@ -190,8 +187,7 @@ Noakes, supra note 2, at 89.
         "author": [
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }
         ], 
         "id": "ITEM-4", 
@@ -209,8 +205,7 @@ Noakes, supra note 2, at 89.
         "author": [
             {
                 "family": "Noakes", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-5", 

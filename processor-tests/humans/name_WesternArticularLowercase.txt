@@ -37,8 +37,7 @@ Jacques van Doe
             {
                 "family": "Doe", 
                 "given": "Jacques", 
-                "non-dropping-particle": "van", 
-                "static-ordering": false
+                "non-dropping-particle": "van"
             }
         ], 
         "id": "item-1", 

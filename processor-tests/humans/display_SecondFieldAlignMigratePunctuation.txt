@@ -155,8 +155,7 @@ bibliography
         "author": [
             {
                 "family": "D'Arcus", 
-                "given": "Bruce", 
-                "static-ordering": false
+                "given": "Bruce"
             }
         ], 
         "id": "ITEM-1", 

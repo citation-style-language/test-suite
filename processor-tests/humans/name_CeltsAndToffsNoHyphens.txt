@@ -46,8 +46,7 @@ Chen, H.L.
         "translator": [
             {
                 "family": "Chen", 
-                "given": "Hsien-Li", 
-                "static-ordering": false
+                "given": "Hsien-Li"
             }
         ], 
         "type": "book"

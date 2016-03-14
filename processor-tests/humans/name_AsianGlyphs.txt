@@ -36,8 +36,7 @@ citation
         "author": [
             {
                 "family": "我妻", 
-                "given": "栄", 
-                "static-ordering": false
+                "given": "栄"
             }
         ], 
         "id": "item-1", 

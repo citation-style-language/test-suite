@@ -64,8 +64,7 @@ bibliography
         "author": [
             {
                 "family": "Doe", 
-                "given": "John Aloysius", 
-                "static-ordering": false
+                "given": "John Aloysius"
             }
         ], 
         "id": "ITEM-1", 
@@ -83,8 +82,7 @@ bibliography
         "author": [
             {
                 "family": "Roe", 
-                "given": "Jane Henrietta", 
-                "static-ordering": false
+                "given": "Jane Henrietta"
             }
         ], 
         "id": "ITEM-2", 

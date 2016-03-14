@@ -50,13 +50,11 @@ O’Malley, C. D., &#38; Saunders, J. B. de C. M.
         "translator": [
             {
                 "family": "O’Malley", 
-                "given": "Charles D.", 
-                "static-ordering": false
+                "given": "Charles D."
             }, 
             {
                 "family": "Saunders", 
-                "given": "John Bertrand de Cusance Morant", 
-                "static-ordering": false
+                "given": "John Bertrand de Cusance Morant"
             }
         ], 
         "type": "book"

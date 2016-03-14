@@ -40,23 +40,19 @@ Count=(3) | Count=(3) | Count=(2) | Count=(1) | Count=()
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }, 
             {
                 "family": "Brown", 
-                "given": "Robert", 
-                "static-ordering": false
+                "given": "Robert"
             }, 
             {
                 "family": "Smith", 
-                "given": "Tom", 
-                "static-ordering": false
+                "given": "Tom"
             }
         ], 
         "id": "item-1", 
@@ -66,18 +62,15 @@ Count=(3) | Count=(3) | Count=(2) | Count=(1) | Count=()
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Doe", 
-                "given": "Jake", 
-                "static-ordering": false
+                "given": "Jake"
             }, 
             {
                 "family": "Brown", 
-                "given": "Robert", 
-                "static-ordering": false
+                "given": "Robert"
             }
         ], 
         "id": "item-2", 
@@ -87,13 +80,11 @@ Count=(3) | Count=(3) | Count=(2) | Count=(1) | Count=()
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }, 
             {
                 "family": "Doe", 
-                "given": "Jake", 
-                "static-ordering": false
+                "given": "Jake"
             }
         ], 
         "id": "item-3", 
@@ -103,8 +94,7 @@ Count=(3) | Count=(3) | Count=(2) | Count=(1) | Count=()
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "item-4", 
@@ -114,8 +104,7 @@ Count=(3) | Count=(3) | Count=(2) | Count=(1) | Count=()
         "editor": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "item-5", 

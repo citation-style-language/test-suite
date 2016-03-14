@@ -61,8 +61,7 @@ John Doe; Aloysius Doe
         "author": [
             {
                 "family": "Roe", 
-                "given": "Jane", 
-                "static-ordering": false
+                "given": "Jane"
             }
         ], 
         "id": "ITEM-1", 
@@ -72,8 +71,7 @@ John Doe; Aloysius Doe
         "author": [
             {
                 "family": "Doe", 
-                "given": "John", 
-                "static-ordering": false
+                "given": "John"
             }
         ], 
         "id": "ITEM-2", 
@@ -83,8 +81,7 @@ John Doe; Aloysius Doe
         "author": [
             {
                 "family": "Doe", 
-                "given": "Aloysius", 
-                "static-ordering": false
+                "given": "Aloysius"
             }
         ], 
         "id": "ITEM-3", 

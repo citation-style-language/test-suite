@@ -49,18 +49,15 @@ A. Asthma, Brandon Bronchitis, et al.; A. Asthma, Biff Bronchitis, et al.
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Brandon", 
-                "static-ordering": false
+                "given": "Brandon"
             }, 
             {
                 "family": "Cold", 
-                "given": "Charles", 
-                "static-ordering": false
+                "given": "Charles"
             }
         ], 
         "id": "ambigs-16", 
@@ -78,18 +75,15 @@ A. Asthma, Brandon Bronchitis, et al.; A. Asthma, Biff Bronchitis, et al.
         "author": [
             {
                 "family": "Asthma", 
-                "given": "Albert", 
-                "static-ordering": false
+                "given": "Albert"
             }, 
             {
                 "family": "Bronchitis", 
-                "given": "Biff", 
-                "static-ordering": false
+                "given": "Biff"
             }, 
             {
                 "family": "Cold", 
-                "given": "Curtis", 
-                "static-ordering": false
+                "given": "Curtis"
             }
         ], 
         "id": "ambigs-17", 
