@@ -1,0 +1,84 @@
+>>===== MODE =====>>
+citation
+<<===== MODE =====<<
+
+Fault reported by abdealikhurrum
+
+https://github.com/citation-style-language/locales/issues/135
+
+>>===== RESULT =====>>
+>>[0] Jonathan Chang وآخ.
+<<===== RESULT =====<<
+
+
+>>===== CITATIONS =====>>
+[
+    [
+        {
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ]
+]
+<<===== CITATIONS =====<<
+
+
+>>===== CSL =====>>
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" default-locale="ar">
+  <info>
+    <id />
+    <title />
+    <updated>2009-08-10T04:49:00+09:00</updated>
+  </info>
+  <citation>
+    <layout suffix="." delimiter="; ">
+      <names variable="author">
+        <name et-al-use-first="1" et-al-min="3"/>
+      </names>
+    </layout>
+  </citation>
+</style>
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+	{
+		"type": "book",
+		"id": "ITEM-1",
+		"author": [
+			{
+				"family": "Chang",
+				"given": "Jonathan",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Gerrish",
+				"given": "Sean",
+				"multi": {
+					"_key": {}
+				}
+			},
+			{
+				"family": "Wang",
+				"given": "Chong",
+				"multi": {
+					"_key": {}
+				}
+			}
+		]
+	}
+]
+<<===== INPUT =====<<
