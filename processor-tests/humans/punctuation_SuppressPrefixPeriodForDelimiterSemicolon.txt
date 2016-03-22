@@ -357,7 +357,7 @@ citation
   <macro name="container-title-note">
     <choose>
       <if type="chapter">
-        <text suffix=" " term="in" text-case="lowercase" />
+        <text suffix=" " term="in" text-case="lowercase"/>
       </if>
     </choose>
     <text font-style="italic" variable="container-title" />
