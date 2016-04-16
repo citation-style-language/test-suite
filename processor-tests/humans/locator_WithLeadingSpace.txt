@@ -51,7 +51,7 @@ citation
              <label variable="locator"/>
           </else>
         </choose>
-        <number variable="locator"/>
+        <text variable="locator"/>
       </group>
     </layout>
   </citation>
