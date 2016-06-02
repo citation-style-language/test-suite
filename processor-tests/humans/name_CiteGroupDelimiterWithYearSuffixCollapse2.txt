@@ -5,7 +5,7 @@ citation
 
 
 >>===== RESULT =====>>
->>[0] (Aalto 2015a,b; Bartleby 2010)
+>>[0] (Aalto 2015a,b; Bartleby 2010; Aalto 2015c–e)
 <<===== RESULT =====<<
 
 
@@ -23,6 +23,15 @@ citation
                 }, 
                 {
                     "id": "ITEM-3"
+                }, 
+                {
+                    "id": "ITEM-4"
+                }, 
+                {
+                    "id": "ITEM-5"
+                }, 
+                {
+                    "id": "ITEM-6"
                 }
             ], 
             "properties": {
@@ -644,7 +653,7 @@ citation
       </else>
     </choose>
   </macro>
-  <citation et-al-min="3" et-al-use-first="1" sort-separator="," disambiguate-add-year-suffix="true" collapse="year-suffix" cite-group-delimiter=",">
+  <citation et-al-min="3" et-al-use-first="1" sort-separator="," disambiguate-add-year-suffix="true" collapse="year-suffix-ranged" cite-group-delimiter=",">
     <layout prefix="(" suffix=")" delimiter="; ">
       <group delimiter=", ">
         <choose>
@@ -729,6 +738,39 @@ citation
         ], 
         "issued": {"date-parts":[[2010]]},
         "id": "ITEM-3", 
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+                "family": "Aalto", 
+                "given": "Alan"
+            }
+        ], 
+        "issued": {"date-parts":[[2015]]},
+        "id": "ITEM-4", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Aalto", 
+                "given": "Alan"
+            }
+        ], 
+        "issued": {"date-parts":[[2015]]},
+        "id": "ITEM-5", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Aalto", 
+                "given": "Alan"
+            }
+        ], 
+        "issued": {"date-parts":[[2015]]},
+        "id": "ITEM-6", 
         "type": "book"
     }
 ]
