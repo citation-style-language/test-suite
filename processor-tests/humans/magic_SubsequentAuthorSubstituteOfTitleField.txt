@@ -6,7 +6,7 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">Book X (2000)</div>
+  <div class="csl-entry">Warren Smith (2000)</div>
   <div class="csl-entry">----- (2001)</div>
   <div class="csl-entry">Book Y (2002)</div>
 </div>
@@ -53,6 +53,12 @@ bibliography
 >>===== INPUT =====>>
 [
     {
+        "author": [
+            {
+                "family": "Smith", 
+                "given": "Warren"
+            }
+        ], 
         "id": "item-1", 
         "issued": {
             "date-parts": [
@@ -65,6 +71,12 @@ bibliography
         "type": "book"
     }, 
     {
+        "author": [
+            {
+                "family": "Smith", 
+                "given": "Warren"
+            }
+        ], 
         "id": "item-2", 
         "issued": {
             "date-parts": [
