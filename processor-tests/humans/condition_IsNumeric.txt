@@ -20,6 +20,7 @@ rescued before the test by the abbreviations engine.
 Numeric false: Volume 2
 Numeric true: 2ND
 Numeric false: Second vol.
+Numeric true: 1998–VIII
 <<===== RESULT =====<<
 
 >>===== CITATION-ITEMS =====>>
@@ -37,6 +38,11 @@ Numeric false: Second vol.
     [
         {
             "id": "ITEM-3"
+        }
+    ],
+    [
+        {
+            "id": "ITEM-4"
         }
     ]
 ]
@@ -89,6 +95,12 @@ Numeric false: Second vol.
         "id": "ITEM-3", 
         "title": "Work 3", 
         "volume": "Second vol.",
+        "type": "book"
+    },
+    {
+        "id": "ITEM-4",
+        "title": "Work 4",
+        "volume": "1998-VIII",
         "type": "book"
     }
 ]
