@@ -1,0 +1,102 @@
+>>===== MODE =====>>
+citation
+<<===== MODE =====<<
+
+
+Test for this:
+
+  https://forums.zotero.org/discussion/62352/style-error-american-fisheries-society
+
+
+>>===== RESULT =====>>
+>>[0] . Pages 187–228 <i>in</i> C. S. Stephen and M. L. Brown, editors. Analysis and interpretation of freshwater fisheries data
+<<===== RESULT =====<<
+
+
+>>===== CITATIONS =====>>
+[
+    [
+        {
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ]
+]
+<<===== CITATIONS =====<<
+
+
+>>===== CSL =====>>
+<style 
+      xmlns="http://purl.org/net/xbiblio/csl"
+      class="note"
+      version="1.0">
+  <info>
+    <id />
+    <title />
+    <updated>2009-08-10T04:49:00+09:00</updated>
+  </info>
+  <macro name="container-contributors">
+    <choose>
+      <if type="chapter paper-conference" match="any">
+        <text term="in" suffix=" " font-style="italic"/>
+        <names variable="editor translator" delimiter=", ">
+          <name and="text" initialize-with=". " delimiter=", "/>
+          <label form="long" prefix=", " suffix="."/>
+        </names>
+      </if>
+    </choose>
+  </macro>
+  <macro name="secondary-contributors">
+    <choose>
+      <if type="chapter paper-conference" match="none">
+        <names variable="editor translator" delimiter=", ">
+          <name and="text" initialize-with=". " delimiter=", "/>
+          <label prefix=", "/>
+        </names>
+      </if>
+    </choose>
+  </macro>
+  <citation>
+    <layout>
+      <group prefix=". " delimiter=" ">
+        <label variable="page" form="long" text-case="capitalize-first"/>
+        <text variable="page"/>
+        <text macro="container-contributors"/>
+        <text variable="container-title"/>
+        <text macro="secondary-contributors"/>
+      </group>
+    </layout>
+  </citation>
+</style>
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+    {
+        "id": "ITEM-1", 
+        "type": "chapter",
+        "page": "187-228",
+        "container-title": "Analysis and interpretation of freshwater fisheries data",
+        "editor": [
+          {
+            "given": "Clarence Stephen",
+            "family": "Stephen"
+          },
+          {
+            "given": "Michael Lawrence",
+            "family": "Brown"
+          }
+        ]
+    }
+]
+<<===== INPUT =====<<
