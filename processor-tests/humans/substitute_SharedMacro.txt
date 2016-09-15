@@ -486,10 +486,10 @@ a) mit Name "collection-editor" (in jedem Fall)
   <!-- TITEL -->
   <macro name="title">
     <group delimiter=", ">
-      <choose>
+      <!-- choose -->
         <!-- Alle Titel werden ohne weitere Auszeichnung (auch keine Anführungszeichen) ausgegeben. -->
         <text variable="title" suffix="." form="long"/>
-      </choose>
+      <!-- /choose -->
       <!-- 2. Titel-Beitragende -->
       <text macro="secondary-contributors"/>
     </group>
