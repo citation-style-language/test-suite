@@ -1,0 +1,182 @@
+>>===== MODE =====>>
+citation
+<<===== MODE =====<<
+
+
+https://forums.zotero.org/discussion/62437/citation-style-bug-with-report-number
+
+
+
+Since upgrading my Zotero Standalone to 4.0.29.10 I'm having problems with a macro I use on the report number field.
+
+I have a text macro 'issue' which is supposed to add in "no. " (no. with a non-breaking space) when only a numeric value is entered into the report number field.
+
+It used to work fine, but since updating it's behaving strangely.
+
+If I enter 1234 in the report number field I now get '1234' back instead of 'no. 1234'.
+
+If I enter 'no. 1234' I get back 'no. 1234' without the non-breaking space.
+
+If I enter 'Cat. no. 1234' I get back 'Cat. no.  1234'. (So a breaking and non-breaking space. This is a format I need regularly.)
+
+If enter 'Cat. no. 1234.0' I get back 'Cat. 1234.0' (The 'no.' just disappears.)
+
+Any thoughts?
+
+
+
+>>===== RESULT =====>>
+..[0] nox.1234; nox.1234; Cat. nox. 1234; Cat. no. 1234.0
+>>[1] nox.1234; nox.1234; Cat. no. 1234; Cat. no. 1234.0
+<<===== RESULT =====<<
+
+
+>>===== CITATIONS =====>>
+[
+    [
+        {
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }, 
+                {
+                    "id": "ITEM-2"
+                }, 
+                {
+                    "id": "ITEM-3"
+                }, 
+                {
+                    "id": "ITEM-4"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ], 
+    [
+        {
+            "citationID": "CITATION-2", 
+            "citationItems": [
+                {
+                    "id": "ITEM-5"
+                }, 
+                {
+                    "id": "ITEM-6"
+                }, 
+                {
+                    "id": "ITEM-7"
+                }, 
+                {
+                    "id": "ITEM-8"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 2
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ]
+        ], 
+        []
+    ]
+]
+<<===== CITATIONS =====<<
+
+
+>>===== CSL =====>>
+<style 
+      xmlns="http://purl.org/net/xbiblio/csl"
+      class="note"
+      version="1.0">
+  <info>
+    <id />
+    <title />
+    <updated>2009-08-10T04:49:00+09:00</updated>
+  </info>
+  <locale>
+    <terms>
+      <term name="issue">number</term>
+      <term name="issue" form="short">nox.</term>
+    </terms>
+  </locale>
+  <citation>
+    <layout delimiter="; ">
+      <choose>
+        <if variable="issue">
+          <group delimiter="">
+            <choose>
+	          <if is-numeric="issue">
+		        <label variable="issue" form="short"/>
+              </if>
+            </choose>
+            <number variable="issue"/>
+          </group>
+        </if>
+        <else-if variable="number">
+          <group delimiter="">
+            <choose>
+	          <if is-numeric="number">
+		        <label variable="issue" form="short"/>
+              </if>
+            </choose>
+            <number variable="number"/>
+          </group>
+        </else-if>
+      </choose>
+    </layout>
+  </citation>
+</style>
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+    {
+        "id": "ITEM-1", 
+        "type": "book",
+        "number": "1234"
+    }, 
+    {
+        "id": "ITEM-2", 
+        "type": "book",
+        "number": "no. 1234"
+    }, 
+    {
+        "id": "ITEM-3", 
+        "type": "book",
+        "number": "Cat. no. 1234"
+    }, 
+    {
+        "id": "ITEM-4", 
+        "type": "book",
+        "number": "Cat. no. 1234.0"
+    },
+    {
+        "id": "ITEM-5", 
+        "type": "book",
+        "issue": "1234"
+    }, 
+    {
+        "id": "ITEM-6", 
+        "type": "book",
+        "issue": "no. 1234"
+    }, 
+    {
+        "id": "ITEM-7", 
+        "type": "book",
+        "issue": "Cat. no. 1234"
+    }, 
+    {
+        "id": "ITEM-8", 
+        "type": "book",
+        "issue": "Cat. no. 1234.0"
+    }
+]
+<<===== INPUT =====<<
