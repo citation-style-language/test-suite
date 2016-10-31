@@ -6,8 +6,8 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">Asthma, A., Bronchitis, B., and Cold, C. (1980)</div>
-  <div class="csl-entry">Asthma, A., Bronchitis, B., and Cold, O. (1995)</div>
+  <div class="csl-entry">Asthma, Bronchitis, and Cold, C. (1980)</div>
+  <div class="csl-entry">Asthma, Bronchitis, and Cold, O. (1995)</div>
 </div>
 <<===== RESULT =====<<
 
