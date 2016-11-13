@@ -6,7 +6,9 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">Aalto, Alan: Book One.</div>
+  <div class="csl-entry">Alan Alto Inc.: Book Three.</div>
+  <div class="csl-entry">---: Book Four.</div>
+  <div class="csl-entry">Alto, Alan: Book One.</div>
   <div class="csl-entry">---: Book Two.</div>
 </div>
 <<===== RESULT =====<<
@@ -20,9 +22,15 @@ bibliography
             "citationItems": [
                 {
                     "id": "ITEM-1"
-                }, 
+                },
                 {
                     "id": "ITEM-2"
+                },
+                {
+                    "id": "ITEM-3"
+                },
+                {
+                    "id": "ITEM-4"
                 }
             ], 
             "properties": {
@@ -654,7 +662,7 @@ a) mit Name "collection-editor" (in jedem Fall)
    LITERATURVERZEICHNIS
 ================================================================================
 -->
-  <bibliography et-al-min="4" et-al-use-first="1" hanging-indent="true" entry-spacing="0" subsequent-author-substitute="---">
+  <bibliography et-al-min="4" et-al-use-first="1" hanging-indent="true" entry-spacing="0" subsequent-author-substitute="---" subsequent-author-substitute-rule="complete-each">
     <sort>
       <key macro="contributors-long" names-min="3" names-use-first="3"/>
       <key macro="date"/>
@@ -678,24 +686,44 @@ a) mit Name "collection-editor" (in jedem Fall)
     {
         "author": [
             {
-                "family": "Aalto", 
-                "given": "Alan"
+                "given": "Alan",
+                "family": "Alto"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "book",
         "title": "Book One"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Aalto", 
-                "given": "Alan"
+                "given": "Alan",
+                "family": "Alto"
             }
-        ], 
-        "id": "ITEM-2", 
+        ],
+        "id": "ITEM-2",
         "type": "book",
         "title": "Book Two"
+    },
+    {
+        "author": [
+            {
+                "literal": "Alan Alto Inc."
+            }
+        ],
+        "id": "ITEM-3",
+        "type": "book",
+        "title": "Book Three"
+    },
+    {
+        "author": [
+            {
+                "literal": "Alan Alto Inc."
+            }
+        ],
+        "id": "ITEM-4",
+        "type": "book",
+        "title": "Book Four"
     }
 ]
 <<===== INPUT =====<<
