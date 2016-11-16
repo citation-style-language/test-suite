@@ -5,8 +5,34 @@ citation
 
 
 >>===== RESULT =====>>
-Aaa - ABC - Xyz
+>>[0] Aaa - ABC - Xyz
 <<===== RESULT =====<<
+
+>>===== CITATIONS =====>>
+[
+    [
+        {
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }, 
+                {
+                    "id": "ITEM-2"
+                }, 
+                {
+                    "id": "ITEM-3"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ]
+]
+<<===== CITATIONS =====<<
 
 
 >>===== CSL =====>>
