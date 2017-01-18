@@ -1,0 +1,75 @@
+>>===== MODE =====>>
+citation
+<<===== MODE =====<<
+
+
+
+>>===== RESULT =====>>
+>>[0] Aalto
+<<===== RESULT =====<<
+
+
+>>===== CITATIONS =====>>
+[
+    [
+        {
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ]
+]
+<<===== CITATIONS =====<<
+
+
+>>===== CSL =====>>
+<style 
+      xmlns="http://purl.org/net/xbiblio/csl"
+      class="note"
+      version="1.0">
+  <info>
+    <id />
+    <title />
+    <updated>2009-08-10T04:49:00+09:00</updated>
+  </info>
+  <macro name="author">
+    <names variable="author">
+      <name form="short" />
+    </names>
+  </macro>
+  <citation>
+    <layout delimiter="; ">
+      <text macro="author" />
+      <group delimiter=" " prefix=", ">
+        <text term="collection-number"/>
+        <number varible="collection-number"/>
+      </group>
+    </layout>
+  </citation>
+</style>
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+    {
+        "author": [
+            {
+                "family": "Aalto", 
+                "given": "Alan"
+            }
+        ], 
+        "collection-number": 23,
+        "id": "ITEM-1", 
+        "type": "book"
+    }
+]
+<<===== INPUT =====<<
