@@ -30,7 +30,6 @@ citation
           <else>
             <text value="(non-numeric)"/>
           </else>
-          </if>
         </choose>
       </group>
     </layout>
