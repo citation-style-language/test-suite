@@ -6,9 +6,11 @@ citation
 We're ignoring the "nocase" markup here, but no one is
 likely to miss it.
 
+2017-01-27: "nocase" markup now recognized.
+
 
 >>===== RESULT =====>>
-SMITH, John: THIS IS A PEN THAT IS A SMITH PENCIL
+SMITH, John: THIS IS A PEN THAT IS A Smith PENCIL
 <<===== RESULT =====<<
 
 

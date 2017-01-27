@@ -2,10 +2,10 @@
 citation
 <<===== MODE =====<<
 
-
+2017-01-27: "nocase" markup now recognized.
 
 >>===== RESULT =====>>
-this is a pen that is a smith pencil
+this is a pen that is a Smith pencil
 <<===== RESULT =====<<
 
 

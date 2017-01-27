@@ -5,7 +5,7 @@ citation
 
 
 >>===== RESULT =====>>
->>[0] Aalto
+>>[0] From “Distance” to “Friction”: Substituting Metaphors and Redirecting Intercultural Research For
 <<===== RESULT =====<<
 
 
@@ -40,18 +40,9 @@ citation
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
-  <macro name="author">
-    <names variable="author">
-      <name form="short" />
-    </names>
-  </macro>
   <citation>
     <layout delimiter="; ">
-      <text macro="author" />
-      <group delimiter=" " prefix=", ">
-        <text term="number"/>
-        <number varible="collection-number"/>
-      </group>
+      <text text-case="title" variable="title"/>
     </layout>
   </citation>
 </style>
@@ -61,14 +52,8 @@ citation
 >>===== INPUT =====>>
 [
     {
-        "author": [
-            {
-                "family": "Aalto", 
-                "given": "Alan"
-            }
-        ], 
-        "collection-number": 23,
         "id": "ITEM-1", 
+		"title": "from \"distance\" to \"friction\": substituting metaphors and redirecting intercultural research for",
         "type": "book"
     }
 ]
