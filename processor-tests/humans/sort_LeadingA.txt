@@ -1099,7 +1099,7 @@ bibliography
             <choose>
               <if variable="title" match="none"/>
               <else>
-                <text variable="genre" text-case="capitalize-first"/>
+                <text prefix="YY" variable="genre" text-case="capitalize-first"/>
               </else>
             </choose>
             <text macro="event"/>
@@ -1116,7 +1116,7 @@ bibliography
         <group delimiter=", ">
           <choose>
             <if type="thesis">
-              <text variable="genre" text-case="capitalize-first"/>
+              <text variable="genre" prefix="XX" text-case="capitalize-first"/>
             </if>
           </choose>
           <group delimiter=". ">
