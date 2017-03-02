@@ -6,14 +6,14 @@ bibliography
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">[1] Book 008</div>
-  <div class="csl-entry">[2] Book 007</div>
-  <div class="csl-entry">[3] Book 005</div>
-  <div class="csl-entry">[4] Book 002</div>
-  <div class="csl-entry">[5] Book 006</div>
-  <div class="csl-entry">[6] Book 004</div>
-  <div class="csl-entry">[7] Book 003</div>
-  <div class="csl-entry">[8] Book 001</div>
+  <div class="csl-entry">[1] Book 001</div>
+  <div class="csl-entry">[2] Book 002</div>
+  <div class="csl-entry">[3] Book 003</div>
+  <div class="csl-entry">[4] Book 004</div>
+  <div class="csl-entry">[5] Book 005</div>
+  <div class="csl-entry">[6] Book 006</div>
+  <div class="csl-entry">[7] Book 007</div>
+  <div class="csl-entry">[8] Book 008</div>
 </div>
 <<===== RESULT =====<<
 
@@ -76,6 +76,7 @@ bibliography
   </citation>
   <bibliography>
     <sort>
+      <key variable="title"/>
       <key variable="citation-number" sort="descending"/>
     </sort>
     <layout>
