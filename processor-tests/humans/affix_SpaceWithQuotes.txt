@@ -5,7 +5,7 @@ citation
 
 
 >>===== RESULT =====>>
->>[0] The Title (And “so it goes”)
+>>[0] The Title And “so it goes”
 <<===== RESULT =====<<
 
 
