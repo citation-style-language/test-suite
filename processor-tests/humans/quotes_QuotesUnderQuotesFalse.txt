@@ -5,7 +5,9 @@ bibliography
 
 
 >>===== RESULT =====>>
->>[0] Aalto; Álvarez
+<div class="csl-bib-body">
+  <div class="csl-entry"> 'Title with ‘quotes’ in it',.</div>
+</div>
 <<===== RESULT =====<<
 
 
