@@ -9,7 +9,7 @@ mistakenly assuming that the citation had collapsed, and
 delivered ", " as delimiter.
 
 >>===== RESULT =====>>
->>[0] (Ajax Álvarez: 2000; Pineapple Case: 2000)
+>>[0] (Álvarez: 2000; Pineapple Case: 2000)
 <<===== RESULT =====<<
 
 
@@ -68,7 +68,7 @@ delivered ", " as delimiter.
       <choose>
         <if match="none" type="article-journal"> 
           <names variable="author" suffix=": ">
-            <name form="short/>
+            <name form="short"/>
           </names>
           <date variable="issued" form="text" date-parts="year"/>
         </if>
