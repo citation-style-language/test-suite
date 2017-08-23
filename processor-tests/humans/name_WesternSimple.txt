@@ -5,7 +5,7 @@ citation
 
 
 >>===== RESULT =====>>
-John Doe
+AAhad M. Doe
 <<===== RESULT =====<<
 
 
@@ -36,7 +36,7 @@ John Doe
         "author": [
             {
                 "family": "Doe", 
-                "given": "John"
+                "given": "AAhad M."
             }
         ], 
         "id": "ITEM-1", 
