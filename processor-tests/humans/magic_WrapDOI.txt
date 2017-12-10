@@ -1,0 +1,117 @@
+>>===== MODE =====>>
+bibliography
+<<===== MODE =====<<
+
+
+
+>>===== RESULT =====>>
+<div class="csl-bib-body">
+  <div class="csl-entry">Bare DOI, <a href="https://doi.org/10.4103/0976-500X.85940">https://doi.org/10.4103/0976-500X.85940</a></div>
+  <div class="csl-entry">DOI with HTTP prefix, <a href="https://doi.org/10.4103/0976-500X.85940">https://doi.org/10.4103/0976-500X.85940</a></div>
+  <div class="csl-entry">DOI with HTTPS prefix, <a href="https://doi.org/10.4103/0976-500X.85940">https://doi.org/10.4103/0976-500X.85940</a></div>
+  <div class="csl-entry">DOI with weird HTTP prefix, <a href="http://weird.doi.org/10.4103/0976-500X.85940">http://weird.doi.org/10.4103/0976-500X.85940</a></div>
+  <div class="csl-entry">DOI with weird HTTPS prefix, <a href="https://weird.doi.org/10.4103/0976-500X.85940">https://weird.doi.org/10.4103/0976-500X.85940</a></div>
+</div>
+<<===== RESULT =====<<
+
+
+>>===== OPTIONS =====>>
+{
+    "wrap_url_and_doi": true
+}
+<<===== OPTIONS =====<<
+
+>>===== CITATIONS =====>>
+[
+    [
+        {
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }, 
+                {
+                    "id": "ITEM-2"
+                }, 
+                {
+                    "id": "ITEM-3"
+                }, 
+                {
+                    "id": "ITEM-4"
+                }, 
+                {
+                    "id": "ITEM-5"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ]
+]
+<<===== CITATIONS =====<<
+
+
+>>===== CSL =====>>
+<style 
+      xmlns="http://purl.org/net/xbiblio/csl"
+      class="note"
+      version="1.0">
+  <info>
+    <id />
+    <title />
+    <updated>2009-08-10T04:49:00+09:00</updated>
+  </info>
+  <citation>
+    <layout>
+      <text value="DUMMY"/>
+    </layout>
+  </citation>
+  <bibliography>
+    <layout>
+      <group delimiter=", ">
+        <text variable="title" />
+        <text variable="DOI" prefix="https://doi.org/"/>
+      </group>
+    </layout>
+  </bibliography>
+</style>
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+   {
+        "title": "Bare DOI",
+        "DOI": "10.4103/0976-500X.85940",
+        "id": "ITEM-1", 
+        "type": "book"
+   },
+   {
+        "title": "DOI with HTTP prefix",
+        "DOI": "http://doi.org/10.4103/0976-500X.85940",
+        "id": "ITEM-2", 
+        "type": "book"
+   },
+   {
+        "title": "DOI with HTTPS prefix",
+        "DOI": "https://doi.org/10.4103/0976-500X.85940",
+        "id": "ITEM-3", 
+        "type": "book"
+   },
+   {
+        "title": "DOI with weird HTTP prefix",
+        "DOI": "http://weird.doi.org/10.4103/0976-500X.85940",
+        "id": "ITEM-4", 
+        "type": "book"
+    },
+   {
+        "title": "DOI with weird HTTPS prefix",
+        "DOI": "https://weird.doi.org/10.4103/0976-500X.85940",
+        "id": "ITEM-5", 
+        "type": "book"
+    }
+]
+<<===== INPUT =====<<
