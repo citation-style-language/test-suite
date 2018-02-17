@@ -1,0 +1,122 @@
+>>===== MODE =====>>
+bibliography
+<<===== MODE =====<<
+
+
+
+>>===== RESULT =====>>
+<div class="csl-bib-body">
+  <div class="csl-entry">Smith, Book One</div>
+  <div class="csl-entry">Smith, Book Two</div>
+  <div class="csl-entry">Brown</div>
+</div>
+<<===== RESULT =====<<
+
+
+>>===== CITATIONS =====>>
+[
+    [
+        {
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }, 
+                {
+                    "id": "ITEM-2"
+                }, 
+                {
+                    "id": "ITEM-3"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ]
+]
+<<===== CITATIONS =====<<
+
+
+>>===== CSL =====>>
+<style 
+      xmlns="http://purl.org/net/xbiblio/csl"
+      class="note"
+      version="1.0">
+  <info>
+    <id />
+    <title />
+    <updated>2009-08-10T04:49:00+09:00</updated>
+  </info>
+  <macro name="author">
+    <names variable="author">
+      <name form="short" />
+    </names>
+  </macro>
+  <citation>
+    <layout delimiter="; ">
+      <group delimiter=", ">
+        <text macro="author" />
+        <choose>
+          <if disambiguate="true">
+            <text variable="title"/>
+          </if>
+        </choose>
+      </group>
+    </layout>
+  </citation>
+  <bibliography>
+    <layout>
+      <group delimiter=", ">
+        <text macro="author" />
+        <choose>
+          <if disambiguate="true">
+            <text variable="title"/>
+          </if>
+        </choose>
+      </group>
+    </layout>
+  </bibliography>
+</style>
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+    {
+        "author": [
+            {
+                "family": "Smith", 
+                "given": "Alan"
+            }
+        ], 
+        "title": "Book One",
+        "id": "ITEM-1", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Smith", 
+                "given": "Alan" 
+            }
+        ],
+        "title": "Book Two",
+        "id": "ITEM-2", 
+        "type": "book"
+    },
+    {
+        "author": [
+            {
+                "family": "Brown", 
+                "given": "Cadbury" 
+            }
+        ],
+        "title": "Book the X",
+        "id": "ITEM-3", 
+        "type": "book"
+    }
+]
+<<===== INPUT =====<<
