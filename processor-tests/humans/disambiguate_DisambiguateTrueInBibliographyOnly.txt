@@ -1,0 +1,194 @@
+>>===== MODE =====>>
+bibliography
+<<===== MODE =====<<
+
+
+
+>>===== RESULT =====>>
+<div class="csl-bib-body">
+  <div class="csl-entry">
+
+    <div class="csl-block"><b>Dogs Act 2000a</b></div>
+2000, .</div>
+  <div class="csl-entry">
+
+    <div class="csl-block"><b>Dogs Act 2000b</b></div>
+2000, .</div>
+</div>
+<<===== RESULT =====<<
+
+
+A stripped-down version of Leidraad voor juridische auteurs (Dutch).
+
+There are long chains of macro calls here, but the upshot is that if
+disambiguate="true" is called only in cs:bibliography, it never
+takes effect.
+
+>>===== CITATIONS =====>>
+[
+    [
+        {
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }, 
+                {
+                    "id": "ITEM-2"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ]
+]
+<<===== CITATIONS =====<<
+
+
+>>===== CSL =====>>
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="sort-only" default-locale="nl-NL">
+  <info>
+    <title>Leidraad voor juridische auteurs (Dutch)</title>
+    <title-short>Leidraad</title-short>
+    <id>http://www.zotero.org/styles/leidraad-voor-juridische-auteurs</id>
+    <link href="http://www.zotero.org/styles/leidraad-voor-juridische-auteurs" rel="self"/>
+    <link href="http://auteur.kluwer.nl/auteursmiddelen-en-instructies" rel="documentation"/>
+    <author>
+      <name>Joël Hendriks</name>
+      <email>leidraad.csl@joelhendriks.nl</email>
+    </author>
+    <category citation-format="note"/>
+    <category field="law"/>
+    <updated>2014-03-10T19:41:30+01:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+
+  <macro name="footnote-reference">
+     <text macro="reference-legislative-footnote"/>
+  </macro>
+  <macro name="reference-legislative-footnote">
+        <choose>
+          <if locator="paragraph">
+            <text variable="locator" prefix="art. " suffix=" "/>
+            <text variable="title" form="short"/>
+          </if>
+          <else>
+            <text variable="container-title" suffix=" " font-style="italic"/>
+            <text macro="legislation-issued-short" suffix=", "/>
+            <text variable="page" suffix="."/>
+          </else>
+        </choose>
+  </macro>
+  <macro name="legislation-issued-short">
+    <date variable="issued">
+      <date-part name="year"/>
+    </date>
+  </macro>
+
+  <macro name="bibliography-reference-title">
+      <text macro="reference-legislative-short"/>
+  </macro>
+  <macro name="bibliography-reference-long">
+      <text macro="reference-legislative-long"/>
+  </macro>
+  <macro name="reference-legislative-short">
+        <choose>
+          <if variable="title-short title" match="any">
+            <choose>
+              <if variable="title">
+                <text variable="title"/>
+              </if>
+              <else>
+                <text variable="title-short"/>
+              </else>
+            </choose>
+            <choose>
+              <if disambiguate="true">
+                <text macro="legislation-issued-short" prefix=" "/>
+              </if>
+            </choose>
+          </if>
+          <else>
+            <text variable="container-title" suffix=" " font-style="italic"/>
+            <text macro="legislation-issued-short"/>
+            <text variable="page" prefix=", "/>
+          </else>
+        </choose>
+  </macro>
+  <macro name="reference-legislative-long">
+        <group suffix=".">
+          <choose>
+            <if variable="title-short title" match="any">
+              <text variable="container-title" suffix=" " font-style="italic"/>
+              <text macro="legislation-issued-short" suffix=", "/>
+              <text variable="page"/>
+            </if>
+            <else>
+              <choose>
+                <if variable="title">
+                  <text variable="title"/>
+                </if>
+                <else>
+                  <text variable="title-short"/>
+                </else>
+              </choose>
+            </else>
+          </choose>
+          <group prefix=" (" suffix=")">
+            <text variable="URL"/>
+            <text macro="date-accessed" prefix=" geraadpleegd op "/>
+          </group>
+        </group>
+  </macro>
+  <macro name="date-accessed">
+    <date variable="accessed">
+      <date-part name="day"/>
+      <date-part name="month" prefix=" " suffix=" "/>
+      <date-part name="year"/>
+    </date>
+  </macro>
+  <citation initialize="true" initialize-with="." givenname-disambiguation-rule="by-cite" disambiguate-add-givenname="true" disambiguate-add-year-suffix="true">
+    <layout>
+      <text macro="footnote-reference"/>
+    </layout>
+  </citation>
+  <bibliography>
+    <layout>
+      <group display="block" font-weight="bold">
+        <text macro="bibliography-reference-title"/>
+      </group>
+      <text macro="bibliography-reference-long"/>
+    </layout>
+  </bibliography>
+</style>
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+    {
+        "title": "Dogs Act",
+        "issued": {
+            "date-parts": [
+              [2000, 12, 15]
+            ]
+        },
+        "id": "ITEM-1", 
+        "type": "legislation"
+    }, 
+    {
+        "title": "Dogs Act",
+        "issued": {
+            "date-parts": [
+              [2000, 10, 1]
+            ]
+        },
+        "id": "ITEM-2", 
+        "type": "legislation"
+    }
+]
+<<===== INPUT =====<<
