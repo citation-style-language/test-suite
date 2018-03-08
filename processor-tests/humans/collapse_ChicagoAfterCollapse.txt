@@ -6,7 +6,8 @@ citation
 
 >>===== RESULT =====>>
 ..[0] (Whittaker 1967, 1975; Wiens 1989a, 1989b)
->>[1] (Wong 1999, 328; 2000, 475; Garcia 1998, 67)
+..[1] (Wong 1999, 328; 2000, 475; Garcia 1998, 67)
+>>[2] (Whittaker 1967; Wiens 1989b)
 <<===== RESULT =====<<
 
 
@@ -64,9 +65,40 @@ citation
             ]
         ], 
         []
+    ], 
+    [
+        {
+            "citationID": "CITATION-3", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }, 
+                {
+                    "id": "ITEM-4"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 3
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ]
+        ], 
+        []
     ]
 ]
 <<===== CITATIONS =====<<
+
+
+
+
 
 
 (Whittaker 1967, 1975; Wiens 1989a, 1989b)
