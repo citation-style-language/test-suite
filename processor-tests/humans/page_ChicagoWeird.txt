@@ -4,8 +4,9 @@ citation
 
 
 >>===== RESULT =====>>
-Example S, at n11564–68
-Example T, at n11564-1568
+Example S, at 8n11564–68
+Example T, at n11564–68
+Example U, at n11564-1568
 <<===== RESULT =====<<
 
 
@@ -19,6 +20,11 @@ Example T, at n11564-1568
     [
         {
             "id": "ITEM-20"
+        }
+    ], 
+    [
+        {
+            "id": "ITEM-21"
         }
     ]
 ]
@@ -50,14 +56,20 @@ Example T, at n11564-1568
 [
     {
         "id": "ITEM-19", 
-        "page": "n11564 - n1568", 
+        "page": "8n11564-8n1568", 
         "title": "Example S", 
         "type": "book"
     }, 
     {
         "id": "ITEM-20", 
-        "page": "n11564 - 1568", 
+        "page": "n11564-n1568", 
         "title": "Example T", 
+        "type": "book"
+    }, 
+    {
+        "id": "ITEM-21", 
+        "page": "n11564-1568", 
+        "title": "Example U", 
         "type": "book"
     }
 ]
