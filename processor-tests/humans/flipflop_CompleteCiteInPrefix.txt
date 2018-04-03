@@ -5,7 +5,7 @@ citation
 
 
 >>===== RESULT =====>>
->>[0] Aalto; Álvarez
+>>[0] Wilhelm Dilthey, “The Types of World Views and Their Unfoldment Within the Metaphysical Systems,” in <i>Dilthey’s Philosophy of Existence: Introduction to Weltanschauungslehre</i>, trans. William Kluback and Martin Weinbaum (New York: Bookman Associates, 1957), 26–27 Other Book Title
 <<===== RESULT =====<<
 
 
@@ -17,7 +17,7 @@ citation
             "citationItems": [
                 {
                     "id": "ITEM-1", 
-                    "prefix": "Wilhelm Dilthey, "The Types of World Views and Their Unfoldment Within the Metaphysical Systems," in <i>Dilthey's Philosophy of Existence: Introduction to Weltanschauungslehre</i>, trans. William Kluback and Martin Weinbaum (New York: Bookman Associates, 1957), 26–27"
+                    "prefix": "Wilhelm Dilthey, \"The Types of World Views and Their Unfoldment Within the Metaphysical Systems,\" in <i>Dilthey's Philosophy of Existence: Introduction to Weltanschauungslehre</i>, trans. William Kluback and Martin Weinbaum (New York: Bookman Associates, 1957), 26–27"
                 }
             ], 
             "properties": {
