@@ -7,7 +7,7 @@ Fault reported by abdealikhurrum
 https://github.com/citation-style-language/locales/issues/135
 
 >>===== RESULT =====>>
->>[0] Jonathan Chang وآخ.
+>>[0] Jonathan Chang وآخرون.
 <<===== RESULT =====<<
 
 
