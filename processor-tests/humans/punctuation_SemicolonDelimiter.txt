@@ -1,12 +1,12 @@
 >>===== MODE =====>>
 bibliography
-<<===== MODE===== <<
+<<===== MODE =====<<
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
   <div class="csl-entry">Bauthor, O. T.; Cauthor, T.; Dauthor, T.; Eauthor, E.; Fauthor, F.; Gauthor, G.</div>
 </div>
-<<===== RESULT ===== <<
+<<===== RESULT =====<<
 
 
 
@@ -53,7 +53,7 @@ bibliography
     </layout>
   </bibliography>
 </style>
-<<===== CSL===== <<
+<<===== CSL =====<<
 
 >>===== INPUT =====>>
 [
@@ -123,4 +123,4 @@ bibliography
         "type": "report"
     }
 ]
-<<===== INPUT===== <<
+<<===== INPUT =====<<

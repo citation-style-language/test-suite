@@ -1,6 +1,6 @@
 >>===== MODE =====>>
 citation
-<<===== MODE===== <<
+<<===== MODE =====<<
 
 ## 2013-04-17 :: Frank Bennett <biercenator@gmail.com>
 
@@ -17,7 +17,7 @@ citation
 
 >>===== RESULT =====>>
 >>[0] (Smith)
-<<===== RESULT===== <<
+<<===== RESULT =====<<
 
 >>===== CITATIONS =====>>
 [
@@ -75,7 +75,7 @@ citation
         []
     ]
 ]
-<<===== CITATIONS===== <<
+<<===== CITATIONS =====<<
 
 >>===== CSL =====>>
 <?xml version="1.0" encoding="utf-8"?>
@@ -336,7 +336,7 @@ citation
       </layout>
    </bibliography>
 </style>
-<<===== CSL===== <<
+<<===== CSL =====<<
 
 >>===== INPUT =====>>
 [
@@ -363,4 +363,4 @@ citation
     ]
   }
 ]
-<<===== INPUT===== <<
+<<===== INPUT =====<<

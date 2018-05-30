@@ -1,6 +1,6 @@
 >>===== MODE =====>>
 citation
-<<===== MODE===== <<
+<<===== MODE =====<<
 
 Test data from Zotero user brazuca.
 
@@ -8,7 +8,7 @@ Test data from Zotero user brazuca.
 >>[0] (UN DESA 2011b)
 >>[1] (UN DESA 2011c)
 >>[2] (UN DESA 2011a)
-<<===== RESULT===== <<
+<<===== RESULT =====<<
 
 >>===== CITATIONS =====>>
 [
@@ -75,7 +75,7 @@ Test data from Zotero user brazuca.
         []
     ]
 ]
-<<===== CITATIONS===== <<
+<<===== CITATIONS =====<<
 
 >>===== CSL =====>>
 <?xml version="1.0" encoding="utf-8"?>
@@ -448,7 +448,7 @@ Test data from Zotero user brazuca.
   </bibliography>
 </style>
 
-<<===== CSL===== <<
+<<===== CSL =====<<
 
 >>===== INPUT =====>>
 [
@@ -535,4 +535,4 @@ Test data from Zotero user brazuca.
     }
   }
 ]
-<<===== INPUT===== <<
+<<===== INPUT =====<<

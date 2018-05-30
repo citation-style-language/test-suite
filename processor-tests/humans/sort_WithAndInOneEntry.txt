@@ -1,10 +1,10 @@
 >>===== MODE =====>>
 citation
-<<===== MODE===== <<
+<<===== MODE =====<<
 
 >>===== RESULT =====>>
 >>[0] (Beck 1991; Beck and Katz 2001, 2011; Beck, Katz, and Tucker 1998; Beck, King, and Zeng 2000; Colaresi 2006; Colaresi, Rasler, and Thompson 2007; Colaresi and Thompson 2002; Gochman 1993; Gochman and Leng 1983; Gochman and Maoz 1984)
-<<===== RESULT===== <<
+<<===== RESULT =====<<
 
 >>===== CITATIONS =====>>
 [
@@ -67,7 +67,7 @@ citation
         []
     ]
 ]
-<<===== CITATIONS===== <<
+<<===== CITATIONS =====<<
 
 >>===== CSL =====>>
 <?xml version="1.0" encoding="utf-8"?>
@@ -279,7 +279,7 @@ citation
       </layout>
    </bibliography>
 </style>
-<<===== CSL===== <<
+<<===== CSL =====<<
 
 >>===== INPUT =====>>
 [
@@ -634,4 +634,4 @@ citation
     }
   }
 ]
-<<===== INPUT===== <<
+<<===== INPUT =====<<
