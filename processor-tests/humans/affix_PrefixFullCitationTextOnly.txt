@@ -44,7 +44,7 @@ citation
         }
     ]
 ]
-<<===== CITATION-ITEMS ====<<
+<<===== CITATION-ITEMS =====<<
 
 
 
