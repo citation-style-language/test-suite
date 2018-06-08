@@ -11,7 +11,7 @@ bibliography
 
 >>===== CSL =====>>
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.1mlz1" demote-non-dropping-particle="never" page-range-format="chicago" name-as-sort-order="first" default-locale="en-US-x-sort-ja-alalc97">
+<style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="never" page-range-format="chicago" name-as-sort-order="first" default-locale="en-US-x-sort-ja-alalc97">
   <info>
     <title>JM Chicago Manual of Style 16th edition (full note)</title>
     <id>http://juris-m.github.io/jm-styles/jm-chicago-fullnote-bibliography</id>
