@@ -1,12 +1,12 @@
 >>===== MODE =====>>
 bibliography
-<<===== MODE===== <<
+<<===== MODE =====<<
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
   <div class="csl-entry">J Doe, J Roe and R Noakes eds. Book Title</div>
 </div>
-<<===== RESULT===== <<
+<<===== RESULT =====<<
 
 >>===== CSL =====>>
 <style 
@@ -49,7 +49,7 @@ bibliography
     </layout>
   </bibliography>
 </style>
-<<===== CSL===== <<
+<<===== CSL =====<<
 
 >>===== INPUT =====>>
 [
@@ -73,4 +73,4 @@ bibliography
         "type": "book"
     }
 ]
-<<===== INPUT===== <<
+<<===== INPUT =====<<

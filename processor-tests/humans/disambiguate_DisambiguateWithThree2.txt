@@ -1,12 +1,12 @@
 >>===== MODE =====>>
 citation
-<<===== MODE===== <<
+<<===== MODE =====<<
 
 >>===== RESULT =====>>
 >>[0] (Spivak, <i>A Critique</i>)
 >>[1] (Spivak, “Cultural Talks”)
 >>[2] (Spivak, <i>Death of a Discipline</i>)
-<<===== RESULT===== <<
+<<===== RESULT =====<<
 
 >>===== CITATIONS =====>>
 [
@@ -73,7 +73,7 @@ citation
         []
     ]
 ]
-<<===== CITATIONS===== <<
+<<===== CITATIONS =====<<
 
 >>===== CSL =====>>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
@@ -146,7 +146,7 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL===== <<
+<<===== CSL =====<<
 
 >>===== INPUT =====>>
 [
@@ -244,4 +244,4 @@ citation
     }
   }
 ]
-<<===== INPUT===== <<
+<<===== INPUT =====<<

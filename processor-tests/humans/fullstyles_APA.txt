@@ -357,7 +357,7 @@ and followup thread:
     </layout>
   </bibliography>
 </style>
-<<===== CSL===== <<
+<<===== CSL =====<<
 
 >>===== INPUT =====>>
 [
@@ -389,4 +389,4 @@ and followup thread:
         "type": "book"
     }
 ]
-<<===== INPUT===== <<
+<<===== INPUT =====<<

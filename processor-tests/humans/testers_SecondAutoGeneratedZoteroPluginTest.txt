@@ -1,6 +1,6 @@
 >>===== MODE =====>>
 bibliography
-<<===== MODE===== <<
+<<===== MODE =====<<
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
@@ -8,7 +8,7 @@ bibliography
   <div class="csl-entry">Smith, John. <i>Book A</i>, 2000.</div>
   <div class="csl-entry">Smith, Steven. <i>Book A</i>, 2000.</div>
 </div>
-<<===== RESULT===== <<
+<<===== RESULT =====<<
 
 >>===== CSL =====>>
 <style 
@@ -706,7 +706,7 @@ bibliography
   </bibliography>
 </style>
 
-<<===== CSL===== <<
+<<===== CSL =====<<
 
 >>===== INPUT =====>>
 [
@@ -771,5 +771,5 @@ bibliography
         "type": "book"
     }
 ]
-<<===== INPUT===== <<
+<<===== INPUT =====<<
 
