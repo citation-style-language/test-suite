@@ -68,8 +68,8 @@ bibliography
                 1
             ], 
             [
-                "CITATION-3", 
-                3
+                "CITATION-2", 
+                2
             ]
         ], 
         []
