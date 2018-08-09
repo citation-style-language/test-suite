@@ -50,7 +50,7 @@ citation
       <text macro="author" />
       <group delimiter=" " prefix=", ">
         <text term="number"/>
-        <number varible="collection-number"/>
+        <number variable="collection-number"/>
       </group>
     </layout>
   </citation>

@@ -1,10 +1,10 @@
 >>===== MODE =====>>
 citation
-<<===== MODE===== <<
+<<===== MODE =====<<
 
 >>===== RESULT =====>>
 >>[0] (Day and Fitzpatrick, 2005a, 2005b; Mian et al., 2005)
-<<===== RESULT===== <<
+<<===== RESULT =====<<
 
 >>===== CITATIONS =====>>
 [
@@ -33,7 +33,7 @@ citation
         []
     ]
 ]
-<<===== CITATIONS===== <<
+<<===== CITATIONS =====<<
 
 >>===== CSL =====>>
 <?xml version="1.0" encoding="utf-8"?>
@@ -219,7 +219,7 @@ citation
     </layout>
   </bibliography>
 </style>
-<<===== CSL===== <<
+<<===== CSL =====<<
 
 >>===== INPUT =====>>
 [
@@ -328,5 +328,5 @@ citation
     }
   }
 ]
-<<===== INPUT===== <<
+<<===== INPUT =====<<
 

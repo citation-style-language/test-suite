@@ -1,13 +1,13 @@
 >>===== MODE =====>>
 bibliography
-<<===== MODE===== <<
+<<===== MODE =====<<
 
 >>===== RESULT =====>>
 <div class="csl-bib-body">
   <div class="csl-entry">Brooker, C. (2011, July 24). The news coverage of the Norway mass-killings was fact-free conjecture. <i>The Guardian</i>. London. Retrieved from http://www.guardian.co.uk/commentisfree/2011/jul/24/charlie-brooker-norway-mass-killings</div>
   <div class="csl-entry">Brooker, C. (2011, July 31). Let’s think outside the box here: maybe blue-sky thinking is nonsense. <i>The Guardian</i>. London. Retrieved from http://www.guardian.co.uk/commentisfree/2011/jul/31/blue-sky-thinking</div>
 </div>
-<<===== RESULT===== <<
+<<===== RESULT =====<<
 
 >>===== CSL =====>>
 <?xml version="1.0" encoding="utf-8"?>
@@ -387,7 +387,7 @@ bibliography
 		</layout>
 	</bibliography>
 </style>
-<<===== CSL===== <<
+<<===== CSL =====<<
 
 >>===== INPUT =====>>
 [
@@ -466,4 +466,4 @@ bibliography
         "type": "article-newspaper"
     }
 ]
-<<===== INPUT===== <<
+<<===== INPUT =====<<

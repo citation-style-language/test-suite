@@ -1,10 +1,10 @@
 >>===== MODE =====>>
 citation
-<<===== MODE===== <<
+<<===== MODE =====<<
 
 >>===== RESULT =====>>
 (A Ylinen, 1995a; b; c)
-<<===== RESULT===== <<
+<<===== RESULT =====<<
 
 >>===== CSL =====>>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
@@ -41,7 +41,7 @@ citation
     </layout>
   </bibliography>
 </style>
-<<===== CSL===== <<
+<<===== CSL =====<<
 
 >>===== INPUT =====>>
 [
@@ -97,4 +97,4 @@ citation
         "type": "article-journal"
     }
 ]
-<<===== INPUT===== <<
+<<===== INPUT =====<<

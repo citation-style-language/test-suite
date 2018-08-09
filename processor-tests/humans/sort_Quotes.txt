@@ -69,7 +69,7 @@ bibliography
     <sort>
       <key macro="title"/>
     </sort>
-    <layout delimiter="; ">
+    <layout>
       <text macro="title"/>
     </layout>
   </bibliography>
