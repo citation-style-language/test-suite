@@ -5,7 +5,7 @@ citation
 
 
 >>===== RESULT =====>>
->>[0] Aalto
+>>[0] Aalto, 23
 <<===== RESULT =====<<
 
 
@@ -40,6 +40,9 @@ citation
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
+  <!-- locale>
+    <term name="number">nummie</term>
+  </locale -->
   <macro name="author">
     <names variable="author">
       <name form="short" />
