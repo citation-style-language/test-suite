@@ -244,7 +244,7 @@ The ``INPUT`` section provides the item data to be registered
 in the processor.  In a simple test fixture that contains
 none of the optional areas ``BIBENTRIES``, ``BIBSECTION`` ``CITATIONS``
 or ``CITATION-ITEMS``,
-a citation or bibligraphy is requested for *all* of the
+a citation or bibliography is requested for *all* of the
 items in the ``INPUT`` section (where one of those two
 optional sections is included, the testing behavior is slightly
 different; see the discussion of the relevant sections below
@@ -367,7 +367,7 @@ BIBSECTION
 !!!!!!!!!!
 
 When ``bibliography`` mode is used, a ``BIBSECTION`` area
-can be used to limit the output of the bibligraphy.  The
+can be used to limit the output of the bibliography.  The
 filtering logic is described below, but first an example
 of the way it looks in a test fixture:
 
@@ -545,7 +545,7 @@ CITATIONS
 A ``CITATIONS`` area can be used (instead of ``CITATION-ITEMS``)
 to mimic a series of interactions with a word processor plugin.
 In this case, the area should contain a list array of citation
-data objects with explict ``citationID`` values and ID list values
+data objects with explicit ``citationID`` values and ID list values
 for subsequent invocations of the ``processCitationCluster()`` command,
 like the following:
 
