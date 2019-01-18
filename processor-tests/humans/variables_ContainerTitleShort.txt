@@ -3,9 +3,18 @@ bibliography
 <<===== MODE =====<<
 
 
+Test for https://github.com/Juris-M/citeproc-js/issues/96
+
 
 >>===== RESULT =====>>
-???
+<div class="csl-bib-body">
+  <div class="csl-entry">
+    <div class="csl-left-margin">1. </div><div class="csl-right-inline">Campbell DT, Fiske DW. Main title. In: Container: a title. (Series: a title).</div>
+   </div>
+  <div class="csl-entry">
+    <div class="csl-left-margin">2. </div><div class="csl-right-inline">Campbell DT, Fiske DW. Main title. Container.</div>
+   </div>
+</div>
 <<===== RESULT =====<<
 
 
@@ -434,21 +443,3 @@ bibliography
 	}
 ]
 <<===== INPUT =====<<
-
-
-
-<style 
-      xmlns="http://purl.org/net/xbiblio/csl"
-      class="note"
-      version="1.0">
-  <info>
-    <id />
-    <title />
-    <updated>2009-08-10T04:49:00+09:00</updated>
-  </info>
-  <citation>
-    <layout>
-      <text variable="container-title" form="short"/>
-    </layout>
-  </citation>
-</style>
