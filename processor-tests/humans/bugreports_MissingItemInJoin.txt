@@ -289,7 +289,7 @@ citation
         ], 
         "title": "Film One",
         "id": "ITEM-3", 
-        "type": "film"
+        "type": "motion_picture"
     }
 ]
 <<===== INPUT =====<<
