@@ -67,7 +67,7 @@ citation
                 }
             ], 
             "properties": {
-                "index": 1, 
+                "index": 0, 
                 "noteIndex": 0
             }
         }, 

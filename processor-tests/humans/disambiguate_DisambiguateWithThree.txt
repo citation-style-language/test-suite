@@ -40,7 +40,12 @@ citation
                 "noteIndex": 2
             }
         }, 
-        [], 
+        [
+            [
+                "CITATION-1", 
+                1
+            ]
+        ], 
         []
     ], 
     [
