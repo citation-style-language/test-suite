@@ -83,7 +83,8 @@ citation
     {
         "author": [
             {
-                "family": "Blevins" 
+                "family": "Blevins",
+                "given": ""
             }
         ], 
         "issued": {
@@ -96,7 +97,8 @@ citation
     {
         "author": [
             {
-                "family": "Blevins"
+                "family": "Blevins",
+                "given": ""
             }
         ], 
         "issued": {
