@@ -1,0 +1,438 @@
+>>===== MODE =====>>
+citation
+<<===== MODE =====<<
+
+
+
+>>===== RESULT =====>>
+..[0] [Axford, ME] becomes [Axford, M.]
+..[1] [Behn, M.E] becomes [Behn, M. E.]
+..[2] [Crosler, M E.] becomes [Crosler, M. E.]
+..[3] [Dimauro, John M.E.] becomes [Dimauro, J. M. E.]
+..[4] [Evans, M E] becomes [Evans, M. E.]
+..[5] [Faquhar, ME.] becomes [Faquhar, ME.]
+..[6] [Grant, Me.] becomes [Grant, Me.]
+..[7] [Hudson, Ph.M.E.] becomes [Hudson, Ph. M. E.]
+>>[8] [Immel, Ph. M.E.] becomes [Immel, Ph. M. E.]
+<<===== RESULT =====<<
+
+
+>>===== CITATIONS =====>>
+[
+    [
+        {
+            "citationID": "CITATION-1", 
+            "citationItems": [
+                {
+                    "id": "ITEM-1"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 1
+            }
+        }, 
+        [], 
+        []
+    ], 
+    [
+        {
+            "citationID": "CITATION-2", 
+            "citationItems": [
+                {
+                    "id": "ITEM-2"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 2
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ]
+        ], 
+        []
+    ], 
+    [
+        {
+            "citationID": "CITATION-3", 
+            "citationItems": [
+                {
+                    "id": "ITEM-3"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 3
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ]
+        ], 
+        []
+    ], 
+    [
+        {
+            "citationID": "CITATION-4", 
+            "citationItems": [
+                {
+                    "id": "ITEM-4"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 4
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ]
+        ], 
+        []
+    ], 
+    [
+        {
+            "citationID": "CITATION-5", 
+            "citationItems": [
+                {
+                    "id": "ITEM-5"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 5
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ], 
+            [
+                "CITATION-4", 
+                4
+            ]
+        ], 
+        []
+    ], 
+    [
+        {
+            "citationID": "CITATION-6", 
+            "citationItems": [
+                {
+                    "id": "ITEM-6"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 6
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ], 
+            [
+                "CITATION-4", 
+                4
+            ], 
+            [
+                "CITATION-5", 
+                5
+            ]
+        ], 
+        []
+    ], 
+    [
+        {
+            "citationID": "CITATION-7", 
+            "citationItems": [
+                {
+                    "id": "ITEM-7"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 7
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ], 
+            [
+                "CITATION-4", 
+                4
+            ], 
+            [
+                "CITATION-5", 
+                5
+            ], 
+            [
+                "CITATION-6", 
+                6
+            ]
+        ], 
+        []
+    ], 
+    [
+        {
+            "citationID": "CITATION-8", 
+            "citationItems": [
+                {
+                    "id": "ITEM-8"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 8
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ], 
+            [
+                "CITATION-4", 
+                4
+            ], 
+            [
+                "CITATION-5", 
+                5
+            ], 
+            [
+                "CITATION-6", 
+                6
+            ], 
+            [
+                "CITATION-7", 
+                7
+            ]
+        ], 
+        []
+    ], 
+    [
+        {
+            "citationID": "CITATION-9", 
+            "citationItems": [
+                {
+                    "id": "ITEM-9"
+                }
+            ], 
+            "properties": {
+                "noteIndex": 9
+            }
+        }, 
+        [
+            [
+                "CITATION-1", 
+                1
+            ], 
+            [
+                "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-3", 
+                3
+            ], 
+            [
+                "CITATION-4", 
+                4
+            ], 
+            [
+                "CITATION-5", 
+                5
+            ], 
+            [
+                "CITATION-6", 
+                6
+            ], 
+            [
+                "CITATION-7", 
+                7
+            ], 
+            [
+                "CITATION-8", 
+                8
+            ]
+        ], 
+        []
+    ]
+]
+<<===== CITATIONS =====<<
+
+
+>>===== CSL =====>>
+<style 
+      xmlns="http://purl.org/net/xbiblio/csl"
+      class="note"
+      version="1.0">
+  <info>
+    <id />
+    <title />
+    <updated>2009-08-10T04:49:00+09:00</updated>
+  </info>
+  <macro name="full">
+      <names variable="author">
+        <name name-as-sort-order="all"/>
+      </names>
+  </macro>
+  <macro name="initialized">
+      <names variable="author">
+        <name initialize-with=". " name-as-sort-order="all" initialize="true"/>
+      </names>
+  </macro>
+  <citation>
+    <layout delimiter="; ">
+    <group delimiter="] becomes [" prefix="[" suffix="]">
+      <text macro="full"/>
+      <text macro="initialized"/>
+    </group>
+    </layout>
+  </citation>
+</style>
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+    {
+        "author": [
+            {
+                "family": "Axford", 
+                "given": "ME"
+            }
+        ], 
+        "id": "ITEM-1", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Behn", 
+                "given": "M.E" 
+            }
+        ], 
+        "id": "ITEM-2", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Crosler", 
+                "given": "M E." 
+            }
+        ], 
+        "id": "ITEM-3", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Dimauro", 
+                "given": "John M.E." 
+            }
+        ], 
+        "id": "ITEM-4", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Evans", 
+                "given": "M E" 
+            }
+        ], 
+        "id": "ITEM-5", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Faquhar", 
+                "given": "ME." 
+            }
+        ], 
+        "id": "ITEM-6", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Grant", 
+                "given": "Me." 
+            }
+        ], 
+        "id": "ITEM-7", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Hudson", 
+                "given": "Ph.M.E." 
+            }
+        ], 
+        "id": "ITEM-8", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Immel", 
+                "given": "Ph. M.E." 
+            }
+        ], 
+        "id": "ITEM-9", 
+        "type": "book"
+    }
+]
+<<===== INPUT =====<<
