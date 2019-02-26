@@ -5,7 +5,7 @@ citation
 
 
 >>===== RESULT =====>>
->>[0] 162a–169d
+>>[0] Book One, 123 f.; Book Two, 456 f.
 <<===== RESULT =====<<
 
 
@@ -17,7 +17,11 @@ citation
             "citationItems": [
                 {
                     "id": "ITEM-1", 
-                    "locator": "162a-169d"
+                    "locator": "123"
+                }, 
+                {
+                    "id": "ITEM-2", 
+                    "locator": "123"
                 }
             ], 
             "properties": {
@@ -42,8 +46,11 @@ citation
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
   <citation>
-    <layout>
-      <number variable="locator"/>
+    <layout delimiter="; ">
+      <group delimiter=", ">
+        <text variable="title"/>
+        <text variable="page" suffix=" f."/>
+      </group>
     </layout>
   </citation>
 </style>
@@ -54,7 +61,15 @@ citation
 [
     {
         "id": "ITEM-1", 
-        "type": "book"
+        "type": "book",
+        "title": "Book One",
+        "page": "123"
+    },
+    {
+        "id": "ITEM-2", 
+        "type": "book",
+        "title": "Book Two",
+        "page": "456"
     }
 ]
 <<===== INPUT =====<<
