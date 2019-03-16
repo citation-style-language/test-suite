@@ -1,6 +1,6 @@
 >>===== MODE =====>>
 citation
-<<===== MODE=====<<
+<<===== MODE =====<<
 
 This is correct APA ...
 

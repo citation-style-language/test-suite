@@ -1,9 +1,11 @@
 >>===== MODE =====>>
 citation
 <<===== MODE =====<<
+
 >>===== RESULT =====>>
 >>[0] People v. Taylor, 73 N.Y.2d 683 (1989).
 <<===== RESULT =====<<
+
 >>===== CITATIONS =====>>
 [
     [
@@ -24,6 +26,7 @@ citation
     ]
 ]
 <<===== CITATIONS =====<<
+
 >>===== CSL =====>>
 <style
        xmlns="http://purl.org/net/xbiblio/csl"
@@ -461,6 +464,7 @@ citation
   </citation>
 </style>
 <<===== CSL =====<<
+
 >>===== INPUT =====>>
 [
   {
