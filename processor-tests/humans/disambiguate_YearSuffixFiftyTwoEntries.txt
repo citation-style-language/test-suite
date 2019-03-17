@@ -13,7 +13,7 @@ cites can be left untouched.
 <<===== RESULT =====<<
 
 
->>=====  CITATIONS =====>>
+>>===== CITATIONS =====>>
 [
     [
         {
@@ -201,7 +201,7 @@ cites can be left untouched.
         []
     ]
 ]
-<<=====  CITATIONS =====<<
+<<===== CITATIONS =====<<
 
 
 >>===== CSL =====>>

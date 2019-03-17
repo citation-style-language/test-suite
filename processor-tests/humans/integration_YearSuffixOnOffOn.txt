@@ -8,7 +8,7 @@ citation
 <<===== RESULT =====<<
 
 
->>=====  CITATIONS =====>>
+>>===== CITATIONS =====>>
 [
     [
         {
@@ -74,7 +74,7 @@ citation
         []
     ]
 ]
-<<=====  CITATIONS =====<<
+<<===== CITATIONS =====<<
 
 
 

@@ -56,7 +56,7 @@ citation
 
 
 
->>=====  CITATIONS =====>>
+>>===== CITATIONS =====>>
 [
     [
         {
@@ -183,7 +183,7 @@ citation
         ]
     ]
 ]
-<<=====  CITATIONS =====<<
+<<===== CITATIONS =====<<
 
 
 >>===== INPUT =====>>
