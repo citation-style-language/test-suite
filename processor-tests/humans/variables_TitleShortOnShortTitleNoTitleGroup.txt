@@ -104,7 +104,7 @@ citation
     {
         "id": "ITEM-1", 
         "title": "My Long Title 1",
-        "shortTitle": "My Short Title",
+        "title-short": "My Short Title",
         "type": "book"
     },
     {

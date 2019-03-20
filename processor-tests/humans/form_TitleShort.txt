@@ -32,7 +32,7 @@ Book A
 [
     {
         "id": "ITEM-1", 
-        "shortTitle": "Book A", 
+        "title-short": "Book A", 
         "title": "Book A: The Long Version", 
         "type": "book"
     }

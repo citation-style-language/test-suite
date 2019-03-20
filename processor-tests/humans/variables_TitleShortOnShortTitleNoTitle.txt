@@ -32,7 +32,7 @@ My Short Title
 [
     {
         "id": "ITEM-1", 
-        "shortTitle": "My Short Title", 
+        "title-short": "My Short Title", 
         "type": "book"
     }
 ]

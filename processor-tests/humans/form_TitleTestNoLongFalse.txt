@@ -39,7 +39,7 @@ false
 [
     {
         "id": "ITEM-1", 
-        "shortTitle": "Book A", 
+        "title-short": "Book A", 
         "type": "book"
     }
 ]

@@ -343,7 +343,7 @@ citation
 		"archive-place": "Cambridge [England]",
 		"ISBN": "0521417805",
 		"call-number": "JF11 .S77 1992",
-		"shortTitle": "Structuring Politics",
+		"title-short": "Structuring Politics",
 		"editor": [
 			{
 				"family": "Steinmo",

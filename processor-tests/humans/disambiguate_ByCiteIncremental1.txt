@@ -427,7 +427,7 @@ citation
 		"issue": "5",
 		"source": "Google Scholar",
 		"URL": "http://www.emeraldinsight.com/journals.htm?articleid=1795171&show=abstract",
-		"shortTitle": "The servitization of manufacturing",
+		"title-short": "The servitization of manufacturing",
 		"author": [
 			{
 				"family": "Baines",
@@ -477,7 +477,7 @@ citation
 		"URL": "http://pib.sagepub.com/content/223/9/1207",
 		"DOI": "10.1243/09544054JEM1552",
 		"ISSN": "0954-4054, 2041-2975",
-		"shortTitle": "Servitized manufacture",
+		"title-short": "Servitized manufacture",
 		"journalAbbreviation": "Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture",
 		"language": "en",
 		"author": [

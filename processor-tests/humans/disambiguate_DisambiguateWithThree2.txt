@@ -161,7 +161,7 @@ citation
     "publisher-place": "Cambridge, Mass.",
     "event-place": "Cambridge, Mass.",
     "note": "Gayatri Chakravorty Spivak. 25 cm.",
-    "shortTitle": "A Critique",
+    "title-short": "A Critique",
     "author": [
       {
         "family": "Spivak",
@@ -189,7 +189,7 @@ citation
     "publisher-place": "Minneapolis",
     "page": "329 - 348",
     "event-place": "Minneapolis",
-    "shortTitle": "Cultural Talks",
+    "title-short": "Cultural Talks",
     "author": [
       {
         "family": "Spivak",
