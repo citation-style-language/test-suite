@@ -5,7 +5,7 @@ citation
 
 
 >>===== RESULT =====>>
-Date: (); Date: (Spring); Date: (Spring); Date: ()
+Date: (); Date: (Spring); Date: (Spring); Date: (); Date: (Winter)
 <<===== RESULT =====<<
 
 
@@ -81,6 +81,19 @@ Date: (); Date: (Spring); Date: (Spring); Date: ()
                     1965, 
                     60, 
                     1
+                ]
+            ]
+        }, 
+        "type": "book"
+    },
+    {
+        "id": "ITEM-5", 
+        "issued": {
+            "date-parts": [
+                [
+                    1965, 
+                    24, 
+                    0
                 ]
             ]
         }, 
