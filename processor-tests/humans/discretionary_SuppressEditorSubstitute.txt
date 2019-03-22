@@ -8,6 +8,7 @@ citation
 >>== RESULT ==>>
 (2005)
 (Robert Jones 2000)
+(2010)
 <<== RESULT ==<<
 
 >>== CITATION-ITEMS ==>>
@@ -15,12 +16,18 @@ citation
     [
         {
             "id": "ITEM-1", 
-            "suppress-author": 1
+            "suppress-author": true
         }
     ], 
     [
         {
             "id": "ITEM-2"
+        }
+    ],
+    [
+        {
+            "id": "ITEM-3",
+            "suppress-author": true
         }
     ]
 ]
@@ -94,6 +101,18 @@ citation
             ]
         }, 
         "title": "Book B", 
+        "type": "book"
+    }, 
+    {
+        "id": "ITEM-3", 
+        "issued": {
+            "date-parts": [
+                [
+                    "2010"
+                ]
+            ]
+        }, 
+        "title": "Book C", 
         "type": "book"
     }
 ]
