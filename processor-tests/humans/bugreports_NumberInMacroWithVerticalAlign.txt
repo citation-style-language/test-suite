@@ -3,9 +3,13 @@ citation
 <<===== MODE =====<<
 
 
+Formerly: <sup><i>2</i></sup>; <sup><i>3</i>–<i>5</i></sup>
+
+Revised per discussion @ https://discourse.citationstyles.org/t/formatting-attributes-and-hyphen/1518
+
 
 >>===== RESULT =====>>
-<sup><i>2</i></sup>; <sup><i>3</i>–<i>5</i></sup>
+<sup><i>2</i></sup>; <sup><i>3–5</i></sup>
 <<===== RESULT =====<<
 
 
