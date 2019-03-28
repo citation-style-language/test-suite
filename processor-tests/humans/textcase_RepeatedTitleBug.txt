@@ -1,38 +1,24 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">Jenrich, R. I., &#38; Bentler, P. M. (2012). Exploratory bi-factor analysis: The oblique case. <i>Psychometrika</i>, <i>77</i>(3), 442–454. https://doi.org/https://doi.org/10.1007/s11336-012-9269-1</div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
-
-
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never">
   <info>
@@ -691,38 +677,38 @@ bibliography
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "DOI": "https://doi.org/10.1007/s11336-012-9269-1", 
-        "author": [
-            {
-                "family": "Jenrich", 
-                "given": "R.I."
-            }, 
-            {
-                "family": "Bentler", 
-                "given": "P.M."
-            }
-        ], 
-        "container-title": "Psychometrika", 
-        "id": "ITEM-1", 
-        "issue": "3", 
-        "issued": {
-            "date-parts": [
-                [
-                    2012
-                ]
-            ]
-        }, 
-        "page": "442-454", 
-        "title": "Exploratory bi-factor analysis: The oblique case", 
-        "type": "article-journal", 
-        "volume": "77",
-        "title-short": "Exploratory bi-factor analysis"
-    }
+  {
+    "DOI": "https://doi.org/10.1007/s11336-012-9269-1",
+    "author": [
+      {
+        "family": "Jenrich",
+        "given": "R.I."
+      },
+      {
+        "family": "Bentler",
+        "given": "P.M."
+      }
+    ],
+    "container-title": "Psychometrika",
+    "id": "ITEM-1",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "page": "442-454",
+    "title": "Exploratory bi-factor analysis: The oblique case",
+    "title-short": "Exploratory bi-factor analysis",
+    "type": "article-journal",
+    "volume": "77"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

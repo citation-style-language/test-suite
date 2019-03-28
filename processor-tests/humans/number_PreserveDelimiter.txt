@@ -1,40 +1,22 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+. Pages 187–228 <i>in</i> C. S. Stephen and M. L. Brown, editors. Analysis and interpretation of freshwater fisheries data
+<<==== RESULT ====<<
 
-Test for this:
-
-  https://forums.zotero.org/discussion/62352/style-error-american-fisheries-society
-
-
->>===== RESULT =====>>
->>[0] . Pages 187–228 <i>in</i> C. S. Stephen and M. L. Brown, editors. Analysis and interpretation of freshwater fisheries data
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -77,26 +59,26 @@ Test for this:
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "id": "ITEM-1", 
-        "type": "chapter",
-        "page": "187-228",
-        "container-title": "Analysis and interpretation of freshwater fisheries data",
-        "editor": [
-          {
-            "given": "Clarence Stephen",
-            "family": "Stephen"
-          },
-          {
-            "given": "Michael Lawrence",
-            "family": "Brown"
-          }
-        ]
-    }
+  {
+    "container-title": "Analysis and interpretation of freshwater fisheries data",
+    "editor": [
+      {
+        "family": "Stephen",
+        "given": "Clarence Stephen"
+      },
+      {
+        "family": "Brown",
+        "given": "Michael Lawrence"
+      }
+    ],
+    "id": "ITEM-1",
+    "page": "187-228",
+    "type": "chapter"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

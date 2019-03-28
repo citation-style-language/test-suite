@@ -1,42 +1,28 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+(Jones 2000; Smith 2000a,b)
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] (Jones 2000; Smith 2000a,b)
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }, 
-                {
-                    "id": "ITEM-3"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    },
+    {
+      "id": "ITEM-3"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style class="in-text" version="1.0" default-locale="en-US" xmlns="http://purl.org/net/xbiblio/csl">
   <info>
@@ -216,64 +202,64 @@ citation
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John"
-            }
-        ], 
-        "id": "ITEM-1", 
-        "type": "book",
-        "issued": {
-            "date-parts": [
-              [
-                2000
-              ]
-            ]
-        },
-        "title": "Book One"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John"
-            }
-        ], 
-        "id": "ITEM-2", 
-        "type": "book",
-        "issued": {
-            "date-parts": [
-              [
-                2000
-              ]
-            ]
-        },
-        "title": "Book Two"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Jones", 
-                "given": "Richard"
-            }
-        ], 
-        "id": "ITEM-3", 
-        "type": "book",
-        "issued": {
-            "date-parts": [
-              [
-                2000
-              ]
-            ]
-        },
-        "title": "Book Three"
-    }
+  {
+    "author": [
+      {
+        "family": "Smith",
+        "given": "John"
+      }
+    ],
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "title": "Book One",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Smith",
+        "given": "John"
+      }
+    ],
+    "id": "ITEM-2",
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "title": "Book Two",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Jones",
+        "given": "Richard"
+      }
+    ],
+    "id": "ITEM-3",
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "title": "Book Three",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

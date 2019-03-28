@@ -1,81 +1,34 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
->>===== RESULT =====>>
->>[0] (Spivak, <i>A Critique</i>)
->>[1] (Spivak, “Cultural Talks”)
->>[2] (Spivak, <i>Death of a Discipline</i>)
-<<===== RESULT =====<<
+>>==== RESULT ====>>
+(Spivak, <i>A Critique</i>)
+(Spivak, “Cultural Talks”)
+(Spivak, <i>Death of a Discipline</i>)
+<<==== RESULT ====<<
 
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "14eia8mbkt", 
-            "citationItems": [
-                {
-                    "id": 55
-                }
-            ], 
-            "properties": {
-                "index": 0, 
-                "noteIndex": 0
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "6vv2a1gh3", 
-            "citationItems": [
-                {
-                    "id": 53
-                }
-            ], 
-            "properties": {
-                "index": 1, 
-                "noteIndex": 0
-            }
-        }, 
-        [
-            [
-                "14eia8mbkt", 
-                0
-            ]
-        ], 
-        []
-    ], 
-    [
-        {
-            "citationID": "1p1h161do", 
-            "citationItems": [
-                {
-                    "id": 59
-                }
-            ], 
-            "properties": {
-                "index": 2, 
-                "noteIndex": 0
-            }
-        }, 
-        [
-            [
-                "14eia8mbkt", 
-                0
-            ], 
-            [
-                "6vv2a1gh3", 
-                0
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": 55
+    }
+  ],
+  [
+    {
+      "id": 53
+    }
+  ],
+  [
+    {
+      "id": 59
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
->>===== CSL =====>>
+>>==== CSL ====>>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
   <info>
     <title>Modern Language Association</title>
@@ -146,22 +99,11 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
   {
-    "id": 55,
-    "type": "book",
-    "multi": {
-      "_keys": {}
-    },
-    "title": "A Critique of Postcolonial Reason: Toward a History of the Vanishing Present",
-    "publisher": "Harvard University Press",
-    "publisher-place": "Cambridge, Mass.",
-    "event-place": "Cambridge, Mass.",
-    "note": "Gayatri Chakravorty Spivak. 25 cm.",
-    "title-short": "A Critique",
     "author": [
       {
         "family": "Spivak",
@@ -169,27 +111,26 @@ citation
         "isInstitution": ""
       }
     ],
+    "event-place": "Cambridge, Mass.",
+    "id": 55,
     "issued": {
       "date-parts": [
         [
           1999
         ]
       ]
-    }
-  },
-  {
-    "id": 53,
-    "type": "chapter",
+    },
     "multi": {
       "_keys": {}
     },
-    "title": "Cultural Talks in the 'Hot Peace': Revisiting the Global Village",
-    "container-title": "Cosmopolitics: Thinking and Feeling Beyond the Nation",
-    "publisher": "University of Minnesota Press",
-    "publisher-place": "Minneapolis",
-    "page": "329 - 348",
-    "event-place": "Minneapolis",
-    "title-short": "Cultural Talks",
+    "note": "Gayatri Chakravorty Spivak. 25 cm.",
+    "publisher": "Harvard University Press",
+    "publisher-place": "Cambridge, Mass.",
+    "title": "A Critique of Postcolonial Reason: Toward a History of the Vanishing Present",
+    "title-short": "A Critique",
+    "type": "book"
+  },
+  {
     "author": [
       {
         "family": "Spivak",
@@ -197,6 +138,7 @@ citation
         "isInstitution": ""
       }
     ],
+    "container-title": "Cosmopolitics: Thinking and Feeling Beyond the Nation",
     "editor": [
       {
         "family": "Cheah",
@@ -209,25 +151,26 @@ citation
         "isInstitution": ""
       }
     ],
+    "event-place": "Minneapolis",
+    "id": 53,
     "issued": {
       "date-parts": [
         [
           1998
         ]
       ]
-    }
-  },
-  {
-    "id": 59,
-    "type": "book",
+    },
     "multi": {
       "_keys": {}
     },
-    "title": "Death of a Discipline",
-    "publisher": "Columbia University Press",
-    "publisher-place": "New York",
-    "event-place": "New York",
-    "note": "Gayatri Chakravorty Spivak. Crossing borders â€• Collectivities â€• Planetarity.",
+    "page": "329 - 348",
+    "publisher": "University of Minnesota Press",
+    "publisher-place": "Minneapolis",
+    "title": "Cultural Talks in the 'Hot Peace': Revisiting the Global Village",
+    "title-short": "Cultural Talks",
+    "type": "chapter"
+  },
+  {
     "author": [
       {
         "family": "Spivak",
@@ -235,13 +178,24 @@ citation
         "isInstitution": ""
       }
     ],
+    "event-place": "New York",
+    "id": 59,
     "issued": {
       "date-parts": [
         [
           2003
         ]
       ]
-    }
+    },
+    "multi": {
+      "_keys": {}
+    },
+    "note": "Gayatri Chakravorty Spivak. Crossing borders â€• Collectivities â€• Planetarity.",
+    "publisher": "Columbia University Press",
+    "publisher-place": "New York",
+    "title": "Death of a Discipline",
+    "type": "book"
   }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

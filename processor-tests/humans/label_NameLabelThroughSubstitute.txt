@@ -1,38 +1,24 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-
-
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">Wolf, K. S. (2005). The future for Deaf individuals is not that bleak [Peer commentary, <i>Decrease of Deaf potential in a mainstreamed environment</i>, by W. C. Hall]. Retrieved from http://www.personalityresearch.org/papers/hall.html</div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" page-range-format="expanded">
   <info>
@@ -1421,31 +1407,31 @@ bibliography
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-	{
-		"id": "ITEM-1",
-		"type": "post-weblog",
-		"title": "The future for Deaf individuals is not that bleak",
-		"URL": "http://www.personalityresearch.org/papers/hall.html",
-		"note": "reviewed-title: Decrease of Deaf potential in a mainstreamed environment\ngenre: Peer commentary\nreviewed-author: Hall || W.C.",
-		"language": "en",
-		"author": [
-			{
-				"family": "Wolf",
-				"given": "K.S."
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2005"
-				]
-			]
-		}
-	}
+  {
+    "URL": "http://www.personalityresearch.org/papers/hall.html",
+    "author": [
+      {
+        "family": "Wolf",
+        "given": "K.S."
+      }
+    ],
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          "2005"
+        ]
+      ]
+    },
+    "language": "en",
+    "note": "reviewed-title: Decrease of Deaf potential in a mainstreamed environment\ngenre: Peer commentary\nreviewed-author: Hall || W.C.",
+    "title": "The future for Deaf individuals is not that bleak",
+    "type": "post-weblog"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

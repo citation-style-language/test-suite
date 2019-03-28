@@ -1,16 +1,28 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+(van One, van Two)
+(van Three, Van Four)
+<<==== RESULT ====<<
 
+>>==== CITATION-ITEMS ====>>
+[
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-2"
+    }
+  ]
+]
+<<==== CITATION-ITEMS ====<<
 
->>===== RESULT =====>>
-..[0] (van One, van Two)
->>[1] (van Three, Van Four)
-<<===== RESULT =====<<
-
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -31,79 +43,38 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== CITATIONS =====>>
+>>==== INPUT ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 2
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ]
-        ], 
-        []
-    ]
+  {
+    "author": [
+      {
+        "family": "van One",
+        "given": "Onename"
+      },
+      {
+        "family": "van Two",
+        "given": "Twoname"
+      }
+    ],
+    "id": "ITEM-1",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "van Three",
+        "given": "Threename"
+      },
+      {
+        "family": "Van Four",
+        "given": "Fourname"
+      }
+    ],
+    "id": "ITEM-2",
+    "type": "book"
+  }
 ]
-<<===== CITATIONS =====<<
+<<==== INPUT ====<<
 
-
->>===== INPUT =====>>
-[
-    {
-        "author": [
-            {
-                "family": "van One",
-                "given": "Onename"
-            },
-            {
-                "family": "van Two",
-                "given": "Twoname"
-            }
-        ], 
-        "id": "ITEM-1", 
-        "type": "book"
-    },
-    {
-        "author": [
-            {
-                "family": "van Three",
-                "given": "Threename"
-            },
-            {
-                "family": "Van Four",
-                "given": "Fourname"
-            }
-        ], 
-        "id": "ITEM-2", 
-        "type": "book"
-    }
-]
-<<===== INPUT =====<<

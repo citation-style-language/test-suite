@@ -1,33 +1,22 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
->>===== RESULT =====>>
->>[0] People v. Taylor, 73 N.Y.2d 683 (1989).
-<<===== RESULT =====<<
+>>==== RESULT ====>>
+People v. Taylor, 73 N.Y.2d 683 (1989).
+<<==== RESULT ====<<
 
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "1bpvp16as0", 
-            "citationItems": [
-                {
-                    "id": 97
-                }
-            ], 
-            "properties": {
-                "index": 0, 
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": 97
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
->>===== CSL =====>>
+>>==== CSL ====>>
 <style
        xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -463,27 +452,28 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
   {
-    "id": 97,
-    "type": "legal_case",
-    "multi": {
-      "_keys": {}
-    },
-    "title": "People v. Taylor",
     "container-title": "N.Y.2d",
-    "page": "683",
-    "volume": "73",
+    "id": 97,
     "issued": {
       "date-parts": [
         [
           1989
         ]
       ]
-    }
+    },
+    "multi": {
+      "_keys": {}
+    },
+    "page": "683",
+    "title": "People v. Taylor",
+    "type": "legal_case",
+    "volume": "73"
   }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

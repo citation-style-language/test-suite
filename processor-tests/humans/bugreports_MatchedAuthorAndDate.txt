@@ -1,42 +1,28 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-
-
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">Brown, J. 2006a, August. <b><i>Tijdschrift voor praktijkondersteuning</i></b>. http://dx.doi.org/10.1007/bf03074904.</div>
   <div class="csl-entry">Brown, J. 2006b, August. <b><i>Huisarts en Wetenschap</i></b>. http://dx.doi.org/10.1007/bf03084836.</div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="en-US">
   <info>
@@ -333,50 +319,50 @@ bibliography
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "ISSN": "1872-4078", 
-        "URL": "http://dx.doi.org/10.1007/bf03074904", 
-        "author": [
-            {
-                "family": "Brown", 
-                "given": "Jeff"
-            }
-        ], 
-        "container-title": "Tijdschrift voor praktijkondersteuning", 
-        "id": "ITEM-1", 
-        "issued": {
-            "date-parts": [
-                [
-                    2006, 
-                    8
-                ]
-            ]
-        }
-    }, 
-    {
-        "ISSN": "0018-7070", 
-        "URL": "http://dx.doi.org/10.1007/bf03084836", 
-        "author": [
-            {
-                "family": "Brown", 
-                "given": "Jeff"
-            }
-        ], 
-        "container-title": "Huisarts en Wetenschap", 
-        "id": "ITEM-2", 
-        "issued": {
-            "date-parts": [
-                [
-                    2006, 
-                    8
-                ]
-            ]
-        }
+  {
+    "ISSN": "1872-4078",
+    "URL": "http://dx.doi.org/10.1007/bf03074904",
+    "author": [
+      {
+        "family": "Brown",
+        "given": "Jeff"
+      }
+    ],
+    "container-title": "Tijdschrift voor praktijkondersteuning",
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          8
+        ]
+      ]
     }
+  },
+  {
+    "ISSN": "0018-7070",
+    "URL": "http://dx.doi.org/10.1007/bf03084836",
+    "author": [
+      {
+        "family": "Brown",
+        "given": "Jeff"
+      }
+    ],
+    "container-title": "Huisarts en Wetenschap",
+    "id": "ITEM-2",
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          8
+        ]
+      ]
+    }
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

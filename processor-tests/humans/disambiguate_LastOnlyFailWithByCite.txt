@@ -1,57 +1,28 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+Organisation 2010a
+Organisation 2010b
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] Organisation 2010a
->>[1] Organisation 2010b
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 2
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-2"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="in-text"
@@ -81,46 +52,50 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-   {
-      "id": "ITEM-1",
-      "type": "report",
-      "key": "QXTWKDFN",
-      "title": "blah",
-      "publisher-place": "Canberra",
-      "event-place": "Canberra",
-      "author": [
-         {
-            "family": "Organisation"
-         }
-      ],
-      "issued": {
-         "date-parts": [
-            [
-               2010
-            ]
-         ]
+  {
+    "author": [
+      {
+        "family": "Organisation"
       }
-   },
-   {
-      "id": "ITEM-2",
-      "type": "book",
-      "key": "HE34J5AE",
-      "title": "blash",
-      "publisher-place": "Melbourne",
-      "event-place": "Melbourne",
-      "author": [
-         {
-            "family": "Organisation"
-         }
-      ],
-      "issued": {
-         "date-parts": [[2010]]
+    ],
+    "event-place": "Canberra",
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "key": "QXTWKDFN",
+    "publisher-place": "Canberra",
+    "title": "blah",
+    "type": "report"
+  },
+  {
+    "author": [
+      {
+        "family": "Organisation"
       }
-   }
+    ],
+    "event-place": "Melbourne",
+    "id": "ITEM-2",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "key": "HE34J5AE",
+    "publisher-place": "Melbourne",
+    "title": "blash",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

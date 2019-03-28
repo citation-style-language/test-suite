@@ -1,57 +1,28 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+Blevins2001
+Blevins2001
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
-..[0] Blevins2001
->>[1] Blevins2001
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 2
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-2"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -75,38 +46,46 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Blevins",
-                "given": ""
-            }
-        ], 
-        "issued": {
-          "date-parts": [[2001]]
-        },
-        "id": "ITEM-1", 
-        "title": "Book 1",
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Blevins",
-                "given": ""
-            }
-        ], 
-        "issued": {
-          "date-parts": [[2001]]
-        },
-        "id": "ITEM-2", 
-        "title": "Book 2",
-        "type": "book"
-    }
+  {
+    "author": [
+      {
+        "family": "Blevins",
+        "given": ""
+      }
+    ],
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "title": "Book 1",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Blevins",
+        "given": ""
+      }
+    ],
+    "id": "ITEM-2",
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "title": "Book 2",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

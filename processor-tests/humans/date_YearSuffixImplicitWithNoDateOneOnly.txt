@@ -1,35 +1,22 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+(John Doe n.d. [Accessed: June 1, 1965])
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] (John Doe n.d. [Accessed: June 1, 1965])
-<<===== RESULT =====<<
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -65,29 +52,29 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "id": "ITEM-1", 
-        "author": [
-            {
-                "family": "Doe", 
-                "given": "John"
-            }
-        ], 
-        "accessed": {
-            "date-parts": [
-                [
-                    "1965", 
-                    "6", 
-                    "1"
-                ]
-            ]
-        }, 
-        "type": "book"
-    }
+  {
+    "accessed": {
+      "date-parts": [
+        [
+          "1965",
+          "6",
+          "1"
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Doe",
+        "given": "John"
+      }
+    ],
+    "id": "ITEM-1",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

@@ -1,88 +1,40 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+<i>My Prefix</i> My Title My Suffix
+My Prefix. My Title, My Suffix
+My Prefix My Title My Suffix
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
-..[0] <i>My Prefix</i> My Title My Suffix
-..[1] My Prefix. My Title, My Suffix
->>[2] My Prefix My Title My Suffix
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1", 
-                    "prefix": "<i>My Prefix</i>", 
-                    "suffix": "My Suffix"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1", 
-                    "prefix": "My Prefix.", 
-                    "suffix": ", My Suffix"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 2
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ]
-        ], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-3", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1", 
-                    "prefix": "My Prefix ", 
-                    "suffix": " My Suffix"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 3
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ], 
-            [
-                "CITATION-2", 
-                2
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1",
+      "prefix": "<i>My Prefix</i>",
+      "suffix": "My Suffix"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-1",
+      "prefix": "My Prefix.",
+      "suffix": ", My Suffix"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-1",
+      "prefix": "My Prefix ",
+      "suffix": " My Suffix"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -103,15 +55,15 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "title": "My Title",
-        "id": "ITEM-1", 
-        "type": "book"
-    }
+  {
+    "id": "ITEM-1",
+    "title": "My Title",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

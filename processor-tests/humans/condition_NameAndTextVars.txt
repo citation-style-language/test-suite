@@ -1,35 +1,22 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+should be this!
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] should be this!
-<<===== RESULT =====<<
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": 87
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": 87
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only">
   <info>
     <title>Chicago Manual of Style (author-date) [test match]</title>
@@ -67,32 +54,32 @@ citation
 </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-	{
-		"id": 87,
-		"type": "webpage",
-		"key": "178050_B4IMW86H",
-		"title": "Legal Dictionary",
-		"URL": "http://legal-dictionary.thefreedictionary.com/",
-		"author": [
-			{
-				"family": "Harvey",
-				"given": "Slurp"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2012",
-					4,
-					15
-				]
-			]
-		}
-	}
+  {
+    "URL": "http://legal-dictionary.thefreedictionary.com/",
+    "accessed": {
+      "date-parts": [
+        [
+          "2012",
+          4,
+          15
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Harvey",
+        "given": "Slurp"
+      }
+    ],
+    "id": 87,
+    "key": "178050_B4IMW86H",
+    "title": "Legal Dictionary",
+    "type": "webpage"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

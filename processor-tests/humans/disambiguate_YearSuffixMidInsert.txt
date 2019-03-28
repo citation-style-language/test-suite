@@ -1,83 +1,34 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-Test data from Zotero user brazuca.
+>>==== RESULT ====>>
+(UN DESA 2011b)
+(UN DESA 2011c)
+(UN DESA 2011a)
+<<==== RESULT ====<<
 
->>===== RESULT =====>>
->>[0] (UN DESA 2011b)
->>[1] (UN DESA 2011c)
->>[2] (UN DESA 2011a)
-<<===== RESULT =====<<
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "206sm2hms3", 
-            "citationItems": [
-                {
-                    "id": 76
-                }
-            ], 
-            "properties": {
-                "index": 0, 
-                "noteIndex": 0
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "2ntq47t8li", 
-            "citationItems": [
-                {
-                    "id": 71
-                }
-            ], 
-            "properties": {
-                "index": 1, 
-                "noteIndex": 0
-            }
-        }, 
-        [
-            [
-                "206sm2hms3", 
-                0
-            ]
-        ], 
-        []
-    ], 
-    [
-        {
-            "citationID": "1i0a7a5iuk", 
-            "citationItems": [
-                {
-                    "id": 72
-                }
-            ], 
-            "properties": {
-                "index": 2, 
-                "noteIndex": 0
-            }
-        }, 
-        [
-            [
-                "206sm2hms3", 
-                0
-            ], 
-            [
-                "2ntq47t8li", 
-                0
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": 76
+    }
+  ],
+  [
+    {
+      "id": 71
+    }
+  ],
+  [
+    {
+      "id": 72
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" page-range-format="chicago">
    <info>
@@ -447,22 +398,12 @@ Test data from Zotero user brazuca.
     </layout>
   </bibliography>
 </style>
+<<==== CSL ====<<
 
-<<===== CSL =====<<
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
   {
-    "id": 76,
-    "type": "report",
-    "multi": {
-      "_keys": {}
-    },
-    "title": "Monthly Briefing: World Economic Situation and Prospects",
-    "collection-title": "Monthly Briefing",
-    "publisher": "United Nations",
     "URL": "http://www.un.org/en/development/desa/policy/wesp/wesp_mb/wesp_mb30.pdf",
-    "number": "30",
     "author": [
       {
         "family": "UN DESA",
@@ -470,6 +411,8 @@ Test data from Zotero user brazuca.
         "isInstitution": ""
       }
     ],
+    "collection-title": "Monthly Briefing",
+    "id": 76,
     "issued": {
       "date-parts": [
         [
@@ -478,17 +421,16 @@ Test data from Zotero user brazuca.
           11
         ]
       ]
-    }
-  },
-  {
-    "id": 71,
-    "type": "report",
+    },
     "multi": {
       "_keys": {}
     },
-    "title": "World Economic Situation and Prospects 2011: Update as of mid-2011",
-    "collection-title": "WESP",
+    "number": "30",
     "publisher": "United Nations",
+    "title": "Monthly Briefing: World Economic Situation and Prospects",
+    "type": "report"
+  },
+  {
     "URL": "http://www.un.org/en/development/desa/policy/wesp/wesp_current/2011wespupdate_pr_en.pdf",
     "author": [
       {
@@ -497,6 +439,8 @@ Test data from Zotero user brazuca.
         "isInstitution": ""
       }
     ],
+    "collection-title": "WESP",
+    "id": 71,
     "issued": {
       "date-parts": [
         [
@@ -505,18 +449,15 @@ Test data from Zotero user brazuca.
           25
         ]
       ]
-    }
-  },
-  {
-    "id": 72,
-    "type": "book",
+    },
     "multi": {
       "_keys": {}
     },
-    "title": "World Economic Situation and Prospects 2011",
     "publisher": "United Nations",
-    "call-number": "E.11.II.C.2",
-    "note": "#",
+    "title": "World Economic Situation and Prospects 2011: Update as of mid-2011",
+    "type": "report"
+  },
+  {
     "author": [
       {
         "family": "UN DESA",
@@ -524,6 +465,8 @@ Test data from Zotero user brazuca.
         "isInstitution": ""
       }
     ],
+    "call-number": "E.11.II.C.2",
+    "id": 72,
     "issued": {
       "date-parts": [
         [
@@ -532,7 +475,15 @@ Test data from Zotero user brazuca.
           13
         ]
       ]
-    }
+    },
+    "multi": {
+      "_keys": {}
+    },
+    "note": "#",
+    "publisher": "United Nations",
+    "title": "World Economic Situation and Prospects 2011",
+    "type": "book"
   }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

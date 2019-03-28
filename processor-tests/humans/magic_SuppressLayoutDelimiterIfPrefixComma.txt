@@ -1,38 +1,26 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
->>===== CITATIONS =====>>
+>>==== RESULT ====>>
+Book A, cited in Book B
+<<==== RESULT ====<<
+
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2", 
-                    "prefix": ", cited in"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2",
+      "prefix": ", cited in"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== RESULT =====>>
->>[0] Book A, cited in Book B
-<<===== RESULT =====<<
-
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -48,20 +36,20 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "id": "ITEM-1", 
-        "title": "Book A", 
-        "type": "book"
-    },
-    {
-        "id": "ITEM-2", 
-        "title": "Book B", 
-        "type": "book"
-    }
+  {
+    "id": "ITEM-1",
+    "title": "Book A",
+    "type": "book"
+  },
+  {
+    "id": "ITEM-2",
+    "title": "Book B",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

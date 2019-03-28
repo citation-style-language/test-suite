@@ -1,40 +1,28 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
->>===== CITATIONS =====>>
-[
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
-]
-<<===== CITATIONS =====<<
-
-
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry"><i>Anonymous Journal</i>.</div>
   <div class="csl-entry"><i>Anonymous Journal One</i>.</div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
+>>==== CITATION-ITEMS ====>>
+[
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    }
+  ]
+]
+<<==== CITATION-ITEMS ====<<
 
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" initialize="false" initialize-with-hyphen="false" default-locale="fr-CA">
   <info>
@@ -346,22 +334,22 @@ bibliography
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "container-title": "Anonymous Journal", 
-        "id": "ITEM-1", 
-        "journalAbbreviation": "Anon J", 
-        "type": "article-journal"
-    },
-    {
-        "container-title": "Anonymous Journal One", 
-        "id": "ITEM-2", 
-        "journalAbbreviation": "Journal-1", 
-        "type": "chapter"
-    }
+  {
+    "container-title": "Anonymous Journal",
+    "id": "ITEM-1",
+    "journalAbbreviation": "Anon J",
+    "type": "article-journal"
+  },
+  {
+    "container-title": "Anonymous Journal One",
+    "id": "ITEM-2",
+    "journalAbbreviation": "Journal-1",
+    "type": "chapter"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

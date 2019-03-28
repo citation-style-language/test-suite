@@ -1,46 +1,32 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-
-
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">Effinger</div>
   <div class="csl-entry">Ging</div>
   <div class="csl-entry">Jamey</div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }, 
-                {
-                    "id": "ITEM-3"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    },
+    {
+      "id": "ITEM-3"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -69,75 +55,40 @@ bibliography
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Effinger", 
-                "given": "Eda"
-            }
-        ], 
-        "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Jamey", 
-                "given": "Jantzen" 
-            }
-        ], 
-        "id": "ITEM-2", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Ting", 
-                "given": "Tina" 
-            }
-        ], 
-        "id": "ITEM-3", 
-        "type": "book"
-    }
+  {
+    "author": [
+      {
+        "family": "Effinger",
+        "given": "Eda"
+      }
+    ],
+    "id": "ITEM-1",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Jamey",
+        "given": "Jantzen"
+      }
+    ],
+    "id": "ITEM-2",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Ging",
+        "given": "Tina"
+      }
+    ],
+    "id": "ITEM-3",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
 
->>===== INPUT2 =====>>
-[
-    {
-        "author": [
-            {
-                "family": "Effinger", 
-                "given": "Eda"
-            }
-        ], 
-        "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Jamey", 
-                "given": "Jantzen" 
-            }
-        ], 
-        "id": "ITEM-2", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Ging", 
-                "given": "Tina" 
-            }
-        ], 
-        "id": "ITEM-3", 
-        "type": "book"
-    }
-]
-<<===== INPUT2 =====<<

@@ -1,58 +1,29 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+Title One, 123
+Title Two
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
-..[0] Title One, 123
->>[1] Title Two
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1", 
-                    "locator": "123"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 2
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1",
+      "locator": "123"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-2"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -71,22 +42,22 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "title": "Title One",
-        "section": "456",
-        "id": "ITEM-1", 
-        "type": "legislation"
-    },
-    {
-        "title": "Title Two",
-        "section": "456",
-        "id": "ITEM-2", 
-        "type": "legislation"
-    }
+  {
+    "id": "ITEM-1",
+    "section": "456",
+    "title": "Title One",
+    "type": "legislation"
+  },
+  {
+    "id": "ITEM-2",
+    "section": "456",
+    "title": "Title Two",
+    "type": "legislation"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

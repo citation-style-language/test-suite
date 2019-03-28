@@ -1,39 +1,22 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+His Anonymous Life
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] His Anonymous Life
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "index": 0, 
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
-
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -77,16 +60,15 @@ citation
     </layout>
   </citation>
 </style>
+<<==== CSL ====<<
 
-<<===== CSL =====<<
-
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "id": "ITEM-1", 
-        "title": "His Anonymous Life", 
-        "type": "chapter"
-    }
+  {
+    "id": "ITEM-1",
+    "title": "His Anonymous Life",
+    "type": "chapter"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

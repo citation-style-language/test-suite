@@ -1,80 +1,34 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+Smith 1990a
+Smith 1990b
+Jones 1990
+<<==== RESULT ====<<
 
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 0
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 0
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                0
-            ]
-        ], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-3", 
-            "citationItems": [
-                {
-                    "id": "ITEM-3"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 0
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                0
-            ], 
-            [
-                "CITATION-2", 
-                0
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-2"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-3"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
->>===== RESULT =====>>
-..[0] Smith 1990a
-..[1] Smith 1990b
->>[2] Jones 1990
-<<===== RESULT =====<<
-
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -109,64 +63,64 @@ citation
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John" 
-            }
-        ], 
-        "id": "ITEM-1", 
-        "issued": {
-            "date-parts": [
-                [
-                    "1990"
-                ]
-            ]
-        }, 
-        "title": "Book A", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John" 
-            }
-        ], 
-        "id": "ITEM-2", 
-        "issued": {
-            "date-parts": [
-                [
-                    "1990"
-                ]
-            ]
-        }, 
-        "title": "Book B", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Jones", 
-                "given": "Bob" 
-            }
-        ], 
-        "id": "ITEM-3", 
-        "issued": {
-            "date-parts": [
-                [
-                    "1990"
-                ]
-            ]
-        }, 
-        "title": "Book C", 
-        "type": "book"
-    }
+  {
+    "author": [
+      {
+        "family": "Smith",
+        "given": "John"
+      }
+    ],
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          "1990"
+        ]
+      ]
+    },
+    "title": "Book A",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Smith",
+        "given": "John"
+      }
+    ],
+    "id": "ITEM-2",
+    "issued": {
+      "date-parts": [
+        [
+          "1990"
+        ]
+      ]
+    },
+    "title": "Book B",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Jones",
+        "given": "Bob"
+      }
+    ],
+    "id": "ITEM-3",
+    "issued": {
+      "date-parts": [
+        [
+          "1990"
+        ]
+      ]
+    },
+    "title": "Book C",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

@@ -1,57 +1,28 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+(Caritas Europa et al. 2004a)
+(Caritas Europa et al. 2004b)
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] (Caritas Europa et al. 2004a)
->>[1] (Caritas Europa et al. 2004b)
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 2
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-2"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" page-range-format="chicago">
    <info>
@@ -421,111 +392,110 @@ citation
     </layout>
   </bibliography>
 </style>
+<<==== CSL ====<<
 
-<<===== CSL =====<<
-
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-   {
-      "id": "ITEM-1",
-      "type": "article",
-      "title": "Integrating Migrants, Integrating Societies: Essential Elements for EU Migration Policy",
-      "URL": "http://www.comece.org/site/en/publications/otherpublications/article/3341.html",
-      "author": [
-         {
-            "family": "Caritas Europa",
-            "isInstitution": "true"
-         },
-         {
-            "family": "CCME",
-            "isInstitution": "true"
-         },
-         {
-            "family": "COMECE",
-            "isInstitution": "true"
-         },
-         {
-            "family": "ICMC",
-            "isInstitution": "true"
-         },
-         {
-            "family": "JRS-Europe",
-            "isInstitution": "true"
-         },
-         {
-            "family": "QCEA",
-            "isInstitution": "true"
-         }
-      ],
-      "issued": {
-         "date-parts": [
-            [
-               "2004",
-               12,
-               18
-            ]
-         ]
+  {
+    "URL": "http://www.comece.org/site/en/publications/otherpublications/article/3341.html",
+    "accessed": {
+      "date-parts": [
+        [
+          2012,
+          1,
+          16
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Caritas Europa",
+        "isInstitution": "true"
       },
-      "accessed": {
-         "date-parts": [
-            [
-               2012,
-               1,
-               16
-            ]
-         ]
-      }
-   },
-   {
-      "id": "ITEM-2",
-      "type": "article",
-      "title": "Integrating Migrants, Integrating Societies: Essential Elements for EU Migration Policy",
-      "URL": "http://www.comece.org/site/en/publications/otherpublications/article/3341.html",
-      "author": [
-         {
-            "family": "Caritas Europa",
-            "isInstitution": "true"
-         },
-         {
-            "family": "CCME",
-            "isInstitution": "true"
-         },
-         {
-            "family": "COMECE",
-            "isInstitution": "true"
-         },
-         {
-            "family": "ICMC",
-            "isInstitution": "true"
-         },
-         {
-            "family": "JRS-Europe",
-            "isInstitution": "true"
-         },
-         {
-            "family": "QCEA",
-            "isInstitution": "true"
-         }
-      ],
-      "issued": {
-         "date-parts": [
-            [
-               "2004",
-               12,
-               18
-            ]
-         ]
+      {
+        "family": "CCME",
+        "isInstitution": "true"
       },
-      "accessed": {
-         "date-parts": [
-            [
-               2012,
-               1,
-               16
-            ]
-         ]
+      {
+        "family": "COMECE",
+        "isInstitution": "true"
+      },
+      {
+        "family": "ICMC",
+        "isInstitution": "true"
+      },
+      {
+        "family": "JRS-Europe",
+        "isInstitution": "true"
+      },
+      {
+        "family": "QCEA",
+        "isInstitution": "true"
       }
-   }
+    ],
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          "2004",
+          12,
+          18
+        ]
+      ]
+    },
+    "title": "Integrating Migrants, Integrating Societies: Essential Elements for EU Migration Policy",
+    "type": "article"
+  },
+  {
+    "URL": "http://www.comece.org/site/en/publications/otherpublications/article/3341.html",
+    "accessed": {
+      "date-parts": [
+        [
+          2012,
+          1,
+          16
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Caritas Europa",
+        "isInstitution": "true"
+      },
+      {
+        "family": "CCME",
+        "isInstitution": "true"
+      },
+      {
+        "family": "COMECE",
+        "isInstitution": "true"
+      },
+      {
+        "family": "ICMC",
+        "isInstitution": "true"
+      },
+      {
+        "family": "JRS-Europe",
+        "isInstitution": "true"
+      },
+      {
+        "family": "QCEA",
+        "isInstitution": "true"
+      }
+    ],
+    "id": "ITEM-2",
+    "issued": {
+      "date-parts": [
+        [
+          "2004",
+          12,
+          18
+        ]
+      ]
+    },
+    "title": "Integrating Migrants, Integrating Societies: Essential Elements for EU Migration Policy",
+    "type": "article"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

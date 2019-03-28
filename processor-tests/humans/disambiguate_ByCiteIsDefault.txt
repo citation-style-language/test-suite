@@ -1,57 +1,28 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+(Hall and Thelen, 2009)
+(Steinmo et al., 1992)
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
-..[0] (Hall and Thelen, 2009)
->>[1] (Steinmo et al., 1992)
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 2
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-2"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="en-US">
   <info>
@@ -281,90 +252,89 @@ citation
     </layout>
   </bibliography>
 </style>
+<<==== CSL ====<<
 
-<<===== CSL =====<<
-
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-	{
-		"id": "ITEM-1",
-		"type": "article-journal",
-		"key": "7NI2TA9B",
-		"title": "Institutional change in varieties of capitalism",
-		"container-title": "Socioecon Rev",
-		"page": "7-34",
-		"volume": "7",
-		"issue": "1",
-		"source": "HighWire",
-		"abstract": "Contemporary approaches to varieties to capitalism are often criticized for neglecting issues of institutional change. This paper develops an approach to institutional change more extended than the one provided in Hall and Soskice (in Varieties of Capitalism: The Institutional Foundations of Comparative Advantage, Oxford, Oxford University Press, 2001) but congruent with its varieties-of-capitalism perspective. It begins by outlining an approach to institutional stability, which suggests that the persistence of institutions depends not only on their aggregate welfare effects but also on the distributive benefits that they provide to the underlying social or political coalitions; and not only on the Pareto-optimal quality of such equilibria but also on continuous processes of mobilization through which the actors test the limits of the existing institutions. It then develops an analysis of institutional change that emphasizes the ways in which defection, reinterpretation and reform emerge out of such contestation and assesses the accuracy of this account against recent developments in the political economies of Europe. The paper concludes by outlining the implications of this perspective for contemporary analyses of liberalization in the political economy.",
-		"URL": "http://ser.oxfordjournals.org/cgi/content/abstract/7/1/7",
-		"DOI": "10.1093/ser/mwn020",
-		"author": [
-			{
-				"family": "Hall",
-				"given": "Peter A"
-			},
-			{
-				"family": "Thelen",
-				"given": "Kathleen A"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2009",
-					1,
-					1
-				]
-			]
-		},
-		"accessed": {
-			"date-parts": [
-				[
-					"2009",
-					2,
-					25
-				]
-			]
-		}
-	},
-	{
-		"id": "ITEM-2",
-		"type": "book",
-		"key": "P9VUFEPC",
-		"title": "Structuring Politics: Historical Institutionalism in Comparative Analysis",
-		"collection-title": "Cambridge studies in comparative politics",
-		"publisher": "Cambridge University Press",
-		"publisher-place": "Cambridge [England]",
-		"number-of-pages": "257",
-		"source": "nucat.library.northwestern.edu Library Catalog",
-		"event-place": "Cambridge [England]",
-		"archive-place": "Cambridge [England]",
-		"ISBN": "0521417805",
-		"call-number": "JF11 .S77 1992",
-		"title-short": "Structuring Politics",
-		"editor": [
-			{
-				"family": "Steinmo",
-				"given": "Sven"
-			},
-			{
-				"family": "Thelen",
-				"given": "Kathleen Ann"
-			},
-			{
-				"family": "Longstreth",
-				"given": "Frank"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"1992"
-				]
-			]
-		}
-	}
+  {
+    "DOI": "10.1093/ser/mwn020",
+    "URL": "http://ser.oxfordjournals.org/cgi/content/abstract/7/1/7",
+    "abstract": "Contemporary approaches to varieties to capitalism are often criticized for neglecting issues of institutional change. This paper develops an approach to institutional change more extended than the one provided in Hall and Soskice (in Varieties of Capitalism: The Institutional Foundations of Comparative Advantage, Oxford, Oxford University Press, 2001) but congruent with its varieties-of-capitalism perspective. It begins by outlining an approach to institutional stability, which suggests that the persistence of institutions depends not only on their aggregate welfare effects but also on the distributive benefits that they provide to the underlying social or political coalitions; and not only on the Pareto-optimal quality of such equilibria but also on continuous processes of mobilization through which the actors test the limits of the existing institutions. It then develops an analysis of institutional change that emphasizes the ways in which defection, reinterpretation and reform emerge out of such contestation and assesses the accuracy of this account against recent developments in the political economies of Europe. The paper concludes by outlining the implications of this perspective for contemporary analyses of liberalization in the political economy.",
+    "accessed": {
+      "date-parts": [
+        [
+          "2009",
+          2,
+          25
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Hall",
+        "given": "Peter A"
+      },
+      {
+        "family": "Thelen",
+        "given": "Kathleen A"
+      }
+    ],
+    "container-title": "Socioecon Rev",
+    "id": "ITEM-1",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          "2009",
+          1,
+          1
+        ]
+      ]
+    },
+    "key": "7NI2TA9B",
+    "page": "7-34",
+    "source": "HighWire",
+    "title": "Institutional change in varieties of capitalism",
+    "type": "article-journal",
+    "volume": "7"
+  },
+  {
+    "ISBN": "0521417805",
+    "archive-place": "Cambridge [England]",
+    "call-number": "JF11 .S77 1992",
+    "collection-title": "Cambridge studies in comparative politics",
+    "editor": [
+      {
+        "family": "Steinmo",
+        "given": "Sven"
+      },
+      {
+        "family": "Thelen",
+        "given": "Kathleen Ann"
+      },
+      {
+        "family": "Longstreth",
+        "given": "Frank"
+      }
+    ],
+    "event-place": "Cambridge [England]",
+    "id": "ITEM-2",
+    "issued": {
+      "date-parts": [
+        [
+          "1992"
+        ]
+      ]
+    },
+    "key": "P9VUFEPC",
+    "number-of-pages": "257",
+    "publisher": "Cambridge University Press",
+    "publisher-place": "Cambridge [England]",
+    "source": "nucat.library.northwestern.edu Library Catalog",
+    "title": "Structuring Politics: Historical Institutionalism in Comparative Analysis",
+    "title-short": "Structuring Politics",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

@@ -1,10 +1,8 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-
-
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">d’Wander, W</div>
   <div class="csl-entry">de’ Frinkle, B</div>
@@ -15,54 +13,40 @@ bibliography
   <div class="csl-entry">’t Horvath, P A C</div>
   <div class="csl-entry">Vooz, B</div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }, 
-                {
-                    "id": "ITEM-3"
-                }, 
-                {
-                    "id": "ITEM-4"
-                }, 
-                {
-                    "id": "ITEM-5"
-                }, 
-                {
-                    "id": "ITEM-6"
-                }, 
-                {
-                    "id": "ITEM-7"
-                }, 
-                {
-                    "id": "ITEM-8"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    },
+    {
+      "id": "ITEM-3"
+    },
+    {
+      "id": "ITEM-4"
+    },
+    {
+      "id": "ITEM-5"
+    },
+    {
+      "id": "ITEM-6"
+    },
+    {
+      "id": "ITEM-7"
+    },
+    {
+      "id": "ITEM-8"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -92,94 +76,90 @@ bibliography
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-2015-09-20: added test for space after trailing apostrophe
-
-XXX: Is the leading apostrophe meant to be an open single quote
-     in Dutch orthography?
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "'t Horvath", 
-                "given": "Peter A.A."
-            }
-        ], 
-        "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "in 't Horvath", 
-                "given": "Peter A.B."
-            }
-        ], 
-        "id": "ITEM-2", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "'t Horvath", 
-                "given": "Peter A.C."
-            }
-        ], 
-        "id": "ITEM-3", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "in 't Horvath", 
-                "given": "Peter A.D."
-            }
-        ], 
-        "id": "ITEM-4", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "de' Frinkle", 
-                "given": "Bevis" 
-            }
-        ], 
-        "id": "ITEM-5", 
-        "type": "book"
-    },
-    {
-        "author": [
-            {
-                "family": "Klabdaggit", 
-                "given": "Mizo" 
-            }
-        ], 
-        "id": "ITEM-6", 
-        "type": "book"
-    },
-    {
-        "author": [
-            {
-                "family": "Vooz", 
-                "given": "Bablican" 
-            }
-        ], 
-        "id": "ITEM-7", 
-        "type": "book"
-    },
-    {
-        "author": [
-            {
-                "family": "d'Wander", 
-                "given": "William" 
-            }
-        ], 
-        "id": "ITEM-8", 
-        "type": "book"
-    }
+  {
+    "author": [
+      {
+        "family": "'t Horvath",
+        "given": "Peter A.A."
+      }
+    ],
+    "id": "ITEM-1",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "in 't Horvath",
+        "given": "Peter A.B."
+      }
+    ],
+    "id": "ITEM-2",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "'t Horvath",
+        "given": "Peter A.C."
+      }
+    ],
+    "id": "ITEM-3",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "in 't Horvath",
+        "given": "Peter A.D."
+      }
+    ],
+    "id": "ITEM-4",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "de' Frinkle",
+        "given": "Bevis"
+      }
+    ],
+    "id": "ITEM-5",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Klabdaggit",
+        "given": "Mizo"
+      }
+    ],
+    "id": "ITEM-6",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Vooz",
+        "given": "Bablican"
+      }
+    ],
+    "id": "ITEM-7",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "d'Wander",
+        "given": "William"
+      }
+    ],
+    "id": "ITEM-8",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

@@ -1,36 +1,22 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+<span style="font-variant:small-caps;">Center for History and New Media</span>, « Zotero Quick Start Guide », s.d., [En ligne]. &#60;http://zotero.org/support/quick_start_guide&#62;. .
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] <span style="font-variant:small-caps;">Center for History and New Media</span>, « Zotero Quick Start Guide », s.d., [En ligne]. &#60;http://zotero.org/support/quick_start_guide&#62;. .
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "http://zotero.org/users/local/0rmqTjvx/items/ABCD2345"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "http://zotero.org/users/local/0rmqTjvx/items/ABCD2345"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="UTF-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" default-locale="fr-FR" version="1.0" demote-non-dropping-particle="never">
   <info>
@@ -540,21 +526,21 @@ citation
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "id": "http://zotero.org/users/local/0rmqTjvx/items/ABCD2345",
-        "type": "webpage",
-        "title": "Zotero Quick Start Guide",
-        "URL": "http://zotero.org/support/quick_start_guide",
-        "author": [
-            {
-                "literal": "Center for History and New Media"
-            }
-        ]
-    }
+  {
+    "URL": "http://zotero.org/support/quick_start_guide",
+    "author": [
+      {
+        "literal": "Center for History and New Media"
+      }
+    ],
+    "id": "http://zotero.org/users/local/0rmqTjvx/items/ABCD2345",
+    "title": "Zotero Quick Start Guide",
+    "type": "webpage"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+
