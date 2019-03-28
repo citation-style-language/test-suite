@@ -205,10 +205,10 @@ class Params:
         if not os.path.exists( os.path.join("config", "processor.cnf") ):
             test_template = '''[jing]
 command: java -jar
-path: ../jing/bin/jing.jar
+path: ./jing/jing-20131210.jar
 
 [csl]
-v1.0: ../citeproc-js/csl/1.0/csl.rnc
+v1.0: ./schema/csl.rnc
 '''
             ofh = open( os.path.join("config", "processor.cnf"), "w+" )
             ofh.write(test_template)
