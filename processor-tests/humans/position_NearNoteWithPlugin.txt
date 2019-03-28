@@ -8,11 +8,11 @@ People v. Taylor, 73 N.Y.2d 683 (1989).
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": 97
-    }
-  ]
+    [
+        {
+            "id": 97
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

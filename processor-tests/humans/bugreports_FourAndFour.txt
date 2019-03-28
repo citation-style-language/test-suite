@@ -9,18 +9,18 @@ Anne Tyler, George Smith, John Brown, and Cat Felix, <i>Ladder of his’ Years</
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": 1,
-      "position": 0
-    }
-  ],
-  [
-    {
-      "id": 2,
-      "position": 0
-    }
-  ]
+    [
+        {
+            "id": 1, 
+            "position": 0
+        }
+    ], 
+    [
+        {
+            "id": 2, 
+            "position": 0
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

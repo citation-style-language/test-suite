@@ -9,20 +9,20 @@ His Anonymous Life, pages 427–430
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1",
-      "label": "page",
-      "locator": "327\\-30"
-    }
-  ],
-  [
-    {
-      "id": "ITEM-1",
-      "label": "page",
-      "locator": "427-30"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1", 
+            "label": "page", 
+            "locator": "327\\-30"
+        }
+    ], 
+    [
+        {
+            "id": "ITEM-1", 
+            "label": "page", 
+            "locator": "427-30"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

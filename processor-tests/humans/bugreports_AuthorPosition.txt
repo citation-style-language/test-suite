@@ -10,11 +10,11 @@ bibliography
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "aiid:2840020"
-    }
-  ]
+    [
+        {
+            "id": "aiid:2840020"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

@@ -8,12 +8,12 @@ citation
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1",
-      "prefix": "'quote',"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1", 
+            "prefix": "'quote',"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

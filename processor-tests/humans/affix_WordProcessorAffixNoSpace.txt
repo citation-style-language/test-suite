@@ -10,27 +10,27 @@ My Prefix My Title My Suffix
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1",
-      "prefix": "<i>My Prefix</i>",
-      "suffix": "My Suffix"
-    }
-  ],
-  [
-    {
-      "id": "ITEM-1",
-      "prefix": "My Prefix.",
-      "suffix": ", My Suffix"
-    }
-  ],
-  [
-    {
-      "id": "ITEM-1",
-      "prefix": "My Prefix ",
-      "suffix": " My Suffix"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1", 
+            "prefix": "<i>My Prefix</i>", 
+            "suffix": "My Suffix"
+        }
+    ], 
+    [
+        {
+            "id": "ITEM-1", 
+            "prefix": "My Prefix.", 
+            "suffix": ", My Suffix"
+        }
+    ], 
+    [
+        {
+            "id": "ITEM-1", 
+            "prefix": "My Prefix ", 
+            "suffix": " My Suffix"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

@@ -8,11 +8,11 @@ A. Alan Aalto
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

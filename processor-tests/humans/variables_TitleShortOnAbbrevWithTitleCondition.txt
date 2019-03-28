@@ -10,11 +10,11 @@ does not have title-short
 
 >>==== ABBREVIATIONS ====>>
 {
-  "default": {
-    "title": {
-      "My Long Title 1": "My Short Title"
+    "default": {
+        "title": {
+            "My Long Title 1": "My Short Title"
+        }
     }
-  }
 }
 <<==== ABBREVIATIONS ====<<
 

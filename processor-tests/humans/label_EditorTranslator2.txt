@@ -8,12 +8,12 @@ Some title, “Hello there”.
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1",
-      "suffix": ", \"Hello there\"."
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1", 
+            "suffix": ", \"Hello there\"."
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

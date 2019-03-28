@@ -9,28 +9,28 @@ APPLEBY, Aloysius, and Bobby BROWN; APPLEBY, Aloysius, Bobby BROWN and Cecile CR
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1"
-    },
-    {
-      "id": "ITEM-2"
-    },
-    {
-      "id": "ITEM-3"
-    }
-  ],
-  [
-    {
-      "id": "ITEM-4"
-    },
-    {
-      "id": "ITEM-5"
-    },
-    {
-      "id": "ITEM-6"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1"
+        }, 
+        {
+            "id": "ITEM-2"
+        }, 
+        {
+            "id": "ITEM-3"
+        }
+    ], 
+    [
+        {
+            "id": "ITEM-4"
+        }, 
+        {
+            "id": "ITEM-5"
+        }, 
+        {
+            "id": "ITEM-6"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

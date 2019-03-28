@@ -8,11 +8,11 @@ should be this!
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": 87
-    }
-  ]
+    [
+        {
+            "id": 87
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

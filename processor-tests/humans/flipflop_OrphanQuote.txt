@@ -8,11 +8,11 @@ Nation of "Positive Obligations " of State under the European Convention on Huma
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

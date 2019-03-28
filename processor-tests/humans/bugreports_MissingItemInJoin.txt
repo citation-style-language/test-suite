@@ -8,21 +8,21 @@ citation
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1",
-      "locator": "100",
-      "suffix": "This."
-    },
-    {
-      "id": "ITEM-2",
-      "locator": "200"
-    },
-    {
-      "id": "ITEM-3",
-      "locator": "300"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1", 
+            "locator": "100", 
+            "suffix": "This."
+        }, 
+        {
+            "id": "ITEM-2", 
+            "locator": "200"
+        }, 
+        {
+            "id": "ITEM-3", 
+            "locator": "300"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

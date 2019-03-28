@@ -8,11 +8,11 @@ Relationship of Core Self-Evaluation Traits—Self-Esteem, Generalized Self-Effi
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

@@ -8,12 +8,12 @@ citation
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1",
-      "prefix": "<i>Insha’Allah</i> is an Arabic phrase meaning ‘God willing’. Another Arabic word is <i>bukra</i>."
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1", 
+            "prefix": "<i>Insha’Allah</i> is an Arabic phrase meaning ‘God willing’. Another Arabic word is <i>bukra</i>."
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

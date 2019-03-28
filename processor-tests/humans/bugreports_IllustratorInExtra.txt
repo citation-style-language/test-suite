@@ -8,11 +8,11 @@ John C. Smith; Karl T. Brown
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

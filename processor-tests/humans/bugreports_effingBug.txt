@@ -8,16 +8,16 @@ Book One, 123 f.; Book Two, 456 f.
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1",
-      "locator": "123"
-    },
-    {
-      "id": "ITEM-2",
-      "locator": "123"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1", 
+            "locator": "123"
+        }, 
+        {
+            "id": "ITEM-2", 
+            "locator": "123"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

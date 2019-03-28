@@ -9,18 +9,18 @@ Caps after. Ibid.
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1",
-      "prefix": "Nocapsafter."
-    }
-  ],
-  [
-    {
-      "id": "ITEM-1",
-      "prefix": "Caps after."
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1", 
+            "prefix": "Nocapsafter."
+        }
+    ], 
+    [
+        {
+            "id": "ITEM-1", 
+            "prefix": "Caps after."
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

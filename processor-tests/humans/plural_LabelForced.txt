@@ -8,12 +8,12 @@ p. 32–34
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1",
-      "locator": "32-34"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1", 
+            "locator": "32-34"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

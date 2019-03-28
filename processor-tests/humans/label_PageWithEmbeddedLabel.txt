@@ -8,11 +8,11 @@ p. ch. 13
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

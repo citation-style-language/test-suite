@@ -8,11 +8,11 @@ citation
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "http://zotero.org/users/local/0rmqTjvx/items/ABCD2345"
-    }
-  ]
+    [
+        {
+            "id": "http://zotero.org/users/local/0rmqTjvx/items/ABCD2345"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

@@ -9,16 +9,16 @@ Pollock, 1979b
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1"
-    }
-  ],
-  [
-    {
-      "id": "ITEM-2"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1"
+        }
+    ], 
+    [
+        {
+            "id": "ITEM-2"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

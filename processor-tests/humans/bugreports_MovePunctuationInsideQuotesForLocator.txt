@@ -8,13 +8,13 @@ Jennifer J. Davis, “Men of Taste: Gender and Authority in the French Culinary 
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1",
-      "label": "sub verbo",
-      "locator": "\"gargoyle\""
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1", 
+            "label": "sub verbo", 
+            "locator": "\"gargoyle\""
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

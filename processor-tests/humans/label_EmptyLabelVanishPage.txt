@@ -8,12 +8,12 @@ citation
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1",
-      "locator": "53"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1", 
+            "locator": "53"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

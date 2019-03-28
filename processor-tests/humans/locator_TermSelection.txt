@@ -8,13 +8,13 @@ Book A, fol. 101
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1",
-      "label": "folio",
-      "locator": "101"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1", 
+            "label": "folio", 
+            "locator": "101"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

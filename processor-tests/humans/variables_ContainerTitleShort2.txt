@@ -15,14 +15,14 @@ bibliography
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1"
-    },
-    {
-      "id": "ITEM-2"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1"
+        }, 
+        {
+            "id": "ITEM-2"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

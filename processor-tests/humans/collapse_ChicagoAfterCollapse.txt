@@ -10,42 +10,42 @@ citation
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1"
-    },
-    {
-      "id": "ITEM-2"
-    },
-    {
-      "id": "ITEM-3"
-    },
-    {
-      "id": "ITEM-4"
-    }
-  ],
-  [
-    {
-      "id": "ITEM-5",
-      "locator": 328
-    },
-    {
-      "id": "ITEM-6",
-      "locator": 475
-    },
-    {
-      "id": "ITEM-7",
-      "locator": 67
-    }
-  ],
-  [
-    {
-      "id": "ITEM-1"
-    },
-    {
-      "id": "ITEM-4"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1"
+        }, 
+        {
+            "id": "ITEM-2"
+        }, 
+        {
+            "id": "ITEM-3"
+        }, 
+        {
+            "id": "ITEM-4"
+        }
+    ], 
+    [
+        {
+            "id": "ITEM-5", 
+            "locator": 328
+        }, 
+        {
+            "id": "ITEM-6", 
+            "locator": 475
+        }, 
+        {
+            "id": "ITEM-7", 
+            "locator": 67
+        }
+    ], 
+    [
+        {
+            "id": "ITEM-1"
+        }, 
+        {
+            "id": "ITEM-4"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 

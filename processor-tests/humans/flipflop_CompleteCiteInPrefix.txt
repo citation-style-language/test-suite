@@ -8,12 +8,12 @@ Wilhelm Dilthey, “The Types of World Views and Their Unfoldment Within the Met
 
 >>==== CITATION-ITEMS ====>>
 [
-  [
-    {
-      "id": "ITEM-1",
-      "prefix": "Wilhelm Dilthey, \"The Types of World Views and Their Unfoldment Within the Metaphysical Systems,\" in <i>Dilthey’s Philosophy of Existence: Introduction to Weltanschauungslehre</i>, trans. William Kluback and Martin Weinbaum (New York: Bookman Associates, 1957), 26–27"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1", 
+            "prefix": "Wilhelm Dilthey, \"The Types of World Views and Their Unfoldment Within the Metaphysical Systems,\" in <i>Dilthey’s Philosophy of Existence: Introduction to Weltanschauungslehre</i>, trans. William Kluback and Martin Weinbaum (New York: Bookman Associates, 1957), 26–27"
+        }
+    ]
 ]
 <<==== CITATION-ITEMS ====<<
 
