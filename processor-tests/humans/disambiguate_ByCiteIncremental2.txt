@@ -392,9 +392,9 @@ citation
         }, 
         "key": "T44568NT", 
         "page": "547–567", 
-        "title-short": "The servitization of manufacturing", 
         "source": "Google Scholar", 
         "title": "The servitization of manufacturing: a review of literature and reflection on future challenges", 
+        "title-short": "The servitization of manufacturing", 
         "type": "article-journal", 
         "volume": "20"
     }, 
@@ -442,9 +442,9 @@ citation
         "key": "BZ6F9U6V", 
         "language": "en", 
         "page": "1207-1215", 
-        "title-short": "Servitized manufacture", 
         "source": "pib.sagepub.com", 
         "title": "Servitized manufacture: Practical challenges of delivering integrated products and services", 
+        "title-short": "Servitized manufacture", 
         "type": "article-journal", 
         "volume": "223"
     }

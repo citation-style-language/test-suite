@@ -85,7 +85,7 @@ Date: (); Date: (Spring); Date: (Spring); Date: (); Date: (Winter)
             ]
         }, 
         "type": "book"
-    },
+    }, 
     {
         "id": "ITEM-5", 
         "issued": {

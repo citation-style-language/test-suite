@@ -314,8 +314,8 @@ Test a combination reported by Zotero user @gauthamg, 2012-03-12
         "key": "9E5QVF4E", 
         "note": "PMID: 11445689", 
         "page": "1370–1379", 
-        "title-short": "Evaluation of delirium in critically ill patients", 
         "title": "Evaluation of delirium in critically ill patients: validation of the Confusion Assessment Method for the Intensive Care Unit (CAM-ICU)", 
+        "title-short": "Evaluation of delirium in critically ill patients", 
         "type": "article-journal", 
         "volume": "29"
     }

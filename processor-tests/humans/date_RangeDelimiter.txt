@@ -62,40 +62,118 @@ bibliography
 >>===== INPUT =====>>
 [
     {
-        "title": "Year, Month, Day, with repeated month and year",
         "id": "ITEM-1", 
-        "type": "book",
-        "issued": { "date-parts": [[1999, 1, 2],[1999, 1, 4]] }
-    },
+        "issued": {
+            "date-parts": [
+                [
+                    1999, 
+                    1, 
+                    2
+                ], 
+                [
+                    1999, 
+                    1, 
+                    4
+                ]
+            ]
+        }, 
+        "title": "Year, Month, Day, with repeated month and year", 
+        "type": "book"
+    }, 
     {
-        "title": "Year, Month, Day, with differing month",
         "id": "ITEM-2", 
-        "type": "book",
-        "issued": { "date-parts": [[1999, 1, 2],[1999, 3, 4]] }
-    },
+        "issued": {
+            "date-parts": [
+                [
+                    1999, 
+                    1, 
+                    2
+                ], 
+                [
+                    1999, 
+                    3, 
+                    4
+                ]
+            ]
+        }, 
+        "title": "Year, Month, Day, with differing month", 
+        "type": "book"
+    }, 
     {
-        "title": "Year, Month, Day, with differing year",
         "id": "ITEM-3", 
-        "type": "book",
-        "issued": { "date-parts": [[1999, 1, 2],[2000, 1, 4]] }
-    },
+        "issued": {
+            "date-parts": [
+                [
+                    1999, 
+                    1, 
+                    2
+                ], 
+                [
+                    2000, 
+                    1, 
+                    4
+                ]
+            ]
+        }, 
+        "title": "Year, Month, Day, with differing year", 
+        "type": "book"
+    }, 
     {
-        "title": "Year, Month, with repeated year",
         "id": "ITEM-4", 
-        "type": "article-journal",
-        "issued": { "date-parts": [[1999, 1, 2],[1999, 3, 4]] }
-    },
+        "issued": {
+            "date-parts": [
+                [
+                    1999, 
+                    1, 
+                    2
+                ], 
+                [
+                    1999, 
+                    3, 
+                    4
+                ]
+            ]
+        }, 
+        "title": "Year, Month, with repeated year", 
+        "type": "article-journal"
+    }, 
     {
-        "title": "Year, Month, with differing year",
         "id": "ITEM-5", 
-        "type": "article-journal",
-        "issued": { "date-parts": [[1999, 1, 2],[2000, 3, 4]] }
-    },
+        "issued": {
+            "date-parts": [
+                [
+                    1999, 
+                    1, 
+                    2
+                ], 
+                [
+                    2000, 
+                    3, 
+                    4
+                ]
+            ]
+        }, 
+        "title": "Year, Month, with differing year", 
+        "type": "article-journal"
+    }, 
     {
-        "title": "Year, with differing year",
         "id": "ITEM-6", 
-        "type": "chapter",
-        "issued": { "date-parts": [[1999, 1, 2],[2000, 3, 4]] }
+        "issued": {
+            "date-parts": [
+                [
+                    1999, 
+                    1, 
+                    2
+                ], 
+                [
+                    2000, 
+                    3, 
+                    4
+                ]
+            ]
+        }, 
+        "title": "Year, with differing year", 
+        "type": "chapter"
     }
 ]
 <<===== INPUT =====<<
