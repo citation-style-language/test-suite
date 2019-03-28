@@ -1,36 +1,22 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+Shun’ichi Aalto
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] Shun’ichi Aalto
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -51,20 +37,20 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Aalto", 
-                "given": "Shun'ichi"
-            }
-        ], 
-        "id": "ITEM-1", 
-        "type": "book"
-    }
+  {
+    "author": [
+      {
+        "family": "Aalto",
+        "given": "Shun'ichi"
+      }
+    ],
+    "id": "ITEM-1",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

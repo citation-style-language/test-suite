@@ -1,8 +1,8 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">“A er det første bogstav i alfabetet”. Television broadcast. DR, 2011.</div>
   <div class="csl-entry">A Hansen, Martin. <i>Alfabetiseringsproblemer</i>. København: Gyldendal, 2012.</div>
@@ -11,46 +11,34 @@ bibliography
   <div class="csl-entry">B Gjengen. <i>Alfabeta</i>. Kbh, 2009.</div>
   <div class="csl-entry">Juul Jensen, Uffe, Carsten Hædersdal, og Mogens Kim Skadborg. “Etablering af klinisk etiske komitéer i Danmark: en praksis-filosofisk tilgang til klinisk etik fra bibliotek.dk”. <i>Bibliotek for læger</i> 206, nr. 1 (2014): 44–61.</div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }, 
-                {
-                    "id": "ITEM-3"
-                }, 
-                {
-                    "id": "ITEM-4"
-                }, 
-                {
-                    "id": "ITEM-5"
-                }, 
-                {
-                    "id": "ITEM-6"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    },
+    {
+      "id": "ITEM-3"
+    },
+    {
+      "id": "ITEM-4"
+    },
+    {
+      "id": "ITEM-5"
+    },
+    {
+      "id": "ITEM-6"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="never" page-range-format="chicago" default-locale="da-DK">
   <info>
@@ -1324,171 +1312,172 @@ bibliography
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
-
-
-
-
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-	{
-		"type": "book",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"id": "ITEM-1",
-		"title": "Det danske alfabet er sært",
-		"publisher": "Politiken",
-		"publisher-place": "Kbh",
-		"event-place": "Kbh",
-		"archive-place": "Kbh",
-		"author": [
-			{
-				"family": "Ab Delrahman",
-				"given": "Hussein",
-				"multi": {
-					"_key": {}
-				}
-			}
-		],
-		"issued": {
-			"raw": "2012"
-		}
-	},
-	{
-		"type": "book",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"id": "ITEM-2",
-		"title": "Alfabetiseringsproblemer",
-		"publisher": "Gyldendal",
-		"publisher-place": "København",
-		"event-place": "København",
-		"archive-place": "København",
-		"author": [
-			{
-				"family": "A Hansen",
-				"given": "Martin",
-				"multi": {
-					"_key": {}
-				}
-			}
-		],
-		"issued": {
-			"raw": "2012"
-		}
-	},
-	{
-		"type": "book",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"id": "ITEM-3",
-		"title": "Problemer med alfabetet",
-		"publisher": "Dafolo",
-		"publisher-place": "Kbh",
-		"event-place": "Kbh",
-		"archive-place": "Kbh",
-		"author": [
-			{
-				"family": "A kasernes fællesvirke",
-				"given": "",
-				"isInstitution": 1,
-				"multi": {
-					"_key": {}
-				}
-			}
-		],
-		"issued": {
-			"raw": "2015"
-		}
-	},
-	{
-		"type": "book",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"id": "ITEM-4",
-		"title": "Alfabeta",
-		"publisher-place": "Kbh",
-		"event-place": "Kbh",
-		"archive-place": "Kbh",
-		"author": [
-			{
-				"family": "B Gjengen",
-				"given": "",
-				"isInstitution": 1,
-				"multi": {
-					"_key": {}
-				}
-			}
-		],
-		"issued": {
-			"raw": "2009"
-		}
-	},
-	{
-		"type": "article-journal",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"id": "ITEM-5",
-		"title": "Etablering af klinisk etiske komitéer i Danmark: en praksis-filosofisk tilgang til klinisk etik fra bibliotek.dk",
-		"container-title": "Bibliotek for læger",
-		"page": "44-61",
-		"volume": "206",
-		"issue": "1",
-		"ISSN": "0906-5407",
-		"call-number": "61.01",
-		"author": [
-			{
-				"family": "Juul Jensen",
-				"given": "Uffe",
-				"multi": {
-					"_key": {}
-				}
-			},
-			{
-				"family": "Hædersdal",
-				"given": "Carsten",
-				"multi": {
-					"_key": {}
-				}
-			},
-			{
-				"family": "Skadborg",
-				"given": "Mogens Kim",
-				"multi": {
-					"_key": {}
-				}
-			}
-		],
-		"issued": {
-			"raw": "2014"
-		}
-	},
-	{
-		"type": "broadcast",
-		"multi": {
-			"main": {},
-			"_keys": {}
-		},
-		"id": "ITEM-6",
-		"title": "A er det første bogstav i alfabetet",
-		"publisher": "DR",
-		"issued": {
-			"raw": "2011"
-		},
-		"genre": "television broadcast"
-	}
+  {
+    "archive-place": "Kbh",
+    "author": [
+      {
+        "family": "Ab Delrahman",
+        "given": "Hussein",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "event-place": "Kbh",
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [],
+      "raw": "2012"
+    },
+    "multi": {
+      "_keys": {},
+      "main": {}
+    },
+    "publisher": "Politiken",
+    "publisher-place": "Kbh",
+    "title": "Det danske alfabet er sært",
+    "type": "book"
+  },
+  {
+    "archive-place": "København",
+    "author": [
+      {
+        "family": "A Hansen",
+        "given": "Martin",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "event-place": "København",
+    "id": "ITEM-2",
+    "issued": {
+      "date-parts": [],
+      "raw": "2012"
+    },
+    "multi": {
+      "_keys": {},
+      "main": {}
+    },
+    "publisher": "Gyldendal",
+    "publisher-place": "København",
+    "title": "Alfabetiseringsproblemer",
+    "type": "book"
+  },
+  {
+    "archive-place": "Kbh",
+    "author": [
+      {
+        "family": "A kasernes fællesvirke",
+        "given": "",
+        "isInstitution": 1,
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "event-place": "Kbh",
+    "id": "ITEM-3",
+    "issued": {
+      "date-parts": [],
+      "raw": "2015"
+    },
+    "multi": {
+      "_keys": {},
+      "main": {}
+    },
+    "publisher": "Dafolo",
+    "publisher-place": "Kbh",
+    "title": "Problemer med alfabetet",
+    "type": "book"
+  },
+  {
+    "archive-place": "Kbh",
+    "author": [
+      {
+        "family": "B Gjengen",
+        "given": "",
+        "isInstitution": 1,
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "event-place": "Kbh",
+    "id": "ITEM-4",
+    "issued": {
+      "date-parts": [],
+      "raw": "2009"
+    },
+    "multi": {
+      "_keys": {},
+      "main": {}
+    },
+    "publisher-place": "Kbh",
+    "title": "Alfabeta",
+    "type": "book"
+  },
+  {
+    "ISSN": "0906-5407",
+    "author": [
+      {
+        "family": "Juul Jensen",
+        "given": "Uffe",
+        "multi": {
+          "_key": {}
+        }
+      },
+      {
+        "family": "Hædersdal",
+        "given": "Carsten",
+        "multi": {
+          "_key": {}
+        }
+      },
+      {
+        "family": "Skadborg",
+        "given": "Mogens Kim",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "call-number": "61.01",
+    "container-title": "Bibliotek for læger",
+    "id": "ITEM-5",
+    "issue": "1",
+    "issued": {
+      "date-parts": [],
+      "raw": "2014"
+    },
+    "multi": {
+      "_keys": {},
+      "main": {}
+    },
+    "page": "44-61",
+    "title": "Etablering af klinisk etiske komitéer i Danmark: en praksis-filosofisk tilgang til klinisk etik fra bibliotek.dk",
+    "type": "article-journal",
+    "volume": "206"
+  },
+  {
+    "genre": "television broadcast",
+    "id": "ITEM-6",
+    "issued": {
+      "date-parts": [],
+      "raw": "2011"
+    },
+    "multi": {
+      "_keys": {},
+      "main": {}
+    },
+    "publisher": "DR",
+    "title": "A er det første bogstav i alfabetet",
+    "type": "broadcast"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

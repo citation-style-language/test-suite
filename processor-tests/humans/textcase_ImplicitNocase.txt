@@ -1,82 +1,34 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+My <span style="font-variant:small-caps;">small caps phrase</span> in a Title
+My <sup>superscript phrase</sup> in a Title
+My <sub>subscript phrase</sub> in a Title
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
-..[0] My <span style="font-variant:small-caps;">small caps phrase</span> in a Title
-..[1] My <sup>superscript phrase</sup> in a Title
->>[2] My <sub>subscript phrase</sub> in a Title
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 2
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ]
-        ], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-3", 
-            "citationItems": [
-                {
-                    "id": "ITEM-3"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 3
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ], 
-            [
-                "CITATION-2", 
-                2
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-2"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-3"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -92,25 +44,25 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "id": "ITEM-1", 
-        "type": "book",
-        "title": "My <sc>small caps phrase</sc> in a title"
-    }, 
-    {
-        "id": "ITEM-2", 
-        "type": "book",
-        "title": "My <sup>superscript phrase</sup> in a title"
-    }, 
-    {
-        "id": "ITEM-3", 
-        "type": "book",
-        "title": "My <sub>subscript phrase</sub> in a title"
-    }
+  {
+    "id": "ITEM-1",
+    "title": "My <sc>small caps phrase</sc> in a title",
+    "type": "book"
+  },
+  {
+    "id": "ITEM-2",
+    "title": "My <sup>superscript phrase</sup> in a title",
+    "type": "book"
+  },
+  {
+    "id": "ITEM-3",
+    "title": "My <sub>subscript phrase</sub> in a title",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

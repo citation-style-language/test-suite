@@ -1,46 +1,31 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+(Doe; Noakes; Roe; Snoakes)
+<<==== RESULT ====<<
 
->>===== RESULT =====>>
->>[0] (Doe; Noakes; Roe; Snoakes)
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-3"
-                }, 
-                {
-                    "id": "ITEM-4"
-                }, 
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "index": 0, 
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-3"
+    },
+    {
+      "id": "ITEM-4"
+    },
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -72,50 +57,50 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Doe", 
-                "given": "John"
-            }
-        ], 
-        "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Roe", 
-                "given": "Jane"
-            }
-        ], 
-        "id": "ITEM-2", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Noakes", 
-                "given": "John"
-            }
-        ], 
-        "id": "ITEM-3", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Snoakes", 
-                "given": "Richard"
-            }
-        ], 
-        "id": "ITEM-4", 
-        "type": "book"
-    }
+  {
+    "author": [
+      {
+        "family": "Doe",
+        "given": "John"
+      }
+    ],
+    "id": "ITEM-1",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Roe",
+        "given": "Jane"
+      }
+    ],
+    "id": "ITEM-2",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Noakes",
+        "given": "John"
+      }
+    ],
+    "id": "ITEM-3",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Snoakes",
+        "given": "Richard"
+      }
+    ],
+    "id": "ITEM-4",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

@@ -1,62 +1,30 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
->>===== CITATIONS =====>>
+>>==== RESULT ====>>
+Anne Tyler, George Smith, John Brown, and Cat Garfield, <i>Ladder of his’ Years</i>, vol. 2003 (New York: Ivy Books, 1997).
+Anne Tyler, George Smith, John Brown, and Cat Felix, <i>Ladder of his’ Years</i>, vol. 2003 (New York: Ivy Books, 1997).
+<<==== RESULT ====<<
+
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "Citation-1", 
-            "citationItems": [
-                {
-                    "id": 1, 
-                    "position": 0
-                }
-            ], 
-            "properties": {
-                "first-reference-note-number": 0, 
-                "index": 0, 
-                "near-note": true, 
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "Citation-2", 
-            "citationItems": [
-                {
-                    "id": 2, 
-                    "position": 0
-                }
-            ], 
-            "properties": {
-                "first-reference-note-number": 0, 
-                "index": 1, 
-                "near-note": true, 
-                "noteIndex": 2
-            }
-        }, 
-        [
-            [
-                "Citation-1", 
-                1
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": 1,
+      "position": 0
+    }
+  ],
+  [
+    {
+      "id": 2,
+      "position": 0
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== RESULT =====>>
->>[0] Anne Tyler, George Smith, John Brown, and Cat Garfield, <i>Ladder of his’ Years</i>, vol. 2003 (New York: Ivy Books, 1997).
->>[1] Anne Tyler, George Smith, John Brown, and Cat Felix, <i>Ladder of his’ Years</i>, vol. 2003 (New York: Ivy Books, 1997).
-<<===== RESULT =====<<
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -751,72 +719,78 @@ citation
     </layout>
   </bibliography>
 </style>
+<<==== CSL ====<<
 
-<<===== CSL =====<<
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-	{
-        "id": 1,
-        "type": "book",
-		"title" : "Ladder of his' Years",
-		"volume" : "2003",
-		"author": [
-        {
-			"family" : "Tyler",
-			"given": "Anne"
-		},
-        {
-			"family" : "Smith",
-			"given": "George"
-		},
-        {
-			"family" : "Brown",
-			"given": "John"
-		},
-        {
-			"family" : "Garfield",
-			"given": "Cat"
-		}
-        ],
-        "publisher-place": "New York",
-        "publisher": "Ivy Books",
-        "ISBN": "9780804113472",
-		"issued" : {
-			"date-parts": [
-			[1997] ]
-		}
-	},
-	{
-        "id": 2,
-        "type": "book",
-		"title" : "Ladder of his' Years",
-		"volume" : "2003",
-		"author": [
-        {
-			"family" : "Tyler",
-			"given": "Anne"
-		},
-        {
-			"family" : "Smith",
-			"given": "George"
-		},
-        {
-			"family" : "Brown",
-			"given": "John"
-		},
-        {
-			"family" : "Felix",
-			"given": "Cat"
-		}
-        ],
-        "publisher-place": "New York",
-        "publisher": "Ivy Books",
-        "ISBN": "9780804113472",
-		"issued" : {
-			"date-parts": [
-			[1997] ]
-		}
-	}
+  {
+    "ISBN": "9780804113472",
+    "author": [
+      {
+        "family": "Tyler",
+        "given": "Anne"
+      },
+      {
+        "family": "Smith",
+        "given": "George"
+      },
+      {
+        "family": "Brown",
+        "given": "John"
+      },
+      {
+        "family": "Garfield",
+        "given": "Cat"
+      }
+    ],
+    "id": 1,
+    "issued": {
+      "date-parts": [
+        [
+          1997
+        ]
+      ]
+    },
+    "publisher": "Ivy Books",
+    "publisher-place": "New York",
+    "title": "Ladder of his' Years",
+    "type": "book",
+    "volume": "2003"
+  },
+  {
+    "ISBN": "9780804113472",
+    "author": [
+      {
+        "family": "Tyler",
+        "given": "Anne"
+      },
+      {
+        "family": "Smith",
+        "given": "George"
+      },
+      {
+        "family": "Brown",
+        "given": "John"
+      },
+      {
+        "family": "Felix",
+        "given": "Cat"
+      }
+    ],
+    "id": 2,
+    "issued": {
+      "date-parts": [
+        [
+          1997
+        ]
+      ]
+    },
+    "publisher": "Ivy Books",
+    "publisher-place": "New York",
+    "title": "Ladder of his' Years",
+    "type": "book",
+    "volume": "2003"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

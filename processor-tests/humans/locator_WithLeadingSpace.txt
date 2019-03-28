@@ -1,37 +1,23 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+Hello Title:666
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] Hello Title:666
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1", 
-                    "locator": " 666"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1",
+      "locator": " 666"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -56,15 +42,15 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "id": "ITEM-1", 
-        "type": "book",
-        "title": "Hello Title"
-    }
+  {
+    "id": "ITEM-1",
+    "title": "Hello Title",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

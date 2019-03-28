@@ -1,39 +1,25 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+(Roe, 1995, 1996)
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] (Roe, 1995, 1996)
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
    <info>
@@ -248,40 +234,44 @@ This work is licensed under a Creative Commons Attribution-Share Alike 3.0 Licen
       </layout>
    </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Roe", 
-                "given": "Jane" 
-            }
-        ], 
-        "issued": {
-          "date-parts": [
-            [1996]
-          ]
-        },
-        "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Roe", 
-                "given": "Jane"
-            }
-        ], 
-        "issued": {
-          "date-parts": [
-            [1995]
-          ]
-        },
-        "id": "ITEM-2", 
-        "type": "book"
-    }
+  {
+    "author": [
+      {
+        "family": "Roe",
+        "given": "Jane"
+      }
+    ],
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          1996
+        ]
+      ]
+    },
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Roe",
+        "given": "Jane"
+      }
+    ],
+    "id": "ITEM-2",
+    "issued": {
+      "date-parts": [
+        [
+          1995
+        ]
+      ]
+    },
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

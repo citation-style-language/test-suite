@@ -1,36 +1,22 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+From “Distance” to “Friction”: Substituting Metaphors and Redirecting Intercultural Research For
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] From “Distance” to “Friction”: Substituting Metaphors and Redirecting Intercultural Research For
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -46,15 +32,15 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "id": "ITEM-1", 
-		"title": "from \"distance\" to \"friction\": substituting metaphors and redirecting intercultural research for",
-        "type": "book"
-    }
+  {
+    "id": "ITEM-1",
+    "title": "from \"distance\" to \"friction\": substituting metaphors and redirecting intercultural research for",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

@@ -1,44 +1,31 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+[1, 32; 2, 32; 3, 32]
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] [1, 32; 2, 32; 3, 32]
-<<===== RESULT =====<<
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1", 
-                    "locator": "32"
-                }, 
-                {
-                    "id": "ITEM-2", 
-                    "locator": "32"
-                }, 
-                {
-                    "id": "ITEM-3", 
-                    "locator": "32"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1",
+      "locator": "32"
+    },
+    {
+      "id": "ITEM-2",
+      "locator": "32"
+    },
+    {
+      "id": "ITEM-3",
+      "locator": "32"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only">
   <info>
@@ -342,43 +329,43 @@ citation
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Doe",
-                "given": "John"
-            }
-        ], 
-        "id": "ITEM-1", 
-        "title": "His Anonymous Life", 
-        "type": "book"
-    },
-    {
-        "author": [
-            {
-                "family": "Doe",
-                "given": "John"
-            }
-        ], 
-        "id": "ITEM-2", 
-        "title": "His Anonymous Life", 
-        "type": "book"
-    },
-    {
-        "author": [
-            {
-                "family": "Doe",
-                "given": "John"
-            }
-        ], 
-        "id": "ITEM-3", 
-        "title": "His Anonymous Life", 
-        "type": "book"
-    }
+  {
+    "author": [
+      {
+        "family": "Doe",
+        "given": "John"
+      }
+    ],
+    "id": "ITEM-1",
+    "title": "His Anonymous Life",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Doe",
+        "given": "John"
+      }
+    ],
+    "id": "ITEM-2",
+    "title": "His Anonymous Life",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Doe",
+        "given": "John"
+      }
+    ],
+    "id": "ITEM-3",
+    "title": "His Anonymous Life",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

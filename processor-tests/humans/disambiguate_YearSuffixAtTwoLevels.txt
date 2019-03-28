@@ -1,45 +1,31 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+Smith, Jones &#38; Brown (1986a); Smith, Jones &#38; Brown (1986b); Smith, Jones, Brown, et al. (1986a); Smith, Jones, Brown, et al. (1986b)
+<<==== RESULT ====<<
 
->>===== RESULT =====>>
->>[0] Smith, Jones &#38; Brown (1986a); Smith, Jones &#38; Brown (1986b); Smith, Jones, Brown, et al. (1986a); Smith, Jones, Brown, et al. (1986b)
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }, 
-                {
-                    "id": "ITEM-3"
-                }, 
-                {
-                    "id": "ITEM-4"
-                }
-            ], 
-            "properties": {
-                "index": 0
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    },
+    {
+      "id": "ITEM-3"
+    },
+    {
+      "id": "ITEM-4"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -66,118 +52,118 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John"
-            },
-            {
-                "family": "Jones", 
-                "given": "John"
-            },
-            {
-                "family": "Brown", 
-                "given": "John"
-            }
-        ], 
-        "issued": {
-            "date-parts": [
-                [
-                    1986
-                ]
-            ]
-        }, 
-        "type": "book",
-        "id": "ITEM-1"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John"
-            },
-            {
-                "family": "Jones", 
-                "given": "John"
-            },
-            {
-                "family": "Brown", 
-                "given": "John"
-            }
-        ], 
-        "issued": {
-            "date-parts": [
-                [
-                    1986
-                ]
-            ]
-        }, 
-        "type": "book",
-        "id": "ITEM-2"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John"
-            },
-            {
-                "family": "Jones", 
-                "given": "John"
-            },
-            {
-                "family": "Brown", 
-                "given": "John"
-            },
-            {
-                "family": "Green", 
-                "given": "John"
-            }
-        ], 
-        "issued": {
-            "date-parts": [
-                [
-                    1986
-                ]
-            ]
-        }, 
-        "type": "book",
-        "id": "ITEM-3"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Smith", 
-                "given": "John"
-            },
-            {
-                "family": "Jones", 
-                "given": "John"
-            },
-            {
-                "family": "Brown", 
-                "given": "John"
-            },
-            {
-                "family": "Green", 
-                "given": "John"
-            }
-        ], 
-        "issued": {
-            "date-parts": [
-                [
-                    1986
-                ]
-            ]
-        }, 
-        "type": "book",
-        "id": "ITEM-4"
-    }
+  {
+    "author": [
+      {
+        "family": "Smith",
+        "given": "John"
+      },
+      {
+        "family": "Jones",
+        "given": "John"
+      },
+      {
+        "family": "Brown",
+        "given": "John"
+      }
+    ],
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          1986
+        ]
+      ]
+    },
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Smith",
+        "given": "John"
+      },
+      {
+        "family": "Jones",
+        "given": "John"
+      },
+      {
+        "family": "Brown",
+        "given": "John"
+      }
+    ],
+    "id": "ITEM-2",
+    "issued": {
+      "date-parts": [
+        [
+          1986
+        ]
+      ]
+    },
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Smith",
+        "given": "John"
+      },
+      {
+        "family": "Jones",
+        "given": "John"
+      },
+      {
+        "family": "Brown",
+        "given": "John"
+      },
+      {
+        "family": "Green",
+        "given": "John"
+      }
+    ],
+    "id": "ITEM-3",
+    "issued": {
+      "date-parts": [
+        [
+          1986
+        ]
+      ]
+    },
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Smith",
+        "given": "John"
+      },
+      {
+        "family": "Jones",
+        "given": "John"
+      },
+      {
+        "family": "Brown",
+        "given": "John"
+      },
+      {
+        "family": "Green",
+        "given": "John"
+      }
+    ],
+    "id": "ITEM-4",
+    "issued": {
+      "date-parts": [
+        [
+          1986
+        ]
+      ]
+    },
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

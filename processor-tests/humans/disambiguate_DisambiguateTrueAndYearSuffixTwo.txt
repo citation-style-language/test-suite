@@ -1,57 +1,28 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+Pollock, 1979a
+Pollock, 1979b
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] Pollock, 1979a
->>[1] Pollock, 1979b
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 0
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 0
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                0
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-2"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-GB">
   <info>
@@ -252,54 +223,54 @@ citation
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-   {
-      "id": "ITEM-1",
-      "type": "book",
-      "title": "The land laws",
-      "publisher": "Fred B. Rothman",
-      "publisher-place": "Litteleton, Colo.",
-      "event-place": "Litteleton, Colo.",
-      "archive-place": "Litteleton, Colo.",
-      "author": [
-         {
-            "family": "Pollock",
-            "given": "Sir Frederick"
-         }
-      ],
-      "issued": {
-         "date-parts": [
-            [
-               1979
-            ]
-         ]
+  {
+    "archive-place": "Litteleton, Colo.",
+    "author": [
+      {
+        "family": "Pollock",
+        "given": "Sir Frederick"
       }
-   },
-   {
-      "id": "ITEM-2",
-      "type": "book",
-      "title": "The land lawsX",
-      "publisher": "Fred B. Rothman",
-      "publisher-place": "Litteleton, Colo.",
-      "event-place": "Litteleton, Colo.",
-      "archive-place": "Litteleton, Colo.",
-      "author": [
-         {
-            "family": "Pollock",
-            "given": "Sir Frederick"
-         }
-      ],
-      "issued": {
-         "date-parts": [
-            [
-               1979
-            ]
-         ]
+    ],
+    "event-place": "Litteleton, Colo.",
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          1979
+        ]
+      ]
+    },
+    "publisher": "Fred B. Rothman",
+    "publisher-place": "Litteleton, Colo.",
+    "title": "The land laws",
+    "type": "book"
+  },
+  {
+    "archive-place": "Litteleton, Colo.",
+    "author": [
+      {
+        "family": "Pollock",
+        "given": "Sir Frederick"
       }
-   }
+    ],
+    "event-place": "Litteleton, Colo.",
+    "id": "ITEM-2",
+    "issued": {
+      "date-parts": [
+        [
+          1979
+        ]
+      ]
+    },
+    "publisher": "Fred B. Rothman",
+    "publisher-place": "Litteleton, Colo.",
+    "title": "The land lawsX",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

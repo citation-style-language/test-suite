@@ -1,82 +1,34 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+(Aalto, <i>Book A</i>)
+(Aalto, <i>Book B</i>)
+(Aalto, <i>Book C</i>)
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] (Aalto, <i>Book A</i>)
->>[1] (Aalto, <i>Book B</i>)
->>[2] (Aalto, <i>Book C</i>)
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 2
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ]
-        ], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-3", 
-            "citationItems": [
-                {
-                    "id": "ITEM-3"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 3
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ], 
-            [
-                "CITATION-2", 
-                2
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-2"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-3"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -104,43 +56,43 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Aalto", 
-                "given": "Alan"
-            }
-        ], 
-        "title": "Book A",
-        "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Aalto", 
-                "given": "Alan"
-            }
-        ], 
-        "title": "Book B",
-        "id": "ITEM-2", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Aalto", 
-                "given": "Alan"
-            }
-        ], 
-        "title": "Book C",
-        "id": "ITEM-3", 
-        "type": "book"
-    }
+  {
+    "author": [
+      {
+        "family": "Aalto",
+        "given": "Alan"
+      }
+    ],
+    "id": "ITEM-1",
+    "title": "Book A",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Aalto",
+        "given": "Alan"
+      }
+    ],
+    "id": "ITEM-2",
+    "title": "Book B",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Aalto",
+        "given": "Alan"
+      }
+    ],
+    "id": "ITEM-3",
+    "title": "Book C",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

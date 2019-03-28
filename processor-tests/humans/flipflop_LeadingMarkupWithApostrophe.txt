@@ -1,37 +1,23 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+<i>Insha’Allah</i> is an Arabic phrase meaning ‘God willing’. Another Arabic word is <i>bukra</i>. Aalto
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] <i>Insha’Allah</i> is an Arabic phrase meaning ‘God willing’. Another Arabic word is <i>bukra</i>. Aalto
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1", 
-                    "prefix": "<i>Insha’Allah</i> is an Arabic phrase meaning ‘God willing’. Another Arabic word is <i>bukra</i>."
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1",
+      "prefix": "<i>Insha’Allah</i> is an Arabic phrase meaning ‘God willing’. Another Arabic word is <i>bukra</i>."
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -52,20 +38,20 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Aalto", 
-                "given": "Alan"
-            }
-        ], 
-        "id": "ITEM-1", 
-        "type": "book"
-    }
+  {
+    "author": [
+      {
+        "family": "Aalto",
+        "given": "Alan"
+      }
+    ],
+    "id": "ITEM-1",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

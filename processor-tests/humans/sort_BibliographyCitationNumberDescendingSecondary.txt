@@ -1,10 +1,8 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-
-
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">[1] Book 001</div>
   <div class="csl-entry">[2] Book 002</div>
@@ -15,51 +13,40 @@ bibliography
   <div class="csl-entry">[7] Book 007</div>
   <div class="csl-entry">[8] Book 008</div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }, 
-                {
-                    "id": "ITEM-3"
-                }, 
-                {
-                    "id": "ITEM-4"
-                }, 
-                {
-                    "id": "ITEM-5"
-                }, 
-                {
-                    "id": "ITEM-6"
-                }, 
-                {
-                    "id": "ITEM-7"
-                }, 
-                {
-                    "id": "ITEM-8"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    },
+    {
+      "id": "ITEM-3"
+    },
+    {
+      "id": "ITEM-4"
+    },
+    {
+      "id": "ITEM-5"
+    },
+    {
+      "id": "ITEM-6"
+    },
+    {
+      "id": "ITEM-7"
+    },
+    {
+      "id": "ITEM-8"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -85,50 +72,50 @@ bibliography
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "id": "ITEM-1", 
-        "title": "Book 001", 
-        "type": "book"
-    }, 
-    {
-        "id": "ITEM-2", 
-        "title": "Book 003", 
-        "type": "book"
-    }, 
-    {
-        "id": "ITEM-3", 
-        "title": "Book 004", 
-        "type": "book"
-    }, 
-    {
-        "id": "ITEM-4", 
-        "title": "Book 006", 
-        "type": "book"
-    }, 
-    {
-        "id": "ITEM-5", 
-        "title": "Book 002", 
-        "type": "book"
-    }, 
-    {
-        "id": "ITEM-6", 
-        "title": "Book 005", 
-        "type": "book"
-    }, 
-    {
-        "id": "ITEM-7", 
-        "title": "Book 007", 
-        "type": "book"
-    }, 
-    {
-        "id": "ITEM-8", 
-        "title": "Book 008", 
-        "type": "book"
-    }
+  {
+    "id": "ITEM-1",
+    "title": "Book 001",
+    "type": "book"
+  },
+  {
+    "id": "ITEM-2",
+    "title": "Book 003",
+    "type": "book"
+  },
+  {
+    "id": "ITEM-3",
+    "title": "Book 004",
+    "type": "book"
+  },
+  {
+    "id": "ITEM-4",
+    "title": "Book 006",
+    "type": "book"
+  },
+  {
+    "id": "ITEM-5",
+    "title": "Book 002",
+    "type": "book"
+  },
+  {
+    "id": "ITEM-6",
+    "title": "Book 005",
+    "type": "book"
+  },
+  {
+    "id": "ITEM-7",
+    "title": "Book 007",
+    "type": "book"
+  },
+  {
+    "id": "ITEM-8",
+    "title": "Book 008",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

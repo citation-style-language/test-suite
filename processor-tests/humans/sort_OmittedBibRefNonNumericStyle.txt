@@ -1,45 +1,31 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-
-
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">Anderson, Book One</div>
   <div class="csl-entry">Crane, Book Two</div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }, 
-                {
-                    "id": "ITEM-3"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    },
+    {
+      "id": "ITEM-3"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -80,43 +66,43 @@ bibliography
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Anderson", 
-                "given": "Andrew"
-            }
-        ],
-        "title": "Book One",
-        "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Brown", 
-                "given": "Burt"
-            }
-        ],
-        "title": "Letter One",
-        "id": "ITEM-2", 
-        "type": "personal_communication"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Crane", 
-                "given": "Clive" 
-            }
-        ],
-        "title": "Book Two",
-        "id": "ITEM-3", 
-        "type": "book"
-    }
+  {
+    "author": [
+      {
+        "family": "Anderson",
+        "given": "Andrew"
+      }
+    ],
+    "id": "ITEM-1",
+    "title": "Book One",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Brown",
+        "given": "Burt"
+      }
+    ],
+    "id": "ITEM-2",
+    "title": "Letter One",
+    "type": "personal_communication"
+  },
+  {
+    "author": [
+      {
+        "family": "Crane",
+        "given": "Clive"
+      }
+    ],
+    "id": "ITEM-3",
+    "title": "Book Two",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

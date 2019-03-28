@@ -1,12 +1,8 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-
-Test for https://github.com/Juris-M/citeproc-js/issues/96
-
-
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">
     <div class="csl-left-margin">1. </div><div class="csl-right-inline">Campbell DT, Fiske DW. Main title. In: Container: a title. (Series: a title).</div>
@@ -15,34 +11,22 @@ Test for https://github.com/Juris-M/citeproc-js/issues/96
     <div class="csl-left-margin">2. </div><div class="csl-right-inline">Campbell DT, Fiske DW. Main title. Container.</div>
    </div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" page-range-format="minimal">
   <info>
@@ -394,52 +378,52 @@ Test for https://github.com/Juris-M/citeproc-js/issues/96
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-	{
-		"id": "ITEM-1",
-		"type": "chapter",
-		"title": "Main title",
-		"source": "Zotero",
-		"collection-title": "Series: a title",
-		"collection-title-short": "Series",
-		"container-title": "Container: a title",
-		"container-title-short": "Container",
-		"language": "en",
-		"author": [
-			{
-				"family": "Campbell",
-				"given": "Donald T"
-			},
-			{
-				"family": "Fiske",
-				"given": "Donald W"
-			}
-		]
-	},
-	{
-		"id": "ITEM-2",
-		"type": "article-journal",
-		"title": "Main title",
-		"source": "Zotero",
-		"collection-title": "Series: a title",
-		"collection-title-short": "Series",
-		"container-title": "Container: a title",
-		"container-title-short": "Container",
-		"language": "en",
-		"author": [
-			{
-				"family": "Campbell",
-				"given": "Donald T"
-			},
-			{
-				"family": "Fiske",
-				"given": "Donald W"
-			}
-		]
-	}
+  {
+    "author": [
+      {
+        "family": "Campbell",
+        "given": "Donald T"
+      },
+      {
+        "family": "Fiske",
+        "given": "Donald W"
+      }
+    ],
+    "collection-title": "Series: a title",
+    "collection-title-short": "Series",
+    "container-title": "Container: a title",
+    "container-title-short": "Container",
+    "id": "ITEM-1",
+    "language": "en",
+    "source": "Zotero",
+    "title": "Main title",
+    "type": "chapter"
+  },
+  {
+    "author": [
+      {
+        "family": "Campbell",
+        "given": "Donald T"
+      },
+      {
+        "family": "Fiske",
+        "given": "Donald W"
+      }
+    ],
+    "collection-title": "Series: a title",
+    "collection-title-short": "Series",
+    "container-title": "Container: a title",
+    "container-title-short": "Container",
+    "id": "ITEM-2",
+    "language": "en",
+    "source": "Zotero",
+    "title": "Main title",
+    "type": "article-journal"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

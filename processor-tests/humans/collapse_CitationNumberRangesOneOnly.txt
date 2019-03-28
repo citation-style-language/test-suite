@@ -1,42 +1,24 @@
-# CSL test file: testYearSuffix001.txt
-# Rintze Zelle circa 2009.04.10
-
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-
-
-
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">[1].</div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -58,15 +40,15 @@ bibliography
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "id": "ITEM-1", 
-        "title": "Paper 1", 
-        "type": "book"
-    }
+  {
+    "id": "ITEM-1",
+    "title": "Paper 1",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

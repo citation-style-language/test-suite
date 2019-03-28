@@ -1,42 +1,28 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-
-
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">Klark Kent</div>
   <div class="csl-entry">Smith, John</div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="note">
   <info>
@@ -73,29 +59,29 @@ bibliography
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "literal": "Smith, John" 
-            }
-        ], 
-        "id": "ITEM-1", 
-        "type": "book"
-    },
-    {
-        "author": [
-            {
-                "family": "Kent",
-                "given": "Klark" 
-            }
-        ], 
-        "id": "ITEM-2", 
-        "type": "book"
-    }
+  {
+    "author": [
+      {
+        "literal": "Smith, John"
+      }
+    ],
+    "id": "ITEM-1",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Kent",
+        "given": "Klark"
+      }
+    ],
+    "id": "ITEM-2",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

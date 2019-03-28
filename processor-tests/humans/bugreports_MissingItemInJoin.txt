@@ -1,46 +1,32 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+<i>Aalto</i>, Book One, S. 100 This.<i>Álvarez</i>, Book Two, S. 200<i>Álvarez</i>, Film One, 300
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] <i>Aalto</i>, Book One, S. 100 This.<i>Álvarez</i>, Book Two, S. 200<i>Álvarez</i>, Film One, 300
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1", 
-                    "locator": "100", 
-                    "suffix": "This."
-                }, 
-                {
-                    "id": "ITEM-2", 
-                    "locator": "200"
-                }, 
-                {
-                    "id": "ITEM-3", 
-                    "locator": "300"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1",
+      "locator": "100",
+      "suffix": "This."
+    },
+    {
+      "id": "ITEM-2",
+      "locator": "200"
+    },
+    {
+      "id": "ITEM-3",
+      "locator": "300"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="note" default-locale="de-DE">
   <info>
@@ -253,43 +239,43 @@ citation
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Aalto", 
-                "given": "Alan"
-            }
-        ],
-        "title": "Book One",
-        "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Álvarez", 
-                "given": "Ajax" 
-            }
-        ], 
-        "title": "Book Two",
-        "id": "ITEM-2", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Álvarez", 
-                "given": "Ajax" 
-            }
-        ], 
-        "title": "Film One",
-        "id": "ITEM-3", 
-        "type": "motion_picture"
-    }
+  {
+    "author": [
+      {
+        "family": "Aalto",
+        "given": "Alan"
+      }
+    ],
+    "id": "ITEM-1",
+    "title": "Book One",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Álvarez",
+        "given": "Ajax"
+      }
+    ],
+    "id": "ITEM-2",
+    "title": "Book Two",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Álvarez",
+        "given": "Ajax"
+      }
+    ],
+    "id": "ITEM-3",
+    "title": "Film One",
+    "type": "motion_picture"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

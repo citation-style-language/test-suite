@@ -1,57 +1,28 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+Saline Solution of β-Carotine
+Saline Solution of Beta-Carotine
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
-..[0] Saline Solution of β-Carotine
->>[1] Saline Solution of Beta-Carotine
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 2
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-2"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -67,20 +38,20 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "title": "Saline solution of β-carotine",
-        "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "title": "Saline solution of beta-carotine",
-        "id": "ITEM-2", 
-        "type": "book"
-    }
+  {
+    "id": "ITEM-1",
+    "title": "Saline solution of β-carotine",
+    "type": "book"
+  },
+  {
+    "id": "ITEM-2",
+    "title": "Saline solution of beta-carotine",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

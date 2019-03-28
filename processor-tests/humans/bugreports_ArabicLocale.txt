@@ -1,38 +1,22 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-Fault reported by abdealikhurrum
+>>==== RESULT ====>>
+Jonathan Chang وآخرون.
+<<==== RESULT ====<<
 
-https://github.com/citation-style-language/locales/issues/135
-
->>===== RESULT =====>>
->>[0] Jonathan Chang وآخرون.
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" default-locale="ar">
   <info>
@@ -48,37 +32,37 @@ https://github.com/citation-style-language/locales/issues/135
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-	{
-		"type": "book",
-		"id": "ITEM-1",
-		"author": [
-			{
-				"family": "Chang",
-				"given": "Jonathan",
-				"multi": {
-					"_key": {}
-				}
-			},
-			{
-				"family": "Gerrish",
-				"given": "Sean",
-				"multi": {
-					"_key": {}
-				}
-			},
-			{
-				"family": "Wang",
-				"given": "Chong",
-				"multi": {
-					"_key": {}
-				}
-			}
-		]
-	}
+  {
+    "author": [
+      {
+        "family": "Chang",
+        "given": "Jonathan",
+        "multi": {
+          "_key": {}
+        }
+      },
+      {
+        "family": "Gerrish",
+        "given": "Sean",
+        "multi": {
+          "_key": {}
+        }
+      },
+      {
+        "family": "Wang",
+        "given": "Chong",
+        "multi": {
+          "_key": {}
+        }
+      }
+    ],
+    "id": "ITEM-1",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

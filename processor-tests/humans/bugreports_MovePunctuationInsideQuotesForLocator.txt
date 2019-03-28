@@ -1,39 +1,24 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-Fault reported by Sean Takats.
+>>==== RESULT ====>>
+Jennifer J. Davis, “Men of Taste: Gender and Authority in the French Culinary Trades, 1730-1830” (Ph.D. diss., Pennsylvania State University, History, 2004), s.v. “gargoyle.”
+<<==== RESULT ====<<
 
->>===== RESULT =====>>
->>[0] Jennifer J. Davis, “Men of Taste: Gender and Authority in the French Culinary Trades, 1730-1830” (Ph.D. diss., Pennsylvania State University, History, 2004), s.v. “gargoyle.”
-<<===== RESULT =====<<
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1", 
-                    "label": "sub verbo", 
-                    "locator": "\"gargoyle\""
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1",
+      "label": "sub verbo",
+      "locator": "\"gargoyle\""
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
-
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -728,29 +713,30 @@ Fault reported by Sean Takats.
     </layout>
   </bibliography>
 </style>
+<<==== CSL ====<<
 
-<<===== CSL =====<<
-
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-		"id": "ITEM-1",
-		"title":"Men of Taste: Gender and Authority in the French Culinary Trades, 1730-1830",
-		"author": [
-			{
-				"family": "Davis",
-				"given": "Jennifer J."
-			}
-		],
-		"genre": "Ph.D. diss.",
-        "publisher": "Pennsylvania State University, History",
-		"issued": {
-			"date-parts":[
-				[2004]
-			]
-		},
-		"type": "thesis"
-	}
+  {
+    "author": [
+      {
+        "family": "Davis",
+        "given": "Jennifer J."
+      }
+    ],
+    "genre": "Ph.D. diss.",
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "publisher": "Pennsylvania State University, History",
+    "title": "Men of Taste: Gender and Authority in the French Culinary Trades, 1730-1830",
+    "type": "thesis"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

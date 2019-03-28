@@ -1,57 +1,28 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+07-x
+07-x Test
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
-..[0] 07-x
->>[1] 07-x Test
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 2
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-2"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -67,20 +38,20 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "id": "ITEM-1", 
-        "type": "book",
-        "title": "07-x"
-    }, 
-    {
-        "id": "ITEM-2", 
-        "type": "book",
-        "title": "07-x test"
-    }
+  {
+    "id": "ITEM-1",
+    "title": "07-x",
+    "type": "book"
+  },
+  {
+    "id": "ITEM-2",
+    "title": "07-x test",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

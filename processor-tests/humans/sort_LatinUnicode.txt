@@ -1,35 +1,25 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
->>===== RESULT =====>>
->>[0] Aalto; Álvarez
-<<===== RESULT =====<<
+>>==== RESULT ====>>
+Aalto; Álvarez
+<<==== RESULT ====<<
 
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -57,30 +47,30 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Aalto", 
-                "given": "Alan"
-            }
-        ], 
-        "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Álvarez", 
-                "given": "Ajax" 
-            }
-        ], 
-        "id": "ITEM-2", 
-        "type": "book"
-    }
+  {
+    "author": [
+      {
+        "family": "Aalto",
+        "given": "Alan"
+      }
+    ],
+    "id": "ITEM-1",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Álvarez",
+        "given": "Ajax"
+      }
+    ],
+    "id": "ITEM-2",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

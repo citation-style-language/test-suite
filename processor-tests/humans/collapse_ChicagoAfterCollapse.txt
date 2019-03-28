@@ -1,113 +1,55 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-
-
->>===== RESULT =====>>
-..[0] (Whittaker 1967, 1975; Wiens 1989a, 1989b)
-..[1] (Wong 1999, 328; 2000, 475; Garcia 1998, 67)
->>[2] (Whittaker 1967; Wiens 1989b)
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
-[
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }, 
-                {
-                    "id": "ITEM-3"
-                }, 
-                {
-                    "id": "ITEM-4"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-5", 
-                    "locator": 328
-                }, 
-                {
-                    "id": "ITEM-6", 
-                    "locator": 475
-                }, 
-                {
-                    "id": "ITEM-7", 
-                    "locator": 67
-                }
-            ], 
-            "properties": {
-                "noteIndex": 2
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ]
-        ], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-3", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-4"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 3
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ], 
-            [
-                "CITATION-2", 
-                2
-            ]
-        ], 
-        []
-    ]
-]
-<<===== CITATIONS =====<<
-
-
-
-
-
-
+>>==== RESULT ====>>
 (Whittaker 1967, 1975; Wiens 1989a, 1989b)
+(Wong 1999, 328; 2000, 475; Garcia 1998, 67)
+(Whittaker 1967; Wiens 1989b)
+<<==== RESULT ====<<
 
-(Wong 1999, 328; 2000, 475; García 1998, 67)
+>>==== CITATION-ITEMS ====>>
+[
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    },
+    {
+      "id": "ITEM-3"
+    },
+    {
+      "id": "ITEM-4"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-5",
+      "locator": 328
+    },
+    {
+      "id": "ITEM-6",
+      "locator": 475
+    },
+    {
+      "id": "ITEM-7",
+      "locator": 67
+    }
+  ],
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-4"
+    }
+  ]
+]
+<<==== CITATION-ITEMS ====<<
 
-
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="display-and-sort" page-range-format="chicago">
   <info>
@@ -753,108 +695,129 @@ citation
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Whittaker", 
-                "given": "Phil"
-            }
-        ],
-        "issued": {
-            "date-parts": [[1967]]
-        },
-        "id": "ITEM-1", 
-        "type": "book"
+  {
+    "author": [
+      {
+        "family": "Whittaker",
+        "given": "Phil"
+      }
+    ],
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          1967
+        ]
+      ]
     },
-    {
-        "author": [
-            {
-                "family": "Whittaker", 
-                "given": "Phil"
-            }
-        ],
-        "issued": {
-            "date-parts": [[1975]]
-        },
-        "id": "ITEM-2", 
-        "type": "book"
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Whittaker",
+        "given": "Phil"
+      }
+    ],
+    "id": "ITEM-2",
+    "issued": {
+      "date-parts": [
+        [
+          1975
+        ]
+      ]
     },
-    {
-        "author": [
-            {
-                "family": "Wiens", 
-                "given": "Walter"
-            }
-        ],
-        "issued": {
-            "date-parts": [[1989]]
-        },
-        "id": "ITEM-3", 
-        "type": "book"
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Wiens",
+        "given": "Walter"
+      }
+    ],
+    "id": "ITEM-3",
+    "issued": {
+      "date-parts": [
+        [
+          1989
+        ]
+      ]
     },
-    {
-        "author": [
-            {
-                "family": "Wiens", 
-                "given": "Walter"
-            }
-        ],
-        "issued": {
-            "date-parts": [[1989]]
-        },
-        "id": "ITEM-4", 
-        "type": "book"
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Wiens",
+        "given": "Walter"
+      }
+    ],
+    "id": "ITEM-4",
+    "issued": {
+      "date-parts": [
+        [
+          1989
+        ]
+      ]
     },
-    {
-        "author": [
-            {
-                "family": "Wong", 
-                "given": "Richard"
-            }
-        ],
-        "issued": {
-            "date-parts": [[1999]]
-        },
-        "id": "ITEM-5", 
-        "type": "book"
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Wong",
+        "given": "Richard"
+      }
+    ],
+    "id": "ITEM-5",
+    "issued": {
+      "date-parts": [
+        [
+          1999
+        ]
+      ]
     },
-    {
-        "author": [
-            {
-                "family": "Wong", 
-                "given": "Richard"
-            }
-        ],
-        "issued": {
-            "date-parts": [[2000]]
-        },
-        "id": "ITEM-6", 
-        "type": "book"
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Wong",
+        "given": "Richard"
+      }
+    ],
+    "id": "ITEM-6",
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
     },
-    {
-        "author": [
-            {
-                "family": "Garcia", 
-                "given": "Randy"
-            }
-        ],
-        "issued": {
-            "date-parts": [[1998]]
-        },
-        "id": "ITEM-7", 
-        "type": "book"
-    }
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Garcia",
+        "given": "Randy"
+      }
+    ],
+    "id": "ITEM-7",
+    "issued": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
-
-(Whittaker 1967, 1975; Wiens 1989a, 1989b)
-
-(Wong 1999, 328; 2000, 475; García 1998, 67)
-
+<<==== INPUT ====<<
 

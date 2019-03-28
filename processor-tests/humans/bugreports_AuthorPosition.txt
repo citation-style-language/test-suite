@@ -1,38 +1,24 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-
-
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">A00, A., A01, B., A02, C., A03, D., A04, E., A05, F., … A50, K. (2010). Modelling the Species Distribution of Flat-Headed Cats (<i>Prionailurus planiceps</i>), an Endangered South-East Asian Small Felid. <i>PLoS ONE</i>, <i>5</i>(3), e9612. doi:10.1371/journal.pone.0009612</div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "aiid:2840020"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "aiid:2840020"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never">
   <info>
@@ -564,255 +550,255 @@ bibliography
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-{
-    "source": "PMC",
-    "accessed": {
-        "date-parts": [
-            [
-                2015,
-                2,
-                13
-            ]
-        ]
-    },
-    "id": "aiid:2840020",
-    "title": "Modelling the Species Distribution of Flat-Headed Cats (<i>Prionailurus planiceps</i>), an Endangered South-East Asian Small Felid",
-    "author": [
-        {
-            "family": "A00",
-            "given": "Andreas"
-        },
-        {
-            "family": "A01",
-            "given": "Bob"
-        },
-        {
-            "family": "A02",
-            "given": "Cat"
-        },
-        {
-            "family": "A03",
-            "given": "David"
-        },
-        {
-            "family": "A04",
-            "given": "Eugene"
-        },
-        {
-            "family": "A05",
-            "given": "Fred"
-        },
-        {
-            "family": "A06",
-            "given": "Greg"
-        },
-        {
-            "family": "A07",
-            "given": "Herb"
-        },
-        {
-            "family": "A08",
-            "given": "Ida"
-        },
-        {
-            "family": "A09",
-            "given": "Jack"
-        },
-        {
-            "family": "A10",
-            "given": "Kate"
-        },
-        {
-            "family": "A11",
-            "given": "Leonard"
-        },
-        {
-            "family": "A12",
-            "given": "Mike"
-        },
-        {
-            "family": "A13",
-            "given": "Ned"
-        },
-        {
-            "family": "A14",
-            "given": "Oscar"
-        },
-        {
-            "family": "A15",
-            "given": "Phil"
-        },
-        {
-            "family": "A16",
-            "given": "Quebert"
-        },
-        {
-            "family": "A17",
-            "given": "Rob"
-        },
-        {
-            "family": "A18",
-            "given": "Sylvia"
-        },
-        {
-            "family": "A19",
-            "given": "Tina"
-        },
-        {
-            "family": "A20",
-            "given": "Ulm"
-        },
-        {
-            "family": "A21",
-            "given": "Victor"
-        },
-        {
-            "family": "A22",
-            "given": "Mike"
-        },
-        {
-            "family": "A23",
-            "given": "Ned"
-        },
-        {
-            "family": "A24",
-            "given": "Oscar"
-        },
-        {
-            "family": "A25",
-            "given": "Phil"
-        },
-        {
-            "family": "A26",
-            "given": "Quebert"
-        },
-        {
-            "family": "A27",
-            "given": "Rob"
-        },
-        {
-            "family": "A28",
-            "given": "Sylvia"
-        },
-        {
-            "family": "A29",
-            "given": "Tina"
-        },
-        {
-            "family": "A30",
-            "given": "Kate"
-        },
-        {
-            "family": "A31",
-            "given": "Leonard"
-        },
-        {
-            "family": "A32",
-            "given": "Mike"
-        },
-        {
-            "family": "A33",
-            "given": "Ned"
-        },
-        {
-            "family": "A34",
-            "given": "Oscar"
-        },
-        {
-            "family": "A35",
-            "given": "Phil"
-        },
-        {
-            "family": "A36",
-            "given": "Quebert"
-        },
-        {
-            "family": "A37",
-            "given": "Rob"
-        },
-        {
-            "family": "A38",
-            "given": "Sylvia"
-        },
-        {
-            "family": "A39",
-            "given": "Tina"
-        },
-        {
-            "family": "A40",
-            "given": "Kate"
-        },
-        {
-            "family": "A41",
-            "given": "Leonard"
-        },
-        {
-            "family": "A42",
-            "given": "Mike"
-        },
-        {
-            "family": "A43",
-            "given": "Ned"
-        },
-        {
-            "family": "A44",
-            "given": "Oscar"
-        },
-        {
-            "family": "A45",
-            "given": "Phil"
-        },
-        {
-            "family": "A46",
-            "given": "Quebert"
-        },
-        {
-            "family": "A47",
-            "given": "Rob"
-        },
-        {
-            "family": "A48",
-            "given": "Sylvia"
-        },
-        {
-            "family": "A49",
-            "given": "Tina"
-        },
-        {
-            "family": "A50",
-            "given": "Kate"
-        }
-    ],
-    "editor": [
-        {
-            "family": "Somers",
-            "given": "Michael"
-        }
-    ],
-    "container-title-short": "PLoS One",
-    "container-title": "PLoS ONE",
-    "publisher": "Public Library of Science",
-    "publisher-place": "San Francisco, USA",
+  {
+    "DOI": "10.1371/journal.pone.0009612",
     "ISSN": "1932-6203",
-    "issued": {
-        "date-parts": [
-            [
-                2010
-            ]
+    "PMCID": "PMC2840020",
+    "PMID": "20305809",
+    "accessed": {
+      "date-parts": [
+        [
+          2015,
+          2,
+          13
         ]
+      ]
+    },
+    "author": [
+      {
+        "family": "A00",
+        "given": "Andreas"
+      },
+      {
+        "family": "A01",
+        "given": "Bob"
+      },
+      {
+        "family": "A02",
+        "given": "Cat"
+      },
+      {
+        "family": "A03",
+        "given": "David"
+      },
+      {
+        "family": "A04",
+        "given": "Eugene"
+      },
+      {
+        "family": "A05",
+        "given": "Fred"
+      },
+      {
+        "family": "A06",
+        "given": "Greg"
+      },
+      {
+        "family": "A07",
+        "given": "Herb"
+      },
+      {
+        "family": "A08",
+        "given": "Ida"
+      },
+      {
+        "family": "A09",
+        "given": "Jack"
+      },
+      {
+        "family": "A10",
+        "given": "Kate"
+      },
+      {
+        "family": "A11",
+        "given": "Leonard"
+      },
+      {
+        "family": "A12",
+        "given": "Mike"
+      },
+      {
+        "family": "A13",
+        "given": "Ned"
+      },
+      {
+        "family": "A14",
+        "given": "Oscar"
+      },
+      {
+        "family": "A15",
+        "given": "Phil"
+      },
+      {
+        "family": "A16",
+        "given": "Quebert"
+      },
+      {
+        "family": "A17",
+        "given": "Rob"
+      },
+      {
+        "family": "A18",
+        "given": "Sylvia"
+      },
+      {
+        "family": "A19",
+        "given": "Tina"
+      },
+      {
+        "family": "A20",
+        "given": "Ulm"
+      },
+      {
+        "family": "A21",
+        "given": "Victor"
+      },
+      {
+        "family": "A22",
+        "given": "Mike"
+      },
+      {
+        "family": "A23",
+        "given": "Ned"
+      },
+      {
+        "family": "A24",
+        "given": "Oscar"
+      },
+      {
+        "family": "A25",
+        "given": "Phil"
+      },
+      {
+        "family": "A26",
+        "given": "Quebert"
+      },
+      {
+        "family": "A27",
+        "given": "Rob"
+      },
+      {
+        "family": "A28",
+        "given": "Sylvia"
+      },
+      {
+        "family": "A29",
+        "given": "Tina"
+      },
+      {
+        "family": "A30",
+        "given": "Kate"
+      },
+      {
+        "family": "A31",
+        "given": "Leonard"
+      },
+      {
+        "family": "A32",
+        "given": "Mike"
+      },
+      {
+        "family": "A33",
+        "given": "Ned"
+      },
+      {
+        "family": "A34",
+        "given": "Oscar"
+      },
+      {
+        "family": "A35",
+        "given": "Phil"
+      },
+      {
+        "family": "A36",
+        "given": "Quebert"
+      },
+      {
+        "family": "A37",
+        "given": "Rob"
+      },
+      {
+        "family": "A38",
+        "given": "Sylvia"
+      },
+      {
+        "family": "A39",
+        "given": "Tina"
+      },
+      {
+        "family": "A40",
+        "given": "Kate"
+      },
+      {
+        "family": "A41",
+        "given": "Leonard"
+      },
+      {
+        "family": "A42",
+        "given": "Mike"
+      },
+      {
+        "family": "A43",
+        "given": "Ned"
+      },
+      {
+        "family": "A44",
+        "given": "Oscar"
+      },
+      {
+        "family": "A45",
+        "given": "Phil"
+      },
+      {
+        "family": "A46",
+        "given": "Quebert"
+      },
+      {
+        "family": "A47",
+        "given": "Rob"
+      },
+      {
+        "family": "A48",
+        "given": "Sylvia"
+      },
+      {
+        "family": "A49",
+        "given": "Tina"
+      },
+      {
+        "family": "A50",
+        "given": "Kate"
+      }
+    ],
+    "container-title": "PLoS ONE",
+    "container-title-short": "PLoS One",
+    "editor": [
+      {
+        "family": "Somers",
+        "given": "Michael"
+      }
+    ],
+    "id": "aiid:2840020",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
     },
     "page": "e9612",
-    "volume": "5",
-    "issue": "3",
-    "PMID": "20305809",
-    "PMCID": "PMC2840020",
-    "DOI": "10.1371/journal.pone.0009612",
-    "type": "article-journal"
-}
+    "publisher": "Public Library of Science",
+    "publisher-place": "San Francisco, USA",
+    "source": "PMC",
+    "title": "Modelling the Species Distribution of Flat-Headed Cats (<i>Prionailurus planiceps</i>), an Endangered South-East Asian Small Felid",
+    "type": "article-journal",
+    "volume": "5"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

@@ -1,60 +1,32 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+His Anonymous Life, page 327-30
+His Anonymous Life, pages 427–430
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
-..[0] His Anonymous Life, page 327-30
->>[1] His Anonymous Life, pages 427–430
-<<===== RESULT =====<<
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1", 
-                    "label": "page", 
-                    "locator": "327\\-30"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1", 
-                    "label": "page", 
-                    "locator": "427-30"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 2
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1",
+      "label": "page",
+      "locator": "327\\-30"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-1",
+      "label": "page",
+      "locator": "427-30"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -77,15 +49,15 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "id": "ITEM-1", 
-        "title": "His Anonymous Life", 
-        "type": "book"
-    }
+  {
+    "id": "ITEM-1",
+    "title": "His Anonymous Life",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

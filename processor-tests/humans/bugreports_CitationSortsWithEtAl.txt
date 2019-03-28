@@ -1,44 +1,28 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+[<i>Aalto et al.</i>, 1999, 2000, 2001]
+<<==== RESULT ====<<
 
-Reported by Rintze Zelle, 2011.10.10
-
-
->>===== RESULT =====>>
->>[0] [<i>Aalto et al.</i>, 1999, 2000, 2001]
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }, 
-                {
-                    "id": "ITEM-3"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    },
+    {
+      "id": "ITEM-3"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="in-text"
@@ -94,67 +78,85 @@ Reported by Rintze Zelle, 2011.10.10
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Aalto", 
-                "given": "Alan"
-            },
-            {
-                "family": "Quintuffle", 
-                "given": "Qlark"
-            },
-            {
-                "family": "Crank", 
-                "given": "Christoper"
-            }
-        ], 
-        "issued":{ "date-parts": [[2001]]},
-        "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Aalto", 
-                "given": "Alan"
-            },
-            {
-                "family": "Baseballhat", 
-                "given": "Bernie"
-            },
-            {
-                "family": "Crank", 
-                "given": "Christoper"
-            }
-        ], 
-        "issued":{ "date-parts": [[1999]]},
-        "id": "ITEM-2", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Aalto", 
-                "given": "Alan"
-            },
-            {
-                "family": "Zipgpot", 
-                "given": "Zody"
-            },
-            {
-                "family": "Crank", 
-                "given": "Christoper"
-            }
-        ], 
-        "issued":{ "date-parts": [[2000]]},
-        "id": "ITEM-3", 
-        "type": "book"
-    }
+  {
+    "author": [
+      {
+        "family": "Aalto",
+        "given": "Alan"
+      },
+      {
+        "family": "Quintuffle",
+        "given": "Qlark"
+      },
+      {
+        "family": "Crank",
+        "given": "Christoper"
+      }
+    ],
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Aalto",
+        "given": "Alan"
+      },
+      {
+        "family": "Baseballhat",
+        "given": "Bernie"
+      },
+      {
+        "family": "Crank",
+        "given": "Christoper"
+      }
+    ],
+    "id": "ITEM-2",
+    "issued": {
+      "date-parts": [
+        [
+          1999
+        ]
+      ]
+    },
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Aalto",
+        "given": "Alan"
+      },
+      {
+        "family": "Zipgpot",
+        "given": "Zody"
+      },
+      {
+        "family": "Crank",
+        "given": "Christoper"
+      }
+    ],
+    "id": "ITEM-3",
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

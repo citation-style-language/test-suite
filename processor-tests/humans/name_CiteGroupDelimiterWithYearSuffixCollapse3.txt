@@ -1,42 +1,28 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+(Aalto 2015a,b; Bartleby 2010)
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] (Aalto 2015a,b; Bartleby 2010)
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }, 
-                {
-                    "id": "ITEM-3"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    },
+    {
+      "id": "ITEM-3"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="UTF-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" page-range-format="chicago">
   <info>
@@ -687,43 +673,61 @@ citation
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Aalto", 
-                "given": "Alan"
-            }
-        ], 
-        "issued": {"date-parts":[[2015]]},
-        "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Aalto", 
-                "given": "Alan"
-            }
-        ], 
-        "issued": {"date-parts":[[2015]]},
-        "id": "ITEM-2", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Bartleby", 
-                "given": "Brian"
-            }
-        ], 
-        "issued": {"date-parts":[[2010]]},
-        "id": "ITEM-3", 
-        "type": "book"
-    }
+  {
+    "author": [
+      {
+        "family": "Aalto",
+        "given": "Alan"
+      }
+    ],
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Aalto",
+        "given": "Alan"
+      }
+    ],
+    "id": "ITEM-2",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Bartleby",
+        "given": "Brian"
+      }
+    ],
+    "id": "ITEM-3",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

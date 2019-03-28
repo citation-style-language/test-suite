@@ -1,10 +1,8 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-
-
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">
 
@@ -15,40 +13,22 @@ bibliography
     <div class="csl-block"><b>Dogs Act 2000b</b></div>
 2000, .</div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
-
-A stripped-down version of Leidraad voor juridische auteurs (Dutch).
-
-There are long chains of macro calls here, but the upshot is that if
-disambiguate="true" is called only in cs:bibliography, it never
-takes effect.
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="sort-only" default-locale="nl-NL">
   <info>
@@ -165,30 +145,38 @@ takes effect.
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "title": "Dogs Act",
-        "issued": {
-            "date-parts": [
-              [2000, 12, 15]
-            ]
-        },
-        "id": "ITEM-1", 
-        "type": "legislation"
-    }, 
-    {
-        "title": "Dogs Act",
-        "issued": {
-            "date-parts": [
-              [2000, 10, 1]
-            ]
-        },
-        "id": "ITEM-2", 
-        "type": "legislation"
-    }
+  {
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          2000,
+          12,
+          15
+        ]
+      ]
+    },
+    "title": "Dogs Act",
+    "type": "legislation"
+  },
+  {
+    "id": "ITEM-2",
+    "issued": {
+      "date-parts": [
+        [
+          2000,
+          10,
+          1
+        ]
+      ]
+    },
+    "title": "Dogs Act",
+    "type": "legislation"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

@@ -1,44 +1,28 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-The test result below looks weird, but only because the
-cites are incomplete; the Copernicus style assumes there will be
-a title and stuff to identify the thing cited.
-
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">Roe, J., Doe, J. and Smith, J.:, 1995a.</div>
   <div class="csl-entry">Roe, J., Noakes, R. and Brown, B.:, 1995b.</div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0">
    <info>
@@ -253,56 +237,60 @@ This work is licensed under a Creative Commons Attribution-Share Alike 3.0 Licen
       </layout>
    </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Roe", 
-                "given": "Jane" 
-            },
-            {
-                "family": "Doe", 
-                "given": "John" 
-            },
-            {
-                "family": "Smith", 
-                "given": "John" 
-            }
-        ], 
-        "issued": {
-          "date-parts": [
-            [1995]
-          ]
-        },
-        "id": "ITEM-1", 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Roe", 
-                "given": "Jane"
-            },
-            {
-                "family": "Noakes", 
-                "given": "Richard"
-            },
-            {
-                "family": "Brown", 
-                "given": "Bob" 
-            }
-        ], 
-        "issued": {
-          "date-parts": [
-            [1995]
-          ]
-        },
-        "id": "ITEM-2", 
-        "type": "book"
-    }
+  {
+    "author": [
+      {
+        "family": "Roe",
+        "given": "Jane"
+      },
+      {
+        "family": "Doe",
+        "given": "John"
+      },
+      {
+        "family": "Smith",
+        "given": "John"
+      }
+    ],
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          1995
+        ]
+      ]
+    },
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Roe",
+        "given": "Jane"
+      },
+      {
+        "family": "Noakes",
+        "given": "Richard"
+      },
+      {
+        "family": "Brown",
+        "given": "Bob"
+      }
+    ],
+    "id": "ITEM-2",
+    "issued": {
+      "date-parts": [
+        [
+          1995
+        ]
+      ]
+    },
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

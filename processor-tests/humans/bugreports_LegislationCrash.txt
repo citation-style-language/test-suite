@@ -1,39 +1,24 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-
-
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry"><i>Arrêté du 23 mars 1992 relatif au programme des études conduisant au diplôme d’État d’infirmier</i>, 1992. </div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" default-locale="fr-FR">
   <info>
@@ -96,24 +81,33 @@ bibliography
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
-
-
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
   {
-    "id": "ITEM-1",
-    "type": "legislation",
-    "title": "Arrêté du 23 mars 1992 relatif au programme des études conduisant au diplôme d'État d'infirmier",
-    "issued": {
-      "date-parts": [["1992",3,23]]
-    },
     "accessed": {
-      "date-parts": [["2017",8,29]]
-    }
+      "date-parts": [
+        [
+          "2017",
+          8,
+          29
+        ]
+      ]
+    },
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          "1992",
+          3,
+          23
+        ]
+      ]
+    },
+    "title": "Arrêté du 23 mars 1992 relatif au programme des études conduisant au diplôme d'État d'infirmier",
+    "type": "legislation"
   }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

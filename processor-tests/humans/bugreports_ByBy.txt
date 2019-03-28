@@ -1,38 +1,24 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-
-
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">Review of <i>My Title</i>, by Beaver Burtle. n.d.</div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" page-range-format="chicago">
   <info>
@@ -656,21 +642,21 @@ bibliography
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "reviewed-author": [
-            {
-                "family": "Burtle", 
-                "given": "Beaver"
-            }
-        ], 
-        "title": "My Title",
-        "id": "ITEM-1", 
-        "type": "article-journal"
-    }
+  {
+    "id": "ITEM-1",
+    "reviewed-author": [
+      {
+        "family": "Burtle",
+        "given": "Beaver"
+      }
+    ],
+    "title": "My Title",
+    "type": "article-journal"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

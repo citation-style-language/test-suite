@@ -1,62 +1,28 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+C. Grignon, C. Sentenac 2000a
+C. Grignon, C. Sentenac 2000b
+<<==== RESULT ====<<
 
-I mistakenly thought that a failure to update the first entry was
-"not caught" by this test.  But the return from the test engine
-had a two-full-stop prefix on the first entry, indicating that it
-was being ignored for update purposes.  NOW, it's working.
-
--- Bennett, 2010.10.05
-
->>===== RESULT =====>>
->>[0] C. Grignon, C. Sentenac 2000a
->>[1] C. Grignon, C. Sentenac 2000b
-<<===== RESULT =====<<
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-0"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 2
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-0"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="in-text"
@@ -76,52 +42,52 @@ was being ignored for update purposes.  NOW, it's working.
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "family": "Grignon", 
-                "given": "Cyril"
-            },
-			{
-                "family": "Sentenac", 
-                "given": "Corey"
-            }
-        ], 
-        "id": "ITEM-0", 
-        "issued": {
-            "date-parts": [
-			[
-				2000
-			]
-		]
-       }, 
-        "type": "book"
-    }, 
-    {
-        "author": [
-            {
-                "family": "Grignon", 
-                "given": "Cyril"
-            },
-			{
-                "family": "Sentenac", 
-                "given": "Corey"
-            }
-        ], 
-        "id": "ITEM-1", 
-        "issued": {
-            "date-parts": [
-				[
-					2000
-				]
-			] 
-        }, 
-        "type": "book"
-    }
+  {
+    "author": [
+      {
+        "family": "Grignon",
+        "given": "Cyril"
+      },
+      {
+        "family": "Sentenac",
+        "given": "Corey"
+      }
+    ],
+    "id": "ITEM-0",
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Grignon",
+        "given": "Cyril"
+      },
+      {
+        "family": "Sentenac",
+        "given": "Corey"
+      }
+    ],
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

@@ -1,34 +1,22 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+<i>Title 1</i>, 1<sup>r</sup><sup>e</sup> éd., 2000.
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] <i>Title 1</i>, 1<sup>r</sup><sup>e</sup> éd., 2000.
-<<===== RESULT =====<<
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" version="1.0" demote-non-dropping-particle="sort-only" default-locale="fr-FR">
   <info>
@@ -1053,20 +1041,25 @@ citation
     </layout>
   </bibliography>
 </style>
+<<==== CSL ====<<
 
-<<===== CSL =====<<
-
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "id": "ITEM-1", 
-        "title": "Title 1",
-        "edition": 1,
-        "type": "book",
-        "issued": {
-          "date-parts": [[2000, 1, 15]]
-        }
-    }
+  {
+    "edition": 1,
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          2000,
+          1,
+          15
+        ]
+      ]
+    },
+    "title": "Title 1",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

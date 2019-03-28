@@ -1,50 +1,36 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-
-
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">Alan Alto Inc.: Book Three.</div>
   <div class="csl-entry">---: Book Four.</div>
   <div class="csl-entry">Alto, Alan: Book One.</div>
   <div class="csl-entry">---: Book Two.</div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }, 
-                {
-                    "id": "ITEM-2"
-                }, 
-                {
-                    "id": "ITEM-3"
-                }, 
-                {
-                    "id": "ITEM-4"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    },
+    {
+      "id": "ITEM-2"
+    },
+    {
+      "id": "ITEM-3"
+    },
+    {
+      "id": "ITEM-4"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="note" default-locale="de-DE" demote-non-dropping-particle="sort-only">
   <!--
@@ -678,52 +664,52 @@ a) mit Name "collection-editor" (in jedem Fall)
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "author": [
-            {
-                "given": "Alan",
-                "family": "Alto"
-            }
-        ],
-        "id": "ITEM-1",
-        "type": "book",
-        "title": "Book One"
-    },
-    {
-        "author": [
-            {
-                "given": "Alan",
-                "family": "Alto"
-            }
-        ],
-        "id": "ITEM-2",
-        "type": "book",
-        "title": "Book Two"
-    },
-    {
-        "author": [
-            {
-                "literal": "Alan Alto Inc."
-            }
-        ],
-        "id": "ITEM-3",
-        "type": "book",
-        "title": "Book Three"
-    },
-    {
-        "author": [
-            {
-                "literal": "Alan Alto Inc."
-            }
-        ],
-        "id": "ITEM-4",
-        "type": "book",
-        "title": "Book Four"
-    }
+  {
+    "author": [
+      {
+        "family": "Alto",
+        "given": "Alan"
+      }
+    ],
+    "id": "ITEM-1",
+    "title": "Book One",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Alto",
+        "given": "Alan"
+      }
+    ],
+    "id": "ITEM-2",
+    "title": "Book Two",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "Alan Alto Inc."
+      }
+    ],
+    "id": "ITEM-3",
+    "title": "Book Three",
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "literal": "Alan Alto Inc."
+      }
+    ],
+    "id": "ITEM-4",
+    "title": "Book Four",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

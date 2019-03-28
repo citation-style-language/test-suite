@@ -1,86 +1,36 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 bibliography
-<<===== MODE =====<<
+<<==== MODE ====<<
 
-
-This test was cast to debug a crash in citeproc-js, when three
-items without title or author were submitted for names disambiguation.
-
->>===== RESULT =====>>
+>>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">BleagleA, 2000</div>
   <div class="csl-entry">BleagleB, 2000</div>
   <div class="csl-entry">BleagleC, 2000</div>
 </div>
-<<===== RESULT =====<<
+<<==== RESULT ====<<
 
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 2
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ]
-        ], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-3", 
-            "citationItems": [
-                {
-                    "id": "ITEM-3"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 3
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ], 
-            [
-                "CITATION-2", 
-                2
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-2"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-3"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -122,28 +72,46 @@ items without title or author were submitted for names disambiguation.
     </layout>
   </bibliography>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-    {
-        "id": "ITEM-1", 
-        "type": "book",
-        "container-title": "BleagleA",
-        "issued": {"date-parts":[[2000]]}
+  {
+    "container-title": "BleagleA",
+    "id": "ITEM-1",
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
     },
-    {
-        "id": "ITEM-2", 
-        "type": "book",
-        "container-title": "BleagleB",
-        "issued": {"date-parts":[[2000]]}
+    "type": "book"
+  },
+  {
+    "container-title": "BleagleB",
+    "id": "ITEM-2",
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
     },
-    {
-        "id": "ITEM-3", 
-        "type": "book",
-        "container-title": "BleagleC",
-        "issued": {"date-parts":[[2000]]}
-    }
+    "type": "book"
+  },
+  {
+    "container-title": "BleagleC",
+    "id": "ITEM-3",
+    "issued": {
+      "date-parts": [
+        [
+          2000
+        ]
+      ]
+    },
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+

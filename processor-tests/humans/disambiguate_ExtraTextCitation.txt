@@ -1,57 +1,28 @@
->>===== MODE =====>>
+>>==== MODE ====>>
 citation
-<<===== MODE =====<<
+<<==== MODE ====<<
 
+>>==== RESULT ====>>
+Bumke, Courtly Culture: Literature and Society in the High Middle Ages
+Bumke, Höfische
+<<==== RESULT ====<<
 
-
->>===== RESULT =====>>
->>[0] Bumke, Courtly Culture: Literature and Society in the High Middle Ages
->>[1] Bumke, Höfische
-<<===== RESULT =====<<
-
-
->>===== CITATIONS =====>>
+>>==== CITATION-ITEMS ====>>
 [
-    [
-        {
-            "citationID": "CITATION-1", 
-            "citationItems": [
-                {
-                    "id": "ITEM-1"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 1
-            }
-        }, 
-        [], 
-        []
-    ], 
-    [
-        {
-            "citationID": "CITATION-2", 
-            "citationItems": [
-                {
-                    "id": "ITEM-2"
-                }
-            ], 
-            "properties": {
-                "noteIndex": 2
-            }
-        }, 
-        [
-            [
-                "CITATION-1", 
-                1
-            ]
-        ], 
-        []
-    ]
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-2"
+    }
+  ]
 ]
-<<===== CITATIONS =====<<
+<<==== CITATION-ITEMS ====<<
 
-
->>===== CSL =====>>
+>>==== CSL ====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -76,38 +47,38 @@ citation
     </layout>
   </citation>
 </style>
-<<===== CSL =====<<
+<<==== CSL ====<<
 
-
->>===== INPUT =====>>
+>>==== INPUT ====>>
 [
-	{
-		"id": "ITEM-1",
-		"type": "book",
-		"title": "Courtly Culture: Literature and Society in the High Middle Ages",
-		"author": [
-			{
-				"family": "Bumke",
-				"given": "Joachim"
-			}
-		],
-		"translator": [
-			{
-				"family": "Dunlap",
-				"given": "Thomas"
-			}
-		]
-	},
-	{
-		"id": "ITEM-2",
-		"type": "book",
-		"title": "Höfische",
-		"author": [
-			{
-				"family": "Bumke",
-				"given": "Joachim"
-			}
-		]
-	}
+  {
+    "author": [
+      {
+        "family": "Bumke",
+        "given": "Joachim"
+      }
+    ],
+    "id": "ITEM-1",
+    "title": "Courtly Culture: Literature and Society in the High Middle Ages",
+    "translator": [
+      {
+        "family": "Dunlap",
+        "given": "Thomas"
+      }
+    ],
+    "type": "book"
+  },
+  {
+    "author": [
+      {
+        "family": "Bumke",
+        "given": "Joachim"
+      }
+    ],
+    "id": "ITEM-2",
+    "title": "Höfische",
+    "type": "book"
+  }
 ]
-<<===== INPUT =====<<
+<<==== INPUT ====<<
+
