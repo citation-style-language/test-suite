@@ -36,8 +36,7 @@ John Doe, Jr.
         "author": [
             {
                 "family": "Doe", 
-                "given": "John,! Jr.", 
-                "parse-names": true
+                "given": "John,! Jr."
             }
         ], 
         "id": "ITEM-1", 

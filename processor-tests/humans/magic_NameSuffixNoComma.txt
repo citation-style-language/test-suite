@@ -36,8 +36,7 @@ John Doe III
         "author": [
             {
                 "family": "Doe", 
-                "given": "John, III", 
-                "parse-names": true
+                "given": "John, III"
             }
         ], 
         "id": "ITEM-1", 

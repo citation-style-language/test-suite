@@ -63,8 +63,7 @@ bibliography
         "author": [
             {
                 "family": "Malone", 
-                "given": "Nolan J.", 
-                "static-ordering": false
+                "given": "Nolan J."
             }, 
             {
                 "literal": "U.S. Bureau of the Census"

@@ -15,6 +15,7 @@ bibliography
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
+      demote-non-dropping-particle="display-and-sort"
       version="1.0">
   <info>
     <id />
@@ -44,9 +45,8 @@ bibliography
     {
         "author": [
             {
-                "family": "van Happel", 
-                "given": "Eduard", 
-                "parse-names": 0
+                "family": "\"van Happel\"", 
+                "given": "Eduard"
             }
         ], 
         "id": "ITEM-1", 

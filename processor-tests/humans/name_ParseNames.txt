@@ -50,8 +50,7 @@ van Gogh, Vincent; Humboldt, Alexander von; van der Vlist, Eric
         "author": [
             {
                 "family": "van Gogh", 
-                "given": "Vincent", 
-                "parse-names": true
+                "given": "Vincent"
             }
         ], 
         "id": "ITEM-1", 
@@ -61,8 +60,7 @@ van Gogh, Vincent; Humboldt, Alexander von; van der Vlist, Eric
         "author": [
             {
                 "family": "Humboldt", 
-                "given": "Alexander von", 
-                "parse-names": true
+                "given": "Alexander von"
             }
         ], 
         "id": "ITEM-2", 
