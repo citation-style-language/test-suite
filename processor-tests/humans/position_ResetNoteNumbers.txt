@@ -5,14 +5,14 @@ citation
 
 
 >>===== RESULT =====>>
-..[0] Book A (note 1)
-..[1] ibid (note 2)
-..[2] Book C (note 3)
-..[3] Book C (note 1)
-..[4] Book A (note 2)
-..[5] ibid (note 3)
+..[0] Book C (note 1)
+..[1] Book A (note 1)
+..[2] ibid (note 2)
+..[3] Book A, n 1 (note 2)
+..[4] Book C, n 1 (note 3)
+..[5] Book A, n 1 (note 3)
 ..[6] Book C, n 1 (note 4)
->>[7] Book A, n 2 (note 5)
+>>[7] Book A, n 1 (note 5)
 <<===== RESULT =====<<
 
 
@@ -93,6 +93,7 @@ citation
                 "noteIndex": 1
             }
         }, 
+        [], 
         [
             [
                 "CITATION-1", 
@@ -106,8 +107,7 @@ citation
                 "CITATION-3", 
                 3
             ]
-        ], 
-        []
+        ]
     ], 
     [
         {
@@ -126,7 +126,13 @@ citation
             [
                 "CITATION-1", 
                 1
-            ], 
+            ],
+            [
+                "CITATION-4", 
+                1
+            ]
+        ], 
+        [
             [
                 "CITATION-2", 
                 2
@@ -134,13 +140,8 @@ citation
             [
                 "CITATION-3", 
                 3
-            ], 
-            [
-                "CITATION-4", 
-                1
             ]
-        ], 
-        []
+        ]
     ], 
     [
         {
@@ -161,20 +162,20 @@ citation
                 1
             ], 
             [
+                "CITATION-4", 
+                1
+            ], 
+            [
                 "CITATION-2", 
+                2
+            ],
+            [
+                "CITATION-5", 
                 2
             ], 
             [
                 "CITATION-3", 
                 3
-            ], 
-            [
-                "CITATION-4", 
-                1
-            ], 
-            [
-                "CITATION-5", 
-                2
             ]
         ], 
         []
@@ -198,20 +199,20 @@ citation
                 1
             ], 
             [
+                "CITATION-4", 
+                1
+            ], 
+            [
                 "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-5", 
                 2
             ], 
             [
                 "CITATION-3", 
                 3
-            ], 
-            [
-                "CITATION-4", 
-                1
-            ], 
-            [
-                "CITATION-5", 
-                2
             ], 
             [
                 "CITATION-6", 
@@ -239,20 +240,20 @@ citation
                 1
             ], 
             [
+                "CITATION-4", 
+                1
+            ], 
+            [
                 "CITATION-2", 
+                2
+            ], 
+            [
+                "CITATION-5", 
                 2
             ], 
             [
                 "CITATION-3", 
                 3
-            ], 
-            [
-                "CITATION-4", 
-                1
-            ], 
-            [
-                "CITATION-5", 
-                2
             ], 
             [
                 "CITATION-6", 
