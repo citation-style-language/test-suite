@@ -35,12 +35,14 @@ Spring–Summer 1999
         "issued": {
             "date-parts": [
                 [
-                    "1965", 
-                    "6", 
-                    "1"
+                    "1999", 
+                    "21" 
+                ],
+                [
+                    "1999",
+                    "22"
                 ]
-            ], 
-            "raw": "Spring 1999 - Summer 1999"
+            ]
         }, 
         "type": "book"
     }

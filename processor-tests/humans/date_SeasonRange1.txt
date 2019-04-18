@@ -2,10 +2,10 @@
 citation
 <<===== MODE =====<<
 
-Down Under season range.
+
 
 >>===== RESULT =====>>
-Summer–Spring 1999
+Spring 1999–Summer 2001
 <<===== RESULT =====<<
 
 
@@ -35,12 +35,15 @@ Summer–Spring 1999
         "issued": {
             "date-parts": [
                 [
-                    "1965", 
-                    "6", 
-                    "1"
+                    "1999", 
+                    "21" 
+                ],
+                [
+                    "2001",
+                    "22"
                 ]
             ], 
-            "raw": "Summer 1999 - Spring 1999"
+            "raw": "Spring 1999 - Summer 2001"
         }, 
         "type": "book"
     }
