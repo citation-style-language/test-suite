@@ -32,8 +32,13 @@ January 22, 1976
 [
     {
         "accessed": {
-            "date-parts": [], 
-            "raw": "22 jan 1976"
+            "date-parts": [
+              [
+                1976,
+                1,
+                22
+              ]
+            ]
         }, 
         "id": "ITEM-1", 
         "type": "book"

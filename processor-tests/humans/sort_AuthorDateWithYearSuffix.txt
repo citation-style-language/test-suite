@@ -306,7 +306,6 @@ citation
     "page": "591-7",
     "volume": "567",
     "issue": "Pt 2",
-    "abstract": "The vestibular organs can feed perceptual processes that build a picture of our route as we move about in the world. However, raw vestibular signals do not define the path taken because, during travel, the head can undergo accelerations unrelated to the route and also be orientated in any direction to vary the signal. This study investigated the computational process by which the brain transforms raw vestibular signals for the purpose of route reconstruction. We electrically stimulated the vestibular nerves of human subjects to evoke a virtual head rotation fixed in skull co-ordinates and measure its perceptual effect. The virtual head rotation caused subjects to perceive an illusory whole-body rotation that was a cyclic function of head-pitch angle. They perceived whole-body yaw rotation in one direction with the head pitched forwards, the opposite direction with the head pitched backwards, and no rotation with the head in an intermediate position. A model based on vector operations and the anatomy and firing properties of semicircular canals precisely predicted these perceptions. In effect, a neural process computes the vector dot product between the craniocentric vestibular vector of head rotation and the gravitational unit vector. This computation yields the signal of body rotation in the horizontal plane that feeds our perception of the route travelled.",
     "author": [
       {
         "family": "Day",

@@ -657,8 +657,13 @@ bibliography
   {
     "id": "ITEM-1",
     "issued": {
-      "date-parts": [],
-      "raw": "1994/6/1"
+      "date-parts": [
+        [
+          1994,
+          6,
+          1
+        ]
+      ]
     },
     "type": "book"
   }

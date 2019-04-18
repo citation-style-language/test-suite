@@ -1330,8 +1330,11 @@ bibliography
     "event-place": "Kbh",
     "id": "ITEM-1",
     "issued": {
-      "date-parts": [],
-      "raw": "2012"
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
     },
     "multi": {
       "_keys": {},
@@ -1356,8 +1359,11 @@ bibliography
     "event-place": "København",
     "id": "ITEM-2",
     "issued": {
-      "date-parts": [],
-      "raw": "2012"
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
     },
     "multi": {
       "_keys": {},
@@ -1383,8 +1389,11 @@ bibliography
     "event-place": "Kbh",
     "id": "ITEM-3",
     "issued": {
-      "date-parts": [],
-      "raw": "2015"
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
     },
     "multi": {
       "_keys": {},
@@ -1410,8 +1419,11 @@ bibliography
     "event-place": "Kbh",
     "id": "ITEM-4",
     "issued": {
-      "date-parts": [],
-      "raw": "2009"
+      "date-parts": [
+        [
+          2009
+        ]
+      ]
     },
     "multi": {
       "_keys": {},
@@ -1451,8 +1463,11 @@ bibliography
     "id": "ITEM-5",
     "issue": "1",
     "issued": {
-      "date-parts": [],
-      "raw": "2014"
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
     },
     "multi": {
       "_keys": {},
@@ -1467,8 +1482,11 @@ bibliography
     "genre": "television broadcast",
     "id": "ITEM-6",
     "issued": {
-      "date-parts": [],
-      "raw": "2011"
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
     },
     "multi": {
       "_keys": {},

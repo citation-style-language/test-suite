@@ -404,8 +404,12 @@ Looping was caused by attempt to render:
         ], 
         "id": "ITEM-0", 
         "issued": {
-            "date-parts": [], 
-            "raw": " 1982 Sep "
+            "date-parts": [
+              [
+                1982,
+                9
+              ]
+            ]
         }, 
         "publisher": "Presidio Pr", 
         "title": "Lost Victories", 
