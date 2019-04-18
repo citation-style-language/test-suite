@@ -38,6 +38,7 @@ bibliography
   </citation>
   <bibliography>
     <sort>
+      <key macro="citation-number" sort="ascending"/>
       <key macro="citation-number" sort="descending"/>
     </sort>
     <layout>

@@ -64,6 +64,7 @@ bibliography
   <bibliography>
     <sort>
       <key variable="citation-number" sort="descending"/>
+      <key variable="citation-number" sort="ascending"/>
     </sort>
     <layout>
       <text variable="citation-number" prefix="[" suffix="] "/>

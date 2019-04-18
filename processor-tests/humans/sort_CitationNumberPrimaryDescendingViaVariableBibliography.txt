@@ -3,16 +3,18 @@ bibliography
 <<===== MODE =====<<
 
 
-
 >>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">[4] Aaaa</div>
-  <div class="csl-entry">[3] Bbbb</div>
-  <div class="csl-entry">[2] Xxxx</div>
-  <div class="csl-entry">[1] Zzzz</div>
+  <div class="csl-entry">[4] Xxxx (fourth-cited)</div>
+  <div class="csl-entry">[3] Zzzz (third-cited)</div>
+  <div class="csl-entry">[2] Bbbb (second-cited)</div>
+  <div class="csl-entry">[1] Aaaa (first-cited)</div>
 </div>
 <<===== RESULT =====<<
 
+## Companion citations:
+##
+## >>[0] [1] Aaaa (first-cited); [2] Bbbb (second-cited); [3] Zzzz (third-cited); [4] Xxxx (fourth-cited)
 
 >>===== CSL =====>>
 <style 
@@ -24,17 +26,19 @@ bibliography
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
-  <macro name="citation-number">
-    <text variable="citation-number"/>
-  </macro>
   <citation>
+    <sort>
+      <key variable="citation-number"/>
+    </sort>
     <layout>
-      <text value="bogus"/>
+      <group delimiter=" ">
+        <text variable="citation-number" prefix="[" suffix="]"/>
+        <text variable="title"/>
+      </group>
     </layout>
   </citation>
   <bibliography>
     <sort>
-      <key variable="title" sort="ascending"/>
       <key variable="citation-number" sort="descending"/>
     </sort>
     <layout>
@@ -50,22 +54,22 @@ bibliography
 [
     {
         "id": "item-1", 
-        "title": "Aaaa", 
+        "title": "Aaaa (first-cited)", 
+        "type": "book"
+    }, 
+    {
+        "id": "item-2", 
+        "title": "Bbbb (second-cited)", 
         "type": "book"
     }, 
     {
         "id": "item-3", 
-        "title": "Bbbb", 
+        "title": "Zzzz (third-cited)", 
         "type": "book"
     }, 
     {
         "id": "item-4", 
-        "title": "Zzzz", 
-        "type": "book"
-    }, 
-    {
-        "id": "item-5", 
-        "title": "Xxxx", 
+        "title": "Xxxx (fourth-cited)", 
         "type": "book"
     }
 ]
