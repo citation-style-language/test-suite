@@ -23,7 +23,6 @@ Doe et al., <i>Book A</i> (2000); Doe et al., <i>Book B</i> (2000)
   <citation 
          disambiguate-add-givenname="true"
          disambiguate-add-names="true"
-         disambiguate-add-year-suffix="true"
          et-al-min="2"
          et-al-use-first="1"
          givenname-disambiguation-rule="by-cite">
@@ -42,7 +41,6 @@ Doe et al., <i>Book A</i> (2000); Doe et al., <i>Book B</i> (2000)
         <date variable="issued">
           <date-part name="year" />
         </date>
-        <text variable="year-suffix" />
       </group>
     </layout>
   </citation>
