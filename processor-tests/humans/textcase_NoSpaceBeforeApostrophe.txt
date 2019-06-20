@@ -6,7 +6,26 @@ citation
 
 >>===== RESULT =====>>
 Marcus Shafi’i, Response to Shafi’i Comment
+Marcus Shafi`i, Response to Shafi`i Comment
 <<===== RESULT =====<<
+
+
+>>===== CITATION-ITEMS =====>>
+[
+  [
+    {
+      "id": "ITEM-1"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-2"
+    }
+  ]
+]
+<<===== CITATION-ITEMS =====<<
+
+
 
 >>===== CSL =====>>
 <?xml version="1.0" encoding="utf-8"?>
@@ -51,7 +70,18 @@ Marcus Shafi’i, Response to Shafi’i Comment
           }
         ],
         "title": "Response to Shafi'i comment",
-        "type": ""
+        "type": "book"
+    },
+    {
+        "id": "ITEM-2", 
+        "editor": [
+          {
+            "family": "Shafi`i",
+            "given": "Marcus"
+          }
+        ],
+        "title": "Response to Shafi`i comment",
+        "type": "book"
     }
 ]
 <<===== INPUT =====<<
