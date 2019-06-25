@@ -19,11 +19,11 @@ citation
                 }, 
                 {
                     "id": "ITEM-1", 
-                    "locator": 201
+                    "locator": 202
                 }, 
                 {
                     "id": "ITEM-2", 
-                    "locator": 301
+                    "locator": 302
                 }, 
                 {
                     "id": "ITEM-3", 
@@ -42,7 +42,7 @@ citation
 <<===== CITATIONS =====<<
 
 >>===== RESULT =====>>
->>[0] Smith v. Noakes, 222 U.S. 200, 201, 333 L.Ed. 300, 301 (1965); ibid., 333 L.Ed. 301; Jim v. Bob, 444 U.S. 400, 401 (1966).
+>>[0] Smith v. Noakes, 222 U.S. 200, 201, 333 L.Ed. 300, 301 (1965); ibid. at 202, 333 L.Ed. 302; Jim v. Bob, 444 U.S. 400, 401 (1966).
 <<===== RESULT =====<<
 
 
@@ -61,7 +61,9 @@ citation
       <choose>
       <if position="first">
         <group delimiter=", ">
-          <text variable="title"/>
+          <group is-parallel="first">
+            <text variable="title"/>
+          </group>
           <group delimiter=" ">
             <text variable="volume"/>
             <text variable="container-title"/>
@@ -69,7 +71,9 @@ citation
               <text variable="page"/>
               <text variable="locator" prefix=", "/>
             </group>
-            <date variable="issued" date-parts="year" form="text" prefix="(" suffix=")"/>
+            <group is-parallel="last">
+              <date variable="issued" date-parts="year" form="text" prefix="(" suffix=")"/>
+            </group>
           </group>
         </group>
       </if>
@@ -82,7 +86,9 @@ citation
       </else-if>
       <else-if position="subsequent">
         <group delimiter=", ">
-          <text variable="title"/>
+          <group is-parallel="first">
+            <text variable="title"/>
+          </group>
           <group delimiter=" ">
             <text variable="volume"/>
             <text variable="container-title"/>
@@ -114,8 +120,10 @@ citation
         "volume" : "222",
         "page" : "200",
         "title": "Smith v. Noakes", 
-        "container-title": "U.S.", 
-        "type": "legal_case"
+        "container-title": "U.S.",
+        "jurisdiction": "us",
+        "type": "legal_case",
+        "rels": ["ITEM-2"]
     },
     {
         "id": "ITEM-2", 
@@ -130,7 +138,9 @@ citation
         "page" : "300",
         "title": "Smith v. Noakes", 
         "container-title": "L.Ed.", 
-        "type": "legal_case"
+        "jurisdiction": "us",
+        "type": "legal_case",
+        "rels": ["ITEM-1"]
     },
     {
         "id": "ITEM-3", 
@@ -145,6 +155,7 @@ citation
         "page" : "400",
         "title": "Jim v. Bob", 
         "container-title": "U.S.", 
+        "jurisdiction": "us",
         "type": "legal_case"
     }
 ]

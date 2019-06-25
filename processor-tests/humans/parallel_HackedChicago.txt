@@ -633,16 +633,21 @@ bibliography
   </macro>
   <macro name="legal-case-first">
     <group delimiter=", ">
-      <text variable="title"/>
-      <group delimiter=" ">
+      <group is-parallel="first">
+        <text variable="title"/>
+      </group>
+
+<group delimiter=" ">
         <text variable="volume"/>
         <text variable="container-title"/>
         <text variable="page"/>
         <group prefix="(" suffix=")" delimiter=" ">
           <text variable="authority" form="short"/>
-          <date variable="issued">
-            <date-part name="year"/>
-	      </date>
+          <group is-parallel="last">
+            <date variable="issued">
+              <date-part name="year"/>
+  	        </date>
+          </group>
   	    </group>
 	  </group>
 	</group>
@@ -749,7 +754,10 @@ bibliography
         }, 
         "page": "683", 
         "title": "People v. Taylor", 
-        "type": "legal_case", 
+        "jurisdiction": "us",
+        "jurisdiction": "us",
+        "type": "legal_case",
+        "rels": ["ITEM-1", "ITEM-2", "ITEM-3"],
         "volume": 73
     }, 
     {
@@ -764,7 +772,9 @@ bibliography
         }, 
         "page": "386", 
         "title": "People v. Taylor", 
-        "type": "legal_case", 
+        "jurisdiction": "us",
+        "type": "legal_case",
+        "rels": ["ITEM-1", "ITEM-2", "ITEM-3"], 
         "volume": 541
     }, 
     {
@@ -779,7 +789,9 @@ bibliography
         }, 
         "page": "357", 
         "title": "People v. Taylor", 
-        "type": "legal_case", 
+        "jurisdiction": "us",
+        "type": "legal_case",
+        "rels": ["ITEM-1", "ITEM-2", "ITEM-3"],
         "volume": 543
     }
 ]

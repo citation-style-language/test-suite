@@ -104,14 +104,18 @@ citation
       <choose>
       <if position="first">
         <group delimiter=", ">
-          <text variable="title"/>
+          <group is-parallel="first">
+            <text variable="title"/>
+          </group>
           <group delimiter=" ">
             <text variable="volume"/>
             <text variable="container-title"/>
             <text variable="page"/>
-            <date variable="issued" prefix="(" suffix=")">
-              <date-part name="year"/>
-            </date>
+            <group is-parallel="last">
+              <date variable="issued" prefix="(" suffix=")">
+                <date-part name="year"/>
+              </date>
+            </group>
           </group>
         </group>
       </if>
@@ -124,7 +128,9 @@ citation
       </else-if>
       <else-if position="subsequent">
         <group delimiter=", ">
-          <text variable="title"/>
+          <group is-parallel="first">
+            <text variable="title"/>
+          </group>
           <group delimiter=" ">
             <text variable="volume"/>
             <text variable="container-title"/>
@@ -162,7 +168,9 @@ citation
           ]
         },
         "id": "ITEM-1", 
-        "type": "legal_case"
+        "jurisdiction": "us",
+        "type": "legal_case",
+        "rels": ["ITEM-1", "ITEM-2"]
     }, 
     {
         "title": "Doe v. Roe",
@@ -175,7 +183,9 @@ citation
           ]
         },
         "id": "ITEM-2", 
-        "type": "legal_case"
+        "jurisdiction": "us",
+        "type": "legal_case",
+        "rels": ["ITEM-1", "ITEM-2"]
     }, 
     {
         "title": "Smith v. Jones",
@@ -188,6 +198,7 @@ citation
           ]
         },
         "id": "ITEM-3", 
+        "jurisdiction": "us",
         "type": "legal_case"
     }
 ]

@@ -91,7 +91,9 @@ bibliography
   <bibliography>
     <layout>
 	  <group delimiter=", ">
-        <text variable="title"/>
+        <group is-parallel="first">
+          <text variable="title"/>
+        </group>
         <group delimiter=" ">
           <text variable="volume"/>
           <text variable="container-title"/>
@@ -99,7 +101,9 @@ bibliography
             <text variable="page"/>
             <text variable="locator" prefix=", "/>
           </group>
-          <date variable="issued" date-parts="year" form="text" prefix="(" suffix=")"/>
+          <group is-parallel="last">
+            <date variable="issued" date-parts="year" form="text" prefix="(" suffix=")"/>
+          </group>
         </group>
       </group>
     </layout>
@@ -123,7 +127,9 @@ bibliography
         "page" : "200",
         "title": "Smith v. Noakes", 
         "container-title": "U.S.", 
-        "type": "legal_case"
+        "jurisdiction": "us",
+        "type": "legal_case",
+        "rels": ["ITEM-1", "ITEM-2"]
     },
     {
         "id": "ITEM-2", 
@@ -138,7 +144,9 @@ bibliography
         "page" : "300",
         "title": "Smith v. Noakes", 
         "container-title": "L.Ed.", 
-        "type": "legal_case"
+        "jurisdiction": "us",
+        "type": "legal_case",
+        "rels": ["ITEM-1", "ITEM-2"]
     },
     {
         "id": "ITEM-3", 
@@ -153,6 +161,7 @@ bibliography
         "page" : "400",
         "title": "Jim v. Bob", 
         "container-title": "U.S.", 
+        "jurisdiction": "us",
         "type": "legal_case"
     }
 ]
