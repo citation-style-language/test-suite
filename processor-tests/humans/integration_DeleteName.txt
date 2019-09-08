@@ -47,7 +47,6 @@ citation
                 }
             ], 
             "properties": {
-                "index": 0, 
                 "noteIndex": 1
             }
         }, 
@@ -66,7 +65,6 @@ citation
                 }
             ], 
             "properties": {
-                "index": 0, 
                 "noteIndex": 1
             }
         }, 

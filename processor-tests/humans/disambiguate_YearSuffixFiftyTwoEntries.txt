@@ -174,7 +174,7 @@ cites can be left untouched.
                 }
             ], 
             "properties": {
-                "index": 0
+                "noteIndex": 0
             }
         }, 
         [], 
@@ -189,7 +189,7 @@ cites can be left untouched.
                 }
             ], 
             "properties": {
-                "index": 1
+                "noteIndex": 1
             }
         }, 
         [
