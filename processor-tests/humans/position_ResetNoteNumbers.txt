@@ -5,10 +5,10 @@ citation
 
 
 >>===== RESULT =====>>
-..[0] Book C (note 1)
-..[1] Book A (note 1)
-..[2] ibid (note 2)
-..[3] Book A, n 1 (note 2)
+..[0] Book A (note 1)
+..[1] Book C (note 1)
+..[2] Book A, n 1 (note 2)
+..[3] ibid (note 2)
 ..[4] Book C, n 1 (note 3)
 ..[5] Book A, n 1 (note 3)
 ..[6] Book C, n 1 (note 4)
