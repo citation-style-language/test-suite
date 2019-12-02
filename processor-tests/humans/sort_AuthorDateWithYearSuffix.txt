@@ -223,109 +223,92 @@ citation
 
 >>===== INPUT =====>>
 [
-  {
-    "id": 30,
-    "type": "article-journal",
-    "multi": {
-      "_keys": {}
+    {
+        "id": 30,
+        "type": "article-journal",
+        "title": "The vestibular system",
+        "container-title": "Curr Biol",
+        "page": "R583-6",
+        "volume": "15",
+        "issue": "15",
+        "author": [
+            {
+                "family": "Day",
+                "given": "B. L."
+            },
+            {
+                "family": "Fitzpatrick",
+                "given": "R. C."
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2005
+                ]
+            ]
+        }
     },
-    "title": "The vestibular system",
-    "container-title": "Curr Biol",
-    "page": "R583-6",
-    "volume": "15",
-    "issue": "15",
-    "author": [
-      {
-        "family": "Day",
-        "given": "B. L.",
-        "isInstitution": ""
-      },
-      {
-        "family": "Fitzpatrick",
-        "given": "R. C.",
-        "isInstitution": ""
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2005
-        ]
-      ]
-    }
-  },
-  {
-    "id": 32,
-    "type": "paper-conference",
-    "multi": {
-      "_keys": {}
+    {
+        "id": 32,
+        "type": "paper-conference",
+        "title": "Stair descent: kinematics in healthy young and older adults",
+        "publisher-place": "Belgrade, Serbia",
+        "page": "129-130",
+        "event": "European College of Sport Science 10th Annual Congress",
+        "event-place": "Belgrade, Serbia",
+        "author": [
+            {
+                "family": "Mian",
+                "given": "O.S."
+            },
+            {
+                "family": "Thom",
+                "given": "J. M."
+            },
+            {
+                "family": "Narici",
+                "given": "M. V."
+            },
+            {
+                "family": "Baltzopoulos",
+                "given": "V."
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2005
+                ]
+            ]
+        }
     },
-    "title": "Stair descent: kinematics in healthy young and older adults",
-    "publisher-place": "Belgrade, Serbia",
-    "page": "129-130",
-    "event": "European College of Sport Science 10th Annual Congress",
-    "event-place": "Belgrade, Serbia",
-    "author": [
-      {
-        "family": "Mian",
-        "given": "O.S.",
-        "isInstitution": ""
-      },
-      {
-        "family": "Thom",
-        "given": "J. M.",
-        "isInstitution": ""
-      },
-      {
-        "family": "Narici",
-        "given": "M. V.",
-        "isInstitution": ""
-      },
-      {
-        "family": "Baltzopoulos",
-        "given": "V.",
-        "isInstitution": ""
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2005
-        ]
-      ]
+    {
+        "id": 29,
+        "type": "article-journal",
+        "title": "Virtual head rotation reveals a process of route reconstruction from human vestibular signals",
+        "container-title": "J Physiol",
+        "page": "591-7",
+        "volume": "567",
+        "issue": "Pt 2",
+        "author": [
+            {
+                "family": "Day",
+                "given": "B. L."
+            },
+            {
+                "family": "Fitzpatrick",
+                "given": "R. C."
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2005
+                ]
+            ]
+        }
     }
-  },
-  {
-    "id": 29,
-    "type": "article-journal",
-    "multi": {
-      "_keys": {}
-    },
-    "title": "Virtual head rotation reveals a process of route reconstruction from human vestibular signals",
-    "container-title": "J Physiol",
-    "page": "591-7",
-    "volume": "567",
-    "issue": "Pt 2",
-    "author": [
-      {
-        "family": "Day",
-        "given": "B. L.",
-        "isInstitution": ""
-      },
-      {
-        "family": "Fitzpatrick",
-        "given": "R. C.",
-        "isInstitution": ""
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2005
-        ]
-      ]
-    }
-  }
 ]
 <<===== INPUT =====<<
 

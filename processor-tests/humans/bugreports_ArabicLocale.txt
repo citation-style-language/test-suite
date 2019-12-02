@@ -36,33 +36,24 @@ Jonathan Chang وآخرون.
 
 >>==== INPUT ====>>
 [
-  {
-    "author": [
-      {
-        "family": "Chang",
-        "given": "Jonathan",
-        "multi": {
-          "_key": {}
-        }
-      },
-      {
-        "family": "Gerrish",
-        "given": "Sean",
-        "multi": {
-          "_key": {}
-        }
-      },
-      {
-        "family": "Wang",
-        "given": "Chong",
-        "multi": {
-          "_key": {}
-        }
-      }
-    ],
-    "id": "ITEM-1",
-    "type": "book"
-  }
+    {
+        "author": [
+            {
+                "family": "Chang",
+                "given": "Jonathan"
+            },
+            {
+                "family": "Gerrish",
+                "given": "Sean"
+            },
+            {
+                "family": "Wang",
+                "given": "Chong"
+            }
+        ],
+        "id": "ITEM-1",
+        "type": "book"
+    }
 ]
 <<==== INPUT ====<<
 

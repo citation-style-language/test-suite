@@ -35,12 +35,11 @@ von Doe, John
     {
         "author": [
             {
-                "family": "von Doe", 
-                "given": "John", 
-                "static-particles": true
+                "family": "von Doe",
+                "given": "John"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "book"
     }
 ]

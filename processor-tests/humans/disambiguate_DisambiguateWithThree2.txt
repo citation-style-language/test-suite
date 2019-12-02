@@ -103,99 +103,85 @@ citation
 
 >>==== INPUT ====>>
 [
-  {
-    "author": [
-      {
-        "family": "Spivak",
-        "given": "Gayatri Chakravorty",
-        "isInstitution": ""
-      }
-    ],
-    "event-place": "Cambridge, Mass.",
-    "id": 55,
-    "issued": {
-      "date-parts": [
-        [
-          1999
-        ]
-      ]
+    {
+        "author": [
+            {
+                "family": "Spivak",
+                "given": "Gayatri Chakravorty"
+            }
+        ],
+        "event-place": "Cambridge, Mass.",
+        "id": 55,
+        "issued": {
+            "date-parts": [
+                [
+                    1999
+                ]
+            ]
+        },
+        "note": "Gayatri Chakravorty Spivak. 25 cm.",
+        "publisher": "Harvard University Press",
+        "publisher-place": "Cambridge, Mass.",
+        "title": "A Critique of Postcolonial Reason: Toward a History of the Vanishing Present",
+        "title-short": "A Critique",
+        "type": "book"
     },
-    "multi": {
-      "_keys": {}
+    {
+        "author": [
+            {
+                "family": "Spivak",
+                "given": "Gayatri Chakravorty"
+            }
+        ],
+        "container-title": "Cosmopolitics: Thinking and Feeling Beyond the Nation",
+        "editor": [
+            {
+                "family": "Cheah",
+                "given": "Pheng"
+            },
+            {
+                "family": "Robbins",
+                "given": "Bruce"
+            }
+        ],
+        "event-place": "Minneapolis",
+        "id": 53,
+        "issued": {
+            "date-parts": [
+                [
+                    1998
+                ]
+            ]
+        },
+        "page": "329 - 348",
+        "publisher": "University of Minnesota Press",
+        "publisher-place": "Minneapolis",
+        "title": "Cultural Talks in the 'Hot Peace': Revisiting the Global Village",
+        "title-short": "Cultural Talks",
+        "type": "chapter"
     },
-    "note": "Gayatri Chakravorty Spivak. 25 cm.",
-    "publisher": "Harvard University Press",
-    "publisher-place": "Cambridge, Mass.",
-    "title": "A Critique of Postcolonial Reason: Toward a History of the Vanishing Present",
-    "title-short": "A Critique",
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "family": "Spivak",
-        "given": "Gayatri Chakravorty",
-        "isInstitution": ""
-      }
-    ],
-    "container-title": "Cosmopolitics: Thinking and Feeling Beyond the Nation",
-    "editor": [
-      {
-        "family": "Cheah",
-        "given": "Pheng",
-        "isInstitution": ""
-      },
-      {
-        "family": "Robbins",
-        "given": "Bruce",
-        "isInstitution": ""
-      }
-    ],
-    "event-place": "Minneapolis",
-    "id": 53,
-    "issued": {
-      "date-parts": [
-        [
-          1998
-        ]
-      ]
-    },
-    "multi": {
-      "_keys": {}
-    },
-    "page": "329 - 348",
-    "publisher": "University of Minnesota Press",
-    "publisher-place": "Minneapolis",
-    "title": "Cultural Talks in the 'Hot Peace': Revisiting the Global Village",
-    "title-short": "Cultural Talks",
-    "type": "chapter"
-  },
-  {
-    "author": [
-      {
-        "family": "Spivak",
-        "given": "Gayatri Chakravorty",
-        "isInstitution": ""
-      }
-    ],
-    "event-place": "New York",
-    "id": 59,
-    "issued": {
-      "date-parts": [
-        [
-          2003
-        ]
-      ]
-    },
-    "multi": {
-      "_keys": {}
-    },
-    "note": "Gayatri Chakravorty Spivak. Crossing borders â€• Collectivities â€• Planetarity.",
-    "publisher": "Columbia University Press",
-    "publisher-place": "New York",
-    "title": "Death of a Discipline",
-    "type": "book"
-  }
+    {
+        "author": [
+            {
+                "family": "Spivak",
+                "given": "Gayatri Chakravorty"
+            }
+        ],
+        "event-place": "New York",
+        "id": 59,
+        "issued": {
+            "date-parts": [
+                [
+                    2003
+                ]
+            ]
+        },
+        "note": "Gayatri Chakravorty Spivak. Crossing borders â€• Collectivities â€• Planetarity.",
+        "publisher": "Columbia University Press",
+        "publisher-place": "New York",
+        "title": "Death of a Discipline",
+        "type": "book"
+    }
 ]
 <<==== INPUT ====<<
 

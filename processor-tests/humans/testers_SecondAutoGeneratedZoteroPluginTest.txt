@@ -711,63 +711,52 @@ bibliography
 >>===== INPUT =====>>
 [
     {
-        "URL": "http://zotero.org/support/quick_start_guide", 
+        "URL": "http://zotero.org/support/quick_start_guide",
         "author": [
             {
-                "family": "Center <sup>for</sup> History <sub>and</sub> New Media", 
-                "given": "", 
+                "family": "Center <sup>for</sup> History <sub>and</sub> New Media",
+                "given": "",
                 "isInstitution": 1
             }
-        ], 
-        "id": 1, 
-        "multi": {
-            "_keys": {}
-        }, 
-        "title": "<b>Zotero</b> … \"Quick Start\" & <sc>Guide</sc> 日本語", 
+        ],
+        "id": 1,
+        "title": "<b>Zotero</b> … \"Quick Start\" & <sc>Guide</sc> 日本語",
         "type": "webpage"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Smith", 
-                "given": "John", 
-                "isInstitution": ""
+                "family": "Smith",
+                "given": "John"
             }
-        ], 
-        "id": 5, 
+        ],
+        "id": 5,
         "issued": {
             "date-parts": [
                 [
                     2000
                 ]
             ]
-        }, 
-        "multi": {
-            "_keys": {}
-        }, 
-        "title": "Book A", 
+        },
+        "title": "Book A",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Smith", 
-                "given": "Steven", 
-                "isInstitution": ""
+                "family": "Smith",
+                "given": "Steven"
             }
-        ], 
-        "id": 9, 
+        ],
+        "id": 9,
         "issued": {
             "date-parts": [
                 [
                     2000
                 ]
             ]
-        }, 
-        "multi": {
-            "_keys": {}
-        }, 
-        "title": "Book A", 
+        },
+        "title": "Book A",
         "type": "book"
     }
 ]

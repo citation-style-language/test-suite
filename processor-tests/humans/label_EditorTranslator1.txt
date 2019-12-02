@@ -554,82 +554,53 @@ _______________________________________________________________________________ 
 >>===== INPUT =====>>
 [
     {
-        "archive-place": "Тюмень", 
+        "archive-place": "Тюмень",
         "author": [
             {
-                "family": "Иванов", 
-                "given": "Иван Иванович", 
-                "isInstitution": "", 
-                "multi": {
-                    "_key": {}, 
-                    "main": false
-                }
-            }, 
+                "family": "Иванов",
+                "given": "Иван Иванович"
+            },
             {
-                "family": "Петров", 
-                "given": "П.П.", 
-                "isInstitution": "", 
-                "multi": {
-                    "_key": {}, 
-                    "main": false
-                }
-            }, 
+                "family": "Петров",
+                "given": "П.П."
+            },
             {
-                "family": "Сидоров", 
-                "given": "С.С.", 
-                "isInstitution": "", 
-                "multi": {
-                    "_key": {}, 
-                    "main": false
-                }
+                "family": "Сидоров",
+                "given": "С.С."
             }
-        ], 
-        "collection-number": "10", 
-        "collection-title": "вид издания", 
-        "edition": "2-е изд. перераб. и доп.", 
+        ],
+        "collection-number": "10",
+        "collection-title": "вид издания",
+        "edition": "2-е изд. перераб. и доп.",
         "editor": [
             {
-                "family": "Романов", 
-                "given": "Р.Р.", 
-                "isInstitution": "", 
-                "multi": {
-                    "_key": {}, 
-                    "main": false
-                }
+                "family": "Романов",
+                "given": "Р.Р."
             }
-        ], 
-        "event-place": "Тюмень", 
-        "id": "ITEM-1", 
+        ],
+        "event-place": "Тюмень",
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
-              [
-                2013
-              ]
-            ] 
-        }, 
-        "multi": {
-            "_keys": {}, 
-            "main": {}
-        }, 
-        "note": "Дополнительно", 
-        "number-of-pages": "100", 
-        "number-of-volumes": "5", 
-        "publisher": "Дом", 
-        "publisher-place": "Тюмень", 
-        "system_id": "0_6CD2WX2A", 
-        "title": "Пример оформления книги с редактором и переводчиком в одном лице", 
+                [
+                    2013
+                ]
+            ]
+        },
+        "note": "Дополнительно",
+        "number-of-pages": "100",
+        "number-of-volumes": "5",
+        "publisher": "Дом",
+        "publisher-place": "Тюмень",
+        "system_id": "0_6CD2WX2A",
+        "title": "Пример оформления книги с редактором и переводчиком в одном лице",
         "translator": [
             {
-                "family": "Романов", 
-                "given": "Р.Р.", 
-                "isInstitution": "", 
-                "multi": {
-                    "_key": {}, 
-                    "main": false
-                }
+                "family": "Романов",
+                "given": "Р.Р."
             }
-        ], 
-        "type": "book", 
+        ],
+        "type": "book",
         "volume": "2"
     }
 ]

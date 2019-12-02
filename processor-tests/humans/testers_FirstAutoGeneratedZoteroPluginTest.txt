@@ -754,66 +754,55 @@ citation
 
 >>===== INPUT =====>>
 [
-  {
-    "id": 1,
-    "type": "webpage",
-    "multi": {
-      "_keys": {}
-    },
-    "title": "<b>Zotero</b> … \"Quick Start\" & <sc>Guide</sc> 日本語",
-    "URL": "http://zotero.org/support/quick_start_guide",
-    "author": [
-      {
-        "family": "Center <sup>for</sup> History <sub>and</sub> New Media",
-        "given": "",
-        "isInstitution": 1
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "type": "book",
-    "multi": {
-      "_keys": {}
-    },
-    "title": "Book A",
-    "author": [
-      {
-        "family": "Smith",
-        "given": "John",
-        "isInstitution": ""
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2000
+    {
+        "id": 1,
+        "type": "webpage",
+        "title": "<b>Zotero</b> … \"Quick Start\" & <sc>Guide</sc> 日本語",
+        "URL": "http://zotero.org/support/quick_start_guide",
+        "author": [
+            {
+                "family": "Center <sup>for</sup> History <sub>and</sub> New Media",
+                "given": "",
+                "isInstitution": 1
+            }
         ]
-      ]
-    }
-  },
-  {
-    "id": 9,
-    "type": "book",
-    "multi": {
-      "_keys": {}
     },
-    "title": "Book A",
-    "author": [
-      {
-        "family": "Smith",
-        "given": "Steven",
-        "isInstitution": ""
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2000
-        ]
-      ]
+    {
+        "id": 5,
+        "type": "book",
+        "title": "Book A",
+        "author": [
+            {
+                "family": "Smith",
+                "given": "John"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2000
+                ]
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "type": "book",
+        "title": "Book A",
+        "author": [
+            {
+                "family": "Smith",
+                "given": "Steven"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2000
+                ]
+            ]
+        }
     }
-  }
 ]
 <<===== INPUT =====<<
 

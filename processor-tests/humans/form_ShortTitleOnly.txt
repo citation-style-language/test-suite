@@ -1592,10 +1592,6 @@ bibliography
     {
         "id": "ITEM-1",
         "type": "book",
-        "multi": {
-            "main": {},
-            "_keys": {}
-        },
         "title": "How to Write Better Essays",
         "publisher": "Palgrave MacMillan",
         "number-of-pages": "326",
@@ -1607,10 +1603,7 @@ bibliography
         "author": [
             {
                 "family": "Greetham",
-                "given": "Bryan",
-                "multi": {
-                    "_key": {}
-                }
+                "given": "Bryan"
             }
         ],
         "issued": {
@@ -1626,10 +1619,6 @@ bibliography
     {
         "id": "ITEM-2",
         "type": "article-journal",
-        "multi": {
-            "main": {},
-            "_keys": {}
-        },
         "title": "Cambodia: The Cambodian People's Party Consolidates Power",
         "container-title": "Southeast Asian Affairs",
         "page": "85-102",
@@ -1643,10 +1632,7 @@ bibliography
         "author": [
             {
                 "family": "Thayer",
-                "given": "Carlyle A.",
-                "multi": {
-                    "_key": {}
-                }
+                "given": "Carlyle A."
             }
         ],
         "issued": {

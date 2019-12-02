@@ -271,424 +271,369 @@ citation
 
 >>==== INPUT ====>>
 [
-  {
-    "abstract": "This article compares a variety of models of presidential approval in terms of their dynamic properties and their theoretical underpinnings. Exponential distributed lags, partial adjustment, error correction, and transfer function models are considered. The major difference between the models lies in interpretation rather than statistical properties. The error correction model seems most satisfactory. Approval models based on individual level theories are examined, and found to give no additional purchase.",
-    "accessed": {
-      "date-parts": [
-        [
-          2011,
-          9,
-          20
-        ]
-      ]
+    {
+        "abstract": "This article compares a variety of models of presidential approval in terms of their dynamic properties and their theoretical underpinnings. Exponential distributed lags, partial adjustment, error correction, and transfer function models are considered. The major difference between the models lies in interpretation rather than statistical properties. The error correction model seems most satisfactory. Approval models based on individual level theories are examined, and found to give no additional purchase.",
+        "accessed": {
+            "date-parts": [
+                [
+                    2011,
+                    9,
+                    20
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Beck",
+                "given": "Nathaniel"
+            }
+        ],
+        "container-title": "Political Analysis",
+        "id": 315,
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    1991,
+                    1,
+                    1
+                ]
+            ]
+        },
+        "page": "51-87",
+        "title": "Comparing Dynamic Specifications: The Case of Presidential Approval",
+        "title-short": "Comparing Dynamic Specifications",
+        "type": "article-journal",
+        "volume": "3"
     },
-    "author": [
-      {
-        "family": "Beck",
-        "given": "Nathaniel",
-        "isInstitution": ""
-      }
-    ],
-    "container-title": "Political Analysis",
-    "id": 315,
-    "issue": "1",
-    "issued": {
-      "date-parts": [
-        [
-          1991,
-          1,
-          1
-        ]
-      ]
+    {
+        "author": [
+            {
+                "family": "Beck",
+                "given": "Nathaniel"
+            },
+            {
+                "family": "Katz",
+                "given": "Jonathan"
+            }
+        ],
+        "container-title": "International Organization",
+        "id": 313,
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    2001
+                ]
+            ]
+        },
+        "page": "487-495",
+        "title": "Throwing Out the Baby with the Bath Water: A Comment on Green, Kim, and Yoon",
+        "title-short": "Throwing Out the Baby with the Bath Water",
+        "type": "article-journal",
+        "volume": "55"
     },
-    "multi": {
-      "_keys": {}
+    {
+        "accessed": {
+            "date-parts": [
+                [
+                    2011,
+                    4,
+                    4
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Beck",
+                "given": "Nathaniel"
+            },
+            {
+                "family": "Katz",
+                "given": "Jonathan"
+            }
+        ],
+        "container-title": "Annual Review of Political Science",
+        "id": 328,
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2011
+                ]
+            ]
+        },
+        "journalAbbreviation": "Annu. Rev. Polit. Sci.",
+        "page": "331-352",
+        "title": "Dynamics in Time Series Cross Section Data",
+        "type": "article-journal",
+        "volume": "14"
     },
-    "page": "51-87",
-    "title": "Comparing Dynamic Specifications: The Case of Presidential Approval",
-    "title-short": "Comparing Dynamic Specifications",
-    "type": "article-journal",
-    "volume": "3"
-  },
-  {
-    "author": [
-      {
-        "family": "Beck",
-        "given": "Nathaniel",
-        "isInstitution": ""
-      },
-      {
-        "family": "Katz",
-        "given": "Jonathan",
-        "isInstitution": ""
-      }
-    ],
-    "container-title": "International Organization",
-    "id": 313,
-    "issue": "2",
-    "issued": {
-      "date-parts": [
-        [
-          2001
-        ]
-      ]
+    {
+        "author": [
+            {
+                "family": "Beck",
+                "given": "Nathaniel"
+            },
+            {
+                "family": "Katz",
+                "given": "Jonathan"
+            },
+            {
+                "family": "Tucker",
+                "given": "Richard"
+            }
+        ],
+        "container-title": "American Journal of Political Science",
+        "id": 317,
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    1998
+                ]
+            ]
+        },
+        "page": "1260-1288",
+        "title": "Taking Time Seriously: Time-Series-Cross-Section Analysis with a Binary Dependent Variable",
+        "type": "article-journal",
+        "volume": "42"
     },
-    "multi": {
-      "_keys": {}
+    {
+        "abstract": "<p>We address a well-known but infrequently discussed problem in the quantitative study of international conflict: Despite immense data collections, prestigious journals, and sophisticated analyses, empirical findings in the literature on international conflict are often unsatisfying. Many statistical results change from article to article and specification to specification. Accurate forecasts are nonexistent. In this article we offer a conjecture about one source of this problem: The causes of conflict, theorized to be important but often found to be small or ephemeral, are indeed tiny for the vast majority of dyads, but they are large, stable, and replicable wherever the ex ante probability of conflict is large. This simple idea has an unexpectedly rich array of observable implications, all consistent with the literature. We directly test our conjecture by formulating a statistical model that includes its critical features. Our approach, a version of a \"neural network\" model, uncovers some interesting structural features of international conflict and, as one evaluative measure, forecasts substantially better than any previous effort. Moreover, this improvement comes at little cost, and it is easy to evaluate whether the model is a statistical improvement over the simpler models commonly used.</p>",
+        "accessed": {
+            "date-parts": [
+                [
+                    2011,
+                    4,
+                    6
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Beck",
+                "given": "Nathaniel"
+            },
+            {
+                "family": "King",
+                "given": "Gary"
+            },
+            {
+                "family": "Zeng",
+                "given": "Langche"
+            }
+        ],
+        "container-title": "American Political Science Review",
+        "id": 327,
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2000,
+                    3,
+                    1
+                ]
+            ]
+        },
+        "note": "ArticleType: research-article / Full publication date: Mar., 2000 / Copyright © 2000 American Political Science Association",
+        "page": "21-35",
+        "title": "Improving Quantitative Studies of International Conflict: A Conjecture",
+        "title-short": "Improving Quantitative Studies of International Conflict",
+        "type": "article-journal",
+        "volume": "94"
     },
-    "page": "487-495",
-    "title": "Throwing Out the Baby with the Bath Water: A Comment on Green, Kim, and Yoon",
-    "title-short": "Throwing Out the Baby with the Bath Water",
-    "type": "article-journal",
-    "volume": "55"
-  },
-  {
-    "accessed": {
-      "date-parts": [
-        [
-          2011,
-          4,
-          4
-        ]
-      ]
+    {
+        "author": [
+            {
+                "family": "Colaresi",
+                "given": "Michael P."
+            }
+        ],
+        "event-place": "Syracuse, NY",
+        "id": 311,
+        "issued": {
+            "date-parts": [
+                [
+                    2006,
+                    1,
+                    31
+                ]
+            ]
+        },
+        "number-of-pages": "262",
+        "publisher": "Syracuse University Press",
+        "publisher-place": "Syracuse, NY",
+        "title": "Scare Tactics: The Politics of International Rivalry",
+        "title-short": "Scare Tactics",
+        "type": "book"
     },
-    "author": [
-      {
-        "family": "Beck",
-        "given": "Nathaniel",
-        "isInstitution": ""
-      },
-      {
-        "family": "Katz",
-        "given": "Jonathan",
-        "isInstitution": ""
-      }
-    ],
-    "container-title": "Annual Review of Political Science",
-    "id": 328,
-    "issue": "1",
-    "issued": {
-      "date-parts": [
-        [
-          2011
-        ]
-      ]
+    {
+        "abstract": "Recently, a debate has begun concerning the relationship between conflict events over time between the same disputants. While research on rivalries and recurrent conflict suggest that crises are related over time, others (Gartzke and Simon 1999) doubt the empirical and theoretical foundations of this research. We agree with the critics that the proposition that conflicts between adversaries are related over time remains only weakly substantiated. To fill this lacuna, we test four hypotheses relating past crisis behavior and sequences to subsequent conflict, using International Crisis Behavior (ICB) project data. Our results support the serial crisis hypothesis and suggest that the probability of subsequent crises and wars increase with each past crisis. Our findings also reinforce the inclination to give more emphasis to the analysis of rivalries.",
+        "accessed": {
+            "date-parts": [
+                [
+                    2011,
+                    7,
+                    8
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Colaresi",
+                "given": "Michael P."
+            },
+            {
+                "family": "Thompson",
+                "given": "William R."
+            }
+        ],
+        "container-title": "Journal of Politics",
+        "id": 320,
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    2002
+                ]
+            ]
+        },
+        "page": "1175-1198",
+        "title": "Hot Spots or Hot Hands? Serial Crisis Behavior, Escalating Risks, and Rivalry",
+        "title-short": "Hot Spots or Hot Hands?",
+        "type": "article-journal",
+        "volume": "64"
     },
-    "journalAbbreviation": "Annu. Rev. Polit. Sci.",
-    "multi": {
-      "_keys": {}
+    {
+        "author": [
+            {
+                "family": "Colaresi",
+                "given": "Michael P."
+            },
+            {
+                "family": "Rasler",
+                "given": "Karen"
+            },
+            {
+                "family": "Thompson",
+                "given": "William R."
+            }
+        ],
+        "edition": "1",
+        "id": 318,
+        "issued": {
+            "date-parts": [
+                [
+                    2007
+                ]
+            ]
+        },
+        "publisher": "Cambridge University Press",
+        "title": "Strategic Rivalries in World Politics: Position, Space and Conflict Escalation",
+        "title-short": "Strategic Rivalries in World Politics",
+        "type": "book"
     },
-    "page": "331-352",
-    "title": "Dynamics in Time Series Cross Section Data",
-    "type": "article-journal",
-    "volume": "14"
-  },
-  {
-    "author": [
-      {
-        "family": "Beck",
-        "given": "Nathaniel",
-        "isInstitution": ""
-      },
-      {
-        "family": "Katz",
-        "given": "Jonathan",
-        "isInstitution": ""
-      },
-      {
-        "family": "Tucker",
-        "given": "Richard",
-        "isInstitution": ""
-      }
-    ],
-    "container-title": "American Journal of Political Science",
-    "id": 317,
-    "issue": "4",
-    "issued": {
-      "date-parts": [
-        [
-          1998
-        ]
-      ]
+    {
+        "author": [
+            {
+                "family": "Gochman",
+                "given": "Charles S."
+            }
+        ],
+        "container-title": "International Interactions",
+        "id": 323,
+        "issue": "1-2",
+        "issued": {
+            "date-parts": [
+                [
+                    1993
+                ]
+            ]
+        },
+        "page": "49-76",
+        "title": "The Evolution of Militarized Disputes",
+        "type": "article-journal",
+        "volume": "19"
     },
-    "multi": {
-      "_keys": {}
+    {
+        "abstract": "<p>The authors address the question of why some militarized interstate disputes evolve into wars, while others do not. They note from previous investigations that the probability of such disputes ending in war is associated with the types of bargaining behavior adopted by disputants. Particularly important are the degrees of escalation and reciprocity that characterize that behavior. This leads them to ask two questions: first, why do statesmen involved in militarized interstate disputes adopt the bargaining behavior they do?; second, what accounts for variations in outcomes for those disputes in which similar patterns of bargaining behavior are observed? Based upon an analysis of 30 militarized interstate disputes, the authors conclude that (1) escalation in interstate bargaining is strongly associated with the nature of the issues in contention and the types of threat of force initially employed in dispute bargaining, that (2) there exists an association between the relative capabilities of disputants and the degree of reciprocity in bargaining exchanges, and that (3) variations in the outcomes of disputes largely can be accounted for in terms of the interests at stake and the diplomacy of the great powers. These findings prove to be consistent with the basic tenets of political realism, and suggest that the behavior of decision makers engaged in militarized interstate disputes is generally rational in that they respond to cost-benefit considerations.",
+        "accessed": {
+            "date-parts": [
+                [
+                    2011,
+                    5,
+                    31
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Gochman",
+                "given": "Charles S."
+            },
+            {
+                "family": "Leng",
+                "given": "Russell J."
+            }
+        ],
+        "container-title": "International Studies Quarterly",
+        "id": 324,
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    1983,
+                    3,
+                    1
+                ]
+            ]
+        },
+        "note": "ArticleType: research-article / Full publication date: Mar., 1983 / Copyright © 1983 The International Studies Association",
+        "page": "97-120",
+        "title": "Realpolitik and the Road to War: An Analysis of Attributes and Behavior",
+        "title-short": "Realpolitik and the Road to War",
+        "type": "article-journal",
+        "volume": "27"
     },
-    "page": "1260-1288",
-    "title": "Taking Time Seriously: Time-Series-Cross-Section Analysis with a Binary Dependent Variable",
-    "type": "article-journal",
-    "volume": "42"
-  },
-  {
-    "abstract": "<p>We address a well-known but infrequently discussed problem in the quantitative study of international conflict: Despite immense data collections, prestigious journals, and sophisticated analyses, empirical findings in the literature on international conflict are often unsatisfying. Many statistical results change from article to article and specification to specification. Accurate forecasts are nonexistent. In this article we offer a conjecture about one source of this problem: The causes of conflict, theorized to be important but often found to be small or ephemeral, are indeed tiny for the vast majority of dyads, but they are large, stable, and replicable wherever the ex ante probability of conflict is large. This simple idea has an unexpectedly rich array of observable implications, all consistent with the literature. We directly test our conjecture by formulating a statistical model that includes its critical features. Our approach, a version of a \"neural network\" model, uncovers some interesting structural features of international conflict and, as one evaluative measure, forecasts substantially better than any previous effort. Moreover, this improvement comes at little cost, and it is easy to evaluate whether the model is a statistical improvement over the simpler models commonly used.</p>",
-    "accessed": {
-      "date-parts": [
-        [
-          2011,
-          4,
-          6
-        ]
-      ]
-    },
-    "author": [
-      {
-        "family": "Beck",
-        "given": "Nathaniel",
-        "isInstitution": ""
-      },
-      {
-        "family": "King",
-        "given": "Gary",
-        "isInstitution": ""
-      },
-      {
-        "family": "Zeng",
-        "given": "Langche",
-        "isInstitution": ""
-      }
-    ],
-    "container-title": "American Political Science Review",
-    "id": 327,
-    "issue": "1",
-    "issued": {
-      "date-parts": [
-        [
-          2000,
-          3,
-          1
-        ]
-      ]
-    },
-    "multi": {
-      "_keys": {}
-    },
-    "note": "ArticleType: research-article / Full publication date: Mar., 2000 / Copyright © 2000 American Political Science Association",
-    "page": "21-35",
-    "title": "Improving Quantitative Studies of International Conflict: A Conjecture",
-    "title-short": "Improving Quantitative Studies of International Conflict",
-    "type": "article-journal",
-    "volume": "94"
-  },
-  {
-    "author": [
-      {
-        "family": "Colaresi",
-        "given": "Michael P.",
-        "isInstitution": ""
-      }
-    ],
-    "event-place": "Syracuse, NY",
-    "id": 311,
-    "issued": {
-      "date-parts": [
-        [
-          2006,
-          1,
-          31
-        ]
-      ]
-    },
-    "multi": {
-      "_keys": {}
-    },
-    "number-of-pages": "262",
-    "publisher": "Syracuse University Press",
-    "publisher-place": "Syracuse, NY",
-    "title": "Scare Tactics: The Politics of International Rivalry",
-    "title-short": "Scare Tactics",
-    "type": "book"
-  },
-  {
-    "abstract": "Recently, a debate has begun concerning the relationship between conflict events over time between the same disputants. While research on rivalries and recurrent conflict suggest that crises are related over time, others (Gartzke and Simon 1999) doubt the empirical and theoretical foundations of this research. We agree with the critics that the proposition that conflicts between adversaries are related over time remains only weakly substantiated. To fill this lacuna, we test four hypotheses relating past crisis behavior and sequences to subsequent conflict, using International Crisis Behavior (ICB) project data. Our results support the serial crisis hypothesis and suggest that the probability of subsequent crises and wars increase with each past crisis. Our findings also reinforce the inclination to give more emphasis to the analysis of rivalries.",
-    "accessed": {
-      "date-parts": [
-        [
-          2011,
-          7,
-          8
-        ]
-      ]
-    },
-    "author": [
-      {
-        "family": "Colaresi",
-        "given": "Michael P.",
-        "isInstitution": ""
-      },
-      {
-        "family": "Thompson",
-        "given": "William R.",
-        "isInstitution": ""
-      }
-    ],
-    "container-title": "Journal of Politics",
-    "id": 320,
-    "issue": "4",
-    "issued": {
-      "date-parts": [
-        [
-          2002
-        ]
-      ]
-    },
-    "multi": {
-      "_keys": {}
-    },
-    "page": "1175-1198",
-    "title": "Hot Spots or Hot Hands? Serial Crisis Behavior, Escalating Risks, and Rivalry",
-    "title-short": "Hot Spots or Hot Hands?",
-    "type": "article-journal",
-    "volume": "64"
-  },
-  {
-    "author": [
-      {
-        "family": "Colaresi",
-        "given": "Michael P.",
-        "isInstitution": ""
-      },
-      {
-        "family": "Rasler",
-        "given": "Karen",
-        "isInstitution": ""
-      },
-      {
-        "family": "Thompson",
-        "given": "William R.",
-        "isInstitution": ""
-      }
-    ],
-    "edition": "1",
-    "id": 318,
-    "issued": {
-      "date-parts": [
-        [
-          2007
-        ]
-      ]
-    },
-    "multi": {
-      "_keys": {}
-    },
-    "publisher": "Cambridge University Press",
-    "title": "Strategic Rivalries in World Politics: Position, Space and Conflict Escalation",
-    "title-short": "Strategic Rivalries in World Politics",
-    "type": "book"
-  },
-  {
-    "author": [
-      {
-        "family": "Gochman",
-        "given": "Charles S.",
-        "isInstitution": ""
-      }
-    ],
-    "container-title": "International Interactions",
-    "id": 323,
-    "issue": "1-2",
-    "issued": {
-      "date-parts": [
-        [
-          1993
-        ]
-      ]
-    },
-    "multi": {
-      "_keys": {}
-    },
-    "page": "49-76",
-    "title": "The Evolution of Militarized Disputes",
-    "type": "article-journal",
-    "volume": "19"
-  },
-  {
-    "abstract": "<p>The authors address the question of why some militarized interstate disputes evolve into wars, while others do not. They note from previous investigations that the probability of such disputes ending in war is associated with the types of bargaining behavior adopted by disputants. Particularly important are the degrees of escalation and reciprocity that characterize that behavior. This leads them to ask two questions: first, why do statesmen involved in militarized interstate disputes adopt the bargaining behavior they do?; second, what accounts for variations in outcomes for those disputes in which similar patterns of bargaining behavior are observed? Based upon an analysis of 30 militarized interstate disputes, the authors conclude that (1) escalation in interstate bargaining is strongly associated with the nature of the issues in contention and the types of threat of force initially employed in dispute bargaining, that (2) there exists an association between the relative capabilities of disputants and the degree of reciprocity in bargaining exchanges, and that (3) variations in the outcomes of disputes largely can be accounted for in terms of the interests at stake and the diplomacy of the great powers. These findings prove to be consistent with the basic tenets of political realism, and suggest that the behavior of decision makers engaged in militarized interstate disputes is generally rational in that they respond to cost-benefit considerations.",
-    "accessed": {
-      "date-parts": [
-        [
-          2011,
-          5,
-          31
-        ]
-      ]
-    },
-    "author": [
-      {
-        "family": "Gochman",
-        "given": "Charles S.",
-        "isInstitution": ""
-      },
-      {
-        "family": "Leng",
-        "given": "Russell J.",
-        "isInstitution": ""
-      }
-    ],
-    "container-title": "International Studies Quarterly",
-    "id": 324,
-    "issue": "1",
-    "issued": {
-      "date-parts": [
-        [
-          1983,
-          3,
-          1
-        ]
-      ]
-    },
-    "multi": {
-      "_keys": {}
-    },
-    "note": "ArticleType: research-article / Full publication date: Mar., 1983 / Copyright © 1983 The International Studies Association",
-    "page": "97-120",
-    "title": "Realpolitik and the Road to War: An Analysis of Attributes and Behavior",
-    "title-short": "Realpolitik and the Road to War",
-    "type": "article-journal",
-    "volume": "27"
-  },
-  {
-    "abstract": "This article offers an empirical description and discussion of interstate conflict behavior. The basis is a recently completed data set consisting of all recorded instances of threats, displays, and uses of military force among states since 1816. We detail historical trends in the data and describe major dimensions of dispute behavior, including patterns of participation, duration, severity and escalation, regional distribution, and national dispute proneness. The following conclusions are suggested: First, patterns of dispute behavior have been more persistent over time than we often assume. Second, when these patterns have changed, the changes have been evolutionary in nature and have paralleled changes in the size and composition of the interstate system. Third, despite the diversity of the political units that constitute the interstate system, patterns of dispute behavior are generalizable across geographic boundaries.",
-    "accessed": {
-      "date-parts": [
-        [
-          2011,
-          5,
-          30
-        ]
-      ]
-    },
-    "author": [
-      {
-        "family": "Gochman",
-        "given": "Charles S.",
-        "isInstitution": ""
-      },
-      {
-        "family": "Maoz",
-        "given": "Zeev",
-        "isInstitution": ""
-      }
-    ],
-    "container-title": "Journal of Conflict Resolution",
-    "id": 325,
-    "issue": "4",
-    "issued": {
-      "date-parts": [
-        [
-          1984,
-          12,
-          1
-        ]
-      ]
-    },
-    "multi": {
-      "_keys": {}
-    },
-    "page": "585-616",
-    "title": "Militarized Interstate Disputes, 1816-1976",
-    "type": "article-journal",
-    "volume": "28"
-  }
+    {
+        "abstract": "This article offers an empirical description and discussion of interstate conflict behavior. The basis is a recently completed data set consisting of all recorded instances of threats, displays, and uses of military force among states since 1816. We detail historical trends in the data and describe major dimensions of dispute behavior, including patterns of participation, duration, severity and escalation, regional distribution, and national dispute proneness. The following conclusions are suggested: First, patterns of dispute behavior have been more persistent over time than we often assume. Second, when these patterns have changed, the changes have been evolutionary in nature and have paralleled changes in the size and composition of the interstate system. Third, despite the diversity of the political units that constitute the interstate system, patterns of dispute behavior are generalizable across geographic boundaries.",
+        "accessed": {
+            "date-parts": [
+                [
+                    2011,
+                    5,
+                    30
+                ]
+            ]
+        },
+        "author": [
+            {
+                "family": "Gochman",
+                "given": "Charles S."
+            },
+            {
+                "family": "Maoz",
+                "given": "Zeev"
+            }
+        ],
+        "container-title": "Journal of Conflict Resolution",
+        "id": 325,
+        "issue": "4",
+        "issued": {
+            "date-parts": [
+                [
+                    1984,
+                    12,
+                    1
+                ]
+            ]
+        },
+        "page": "585-616",
+        "title": "Militarized Interstate Disputes, 1816-1976",
+        "type": "article-journal",
+        "volume": "28"
+    }
 ]
 <<==== INPUT ====<<
 

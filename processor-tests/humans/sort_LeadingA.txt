@@ -1316,186 +1316,141 @@ bibliography
 
 >>==== INPUT ====>>
 [
-  {
-    "archive-place": "Kbh",
-    "author": [
-      {
-        "family": "Ab Delrahman",
-        "given": "Hussein",
-        "multi": {
-          "_key": {}
-        }
-      }
-    ],
-    "event-place": "Kbh",
-    "id": "ITEM-1",
-    "issued": {
-      "date-parts": [
-        [
-          2012
-        ]
-      ]
+    {
+        "archive-place": "Kbh",
+        "author": [
+            {
+                "family": "Ab Delrahman",
+                "given": "Hussein"
+            }
+        ],
+        "event-place": "Kbh",
+        "id": "ITEM-1",
+        "issued": {
+            "date-parts": [
+                [
+                    2012
+                ]
+            ]
+        },
+        "publisher": "Politiken",
+        "publisher-place": "Kbh",
+        "title": "Det danske alfabet er sært",
+        "type": "book"
     },
-    "multi": {
-      "_keys": {},
-      "main": {}
+    {
+        "archive-place": "København",
+        "author": [
+            {
+                "family": "A Hansen",
+                "given": "Martin"
+            }
+        ],
+        "event-place": "København",
+        "id": "ITEM-2",
+        "issued": {
+            "date-parts": [
+                [
+                    2012
+                ]
+            ]
+        },
+        "publisher": "Gyldendal",
+        "publisher-place": "København",
+        "title": "Alfabetiseringsproblemer",
+        "type": "book"
     },
-    "publisher": "Politiken",
-    "publisher-place": "Kbh",
-    "title": "Det danske alfabet er sært",
-    "type": "book"
-  },
-  {
-    "archive-place": "København",
-    "author": [
-      {
-        "family": "A Hansen",
-        "given": "Martin",
-        "multi": {
-          "_key": {}
-        }
-      }
-    ],
-    "event-place": "København",
-    "id": "ITEM-2",
-    "issued": {
-      "date-parts": [
-        [
-          2012
-        ]
-      ]
+    {
+        "archive-place": "Kbh",
+        "author": [
+            {
+                "family": "A kasernes fællesvirke",
+                "given": "",
+                "isInstitution": 1
+            }
+        ],
+        "event-place": "Kbh",
+        "id": "ITEM-3",
+        "issued": {
+            "date-parts": [
+                [
+                    2015
+                ]
+            ]
+        },
+        "publisher": "Dafolo",
+        "publisher-place": "Kbh",
+        "title": "Problemer med alfabetet",
+        "type": "book"
     },
-    "multi": {
-      "_keys": {},
-      "main": {}
+    {
+        "archive-place": "Kbh",
+        "author": [
+            {
+                "family": "B Gjengen",
+                "given": "",
+                "isInstitution": 1
+            }
+        ],
+        "event-place": "Kbh",
+        "id": "ITEM-4",
+        "issued": {
+            "date-parts": [
+                [
+                    2009
+                ]
+            ]
+        },
+        "publisher-place": "Kbh",
+        "title": "Alfabeta",
+        "type": "book"
     },
-    "publisher": "Gyldendal",
-    "publisher-place": "København",
-    "title": "Alfabetiseringsproblemer",
-    "type": "book"
-  },
-  {
-    "archive-place": "Kbh",
-    "author": [
-      {
-        "family": "A kasernes fællesvirke",
-        "given": "",
-        "isInstitution": 1,
-        "multi": {
-          "_key": {}
-        }
-      }
-    ],
-    "event-place": "Kbh",
-    "id": "ITEM-3",
-    "issued": {
-      "date-parts": [
-        [
-          2015
-        ]
-      ]
+    {
+        "ISSN": "0906-5407",
+        "author": [
+            {
+                "family": "Juul Jensen",
+                "given": "Uffe"
+            },
+            {
+                "family": "Hædersdal",
+                "given": "Carsten"
+            },
+            {
+                "family": "Skadborg",
+                "given": "Mogens Kim"
+            }
+        ],
+        "call-number": "61.01",
+        "container-title": "Bibliotek for læger",
+        "id": "ITEM-5",
+        "issue": "1",
+        "issued": {
+            "date-parts": [
+                [
+                    2014
+                ]
+            ]
+        },
+        "page": "44-61",
+        "title": "Etablering af klinisk etiske komitéer i Danmark: en praksis-filosofisk tilgang til klinisk etik fra bibliotek.dk",
+        "type": "article-journal",
+        "volume": "206"
     },
-    "multi": {
-      "_keys": {},
-      "main": {}
-    },
-    "publisher": "Dafolo",
-    "publisher-place": "Kbh",
-    "title": "Problemer med alfabetet",
-    "type": "book"
-  },
-  {
-    "archive-place": "Kbh",
-    "author": [
-      {
-        "family": "B Gjengen",
-        "given": "",
-        "isInstitution": 1,
-        "multi": {
-          "_key": {}
-        }
-      }
-    ],
-    "event-place": "Kbh",
-    "id": "ITEM-4",
-    "issued": {
-      "date-parts": [
-        [
-          2009
-        ]
-      ]
-    },
-    "multi": {
-      "_keys": {},
-      "main": {}
-    },
-    "publisher-place": "Kbh",
-    "title": "Alfabeta",
-    "type": "book"
-  },
-  {
-    "ISSN": "0906-5407",
-    "author": [
-      {
-        "family": "Juul Jensen",
-        "given": "Uffe",
-        "multi": {
-          "_key": {}
-        }
-      },
-      {
-        "family": "Hædersdal",
-        "given": "Carsten",
-        "multi": {
-          "_key": {}
-        }
-      },
-      {
-        "family": "Skadborg",
-        "given": "Mogens Kim",
-        "multi": {
-          "_key": {}
-        }
-      }
-    ],
-    "call-number": "61.01",
-    "container-title": "Bibliotek for læger",
-    "id": "ITEM-5",
-    "issue": "1",
-    "issued": {
-      "date-parts": [
-        [
-          2014
-        ]
-      ]
-    },
-    "multi": {
-      "_keys": {},
-      "main": {}
-    },
-    "page": "44-61",
-    "title": "Etablering af klinisk etiske komitéer i Danmark: en praksis-filosofisk tilgang til klinisk etik fra bibliotek.dk",
-    "type": "article-journal",
-    "volume": "206"
-  },
-  {
-    "genre": "television broadcast",
-    "id": "ITEM-6",
-    "issued": {
-      "date-parts": [
-        [
-          2011
-        ]
-      ]
-    },
-    "multi": {
-      "_keys": {},
-      "main": {}
-    },
-    "publisher": "DR",
-    "title": "A er det første bogstav i alfabetet",
-    "type": "broadcast"
-  }
+    {
+        "genre": "television broadcast",
+        "id": "ITEM-6",
+        "issued": {
+            "date-parts": [
+                [
+                    2011
+                ]
+            ]
+        },
+        "publisher": "DR",
+        "title": "A er det første bogstav i alfabetet",
+        "type": "broadcast"
+    }
 ]
 <<==== INPUT ====<<
 
