@@ -50,3 +50,8 @@ bibheader_EntryspacingExplicitValueZero.txt
 bibheader_SecondFieldAlign.txt
 bibheader_SecondFieldAlignWithAuthor.txt
 bibheader_SecondFieldAlignWithNumber.txt
+
+# citation-rtf mode 
+bugreports_NonBreakingSpaceJoinFail.txt
+# bibliography-nosort mode
+sort_BibliographyNosortOption.txt
