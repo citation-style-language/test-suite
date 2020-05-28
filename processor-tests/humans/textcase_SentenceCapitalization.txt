@@ -31,8 +31,8 @@ This is a pen that is a Smith pencil
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "This is a Pen that is a <span class=\"nocase\">Smith</span> Pencil", 
+        "id": "ITEM-1",
+        "title": "This is a Pen that is a <span class=\"nocase\">Smith</span> Pencil",
         "type": "book"
     }
 ]

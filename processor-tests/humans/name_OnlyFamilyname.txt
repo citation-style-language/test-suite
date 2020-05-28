@@ -38,9 +38,9 @@ Prince
             {
                 "family": "Prince"
             }
-        ], 
-        "id": "ITEM-1", 
-        "title": "Item 1", 
+        ],
+        "id": "ITEM-1",
+        "title": "Item 1",
         "type": "book"
     }
 ]

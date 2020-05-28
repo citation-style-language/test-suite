@@ -12,21 +12,21 @@ citation
 [
     [
         {
-            "citationID": "CITATION-1", 
+            "citationID": "CITATION-1",
             "citationItems": [
                 {
                     "id": "ITEM-1"
-                }, 
+                },
                 {
-                    "id": "ITEM-1", 
+                    "id": "ITEM-1",
                     "prefix": ". He said \"Please work.\""
                 }
-            ], 
+            ],
             "properties": {
                 "noteIndex": 1
             }
-        }, 
-        [], 
+        },
+        [],
         []
     ]
 ]

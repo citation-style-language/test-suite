@@ -11,44 +11,44 @@ citation
 [
     [
         {
-            "citationID": "10fplksp7n", 
+            "citationID": "10fplksp7n",
             "citationItems": [
                 {
-                    "id": 1, 
-                    "label": "page", 
+                    "id": 1,
+                    "label": "page",
                     "locator": "47"
                 }
-            ], 
+            ],
             "properties": {
                 "noteIndex": 1
             }
-        }, 
-        [], 
+        },
+        [],
         []
-    ], 
+    ],
     [
         {
-            "citationID": "2cmt1f5kan", 
+            "citationID": "2cmt1f5kan",
             "citationItems": [
                 {
-                    "id": "5", 
+                    "id": "5",
                     "label": "page"
-                }, 
+                },
                 {
-                    "id": "1", 
+                    "id": "1",
                     "label": "page"
                 }
-            ], 
+            ],
             "properties": {
                 "noteIndex": 2
             }
-        }, 
+        },
         [
             [
-                "10fplksp7n", 
+                "10fplksp7n",
                 1
             ]
-        ], 
+        ],
         []
     ]
 ]

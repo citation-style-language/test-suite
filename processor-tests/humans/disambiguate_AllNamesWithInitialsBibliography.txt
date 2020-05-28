@@ -81,53 +81,53 @@ bibliography
     {
         "author": [
             {
-                "family": "Asthma", 
+                "family": "Asthma",
                 "given": "Albert"
-            }, 
+            },
             {
-                "family": "Bronchitis", 
+                "family": "Bronchitis",
                 "given": "Bosworth"
-            }, 
+            },
             {
-                "family": "Cold", 
+                "family": "Cold",
                 "given": "Crispin"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     "1980"
                 ]
             ]
-        }, 
-        "title": "Book A", 
+        },
+        "title": "Book A",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Asthma", 
+                "family": "Asthma",
                 "given": "Albert"
-            }, 
+            },
             {
-                "family": "Bronchitis", 
+                "family": "Bronchitis",
                 "given": "Beauregarde"
-            }, 
+            },
             {
-                "family": "Cold", 
+                "family": "Cold",
                 "given": "Odeous"
             }
-        ], 
-        "id": "ITEM-2", 
+        ],
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
                     "1995"
                 ]
             ]
-        }, 
-        "title": "Book B", 
+        },
+        "title": "Book B",
         "type": "book"
     }
 ]

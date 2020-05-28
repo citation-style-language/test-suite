@@ -37,11 +37,11 @@ Only Me
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
+        "id": "ITEM-1",
         "issued": {
             "date-parts": []
-        }, 
-        "title": "Ignore me", 
+        },
+        "title": "Ignore me",
         "type": "book"
     }
 ]

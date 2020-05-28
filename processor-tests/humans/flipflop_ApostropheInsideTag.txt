@@ -51,14 +51,14 @@ l’’’
 
 >>===== INPUT =====>>
 [
-  {
-    "type": "article-journal",
-    "title": "<span class=\"nocase\">l'''</span>",
-    "multi": {
-      "main": {},
-      "_keys": {}
+    {
+        "multi": {
+            "_keys": {},
+            "main": {}
+        },
+        "title": "<span class=\"nocase\">l'''</span>",
+        "type": "article-journal"
     }
-  }
 ]
 <<===== INPUT =====<<
 

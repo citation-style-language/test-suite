@@ -8,40 +8,40 @@ citation
     [
         {
             "id": "ambigs-1"
-        }, 
+        },
         {
             "id": "ambigs-2"
-        }, 
+        },
         {
             "id": "ambigs-3"
-        }, 
+        },
         {
             "id": "ambigs-4"
-        }, 
+        },
         {
             "id": "ambigs-5"
-        }, 
+        },
         {
             "id": "ambigs-6"
-        }, 
+        },
         {
             "id": "ambigs-7"
-        }, 
+        },
         {
             "id": "ambigs-8"
-        }, 
+        },
         {
             "id": "ambigs-9"
-        }, 
+        },
         {
             "id": "ambigs-10"
-        }, 
+        },
         {
             "id": "ambigs-11"
-        }, 
+        },
         {
             "id": "ambigs-12"
-        }, 
+        },
         {
             "id": "ambigs-13"
         }

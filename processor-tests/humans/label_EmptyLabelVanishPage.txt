@@ -10,7 +10,7 @@ citation
 [
     [
         {
-            "id": "ITEM-1", 
+            "id": "ITEM-1",
             "locator": "53"
         }
     ]

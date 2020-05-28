@@ -42,11 +42,11 @@ John Doe; Aloysius Doe
         {
             "id": "ITEM-1"
         }
-    ], 
+    ],
     [
         {
             "id": "ITEM-2"
-        }, 
+        },
         {
             "id": "ITEM-3"
         }

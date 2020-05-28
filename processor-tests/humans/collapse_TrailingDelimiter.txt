@@ -15,16 +15,16 @@ citation
     [
         {
             "id": "ITEM-1"
-        }, 
+        },
         {
             "id": "ITEM-2"
-        }, 
+        },
         {
             "id": "ITEM-4"
-        }, 
+        },
         {
             "id": "ITEM-3"
-        }, 
+        },
         {
             "id": "ITEM-5"
         }

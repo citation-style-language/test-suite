@@ -151,24 +151,24 @@ http://groups.google.com/group/citeproc-js/browse_thread/thread/6f9c7620c6c97ff1
 >>===== INPUT =====>>
 [
     {
-        "URL": "http://www.test01.com", 
+        "URL": "http://www.test01.com",
         "author": [
             {
-                "family": "D'Arcus", 
+                "family": "D'Arcus",
                 "given": "Bruce"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     2006
                 ]
             ]
-        }, 
-        "publisher": "Routledge", 
-        "publisher-place": "New York", 
-        "title": "Boundaries of Dissent: Protest and State Power in the Media Age", 
+        },
+        "publisher": "Routledge",
+        "publisher-place": "New York",
+        "title": "Boundaries of Dissent: Protest and State Power in the Media Age",
         "type": "book"
     }
 ]

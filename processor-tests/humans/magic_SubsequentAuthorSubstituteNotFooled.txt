@@ -497,57 +497,57 @@ Chicago Author-Date.
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     "1974"
                 ]
             ]
-        }, 
-        "publisher": "University of Chicago Press", 
-        "publisher-place": "Chicago", 
-        "title": "Sir Gawain and the Green Knight", 
+        },
+        "publisher": "University of Chicago Press",
+        "publisher-place": "Chicago",
+        "title": "Sir Gawain and the Green Knight",
         "translator": [
             {
-                "family": "Silverstein", 
+                "family": "Silverstein",
                 "given": "Theodore"
             }
-        ], 
+        ],
         "type": "chapter"
-    }, 
+    },
     {
         "editor": [
             {
-                "family": "Soltes", 
+                "family": "Soltes",
                 "given": "Ori A."
             }
-        ], 
-        "id": "ITEM-2", 
+        ],
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
                     1999
                 ]
             ]
-        }, 
-        "publisher": "Philip Wilson", 
-        "publisher-place": "London", 
-        "title": "Georgia: Art and Civilization through the Ages", 
+        },
+        "publisher": "Philip Wilson",
+        "publisher-place": "London",
+        "title": "Georgia: Art and Civilization through the Ages",
         "type": "chapter"
-    }, 
+    },
     {
-        "id": "ITEM-3", 
+        "id": "ITEM-3",
         "issued": {
             "date-parts": [
                 [
                     1993
                 ]
             ]
-        }, 
-        "publisher": "University of Chicago Press", 
-        "publisher-place": "Chicago", 
-        "title": "The Chicago Manual of Style", 
+        },
+        "publisher": "University of Chicago Press",
+        "publisher-place": "Chicago",
+        "title": "The Chicago Manual of Style",
         "type": "chapter"
     }
 ]

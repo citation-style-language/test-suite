@@ -10,7 +10,7 @@ Some title, “Hello there”.
 [
     [
         {
-            "id": "ITEM-1", 
+            "id": "ITEM-1",
             "suffix": ", \"Hello there\"."
         }
     ]

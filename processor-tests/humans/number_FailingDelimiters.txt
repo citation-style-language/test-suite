@@ -42,10 +42,10 @@ bibliography
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "issue": 555, 
-        "title": "His Anonymous Life", 
-        "type": "book", 
+        "id": "ITEM-1",
+        "issue": 555,
+        "title": "His Anonymous Life",
+        "type": "book",
         "volume": 100
     }
 ]

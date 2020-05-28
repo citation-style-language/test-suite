@@ -39,7 +39,7 @@ citation
 [
     [
         {
-            "id": "ITEM-1", 
+            "id": "ITEM-1",
             "prefix": "<sc>See</sc> "
         }
     ]

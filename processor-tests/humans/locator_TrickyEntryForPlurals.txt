@@ -10,7 +10,7 @@ Book Title, vol. 1, fol. 186, 8 April 1544
 [
     [
         {
-            "id": "ITEM-1", 
+            "id": "ITEM-1",
             "locator": "vol. 1, fol. 186, 8 April 1544"
         }
     ]

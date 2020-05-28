@@ -150,9 +150,9 @@ citation
             {
                 "family": "FamilyName"
             }
-        ], 
-        "id": "ITEM-1", 
-        "title": "Title", 
+        ],
+        "id": "ITEM-1",
+        "title": "Title",
         "type": "article"
     }
 ]

@@ -31,9 +31,9 @@ Review of book by A.N. author
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "language": "de", 
-        "title": "Review of book by A.N. author", 
+        "id": "ITEM-1",
+        "language": "de",
+        "title": "Review of book by A.N. author",
         "type": "book"
     }
 ]

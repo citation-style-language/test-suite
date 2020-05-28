@@ -15,7 +15,7 @@ Have date, will travel
         {
             "id": "ITEM-1"
         }
-    ], 
+    ],
     [
         {
             "id": "ITEM-2"

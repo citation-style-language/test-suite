@@ -39,31 +39,31 @@ van Gogh, Vincent; Humboldt, Alexander von; van der Vlist, Eric
     {
         "author": [
             {
-                "family": "van der Vlist", 
+                "family": "van der Vlist",
                 "given": "Eric"
             }
-        ], 
-        "id": "ITEM-3", 
+        ],
+        "id": "ITEM-3",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "van Gogh", 
+                "family": "van Gogh",
                 "given": "Vincent"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Humboldt", 
+                "family": "Humboldt",
                 "given": "Alexander von"
             }
-        ], 
-        "id": "ITEM-2", 
+        ],
+        "id": "ITEM-2",
         "type": "book"
     }
 ]

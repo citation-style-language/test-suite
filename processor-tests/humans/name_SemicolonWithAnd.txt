@@ -38,19 +38,19 @@ C. Smith; J. Brown; and F. Wilson
     {
         "author": [
             {
-                "family": "Smith", 
+                "family": "Smith",
                 "given": "Cecil"
-            }, 
+            },
             {
-                "family": "Brown", 
+                "family": "Brown",
                 "given": "Jimminey"
-            }, 
+            },
             {
-                "family": "Wilson", 
+                "family": "Wilson",
                 "given": "Fred"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "book"
     }
 ]

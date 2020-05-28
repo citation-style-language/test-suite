@@ -32,8 +32,8 @@ Space on guillemet is half-width non-breaking space.
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "Life's 'Little' Surprises", 
+        "id": "ITEM-1",
+        "title": "Life's 'Little' Surprises",
         "type": "book"
     }
 ]

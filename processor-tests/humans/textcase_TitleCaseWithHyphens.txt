@@ -29,8 +29,8 @@ Out-of-Fashion Initiatives: A Second Story
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "Out-of-fashion initiatives: a second story", 
+        "id": "ITEM-1",
+        "title": "Out-of-fashion initiatives: a second story",
         "type": "book"
     }
 ]

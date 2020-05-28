@@ -40,79 +40,79 @@ J. Doe, Jane Roe, Robert Jones; J. Doe, Josephine Roe, et al.; J. Doe, Jane Roe,
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "John"
-            }, 
+            },
             {
-                "family": "Roe", 
+                "family": "Roe",
                 "given": "Jane"
-            }, 
+            },
             {
-                "family": "Jones", 
+                "family": "Jones",
                 "given": "Robert"
             }
-        ], 
-        "id": "ambigs-12", 
+        ],
+        "id": "ambigs-12",
         "issued": {
             "date-parts": [
                 [
                     "1990"
                 ]
             ]
-        }, 
-        "title": "Book C", 
+        },
+        "title": "Book C",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "John"
-            }, 
+            },
             {
-                "family": "Roe", 
+                "family": "Roe",
                 "given": "Josephine"
-            }, 
+            },
             {
-                "family": "Jones", 
+                "family": "Jones",
                 "given": "Robert"
             }
-        ], 
-        "id": "ambigs-13", 
+        ],
+        "id": "ambigs-13",
         "issued": {
             "date-parts": [
                 [
                     "1990"
                 ]
             ]
-        }, 
-        "title": "Book B", 
+        },
+        "title": "Book B",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "John"
-            }, 
+            },
             {
-                "family": "Roe", 
+                "family": "Roe",
                 "given": "Jane"
-            }, 
+            },
             {
-                "family": "Jones", 
+                "family": "Jones",
                 "given": "Richard"
             }
-        ], 
-        "id": "ambigs-14", 
+        ],
+        "id": "ambigs-14",
         "issued": {
             "date-parts": [
                 [
                     "1990"
                 ]
             ]
-        }, 
-        "title": "Book A", 
+        },
+        "title": "Book A",
         "type": "book"
     }
 ]

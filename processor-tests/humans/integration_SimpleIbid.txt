@@ -13,51 +13,51 @@ citation
 [
     [
         {
-            "citationID": "CITATION-1", 
+            "citationID": "CITATION-1",
             "citationItems": [
                 {
-                    "id": "ITEM-1", 
+                    "id": "ITEM-1",
                     "locator": "12"
-                }, 
+                },
                 {
-                    "id": "ITEM-2", 
+                    "id": "ITEM-2",
                     "locator": "23"
                 }
-            ], 
+            ],
             "properties": {
                 "noteIndex": 1
             }
-        }, 
-        [], 
+        },
+        [],
         []
-    ], 
+    ],
     [
         {
-            "citationID": "CITATION-2", 
+            "citationID": "CITATION-2",
             "citationItems": [
                 {
-                    "id": "ITEM-3", 
+                    "id": "ITEM-3",
                     "locator": "34"
-                }, 
+                },
                 {
-                    "id": "ITEM-3", 
+                    "id": "ITEM-3",
                     "locator": "34"
-                }, 
+                },
                 {
-                    "id": "ITEM-4", 
+                    "id": "ITEM-4",
                     "locator": "45"
                 }
-            ], 
+            ],
             "properties": {
                 "noteIndex": 2
             }
-        }, 
+        },
         [
             [
-                "CITATION-1", 
+                "CITATION-1",
                 1
             ]
-        ], 
+        ],
         []
     ]
 ]

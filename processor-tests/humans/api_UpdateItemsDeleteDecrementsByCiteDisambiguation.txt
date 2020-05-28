@@ -65,91 +65,91 @@ initial.
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "John"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     1960
                 ]
             ]
-        }, 
-        "title": "Book A", 
+        },
+        "title": "Book A",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "Jake"
             }
-        ], 
-        "id": "ITEM-2", 
+        ],
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
                     1960
                 ]
             ]
-        }, 
-        "title": "Book B", 
+        },
+        "title": "Book B",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Smith", 
+                "family": "Smith",
                 "given": "John"
             }
-        ], 
-        "id": "ITEM-3", 
+        ],
+        "id": "ITEM-3",
         "issued": {
             "date-parts": [
                 [
                     1980
                 ]
             ]
-        }, 
-        "title": "Book C", 
+        },
+        "title": "Book C",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Brown", 
+                "family": "Brown",
                 "given": "Robert"
             }
-        ], 
-        "id": "ITEM-4", 
+        ],
+        "id": "ITEM-4",
         "issued": {
             "date-parts": [
                 [
                     1990
                 ]
             ]
-        }, 
-        "title": "Book D", 
+        },
+        "title": "Book D",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Ichi", 
+                "family": "Ichi",
                 "given": "Taro"
             }
-        ], 
-        "id": "ITEM-5", 
+        ],
+        "id": "ITEM-5",
         "issued": {
             "date-parts": [
                 [
                     2000
                 ]
             ]
-        }, 
-        "title": "Book E", 
+        },
+        "title": "Book E",
         "type": "book"
     }
 ]

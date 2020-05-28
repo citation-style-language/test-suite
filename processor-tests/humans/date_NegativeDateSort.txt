@@ -42,59 +42,59 @@ bibliographies, they are always placed at the end of the sort
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
-                    -100, 
-                    7, 
+                    -100,
+                    7,
                     13
                 ]
             ]
-        }, 
-        "title": "BookA", 
+        },
+        "title": "BookA",
         "type": "book"
-    }, 
+    },
     {
-        "id": "ITEM-2", 
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
-                    54, 
-                    10, 
+                    54,
+                    10,
                     13
                 ]
             ]
-        }, 
-        "title": "BookB", 
+        },
+        "title": "BookB",
         "type": "book"
-    }, 
+    },
     {
-        "id": "ITEM-3", 
+        "id": "ITEM-3",
         "issued": {
             "date-parts": [
                 [
-                    -44, 
-                    3, 
+                    -44,
+                    3,
                     15
                 ]
             ]
-        }, 
-        "title": "BookC", 
+        },
+        "title": "BookC",
         "type": "book"
-    }, 
+    },
     {
-        "id": "ITEM-4", 
+        "id": "ITEM-4",
         "issued": {
             "date-parts": [
                 [
-                    68, 
-                    6, 
+                    68,
+                    6,
                     11
                 ]
             ]
-        }, 
-        "title": "BookD", 
+        },
+        "title": "BookD",
         "type": "book"
     }
 ]

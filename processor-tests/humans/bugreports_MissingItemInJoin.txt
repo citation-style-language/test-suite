@@ -10,16 +10,16 @@ citation
 [
     [
         {
-            "id": "ITEM-1", 
-            "locator": "100", 
+            "id": "ITEM-1",
+            "locator": "100",
             "suffix": "This."
-        }, 
+        },
         {
-            "id": "ITEM-2", 
+            "id": "ITEM-2",
             "locator": "200"
-        }, 
+        },
         {
-            "id": "ITEM-3", 
+            "id": "ITEM-3",
             "locator": "300"
         }
     ]

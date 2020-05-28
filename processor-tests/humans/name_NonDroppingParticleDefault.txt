@@ -35,12 +35,12 @@ Roe, Jane van
     {
         "author": [
             {
-                "family": "Roe", 
-                "given": "Jane", 
+                "family": "Roe",
+                "given": "Jane",
                 "non-dropping-particle": "van"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "book"
     }
 ]

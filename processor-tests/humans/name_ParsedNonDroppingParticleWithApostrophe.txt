@@ -39,11 +39,11 @@ citation
     {
         "author": [
             {
-                "family": "d'Aubignac", 
+                "family": "d'Aubignac",
                 "given": "François Hédelin"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "book"
     }
 ]

@@ -38,8 +38,8 @@ citation
             {
                 "family": "编者"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "book"
     }
 ]

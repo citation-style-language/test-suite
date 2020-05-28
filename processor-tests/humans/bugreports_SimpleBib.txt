@@ -62,25 +62,25 @@ bibliography
     {
         "author": [
             {
-                "family": "Malone", 
+                "family": "Malone",
                 "given": "Nolan J."
-            }, 
+            },
             {
                 "literal": "U.S. Bureau of the Census"
             }
-        ], 
-        "id": "ITEM-6", 
+        ],
+        "id": "ITEM-6",
         "issued": {
             "date-parts": [
                 [
-                    2001, 
-                    12, 
+                    2001,
+                    12,
                     5
                 ]
             ]
-        }, 
-        "publisher": "Routledge", 
-        "title": "Evaluating Components of International Migration: Consistency of 2000 Nativity Data", 
+        },
+        "publisher": "Routledge",
+        "title": "Evaluating Components of International Migration: Consistency of 2000 Nativity Data",
         "type": "book"
     }
 ]

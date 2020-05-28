@@ -331,13 +331,13 @@ bibliography
     {
         "author": [
             {
-                "family": "Smith", 
+                "family": "Smith",
                 "given": "John"
             }
-        ], 
-        "container-title": "Container Title", 
-        "id": "ITEM-1", 
-        "title": "Some Title", 
+        ],
+        "container-title": "Container Title",
+        "id": "ITEM-1",
+        "title": "Some Title",
         "type": "article-journal"
     }
 ]

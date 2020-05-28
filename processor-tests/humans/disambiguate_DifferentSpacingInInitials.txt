@@ -40,23 +40,23 @@ Doe, His Anonymous Life (part 1); Doe, His Anonymous Life (part 2)
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "J. J."
             }
-        ], 
-        "id": "ITEM-1", 
-        "title": "His Anonymous Life (part 1)", 
+        ],
+        "id": "ITEM-1",
+        "title": "His Anonymous Life (part 1)",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "J.J."
             }
-        ], 
-        "id": "ITEM-2", 
-        "title": "His Anonymous Life (part 2)", 
+        ],
+        "id": "ITEM-2",
+        "title": "His Anonymous Life (part 2)",
         "type": "book"
     }
 ]

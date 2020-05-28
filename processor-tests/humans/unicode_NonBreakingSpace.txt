@@ -32,8 +32,8 @@ His Anonymous Life (postfix following non-breaking space)
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "His Anonymous Life", 
+        "id": "ITEM-1",
+        "title": "His Anonymous Life",
         "type": "book"
     }
 ]

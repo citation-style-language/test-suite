@@ -181,15 +181,15 @@ bibliography
     {
         "author": [
             {
-                "family": "Kim", 
+                "family": "Kim",
                 "given": "B-X"
-            }, 
+            },
             {
-                "family": "Kim", 
+                "family": "Kim",
                 "given": "A-Y"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "book"
     }
 ]

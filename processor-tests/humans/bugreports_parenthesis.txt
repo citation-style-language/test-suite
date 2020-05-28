@@ -328,15 +328,15 @@ bibliography
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     2006
                 ]
             ]
-        }, 
-        "page": "1-7", 
+        },
+        "page": "1-7",
         "type": "article-journal"
     }
 ]

@@ -38,8 +38,8 @@ Does not see title-short (correct)
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "His Anonymous Life", 
+        "id": "ITEM-1",
+        "title": "His Anonymous Life",
         "type": "legal_case"
     }
 ]

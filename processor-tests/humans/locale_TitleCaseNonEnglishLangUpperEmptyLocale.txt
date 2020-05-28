@@ -31,9 +31,9 @@ His anonymous life
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "language": "FR", 
-        "title": "His anonymous life", 
+        "id": "ITEM-1",
+        "language": "FR",
+        "title": "His anonymous life",
         "type": "book"
     }
 ]

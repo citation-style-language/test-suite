@@ -62,117 +62,117 @@ bibliography
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
-                    1999, 
-                    1, 
+                    1999,
+                    1,
                     2
-                ], 
+                ],
                 [
-                    1999, 
-                    1, 
+                    1999,
+                    1,
                     4
                 ]
             ]
-        }, 
-        "title": "Year, Month, Day, with repeated month and year", 
+        },
+        "title": "Year, Month, Day, with repeated month and year",
         "type": "book"
-    }, 
+    },
     {
-        "id": "ITEM-2", 
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
-                    1999, 
-                    1, 
+                    1999,
+                    1,
                     2
-                ], 
+                ],
                 [
-                    1999, 
-                    3, 
+                    1999,
+                    3,
                     4
                 ]
             ]
-        }, 
-        "title": "Year, Month, Day, with differing month", 
+        },
+        "title": "Year, Month, Day, with differing month",
         "type": "book"
-    }, 
+    },
     {
-        "id": "ITEM-3", 
+        "id": "ITEM-3",
         "issued": {
             "date-parts": [
                 [
-                    1999, 
-                    1, 
+                    1999,
+                    1,
                     2
-                ], 
+                ],
                 [
-                    2000, 
-                    1, 
+                    2000,
+                    1,
                     4
                 ]
             ]
-        }, 
-        "title": "Year, Month, Day, with differing year", 
+        },
+        "title": "Year, Month, Day, with differing year",
         "type": "book"
-    }, 
+    },
     {
-        "id": "ITEM-4", 
+        "id": "ITEM-4",
         "issued": {
             "date-parts": [
                 [
-                    1999, 
-                    1, 
+                    1999,
+                    1,
                     2
-                ], 
+                ],
                 [
-                    1999, 
-                    3, 
+                    1999,
+                    3,
                     4
                 ]
             ]
-        }, 
-        "title": "Year, Month, with repeated year", 
+        },
+        "title": "Year, Month, with repeated year",
         "type": "article-journal"
-    }, 
+    },
     {
-        "id": "ITEM-5", 
+        "id": "ITEM-5",
         "issued": {
             "date-parts": [
                 [
-                    1999, 
-                    1, 
+                    1999,
+                    1,
                     2
-                ], 
+                ],
                 [
-                    2000, 
-                    3, 
+                    2000,
+                    3,
                     4
                 ]
             ]
-        }, 
-        "title": "Year, Month, with differing year", 
+        },
+        "title": "Year, Month, with differing year",
         "type": "article-journal"
-    }, 
+    },
     {
-        "id": "ITEM-6", 
+        "id": "ITEM-6",
         "issued": {
             "date-parts": [
                 [
-                    1999, 
-                    1, 
+                    1999,
+                    1,
                     2
-                ], 
+                ],
                 [
-                    2000, 
-                    3, 
+                    2000,
+                    3,
                     4
                 ]
             ]
-        }, 
-        "title": "Year, with differing year", 
+        },
+        "title": "Year, with differing year",
         "type": "chapter"
     }
 ]

@@ -47,8 +47,8 @@ SÃO PAULO (ESTADO)
             {
                 "literal": "São Paulo (Estado)"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "book"
     }
 ]

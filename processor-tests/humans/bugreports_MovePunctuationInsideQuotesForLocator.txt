@@ -10,8 +10,8 @@ Jennifer J. Davis, “Men of Taste: Gender and Authority in the French Culinary 
 [
     [
         {
-            "id": "ITEM-1", 
-            "label": "sub verbo", 
+            "id": "ITEM-1",
+            "label": "sub verbo",
             "locator": "\"gargoyle\""
         }
     ]

@@ -37,8 +37,8 @@ Case Name
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "Case Name", 
+        "id": "ITEM-1",
+        "title": "Case Name",
         "type": "book"
     }
 ]

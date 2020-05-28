@@ -31,8 +31,8 @@ citation
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "‘Parmenides’ 132c–133a and the development of Plato's thought", 
+        "id": "ITEM-1",
+        "title": "‘Parmenides’ 132c–133a and the development of Plato's thought",
         "type": "book"
     }
 ]

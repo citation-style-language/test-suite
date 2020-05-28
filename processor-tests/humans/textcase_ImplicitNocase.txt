@@ -14,12 +14,12 @@ My <sub>subscript phrase</sub> in a Title
         {
             "id": "ITEM-1"
         }
-    ], 
+    ],
     [
         {
             "id": "ITEM-2"
         }
-    ], 
+    ],
     [
         {
             "id": "ITEM-3"

@@ -33,8 +33,8 @@ citation
 >>===== INPUT =====>>
 [
     {
-        "edition": "2", 
-        "id": "ITEM-1", 
+        "edition": "2",
+        "id": "ITEM-1",
         "type": "book"
     }
 ]

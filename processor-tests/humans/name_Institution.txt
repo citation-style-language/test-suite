@@ -37,16 +37,16 @@ Multi-National United
             {
                 "literal": "Multi-National United"
             }
-        ], 
-        "id": "institution-name-1", 
+        ],
+        "id": "institution-name-1",
         "issued": {
             "date-parts": [
                 [
                     "2006"
                 ]
             ]
-        }, 
-        "title": "White Paper on Education, Sports, Culture, Science and Technology", 
+        },
+        "title": "White Paper on Education, Sports, Culture, Science and Technology",
         "type": "book"
     }
 ]

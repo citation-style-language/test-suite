@@ -32,8 +32,8 @@ Sample Title: (interview by)
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "Sample Title", 
+        "id": "ITEM-1",
+        "title": "Sample Title",
         "type": "book"
     }
 ]

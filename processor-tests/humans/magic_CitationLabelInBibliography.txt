@@ -234,63 +234,63 @@ bibliography
     {
         "author": [
             {
-                "family": "Roe", 
+                "family": "Roe",
                 "given": "Jane"
-            }, 
+            },
             {
-                "family": "Noakes", 
+                "family": "Noakes",
                 "given": "Richard"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     "1978"
                 ]
             ]
-        }, 
-        "title": "Book A", 
+        },
+        "title": "Book A",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "John"
             }
-        ], 
-        "id": "ITEM-2", 
+        ],
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
                     "1965"
                 ]
             ]
-        }, 
-        "title": "Book A", 
+        },
+        "title": "Book A",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Roe", 
+                "family": "Roe",
                 "given": "Jane"
-            }, 
+            },
             {
-                "family": "Noakes", 
+                "family": "Noakes",
                 "given": "Richard"
             }
-        ], 
-        "id": "ITEM-3", 
+        ],
+        "id": "ITEM-3",
         "issued": {
             "date-parts": [
                 [
                     "1978"
                 ]
             ]
-        }, 
-        "title": "Book A", 
+        },
+        "title": "Book A",
         "type": "book"
     }
 ]

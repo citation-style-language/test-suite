@@ -51,31 +51,31 @@ bibliography
     {
         "author": [
             {
-                "family": "al-One", 
+                "family": "al-One",
                 "given": "Alan"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Marple", 
+                "family": "Marple",
                 "given": "Mary"
             }
-        ], 
-        "id": "ITEM-2", 
+        ],
+        "id": "ITEM-2",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Participle", 
+                "family": "Participle",
                 "given": "Paul"
             }
-        ], 
-        "id": "ITEM-3", 
+        ],
+        "id": "ITEM-3",
         "type": "book"
     }
 ]

@@ -31,8 +31,8 @@ citation
 >>===== INPUT =====>>
 [
     {
-        "id": "item-1", 
-        "title": "My <i>Amazing</i> Title", 
+        "id": "item-1",
+        "title": "My <i>Amazing</i> Title",
         "type": "book"
     }
 ]

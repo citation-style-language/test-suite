@@ -80,88 +80,88 @@ citation
     {
         "author": [
             {
-                "family": "Baur", 
+                "family": "Baur",
                 "given": "Bruno"
-            }, 
+            },
             {
-                "family": "Fröberg", 
+                "family": "Fröberg",
                 "given": "Lars"
-            }, 
+            },
             {
-                "family": "Baur", 
+                "family": "Baur",
                 "given": "Anette"
-            }, 
+            },
             {
-                "family": "Guggenheim", 
+                "family": "Guggenheim",
                 "given": "Richard"
-            }, 
+            },
             {
-                "family": "Haase", 
+                "family": "Haase",
                 "given": "Martin"
             }
-        ], 
-        "container-title": "Nordic Journal of Botany", 
-        "id": "ITEM-1", 
+        ],
+        "container-title": "Nordic Journal of Botany",
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     "2000"
                 ]
             ]
-        }, 
-        "page": "119-128", 
-        "title": "Ultrastructure of snail grazing damage to calcicolous lichens", 
-        "type": "article-journal", 
+        },
+        "page": "119-128",
+        "title": "Ultrastructure of snail grazing damage to calcicolous lichens",
+        "type": "article-journal",
         "volume": "20"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Baur", 
+                "family": "Baur",
                 "given": "Bruno"
-            }, 
+            },
             {
-                "family": "Schileyko", 
+                "family": "Schileyko",
                 "given": "Anatoly A."
-            }, 
+            },
             {
-                "family": "Baur", 
+                "family": "Baur",
                 "given": "Anette"
             }
-        ], 
-        "container-title": "Journal of Molluscan Studies", 
-        "id": "ITEM-2", 
+        ],
+        "container-title": "Journal of Molluscan Studies",
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
                     "2000"
                 ]
             ]
-        }, 
-        "page": "285-289", 
-        "title": "Ecological observations on _Arianta aethiops aethiops_ (Helicidae), a land snail endemic to the South Carpathian mountains, Romania", 
-        "type": "article-journal", 
+        },
+        "page": "285-289",
+        "title": "Ecological observations on _Arianta aethiops aethiops_ (Helicidae), a land snail endemic to the South Carpathian mountains, Romania",
+        "type": "article-journal",
         "volume": "66"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "John"
             }
-        ], 
-        "container-title": "Journal of Irreproducible Results", 
-        "id": "ITEM-3", 
+        ],
+        "container-title": "Journal of Irreproducible Results",
+        "id": "ITEM-3",
         "issued": {
             "date-parts": [
                 [
                     "2000"
                 ]
             ]
-        }, 
-        "page": "5-7", 
-        "title": "Some bogus title", 
-        "type": "article-journal", 
+        },
+        "page": "5-7",
+        "title": "Some bogus title",
+        "type": "article-journal",
         "volume": "666"
     }
 ]

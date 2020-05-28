@@ -46,15 +46,15 @@ rendering of a variable.
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     2000
                 ]
-            ], 
+            ],
             "season": 3
-        }, 
+        },
         "type": "book"
     }
 ]

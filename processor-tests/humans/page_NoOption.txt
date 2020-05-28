@@ -32,9 +32,9 @@ Book Thing, at 110–5
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "page": "110-5", 
-        "title": "Book Thing", 
+        "id": "ITEM-1",
+        "page": "110-5",
+        "title": "Book Thing",
         "type": "book"
     }
 ]

@@ -204,119 +204,119 @@ Test a combination reported by Zotero user @gauthamg, 2012-03-12
 >>===== INPUT =====>>
 [
     {
-        "DOI": "10.1007/s00134-001-1132-2", 
-        "URL": "http://www.ncbi.nlm.nih.gov/pubmed/11797025", 
+        "DOI": "10.1007/s00134-001-1132-2",
+        "URL": "http://www.ncbi.nlm.nih.gov/pubmed/11797025",
         "author": [
             {
-                "family": "Ely", 
+                "family": "Ely",
                 "given": "E W"
-            }, 
+            },
             {
-                "family": "Gautam", 
+                "family": "Gautam",
                 "given": "S"
-            }, 
+            },
             {
-                "family": "Margolin", 
+                "family": "Margolin",
                 "given": "R"
-            }, 
+            },
             {
-                "family": "Francis", 
+                "family": "Francis",
                 "given": "J"
             }
-        ], 
-        "container-title": "Intensive Care Medicine", 
-        "id": 15892, 
-        "issue": "12", 
+        ],
+        "container-title": "Intensive Care Medicine",
+        "id": 15892,
+        "issue": "12",
         "issued": {
             "date-parts": [
                 [
-                    "2001", 
+                    "2001",
                     12
                 ]
             ]
-        }, 
-        "key": "CX6579SQ", 
-        "note": "PMID: 11797025", 
-        "page": "1892–1900", 
-        "title": "The impact of delirium in the intensive care unit on hospital length of stay", 
-        "type": "article-journal", 
+        },
+        "key": "CX6579SQ",
+        "note": "PMID: 11797025",
+        "page": "1892–1900",
+        "title": "The impact of delirium in the intensive care unit on hospital length of stay",
+        "type": "article-journal",
         "volume": "27"
-    }, 
+    },
     {
-        "DOI": "10.1001/jama.286.21.2703", 
-        "URL": "http://jama.ama-assn.org/content/286/21/2703.abstract", 
+        "DOI": "10.1001/jama.286.21.2703",
+        "URL": "http://jama.ama-assn.org/content/286/21/2703.abstract",
         "author": [
             {
-                "family": "Ely", 
+                "family": "Ely",
                 "given": "E W"
-            }, 
+            },
             {
-                "family": "Inouye", 
+                "family": "Inouye",
                 "given": "Sharon K."
-            }, 
+            },
             {
-                "family": "Bernard", 
+                "family": "Bernard",
                 "given": "Gordon R."
-            }, 
+            },
             {
-                "family": "Gordon", 
+                "family": "Gordon",
                 "given": "Sharon"
             }
-        ], 
-        "container-title": "JAMA: The Journal of the American Medical Association", 
-        "id": 15893, 
-        "issue": "21", 
+        ],
+        "container-title": "JAMA: The Journal of the American Medical Association",
+        "id": 15893,
+        "issue": "21",
         "issued": {
             "date-parts": [
                 [
-                    "2001", 
+                    "2001",
                     12
                 ]
             ]
-        }, 
-        "key": "VKWUI22E", 
-        "page": "2703 –2710", 
-        "title": "Delirium in Mechanically Ventilated Patients", 
-        "type": "article-journal", 
+        },
+        "key": "VKWUI22E",
+        "page": "2703 –2710",
+        "title": "Delirium in Mechanically Ventilated Patients",
+        "type": "article-journal",
         "volume": "286"
-    }, 
+    },
     {
-        "URL": "http://www.ncbi.nlm.nih.gov/pubmed/11445689", 
+        "URL": "http://www.ncbi.nlm.nih.gov/pubmed/11445689",
         "author": [
             {
-                "family": "Ely", 
+                "family": "Ely",
                 "given": "E W"
-            }, 
+            },
             {
-                "family": "Margolin", 
+                "family": "Margolin",
                 "given": "R"
-            }, 
+            },
             {
-                "family": "Francis", 
+                "family": "Francis",
                 "given": "J"
-            }, 
+            },
             {
-                "family": "May", 
+                "family": "May",
                 "given": "L"
             }
-        ], 
-        "container-title": "Critical Care Medicine", 
-        "id": 15894, 
-        "issue": "7", 
+        ],
+        "container-title": "Critical Care Medicine",
+        "id": 15894,
+        "issue": "7",
         "issued": {
             "date-parts": [
                 [
-                    "2001", 
+                    "2001",
                     7
                 ]
             ]
-        }, 
-        "key": "9E5QVF4E", 
-        "note": "PMID: 11445689", 
-        "page": "1370–1379", 
-        "title": "Evaluation of delirium in critically ill patients: validation of the Confusion Assessment Method for the Intensive Care Unit (CAM-ICU)", 
-        "title-short": "Evaluation of delirium in critically ill patients", 
-        "type": "article-journal", 
+        },
+        "key": "9E5QVF4E",
+        "note": "PMID: 11445689",
+        "page": "1370–1379",
+        "title": "Evaluation of delirium in critically ill patients: validation of the Confusion Assessment Method for the Intensive Care Unit (CAM-ICU)",
+        "title-short": "Evaluation of delirium in critically ill patients",
+        "type": "article-journal",
         "volume": "29"
     }
 ]

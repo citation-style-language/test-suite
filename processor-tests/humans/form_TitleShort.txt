@@ -31,9 +31,9 @@ Book A
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "Book A: The Long Version", 
-        "title-short": "Book A", 
+        "id": "ITEM-1",
+        "title": "Book A: The Long Version",
+        "title-short": "Book A",
         "type": "book"
     }
 ]

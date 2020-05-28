@@ -37,32 +37,37 @@ bibliography
 [
     [
         {
-            "citationID": "CITATION-1", 
+            "citationID": "CITATION-1",
             "citationItems": [
                 {
                     "id": "ITEM-1"
                 }
-            ], 
+            ],
             "properties": {
                 "noteIndex": 0
             }
-        }, 
-        [], 
+        },
+        [],
         []
     ],
     [
         {
-            "citationID": "CITATION-2", 
+            "citationID": "CITATION-2",
             "citationItems": [
                 {
                     "id": "ITEM-2"
                 }
-            ], 
+            ],
             "properties": {
                 "noteIndex": 0
             }
-        }, 
-        [["CITATION-1", 0]], 
+        },
+        [
+            [
+                "CITATION-1",
+                0
+            ]
+        ],
         []
     ]
 ]

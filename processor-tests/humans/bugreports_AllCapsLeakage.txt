@@ -819,28 +819,28 @@ Space on guillemet is half-width non-breaking space.
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "John"
             }
-        ], 
-        "container-title": "His Anonymous Life", 
+        ],
+        "container-title": "His Anonymous Life",
         "editor": [
             {
-                "family": "Roe", 
+                "family": "Roe",
                 "given": "Jane"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
-                    "1965", 
-                    "6", 
+                    "1965",
+                    "6",
                     "1"
                 ]
             ]
-        }, 
-        "title": "His Anonymous Life", 
+        },
+        "title": "His Anonymous Life",
         "type": "chapter"
     }
 ]

@@ -44,14 +44,14 @@ Some Title or Other
         "accessed": {
             "date-parts": [
                 [
-                    "1965", 
-                    "6", 
+                    "1965",
+                    "6",
                     "1"
                 ]
             ]
-        }, 
-        "id": "ITEM-1", 
-        "title": "Some Title or Other", 
+        },
+        "id": "ITEM-1",
+        "title": "Some Title or Other",
         "type": "book"
     }
 ]

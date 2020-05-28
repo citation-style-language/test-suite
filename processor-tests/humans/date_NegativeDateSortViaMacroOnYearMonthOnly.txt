@@ -55,59 +55,59 @@ BookX (100BC-7-14), BookY (100BC-7-13), BookA (68AD-3-16), BookB (68AD-3-15)
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
-                    -100, 
-                    7, 
+                    -100,
+                    7,
                     13
                 ]
             ]
-        }, 
-        "title": "BookY", 
+        },
+        "title": "BookY",
         "type": "book"
-    }, 
+    },
     {
-        "id": "ITEM-2", 
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
-                    -100, 
-                    7, 
+                    -100,
+                    7,
                     14
                 ]
             ]
-        }, 
-        "title": "BookX", 
+        },
+        "title": "BookX",
         "type": "book"
-    }, 
+    },
     {
-        "id": "ITEM-3", 
+        "id": "ITEM-3",
         "issued": {
             "date-parts": [
                 [
-                    68, 
-                    3, 
+                    68,
+                    3,
                     15
                 ]
             ]
-        }, 
-        "title": "BookB", 
+        },
+        "title": "BookB",
         "type": "book"
-    }, 
+    },
     {
-        "id": "ITEM-4", 
+        "id": "ITEM-4",
         "issued": {
             "date-parts": [
                 [
-                    68, 
-                    3, 
+                    68,
+                    3,
                     16
                 ]
             ]
-        }, 
-        "title": "BookA", 
+        },
+        "title": "BookA",
         "type": "book"
     }
 ]

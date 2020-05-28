@@ -16,41 +16,41 @@ Roe, Her Book, supra note 2.
 [
     [
         {
-            "first-reference-note-number": "1", 
-            "id": "ITEM-1", 
+            "first-reference-note-number": "1",
+            "id": "ITEM-1",
             "note-number": "1"
-        }, 
+        },
         {
-            "id": "ITEM-2", 
+            "id": "ITEM-2",
             "note-number": "1"
         }
-    ], 
+    ],
     [
         {
-            "first-reference-note-number": "2", 
-            "id": "ITEM-3", 
+            "first-reference-note-number": "2",
+            "id": "ITEM-3",
             "note-number": "2"
         }
-    ], 
+    ],
     [
         {
-            "id": "ITEM-4", 
+            "id": "ITEM-4",
             "note-number": "3"
         }
-    ], 
+    ],
     [
         {
-            "first-reference-note-number": "1", 
-            "id": "ITEM-1", 
-            "note-number": "4", 
+            "first-reference-note-number": "1",
+            "id": "ITEM-1",
+            "note-number": "4",
             "position": 1
         }
-    ], 
+    ],
     [
         {
-            "first-reference-note-number": "2", 
-            "id": "ITEM-3", 
-            "note-number": "5", 
+            "first-reference-note-number": "2",
+            "id": "ITEM-3",
+            "note-number": "5",
             "position": 1
         }
     ]

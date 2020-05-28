@@ -14,12 +14,12 @@ does not have title-short
         {
             "id": "ITEM-1"
         }
-    ], 
+    ],
     [
         {
             "id": "ITEM-2"
         }
-    ], 
+    ],
     [
         {
             "id": "ITEM-3"

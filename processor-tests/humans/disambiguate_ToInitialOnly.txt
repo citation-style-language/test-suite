@@ -39,41 +39,41 @@ Smith; Smith; B. Muggins; J. Muggins
     {
         "author": [
             {
-                "family": "Smith", 
+                "family": "Smith",
                 "given": "Cecil"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Smith", 
+                "family": "Smith",
                 "given": "Charles"
             }
-        ], 
-        "id": "ITEM-2", 
+        ],
+        "id": "ITEM-2",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Muggins", 
+                "family": "Muggins",
                 "given": "Bob"
             }
-        ], 
-        "id": "ITEM-3", 
+        ],
+        "id": "ITEM-3",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Muggins", 
+                "family": "Muggins",
                 "given": "Jardine"
             }
-        ], 
-        "id": "ITEM-4", 
+        ],
+        "id": "ITEM-4",
         "type": "book"
     }
 ]

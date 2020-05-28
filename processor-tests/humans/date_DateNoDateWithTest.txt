@@ -44,8 +44,8 @@ Title Thing (n.d.)
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "Title Thing", 
+        "id": "ITEM-1",
+        "title": "Title Thing",
         "type": "book"
     }
 ]

@@ -38,15 +38,15 @@ Revised per discussion @ https://discourse.citationstyles.org/t/formatting-attri
 >>===== INPUT =====>>
 [
     {
-        "edition": "2", 
-        "id": "ITEM-1", 
-        "title": "His Anonymous Life", 
+        "edition": "2",
+        "id": "ITEM-1",
+        "title": "His Anonymous Life",
         "type": "book"
-    }, 
+    },
     {
-        "edition": "3-5", 
-        "id": "ITEM-2", 
-        "title": "His Anonymous Life", 
+        "edition": "3-5",
+        "id": "ITEM-2",
+        "title": "His Anonymous Life",
         "type": "book"
     }
 ]

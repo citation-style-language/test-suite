@@ -31,8 +31,8 @@ My Short Title
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title-short": "My Short Title", 
+        "id": "ITEM-1",
+        "title-short": "My Short Title",
         "type": "book"
     }
 ]

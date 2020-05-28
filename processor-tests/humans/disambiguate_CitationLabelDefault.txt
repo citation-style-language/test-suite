@@ -34,55 +34,55 @@ Asth00a; Asth00b; Bron00
     {
         "author": [
             {
-                "family": "Asthma", 
+                "family": "Asthma",
                 "given": "Albert"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     "1900"
                 ]
             ]
-        }, 
-        "title": "Book A", 
+        },
+        "title": "Book A",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Asthma", 
+                "family": "Asthma",
                 "given": "Zeppo"
             }
-        ], 
-        "id": "ITEM-2", 
+        ],
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
                     "1900"
                 ]
             ]
-        }, 
-        "title": "Book B", 
+        },
+        "title": "Book B",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Bronchitis", 
+                "family": "Bronchitis",
                 "given": "Buffy"
             }
-        ], 
-        "id": "ITEM-3", 
+        ],
+        "id": "ITEM-3",
         "issued": {
             "date-parts": [
                 [
                     "2000"
                 ]
             ]
-        }, 
-        "title": "Book C", 
+        },
+        "title": "Book C",
         "type": "book"
     }
 ]

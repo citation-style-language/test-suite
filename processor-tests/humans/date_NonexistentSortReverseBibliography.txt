@@ -47,41 +47,41 @@ in both ascending and descending sorts.
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "Item 1", 
+        "id": "ITEM-1",
+        "title": "Item 1",
         "type": "book"
-    }, 
+    },
     {
-        "id": "ITEM-2", 
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
-                    "1999", 
-                    "2", 
+                    "1999",
+                    "2",
                     "15"
                 ]
             ]
-        }, 
-        "title": "Item 2", 
+        },
+        "title": "Item 2",
         "type": "book"
-    }, 
+    },
     {
-        "id": "ITEM-3", 
-        "title": "Item 3", 
+        "id": "ITEM-3",
+        "title": "Item 3",
         "type": "book"
-    }, 
+    },
     {
-        "id": "ITEM-4", 
+        "id": "ITEM-4",
         "issued": {
             "date-parts": [
                 [
-                    "2000", 
-                    "2", 
+                    "2000",
+                    "2",
                     "15"
                 ]
             ]
-        }, 
-        "title": "Item 4", 
+        },
+        "title": "Item 4",
         "type": "book"
     }
 ]

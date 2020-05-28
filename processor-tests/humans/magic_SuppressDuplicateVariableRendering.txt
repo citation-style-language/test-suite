@@ -45,9 +45,9 @@ Should print this: Book A … and this: Book A … but this only once: Blob
             {
                 "literal": "Blob"
             }
-        ], 
-        "id": "item-1", 
-        "title": "Book A", 
+        ],
+        "id": "item-1",
+        "title": "Book A",
         "type": "book"
     }
 ]

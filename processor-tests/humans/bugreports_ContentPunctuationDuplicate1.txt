@@ -43,15 +43,15 @@ delimiter supplied by the style.
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     "1965"
                 ]
             ]
-        }, 
-        "title": "His Anonymous Life etc", 
+        },
+        "title": "His Anonymous Life etc",
         "type": "book"
     }
 ]

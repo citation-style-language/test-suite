@@ -38,12 +38,12 @@ Try: Okay Publishers
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "John"
             }
-        ], 
-        "id": "ITEM-1", 
-        "publisher": "Okay Publishers", 
+        ],
+        "id": "ITEM-1",
+        "publisher": "Okay Publishers",
         "type": "book"
     }
 ]

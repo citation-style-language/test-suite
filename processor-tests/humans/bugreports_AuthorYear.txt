@@ -339,21 +339,21 @@ citation
     {
         "author": [
             {
-                "family": "Family01", 
+                "family": "Family01",
                 "given": "Given01"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
-                    2003, 
+                    2003,
                     1
                 ]
             ]
-        }, 
-        "title": "This is some title", 
-        "type": "book", 
+        },
+        "title": "This is some title",
+        "type": "book",
         "volume": "2003"
     }
 ]

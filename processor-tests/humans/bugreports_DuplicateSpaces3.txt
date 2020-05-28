@@ -198,13 +198,13 @@ bibliography
     {
         "author": [
             {
-                "family": "Family Name", 
+                "family": "Family Name",
                 "given": "N"
             }
-        ], 
-        "container-title": "Container Title", 
-        "id": "ITEM-1", 
-        "title": "The Title", 
+        ],
+        "container-title": "Container Title",
+        "id": "ITEM-1",
+        "title": "The Title",
         "type": "chapter"
     }
 ]

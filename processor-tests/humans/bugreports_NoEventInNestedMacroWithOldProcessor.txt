@@ -120,15 +120,15 @@ http://forums.zotero.org/discussion/11576/problems-with-paperconference-and-spee
 >>===== INPUT =====>>
 [
     {
-        "event": "Big Event", 
-        "id": "ITEM-1", 
-        "title": "My Anonymous Paper", 
+        "event": "Big Event",
+        "id": "ITEM-1",
+        "title": "My Anonymous Paper",
         "type": "paper-conference"
-    }, 
+    },
     {
-        "event": "Other Big Event", 
-        "id": "ITEM-2", 
-        "title": "My Anonymous Speech", 
+        "event": "Other Big Event",
+        "id": "ITEM-2",
+        "title": "My Anonymous Speech",
         "type": "speech"
     }
 ]

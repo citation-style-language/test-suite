@@ -39,8 +39,8 @@ Note is not near.
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "Book A", 
+        "id": "ITEM-1",
+        "title": "Book A",
         "type": "book"
     }
 ]

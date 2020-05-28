@@ -46,75 +46,75 @@ A. Asthma et al. (1980); G. Asthma et al. (1995); Dropsy and Asthma (1995)
     {
         "author": [
             {
-                "family": "Asthma", 
+                "family": "Asthma",
                 "given": "Albert"
-            }, 
+            },
             {
-                "family": "Bronchitis", 
+                "family": "Bronchitis",
                 "given": "Bosworth"
-            }, 
+            },
             {
-                "family": "Cold", 
+                "family": "Cold",
                 "given": "Crispin"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     "1980"
                 ]
             ]
-        }, 
-        "title": "Book A", 
+        },
+        "title": "Book A",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Asthma", 
+                "family": "Asthma",
                 "given": "Gargoyle"
-            }, 
+            },
             {
-                "family": "Bronchitis", 
+                "family": "Bronchitis",
                 "given": "Billy"
-            }, 
+            },
             {
-                "family": "Cold", 
+                "family": "Cold",
                 "given": "Odeous"
             }
-        ], 
-        "id": "ITEM-2", 
+        ],
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
                     "1995"
                 ]
             ]
-        }, 
-        "title": "Book B", 
+        },
+        "title": "Book B",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Dropsy", 
+                "family": "Dropsy",
                 "given": "Duncan"
-            }, 
+            },
             {
-                "family": "Asthma", 
+                "family": "Asthma",
                 "given": "Albert"
             }
-        ], 
-        "id": "ITEM-3", 
+        ],
+        "id": "ITEM-3",
         "issued": {
             "date-parts": [
                 [
                     "1995"
                 ]
             ]
-        }, 
-        "title": "Book B", 
+        },
+        "title": "Book B",
         "type": "book"
     }
 ]

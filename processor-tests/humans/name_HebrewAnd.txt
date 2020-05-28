@@ -41,12 +41,12 @@ citation
         "author": [
             {
                 "family": "תפוח"
-            }, 
+            },
             {
                 "family": "תפוז"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "book"
     }
 ]

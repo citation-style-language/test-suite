@@ -11,10 +11,10 @@ Title Two
 [
     [
         {
-            "id": "ITEM-1", 
+            "id": "ITEM-1",
             "locator": "123"
         }
-    ], 
+    ],
     [
         {
             "id": "ITEM-2"

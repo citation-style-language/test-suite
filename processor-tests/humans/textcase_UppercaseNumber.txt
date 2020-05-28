@@ -31,8 +31,8 @@ XXIII
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "type": "book", 
+        "id": "ITEM-1",
+        "type": "book",
         "volume": "23"
     }
 ]

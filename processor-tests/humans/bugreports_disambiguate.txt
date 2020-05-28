@@ -339,53 +339,53 @@ citation
     {
         "author": [
             {
-                "family": "FamilyA", 
+                "family": "FamilyA",
                 "given": "GivenA D."
-            }, 
+            },
             {
-                "family": "FamilyB", 
+                "family": "FamilyB",
                 "given": "GivenB P."
             }
-        ], 
-        "container-title": "Container Title01", 
-        "id": "ITEM-1", 
+        ],
+        "container-title": "Container Title01",
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
-                    2003, 
+                    2003,
                     1
                 ]
             ]
-        }, 
-        "title": "Title01", 
+        },
+        "title": "Title01",
         "type": "article-journal"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "FamilyA", 
+                "family": "FamilyA",
                 "given": "GivenA D."
-            }, 
+            },
             {
-                "family": "FamilyC", 
+                "family": "FamilyC",
                 "given": "GivenC1 GivenC2"
-            }, 
+            },
             {
-                "family": "FamilyB", 
+                "family": "FamilyB",
                 "given": "GivenB P"
             }
-        ], 
-        "container-title": "Container Title02", 
-        "id": "ITEM-2", 
+        ],
+        "container-title": "Container Title02",
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
-                    2007, 
+                    2007,
                     1
                 ]
             ]
-        }, 
-        "title": "Title02", 
+        },
+        "title": "Title02",
         "type": "article-journal"
     }
 ]

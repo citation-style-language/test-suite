@@ -31,8 +31,8 @@ Review of Book by A.N. Author
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "Review of Book by A.N. Author", 
+        "id": "ITEM-1",
+        "title": "Review of Book by A.N. Author",
         "type": "book"
     }
 ]

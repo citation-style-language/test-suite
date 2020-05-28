@@ -32,9 +32,9 @@ Review of Book by A.N. Author
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "language": "en", 
-        "title": "Review of book by A.N. author", 
+        "id": "ITEM-1",
+        "language": "en",
+        "title": "Review of book by A.N. author",
         "type": "book"
     }
 ]

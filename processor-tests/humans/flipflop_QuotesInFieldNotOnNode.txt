@@ -30,7 +30,7 @@ Speak, “friend,” and enter.
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
+        "id": "ITEM-1",
         "type": "book"
     }
 ]

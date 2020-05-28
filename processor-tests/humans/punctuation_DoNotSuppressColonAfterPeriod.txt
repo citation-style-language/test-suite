@@ -32,9 +32,9 @@ Detroit, Mich.: Random
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "publisher": "Random", 
-        "publisher-place": "Detroit, Mich.", 
+        "id": "ITEM-1",
+        "publisher": "Random",
+        "publisher-place": "Detroit, Mich.",
         "type": "book"
     }
 ]

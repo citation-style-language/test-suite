@@ -1201,38 +1201,38 @@ citation
     {
         "author": [
             {
-                "family": "Άγρας", 
+                "family": "Άγρας",
                 "given": "Τέλλος"
             }
-        ], 
+        ],
         "container-author": [
             {
-                "family": "Καρυωτάκης ", 
+                "family": "Καρυωτάκης ",
                 "given": "Κώστας"
             }
-        ], 
-        "container-title": "Ποιήματα και πεζά", 
+        ],
+        "container-title": "Ποιήματα και πεζά",
         "editor": [
             {
-                "family": "Σαββίδης", 
+                "family": "Σαββίδης",
                 "given": "Γ. Π."
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     "1998"
                 ]
             ]
-        }, 
-        "title": "Ο Καρυωτάκης και οι Σάτιρες", 
+        },
+        "title": "Ο Καρυωτάκης και οι Σάτιρες",
         "translator": [
             {
-                "family": "Dimitriadis", 
+                "family": "Dimitriadis",
                 "given": "Andreas"
             }
-        ], 
+        ],
         "type": "chapter"
     }
 ]

@@ -37,10 +37,10 @@ however.
 >>===== INPUT =====>>
 [
     {
-        "container-title": "Studia Patristica", 
-        "id": "ITEM-1", 
-        "page": "1388-1400", 
-        "type": "article-journal", 
+        "container-title": "Studia Patristica",
+        "id": "ITEM-1",
+        "page": "1388-1400",
+        "type": "article-journal",
         "volume": "17"
     }
 ]

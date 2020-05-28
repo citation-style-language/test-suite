@@ -49,23 +49,23 @@ bibliography
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "John"
             }
-        ], 
-        "container-title": "His Anonymous Book", 
-        "id": "ITEM-1", 
+        ],
+        "container-title": "His Anonymous Book",
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
-                    "1965", 
-                    "6", 
+                    "1965",
+                    "6",
                     "1"
                 ]
             ]
-        }, 
-        "page": "100", 
-        "title": "His Anonymous Chapter", 
+        },
+        "page": "100",
+        "title": "His Anonymous Chapter",
         "type": "chapter"
     }
 ]

@@ -10,7 +10,7 @@ The French translation provided there runs, <i>Toi, qui cultives notre philosoph
 [
     [
         {
-            "id": "ITEM-1", 
+            "id": "ITEM-1",
             "prefix": "The French translation provided there runs, <i>Toi, qui cultives notre philosophie sous lhabit étranger—et peut-être pas si étranger que cela, puisque la chevelure des naziréens et la consécration de la tête, dont il a toujours tenu le fer à lécart, sont aussi comme une loi des sanctuaires, et que la blancheur et l’éclat des vêtements appartiennent aux anges, quand on les représente sous une forme corporelle: c’est, je pense, le symbole de la pureté propre à leur nature—!</i>"
         }
     ]

@@ -38,8 +38,8 @@ not numeric
 >>===== INPUT =====>>
 [
     {
-        "edition": "annotated edition", 
-        "id": "ITEM-1", 
+        "edition": "annotated edition",
+        "id": "ITEM-1",
         "type": "book"
     }
 ]

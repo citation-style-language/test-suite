@@ -54,13 +54,13 @@ second-field-align: false
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "One", 
+        "id": "ITEM-1",
+        "title": "One",
         "type": "book"
-    }, 
+    },
     {
-        "id": "ITEM-2", 
-        "title": "Two", 
+        "id": "ITEM-2",
+        "title": "Two",
         "type": "book"
     }
 ]

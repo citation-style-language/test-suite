@@ -10,12 +10,12 @@ pages 213 and 235
 
 >>===== CITATION-ITEMS =====>>
 [
-  [
-    {
-      "id": "ITEM-1",
-      "locator": "213 and 235"
-    }
-  ]
+    [
+        {
+            "id": "ITEM-1",
+            "locator": "213 and 235"
+        }
+    ]
 ]
 <<===== CITATION-ITEMS =====<<
 

@@ -16,22 +16,22 @@ John Smith, Complete Works, ed. 6
         {
             "id": "ITEM-0"
         }
-    ], 
+    ],
     [
         {
             "id": "ITEM-1"
         }
-    ], 
+    ],
     [
         {
             "id": "ITEM-2"
         }
-    ], 
+    ],
     [
         {
             "id": "ITEM-3"
         }
-    ], 
+    ],
     [
         {
             "id": "ITEM-4"

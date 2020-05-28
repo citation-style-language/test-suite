@@ -715,21 +715,21 @@ Fault reported by Sean Takats.
     {
         "author": [
             {
-                "family": "Davis", 
+                "family": "Davis",
                 "given": "Jennifer J."
             }
-        ], 
-        "genre": "Ph.D. diss.", 
-        "id": "ITEM-1", 
+        ],
+        "genre": "Ph.D. diss.",
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     2004
                 ]
             ]
-        }, 
-        "publisher": "Pennsylvania State University, History", 
-        "title": "Men of Taste: Gender and Authority in the French Culinary Trades, 1730-1830", 
+        },
+        "publisher": "Pennsylvania State University, History",
+        "title": "Men of Taste: Gender and Authority in the French Culinary Trades, 1730-1830",
         "type": "thesis"
     }
 ]

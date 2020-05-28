@@ -31,12 +31,12 @@ John d’Jones
     {
         "author": [
             {
-                "dropping-particle": "d'", 
-                "family": "Jones", 
+                "dropping-particle": "d'",
+                "family": "Jones",
                 "given": "John"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "book"
     }
 ]

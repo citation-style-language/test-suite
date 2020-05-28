@@ -13,7 +13,7 @@ von und zum Jones
         {
             "id": "ITEM-1"
         }
-    ], 
+    ],
     [
         {
             "id": "ITEM-2"

@@ -11,15 +11,15 @@ His Anonymous Life, pages 427–430
 [
     [
         {
-            "id": "ITEM-1", 
-            "label": "page", 
+            "id": "ITEM-1",
+            "label": "page",
             "locator": "327\\-30"
         }
-    ], 
+    ],
     [
         {
-            "id": "ITEM-1", 
-            "label": "page", 
+            "id": "ITEM-1",
+            "label": "page",
             "locator": "427-30"
         }
     ]

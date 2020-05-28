@@ -35,20 +35,20 @@ Jacques van Doe
     {
         "author": [
             {
-                "family": "Doe", 
-                "given": "Jacques", 
+                "family": "Doe",
+                "given": "Jacques",
                 "non-dropping-particle": "van"
             }
-        ], 
-        "id": "item-1", 
+        ],
+        "id": "item-1",
         "issued": {
             "date-parts": [
                 [
                     "1645"
                 ]
             ]
-        }, 
-        "title": "A Book of Five Rings", 
+        },
+        "title": "A Book of Five Rings",
         "type": "book"
     }
 ]

@@ -10,7 +10,7 @@ Book One, pages 367–368, fig. 333
 [
     [
         {
-            "id": "ITEM-1", 
+            "id": "ITEM-1",
             "locator": "367-368, fig. 333"
         }
     ]

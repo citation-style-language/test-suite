@@ -49,23 +49,23 @@ bibliography
 >>===== INPUT =====>>
 [
     {
-        "id": "item-1", 
-        "title": "Aaaa", 
+        "id": "item-1",
+        "title": "Aaaa",
         "type": "book"
-    }, 
+    },
     {
-        "id": "item-3", 
-        "title": "Bbbb", 
+        "id": "item-3",
+        "title": "Bbbb",
         "type": "book"
-    }, 
+    },
     {
-        "id": "item-4", 
-        "title": "Zzzz", 
+        "id": "item-4",
+        "title": "Zzzz",
         "type": "book"
-    }, 
+    },
     {
-        "id": "item-5", 
-        "title": "Xxxx", 
+        "id": "item-5",
+        "title": "Xxxx",
         "type": "book"
     }
 ]

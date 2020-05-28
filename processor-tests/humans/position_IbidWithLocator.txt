@@ -17,12 +17,12 @@ Ibid. p. 23.
         {
             "id": "ITEM-1"
         }
-    ], 
+    ],
     [
         {
-            "id": "ITEM-1", 
-            "label": "page", 
-            "locator": "23", 
+            "id": "ITEM-1",
+            "label": "page",
+            "locator": "23",
             "position": 4
         }
     ]

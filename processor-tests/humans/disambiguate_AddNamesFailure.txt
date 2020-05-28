@@ -43,51 +43,51 @@ Smith et al. (1980); Smith et al. (1980)
     {
         "author": [
             {
-                "family": "Smith", 
+                "family": "Smith",
                 "given": "John"
-            }, 
+            },
             {
-                "family": "Brown", 
+                "family": "Brown",
                 "given": "John"
-            }, 
+            },
             {
-                "family": "Jones", 
+                "family": "Jones",
                 "given": "John"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     1980
                 ]
             ]
-        }, 
+        },
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Smith", 
+                "family": "Smith",
                 "given": "John"
-            }, 
+            },
             {
-                "family": "Brown", 
+                "family": "Brown",
                 "given": "John"
-            }, 
+            },
             {
-                "family": "Jones", 
+                "family": "Jones",
                 "given": "John"
             }
-        ], 
-        "id": "ITEM-2", 
+        ],
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
                     1980
                 ]
             ]
-        }, 
+        },
         "type": "book"
     }
 ]

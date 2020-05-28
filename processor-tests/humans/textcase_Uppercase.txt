@@ -64,12 +64,12 @@ SMITH, John: THIS IS A PEN THAT IS A Smith PENCIL
     {
         "author": [
             {
-                "family": "Smith", 
+                "family": "Smith",
                 "given": "John"
             }
-        ], 
-        "id": "ITEM-1", 
-        "title": "This is a pen that is a <span class=\"nocase\">Smith</span> pencil", 
+        ],
+        "id": "ITEM-1",
+        "title": "This is a pen that is a <span class=\"nocase\">Smith</span> pencil",
         "type": "book"
     }
 ]

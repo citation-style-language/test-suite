@@ -10,7 +10,7 @@ The Title And “so it goes”
 [
     [
         {
-            "id": "ITEM-1", 
+            "id": "ITEM-1",
             "suffix": "And \"so it goes\""
         }
     ]

@@ -46,17 +46,17 @@ Sample Title: (2000 June 18)
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
-                    "2000", 
-                    "6", 
+                    "2000",
+                    "6",
                     "18"
                 ]
             ]
-        }, 
-        "title": "Sample Title", 
+        },
+        "title": "Sample Title",
         "type": "book"
     }
 ]

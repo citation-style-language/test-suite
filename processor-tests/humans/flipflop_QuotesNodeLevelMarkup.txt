@@ -37,16 +37,16 @@ citation
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
-                    1973, 
-                    3, 
+                    1973,
+                    3,
                     15
                 ]
             ]
-        }, 
+        },
         "type": "book"
     }
 ]

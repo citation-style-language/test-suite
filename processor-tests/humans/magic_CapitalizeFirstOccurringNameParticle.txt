@@ -37,11 +37,11 @@ de Simone
     {
         "author": [
             {
-                "family": "de Simone", 
+                "family": "de Simone",
                 "given": "Samuel"
             }
-        ], 
-        "id": "item-1", 
+        ],
+        "id": "item-1",
         "type": "book"
     }
 ]

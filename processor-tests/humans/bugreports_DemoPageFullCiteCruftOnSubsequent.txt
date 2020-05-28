@@ -12,7 +12,7 @@ Malone and U.S. Bureau of the Census, <i>Evaluating Components of International 
 [
     [
         {
-            "id": "ITEM-6", 
+            "id": "ITEM-6",
             "position": 1
         }
     ]

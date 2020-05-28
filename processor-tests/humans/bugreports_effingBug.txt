@@ -10,11 +10,11 @@ Book One, 123 f.; Book Two, 456 f.
 [
     [
         {
-            "id": "ITEM-1", 
+            "id": "ITEM-1",
             "locator": "123"
-        }, 
+        },
         {
-            "id": "ITEM-2", 
+            "id": "ITEM-2",
             "locator": "123"
         }
     ]

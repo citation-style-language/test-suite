@@ -29,8 +29,8 @@ The “New Career” and Organizational Commitment
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "The “new Career” and Organizational Commitment", 
+        "id": "ITEM-1",
+        "title": "The “new Career” and Organizational Commitment",
         "type": "book"
     }
 ]

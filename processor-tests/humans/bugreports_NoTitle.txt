@@ -342,17 +342,17 @@ bibliography
     {
         "author": [
             {
-                "family": "Family01", 
+                "family": "Family01",
                 "given": "Given01"
             }
-        ], 
-        "id": "ITEM-1", 
-        "title": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX", 
+        ],
+        "id": "ITEM-1",
+        "title": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "type": "article-journal"
-    }, 
+    },
     {
-        "id": "ITEM-2", 
-        "title": "ecs", 
+        "id": "ITEM-2",
+        "title": "ecs",
         "type": "article-journal"
     }
 ]

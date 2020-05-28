@@ -143,8 +143,8 @@ This exercises text-case="title".  Test by Carles Pina.
 >>===== INPUT =====>>
 [
     {
-        "container-title": "FOO BAR", 
-        "id": "ITEM-1", 
+        "container-title": "FOO BAR",
+        "id": "ITEM-1",
         "type": "article-journal"
     }
 ]

@@ -11,7 +11,7 @@ Aalto; Álvarez
     [
         {
             "id": "ITEM-1"
-        }, 
+        },
         {
             "id": "ITEM-2"
         }

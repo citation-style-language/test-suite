@@ -39,11 +39,11 @@ citation
     {
         "author": [
             {
-                "family": "La Fontaine", 
+                "family": "La Fontaine",
                 "given": "Jean de"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "book"
     }
 ]

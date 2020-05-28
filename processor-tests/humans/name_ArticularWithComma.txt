@@ -35,21 +35,21 @@ Jeffrey Doe, Jr.
     {
         "author": [
             {
-                "comma-suffix": true, 
-                "family": "Doe", 
-                "given": "Jeffrey", 
+                "comma-suffix": true,
+                "family": "Doe",
+                "given": "Jeffrey",
                 "suffix": "Jr."
             }
-        ], 
-        "id": "item-1", 
+        ],
+        "id": "item-1",
         "issued": {
             "date-parts": [
                 [
                     "2001"
                 ]
             ]
-        }, 
-        "title": "My Life as an Anonymous Heir", 
+        },
+        "title": "My Life as an Anonymous Heir",
         "type": "book"
     }
 ]

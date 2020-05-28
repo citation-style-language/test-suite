@@ -14,7 +14,7 @@ bibliography
     [
         {
             "id": "ITEM-1"
-        }, 
+        },
         {
             "id": "ITEM-2"
         }

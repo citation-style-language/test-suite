@@ -195,18 +195,18 @@ mla-x.csl
     {
         "author": [
             {
-                "family": "Noakes", 
+                "family": "Noakes",
                 "given": "Richard"
             }
-        ], 
-        "id": "ITEM-1", 
-        "title": "Hello", 
+        ],
+        "id": "ITEM-1",
+        "title": "Hello",
         "translator": [
             {
-                "family": "Roe", 
+                "family": "Roe",
                 "given": "Jane"
             }
-        ], 
+        ],
         "type": "book"
     }
 ]

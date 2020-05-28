@@ -200,8 +200,8 @@ Original test submitted by Carles Pina.
             {
                 "given": "I Test J R"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "book"
     }
 ]

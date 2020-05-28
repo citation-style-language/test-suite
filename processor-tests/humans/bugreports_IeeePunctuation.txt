@@ -149,24 +149,24 @@ bibliography
     {
         "author": [
             {
-                "family": "Zimbardo", 
+                "family": "Zimbardo",
                 "given": "Philip G"
             }
-        ], 
-        "container-title": "American Psychologist", 
-        "id": "ITEM-1", 
-        "issue": "5", 
+        ],
+        "container-title": "American Psychologist",
+        "id": "ITEM-1",
+        "issue": "5",
         "issued": {
             "date-parts": [
                 [
-                    2004, 
+                    2004,
                     1
                 ]
             ]
-        }, 
-        "page": "339-351", 
-        "title": "Does Psychology make a significant difference in our lives?", 
-        "type": "article-journal", 
+        },
+        "page": "339-351",
+        "title": "Does Psychology make a significant difference in our lives?",
+        "type": "article-journal",
         "volume": "59"
     }
 ]

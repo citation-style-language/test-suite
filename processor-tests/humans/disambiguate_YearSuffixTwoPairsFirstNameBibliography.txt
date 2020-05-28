@@ -66,89 +66,89 @@ Original test by Bruce D'Arcus.
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "John"
-            }, 
+            },
             {
-                "family": "Jones", 
+                "family": "Jones",
                 "given": "Sarah"
             }
-        ], 
-        "id": "suffix1", 
+        ],
+        "id": "suffix1",
         "issued": {
             "date-parts": [
                 [
                     "1999"
                 ]
             ]
-        }, 
-        "title": "Book A", 
+        },
+        "title": "Book A",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "James"
-            }, 
+            },
             {
-                "family": "Jones", 
+                "family": "Jones",
                 "given": "Steven"
             }
-        ], 
-        "id": "suffix2", 
+        ],
+        "id": "suffix2",
         "issued": {
             "date-parts": [
                 [
                     "1999"
                 ]
             ]
-        }, 
-        "title": "Book B", 
+        },
+        "title": "Book B",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "Jake"
-            }, 
+            },
             {
-                "family": "Smith", 
+                "family": "Smith",
                 "given": "Stan"
             }
-        ], 
-        "id": "suffix3", 
+        ],
+        "id": "suffix3",
         "issued": {
             "date-parts": [
                 [
                     "1999"
                 ]
             ]
-        }, 
-        "title": "Book C", 
+        },
+        "title": "Book C",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "Jasper"
-            }, 
+            },
             {
-                "family": "Smith", 
+                "family": "Smith",
                 "given": "Sandra"
             }
-        ], 
-        "id": "suffix4", 
+        ],
+        "id": "suffix4",
         "issued": {
             "date-parts": [
                 [
                     "1999"
                 ]
             ]
-        }, 
-        "title": "Book D", 
+        },
+        "title": "Book D",
         "type": "book"
     }
 ]

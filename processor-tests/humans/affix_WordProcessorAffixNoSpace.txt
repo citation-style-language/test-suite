@@ -12,22 +12,22 @@ My Prefix My Title My Suffix
 [
     [
         {
-            "id": "ITEM-1", 
-            "prefix": "<i>My Prefix</i>", 
+            "id": "ITEM-1",
+            "prefix": "<i>My Prefix</i>",
             "suffix": "My Suffix"
         }
-    ], 
+    ],
     [
         {
-            "id": "ITEM-1", 
-            "prefix": "My Prefix.", 
+            "id": "ITEM-1",
+            "prefix": "My Prefix.",
             "suffix": ", My Suffix"
         }
-    ], 
+    ],
     [
         {
-            "id": "ITEM-1", 
-            "prefix": "My Prefix ", 
+            "id": "ITEM-1",
+            "prefix": "My Prefix ",
             "suffix": " My Suffix"
         }
     ]

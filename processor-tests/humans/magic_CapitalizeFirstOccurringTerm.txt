@@ -31,8 +31,8 @@ And
 >>===== INPUT =====>>
 [
     {
-        "id": "item-1", 
-        "title": "Ignore me", 
+        "id": "item-1",
+        "title": "Ignore me",
         "type": "book"
     }
 ]

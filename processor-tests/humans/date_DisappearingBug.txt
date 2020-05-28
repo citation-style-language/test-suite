@@ -676,22 +676,22 @@ citation
     {
         "author": [
             {
-                "family": "Larry", 
+                "family": "Larry",
                 "given": "Happy"
             }
-        ], 
-        "id": "id", 
+        ],
+        "id": "id",
         "issued": {
             "date-parts": [
                 [
-                    2017, 
-                    1, 
+                    2017,
+                    1,
                     1
                 ]
             ]
-        }, 
-        "label": "id", 
-        "title": "A Lovely Title", 
+        },
+        "label": "id",
+        "title": "A Lovely Title",
         "type": "article-journal"
     }
 ]

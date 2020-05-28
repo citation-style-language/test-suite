@@ -47,35 +47,35 @@ citation
     {
         "author": [
             {
-                "family": "Malone", 
+                "family": "Malone",
                 "given": "Nolan J."
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     "2001"
                 ]
             ]
-        }, 
+        },
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Malone", 
+                "family": "Malone",
                 "given": "Kemp"
             }
-        ], 
-        "id": "ITEM-2", 
+        ],
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
                     "1951"
                 ]
             ]
-        }, 
+        },
         "type": "book"
     }
 ]

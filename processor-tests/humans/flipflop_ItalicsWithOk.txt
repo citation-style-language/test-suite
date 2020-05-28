@@ -46,19 +46,19 @@ bibliography
 >>===== INPUT =====>>
 [
     {
-        "authority": "E.D. Wisc.", 
-        "container-title": "F. Supp.", 
-        "id": "ITEM-1", 
+        "authority": "E.D. Wisc.",
+        "container-title": "F. Supp.",
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     1972
                 ]
             ]
-        }, 
-        "page": "1078-1100", 
-        "title": "Lessard <span class=\"nodecor\">v.</span> Schmidt", 
-        "type": "legal_case", 
+        },
+        "page": "1078-1100",
+        "title": "Lessard <span class=\"nodecor\">v.</span> Schmidt",
+        "type": "legal_case",
         "volume": "349"
     }
 ]

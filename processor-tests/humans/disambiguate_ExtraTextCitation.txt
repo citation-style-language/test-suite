@@ -13,7 +13,7 @@ Bumke, Höfische
         {
             "id": "ITEM-1"
         }
-    ], 
+    ],
     [
         {
             "id": "ITEM-2"

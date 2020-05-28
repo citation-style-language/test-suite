@@ -49,16 +49,16 @@ http://forums.zotero.org/discussion/15166/stripperiods-not-working-yet/
 >>===== INPUT =====>>
 [
     {
-        "container-title": "American Law Journal", 
-        "id": "ITEM-1", 
-        "journalAbbreviation": "Am. L.J.", 
-        "title": "An Article", 
+        "container-title": "American Law Journal",
+        "id": "ITEM-1",
+        "journalAbbreviation": "Am. L.J.",
+        "title": "An Article",
         "type": "article-journal"
-    }, 
+    },
     {
-        "container-title": "Am. L.J.", 
-        "id": "ITEM-2", 
-        "title": "Another Article", 
+        "container-title": "Am. L.J.",
+        "id": "ITEM-2",
+        "title": "Another Article",
         "type": "article-journal"
     }
 ]

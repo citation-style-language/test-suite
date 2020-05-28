@@ -32,8 +32,8 @@ His anonymous life
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "His anonymous life", 
+        "id": "ITEM-1",
+        "title": "His anonymous life",
         "type": "book"
     }
 ]

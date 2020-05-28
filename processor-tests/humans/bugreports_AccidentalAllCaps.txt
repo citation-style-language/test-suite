@@ -813,21 +813,21 @@ J. Doe, <i>His Anonymous Life</i>, , 1965.
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "John"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
-                    "1965", 
-                    "6", 
+                    "1965",
+                    "6",
                     "1"
                 ]
             ]
-        }, 
-        "title": "His Anonymous Life", 
+        },
+        "title": "His Anonymous Life",
         "type": "book"
     }
 ]

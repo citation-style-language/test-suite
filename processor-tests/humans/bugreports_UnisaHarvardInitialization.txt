@@ -66,11 +66,11 @@ Macros are from a private style "unisa-harvard", forwarded by a user.
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "John Quiggly"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "book"
     }
 ]

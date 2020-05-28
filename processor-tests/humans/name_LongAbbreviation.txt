@@ -35,21 +35,21 @@ Ts. Tserendorj
     {
         "author": [
             {
-                "family": "Tserendorj", 
+                "family": "Tserendorj",
                 "given": "TSerendorjiin"
             }
-        ], 
-        "id": "simple-mongolian-name-1", 
+        ],
+        "id": "simple-mongolian-name-1",
         "issued": {
             "date-parts": [
                 [
-                    "1925", 
-                    "3", 
+                    "1925",
+                    "3",
                     "4"
                 ]
             ]
-        }, 
-        "title": "An Altogether Unknown History of Soviet-Mongolian Relations", 
+        },
+        "title": "An Altogether Unknown History of Soviet-Mongolian Relations",
         "type": "book"
     }
 ]

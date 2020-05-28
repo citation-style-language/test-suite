@@ -50,25 +50,25 @@ second-field-align: flush
     {
         "author": [
             {
-                "family": "Hodgins", 
+                "family": "Hodgins",
                 "given": "Christopher"
             }
-        ], 
-        "container-title": "Big Series", 
-        "id": "ITEM-1", 
-        "title": "One", 
+        ],
+        "container-title": "Big Series",
+        "id": "ITEM-1",
+        "title": "One",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Smith", 
+                "family": "Smith",
                 "given": "John"
             }
-        ], 
-        "container-title": "Big Series", 
-        "id": "ITEM-2", 
-        "title": "One+", 
+        ],
+        "container-title": "Big Series",
+        "id": "ITEM-2",
+        "title": "One+",
         "type": "book"
     }
 ]

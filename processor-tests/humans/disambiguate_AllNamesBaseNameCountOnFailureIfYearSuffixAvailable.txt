@@ -115,105 +115,105 @@ Asthma et al. (1990a); Asthma et al. (1990b); Dropsy, Edward Enteritis, et al. (
     {
         "author": [
             {
-                "family": "Asthma", 
+                "family": "Asthma",
                 "given": "Albert"
-            }, 
+            },
             {
-                "family": "Bronchitis", 
+                "family": "Bronchitis",
                 "given": "Bosworth"
-            }, 
+            },
             {
-                "family": "Cold", 
+                "family": "Cold",
                 "given": "Crispin"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     "1990"
                 ]
             ]
-        }, 
-        "title": "Book A", 
+        },
+        "title": "Book A",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Asthma", 
+                "family": "Asthma",
                 "given": "Albert"
-            }, 
+            },
             {
-                "family": "Bronchitis", 
+                "family": "Bronchitis",
                 "given": "Bosworth"
-            }, 
+            },
             {
-                "family": "Cold", 
+                "family": "Cold",
                 "given": "Crispin"
             }
-        ], 
-        "id": "ITEM-2", 
+        ],
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
                     "1990"
                 ]
             ]
-        }, 
-        "title": "Book B", 
+        },
+        "title": "Book B",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Dropsy", 
+                "family": "Dropsy",
                 "given": "Devon"
-            }, 
+            },
             {
-                "family": "Enteritis", 
+                "family": "Enteritis",
                 "given": "Edward"
-            }, 
+            },
             {
-                "family": "Fever", 
+                "family": "Fever",
                 "given": "Xavier"
             }
-        ], 
-        "id": "ITEM-3", 
+        ],
+        "id": "ITEM-3",
         "issued": {
             "date-parts": [
                 [
                     "2000"
                 ]
             ]
-        }, 
-        "title": "Book C", 
+        },
+        "title": "Book C",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Dropsy", 
+                "family": "Dropsy",
                 "given": "Devon"
-            }, 
+            },
             {
-                "family": "Enteritis", 
+                "family": "Enteritis",
                 "given": "Ernie"
-            }, 
+            },
             {
-                "family": "Fever", 
+                "family": "Fever",
                 "given": "Yves"
             }
-        ], 
-        "id": "ITEM-4", 
+        ],
+        "id": "ITEM-4",
         "issued": {
             "date-parts": [
                 [
                     "2000"
                 ]
             ]
-        }, 
-        "title": "Book D", 
+        },
+        "title": "Book D",
         "type": "book"
     }
 ]

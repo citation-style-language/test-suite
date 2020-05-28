@@ -48,53 +48,53 @@ A. Asthma, Brandon Bronchitis, et al.; A. Asthma, Biff Bronchitis, et al.
     {
         "author": [
             {
-                "family": "Asthma", 
+                "family": "Asthma",
                 "given": "Albert"
-            }, 
+            },
             {
-                "family": "Bronchitis", 
+                "family": "Bronchitis",
                 "given": "Brandon"
-            }, 
+            },
             {
-                "family": "Cold", 
+                "family": "Cold",
                 "given": "Charles"
             }
-        ], 
-        "id": "ambigs-16", 
+        ],
+        "id": "ambigs-16",
         "issued": {
             "date-parts": [
                 [
                     "1990"
                 ]
             ]
-        }, 
-        "title": "Book M", 
+        },
+        "title": "Book M",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Asthma", 
+                "family": "Asthma",
                 "given": "Albert"
-            }, 
+            },
             {
-                "family": "Bronchitis", 
+                "family": "Bronchitis",
                 "given": "Biff"
-            }, 
+            },
             {
-                "family": "Cold", 
+                "family": "Cold",
                 "given": "Curtis"
             }
-        ], 
-        "id": "ambigs-17", 
+        ],
+        "id": "ambigs-17",
         "issued": {
             "date-parts": [
                 [
                     "1990"
                 ]
             ]
-        }, 
-        "title": "Book M", 
+        },
+        "title": "Book M",
         "type": "book"
     }
 ]

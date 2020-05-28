@@ -29,8 +29,8 @@ The Physical Volcanology of the 1600 Eruption of Huaynaputina
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "The physical volcanology of the 1600 eruption of Huaynaputina", 
+        "id": "ITEM-1",
+        "title": "The physical volcanology of the 1600 eruption of Huaynaputina",
         "type": "book"
     }
 ]

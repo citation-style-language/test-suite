@@ -31,20 +31,20 @@ Spring 1999–Summer 2001
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
-                    "1999", 
-                    "21" 
+                    "1999",
+                    "21"
                 ],
                 [
                     "2001",
                     "22"
                 ]
-            ], 
+            ],
             "raw": "Spring 1999 - Summer 2001"
-        }, 
+        },
         "type": "book"
     }
 ]

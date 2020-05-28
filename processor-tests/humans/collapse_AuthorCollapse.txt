@@ -42,37 +42,37 @@ citation
     {
         "author": [
             {
-                "family": "Smith", 
+                "family": "Smith",
                 "given": "John"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     1900
                 ]
             ]
-        }, 
-        "title": "Ignore me 1", 
+        },
+        "title": "Ignore me 1",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Smith", 
+                "family": "Smith",
                 "given": "John"
             }
-        ], 
-        "id": "ITEM-2", 
+        ],
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
                     2000
                 ]
             ]
-        }, 
-        "title": "Ignore me 2", 
+        },
+        "title": "Ignore me 2",
         "type": "book"
     }
 ]

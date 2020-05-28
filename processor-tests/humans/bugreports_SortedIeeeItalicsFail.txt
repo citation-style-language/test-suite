@@ -296,70 +296,70 @@ bibliography
     {
         "author": [
             {
-                "family": "Roe", 
+                "family": "Roe",
                 "given": "Jane"
             }
-        ], 
-        "container-title": "Journal of Obscurity", 
-        "id": "ITEM-2", 
+        ],
+        "container-title": "Journal of Obscurity",
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
-                    "1965", 
-                    "6", 
+                    "1965",
+                    "6",
                     "1"
                 ]
             ]
-        }, 
-        "page": "15", 
-        "title": "His Anonymous Article", 
-        "type": "article-journal", 
+        },
+        "page": "15",
+        "title": "His Anonymous Article",
+        "type": "article-journal",
         "volume": "100"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Doe", 
+                "family": "Doe",
                 "given": "John"
             }
-        ], 
-        "container-title": "Journal of Obscurity", 
-        "id": "ITEM-1", 
+        ],
+        "container-title": "Journal of Obscurity",
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
-                    "1965", 
-                    "6", 
+                    "1965",
+                    "6",
                     "1"
                 ]
             ]
-        }, 
-        "page": "15", 
-        "title": "His Anonymous Article", 
-        "type": "article-journal", 
+        },
+        "page": "15",
+        "title": "His Anonymous Article",
+        "type": "article-journal",
         "volume": "100"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Everhardt", 
+                "family": "Everhardt",
                 "given": "Ganzaheit"
             }
-        ], 
-        "container-title": "Journal of Obscurity", 
-        "id": "ITEM-3", 
+        ],
+        "container-title": "Journal of Obscurity",
+        "id": "ITEM-3",
         "issued": {
             "date-parts": [
                 [
-                    "1965", 
-                    "6", 
+                    "1965",
+                    "6",
                     "1"
                 ]
             ]
-        }, 
-        "page": "15", 
-        "title": "His Anonymous Article", 
-        "type": "article-journal", 
+        },
+        "page": "15",
+        "title": "His Anonymous Article",
+        "type": "article-journal",
         "volume": "100"
     }
 ]

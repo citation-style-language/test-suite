@@ -38,8 +38,8 @@ false
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title-short": "Book A", 
+        "id": "ITEM-1",
+        "title-short": "Book A",
         "type": "book"
     }
 ]

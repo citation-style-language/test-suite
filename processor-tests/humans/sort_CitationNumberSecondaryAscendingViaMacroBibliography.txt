@@ -58,23 +58,23 @@ bibliography
 >>===== INPUT =====>>
 [
     {
-        "id": "item-1", 
-        "title": "Aaaa (first-cited)", 
+        "id": "item-1",
+        "title": "Aaaa (first-cited)",
         "type": "book"
-    }, 
+    },
     {
-        "id": "item-2", 
-        "title": "Bbbb (second-cited)", 
+        "id": "item-2",
+        "title": "Bbbb (second-cited)",
         "type": "book"
-    }, 
+    },
     {
-        "id": "item-3", 
-        "title": "Zzzz (third-cited)", 
+        "id": "item-3",
+        "title": "Zzzz (third-cited)",
         "type": "book"
-    }, 
+    },
     {
-        "id": "item-4", 
-        "title": "Xxxx (fourth-cited)", 
+        "id": "item-4",
+        "title": "Xxxx (fourth-cited)",
         "type": "book"
     }
 ]

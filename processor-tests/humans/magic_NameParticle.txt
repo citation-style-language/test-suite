@@ -35,12 +35,12 @@ Doe, John von
     {
         "author": [
             {
-                "dropping-particle": "von", 
-                "family": "Doe", 
+                "dropping-particle": "von",
+                "family": "Doe",
                 "given": "John"
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "book"
     }
 ]

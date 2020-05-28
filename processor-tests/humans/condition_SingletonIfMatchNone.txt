@@ -41,23 +41,23 @@ ed. by Γ. Π. Σαββίδης
     {
         "author": [
             {
-                "family": "Άγρας", 
+                "family": "Άγρας",
                 "given": "Τέλλος"
             }
-        ], 
+        ],
         "container-author": [
             {
-                "family": "Καρυωτάκης ", 
+                "family": "Καρυωτάκης ",
                 "given": "Κώστας"
             }
-        ], 
+        ],
         "editor": [
             {
-                "family": "Σαββίδης", 
+                "family": "Σαββίδης",
                 "given": "Γ. Π."
             }
-        ], 
-        "id": "ITEM-1", 
+        ],
+        "id": "ITEM-1",
         "type": "chapter"
     }
 ]

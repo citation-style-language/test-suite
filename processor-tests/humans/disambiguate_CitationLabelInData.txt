@@ -34,113 +34,113 @@ SpiffLabel1900a; SpiffLabel1900b; Bron00; BrCh98; DEFG26
     {
         "author": [
             {
-                "family": "Asthma", 
+                "family": "Asthma",
                 "given": "Albert"
             }
-        ], 
-        "citation-label": "SpiffLabel1900", 
-        "id": "ITEM-1", 
+        ],
+        "citation-label": "SpiffLabel1900",
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     "1900"
                 ]
             ]
-        }, 
-        "title": "Book A", 
+        },
+        "title": "Book A",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Asthma", 
+                "family": "Asthma",
                 "given": "Zeppo"
             }
-        ], 
-        "citation-label": "SpiffLabel1900", 
-        "id": "ITEM-2", 
+        ],
+        "citation-label": "SpiffLabel1900",
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
                     "2000"
                 ]
             ]
-        }, 
-        "title": "Book B", 
+        },
+        "title": "Book B",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Bronchitis", 
+                "family": "Bronchitis",
                 "given": "Buffy"
             }
-        ], 
-        "id": "ITEM-3", 
+        ],
+        "id": "ITEM-3",
         "issued": {
             "date-parts": [
                 [
                     "2000"
                 ]
             ]
-        }, 
-        "title": "Book C", 
+        },
+        "title": "Book C",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Bronchitis", 
+                "family": "Bronchitis",
                 "given": "Buffy"
-            }, 
+            },
             {
-                "family": "Cholera", 
+                "family": "Cholera",
                 "given": "Cleopatra"
             }
-        ], 
-        "id": "ITEM-4", 
+        ],
+        "id": "ITEM-4",
         "issued": {
             "date-parts": [
                 [
                     "1998"
                 ]
             ]
-        }, 
-        "title": "Book D", 
+        },
+        "title": "Book D",
         "type": "book"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "von Dipheria", 
+                "family": "von Dipheria",
                 "given": "Doug"
-            }, 
+            },
             {
-                "family": "Eczema", 
+                "family": "Eczema",
                 "given": "Elihugh"
-            }, 
+            },
             {
-                "family": "Flatulence", 
+                "family": "Flatulence",
                 "given": "Frankie"
-            }, 
+            },
             {
-                "family": "Goiter", 
+                "family": "Goiter",
                 "given": "Gus"
-            }, 
+            },
             {
-                "family": "Hiccups", 
+                "family": "Hiccups",
                 "given": "Harvey"
             }
-        ], 
-        "id": "ITEM-5", 
+        ],
+        "id": "ITEM-5",
         "issued": {
             "date-parts": [
                 [
                     "1926"
                 ]
             ]
-        }, 
-        "title": "Book D", 
+        },
+        "title": "Book D",
         "type": "book"
     }
 ]

@@ -208,71 +208,71 @@ bibliography
             {
                 "literal": "Africa News"
             }
-        ], 
-        "container-title": "Africa News", 
-        "id": "ITEM-1", 
+        ],
+        "container-title": "Africa News",
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
                     "2006"
                 ]
             ]
-        }, 
-        "title": "Burkina Faso: Journalist Case Puts Spotlight On Justice System", 
+        },
+        "title": "Burkina Faso: Journalist Case Puts Spotlight On Justice System",
         "type": "article-journal"
-    }, 
+    },
     {
         "author": [
             {
                 "literal": "Africa News"
             }
-        ], 
-        "container-title": "Africa News", 
-        "id": "ITEM-2", 
+        ],
+        "container-title": "Africa News",
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
                     "2010"
                 ]
             ]
-        }, 
-        "title": "Niger: Who Really Ousted Tandja, And Why?", 
+        },
+        "title": "Niger: Who Really Ousted Tandja, And Why?",
         "type": "article-journal"
-    }, 
+    },
     {
         "author": [
             {
                 "literal": "Africa News"
             }
-        ], 
-        "container-title": "Africa News", 
-        "id": "ITEM-3", 
+        ],
+        "container-title": "Africa News",
+        "id": "ITEM-3",
         "issued": {
             "date-parts": [
                 [
                     "2007"
                 ]
             ]
-        }, 
-        "title": "Uganda: Police Protect Besigye Rally", 
+        },
+        "title": "Uganda: Police Protect Besigye Rally",
         "type": "article-journal"
-    }, 
+    },
     {
         "author": [
             {
                 "literal": "Africa News"
             }
-        ], 
-        "container-title": "Africa News", 
-        "id": "ITEM-4", 
+        ],
+        "container-title": "Africa News",
+        "id": "ITEM-4",
         "issued": {
             "date-parts": [
                 [
                     "2006"
                 ]
             ]
-        }, 
-        "title": "Uganda: UK, US Deploy Observers", 
+        },
+        "title": "Uganda: UK, US Deploy Observers",
         "type": "article-journal"
     }
 ]

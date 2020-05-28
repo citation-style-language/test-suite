@@ -14,7 +14,7 @@ Note is not near.
 [
     [
         {
-            "id": "ITEM-1", 
+            "id": "ITEM-1",
             "near-note": false
         }
     ]

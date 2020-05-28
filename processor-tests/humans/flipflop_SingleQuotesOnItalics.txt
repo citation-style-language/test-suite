@@ -30,7 +30,7 @@ It is official (“<i>My Title</i>”) now
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
+        "id": "ITEM-1",
         "title": "It is official (\"<i>My Title</i>\") now"
     }
 ]

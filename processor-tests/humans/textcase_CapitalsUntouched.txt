@@ -35,28 +35,28 @@ OC 1
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "UK", 
+        "id": "ITEM-1",
+        "title": "UK",
         "type": "book"
-    }, 
+    },
     {
-        "id": "ITEM-2", 
-        "title": "Review of Book by A.N. Author", 
+        "id": "ITEM-2",
+        "title": "Review of Book by A.N. Author",
         "type": "book"
-    }, 
+    },
     {
-        "id": "ITEM-3", 
-        "title": "Writings on UK people and places", 
+        "id": "ITEM-3",
+        "title": "Writings on UK people and places",
         "type": "book"
-    }, 
+    },
     {
-        "id": "ITEM-4", 
-        "title": "All for one. For all.", 
+        "id": "ITEM-4",
+        "title": "All for one. For all.",
         "type": "book"
-    }, 
+    },
     {
-        "id": "ITEM-5", 
-        "title": "OC 1", 
+        "id": "ITEM-5",
+        "title": "OC 1",
         "type": "book"
     }
 ]

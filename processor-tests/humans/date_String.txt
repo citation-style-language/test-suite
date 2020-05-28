@@ -34,11 +34,12 @@ date: Bogus Date
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
+        "id": "ITEM-1",
         "issued": {
+            "date-parts": [],
             "raw": "Bogus Date"
-        }, 
-        "title": "Book A", 
+        },
+        "title": "Book A",
         "type": "book"
     }
 ]

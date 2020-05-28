@@ -38,22 +38,22 @@ Collier and Collier
     {
         "author": [
             {
-                "family": "Collier", 
+                "family": "Collier",
                 "given": "Ruth Berins"
-            }, 
+            },
             {
-                "family": "Collier", 
+                "family": "Collier",
                 "given": "David"
             }
-        ], 
-        "id": 15895, 
+        ],
+        "id": 15895,
         "issued": {
             "date-parts": [
                 [
                     2002
                 ]
             ]
-        }, 
+        },
         "type": "book"
     }
 ]

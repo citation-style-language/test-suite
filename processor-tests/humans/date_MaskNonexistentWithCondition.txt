@@ -41,8 +41,8 @@ Hello
 >>===== INPUT =====>>
 [
     {
-        "id": "ITEM-1", 
-        "title": "Ignore me", 
+        "id": "ITEM-1",
+        "title": "Ignore me",
         "type": "book"
     }
 ]

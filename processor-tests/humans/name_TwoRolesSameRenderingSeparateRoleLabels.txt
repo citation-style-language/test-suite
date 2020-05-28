@@ -43,41 +43,41 @@ Albert Asthma et al. (eds.), Albert Asthma et al. (trans.)
     {
         "editor": [
             {
-                "family": "Asthma", 
+                "family": "Asthma",
                 "given": "Albert"
-            }, 
+            },
             {
-                "family": "Bronchitis", 
+                "family": "Bronchitis",
                 "given": "Bosworth"
-            }, 
+            },
             {
-                "family": "Cold", 
+                "family": "Cold",
                 "given": "Crispin"
             }
-        ], 
-        "id": "editor-translator-2", 
+        ],
+        "id": "editor-translator-2",
         "issued": {
             "date-parts": [
                 [
                     "1990"
                 ]
             ]
-        }, 
-        "title": "Book One", 
+        },
+        "title": "Book One",
         "translator": [
             {
-                "family": "Asthma", 
+                "family": "Asthma",
                 "given": "Albert"
-            }, 
+            },
             {
-                "family": "Bronchitis", 
+                "family": "Bronchitis",
                 "given": "Bosworth"
-            }, 
+            },
             {
-                "family": "Cold", 
+                "family": "Cold",
                 "given": "Constantine"
             }
-        ], 
+        ],
         "type": "book"
     }
 ]

@@ -12,7 +12,7 @@ John Doe, Jane Roe, et al.
 [
     [
         {
-            "id": "ITEM-1", 
+            "id": "ITEM-1",
             "position": 1
         }
     ]

@@ -11,9 +11,9 @@ Book A, cited in Book B
     [
         {
             "id": "ITEM-1"
-        }, 
+        },
         {
-            "id": "ITEM-2", 
+            "id": "ITEM-2",
             "prefix": ", cited in"
         }
     ]

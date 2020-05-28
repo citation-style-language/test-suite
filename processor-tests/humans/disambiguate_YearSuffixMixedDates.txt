@@ -48,52 +48,52 @@ citation
     {
         "author": [
             {
-                "family": "Ylinen", 
+                "family": "Ylinen",
                 "given": "A"
             }
-        ], 
-        "id": 22, 
+        ],
+        "id": 22,
         "issued": {
             "date-parts": [
                 [
                     1995
                 ]
             ]
-        }, 
+        },
         "type": "article-journal"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Ylinen", 
+                "family": "Ylinen",
                 "given": "A"
             }
-        ], 
-        "id": 21, 
+        ],
+        "id": 21,
         "issued": {
             "date-parts": [
                 [
                     "1995"
                 ]
             ]
-        }, 
+        },
         "type": "article-journal"
-    }, 
+    },
     {
         "author": [
             {
-                "family": "Ylinen", 
+                "family": "Ylinen",
                 "given": "A"
             }
-        ], 
-        "id": 23, 
+        ],
+        "id": 23,
         "issued": {
             "date-parts": [
                 [
                     "1995"
                 ]
             ]
-        }, 
+        },
         "type": "article-journal"
     }
 ]
