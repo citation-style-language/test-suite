@@ -49,7 +49,7 @@ Marcus Shafi`i, Response to Shafi`i Comment
       <group delimiter=", ">
         <names variable="editor">
           <name/>
-          </label prefix=" (" suffix=")" form="short"/>
+          <label prefix=" (" suffix=")" form="short"/>
         </names>
         <text variable="title" text-case="title"/>
       </group>
