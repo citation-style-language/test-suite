@@ -14,7 +14,7 @@ Book A, cited in Book B
         },
         {
             "id": "ITEM-2",
-            "prefix": ", cited in"
+            "prefix": ", cited in "
         }
     ]
 ]

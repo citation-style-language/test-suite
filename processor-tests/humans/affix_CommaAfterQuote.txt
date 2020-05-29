@@ -11,7 +11,7 @@ citation
     [
         {
             "id": "ITEM-1",
-            "prefix": "'quote',"
+            "prefix": "'quote', "
         }
     ]
 ]

@@ -11,7 +11,7 @@ The Title And “so it goes”
     [
         {
             "id": "ITEM-1",
-            "suffix": "And \"so it goes\""
+            "suffix": " And \"so it goes\""
         }
     ]
 ]

@@ -40,7 +40,7 @@ citation
     [
         {
             "id": "ITEM-1",
-            "prefix": "As written in"
+            "prefix": "As written in "
         }
     ]
 ]

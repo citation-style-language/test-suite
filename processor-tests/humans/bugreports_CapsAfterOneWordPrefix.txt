@@ -12,13 +12,13 @@ Caps after. Ibid.
     [
         {
             "id": "ITEM-1",
-            "prefix": "Nocapsafter."
+            "prefix": "Nocapsafter. "
         }
     ],
     [
         {
             "id": "ITEM-1",
-            "prefix": "Caps after."
+            "prefix": "Caps after. "
         }
     ]
 ]

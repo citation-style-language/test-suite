@@ -19,7 +19,7 @@ citation
                 },
                 {
                     "id": "ITEM-1",
-                    "prefix": ". He said \"Please work.\""
+                    "prefix": ". He said \"Please work.\" "
                 }
             ],
             "properties": {

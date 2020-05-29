@@ -12,7 +12,7 @@ citation
         {
             "id": "ITEM-1",
             "locator": "100",
-            "suffix": "This."
+            "suffix": " This."
         },
         {
             "id": "ITEM-2",
