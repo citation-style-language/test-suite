@@ -35,7 +35,9 @@ bibliography
     </date>
   </locale>
   <citation>
-    <text value="bogus"/>
+    <layout>
+      <text value="bogus"/>
+    </layout>
   </citation>
   <bibliography>
     <layout>
