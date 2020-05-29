@@ -2,10 +2,6 @@
 citation
 <<===== MODE =====<<
 
->>===== DESCRIPTION =====>>
-should pass test style_test025
-<<===== DESCRIPTION =====<<
-
 >>===== RESULT =====>>
 l’’’
 <<===== RESULT =====<<
