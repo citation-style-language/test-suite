@@ -36,24 +36,6 @@ bibliography
       <name>Julian Onions</name>
       <email>julian.onions@gmail.com</email>
     </author>
-    <contributor>
-      <name>Sebastian Karcher</name>
-    </contributor>
-    <contributor>
-      <name>Richard Karnesky</name>
-      <email>karnesky+zotero@gmail.com</email>
-      <uri>http://arc.nucapt.northwestern.edu/Richard_Karnesky</uri>
-    </contributor>
-    <contributor>
-      <name>Andrew Dunning</name>
-      <email>andrew.dunning@utoronto.ca</email>
-      <uri>https://orcid.org/0000-0003-0464-5036</uri>
-    </contributor>
-    <contributor>
-      <name>Matthew Roth</name>
-      <email>matthew.g.roth@yale.edu</email>
-      <uri> https://orcid.org/0000-0001-7902-6331</uri>
-    </contributor>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
     <summary>The author-date variant of the Chicago style</summary>
@@ -82,24 +64,7 @@ bibliography
   </macro>
   <citation et-al-min="4" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" givenname-disambiguation-rule="primary-name" collapse="year" after-collapse-delimiter="; ">
     <layout prefix="(" suffix=")" delimiter="; ">
-      <group delimiter=", ">
-        <choose>
-          <if variable="issued accessed" match="any">
-            <group delimiter=" ">
-              <text macro="contributors-short"/>
-              <text macro="date-in-text"/>
-            </group>
-          </if>
-          <!---comma before forthcoming and n.d.-->
-          <else>
-            <group delimiter=", ">
-              <text macro="contributors-short"/>
-              <text macro="date-in-text"/>
-            </group>
-          </else>
-        </choose>
-        <text macro="point-locators"/>
-      </group>
+      <text macro="contributors"/>
     </layout>
   </citation>
   <bibliography subsequent-author-substitute="&#8212;&#8212;&#8212;">
