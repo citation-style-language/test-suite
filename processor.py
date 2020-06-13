@@ -238,6 +238,7 @@ class CslTest:
             self.extract(element,required=True,is_json=False)
             if element == "CSL" and self.data['csl'].endswith('.csl'):
                 self.data['csl'] = fixEndings(open( os.path.join("styles", self.data['csl'])).read())
+        self.extract("VERSION",required=False,is_json=False)
         self.extract("RESULT",required=True,is_json=False)
         self.extract("INPUT",required=True,is_json=True)
         self.extract("CITATION-ITEMS",required=False,is_json=True)
