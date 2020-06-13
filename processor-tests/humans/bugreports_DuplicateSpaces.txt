@@ -173,3 +173,9 @@ http://groups.google.com/group/citeproc-js/browse_thread/thread/6f9c7620c6c97ff1
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

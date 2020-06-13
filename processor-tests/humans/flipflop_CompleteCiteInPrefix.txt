@@ -50,3 +50,9 @@ Wilhelm Dilthey, “The Types of World Views and Their Unfoldment Within the Met
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

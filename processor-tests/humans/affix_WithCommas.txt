@@ -1062,3 +1062,9 @@ John Smith, <i>Book C</i>, 2000, 23 is one source, David Jones, <i>Book D</i>, 2
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

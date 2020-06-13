@@ -153,3 +153,9 @@ Original test by Bruce D'Arcus.
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

@@ -321,3 +321,9 @@ Test a combination reported by Zotero user @gauthamg, 2012-03-12
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

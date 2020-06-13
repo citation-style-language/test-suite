@@ -59,3 +59,9 @@ John Doe, Jane Roe, et al.
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

@@ -44,3 +44,9 @@ empty issued is not uncertain
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

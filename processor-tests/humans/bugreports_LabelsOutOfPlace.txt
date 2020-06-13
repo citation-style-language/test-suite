@@ -740,3 +740,9 @@ Fault reported by Sean Takats.
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

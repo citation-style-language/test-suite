@@ -66,3 +66,9 @@ John Doe.Journal Title.Jane Roe.Journ Title.
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

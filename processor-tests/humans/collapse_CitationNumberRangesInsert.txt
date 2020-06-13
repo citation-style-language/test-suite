@@ -134,3 +134,9 @@ addressed: http://forums.zotero.org/discussion/3579
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

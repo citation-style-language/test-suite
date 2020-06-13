@@ -44,3 +44,9 @@ Nation of "Positive Obligations " of State under the European Convention on Huma
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

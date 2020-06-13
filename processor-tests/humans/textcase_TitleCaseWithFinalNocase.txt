@@ -35,3 +35,9 @@ The Mirror, the Window, and the Telescope: How Renaissance Linear Perspective Ch
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

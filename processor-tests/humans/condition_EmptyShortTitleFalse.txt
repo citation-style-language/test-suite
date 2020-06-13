@@ -44,3 +44,9 @@ Does not see title-short (correct)
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

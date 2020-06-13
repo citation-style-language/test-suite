@@ -56,3 +56,9 @@ Book Title, vol. 1, fol. 186, 8 April 1544
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

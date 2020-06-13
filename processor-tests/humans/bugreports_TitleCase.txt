@@ -37,3 +37,9 @@ One but Two or Three yet Four so Five for Six and Seven nor Eight a Nine an Ten 
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

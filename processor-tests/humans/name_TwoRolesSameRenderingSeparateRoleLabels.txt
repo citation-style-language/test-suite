@@ -82,3 +82,9 @@ Albert Asthma et al. (eds.), Albert Asthma et al. (trans.)
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

@@ -35,3 +35,9 @@ The Physical Volcanology of the 1600 Eruption of Huaynaputina
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

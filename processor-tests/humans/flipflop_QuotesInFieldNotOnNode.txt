@@ -35,3 +35,9 @@ Speak, “friend,” and enter.
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

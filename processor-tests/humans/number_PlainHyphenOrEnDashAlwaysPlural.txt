@@ -75,3 +75,9 @@ His Anonymous Life (1) pages 1â€“2 (cs:text) vs His Anonymous Life (1) pages 1â€
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

@@ -133,3 +133,9 @@ http://forums.zotero.org/discussion/11576/problems-with-paperconference-and-spee
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

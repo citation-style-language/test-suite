@@ -39,3 +39,9 @@ Delimiter is a non-breaking Unicode hyphen U+2011, supplied by the CSL 1.0.1 fr-
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

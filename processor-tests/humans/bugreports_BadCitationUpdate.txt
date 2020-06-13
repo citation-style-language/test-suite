@@ -91,3 +91,9 @@ C. Grignon, C. Sentenac 2000b
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

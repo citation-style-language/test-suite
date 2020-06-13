@@ -76,3 +76,9 @@ Bug reported by Rintze:
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

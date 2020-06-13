@@ -49,3 +49,9 @@ John Doe și Jane Roe
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

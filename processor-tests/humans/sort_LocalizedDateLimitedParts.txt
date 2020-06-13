@@ -91,3 +91,9 @@ Book D; Book A; Book B; Book C
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

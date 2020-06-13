@@ -117,3 +117,9 @@ J. Doe, Jane Roe, Robert Jones; J. Doe, Josephine Roe, et al.; J. Doe, Jane Roe,
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

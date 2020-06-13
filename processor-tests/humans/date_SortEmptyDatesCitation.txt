@@ -83,3 +83,9 @@ BookD 1999; BookB 2000; BookA; BookC; BookE.
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

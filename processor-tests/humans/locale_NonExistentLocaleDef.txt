@@ -63,3 +63,9 @@ John Doe (edxitor) + Jane roe (translator)
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

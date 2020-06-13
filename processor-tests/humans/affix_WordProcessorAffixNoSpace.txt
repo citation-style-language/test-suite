@@ -67,3 +67,9 @@ My Prefix My Title My Suffix
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

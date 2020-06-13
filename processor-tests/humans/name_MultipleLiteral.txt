@@ -64,3 +64,9 @@ JJ Doe; G Jones; B Smith; Alfred Benzon Foundation; James Benson Foundation; Joh
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

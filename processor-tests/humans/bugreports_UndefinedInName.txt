@@ -206,3 +206,9 @@ Original test submitted by Carles Pina.
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

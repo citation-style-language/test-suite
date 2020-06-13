@@ -101,3 +101,9 @@ Asthma and Asthma (1980); Bronchitis (1995); Asthma (1885)
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+
