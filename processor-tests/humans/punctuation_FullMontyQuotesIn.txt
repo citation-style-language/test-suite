@@ -236,3 +236,9 @@ ENDING IN COMMA
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

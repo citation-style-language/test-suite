@@ -713,3 +713,9 @@ a) mit Name "collection-editor" (in jedem Fall)
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

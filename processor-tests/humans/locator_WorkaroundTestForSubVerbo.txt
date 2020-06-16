@@ -71,3 +71,9 @@ Book With Sub Verbo, 200
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

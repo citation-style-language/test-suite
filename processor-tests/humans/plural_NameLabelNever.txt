@@ -49,3 +49,9 @@ Doe and Roe ed
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

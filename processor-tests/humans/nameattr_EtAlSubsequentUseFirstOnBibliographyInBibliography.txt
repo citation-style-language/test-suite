@@ -62,3 +62,9 @@ have no effect in the bibliography.
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

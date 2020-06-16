@@ -78,3 +78,9 @@ Smith; Smith; B. Muggins; J. Muggins
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

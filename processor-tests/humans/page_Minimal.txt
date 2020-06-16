@@ -2,7 +2,6 @@
 citation
 <<===== MODE =====<<
 
-
 >>===== RESULT =====>>
 Example A, at 101–8
 Example B, at 3–10
@@ -283,3 +282,9 @@ Example T, at n11564-1568
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

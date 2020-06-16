@@ -39,3 +39,9 @@ Review of Book by A.N. Author
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

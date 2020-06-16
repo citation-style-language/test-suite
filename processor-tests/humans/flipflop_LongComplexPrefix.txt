@@ -50,3 +50,9 @@ The French translation provided there runs, <i>Toi, qui cultives notre philosoph
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

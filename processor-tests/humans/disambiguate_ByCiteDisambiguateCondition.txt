@@ -96,3 +96,9 @@ Doe et al., <i>Book A</i> (2000); Doe et al., <i>Book B</i> (2000)
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

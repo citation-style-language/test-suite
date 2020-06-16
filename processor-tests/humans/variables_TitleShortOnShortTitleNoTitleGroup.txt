@@ -70,3 +70,9 @@ Check this out:
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

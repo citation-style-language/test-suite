@@ -55,3 +55,9 @@ Hello.; Goodbye
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

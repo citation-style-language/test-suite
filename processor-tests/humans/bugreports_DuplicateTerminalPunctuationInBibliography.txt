@@ -249,3 +249,9 @@ http://groups.google.com/group/citeproc-js/browse_thread/thread/428d4523fbef3beb
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

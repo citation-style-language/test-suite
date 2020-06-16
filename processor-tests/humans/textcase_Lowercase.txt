@@ -37,3 +37,9 @@ this is a pen that is a Smith pencil
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

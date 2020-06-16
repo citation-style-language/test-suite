@@ -57,3 +57,9 @@ Jonathan Chang وآخرون.
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

@@ -52,3 +52,9 @@ Should print this: Book A … and this: Book A … but this only once: Blob
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

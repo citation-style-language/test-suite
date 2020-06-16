@@ -52,3 +52,9 @@ John von Doe: An about up Life; John van Doe? A Life; John d’Doe! A Life; John
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

@@ -845,3 +845,9 @@ Space on guillemet is half-width non-breaking space.
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

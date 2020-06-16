@@ -49,3 +49,9 @@ I am weak, and I have failed.
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

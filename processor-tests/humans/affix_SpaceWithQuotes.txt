@@ -45,3 +45,9 @@ The Title And “so it goes”
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

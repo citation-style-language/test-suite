@@ -112,3 +112,9 @@ Count=(3) | Count=(3) | Count=(2) | Count=(1) | Count=()
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

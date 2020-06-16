@@ -128,3 +128,9 @@ Thomas Smith; Ted Smith
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

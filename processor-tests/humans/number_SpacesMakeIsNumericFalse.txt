@@ -66,3 +66,9 @@ is-numeric is FALSE: version: 2002, amended effective June 1, 2010, and January 
 <<===== INPUT =====<<
 
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

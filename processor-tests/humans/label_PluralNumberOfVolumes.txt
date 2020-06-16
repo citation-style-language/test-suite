@@ -53,3 +53,9 @@ volume 1; volumes 2
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

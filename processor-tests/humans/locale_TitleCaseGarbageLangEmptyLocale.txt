@@ -70,3 +70,9 @@ His anonymous life; His Anonymous Life; His anonymous life
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

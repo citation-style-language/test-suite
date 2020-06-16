@@ -207,3 +207,9 @@ and disambiguation attempts terminate immediately after it is applied.
   }
 ]
 <<==== INPUT ====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

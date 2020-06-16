@@ -67,3 +67,9 @@ Ma Ry, Ma Ry, Kwite Kontrari
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+
