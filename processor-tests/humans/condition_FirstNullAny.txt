@@ -48,3 +48,9 @@ Try: Okay Publishers
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

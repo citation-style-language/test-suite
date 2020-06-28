@@ -64,3 +64,9 @@ His Anonymous Life (this should appear)
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

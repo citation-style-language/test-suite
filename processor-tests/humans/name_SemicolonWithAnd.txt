@@ -55,3 +55,9 @@ C. Smith; J. Brown; and F. Wilson
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

@@ -44,3 +44,9 @@ Relationship of Core Self-Evaluation Traits—Self-Esteem, Generalized Self-Effi
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

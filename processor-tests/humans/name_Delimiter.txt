@@ -71,3 +71,9 @@ John Doe; Jane Roe OR Doe Inc.; Doe Inc.; Noakes Inc.
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

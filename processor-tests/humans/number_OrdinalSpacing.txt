@@ -49,3 +49,9 @@ Blah blah. 7th, pp. 3–8DD<i>ed</i>
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

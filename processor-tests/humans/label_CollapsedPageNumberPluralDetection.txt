@@ -61,3 +61,9 @@ His Anonymous Life, pages 427–430
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

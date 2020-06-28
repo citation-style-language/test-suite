@@ -38,3 +38,9 @@ His Anonymous Life (postfix following non-breaking space)
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

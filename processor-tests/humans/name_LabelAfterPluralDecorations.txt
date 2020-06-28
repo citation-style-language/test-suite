@@ -59,3 +59,9 @@ John Doe et al. (editors)
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

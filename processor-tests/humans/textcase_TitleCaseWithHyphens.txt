@@ -35,3 +35,9 @@ Out-of-Fashion Initiatives: A Second Story
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

@@ -50,3 +50,9 @@ Some Book or Other (no date)
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

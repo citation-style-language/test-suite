@@ -89,3 +89,9 @@ John Doe; Aloysius Doe
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

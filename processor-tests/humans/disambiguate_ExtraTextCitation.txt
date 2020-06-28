@@ -82,3 +82,9 @@ Bumke, Höfische
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

@@ -86,3 +86,9 @@ in both ascending and descending sorts.
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

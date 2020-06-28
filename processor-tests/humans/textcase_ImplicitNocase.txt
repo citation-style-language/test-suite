@@ -66,3 +66,9 @@ My <sub>subscript phrase</sub> in a Title
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

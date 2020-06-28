@@ -172,3 +172,9 @@ the grouping of authors in the AAA style bibliography format.
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

@@ -63,3 +63,9 @@ http://forums.zotero.org/discussion/15166/stripperiods-not-working-yet/
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

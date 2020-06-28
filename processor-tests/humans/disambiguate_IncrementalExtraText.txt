@@ -139,3 +139,9 @@ John Smith, Complete Works, ed. 6
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

@@ -56,3 +56,9 @@ delimiter supplied by the style.
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

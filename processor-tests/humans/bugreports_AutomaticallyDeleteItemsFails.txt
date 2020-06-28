@@ -255,3 +255,9 @@ from the bib, but it seems to be happening.  Possible API problem?
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

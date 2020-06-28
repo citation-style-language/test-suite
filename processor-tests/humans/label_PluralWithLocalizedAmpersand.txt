@@ -58,3 +58,9 @@ pages 213 AMPERSAND 235
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

@@ -104,3 +104,9 @@ tests based on user data now cover this behavior:
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

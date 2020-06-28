@@ -53,3 +53,9 @@ Book A, cited in Book B
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

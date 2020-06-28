@@ -64,3 +64,9 @@ NOTE: no effect, of course.
     }
 ]
 <<===== INPUT =====<<
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+

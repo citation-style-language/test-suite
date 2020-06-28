@@ -45,3 +45,9 @@ Some title, “Hello there”.
 ]
 <<==== INPUT ====<<
 
+
+
+>>===== VERSION =====>>
+1.0
+<<===== VERSION =====<<
+
