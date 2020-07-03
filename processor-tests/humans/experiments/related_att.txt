@@ -1,14 +1,26 @@
 
 >>==== MODE ====>>
-bibliography
+citation
 <<==== MODE ====<<
 
->>==== RESULT ====>>
+>>==== INPUT ====>>
+[
+   {
+      "title": "A review",
+      "reviewed": {
+         "title": "A reviewed title"
+      }
+   }
+]
+<<==== INPUT ====<<
 
+
+>>==== RESULT ====>>
+A reviewed title
 <<==== RESULT ====<<
 
 >>==== CSL ====>>
-
+<if variable="title" related="reviewed">
 <<==== CSL ====<<
 
 >>===== VERSION =====>>
