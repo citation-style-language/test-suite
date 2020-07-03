@@ -1,0 +1,42 @@
+>>==== MODE ====>>
+citation
+<<==== MODE ====<<
+
+>>==== INPUT ====>>
+[
+   {
+      "title": "A review: With some subtitle",
+      "reviewed": {
+         "title": "A reviewed title: With subtitle"
+      }
+   }
+]
+<<==== INPUT ====<<
+
+
+>>==== RESULT ====>>
+With subtitle
+<<==== RESULT ====<<
+
+>>==== CSL ====>>
+<style
+      xmlns="http://purl.org/net/xbiblio/csl"
+      class="note"
+      version="1.1"
+      title-delimiter=". ">
+  <info>
+    <id />
+    <title />
+    <updated>2020-07-07T04:49:00+09:00</updated>
+  </info>
+  <citation>
+    <layout>
+      <text variable="title" related="reviewed" form="sub"/>
+    </layout>
+  </citation>
+</style>
+<<==== CSL ====<<
+
+>>===== VERSION =====>>
+1.1-experimental
+<<===== VERSION =====<<

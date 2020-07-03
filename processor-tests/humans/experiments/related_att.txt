@@ -1,0 +1,28 @@
+
+>>==== MODE ====>>
+citation
+<<==== MODE ====<<
+
+>>==== INPUT ====>>
+[
+   {
+      "title": "A review",
+      "reviewed": {
+         "title": "A reviewed title"
+      }
+   }
+]
+<<==== INPUT ====<<
+
+
+>>==== RESULT ====>>
+A reviewed title
+<<==== RESULT ====<<
+
+>>==== CSL ====>>
+<text variable="title" related="reviewed">
+<<==== CSL ====<<
+
+>>===== VERSION =====>>
+1.1-experimental
+<<===== VERSION =====<<
