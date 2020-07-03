@@ -1,0 +1,16 @@
+
+>>==== MODE ====>>
+bibliography
+<<==== MODE ====<<
+
+>>==== RESULT ====>>
+
+<<==== RESULT ====<<
+
+>>==== CSL ====>>
+
+<<==== CSL ====<<
+
+>>===== VERSION =====>>
+1.1-experimental
+<<===== VERSION =====<<
