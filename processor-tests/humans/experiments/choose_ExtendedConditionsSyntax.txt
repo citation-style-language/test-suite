@@ -16,7 +16,7 @@ Item Five is an ARTICLE-JOURNAL with both VOLUME and ISSUE, and both of them are
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
-      version="1.1mlz1">
+      version="1.1">
   <info>
     <title>Test fixture</title>
     <id>http://citationstyles.org/tests/fixture</id>
@@ -107,3 +107,7 @@ Item Five is an ARTICLE-JOURNAL with both VOLUME and ISSUE, and both of them are
     }
 ]
 <<===== INPUT =====<<
+
+>>===== VERSION =====>>
+1.1-experimental
+<<===== VERSION =====<<
