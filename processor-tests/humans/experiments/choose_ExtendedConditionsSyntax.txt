@@ -1,0 +1,109 @@
+>>===== MODE =====>>
+citation
+<<===== MODE =====<<
+
+
+>>===== RESULT =====>>
+Item One is not an ARTICLE-JOURNAL, and has an EDITION
+Item Two is a BOOK, but has no EDITION
+Item Three is a CHAPTER, and has an AUTHOR
+Item Four is an ARTICLE-JOURNAL with both VOLUME and ISSUE, but VOLUME is non-numeric
+Item Five is an ARTICLE-JOURNAL with both VOLUME and ISSUE, and both of them are numeric
+<<===== RESULT =====<<
+
+
+>>===== CSL =====>>
+<style 
+      xmlns="http://purl.org/net/xbiblio/csl"
+      class="note"
+      version="1.1mlz1">
+  <info>
+    <title>Test fixture</title>
+    <id>http://citationstyles.org/tests/fixture</id>
+    <link href="http://citationstyles.org/tests/fixture" rel="self"/>
+    <link href="http://citationstyles.org/documentation/text" rel="documentation"/>
+    <category citation-format="author-date"/>
+    <updated>2014-04-30T13:19:38+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+  <citation>
+    <layout delimiter="&#x0A;">
+      <group delimiter=" ">
+        <text variable="title"/>
+          <choose>
+            <if>
+              <conditions match="all">
+                <condition type="article-journal" match="all"/>
+                <condition variable="volume issue" match="all"/>
+                <condition is-numeric="volume" match="none"/>
+              </conditions>
+              <text value="is an ARTICLE-JOURNAL with both VOLUME and ISSUE, but VOLUME is non-numeric"/>
+            </if>
+            <else-if match="all" type="article-journal" variable="volume issue" is-numeric="volume issue">
+              <text value="is an ARTICLE-JOURNAL with both VOLUME and ISSUE, and both of them are numeric"/>
+            </else-if>
+            <else-if>
+              <conditions match="all">
+                <condition type="article-journal" match="none"/>
+                <condition variable="edition" match="all"/>
+              </conditions>
+              <text value="is not an ARTICLE-JOURNAL, and has an EDITION"/>
+            </else-if>
+            <else-if>
+              <conditions match="all">
+                <condition type="book"/>
+                <condition variable="edition" match="none"/>
+              </conditions>
+              <text value="is a BOOK, but has no EDITION"/>
+            </else-if>
+            <else-if type="chapter" variable="author" match="all">
+              <text value="is a CHAPTER, and has an AUTHOR"/>
+            </else-if>
+          </choose>
+      </group>
+    </layout>
+  </citation>
+</style>
+<<===== CSL =====<<
+
+
+>>===== INPUT =====>>
+[
+    {
+        "edition": "5", 
+        "id": "ITEM-1", 
+        "title": "Item One", 
+        "type": "book"
+    }, 
+    {
+        "id": "ITEM-2", 
+        "title": "Item Two", 
+        "type": "book"
+    }, 
+    {
+        "author": [
+            {
+                "family": "Snoapes", 
+                "given": "John"
+            }
+        ], 
+        "id": "ITEM-3", 
+        "title": "Item Three", 
+        "type": "chapter"
+    }, 
+    {
+        "id": "ITEM-4", 
+        "issue": "1", 
+        "title": "Item Four", 
+        "type": "article-journal", 
+        "volume": "Supplement"
+    }, 
+    {
+        "id": "ITEM-5", 
+        "issue": "4", 
+        "title": "Item Five", 
+        "type": "article-journal", 
+        "volume": "2"
+    }
+]
+<<===== INPUT =====<<
