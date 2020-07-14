@@ -4,7 +4,7 @@ citation
 
 Details here:
 
-https://github.com/Juris-M/citeproc-js/issues/140
+https://forums.zotero.org/discussion/83567/uppercase-letter-problem-in-turkish
 
 
 >>===== RESULT =====>>
