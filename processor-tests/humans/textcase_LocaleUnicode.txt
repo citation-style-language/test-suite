@@ -11,8 +11,8 @@ https://forums.zotero.org/discussion/83567/uppercase-letter-problem-in-turkish
 IA AND IB EN
 IA AND IB EN
 İC AND ID TR
+BAD LANGUAGE CODE THAT PASSES IN NODE.JS BUT FAILS IN SOME BROWSERS
 <<===== RESULT =====<<
-
 
 >>===== CITATION-ITEMS =====>>
 [
@@ -29,6 +29,11 @@ IA AND IB EN
   [
     {
       "id": "ITEM-3"
+    }
+  ],
+  [
+    {
+      "id": "ITEM-4"
     }
   ]
 ]
@@ -73,6 +78,12 @@ IA AND IB EN
         "title": "ic and ıd TR",
         "type": "book",
         "language": "tr"
+    },
+    {
+        "id": "ITEM-4",
+        "title": "bad language code that passes in node.js but fails in some browsers",
+        "type": "book",
+        "language": "original-one hello"
     }
 ]
 <<===== INPUT =====<<
