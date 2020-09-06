@@ -6,9 +6,9 @@ citation
 
 
 >>===== RESULT =====>>
-John Smith, <i>Book C</i>, 2000, and David Jones, <i>Book D</i>, 2000.
-John Smith, <i>Book C</i>, 2000 is one source, David Jones, <i>Book D</i>, 2000 is another.
-John Smith, <i>Book C</i>, 2000, 23 is one source, David Jones, <i>Book D</i>, 2000 is another.
+..[0] John Smith, <i>Book C</i>, 2000, and David Jones, <i>Book D</i>, 2000.
+..[1] Smith, <i>Book C</i> is one source, Jones, <i>Book D</i> is another.
+>>[2] Smith, <i>Book C</i>, 23 is one source, Jones, <i>Book D</i> is another.
 <<===== RESULT =====<<
 
 
