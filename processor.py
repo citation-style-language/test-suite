@@ -231,7 +231,7 @@ class CslTest:
         self.script = os.path.split(sys.argv[0])[1]
         self.pickle = ".".join((os.path.splitext( self.script )[0], "pkl"))
         self.data = {}
-        self.raw = fixEndings(open( os.path.sep.join(hpath)).read())
+        self.raw = fixEndings(open( os.path.sep.join(hpath), 'br').read().decode('utf-8'))
 
     def parse(self):
         for element in ["MODE","CSL"]:
