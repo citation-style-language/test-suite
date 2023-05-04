@@ -2,6 +2,8 @@
 citation
 <<===== MODE =====<<
 
+
+>>===== DESCRIPTION =====>>
 Per the CSL documentation (link below), dashes are standardized for page ranges
 but not everything with a dash is a valid page range. Valid page ranges are
 numbers with the same or no prefix.
@@ -10,6 +12,7 @@ For example, 110–115 and N110–N115 are valid page ranges but 110-N6 is not a
 thus retains its original dash character.
 
 https://docs.citationstyles.org/en/stable/specification.html#range-delimiters
+<<===== DESCRIPTION =====<<
 
 
 >>===== RESULT =====>>
