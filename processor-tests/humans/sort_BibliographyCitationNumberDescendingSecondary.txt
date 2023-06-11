@@ -1,52 +1,20 @@
->>==== MODE ====>>
+>>===== MODE =====>>
 bibliography
-<<==== MODE ====<<
+<<===== MODE =====<<
 
->>==== RESULT ====>>
+
+
+>>===== RESULT =====>>
 <div class="csl-bib-body">
-  <div class="csl-entry">[1] Book 001</div>
-  <div class="csl-entry">[2] Book 002</div>
-  <div class="csl-entry">[3] Book 003</div>
-  <div class="csl-entry">[4] Book 004</div>
-  <div class="csl-entry">[5] Book 005</div>
-  <div class="csl-entry">[6] Book 006</div>
-  <div class="csl-entry">[7] Book 007</div>
-  <div class="csl-entry">[8] Book 008</div>
+  <div class="csl-entry">[4] Aaaa</div>
+  <div class="csl-entry">[3] Bbbb</div>
+  <div class="csl-entry">[2] Xxxx</div>
+  <div class="csl-entry">[1] Zzzz</div>
 </div>
-<<==== RESULT ====<<
+<<===== RESULT =====<<
 
->>==== CITATION-ITEMS ====>>
-[
-    [
-        {
-            "id": "ITEM-1"
-        },
-        {
-            "id": "ITEM-2"
-        },
-        {
-            "id": "ITEM-3"
-        },
-        {
-            "id": "ITEM-4"
-        },
-        {
-            "id": "ITEM-5"
-        },
-        {
-            "id": "ITEM-6"
-        },
-        {
-            "id": "ITEM-7"
-        },
-        {
-            "id": "ITEM-8"
-        }
-    ]
-]
-<<==== CITATION-ITEMS ====<<
 
->>==== CSL ====>>
+>>===== CSL =====>>
 <style 
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
@@ -56,6 +24,9 @@ bibliography
     <title />
     <updated>2009-08-10T04:49:00+09:00</updated>
   </info>
+  <macro name="citation-number">
+    <text variable="citation-number"/>
+  </macro>
   <citation>
     <layout>
       <text value="bogus"/>
@@ -63,8 +34,8 @@ bibliography
   </citation>
   <bibliography>
     <sort>
-      <key variable="title"/>
-      <key variable="citation-number" sort="ascending"/>
+      <key variable="title" sort="ascending"/>
+      <key variable="citation-number" sort="descending"/>
     </sort>
     <layout>
       <text variable="citation-number" prefix="[" suffix="] "/>
@@ -72,53 +43,33 @@ bibliography
     </layout>
   </bibliography>
 </style>
-<<==== CSL ====<<
+<<===== CSL =====<<
 
->>==== INPUT ====>>
+
+>>===== INPUT =====>>
 [
-  {
-    "id": "ITEM-1",
-    "title": "Book 001",
-    "type": "book"
-  },
-  {
-    "id": "ITEM-2",
-    "title": "Book 003",
-    "type": "book"
-  },
-  {
-    "id": "ITEM-3",
-    "title": "Book 004",
-    "type": "book"
-  },
-  {
-    "id": "ITEM-4",
-    "title": "Book 006",
-    "type": "book"
-  },
-  {
-    "id": "ITEM-5",
-    "title": "Book 002",
-    "type": "book"
-  },
-  {
-    "id": "ITEM-6",
-    "title": "Book 005",
-    "type": "book"
-  },
-  {
-    "id": "ITEM-7",
-    "title": "Book 007",
-    "type": "book"
-  },
-  {
-    "id": "ITEM-8",
-    "title": "Book 008",
-    "type": "book"
-  }
+    {
+        "id": "item-1",
+        "title": "Aaaa",
+        "type": "book"
+    },
+    {
+        "id": "item-3",
+        "title": "Bbbb",
+        "type": "book"
+    },
+    {
+        "id": "item-4",
+        "title": "Zzzz",
+        "type": "book"
+    },
+    {
+        "id": "item-5",
+        "title": "Xxxx",
+        "type": "book"
+    }
 ]
-<<==== INPUT ====<<
-
+<<===== INPUT =====<<
 
 
 >>===== VERSION =====>>
