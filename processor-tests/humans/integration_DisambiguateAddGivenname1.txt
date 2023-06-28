@@ -34,7 +34,7 @@ citation
                 }
             ],
             "properties": {
-                "notIndex": 0
+                "noteIndex": 0
             }
         },
         [],
