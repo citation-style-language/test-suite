@@ -2,6 +2,11 @@
 bibliography
 <<==== MODE ====<<
 
+>>==== DESCRIPTION ====>>
+See discussion
+https://forums.zotero.org/discussion/comment/172578
+<<==== DESCRIPTION ====<<
+
 >>==== RESULT ====>>
 <div class="csl-bib-body">
   <div class="csl-entry">d’Wander, W</div>
