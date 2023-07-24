@@ -2,10 +2,10 @@
 citation
 <<===== MODE =====<<
 
+>>===== DESCRIPTION =====>>
 Details here:
-
 https://forums.zotero.org/discussion/83567/uppercase-letter-problem-in-turkish
-
+<<===== DESCRIPTION =====<<
 
 >>===== RESULT =====>>
 IA AND IB EN
