@@ -4,7 +4,8 @@ citation
 
 
 >>===== DESCRIPTION =====>>
-Citation and bibliography items should both sort empty dates last.
+Citation and bibliography items should both sort empty dates last. See discussion
+https://github.com/citation-style-language/test-suite/issues/70
 <<===== DESCRIPTION =====<<
 
 
