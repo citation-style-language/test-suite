@@ -1,0 +1,43 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<style xmlns=\"http://purl.org/net/xbiblio/csl\" class=\"in-text\" version=\"1.0\" demote-non-dropping-particle=\"never\" default-locale=\"fr-FR\">\n  <info>\n    <title>ISO-690 (author-date, French)</title>\n    <id>http://www.zotero.org/styles/iso690-author-date-fr</id>\n    <link href=\"http://www.zotero.org/styles/iso690-author-date-fr\" rel=\"self\"/>\n    <link href=\"https://forums.zotero.org/discussion/23511\" rel=\"documentation\"/>\n    <author>\n      <name>Laure Mellifluo</name>\n      <email>laure.melli@gmail.com</email>\n    </author>\n    <author>\n      <name>Raphael Grolimund</name>\n      <email>raphael.grolimund@epfl.ch</email>\n    </author>\n    <author>\n      <name>Michel Hardegger</name>\n      <email>hardegger@gmail.com</email>\n    </author>\n    <contributor>\n      <name>Pierre-Amiel Giraud</name>\n      <email>pierre-amiel.giraud@u-bordeaux3.fr</email>\n    </contributor>\n    <category citation-format=\"author-date\"/>\n    <category field=\"generic-base\"/>\n    <summary>Style based on ISO 690:2010(F), V1.1</summary>\n    <updated>2013-05-31T20:00:00+01:00</updated>\n    <rights license=\"http://creativecommons.org/licenses/by-sa/3.0/\">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>\n  </info>\n  <locale>\n    <terms>\n      <term name=\"no date\">[sans date]</term>\n      <term name=\"in\">in</term>\n      <term name=\"online\">en&#160;ligne</term>\n      <term name=\"accessed\">consulté&#160;le</term>\n      <term name=\"retrieved\">disponible</term>\n      <term name=\"from\">à l'adresse</term>\n      <term name=\"translator\" form=\"short\">trad.</term>\n      <term name=\"editor\" form=\"short\">éd.</term>\n    </terms>\n  </locale>\n  <macro name=\"title\">\n    <text variable=\"title\" font-style=\"italic\" suffix=\", \"/>\n    <date variable=\"issued\" suffix=\". \" form=\"text\" date-parts=\"year\"/>\n  </macro>\n  <citation>\n    <layout>\n      <text value=\"BOGUS\"/>\n    </layout>\n  </citation>\n  <bibliography>\n    <layout>\n       <names variable=\"author\">\n         <name/>\n         <substitute>\n           <text macro=\"title\"/>\n         </substitute>\n       </names>\n       <date variable=\"issued\" date-parts=\"year-month-day\" form=\"text\"/>\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "accessed": {
+                "date-parts": [
+                    [
+                        "2017",
+                        8,
+                        29
+                    ]
+                ]
+            },
+            "id": "ITEM-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        "1992",
+                        3,
+                        23
+                    ]
+                ]
+            },
+            "title": "Arrêté du 23 mars 1992 relatif au programme des études conduisant au diplôme d'État d'infirmier",
+            "type": "legislation"
+        }
+    ],
+    "mode": "bibliography",
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\"><i>Arrêté du 23 mars 1992 relatif au programme des études conduisant au diplôme d’État d’infirmier</i>, 1992. </div>\n</div>",
+    "tags": false,
+    "version": "1.0"
+}

@@ -1,0 +1,39 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation disambiguate-add-year-suffix=\"true\">\n    <layout delimiter=\"; \" prefix=\"(\" suffix=\")\">\n      <group delimiter=\" \">\n        <names variable=\"author\">\n          <name/>\n        </names>\n        <group>\n          <choose>\n            <if variable=\"issued\">\n              <date variable=\"issued\" form=\"text\" date-parts=\"year\"/>\n              <text variable=\"year-suffix\"/>\n            </if>\n            <else>\n              <text term=\"no date\" form=\"short\"/>\n              <text variable=\"year-suffix\" prefix=\"-\"/>\n            </else>\n          </choose>\n        </group>\n      </group>\n      <group delimiter=\" \" prefix=\" [\" suffix=\"]\">\n        <text term=\"accessed\" suffix=\": \" text-case=\"capitalize-first\"/>\n        <date variable=\"accessed\" form=\"text\" date-parts=\"year-month-day\"/>\n      </group>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "accessed": {
+                "date-parts": [
+                    [
+                        "1965",
+                        "6",
+                        "1"
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Doe",
+                    "given": "John"
+                }
+            ],
+            "id": "ITEM-1",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "(John Doe n.d. [Accessed: June 1, 1965])",
+    "tags": false,
+    "version": "1.0"
+}

@@ -1,0 +1,36 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <locale>\n    <style-options punctuation-in-quote=\"true\"/>\n  </locale>\n  <macro name=\"title\">\n    <text variable=\"title\" quotes=\"true\"/> \n  </macro>\n  <citation>\n    <layout>\n      <text value=\"bogus\"/>\n    </layout>\n  </citation>\n  <bibliography>\n    <layout>\n      <group delimiter=\" \">\n        <text macro=\"title\" suffix=\".\"/>\n        <text value=\"Some text string\"/>\n      </group>\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Doe",
+                    "given": "John"
+                }
+            ],
+            "container-title": "His Anonymous Book",
+            "id": "ITEM-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        "1965",
+                        "6",
+                        "1"
+                    ]
+                ]
+            },
+            "page": "100",
+            "title": "His Anonymous Chapter",
+            "type": "chapter"
+        }
+    ],
+    "mode": "bibliography",
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">“His Anonymous Chapter.” Some text string</div>\n</div>",
+    "tags": false,
+    "version": "1.0"
+}

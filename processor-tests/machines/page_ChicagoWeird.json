@@ -1,0 +1,48 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-19"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-20"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-21"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\"\n      page-range-format=\"chicago\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation>\n    <layout>\n      <text variable=\"title\"/>\n      <text variable=\"page\" prefix=\", at \"/>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "id": "ITEM-19",
+            "page": "8n11564-8n1568",
+            "title": "Example S",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-20",
+            "page": "n11564-n1568",
+            "title": "Example T",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-21",
+            "page": "n11564-1568",
+            "title": "Example U",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "Example S, at 8n11564–68\nExample T, at n11564–68\nExample U, at n11564-1568",
+    "tags": false,
+    "version": "1.0"
+}

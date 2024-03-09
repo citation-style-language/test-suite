@@ -1,0 +1,25 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation>\n    <layout>\n      <text text-case=\"title\" variable=\"title\" />\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "id": "ITEM-1",
+            "title": "'Nobody Knows You're a Dog': As iconic Internet cartoon turns 20, creator Peter Steiner knows the joke rings as relevant as ever",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "“Nobody Knows You’re a Dog”: As Iconic Internet Cartoon Turns 20, Creator Peter Steiner Knows the Joke Rings as Relevant as Ever",
+    "tags": false,
+    "version": "1.0"
+}

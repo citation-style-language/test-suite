@@ -1,0 +1,102 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"in-text\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2011-06-10T04:49:00+09:00</updated>\n  </info>\n  <macro name=\"date\">\n    <date variable=\"issued\">\n      <date-part name=\"year\" />\n    </date>\n    <text variable=\"year-suffix\" />\n  </macro>\n  <macro name=\"author\">\n    <names variable=\"author\">\n      <name delimiter=\", \" initialize-with=\". \" and=\"text\"/>\n    </names>\n  </macro>\n  <citation \n         et-al-min=\"3\"\n         et-al-use-first=\"1\"\n         disambiguate-add-year-suffix=\"true\">\n    <layout>\n      <names variable=\"author\">\n        <name initialize-with=\".\"/>\n      </names>\n      <date form=\"text\" date-parts=\"year\" variable=\"issued\"/>\n    </layout>\n  </citation>\n  <bibliography>\n    <sort>\n      <key macro=\"author\"/>\n      <key macro=\"date\" />\n    </sort>\n    <layout>\n      <text macro=\"author\" suffix=\", \"/>\n      <text macro=\"date\"/>\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Doe",
+                    "given": "John"
+                },
+                {
+                    "family": "Jones",
+                    "given": "Sarah"
+                }
+            ],
+            "id": "suffix1",
+            "issued": {
+                "date-parts": [
+                    [
+                        "1999"
+                    ]
+                ]
+            },
+            "title": "Book A",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Doe",
+                    "given": "James"
+                },
+                {
+                    "family": "Jones",
+                    "given": "Steven"
+                }
+            ],
+            "id": "suffix2",
+            "issued": {
+                "date-parts": [
+                    [
+                        "1999"
+                    ]
+                ]
+            },
+            "title": "Book B",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Doe",
+                    "given": "Jake"
+                },
+                {
+                    "family": "Smith",
+                    "given": "Stan"
+                }
+            ],
+            "id": "suffix3",
+            "issued": {
+                "date-parts": [
+                    [
+                        "1999"
+                    ]
+                ]
+            },
+            "title": "Book C",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Doe",
+                    "given": "Jasper"
+                },
+                {
+                    "family": "Smith",
+                    "given": "Sandra"
+                }
+            ],
+            "id": "suffix4",
+            "issued": {
+                "date-parts": [
+                    [
+                        "1999"
+                    ]
+                ]
+            },
+            "title": "Book D",
+            "type": "book"
+        }
+    ],
+    "mode": "bibliography",
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">J. Doe and S. Jones, 1999a</div>\n  <div class=\"csl-entry\">J. Doe and S. Jones, 1999b</div>\n  <div class=\"csl-entry\">J. Doe and S. Smith, 1999a</div>\n  <div class=\"csl-entry\">J. Doe and S. Smith, 1999b</div>\n</div>",
+    "tags": false,
+    "version": "1.0"
+}

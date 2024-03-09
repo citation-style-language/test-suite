@@ -1,0 +1,121 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            },
+            {
+                "id": "ITEM-2"
+            },
+            {
+                "id": "ITEM-3"
+            },
+            {
+                "id": "ITEM-4"
+            },
+            {
+                "id": "ITEM-5"
+            },
+            {
+                "id": "ITEM-6"
+            },
+            {
+                "id": "ITEM-7"
+            },
+            {
+                "id": "ITEM-8"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\"\n      demote-non-dropping-particle=\"never\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <macro name=\"author\">\n    <names variable=\"author\">\n      <name initialize-with=\" \" initialize=\"true\" name-as-sort-order=\"all\"/>\n    </names>\n  </macro>\n  <citation>\n    <layout>\n      <text value=\"BOGUS\"/>\n    </layout>\n  </citation>\n  <bibliography>\n    <sort>\n      <key variable=\"author\" />\n    </sort>\n    <layout>\n      <text macro=\"author\" />\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "'t Horvath",
+                    "given": "Peter A.A."
+                }
+            ],
+            "id": "ITEM-1",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "in 't Horvath",
+                    "given": "Peter A.B."
+                }
+            ],
+            "id": "ITEM-2",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "'t Horvath",
+                    "given": "Peter A.C."
+                }
+            ],
+            "id": "ITEM-3",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "in 't Horvath",
+                    "given": "Peter A.D."
+                }
+            ],
+            "id": "ITEM-4",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "de' Frinkle",
+                    "given": "Bevis"
+                }
+            ],
+            "id": "ITEM-5",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Klabdaggit",
+                    "given": "Mizo"
+                }
+            ],
+            "id": "ITEM-6",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Vooz",
+                    "given": "Bablican"
+                }
+            ],
+            "id": "ITEM-7",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "d'Wander",
+                    "given": "William"
+                }
+            ],
+            "id": "ITEM-8",
+            "type": "book"
+        }
+    ],
+    "mode": "bibliography",
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">d’Wander, W</div>\n  <div class=\"csl-entry\">de’ Frinkle, B</div>\n  <div class=\"csl-entry\">in ’t Horvath, P A B</div>\n  <div class=\"csl-entry\">in ’t Horvath, P A D</div>\n  <div class=\"csl-entry\">Klabdaggit, M</div>\n  <div class=\"csl-entry\">’t Horvath, P A A</div>\n  <div class=\"csl-entry\">’t Horvath, P A C</div>\n  <div class=\"csl-entry\">Vooz, B</div>\n</div>",
+    "tags": false,
+    "version": "1.0"
+}

@@ -1,0 +1,26 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": false,
+    "csl": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<style xmlns=\"http://purl.org/net/xbiblio/csl\" class=\"note\" version=\"1.0\" page-range-format=\"minimal-two\" default-locale=\"fr-FR\">\n  <info>\n    <title>Date ranges with ordinal French option format</title>\n    <title-short>dates_ranges_ordinal_french</title-short>\n    <id>http://www.zotero.org/styles/dates_ranges_ordinal_french</id>\n    <link rel=\"self\" href=\"http://www.zotero.org/styles/dates_ranges_ordinal_french\"/>\n    <author>\n      <name/>\n    </author>\n    <category citation-format=\"note\"/>\n    <category field=\"humanities\"/>\n    <updated>2020-06-27T10:27:51+00:00</updated>\n    <rights license=\"http://creativecommons.org/licenses/by-sa/3.0/\">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>\n  </info>\n  <locale xml:lang=\"fr\">\n    <style-options limit-day-ordinals-to-day-1=\"true\"/>\n  </locale>\n  <citation>\n    <layout delimiter=\" ; \">\n      <date delimiter=\" \" variable=\"event-date\">\n        <date-part name=\"day\" form=\"ordinal\" range-delimiter=\"-\"/>\n        <date-part name=\"month\" form=\"long\" range-delimiter=\"-\"/>\n        <date-part name=\"year\" range-delimiter=\"-\"/>\n      </date>\n    </layout>\n  </citation>\n  <bibliography>\n    <layout>\n      <date delimiter=\" \" variable=\"event-date\">\n        <date-part name=\"day\" form=\"ordinal\" range-delimiter=\"-\"/>\n        <date-part name=\"month\" form=\"long\" range-delimiter=\"-\"/>\n        <date-part name=\"year\" range-delimiter=\"-\"/>\n      </date>\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "id": "first_day_1_second_not1",
+            "language": "fr",
+            "note": "event-date: 2004-10-01/2004-10-14",
+            "type": "book"
+        },
+        {
+            "id": "first_day_not1_second_1",
+            "language": "fr",
+            "note": "event-date: 2004-10-14/2004-11-01",
+            "type": "book"
+        }
+    ],
+    "mode": "bibliography",
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">1<sup>e</sup><sup>r</sup>-14 octobre 2004</div>\n  <div class=\"csl-entry\">14 octobre-1<sup>e</sup><sup>r</sup> novembre 2004</div>\n</div>",
+    "tags": false,
+    "version": "1.0.1"
+}

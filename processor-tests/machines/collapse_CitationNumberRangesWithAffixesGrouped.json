@@ -1,0 +1,41 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            },
+            {
+                "id": "ITEM-2"
+            },
+            {
+                "id": "ITEM-3"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <macro name=\"citation-locator\">\n    <group delimiter=\" \">\n      <choose>\n        <if locator=\"page\">\n          <label variable=\"locator\" form=\"short\"/>\n        </if>\n        <else>\n          <label variable=\"locator\" form=\"short\" text-case=\"capitalize-first\"/>\n        </else>\n      </choose>\n      <text variable=\"locator\"/>\n    </group>\n  </macro>\n  <citation \n         collapse=\"citation-number\">\n    <layout delimiter=\",\" font-weight=\"bold\" prefix=\"(\" suffix=\")\">\n      <group prefix=\"[\" suffix=\"]\" delimiter=\", \">\n        <text variable=\"citation-number\"/>\n        <text macro=\"citation-locator\"/>\n      </group>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "id": "ITEM-1",
+            "title": "Paper 1",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-2",
+            "title": "Paper 2",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-3",
+            "title": "Paper 3",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "<b>([1]–[3])</b>",
+    "tags": false,
+    "version": "1.0"
+}

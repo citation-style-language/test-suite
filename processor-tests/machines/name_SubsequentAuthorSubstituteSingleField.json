@@ -1,0 +1,37 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-2"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<style xmlns=\"http://purl.org/net/xbiblio/csl\" class=\"in-text\" version=\"1.0\" demote-non-dropping-particle=\"display-and-sort\" page-range-format=\"chicago\">\n  <info>\n    <title>Chicago Manual of Style 17th edition (author-date)</title>\n    <id>http://www.zotero.org/styles/chicago-author-date</id>\n    <link href=\"http://www.zotero.org/styles/chicago-author-date\" rel=\"self\"/>\n    <link href=\"http://www.chicagomanualofstyle.org/tools_citationguide.html\" rel=\"documentation\"/>\n    <author>\n      <name>Julian Onions</name>\n      <email>julian.onions@gmail.com</email>\n    </author>\n    <category citation-format=\"author-date\"/>\n    <category field=\"generic-base\"/>\n    <summary>The author-date variant of the Chicago style</summary>\n    <updated>2018-01-24T12:00:00+00:00</updated>\n    <rights license=\"http://creativecommons.org/licenses/by-sa/3.0/\">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>\n  </info>\n  <locale xml:lang=\"en\">\n    <terms>\n      <term name=\"editor\" form=\"verb-short\">ed.</term>\n      <term name=\"container-author\" form=\"verb\">by</term>\n      <term name=\"translator\" form=\"verb-short\">trans.</term>\n      <term name=\"editortranslator\" form=\"verb\">edited and translated by</term>\n      <term name=\"translator\" form=\"short\">trans.</term>\n    </terms>\n  </locale>\n  <macro name=\"contributors\">\n    <group delimiter=\". \">\n      <names variable=\"author\">\n        <name and=\"text\" name-as-sort-order=\"first\" sort-separator=\", \" delimiter=\", \" delimiter-precedes-last=\"always\"/>\n        <label form=\"short\" prefix=\", \"/>\n        <substitute>\n          <text variable=\"container-title\"/>\n        </substitute>\n      </names>\n    </group>\n  </macro>\n  <citation et-al-min=\"4\" et-al-use-first=\"1\" disambiguate-add-year-suffix=\"true\" disambiguate-add-names=\"true\" disambiguate-add-givenname=\"true\" givenname-disambiguation-rule=\"primary-name\" collapse=\"year\" after-collapse-delimiter=\"; \">\n    <layout prefix=\"(\" suffix=\")\" delimiter=\"; \">\n      <text macro=\"contributors\"/>\n    </layout>\n  </citation>\n  <bibliography subsequent-author-substitute=\"&#8212;&#8212;&#8212;\">\n    <layout suffix=\".\">\n      <group delimiter=\". \">\n        <text macro=\"contributors\"/>\n      </group>\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "container-title": "Yomiuri Shinbun",
+            "id": "ITEM-1",
+            "title": "Ashita no tenki",
+            "type": "article-newspaper"
+        },
+        {
+            "container-title": "Yomiuri Shinbun",
+            "id": "ITEM-2",
+            "title": "Asatte no tenki",
+            "type": "article-newspaper"
+        }
+    ],
+    "mode": "bibliography",
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">Yomiuri Shinbun.</div>\n  <div class=\"csl-entry\">———.</div>\n</div>",
+    "tags": false,
+    "version": "1.0"
+}

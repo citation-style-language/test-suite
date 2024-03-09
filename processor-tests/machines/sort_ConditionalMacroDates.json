@@ -1,0 +1,56 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <macro name=\"issued-date\">\n    <group prefix=\"[\" suffix=\"]\">\n    <choose>\n      <if type=\"book\">\n        <date variable=\"issued\">\n          <date-part name=\"year\" form=\"long\"/>\n        </date>\n      </if>\n      <else>\n        <date variable=\"issued\">\n          <date-part name=\"year\" form=\"long\" suffix=\"-\"/>\n          <date-part name=\"month\" form=\"numeric\" suffix=\"-\"/>\n          <date-part name=\"day\" form=\"numeric\"/>\n        </date>\n      </else>\n    </choose>\n    </group>\n  </macro>\n  <citation>\n    <layout>\n      <text value=\"bogus\"/>\n    </layout>\n  </citation>\n  <bibliography>\n    <sort>\n      <key macro=\"issued-date\" sort=\"ascending\"/>\n    </sort>\n    <layout>\n      <text variable=\"title\" />\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "id": "item-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2002,
+                        12,
+                        25
+                    ]
+                ]
+            },
+            "title": "Title 2",
+            "type": "article-journal"
+        },
+        {
+            "id": "item-2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2002,
+                        11,
+                        30
+                    ]
+                ]
+            },
+            "title": "Title 3",
+            "type": "book"
+        },
+        {
+            "id": "item-3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2002,
+                        10,
+                        25
+                    ]
+                ]
+            },
+            "title": "Title 1",
+            "type": "article-journal"
+        }
+    ],
+    "mode": "bibliography",
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">Title 3</div>\n  <div class=\"csl-entry\">Title 1</div>\n  <div class=\"csl-entry\">Title 2</div>\n</div>",
+    "tags": false,
+    "version": "1.0"
+}

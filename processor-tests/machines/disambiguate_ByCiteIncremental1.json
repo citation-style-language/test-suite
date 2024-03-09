@@ -1,0 +1,166 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-2"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-3"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<style xmlns=\"http://purl.org/net/xbiblio/csl\" class=\"in-text\" version=\"1.0\" demote-non-dropping-particle=\"sort-only\" default-locale=\"en-US\">\n  <info>\n    <title>Emerald journals (Harvard)</title>\n    <id>http://www.zotero.org/styles/emerald-harvard</id>\n    <link href=\"http://www.zotero.org/styles/emerald-harvard\" rel=\"self\"/>\n    <link href=\"http://www.emeraldinsight.com/authors/guides/write/harvard.htm?part=2\" rel=\"documentation\"/>\n    <author>\n      <name>Sebastian Karcher</name>\n    </author>\n    <contributor>\n      <name>Bruce D'Arcus</name>\n    </contributor>\n    <contributor>\n      <name>Curtis M. Humphrey</name>\n    </contributor>\n    <contributor>\n      <name>Richard Karnesky</name>\n      <email>karnesky+zotero@gmail.com</email>\n      <uri>http://arc.nucapt.northwestern.edu/Richard_Karnesky</uri>\n    </contributor>\n    <contributor>\n      <name>Simon Kornblith</name>\n      <email>simon@simonster.com</email>\n    </contributor>\n    <category citation-format=\"author-date\"/>\n    <category field=\"generic-base\"/>\n    <updated>2012-09-27T22:06:38+00:00</updated>\n    <rights license=\"http://creativecommons.org/licenses/by-sa/3.0/\">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>\n  </info>\n  <locale>\n    <style-options punctuation-in-quote=\"false\"/>\n  </locale>\n  <macro name=\"container-contributors\">\n    <choose>\n      <if type=\"chapter paper-conference\" match=\"any\">\n        <text term=\"in\" suffix=\" \"/>\n        <names variable=\"editor translator\" delimiter=\",\" suffix=\",\">\n          <name and=\"text\" initialize-with=\".\" delimiter=\", \" delimiter-precedes-last=\"never\" name-as-sort-order=\"all\" sort-separator=\", \"/>\n          <label form=\"short\" prefix=\" (\" text-case=\"capitalize-first\" suffix=\")\"/>\n        </names>\n      </if>\n    </choose>\n  </macro>\n  <macro name=\"secondary-contributors\">\n    <choose>\n      <if type=\"chapter paper-conference\" match=\"none\">\n        <names variable=\"editor translator\" delimiter=\",\" prefix=\" (\" suffix=\")\">\n          <name and=\"text\" initialize-with=\".\" delimiter=\", \" delimiter-precedes-last=\"never\" name-as-sort-order=\"all\" sort-separator=\", \"/>\n          <label form=\"short\" prefix=\",\" text-case=\"capitalize-first\"/>\n        </names>\n      </if>\n    </choose>\n  </macro>\n  <macro name=\"author\">\n    <names variable=\"author\">\n      <name name-as-sort-order=\"all\" and=\"text\" sort-separator=\", \" initialize-with=\".\" delimiter=\", \" delimiter-precedes-last=\"never\"/>\n      <label form=\"short\" prefix=\" (\" suffix=\".)\" text-case=\"capitalize-first\" strip-periods=\"true\"/>\n      <substitute>\n        <names variable=\"editor\"/>\n        <names variable=\"translator\"/>\n        <text macro=\"title\"/>\n      </substitute>\n    </names>\n  </macro>\n  <macro name=\"author-short\">\n    <names variable=\"author\">\n      <name form=\"short\" and=\"text\" delimiter=\", \" initialize-with=\".\" delimiter-precedes-last=\"never\"/>\n      <substitute>\n        <names variable=\"editor\"/>\n        <names variable=\"translator\"/>\n        <choose>\n          <if type=\"bill book graphic legal_case legislation motion_picture report song\" match=\"any\">\n            <text variable=\"title\" form=\"short\" font-style=\"italic\"/>\n          </if>\n          <else>\n            <text variable=\"title\" form=\"short\" quotes=\"true\"/>\n          </else>\n        </choose>\n      </substitute>\n    </names>\n  </macro>\n  <macro name=\"access\">\n    <choose>\n      <if type=\"thesis\">\n        <choose>\n          <if variable=\"archive\" match=\"any\">\n            <group>\n              <text term=\"retrieved\" text-case=\"capitalize-first\" suffix=\" \"/>\n              <text term=\"from\" suffix=\" \"/>\n              <text variable=\"archive\" suffix=\". \"/>\n              <text variable=\"archive_location\" prefix=\" (\" suffix=\")\"/>\n            </group>\n          </if>\n          <else>\n            <group>\n              <text term=\"retrieved\" text-case=\"capitalize-first\" suffix=\" \"/>\n              <text term=\"from\" suffix=\" \"/>\n              <text variable=\"URL\"/>\n            </group>\n          </else>\n        </choose>\n      </if>\n      <else>\n        <choose>\n          <if variable=\"page\" match=\"none\">\n            <choose>\n              <if variable=\"DOI\">\n                <text variable=\"DOI\" prefix=\"doi:\"/>\n              </if>\n              <else>\n                <choose>\n                  <if type=\"webpage\">\n                    <group>\n                      <text term=\"retrieved\" text-case=\"capitalize-first\" suffix=\" \"/>\n                      <date variable=\"accessed\" suffix=\", \">\n                        <date-part name=\"month\" suffix=\" \"/>\n                        <date-part name=\"day\" suffix=\", \"/>\n                        <date-part name=\"year\"/>\n                      </date>\n                      <group>\n                        <text term=\"from\" suffix=\" \"/>\n                        <text variable=\"URL\"/>\n                      </group>\n                    </group>\n                  </if>\n                  <else>\n                    <group>\n                      <text term=\"retrieved\" text-case=\"capitalize-first\" suffix=\" \"/>\n                      <text term=\"from\" suffix=\" \"/>\n                      <text variable=\"URL\"/>\n                    </group>\n                  </else>\n                </choose>\n              </else>\n            </choose>\n          </if>\n        </choose>\n      </else>\n    </choose>\n  </macro>\n  <macro name=\"title\">\n    <choose>\n      <if type=\"report thesis\" match=\"any\">\n        <text variable=\"title\" font-style=\"italic\"/>\n        <group prefix=\" (\" suffix=\")\">\n          <text variable=\"genre\"/>\n          <text variable=\"number\" prefix=\" No. \"/>\n        </group>\n      </if>\n      <else-if type=\"bill book graphic legal_case legislation manuscript motion_picture report song speech\" match=\"any\">\n        <text variable=\"title\" font-style=\"italic\"/>\n      </else-if>\n      <else>\n        <text variable=\"title\" quotes=\"true\"/>\n      </else>\n    </choose>\n  </macro>\n  <macro name=\"publisher\">\n    <choose>\n      <if type=\"report\" match=\"any\">\n        <group delimiter=\": \">\n          <text variable=\"publisher-place\"/>\n          <text variable=\"publisher\"/>\n        </group>\n      </if>\n      <else-if type=\"thesis\" match=\"any\">\n        <group delimiter=\", \">\n          <text variable=\"publisher\"/>\n          <text variable=\"publisher-place\"/>\n        </group>\n      </else-if>\n      <else>\n        <choose>\n          <if variable=\"event\" match=\"none\">\n            <text variable=\"genre\" suffix=\", \"/>\n          </if>\n        </choose>\n        <group delimiter=\", \">\n          <text variable=\"publisher\"/>\n          <text variable=\"publisher-place\"/>\n        </group>\n      </else>\n    </choose>\n  </macro>\n  <macro name=\"event\">\n    <choose>\n      <if variable=\"event\">\n        <choose>\n          <if variable=\"genre\" match=\"none\">\n            <text term=\"presented at\" text-case=\"capitalize-first\" suffix=\" \"/>\n            <text variable=\"event\"/>\n          </if>\n          <else>\n            <group delimiter=\"\">\n              <text variable=\"genre\" text-case=\"capitalize-first\"/>\n              <text term=\"presented at\"/>\n              <text variable=\"event\"/>\n            </group>\n          </else>\n        </choose>\n      </if>\n    </choose>\n  </macro>\n  <macro name=\"issued\">\n    <choose>\n      <if variable=\"issued\">\n        <group prefix=\" (\" suffix=\"),\">\n          <date variable=\"issued\">\n            <date-part name=\"year\"/>\n          </date>\n          <choose>\n            <if type=\"article-journal bill book chapter graphic legal_case legislation motion_picture paper-conference report song\" match=\"none\">\n              <date variable=\"issued\">\n                <date-part prefix=\",\" name=\"month\"/>\n                <date-part prefix=\"\" name=\"day\"/>\n              </date>\n            </if>\n          </choose>\n        </group>\n      </if>\n      <else>\n        <text prefix=\" (\" term=\"no date\" suffix=\").\" form=\"short\"/>\n      </else>\n    </choose>\n  </macro>\n  <macro name=\"issued-year\">\n    <choose>\n      <if variable=\"issued\">\n        <date variable=\"issued\">\n          <date-part name=\"year\"/>\n        </date>\n      </if>\n      <else>\n        <text term=\"no date\" form=\"short\"/>\n      </else>\n    </choose>\n  </macro>\n  <macro name=\"edition\">\n    <choose>\n      <if is-numeric=\"edition\">\n        <group delimiter=\"\">\n          <number variable=\"edition\" form=\"ordinal\"/>\n          <text term=\"edition\" form=\"short\" suffix=\".\" strip-periods=\"true\"/>\n        </group>\n      </if>\n      <else>\n        <text variable=\"edition\" suffix=\".\"/>\n      </else>\n    </choose>\n  </macro>\n  <macro name=\"locators\">\n    <choose>\n      <if type=\"article-journal article-magazine article-newspaper\" match=\"any\">\n        <group delimiter=\", \">\n          <group>\n            <text variable=\"volume\" prefix=\"Vol. \"/>\n            <text variable=\"issue\" prefix=\" No. \"/>\n          </group>\n          <group>\n            <label variable=\"page\" form=\"short\" suffix=\" \"/>\n            <text variable=\"page\"/>\n          </group>\n        </group>\n      </if>\n      <else-if type=\"bill book chapter graphic legal_case legislation motion_picture paper-conference report song\" match=\"any\">\n        <group prefix=\"\" suffix=\"\" delimiter=\", \">\n          <text macro=\"edition\"/>\n          <group>\n            <text term=\"volume\" form=\"short\" plural=\"true\" text-case=\"capitalize-first\" suffix=\". \" strip-periods=\"true\"/>\n            <number variable=\"number-of-volumes\" form=\"numeric\" prefix=\"1-\"/>\n          </group>\n          <group>\n            <text term=\"volume\" form=\"short\" text-case=\"capitalize-first\" suffix=\". \" strip-periods=\"true\"/>\n            <number variable=\"volume\" form=\"numeric\"/>\n          </group>\n          <group>\n            <label variable=\"page\" form=\"short\" suffix=\" \"/>\n            <text variable=\"page\"/>\n          </group>\n        </group>\n      </else-if>\n    </choose>\n  </macro>\n  <macro name=\"citation-locator\">\n    <group>\n      <label variable=\"locator\" form=\"short\"/>\n      <text variable=\"locator\" prefix=\" \"/>\n    </group>\n  </macro>\n  <citation et-al-min=\"3\" et-al-use-first=\"1\" disambiguate-add-year-suffix=\"true\" disambiguate-add-names=\"true\" disambiguate-add-givenname=\"true\" collapse=\"year\">\n    <sort>\n      <key macro=\"author\"/>\n      <key macro=\"issued-year\"/>\n    </sort>\n    <layout prefix=\"(\" suffix=\")\" delimiter=\"; \">\n      <group delimiter=\", \">\n        <text macro=\"author-short\"/>\n        <text macro=\"issued-year\"/>\n        <text macro=\"citation-locator\"/>\n      </group>\n    </layout>\n  </citation>\n  <bibliography hanging-indent=\"true\" et-al-min=\"8\" et-al-use-first=\"7\" entry-spacing=\"0\" line-spacing=\"2\">\n    <sort>\n      <key macro=\"author\"/>\n      <key macro=\"issued-year\" sort=\"ascending\"/>\n    </sort>\n    <layout>\n      <group suffix=\".\">\n        <text macro=\"author\" suffix=\".\"/>\n        <text macro=\"issued\" suffix=\" \"/>\n        <group delimiter=\", \">\n          <text macro=\"title\"/>\n          <group>\n            <text macro=\"container-contributors\"/>\n            <text macro=\"secondary-contributors\"/>\n            <group delimiter=\", \">\n              <text variable=\"container-title\" font-style=\"italic\"/>\n              <text variable=\"collection-title\"/>\n            </group>\n          </group>\n        </group>\n        <group delimiter=\", \" prefix=\", \">\n          <text macro=\"event\"/>\n          <text macro=\"publisher\"/>\n          <text macro=\"locators\"/>\n        </group>\n      </group>\n      <text macro=\"access\" prefix=\". \"/>\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "URL": "http://www.emeraldinsight.com/journals.htm?articleid=1795171&show=abstract",
+            "accessed": {
+                "date-parts": [
+                    [
+                        "2013",
+                        1,
+                        30
+                    ]
+                ],
+                "season": "22:56:08"
+            },
+            "author": [
+                {
+                    "family": "Baines",
+                    "given": "T. S."
+                },
+                {
+                    "family": "Lightfoot",
+                    "given": "H. W."
+                },
+                {
+                    "family": "Benedettini",
+                    "given": "O."
+                },
+                {
+                    "family": "Kay",
+                    "given": "J. M."
+                }
+            ],
+            "container-title": "Journal of Manufacturing Technology Management",
+            "id": "ITEM-1",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        "2009"
+                    ]
+                ]
+            },
+            "key": "T44568NT",
+            "page": "547–567",
+            "source": "Google Scholar",
+            "title": "The servitization of manufacturing: a review of literature and reflection on future challenges",
+            "title-short": "The servitization of manufacturing",
+            "type": "article-journal",
+            "volume": "20"
+        },
+        {
+            "DOI": "10.1243/09544054JEM1552",
+            "ISSN": "0954-4054, 2041-2975",
+            "URL": "http://pib.sagepub.com/content/223/9/1207",
+            "accessed": {
+                "date-parts": [
+                    [
+                        "2013",
+                        1,
+                        30
+                    ]
+                ],
+                "season": "22:38:38"
+            },
+            "author": [
+                {
+                    "family": "Baines",
+                    "given": "T. S."
+                },
+                {
+                    "family": "Lightfoot",
+                    "given": "H. W."
+                },
+                {
+                    "family": "Kay",
+                    "given": "J. M."
+                }
+            ],
+            "container-title": "Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture",
+            "id": "ITEM-2",
+            "issue": "9",
+            "issued": {
+                "date-parts": [
+                    [
+                        "2009",
+                        9,
+                        1
+                    ]
+                ]
+            },
+            "journalAbbreviation": "Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture",
+            "key": "BZ6F9U6V",
+            "language": "en",
+            "page": "1207-1215",
+            "source": "pib.sagepub.com",
+            "title": "Servitized manufacture: Practical challenges of delivering integrated products and services",
+            "title-short": "Servitized manufacture",
+            "type": "article-journal",
+            "volume": "223"
+        },
+        {
+            "URL": "http://72.27.231.73/sites/phmsociety.org/files/phm_submission/2009/phmc_09_49.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        "2012",
+                        10,
+                        22
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Grubic",
+                    "given": "T."
+                },
+                {
+                    "family": "Jennions",
+                    "given": "I."
+                },
+                {
+                    "family": "Baines",
+                    "given": "T. S."
+                }
+            ],
+            "id": "ITEM-3",
+            "issued": {
+                "date-parts": [
+                    [
+                        "2009"
+                    ]
+                ]
+            },
+            "key": "3GG82XQE",
+            "source": "Google Scholar",
+            "title": "The Interaction of PSS and PHM-a mutual benefit case",
+            "type": "paper-conference"
+        }
+    ],
+    "mode": "citation",
+    "result": "(Baines, Lightfoot, Benedettini, et al., 2009)\n(Baines, Lightfoot and Kay, 2009)\n(Grubic et al., 2009)",
+    "tags": false,
+    "version": "1.0"
+}

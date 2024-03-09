@@ -1,0 +1,45 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-2"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-3"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation>\n    <layout>\n      <text value=\"Check this out:\"/>\n      <group delimiter=\" \" prefix=\" \">\n        <text variable=\"title-short\"/>\n        <text value=\"is from title-short\"/>\n      </group>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "id": "ITEM-1",
+            "title": "My Long Title 1",
+            "title-short": "My Short Title",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-2",
+            "title": "My Long Title 2",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-3",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "Check this out: My Short Title is from title-short\nCheck this out:\nCheck this out:",
+    "tags": false,
+    "version": "1.0"
+}

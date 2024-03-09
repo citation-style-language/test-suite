@@ -1,0 +1,61 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-2"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<style xmlns=\"http://purl.org/net/xbiblio/csl\" class=\"in-text\" version=\"1.0\" demote-non-dropping-particle=\"sort-only\" default-locale=\"en-GB\">\n  <info>\n    <title>zzz</title>\n    <id>http://www.zotero.org/styles/zzz</id>\n    <link href=\"http://www.zotero.org/styles/zzz\" rel=\"self\"/>\n    <author>\n      <name>zzz</name>\n      <email>zzz@gmail.com</email>\n    </author>\n    <category citation-format=\"author-date\"/>\n    <category field=\"humanities\"/>\n    <updated>2012-06-29T00:00:00+00:00</updated>\n    <summary>The University College London version of Harvard author-date style</summary>\n    <link href=\"http://www.ucl.ac.uk/art-history/current_students/writing-guide/\" rel=\"documentation\"/>\n    <rights>This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License: http://creativecommons.org/licenses/by-sa/3.0/</rights>\n  </info>\n  <macro name=\"author-short\">\n    <names variable=\"author\">\n      <name form=\"short\" and=\"text\" delimiter=\", \" initialize-with=\". \"/>\n      <substitute>\n        <names variable=\"editor\"/>\n        <names variable=\"translator\"/>\n        <choose>\n          <if type=\"bill book graphic legal_case legislation motion_picture report song\" match=\"any\">\n            <text variable=\"title\" form=\"short\" font-style=\"italic\"/>\n          </if>\n          <else>\n            <text variable=\"title\" form=\"short\" quotes=\"true\"/>\n          </else>\n        </choose>\n      </substitute>\n    </names>\n  </macro>\n  <macro name=\"year-date\">\n    <date variable=\"issued\">\n      <date-part name=\"year\"/>\n    </date>\n    <text variable=\"year-suffix\"/>\n  </macro>\n  <citation et-al-min=\"3\" et-al-use-first=\"1\" disambiguate-add-year-suffix=\"true\">\n    <layout>\n      <group delimiter=\", \">\n        <text macro=\"author-short\"/>\n\t\t<choose>\n\t\t   <if disambiguate=\"true\">\n\t\t        <text variable=\"title\"/>\n\t\t   </if>\n\t\t</choose>\n\t\t<text macro=\"year-date\"/>\n      </group>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Pollock",
+                    "given": "Sir Frederick"
+                }
+            ],
+            "id": "ITEM-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        1979
+                    ]
+                ]
+            },
+            "title": "Title One",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Pollock",
+                    "given": "Sir Frederick"
+                }
+            ],
+            "id": "ITEM-2",
+            "issued": {
+                "date-parts": [
+                    [
+                        1980
+                    ]
+                ]
+            },
+            "title": "Title Two",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "Pollock, 1979\nPollock, 1980",
+    "tags": false,
+    "version": "1.0"
+}

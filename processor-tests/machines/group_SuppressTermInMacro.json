@@ -1,0 +1,25 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <title>Chicago Manual of Style (Full Note with Bibliography)</title>\n    <id>http://www.zotero.org/styles/chicago-fullnote-bibliography</id>\n    <link rel=\"self\" href=\"http://www.zotero.org/styles/chicago-fullnote-bibliography\" />\n    <link href=\"http://www.chicagomanualofstyle.org/tools_citationguide.html\" rel=\"documentation\" />\n    <author>\n      <name>Julian Onions</name>\n      <email>julian.onions@gmail.com</email>\n    </author>\n    <contributor>\n      <name>Simon Kornblith</name>\n      <email>simon@simonster.com</email>\n    </contributor>\n    <contributor>\n      <name>Elena Razlogova</name>\n      <email>elena.razlogova@gmail.com</email>\n    </contributor>\n    <summary>Chicago format with full notes and bibliography</summary>\n    <category field=\"generic-base\" />\n    <category citation-format=\"numeric\" />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <macro name=\"container-title-note\">\n    <choose>\n      <if type=\"chapter\">\n        <text suffix=\" \" term=\"in\" text-case=\"lowercase\"/>\n      </if>\n    </choose>\n    <text font-style=\"italic\" variable=\"container-title\" />\n  </macro>\n  <citation>\n    <layout>\n      <group delimiter=\", \">\n        <text variable=\"title\"/>\n        <text macro=\"container-title-note\" />\n      </group>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "id": "ITEM-1",
+            "title": "His Anonymous Life",
+            "type": "chapter"
+        }
+    ],
+    "mode": "citation",
+    "result": "His Anonymous Life",
+    "tags": false,
+    "version": "1.0"
+}

@@ -1,0 +1,80 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            },
+            {
+                "id": "ITEM-2"
+            },
+            {
+                "id": "ITEM-3"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<style class=\"in-text\" version=\"1.0\" default-locale=\"en-US\" xmlns=\"http://purl.org/net/xbiblio/csl\">\n  <info>\n    <title>Herpetological Conservation and Biology</title>\n    <title-short>HCB</title-short>\n    <id>http://csl.mendeley.com/styles/13393491/herpetological-conservation-and-biology</id>\n    <link href=\"http://www.herpconbio.org/InstructionsForAuthors.pdf\" rel=\"documentation\"/>\n    <author>\n      <name>Matthew H. Shirley</name>\n    </author>\n    <category citation-format=\"author-date\"/>\n    <category field=\"biology\"/>\n    <issn>1931-7603</issn>\n    <eissn>1931-7603</eissn>\n    <updated>2014-04-30T13:19:38+00:00</updated>\n    <rights license=\"http://creativecommons.org/licenses/by-sa/3.0/\">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>\n  </info>\n  <macro name=\"author\">\n    <names variable=\"author\" suffix=\".\">\n      <name and=\"text\" delimiter-precedes-last=\"always\" et-al-min=\"11\" et-al-use-first=\"10\" initialize-with=\".\" name-as-sort-order=\"first\"/>\n        <label form=\"short\" text-case=\"capitalize-first\" prefix=\" (\" suffix=\")\"/>\n      <substitute>\n        <names variable=\"editor\"/>\n      </substitute>\n    </names>\n  </macro>\n  <macro name=\"editor\">\n    <names variable=\"editor\">\n      <name and=\"text\" delimiter-precedes-last=\"always\" et-al-min=\"11\" et-al-use-first=\"10\" initialize-with=\".\" name-as-sort-order=\"first\"/>\n      <label form=\"short\" text-case=\"capitalize-first\" prefix=\" (\" suffix=\")\"/>\n    </names>\n  </macro>\n  <macro name=\"author-short\">\n    <names variable=\"author\">\n      <name form=\"short\" delimiter=\"\" and=\"text\" et-al-min=\"3\" et-al-use-first=\"1\" initialize=\"false\" initialize-with=\"\" sort-separator=\"\"/>\n      <substitute>\n        <names variable=\"editor\"/>\n        <text variable=\"title\"/>\n      </substitute>\n    </names>\n  </macro>\n  <macro name=\"author-count\">\n    <names variable=\"author\">\n      <name form=\"count\"/>\n      <substitute>\n        <names variable=\"editor\"/>\n      </substitute>\n    </names>\n  </macro>\n  <macro name=\"year-date\">\n    <choose>\n      <if variable=\"issued\">\n        <date variable=\"issued\">\n          <date-part name=\"year\"/>\n        </date>\n        <text variable=\"year-suffix\" font-style=\"normal\"/>\n      </if>\n      <else>\n        <text term=\"no date\" form=\"short\"/>\n      </else>\n    </choose>\n  </macro>\n  <macro name=\"chapter-info\">\n    <group delimiter=\" \">\n      <choose>\n        <if type=\"chapter paper-conference\" match=\"any\">\n          <group delimiter=\" \">\n            <label text-case=\"capitalize-first\" variable=\"page\" form=\"short\"/>\n            <text variable=\"page\"/>\n            <text term=\"in\" text-case=\"capitalize-first\" font-style=\"italic\"/>\n          </group>\n        </if>\n      </choose>\n      <text macro=\"editor\"/>\n    </group>\n  </macro>\n  <macro name=\"container\">\n    <choose>\n      <if type=\"article-journal article-magazine\" match=\"any\">\n        <group delimiter=\" \">\n          <text variable=\"container-title\"/>\n          <group delimiter=\":\">\n            <text variable=\"volume\"/>\n            <text variable=\"page\"/>\n          </group>\n        </group>\n      </if>\n      <else-if type=\"thesis\">\n          <text variable=\"genre\"/>\n      </else-if>\n      <else>\n        <text variable=\"container-title\"/>\n      </else>\n    </choose>\n  </macro>\n  <macro name=\"publisher\">\n    <group delimiter=\", \">\n      <group delimiter=\" \">\n        <text variable=\"collection-title\"/>\n        <text variable=\"collection-number\"/>\n      </group>\n      <text variable=\"genre\"/>\n      <text variable=\"publisher\"/>\n      <text variable=\"publisher-place\"/>\n    </group>\n  </macro>\n  <macro name=\"edition\">\n    <choose>\n      <if is-numeric=\"edition\">\n        <group delimiter=\" \">\n          <number text-case=\"capitalize-first\" variable=\"edition\" form=\"ordinal\"/>\n          <text term=\"edition\" text-case=\"capitalize-first\"/>\n        </group>\n      </if>\n      <else>\n        <text variable=\"edition\"/>\n        <number text-case=\"capitalize-first\" variable=\"edition\" form=\"ordinal\"/>\n        <text term=\"edition\" text-case=\"capitalize-first\"/>\n      </else>\n    </choose>\n  </macro>\n  <macro name=\"volume\">\n    <choose>\n      <if type=\"article-journal article-magazine\" match=\"none\">\n        <choose>\n          <if variable=\"volume\">\n            <group delimiter=\" \">\n              <text term=\"volume\" text-case=\"capitalize-first\"/>\n              <text variable=\"volume\"/>\n            </group>\n          </if>\n        </choose>\n      </if>\n    </choose>\n  </macro>\n  <macro name=\"pages\">\n    <choose>\n     <if type=\"thesis report\" match=\"any\">\n       <text variable=\"number-of-pages\" suffix=\" p.\"/>\n     </if>\n    </choose>\n  </macro>\n  <citation et-al-min=\"3\" et-al-use-first=\"1\" disambiguate-add-year-suffix=\"true\" collapse=\"year-suffix\" year-suffix-delimiter=\",\" after-collapse-delimiter=\"; \" disambiguate-add-givenname=\"true\" givenname-disambiguation-rule=\"by-cite\">\n    <sort>\n      <key macro=\"year-date\"/>\n      <key macro=\"author-short\"/>\n    </sort>\n    <layout delimiter=\"; \" prefix=\"(\" suffix=\")\">\n      <group delimiter=\":\">\n        <group delimiter=\" \">\n          <text macro=\"author-short\"/>\n          <text macro=\"year-date\"/>\n        </group>\n        <text variable=\"locator\"/>\n      </group>\n    </layout>\n  </citation>\n  <bibliography entry-spacing=\"0\" hanging-indent=\"true\">\n    <sort>\n      <key macro=\"author\" names-min=\"1\" names-use-first=\"1\"/>\n      <key macro=\"author-count\" names-min=\"1\" names-use-first=\"3\"/>\n      <key macro=\"author\" names-min=\"3\" names-use-first=\"1\"/>\n      <key macro=\"year-date\" sort=\"descending\"/>\n    </sort>\n    <layout suffix=\".\">\n      <group delimiter=\". \">\n        <text macro=\"author\"/>\n        <text macro=\"year-date\"/>\n        <text variable=\"title\" text-case=\"capitalize-first\" text-decoration=\"none\"/>\n        <text macro=\"chapter-info\"/>\n        <text macro=\"container\"/>\n        <text macro=\"edition\"/>\n        <text macro=\"volume\"/>\n        <text macro=\"publisher\"/>\n        <text macro=\"pages\"/>\n      </group>\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Smith",
+                    "given": "John"
+                }
+            ],
+            "id": "ITEM-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2000
+                    ]
+                ]
+            },
+            "title": "Book One",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Smith",
+                    "given": "John"
+                }
+            ],
+            "id": "ITEM-2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2000
+                    ]
+                ]
+            },
+            "title": "Book Two",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Jones",
+                    "given": "Richard"
+                }
+            ],
+            "id": "ITEM-3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2000
+                    ]
+                ]
+            },
+            "title": "Book Three",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "(Jones 2000; Smith 2000a,b)",
+    "tags": false,
+    "version": "1.0"
+}

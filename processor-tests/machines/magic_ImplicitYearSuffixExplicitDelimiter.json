@@ -1,0 +1,48 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": false,
+    "csl": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<style xmlns=\"http://purl.org/net/xbiblio/csl\" class=\"in-text\" version=\"1.0\">\n   <info>\n      <title>Molecular Ecology (dev)</title>\n      <id>http://www.zotero.org/styles/Molecular Ecology</id>\n      <link href=\"http://www.zotero.org/styles/Molecular Ecology\" rel=\"self\"/>\n      <author>\n         <name>myname</name>\n         <email>myname@gmx.net</email>\n      </author>\n      <contributor>\n         <name> Sebastian Karcher</name>\n      </contributor>\n      <category field=\"biology\"/>\n      <category field=\"generic-base\"/>\n      <updated>2011-04-06T02:21:30+00:00</updated>\n      <rights>This work is licensed under a Creative Commons Attribution-Share Alike 3.0 License: http://creativecommons.org/licenses/by-sa/3.0/</rights>\n   </info>\n   <citation year-suffix-delimiter=\",\" \n\t\t\t disambiguate-add-year-suffix=\"true\" \n\t\t\t collapse=\"year-suffix\" \n\t\t\t disambiguate-add-names=\"true\">\n      <layout prefix=\"(\" suffix=\")\" delimiter=\"; \">\n      <!-- layout delimiter=\"; \" -->\n        <date variable=\"issued\">\n           <date-part name=\"year\"/>\n        </date>\n      </layout>\n   </citation>\n   <bibliography>\n      <layout>\n         <text value=\"dummy\"/>\n      </layout>\n   </bibliography>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Doe",
+                    "given": "John"
+                }
+            ],
+            "id": "ITEM-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        "1965"
+                    ]
+                ]
+            },
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Doe",
+                    "given": "John"
+                }
+            ],
+            "id": "ITEM-2",
+            "issued": {
+                "date-parts": [
+                    [
+                        "1965"
+                    ]
+                ]
+            },
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "(1965a,b)",
+    "tags": false,
+    "version": "1.0"
+}

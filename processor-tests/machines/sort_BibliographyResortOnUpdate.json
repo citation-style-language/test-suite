@@ -1,0 +1,56 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            },
+            {
+                "id": "ITEM-2"
+            },
+            {
+                "id": "ITEM-3"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <macro name=\"author\">\n    <names variable=\"author\">\n      <name form=\"short\" />\n    </names>\n  </macro>\n  <citation>\n    <layout delimiter=\"; \">\n      <text macro=\"author\" />\n    </layout>\n  </citation>\n  <bibliography>\n    <sort>\n      <key macro=\"author\" />\n    </sort>\n    <layout>\n      <text macro=\"author\" />\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Effinger",
+                    "given": "Eda"
+                }
+            ],
+            "id": "ITEM-1",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Jamey",
+                    "given": "Jantzen"
+                }
+            ],
+            "id": "ITEM-2",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Ging",
+                    "given": "Tina"
+                }
+            ],
+            "id": "ITEM-3",
+            "type": "book"
+        }
+    ],
+    "mode": "bibliography",
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">Effinger</div>\n  <div class=\"csl-entry\">Ging</div>\n  <div class=\"csl-entry\">Jamey</div>\n</div>",
+    "tags": false,
+    "version": "1.0"
+}

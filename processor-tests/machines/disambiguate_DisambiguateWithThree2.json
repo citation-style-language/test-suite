@@ -1,0 +1,109 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": 55
+            }
+        ],
+        [
+            {
+                "id": 53
+            }
+        ],
+        [
+            {
+                "id": 59
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style xmlns=\"http://purl.org/net/xbiblio/csl\" class=\"in-text\" version=\"1.0\">\n  <info>\n    <title>Modern Language Association</title>\n    <id>http://www.zotero.org/styles/mla</id>\n    <link href=\"http://www.zotero.org/styles/mla\" rel=\"self\"/>\n    <author>\n      <name>Ilouise S. Bradford</name>\n      <email>isbradford@gmail.com</email>\n    </author>\n    <contributor>\n      <name>Sarah Ficke</name>\n      <email>sficke@email.unc.edu</email>\n    </contributor>\n    <contributor>\n      <name>Sebastian Karcher</name>\n      <email>karcher@u.northwestern.edu</email>\n    </contributor>\n    <contributor>\n      <name>Christian Werthschulte</name>\n      <email>Christian.Werthschulte@rub.de</email>\n    </contributor>\n    <contributor>\n      <name>Simon Kornblith</name>\n      <email>simon@simonster.com</email>\n    </contributor>\n    <contributor>\n      <name>James Johnston</name>\n      <email>thejamesjohnston@gmail.com</email>\n    </contributor>\n    <category field=\"generic-base\"/>\n    <category citation-format=\"author\"/>\n    <link href=\"http://owl.english.purdue.edu/owl/section/2/11/\" rel=\"documentation\"/>\n    <updated>2011-05-28T18:16:02+00:00</updated>\n    <summary>This style adheres to the MLA 7th edition handbook and contains modifications to these types of sources: e-mail, forum posts, interviews, manuscripts, maps, presentations, TV broadcasts, and web pages.</summary>\n    <rights>This work is licensed under a Creative Commons Attribution-Share Alike 3.0 License:\n    http://creativecommons.org/licenses/by-sa/3.0/</rights>\n  </info>\n  <macro name=\"author-short\">\n    <names variable=\"author\">\n      <name form=\"short\" and=\"text\" delimiter=\", \" initialize-with=\". \"/>\n      <substitute>\n        <names variable=\"editor\"/>\n        <names variable=\"translator\"/>\n        <text macro=\"title-short\"/>\n      </substitute>\n    </names>\n  </macro>\n  <macro name=\"title-short\">\n    <choose>\n      <if type=\"bill book graphic legal_case manuscript motion_picture report song\" match=\"any\">\n        <text variable=\"title\" form=\"short\" font-style=\"italic\"/>\n      </if>\n      <else>\n        <text variable=\"title\" form=\"short\" quotes=\"true\"/>\n      </else>\n    </choose>\n  </macro>\n  <citation disambiguate-add-names=\"true\">\n    <layout prefix=\"(\" suffix=\")\" delimiter=\"; \">\n      <group delimiter=\", \">\n        <text macro=\"author-short\"/>\n        <choose>\n          <if disambiguate=\"true\">\n            <text macro=\"title-short\"/>\n          </if>\n        </choose>\n      </group>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Spivak",
+                    "given": "Gayatri Chakravorty"
+                }
+            ],
+            "event-place": "Cambridge, Mass.",
+            "id": 55,
+            "issued": {
+                "date-parts": [
+                    [
+                        1999
+                    ]
+                ]
+            },
+            "note": "Gayatri Chakravorty Spivak. 25 cm.",
+            "publisher": "Harvard University Press",
+            "publisher-place": "Cambridge, Mass.",
+            "title": "A Critique of Postcolonial Reason: Toward a History of the Vanishing Present",
+            "title-short": "A Critique",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Spivak",
+                    "given": "Gayatri Chakravorty"
+                }
+            ],
+            "container-title": "Cosmopolitics: Thinking and Feeling Beyond the Nation",
+            "editor": [
+                {
+                    "family": "Cheah",
+                    "given": "Pheng"
+                },
+                {
+                    "family": "Robbins",
+                    "given": "Bruce"
+                }
+            ],
+            "event-place": "Minneapolis",
+            "id": 53,
+            "issued": {
+                "date-parts": [
+                    [
+                        1998
+                    ]
+                ]
+            },
+            "page": "329 - 348",
+            "publisher": "University of Minnesota Press",
+            "publisher-place": "Minneapolis",
+            "title": "Cultural Talks in the 'Hot Peace': Revisiting the Global Village",
+            "title-short": "Cultural Talks",
+            "type": "chapter"
+        },
+        {
+            "author": [
+                {
+                    "family": "Spivak",
+                    "given": "Gayatri Chakravorty"
+                }
+            ],
+            "event-place": "New York",
+            "id": 59,
+            "issued": {
+                "date-parts": [
+                    [
+                        2003
+                    ]
+                ]
+            },
+            "note": "Gayatri Chakravorty Spivak. Crossing borders â€• Collectivities â€• Planetarity.",
+            "publisher": "Columbia University Press",
+            "publisher-place": "New York",
+            "title": "Death of a Discipline",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "(Spivak, <i>A Critique</i>)\n(Spivak, “Cultural Talks”)\n(Spivak, <i>Death of a Discipline</i>)",
+    "tags": false,
+    "version": "1.0"
+}

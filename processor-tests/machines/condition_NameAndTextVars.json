@@ -1,0 +1,42 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": 87
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style xmlns=\"http://purl.org/net/xbiblio/csl\" class=\"in-text\" version=\"1.0\" demote-non-dropping-particle=\"sort-only\">\n  <info>\n    <title>Chicago Manual of Style (author-date) [test match]</title>\n    <id>http://www.zotero.org/styles/chicago-author-date-test-match</id>\n    <link href=\"http://www.zotero.org/styles/chicago-author-date\" rel=\"self\"/>\n    <link href=\"http://www.chicagomanualofstyle.org/tools_citationguide.html\" rel=\"documentation\"/>\n    <author>\n      <name>Julian Onions</name>\n      <email>julian.onions@gmail.com</email>\n    </author>\n    <contributor>\n      <name>Sebastian Karcher</name>\n    </contributor>\n    <contributor>\n      <name>Richard Karnesky</name>\n      <email>karnesky+zotero@gmail.com</email>\n      <uri>http://arc.nucapt.northwestern.edu/Richard_Karnesky</uri>\n    </contributor>\n    <category citation-format=\"author-date\"/>\n    <category field=\"generic-base\"/>\n    <summary>The author-date variant of the Chicago style</summary>\n    <updated>2013-03-28T05:37:10+00:00</updated>\n    <rights license=\"http://creativecommons.org/licenses/by-sa/3.0/\">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>\n  </info>\n  <citation>\n<layout>\n<choose>\n<if variable=\"author note\" match=\"all\">\n<text value=\"should not be this\"/>\n</if>\n<else>\n<text value=\"should be this!\"/>\n</else>\n</choose>\n</layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "URL": "http://legal-dictionary.thefreedictionary.com/",
+            "accessed": {
+                "date-parts": [
+                    [
+                        "2012",
+                        4,
+                        15
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Harvey",
+                    "given": "Slurp"
+                }
+            ],
+            "id": 87,
+            "key": "178050_B4IMW86H",
+            "title": "Legal Dictionary",
+            "type": "webpage"
+        }
+    ],
+    "mode": "citation",
+    "result": "should be this!",
+    "tags": false,
+    "version": "1.0"
+}

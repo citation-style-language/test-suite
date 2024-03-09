@@ -1,0 +1,32 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": false,
+    "csl": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<style xmlns=\"http://purl.org/net/xbiblio/csl\" class=\"note\" version=\"1.0\" et-al-min=\"3\" et-al-use-first=\"1\" delimiter-precedes-et-al=\"always\" default-locale=\"zh-TW\">\n  <info>\n    <title>Test Style</title>\n    <id>http://www.zotero.org/styles/test-style</id>\n    <link rel=\"self\" href=\"http://www.zotero.org/styles/test-style\"/>\n    <link href=\"http://www.zotero.org/styles/test-style\" rel=\"documentation\"/>\n    <author>\n      <name>FB</name>\n      <email>email@address</email>\n    </author>\n    <updated>2014-05-18T12:43:24+00:00</updated>\n  </info>\n  <citation>\n    <layout>\n      <names variable=\"author\">\n        <name/>\n      </names>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Zither",
+                    "given": "Ziggy"
+                },
+                {
+                    "family": "Yoda",
+                    "given": "Yossarian"
+                },
+                {
+                    "family": "Xylophone",
+                    "given": "Xerxes"
+                }
+            ],
+            "id": "ITEM-1",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "Ziggy Zither, 等",
+    "tags": false,
+    "version": "1.0"
+}

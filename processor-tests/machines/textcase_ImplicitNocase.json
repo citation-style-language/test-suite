@@ -1,0 +1,45 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-2"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-3"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation>\n    <layout>\n      <text variable=\"title\" text-case=\"title\" />\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "id": "ITEM-1",
+            "title": "My <sc>small caps phrase</sc> in a title",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-2",
+            "title": "My <sup>superscript phrase</sup> in a title",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-3",
+            "title": "My <sub>subscript phrase</sub> in a title",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "My <span style=\"font-variant:small-caps;\">small caps phrase</span> in a Title\nMy <sup>superscript phrase</sup> in a Title\nMy <sub>subscript phrase</sub> in a Title",
+    "tags": false,
+    "version": "1.0"
+}

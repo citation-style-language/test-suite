@@ -1,0 +1,35 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation \n         disambiguate-add-givenname=\"true\"\n         disambiguate-add-year-suffix=\"true\"\n         givenname-disambiguation-rule=\"by-cite\">\n    <layout delimiter=\"; \">\n      <names delimiter=\", \" variable=\"author\">\n        <name and=\"text\" delimiter=\", \" delimiter-precedes-last=\"never\" form=\"short\" initialize-with=\".\" />\n      </names>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Collier",
+                    "given": "Ruth Berins"
+                },
+                {
+                    "family": "Collier",
+                    "given": "David"
+                }
+            ],
+            "id": 15895,
+            "issued": {
+                "date-parts": [
+                    [
+                        2002
+                    ]
+                ]
+            },
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "Collier and Collier",
+    "tags": false,
+    "version": "1.0"
+}

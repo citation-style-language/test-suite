@@ -1,0 +1,138 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            },
+            {
+                "id": "ITEM-2"
+            }
+        ],
+        [
+            {
+                "first-reference-note-number": 1,
+                "id": "ITEM-1",
+                "position": 1
+            }
+        ],
+        [
+            {
+                "first-reference-note-number": 1,
+                "id": "ITEM-2",
+                "position": 1
+            }
+        ]
+    ],
+    "citations": [
+        [
+            {
+                "citationID": "CITATION-1",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1"
+                    },
+                    {
+                        "id": "ITEM-2"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 1
+                }
+            },
+            [],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-2",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 2
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    1
+                ]
+            ],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-3",
+                "citationItems": [
+                    {
+                        "id": "ITEM-2"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 3
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    1
+                ],
+                [
+                    "CITATION-2",
+                    2
+                ]
+            ],
+            []
+        ]
+    ],
+    "csl": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<style xmlns=\"http://purl.org/net/xbiblio/csl\" class=\"note\" version=\"1.0\" demote-non-dropping-particle=\"sort-only\" default-locale=\"en-GB\" page-range-format=\"expanded\">\n  <info>\n    <title>Environment and Urbanization</title>\n    <id>http://www.zotero.org/styles/environment-and-urbanization</id>\n    <link href=\"http://www.zotero.org/styles/environment-and-urbanization\" rel=\"self\"/>\n    <link href=\"http://www.zotero.org/styles/journal-of-applied-philosophy\" rel=\"template\"/>\n    <link href=\"https://us.sagepub.com/en-us/nam/journal/environment-and-urbanization#ReferenceStyle\" rel=\"documentation\"/>\n    <author>\n      <name>Sebastian Karcher</name>\n    </author>\n    <category citation-format=\"note\"/>\n    <category field=\"geography\"/>\n    <issn>0956-2478</issn>\n    <eissn>1746-0301</eissn>\n    <summary>Style calls for endnote symbols in parentheses, which CSL can't do</summary>\n    <updated>2012-10-25T21:15:26+00:00</updated>\n    <rights license=\"http://creativecommons.org/licenses/by-sa/3.0/\">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>\n  </info>\n  <citation et-al-min=\"7\" et-al-use-first=\"1\" disambiguate-add-names=\"true\" disambiguate-add-givenname=\"true\">\n    <layout suffix=\".\" delimiter=\"; \">\n      <choose>\n        <if position=\"subsequent\">\n          <group delimiter=\", \">\n            <text variable=\"first-reference-note-number\" prefix=\"See reference \"/>\n            <choose>\n              <if disambiguate=\"true\">\n                <names variable=\"author\">\n                  <name form=\"short\" and=\"text\" sort-separator=\", \" delimiter=\", \" delimiter-precedes-last=\"never\" et-al-min=\"3\" et-al-use-first=\"1\" initialize-with=\" \"/>\n                </names>\n              </if>\n            </choose>\n            <choose>\n              <if disambiguate=\"true\">\n                <text variable=\"title\" quotes=\"true\" text-case=\"title\" form=\"short\"/>\n              </if>\n            </choose>\n          </group>\n        </if>\n        <else>\n          <group delimiter=\", \">\n            <names variable=\"author\">\n              <name and=\"text\" sort-separator=\", \" delimiter=\", \" delimiter-precedes-last=\"never\" initialize-with=\" \" name-as-sort-order=\"first\" initialize=\"false\"/>\n            </names>\n            <text variable=\"title\" quotes=\"true\"/>\n          </group>\n        </else>\n      </choose>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Baines",
+                    "given": "T. S."
+                },
+                {
+                    "family": "Benedettini",
+                    "given": "O."
+                },
+                {
+                    "family": "Kay",
+                    "given": "J. M."
+                }
+            ],
+            "id": "ITEM-1",
+            "title": "Title One",
+            "type": "article-journal"
+        },
+        {
+            "author": [
+                {
+                    "family": "Baines",
+                    "given": "T. S."
+                },
+                {
+                    "family": "Gump",
+                    "given": "F."
+                },
+                {
+                    "family": "Kay",
+                    "given": "J. M."
+                }
+            ],
+            "id": "ITEM-2",
+            "title": "Title Two",
+            "type": "article-journal"
+        }
+    ],
+    "mode": "citation",
+    "result": ">>[0] Baines, T S, O Benedettini and J M Kay, ‘Title One’; Baines, T S, F Gump and J M Kay, ‘Title Two’.\n..[1] See reference 1, Baines et al.\n>>[2] See reference 1, Baines et al.",
+    "tags": false,
+    "version": "1.0"
+}

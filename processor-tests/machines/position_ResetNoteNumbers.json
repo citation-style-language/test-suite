@@ -1,0 +1,278 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": [
+        [
+            {
+                "citationID": "CITATION-1",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1",
+                        "suffix": " (note 1)"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 1
+                }
+            },
+            [],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-2",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1",
+                        "suffix": " (note 2)"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 2
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    1
+                ]
+            ],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-3",
+                "citationItems": [
+                    {
+                        "id": "ITEM-3",
+                        "suffix": " (note 3)"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 3
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    1
+                ],
+                [
+                    "CITATION-2",
+                    2
+                ]
+            ],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-4",
+                "citationItems": [
+                    {
+                        "id": "ITEM-3",
+                        "suffix": " (note 1)"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 1
+                }
+            },
+            [],
+            [
+                [
+                    "CITATION-1",
+                    1
+                ],
+                [
+                    "CITATION-2",
+                    2
+                ],
+                [
+                    "CITATION-3",
+                    3
+                ]
+            ]
+        ],
+        [
+            {
+                "citationID": "CITATION-5",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1",
+                        "suffix": " (note 2)"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 2
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    1
+                ],
+                [
+                    "CITATION-4",
+                    1
+                ]
+            ],
+            [
+                [
+                    "CITATION-2",
+                    2
+                ],
+                [
+                    "CITATION-3",
+                    3
+                ]
+            ]
+        ],
+        [
+            {
+                "citationID": "CITATION-6",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1",
+                        "suffix": " (note 3)"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 3
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    1
+                ],
+                [
+                    "CITATION-4",
+                    1
+                ],
+                [
+                    "CITATION-2",
+                    2
+                ],
+                [
+                    "CITATION-5",
+                    2
+                ],
+                [
+                    "CITATION-3",
+                    3
+                ]
+            ],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-7",
+                "citationItems": [
+                    {
+                        "id": "ITEM-3",
+                        "suffix": " (note 4)"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 4
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    1
+                ],
+                [
+                    "CITATION-4",
+                    1
+                ],
+                [
+                    "CITATION-2",
+                    2
+                ],
+                [
+                    "CITATION-5",
+                    2
+                ],
+                [
+                    "CITATION-3",
+                    3
+                ],
+                [
+                    "CITATION-6",
+                    3
+                ]
+            ],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-8",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1",
+                        "suffix": " (note 5)"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 5
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    1
+                ],
+                [
+                    "CITATION-4",
+                    1
+                ],
+                [
+                    "CITATION-2",
+                    2
+                ],
+                [
+                    "CITATION-5",
+                    2
+                ],
+                [
+                    "CITATION-3",
+                    3
+                ],
+                [
+                    "CITATION-6",
+                    3
+                ],
+                [
+                    "CITATION-7",
+                    4
+                ]
+            ],
+            []
+        ]
+    ],
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation>\n    <layout delimiter=\"; \">\n      <choose>\n        <if position=\"ibid\">\n          <text value=\"ibid\"/>\n        </if>\n        <else>\n          <group delimiter=\", \">\n            <text variable=\"title\"/>\n            <group delimiter=\" \">\n              <text value=\"n\"/>\n              <text variable=\"first-reference-note-number\"/>\n            </group>\n          </group>\n        </else>\n      </choose>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "id": "ITEM-1",
+            "title": "Book A",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-2",
+            "title": "Book B",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-3",
+            "title": "Book C",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "..[0] Book A (note 1)\n..[1] Book C (note 1)\n..[2] Book A, n 1 (note 2)\n..[3] ibid (note 2)\n..[4] Book C, n 1 (note 3)\n..[5] Book A, n 1 (note 3)\n..[6] Book C, n 1 (note 4)\n>>[7] Book A, n 1 (note 5)",
+    "tags": false,
+    "version": "1.0"
+}

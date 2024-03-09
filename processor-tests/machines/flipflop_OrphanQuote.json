@@ -1,0 +1,25 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation>\n    <layout delimiter=\"; \">\n      <text variable=\"title\" text-case=\"title\"/>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "id": "ITEM-1",
+            "title": "Nation of \"Positive Obligations \" of State under the European Convention on Human Rights (1)",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "Nation of \"Positive Obligations \" of State under the European Convention on Human Rights (1)",
+    "tags": false,
+    "version": "1.0"
+}

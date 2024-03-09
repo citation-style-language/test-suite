@@ -1,0 +1,19 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\" page-range-format=\"chicago\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation>\n    <layout delimiter=\"; \">\n      <group delimiter=\" \">\n        <text variable=\"page\"/>\n        <choose>\n          <if is-numeric=\"page\">\n            <text value=\"(is-numeric)\"/>\n          </if>\n          <else>\n            <text value=\"(non-numeric)\"/>\n          </else>\n        </choose>\n      </group>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "id": "ITEM-1",
+            "page": "01790",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "01790 (is-numeric)",
+    "tags": false,
+    "version": "1.0"
+}

@@ -1,0 +1,53 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-2"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\"\n      demote-non-dropping-particle=\"sort-only\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation>\n    <layout>\n      <group prefix=\"(\" suffix=\")\">\n        <names variable=\"author\" delimiter=\"; \">\n          <name delimiter=\", \" form=\"short\"/>\n        </names>\n      </group>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "van One",
+                    "given": "Onename"
+                },
+                {
+                    "family": "van Two",
+                    "given": "Twoname"
+                }
+            ],
+            "id": "ITEM-1",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "van Three",
+                    "given": "Threename"
+                },
+                {
+                    "family": "Van Four",
+                    "given": "Fourname"
+                }
+            ],
+            "id": "ITEM-2",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "(van One, van Two)\n(van Three, Van Four)",
+    "tags": false,
+    "version": "1.0"
+}

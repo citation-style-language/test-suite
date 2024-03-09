@@ -1,0 +1,54 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation \n         disambiguate-add-givenname=\"true\"\n         givenname-disambiguation-rule=\"all-names-with-initials\">\n    <layout delimiter=\"; \">\n      <names delimiter=\", \" variable=\"author\">\n        <name and=\"text\" \n              delimiter-precedes-last=\"never\" \n              initialize-with=\".\" form=\"short\"/>\n      </names>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Smith",
+                    "given": "Cecil"
+                }
+            ],
+            "id": "ITEM-1",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Smith",
+                    "given": "Charles"
+                }
+            ],
+            "id": "ITEM-2",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Muggins",
+                    "given": "Bob"
+                }
+            ],
+            "id": "ITEM-3",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Muggins",
+                    "given": "Jardine"
+                }
+            ],
+            "id": "ITEM-4",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "Smith; Smith; B. Muggins; J. Muggins",
+    "tags": false,
+    "version": "1.0"
+}

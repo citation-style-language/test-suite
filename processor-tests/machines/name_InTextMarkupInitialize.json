@@ -1,0 +1,34 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"in-text\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <macro name=\"author\">\n     <names variable=\"author\">\n        <name name-as-sort-order=\"all\" and=\"symbol\" sort-separator=\", \" initialize-with=\". \" delimiter=\", \" delimiter-precedes-last=\"always\"/>\n     </names>\n  </macro>\n  <citation>\n    <layout>\n      <text macro=\"author\"/>\n    </layout>\n  </citation>\n  <bibliography>\n    <layout>\n      <text macro=\"author\"/>\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "<b>Doe</b>",
+                    "given": "<b>John</b> Quiggly"
+                }
+            ],
+            "id": "ITEM-1",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "<b>Doe</b>",
+                    "given": "<b>John</b>-Quiggly"
+                }
+            ],
+            "id": "ITEM-2",
+            "type": "book"
+        }
+    ],
+    "mode": "bibliography",
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\"><b>Doe</b>, <b>J.</b> Q.</div>\n  <div class=\"csl-entry\"><b>Doe</b>, <b>J.</b>-Q.</div>\n</div>",
+    "tags": false,
+    "version": false
+}

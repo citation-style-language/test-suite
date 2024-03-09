@@ -1,0 +1,66 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": false,
+    "csl": "<style xmlns=\"http://purl.org/net/xbiblio/csl\" class=\"in-text\" version=\"1.0\" demote-non-dropping-particle=\"sort-only\" default-locale=\"en-GB\">\n  <info>\n    <title>Harvard - Coventry University</title>\n    <title-short>CU Harvard</title-short>\n    <id>http://www.zotero.org/styles/harvard-coventry-university-test</id>\n    <author>\n      <name>Chris Hastie</name>\n      <uri>http://www.oak-wood.co.uk</uri>\n    </author>\n    <category citation-format=\"author-date\"/>\n    <category field=\"generic-base\"/>\n    <summary>The Harvard author-date style - adapted for use at Coventry University. See usage notes at http://www.oak-wood.co.uk/oss/coventry-harvard-csl</summary>\n    <updated>2013-11-11T13:19:48+00:00</updated>\n    <rights license=\"http://creativecommons.org/licenses/by-sa/3.0/\">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>\n  </info>\n  <macro name=\"author\">\n        <names variable=\"author\">\n          <name name-as-sort-order=\"all\" and=\"text\" sort-separator=\", \" initialize-with=\".\" delimiter=\", \"/>\n          <label form=\"short\" prefix=\" \" strip-periods=\"false\"/>\n        </names>\n  </macro>\n  <macro name=\"author-short\">\n        <names variable=\"author\">\n          <name form=\"short\" and=\"text\" delimiter=\", \" initialize-with=\". \"/>\n        </names>\n  </macro>\n  <macro name=\"year-date\">\n    <choose>\n      <if variable=\"issued\">\n        <date variable=\"issued\">\n          <date-part name=\"year\"/>\n        </date>\n      </if>\n      <else>\n        <text term=\"no date\" form=\"short\"/>\n      </else>\n    </choose>\n  </macro>\n  <citation et-al-min=\"4\" et-al-use-first=\"1\" et-al-subsequent-min=\"3\" et-al-subsequent-use-first=\"1\" disambiguate-add-year-suffix=\"true\" disambiguate-add-givenname=\"true\" givenname-disambiguation-rule=\"all-names-with-initials\" name-as-sort-order=\"all\" collapse=\"year\">\n    <layout prefix=\"(\" suffix=\")\" delimiter=\", \">\n        <group delimiter=\" \">\n          <text macro=\"author-short\"/>\n          <text macro=\"year-date\"/>\n        </group>\n    </layout>\n  </citation>\n  <bibliography hanging-indent=\"true\">\n    <sort>\n      <key macro=\"author\"/>\n      <key macro=\"year-date\" sort=\"ascending\"/>\n      <key variable=\"title\"/>\n    </sort>\n    <layout>\n      <group delimiter=\" \">\n        <text macro=\"author\"/>\n        <text macro=\"year-date\" prefix=\"(\" suffix=\")\"/>\n      </group>\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Asthma",
+                    "given": "Albert"
+                },
+                {
+                    "family": "Bronchitis",
+                    "given": "Bosworth"
+                },
+                {
+                    "family": "Cold",
+                    "given": "Crispin"
+                }
+            ],
+            "id": "ITEM-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        "1980"
+                    ]
+                ]
+            },
+            "title": "Book A",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Asthma",
+                    "given": "Albert"
+                },
+                {
+                    "family": "Bronchitis",
+                    "given": "Beauregarde"
+                },
+                {
+                    "family": "Cold",
+                    "given": "Odeous"
+                }
+            ],
+            "id": "ITEM-2",
+            "issued": {
+                "date-parts": [
+                    [
+                        "1995"
+                    ]
+                ]
+            },
+            "title": "Book B",
+            "type": "book"
+        }
+    ],
+    "mode": "bibliography",
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">Asthma, A., Bronchitis, B., and Cold, C. (1980)</div>\n  <div class=\"csl-entry\">Asthma, A., Bronchitis, B., and Cold, O. (1995)</div>\n</div>",
+    "tags": false,
+    "version": "1.0"
+}

@@ -1,0 +1,66 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-2"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-3"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation et-al-min=\"4\" et-al-use-first=\"1\" disambiguate-add-names=\"true\">\n    <layout>\n      <group delimiter=\", \">\n        <choose>\n          <if position=\"subsequent\">\n            <names variable=\"author\">\n              <name/>\n            </names>\n          </if>\n          <else-if position=\"first\">\n            <names variable=\"author\">\n              <name/>\n            </names>\n            <text variable=\"container-title\"/>\n            <date variable=\"issued\" form=\"text\" date-parts=\"year\"/>\n          </else-if>\n        </choose>\n      </group>\n    </layout>\n  </citation>\n  <bibliography>\n    <layout>\n      <group delimiter=\", \">\n        <names variable=\"author\">\n          <name/>\n        </names>\n        <text variable=\"container-title\"/>\n        <date variable=\"issued\" form=\"text\" date-parts=\"year\"/>\n      </group>\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "container-title": "BleagleA",
+            "id": "ITEM-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2000
+                    ]
+                ]
+            },
+            "type": "book"
+        },
+        {
+            "container-title": "BleagleB",
+            "id": "ITEM-2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2000
+                    ]
+                ]
+            },
+            "type": "book"
+        },
+        {
+            "container-title": "BleagleC",
+            "id": "ITEM-3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2000
+                    ]
+                ]
+            },
+            "type": "book"
+        }
+    ],
+    "mode": "bibliography",
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">BleagleA, 2000</div>\n  <div class=\"csl-entry\">BleagleB, 2000</div>\n  <div class=\"csl-entry\">BleagleC, 2000</div>\n</div>",
+    "tags": false,
+    "version": "1.0"
+}

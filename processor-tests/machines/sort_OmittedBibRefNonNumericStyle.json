@@ -1,0 +1,59 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            },
+            {
+                "id": "ITEM-2"
+            },
+            {
+                "id": "ITEM-3"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <macro name=\"author\">\n    <names variable=\"author\">\n      <name form=\"short\" />\n    </names>\n  </macro>\n  <citation>\n    <sort>\n      <key variable=\"citation-number\"/>\n    </sort>\n    <layout prefix=\"(\" suffix=\")\" delimiter=\"; \">\n      <group delimiter=\", \">\n        <text macro=\"author\" />\n        <text variable=\"title\"/>\n      </group>\n    </layout>\n  </citation>\n  <bibliography>\n    <layout>\n      <choose>\n        <if match=\"none\" type=\"personal_communication\">\n          <group delimiter=\". \">\n            <group delimiter=\", \">\n              <text macro=\"author\" />\n              <text variable=\"title\"/>\n            </group>\n          </group>\n        </if>\n      </choose>\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Anderson",
+                    "given": "Andrew"
+                }
+            ],
+            "id": "ITEM-1",
+            "title": "Book One",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Brown",
+                    "given": "Burt"
+                }
+            ],
+            "id": "ITEM-2",
+            "title": "Letter One",
+            "type": "personal_communication"
+        },
+        {
+            "author": [
+                {
+                    "family": "Crane",
+                    "given": "Clive"
+                }
+            ],
+            "id": "ITEM-3",
+            "title": "Book Two",
+            "type": "book"
+        }
+    ],
+    "mode": "bibliography",
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">Anderson, Book One</div>\n  <div class=\"csl-entry\">Crane, Book Two</div>\n</div>",
+    "tags": false,
+    "version": "1.0"
+}

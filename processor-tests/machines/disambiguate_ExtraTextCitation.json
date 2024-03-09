@@ -1,0 +1,53 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-2"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation disambiguate-add-givenname=\"true\">\n    <layout>\n      <group delimiter=\", \">\n        <names variable=\"author\">\n          <name form=\"short\" and=\"text\"/>\n        </names>\n        <choose>\n          <if disambiguate=\"true\">\n            <text variable=\"title\"/>\n          </if>\n        </choose>\n      </group>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Bumke",
+                    "given": "Joachim"
+                }
+            ],
+            "id": "ITEM-1",
+            "title": "Courtly Culture: Literature and Society in the High Middle Ages",
+            "translator": [
+                {
+                    "family": "Dunlap",
+                    "given": "Thomas"
+                }
+            ],
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Bumke",
+                    "given": "Joachim"
+                }
+            ],
+            "id": "ITEM-2",
+            "title": "Höfische",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "Bumke, Courtly Culture: Literature and Society in the High Middle Ages\nBumke, Höfische",
+    "tags": false,
+    "version": "1.0"
+}

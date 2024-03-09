@@ -1,0 +1,53 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": [
+        [
+            {
+                "citationID": "CITATION-1",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1"
+                    },
+                    {
+                        "id": "ITEM-2"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 1
+                }
+            },
+            [],
+            []
+        ]
+    ],
+    "csl": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<style xmlns=\"http://purl.org/net/xbiblio/csl\" version=\"1.0\" class=\"note\" default-locale=\"de-DE\" demote-non-dropping-particle=\"never\">\n  <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->\n  <info>\n    <title>SCRDiss2</title>\n    <id>http://www.zotero.org/styles/juristische-zitierweise</id>\n    <link href=\"http://www.zotero.org/styles/juristische-zitierweise\" rel=\"self\"/>\n    <link href=\"www.niederle-media.de/Zitieren.pdf\" rel=\"documentation\"/>\n    <link href=\"https://forums.zotero.org/discussion/20886/citation-style-for-german-lawyers/\" rel=\"documentation\"/>\n    <author>\n      <name>SCR</name>\n      <email>Sophie.Catherine@gmx.de</email>\n    </author>\n    <contributor>\n      <name>SCR</name>\n    </contributor>\n    <category citation-format=\"note\"/>\n    <category field=\"law\"/>\n    <summary>Juristische Zitierweise nach Stüber www.niederle-media.de/Zitieren.pdf</summary>\n    <updated>2017-12-28T23:40:35+00:00</updated>\n    <rights license=\"http://creativecommons.org/licenses/by-sa/3.0/\">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>\n  </info>\n  <locale xml:lang=\"de-DE\">\n    <terms>\n      <term name=\"accessed\">besucht am</term>\n    </terms>\n  </locale>\n  <macro name=\"author\">\n    <names variable=\"author\" font-style=\"italic\">\n      <name delimiter=\"/ \" name-as-sort-order=\"all\" sort-separator=\", \" form=\"long\"/>\n      <label form=\"short\" prefix=\" (\" suffix=\")\"/>\n      <substitute>\n        <names variable=\"editor\"/>\n      </substitute>\n    </names>\n  </macro>\n\n<macro name=\"editor\">\n    <names variable=\"editor\" font-style=\"italic\">\n      <name delimiter=\"/ \" name-as-sort-order=\"all\" sort-separator=\", \" form=\"long\"/>\n      <label form=\"short\" prefix=\" (\" suffix=\")\"/>\n    </names>\n  </macro>\n  <macro name=\"author-note\">\n    <names variable=\"author\" font-style=\"italic\">\n      <name form=\"short\" delimiter=\"/\" et-al-min=\"3\" et-al-use-first=\"1\"  initialize-with=\". \"/>\n    </names>\n  </macro>\n  <macro name=\"autor-editor-note\">\n    <names variable=\"author\" font-style=\"italic\">\n      <name form=\"short\" delimiter=\"/\" et-al-min=\"3\" et-al-use-first=\"1\" sort-separator=\"\"/>\n      <substitute>\n        <names variable=\"editor\"/>\n      </substitute>\n    </names>\n  </macro>\n  <citation disambiguate-add-names=\"true\" disambiguate-add-givenname=\"true\" givenname-disambiguation-rule=\"all-names-with-initials\">\n    <layout delimiter=\"; \" suffix=\".\">\n      <text macro=\"autor-editor-note\"/>\n    </layout>\n  </citation>\n  <bibliography>\n    <sort>\n      <key macro=\"author\"/>\n      <key variable=\"issued\"/>\n    </sort>\n    <layout>\n       <text macro=\"author\"/>\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Smith",
+                    "given": "Reggie"
+                }
+            ],
+            "id": "ITEM-1",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Smith",
+                    "given": "Jimmie"
+                }
+            ],
+            "id": "ITEM-2",
+            "type": "book"
+        }
+    ],
+    "mode": "bibliography",
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\"><i>Smith, Jimmie</i></div>\n  <div class=\"csl-entry\"><i>Smith, Reggie</i></div>\n</div>",
+    "tags": false,
+    "version": "1.0"
+}

@@ -1,0 +1,41 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": [
+        [
+            {
+                "citationID": "CITATION-1",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1"
+                    },
+                    {
+                        "id": "ITEM-2"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 1
+                }
+            },
+            [],
+            []
+        ]
+    ],
+    "csl": "<style xmlns=\"http://purl.org/net/xbiblio/csl\" class=\"in-text\" version=\"1.0\" default-locale=\"en-US\">\n  <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->\n  <info>\n    <title>Chicago Manual of Style 16th edition (figures and illustrations)</title>\n    <title-short>chicago-figures</title-short>\n    <id>http://www.zotero.org/styles/chicago-figures</id>\n    <link href=\"http://www.zotero.org/styles/chicago-figures\" rel=\"self\"/>\n    <link href=\"https://github.com/citation-style-language/styles/pull/442\" rel=\"documentation\"/>\n    <author>\n      <name>Alex Watkins</name>\n    </author>\n    <category citation-format=\"numeric\"/>\n    <category field=\"humanities\"/>\n    <summary>Follows the Chicago Manual for Figure lists. Natural Name order, commas separate elements, currently working with artwork item types, and to facilitate citing images that come from books, book part.</summary>\n    <updated>2013-06-20T20:16:50+00:00</updated>\n    <rights license=\"http://creativecommons.org/licenses/by-sa/3.0/\">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>\n  </info>\n  <citation>\n    <layout  prefix=\"(\" suffix=\")\" delimiter=\"(z)\">\n      <text term=\"figure\" form=\"short\"/>\n      <text variable=\"citation-number\"/>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "id": "ITEM-1",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-2",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": ">>[0] (fig.1(z)fig.2)",
+    "tags": false,
+    "version": "1.0"
+}

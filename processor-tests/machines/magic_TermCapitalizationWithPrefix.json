@@ -1,0 +1,121 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": [
+        [
+            {
+                "citationID": "CITATION-1",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 1
+                }
+            },
+            [],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-2",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1",
+                        "prefix": "See "
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 2
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    1
+                ]
+            ],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-3",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1",
+                        "prefix": "This has been said. "
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 3
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    1
+                ],
+                [
+                    "CITATION-2",
+                    2
+                ]
+            ],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-4",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 4
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    1
+                ],
+                [
+                    "CITATION-2",
+                    2
+                ],
+                [
+                    "CITATION-3",
+                    3
+                ]
+            ],
+            []
+        ]
+    ],
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation>\n    <layout>\n      <choose>\n        <if position=\"first\">\n          <group delimiter=\" \">\n            <names variable=\"author\">\n              <name form=\"short\"/>\n            </names>\n            <date variable=\"issued\" date-parts=\"year\" form=\"text\" prefix=\"(\" suffix=\")\"/>\n          </group>\n        </if>\n        <else>\n          <text term=\"ibid\"/>\n        </else>\n      </choose>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Doe",
+                    "given": "John"
+                }
+            ],
+            "id": "ITEM-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        "1965"
+                    ]
+                ]
+            },
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "..[0] Doe (1965)\n..[1] See ibid.\n..[2] This has been said. Ibid.\n>>[3] Ibid.",
+    "tags": false,
+    "version": "1.0"
+}

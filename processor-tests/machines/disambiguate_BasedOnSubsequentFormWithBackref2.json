@@ -1,0 +1,209 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": [
+        [
+            {
+                "citationID": "CITATION-1",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1"
+                    },
+                    {
+                        "id": "ITEM-2"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 1
+                }
+            },
+            [],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-2",
+                "citationItems": [
+                    {
+                        "id": "ITEM-3"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 2
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    1
+                ]
+            ],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-3",
+                "citationItems": [
+                    {
+                        "id": "ITEM-3"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 3
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    1
+                ],
+                [
+                    "CITATION-2",
+                    2
+                ]
+            ],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-4",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 4
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    1
+                ],
+                [
+                    "CITATION-2",
+                    2
+                ],
+                [
+                    "CITATION-3",
+                    3
+                ]
+            ],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-5",
+                "citationItems": [
+                    {
+                        "id": "ITEM-3"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 5
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    1
+                ],
+                [
+                    "CITATION-2",
+                    2
+                ],
+                [
+                    "CITATION-3",
+                    3
+                ],
+                [
+                    "CITATION-4",
+                    4
+                ]
+            ],
+            []
+        ]
+    ],
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation>\n    <layout delimiter=\"; \" suffix=\".\">\n      <choose>\n        <if position=\"first\">\n          <names variable=\"author\">\n            <name />\n          </names>\n          <text prefix=\", \" variable=\"title\" />\n          <date variable=\"issued\">\n            <date-part name=\"year\" prefix=\" (\" suffix=\")\" />\n          </date>\n        </if>\n        <else-if position=\"subsequent\">\n          <names variable=\"author\">\n            <name form=\"short\" />\n          </names>\n          <choose>\n            <if disambiguate=\"true\">\n              <text prefix=\", \" variable=\"title\" />\n            </if>\n          </choose>\n          <text prefix=\", \" suffix=\" \" value=\"supra note\" />\n          <text variable=\"first-reference-note-number\" />\n        </else-if>\n        <else>\n          <text value=\"FAILED TO MATCH\"/>\n        </else>\n      </choose>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Doe",
+                    "given": "John"
+                }
+            ],
+            "id": "ITEM-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        "2000"
+                    ]
+                ]
+            },
+            "title": "His Book",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Doe",
+                    "given": "John"
+                }
+            ],
+            "id": "ITEM-2",
+            "issued": {
+                "date-parts": [
+                    [
+                        "2001"
+                    ]
+                ]
+            },
+            "title": "His Other Book",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Roe",
+                    "given": "Jane"
+                }
+            ],
+            "id": "ITEM-3",
+            "issued": {
+                "date-parts": [
+                    [
+                        "1998"
+                    ]
+                ]
+            },
+            "title": "Her Book",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Roe",
+                    "given": "Jane"
+                }
+            ],
+            "id": "ITEM-4",
+            "issued": {
+                "date-parts": [
+                    [
+                        "1999"
+                    ]
+                ]
+            },
+            "title": "Her Other Book",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "..[0] John Doe, His Book (2000); John Doe, His Other Book (2001).\n..[1] Jane Roe, Her Book (1998).\n..[2] Roe, supra note 2.\n..[3] Doe, His Book, supra note 1.\n>>[4] Roe, supra note 2.",
+    "tags": false,
+    "version": "1.0"
+}

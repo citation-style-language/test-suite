@@ -1,0 +1,71 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": false,
+    "csl": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<style xmlns=\"http://purl.org/net/xbiblio/csl\" class=\"in-text\" version=\"1.0\" page-range-format=\"minimal-two\" default-locale=\"fr-FR\">\n  <info>\n    <title>Delimiters with after-inverted-name</title>\n    <title-short>dates_ranges_ordinal_french</title-short>\n    <id>http://www.zotero.org/styles/delimter_after_inverted_name</id>\n    <link rel=\"self\" href=\"http://www.zotero.org/styles/delimter_after_inverted_name\"/>\n    <author>\n      <name/>\n    </author>\n    <category citation-format=\"author-date\"/>\n    <updated>2020-06-27T10:27:51+00:00</updated>\n    <rights license=\"http://creativecommons.org/licenses/by-sa/3.0/\">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>\n  </info>\n  <citation>\n    <layout delimiter=\" ; \">\n      <names variable=\"author\">\n        <name name-as-sort-order=\"all\" and=\"symbol\" sort-separator=\", \" initialize-with=\". \" delimiter=\", \" delimiter-precedes-last=\"after-inverted-name\"/>\n      </names>\n    </layout>\n  </citation>\n  <bibliography>\n    <layout>\n      <names variable=\"author\">\n        <name name-as-sort-order=\"all\" and=\"symbol\" sort-separator=\", \" initialize-with=\". \" delimiter=\", \" delimiter-precedes-last=\"after-inverted-name\"/>\n      </names>\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "URL": "https://www.pc.gov.au/inquiries/completed/australia-new-zealand/report/trans-tasman.pdf",
+            "author": [
+                {
+                    "literal": "Australian Government Productivity Commission"
+                },
+                {
+                    "literal": "New Zealand Productivity Commission"
+                }
+            ],
+            "id": "AustralianGovernmentProductivityCommissionStrengtheningtransTasmaneconomic2012",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012
+                    ]
+                ]
+            },
+            "title": "Strengthening trans-Tasman economic relations",
+            "type": "report"
+        },
+        {
+            "author": [
+                {
+                    "family": "Weinstock",
+                    "given": "R."
+                },
+                {
+                    "family": "Leong",
+                    "given": "G. B."
+                },
+                {
+                    "family": "Silva",
+                    "given": "J. A."
+                }
+            ],
+            "container-title": "Principles and practice of forensic psychiatry",
+            "edition": "2",
+            "editor": [
+                {
+                    "family": "Rosner",
+                    "given": "R."
+                }
+            ],
+            "id": "WeinstockDefiningforensicpsychiatry2003",
+            "issued": {
+                "date-parts": [
+                    [
+                        2003
+                    ]
+                ]
+            },
+            "page": "7-13",
+            "publisher": "CRC Press",
+            "title": "Defining forensic psychiatry: Roles and responsibilities",
+            "type": "chapter"
+        }
+    ],
+    "mode": "bibliography",
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">Australian Government Productivity Commission &#38; New Zealand Productivity Commission</div>\n  <div class=\"csl-entry\">Weinstock, R., Leong, G. B., &#38; Silva, J. A.</div>\n</div>",
+    "tags": false,
+    "version": "1.0.1"
+}

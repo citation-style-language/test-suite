@@ -1,0 +1,61 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-2"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <macro name=\"author\">\n    <names variable=\"author\">\n      <name form=\"short\" />\n    </names>\n  </macro>\n  <citation givenname-disambiguation-rule=\"by-cite\" disambiguate-add-givenname=\"true\">\n    <layout delimiter=\"; \">\n      <names variable=\"author\">\n        <name form=\"short\"/>\n      </names>\n      <date variable=\"issued\" form=\"text\" date-parts=\"year\"/>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Blevins",
+                    "given": ""
+                }
+            ],
+            "id": "ITEM-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2001
+                    ]
+                ]
+            },
+            "title": "Book 1",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Blevins",
+                    "given": ""
+                }
+            ],
+            "id": "ITEM-2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2001
+                    ]
+                ]
+            },
+            "title": "Book 2",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "Blevins2001\nBlevins2001",
+    "tags": false,
+    "version": "1.0"
+}

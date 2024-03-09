@@ -1,0 +1,101 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": [
+        [
+            {
+                "citationID": "CITATION-1",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 0
+                }
+            },
+            [],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-2",
+                "citationItems": [
+                    {
+                        "id": "ITEM-2"
+                    },
+                    {
+                        "id": "ITEM-3"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 0
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    0
+                ]
+            ],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-1",
+                "citationItems": [
+                    {
+                        "id": "ITEM-4"
+                    },
+                    {
+                        "id": "ITEM-5"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 0
+                }
+            },
+            [],
+            [
+                [
+                    "CITATION-2",
+                    0
+                ]
+            ]
+        ]
+    ],
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"in-text\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation>\n    <layout delimiter=\"; \">\n      <text variable=\"title\" />\n    </layout>\n  </citation>\n  <bibliography>\n    <layout>\n      <text variable=\"title\" />\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "id": "ITEM-1",
+            "title": "Title One",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-2",
+            "title": "Title Two",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-3",
+            "title": "Title Three",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-4",
+            "title": "Title Four",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-5",
+            "title": "Title Five",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": ">>[0] Title Four; Title Five\n..[1] Title Two; Title Three",
+    "tags": false,
+    "version": "1.0"
+}

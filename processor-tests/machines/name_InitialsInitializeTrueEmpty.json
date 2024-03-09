@@ -1,0 +1,150 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-2"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-3"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-4"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-5"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-6"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-7"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-8"
+            }
+        ],
+        [
+            {
+                "id": "ITEM-9"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <macro name=\"full\">\n      <names variable=\"author\">\n        <name name-as-sort-order=\"all\"/>\n      </names>\n  </macro>\n  <macro name=\"initialized\">\n      <names variable=\"author\">\n        <name initialize-with=\"\" name-as-sort-order=\"all\" initialize=\"true\"/>\n      </names>\n  </macro>\n  <citation>\n    <layout delimiter=\"; \">\n    <group delimiter=\"] becomes [\" prefix=\"[\" suffix=\"]\">\n      <text macro=\"full\"/>\n      <text macro=\"initialized\"/>\n    </group>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Axford",
+                    "given": "ME"
+                }
+            ],
+            "id": "ITEM-1",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Behn",
+                    "given": "M.E"
+                }
+            ],
+            "id": "ITEM-2",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Crosler",
+                    "given": "M E."
+                }
+            ],
+            "id": "ITEM-3",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Dimauro",
+                    "given": "John M.E."
+                }
+            ],
+            "id": "ITEM-4",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Evans",
+                    "given": "M E"
+                }
+            ],
+            "id": "ITEM-5",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Faquhar",
+                    "given": "ME."
+                }
+            ],
+            "id": "ITEM-6",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Grant",
+                    "given": "Me."
+                }
+            ],
+            "id": "ITEM-7",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Hudson",
+                    "given": "Ph.M.E."
+                }
+            ],
+            "id": "ITEM-8",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Immel",
+                    "given": "Ph. M.E."
+                }
+            ],
+            "id": "ITEM-9",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "[Axford, ME] becomes [Axford, M]\n[Behn, M.E] becomes [Behn, ME]\n[Crosler, M E.] becomes [Crosler, ME]\n[Dimauro, John M.E.] becomes [Dimauro, JME]\n[Evans, M E] becomes [Evans, ME]\n[Faquhar, ME.] becomes [Faquhar, ME]\n[Grant, Me.] becomes [Grant, Me]\n[Hudson, Ph.M.E.] becomes [Hudson, PhME]\n[Immel, Ph. M.E.] becomes [Immel, PhME]",
+    "tags": false,
+    "version": "1.0"
+}

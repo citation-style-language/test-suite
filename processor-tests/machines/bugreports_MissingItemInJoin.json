@@ -1,0 +1,63 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1",
+                "locator": "100",
+                "suffix": " This."
+            },
+            {
+                "id": "ITEM-2",
+                "locator": "200"
+            },
+            {
+                "id": "ITEM-3",
+                "locator": "300"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<style xmlns=\"http://purl.org/net/xbiblio/csl\" version=\"1.0\" class=\"note\" default-locale=\"de-DE\">\n  <info>\n    <title>Meine juristische Zitierweise M. K.</title>\n    <id>http://www.zotero.org/styles/juristische-zitierweise-deutsch</id>\n    <link href=\"http://www.zotero.org/styles/juristische-zitierweise-deutsch\" rel=\"self\"/>\n    <author>\n      <name>MK</name>\n    </author>\n    <category citation-format=\"note\"/>\n    <category field=\"law\"/>\n    <summary>Juristische Zitierweise nach Stüber www.niederle-media.de/Zitieren.pdf</summary>\n    <updated>2012-09-28T02:06:38+00:00</updated>\n    <rights license=\"http://creativecommons.org/licenses/by-sa/3.0/\">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>\n  </info>\n  <macro name=\"author-and-editor\">\n    <names variable=\"author\">\n      <name/>\n      <substitute>\n        <names variable=\"editor\"/>\n      </substitute>\n    </names>\n  </macro>\n  <citation et-al-min=\"4\" et-al-use-first=\"1\">\n    <layout>\n      <choose>\n        <if type=\"article-journal\">\n          <names variable=\"author\" prefix=\"\" font-style=\"italic\">\n            <name delimiter=\"/\" name-as-sort-order=\"all\" sort-separator=\", \" form=\"short\"/>\n          </names>\n          <text variable=\"container-title\" prefix=\", \" suffix=\" \" form=\"short\"/>\n          <date variable=\"issued\" prefix=\"\" suffix=\", \">\n            <date-part name=\"year\" form=\"long\" prefix=\"\" suffix=\"\"/>\n            <date-part name=\"month\" form=\"numeric\" prefix=\"\" suffix=\"\"/>\n            <date-part name=\"day\" form=\"ordinal\" prefix=\"\" suffix=\"\"/>\n          </date>\n\t      <text variable=\"page-first\" prefix=\"\"/>\n          <text variable=\"locator\" prefix=\", \" suffix=\"\"/>\n        </if>\n\t    <else-if type=\"bill\">\n\t      <text variable=\"title\" prefix=\"\" suffix=\", \" form=\"short\"/>\n\t      <text variable=\"locator\" prefix=\"S. \" suffix=\"\"/>\n\t    </else-if>\n\t    <else-if type=\"legal_case\" match=\"any\">\n          <choose>\n            <!-- is the case published in a journal? -->\n            <if variable=\"container-title\">\n              <text variable=\"authority\" suffix=\" \"/>\n              <text variable=\"container-title\" form=\"short\" suffix=\" \"/>\n              <text variable=\"volume\" suffix=\", \"/>\n              <text variable=\"page\"/>\n              <text variable=\"locator\" prefix=\", \" suffix=\"\"/>\n            </if>\n            <else>\n              <text variable=\"authority\" suffix=\", \"/>\n              <text variable=\"genre\" suffix=\" v. \"/>\n              <date form=\"numeric\" variable=\"issued\" suffix=\" &#8211; \"/>\n              <text variable=\"number\"/>\n            </else>\n          </choose>\n          <choose>\n            <if variable=\"title-short\">\n              <text variable=\"title-short\" prefix=\" &#8211; \"/>\n            </if>\n          </choose>\n        </else-if>\n\t    <else-if type=\"thesis\">\n\t      <names variable=\"author\" font-style=\"italic\">\n            <name delimiter=\"/\" name-as-sort-order=\"all\" sort-separator=\", \" form=\"short\"/>\n          </names>\n          <text variable=\"title\" prefix=\", \" suffix=\"\" form=\"short\"/>\n\t\t  <text variable=\"locator\" prefix=\", S. \" suffix=\"\"/>\n\t    </else-if>\n        <else-if type=\"book\">\n          <names variable=\"author\" font-style=\"italic\">\n            <name delimiter=\"/\" name-as-sort-order=\"all\" sort-separator=\", \" form=\"short\"/>\n          </names>\n          <text variable=\"title\" prefix=\", \" suffix=\"\" form=\"short\"/>\n\t      <choose>\n\t        <if locator=\"page\">\n              <text variable=\"locator\" prefix=\", S. \" suffix=\"\"/>\n\t        </if>\n\t        <else-if locator=\"paragraph\">\n\t          <text variable=\"locator\" prefix=\"\" suffix=\"\"/>\n\t        </else-if>\n\t      </choose>\n\t    </else-if>\n        <else-if type=\"chapter\">\n          <names variable=\"author\" prefix=\"\" suffix=\"\" font-style=\"italic\">\n            <name delimiter=\"/\" name-as-sort-order=\"all\" sort-separator=\", \" form=\"short\"/>\n          </names>\n          <text variable=\"title\" prefix=\", \" suffix=\"\"/>\n          <text variable=\"container-title\" prefix=\", in: \" suffix=\", \" form=\"short\"/>\n\t      <text variable=\"page-first\" prefix=\"S. \" suffix=\"\"/>\n          <text variable=\"locator\" prefix=\", \" suffix=\"\"/>\n        </else-if>\n        <else-if type=\"entry-dictionary\">\n          <names variable=\"author\" prefix=\"\" suffix=\"\" font-style=\"italic\">\n            <name delimiter=\"/\" name-as-sort-order=\"all\" sort-separator=\", \" form=\"short\"/>\n          </names>\n          <names variable=\"editor\" prefix=\", in: \" suffix=\"\">\n            <name delimiter=\"/\" form=\"short\"/>\n          </names>\n          <text variable=\"title\" prefix=\", \" suffix=\", \" form=\"short\"/>\n\t      <text variable=\"page-first\" prefix=\"S. \" suffix=\" \"/>\n          <text variable=\"locator\" prefix=\"\" suffix=\"\"/>\n        </else-if>\n        <else-if type=\"entry-encyclopedia\">\n          \n          <text value=\"in: \" prefix=\"\" suffix=\"\"/>\n          <text variable=\"title\" prefix=\"\" suffix=\", \" form=\"short\"/>\n          <text variable=\"locator\" suffix=\"\"/>\n        </else-if>\n        <else>\n          <names variable=\"author\" prefix=\"\" font-style=\"italic\">\n            <name delimiter=\"; \" name-as-sort-order=\"all\" sort-separator=\", \" form=\"short\"/>\n          </names>\n          <text variable=\"title\" prefix=\", \" suffix=\", \"/>\n          <text variable=\"locator\" suffix=\"\"/>\n        </else>\n      </choose>\n    </layout>\n  </citation>\n  <bibliography>\n\t<sort>\n  \t  <key macro=\"author-and-editor\"/>\n\t</sort>\n    <layout>\n      <choose>\n        <if type=\"article-journal\">\n          <names variable=\"author\" prefix=\"\" suffix=\": \" font-style=\"italic\">\n            <name delimiter=\"/ \" name-as-sort-order=\"all\" sort-separator=\", \" form=\"long\"/>\n          </names>\n          <text variable=\"title\" prefix=\"\" suffix=\", \"/>\n          <text variable=\"container-title\" prefix=\"\" suffix=\" \"/>\n          <date variable=\"issued\" prefix=\"\" suffix=\", \">\n            <date-part name=\"year\" form=\"long\" prefix=\"\" suffix=\"\"/>\n            <date-part name=\"month\" form=\"numeric\" prefix=\"\" suffix=\"\"/>\n            <date-part name=\"day\" form=\"ordinal\" prefix=\"\" suffix=\"\"/>\n          </date>\n          <text variable=\"page\" prefix=\"S. \" suffix=\".\"/>\n        </if>\n        <else-if type=\"book\">\n          <names variable=\"author\" prefix=\"\" font-style=\"italic\">\n            <name delimiter=\"/\" name-as-sort-order=\"all\" sort-separator=\", \" form=\"long\"/>\n          </names>\n          <text variable=\"title\" prefix=\": \" suffix=\", \"/>\n          <text variable=\"edition\" prefix=\"\" suffix=\", \"/>\n          <text variable=\"publisher-place\" prefix=\"\" suffix=\" \"/>\n          <date variable=\"issued\" prefix=\"\" suffix=\". \">\n            <date-part name=\"year\" form=\"long\" prefix=\"\" suffix=\"\"/>\n          </date>\n        </else-if>\n        <else-if type=\"entry-dictionary\">\n          <names variable=\"editor\" prefix=\"\" suffix=\" \" font-style=\"italic\">\n            <name delimiter=\"/\" name-as-sort-order=\"all\" sort-separator=\", \" form=\"long\"/>\n          </names>\n          <text value=\" (Hrsg.)\" prefix=\"\" suffix=\": \"/>\n          <text variable=\"container-title\" prefix=\" \" suffix=\", \"/>\n          <text variable=\"edition\" prefix=\"\" suffix=\", \"/>\n          <text variable=\"publisher-place\" prefix=\"\" suffix=\" \"/>\n          <date variable=\"issued\" prefix=\"\" suffix=\"\">\n            <date-part name=\"year\" form=\"long\" prefix=\"\" suffix=\".\"/>\n          </date>\n\t    </else-if>\n        <else-if type=\"chapter\">\n          <names variable=\"author\" prefix=\"\" suffix=\": \" font-style=\"italic\">\n            <name delimiter=\"/\" name-as-sort-order=\"all\" sort-separator=\", \" form=\"long\"/>\n          </names>\n          <text variable=\"title\" prefix=\" \" suffix=\", in: \"/>\n          <names variable=\"editor\" prefix=\"\" suffix=\" (Hrsg.): \" font-style=\"italic\">\n            <name delimiter=\"/\" name-as-sort-order=\"all\" sort-separator=\", \" form=\"long\"/>\n          </names>\n          <text variable=\"container-title\" prefix=\"\" suffix=\", \"/>\n          <text variable=\"publisher-place\" prefix=\"\" suffix=\" \"/>\n          <date variable=\"issued\" prefix=\"\" suffix=\"\">\n            <date-part name=\"year\" form=\"long\" prefix=\"\" suffix=\", \"/>\n          </date>\n          <text variable=\"page\" prefix=\"S. \" suffix=\".\"/>\n        </else-if>\n        <else-if type=\"thesis\">\n          <names variable=\"author\" prefix=\"\" font-style=\"italic\">\n            <name delimiter=\"/\" name-as-sort-order=\"all\" sort-separator=\", \" form=\"long\"/>\n          </names>\n          <text variable=\"title\" prefix=\": \" suffix=\", Diss. jur., \"/>\n          <text variable=\"publisher-place\" prefix=\"\" suffix=\" \"/>\n          <date variable=\"issued\" prefix=\"\" suffix=\" (Zit.: \">\n            <date-part name=\"year\" form=\"long\" prefix=\"\" suffix=\"\"/>\n          </date>\n \t      <text value=\"Bearbeiter,\" prefix=\"\" suffix=\" \" font-style=\"italic\"/>\n          <text variable=\"title\" prefix=\"\" suffix=\"\" form=\"short\"/>\n          <text value=\").\" prefix=\"\" suffix=\" \"/>\n        </else-if>\n        <else-if type=\"entry-encyclopedia\">\n          <names variable=\"editor\" prefix=\"\" suffix=\" (Hrsg.): \" font-style=\"italic\">\n            <name delimiter=\"/\" name-as-sort-order=\"all\" sort-separator=\", \" form=\"long\"/>\n          </names>\n          <text variable=\"title\" prefix=\"\" suffix=\", \"/>\n          <text variable=\"edition\" prefix=\"\" suffix=\", \"/>\n          <text variable=\"publisher-place\" prefix=\"\" suffix=\" \"/>\n          <date variable=\"issued\" prefix=\"\" suffix=\" (Zit.: \">\n            <date-part name=\"year\" form=\"long\" prefix=\"\" suffix=\"\"/>\n          </date>\n          <text value=\"Bearbeiter,\" prefix=\"\" suffix=\" \" font-style=\"italic\"/>\n          <text value=\"in: \" prefix=\"\" suffix=\" \"/>\n          <text variable=\"title\" prefix=\"\" suffix=\"\" form=\"short\"/>\n          <text value=\").\" prefix=\"\" suffix=\" \"/>\n        </else-if>\n      </choose>\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "author": [
+                {
+                    "family": "Aalto",
+                    "given": "Alan"
+                }
+            ],
+            "id": "ITEM-1",
+            "title": "Book One",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Álvarez",
+                    "given": "Ajax"
+                }
+            ],
+            "id": "ITEM-2",
+            "title": "Book Two",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Álvarez",
+                    "given": "Ajax"
+                }
+            ],
+            "id": "ITEM-3",
+            "title": "Film One",
+            "type": "motion_picture"
+        }
+    ],
+    "mode": "citation",
+    "result": "<i>Aalto</i>, Book One, S. 100 This.<i>Álvarez</i>, Book Two, S. 200<i>Álvarez</i>, Film One, 300",
+    "tags": false,
+    "version": "1.0"
+}

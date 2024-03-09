@@ -1,0 +1,22 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": false,
+    "csl": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<style xmlns=\"http://purl.org/net/xbiblio/csl\" class=\"note\" version=\"1.0\" demote-non-dropping-particle=\"never\">\n  <info>\n    <title>Chicago Manual of Style (full note, no Ibid.)</title>\n    <id>http://www.zotero.org/styles/chicago-fullnote-bibliography-no-ibid</id>\n    <link href=\"http://www.zotero.org/styles/chicago-fullnote-bibliography-no-ibid\" rel=\"self\"/>\n    <link href=\"http://www.chicagomanualofstyle.org/tools_citationguide.html\" rel=\"documentation\"/>\n    <author>\n      <name>Julian Onions</name>\n      <email>julian.onions@gmail.com</email>\n    </author>\n    <contributor>\n      <name>Simon Kornblith</name>\n      <email>simon@simonster.com</email>\n    </contributor>\n    <contributor>\n      <name>Elena Razlogova</name>\n      <email>elena.razlogova@gmail.com</email>\n    </contributor>\n    <contributor>\n      <name>Frank Bennett</name>\n      <email>biercenator@gmail.com</email>\n    </contributor>\n    <category citation-format=\"note\"/>\n    <category field=\"generic-base\"/>\n    <summary>Chicago format with full notes and bibliography</summary>\n    <updated>2012-10-25T21:15:26+00:00</updated>\n    <rights license=\"http://creativecommons.org/licenses/by-sa/3.0/\">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>\n  </info>\n  <citation>\n    <layout>\n      <text variable=\"title\"/>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "multi": {
+                "_keys": {},
+                "main": {}
+            },
+            "title": "<span class=\"nocase\">l'''</span>",
+            "type": "article-journal"
+        }
+    ],
+    "mode": "citation",
+    "result": "l’’’",
+    "tags": false,
+    "version": "1.0"
+}

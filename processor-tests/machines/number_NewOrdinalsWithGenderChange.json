@@ -1,0 +1,20 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\"\n      default-locale=\"fr-FR\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <locale xml:lang=\"fr-FR\">\n    <terms>\n      <!-- ORDINALS -->\n     <term name=\"ordinal\">EE</term>\n     <term name=\"ordinal-01\" gender-form=\"feminine\" match=\"whole-number\">ʳᵉfemmie</term>\n     <term name=\"ordinal-01\" gender-form=\"masculine\" match=\"whole-number\">ᵉʳmacho</term>\n    </terms>\n  </locale>\n  <citation>\n    <layout delimiter=\"; \">\n      <group delimiter=\": \">\n        <text variable=\"title\"/>\n        <number variable=\"edition\" form=\"ordinal\"/>\n      </group>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "edition": 1,
+            "id": "ITEM-1",
+            "title": "Title 1",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "Title 1: 1<sup>r</sup><sup>e</sup>femmie",
+    "tags": false,
+    "version": "1.0"
+}

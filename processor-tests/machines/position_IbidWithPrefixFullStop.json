@@ -1,0 +1,39 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": [
+        [
+            {
+                "citationID": "CITATION-1",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1"
+                    },
+                    {
+                        "id": "ITEM-1",
+                        "prefix": ". He said \"Please work.\" "
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 1
+                }
+            },
+            [],
+            []
+        ]
+    ],
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <locale>\n   <style-options punctuation-in-quote=\"true\"/>\n  </locale>\n  <citation>\n    <layout delimiter=\"; \">\n      <choose>\n        <if position=\"subsequent\">\n          <text term=\"ibid\"/>\n        </if>\n        <else>\n          <text variable=\"title\"/>\n        </else>\n      </choose>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "id": "ITEM-1",
+            "title": "Book A",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": ">>[0] Book A. He said “Please work.” Ibid.",
+    "tags": false,
+    "version": "1.0"
+}

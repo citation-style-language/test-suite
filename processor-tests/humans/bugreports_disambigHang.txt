@@ -41,22 +41,23 @@ citation
     {
         "author": [
             {
-              "given":"Carl G.",
-              "family":"de Boer"
+                "family": "de Boer",
+                "given": "Carl G."
             },
             {
-              "given":"John P.",
-              "family":"Ray"
+                "family": "Ray",
+                "given": "John P."
             },
             {
-              "given":"Nir",
-              "family":"Hacohen"
+                "family": "Hacohen",
+                "given": "Nir"
             },
             {
-              "given":"Aviv",
-              "family":"Regev"
+                "family": "Regev",
+                "given": "Aviv"
             }
         ],
+        "id": "ITEM-1",
         "issued": {
             "date-parts": [
                 [
@@ -66,36 +67,36 @@ citation
                 ]
             ]
         },
-        "id": "ITEM-1",
         "type": "book"
     },
     {
         "author": [
             {
-                "given":"Carl G.",
-                "family":"de Boer"
+                "family": "de Boer",
+                "given": "Carl G."
             },
             {
-                "given":"Eeshit Dhaval",
-                "family":"Vaishnav"
+                "family": "Vaishnav",
+                "given": "Eeshit Dhaval"
             },
             {
-                "given":"Ronen",
-                "family":"Sadeh"
+                "family": "Sadeh",
+                "given": "Ronen"
             },
             {
-                "given":"Esteban Luis",
-                "family":"Abeyta"
+                "family": "Abeyta",
+                "given": "Esteban Luis"
             },
             {
-                "given":"Nir",
-                "family":"Friedman"
+                "family": "Friedman",
+                "given": "Nir"
             },
             {
-                "given":"Aviv",
-                "family":"Regev"
+                "family": "Regev",
+                "given": "Aviv"
             }
         ],
+        "id": "ITEM-2",
         "issued": {
             "date-parts": [
                 [
@@ -105,7 +106,6 @@ citation
                 ]
             ]
         },
-        "id": "ITEM-2",
         "type": "book"
     }
 ]

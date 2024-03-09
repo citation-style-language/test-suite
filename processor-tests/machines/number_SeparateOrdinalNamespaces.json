@@ -1,0 +1,35 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\"\n      default-locale=\"fr-FR\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <locale>\n    <terms>\n      <term name=\"ordinal\">.ª</term>\n      <term name=\"ordinal-01\">.ª</term>\n      <term name=\"ordinal-01\" gender-form=\"masculine\">.º</term>\n      <term name=\"ordinal-01\" gender-form=\"feminine\">.ª</term>\n      <term name=\"ordinal-02\" gender-form=\"masculine\">.ºº</term>\n      <term name=\"issue\" gender=\"masculine\">issue</term> <!-- same as locale -->\n      <term name=\"edition\" gender=\"feminine\">edition</term> <!-- same as locale -->\n    </terms>\n  </locale>\n  <citation>\n    <layout delimiter=\"; \">\n      <group delimiter=\", \">\n        <text variable=\"title\"/>\n        <group delimiter=\" \">\n          <number variable=\"edition\" form=\"ordinal\"/>\n          <label variable=\"edition\"/>\n        </group>\n        <group delimiter=\" \">\n          <number variable=\"issue\" form=\"ordinal\"/>\n          <label variable=\"issue\"/>\n        </group>\n      </group>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "edition": "1",
+            "id": "ITEM-1",
+            "issue": "1",
+            "title": "With One",
+            "type": "book"
+        },
+        {
+            "edition": "2",
+            "id": "ITEM-2",
+            "issue": "2",
+            "title": "With Two",
+            "type": "book"
+        },
+        {
+            "edition": "3",
+            "id": "ITEM-3",
+            "issue": "3",
+            "title": "With Three",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "With One, 1.<sup>a</sup> edition, 1.<sup>o</sup> issue; With Two, 2.<sup>a</sup> edition, 2.<sup>o</sup><sup>o</sup> issue; With Three, 3.<sup>a</sup> edition, 3.<sup>a</sup> issue",
+    "tags": false,
+    "version": "1.0"
+}

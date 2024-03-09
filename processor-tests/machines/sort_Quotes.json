@@ -1,0 +1,41 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            },
+            {
+                "id": "ITEM-2"
+            },
+            {
+                "id": "ITEM-3"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <macro name=\"title\">\n    <choose>\n      <if type=\"article-journal\">\n        <text variable=\"title\" quotes=\"true\"/>\n      </if>\n      <else>\n        <text variable=\"title\"/>\n      </else>\n    </choose>\n  </macro>\n  <citation>\n    <layout delimiter=\"; \">\n      <text macro=\"title\"/>\n    </layout>\n  </citation>\n  <bibliography>\n    <sort>\n      <key macro=\"title\"/>\n    </sort>\n    <layout>\n      <text macro=\"title\"/>\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "id": "ITEM-1",
+            "title": "Simple 'title' here C",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-2",
+            "title": "Simple title, here A",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-3",
+            "title": "Simple title here B",
+            "type": "article-journal"
+        }
+    ],
+    "mode": "bibliography",
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">Simple title, here A</div>\n  <div class=\"csl-entry\">“Simple title here B”</div>\n  <div class=\"csl-entry\">Simple “title” here C</div>\n</div>",
+    "tags": false,
+    "version": "1.0"
+}

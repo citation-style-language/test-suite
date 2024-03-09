@@ -1,0 +1,34 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation>\n    <sort>\n      <key variable=\"citation-number\"/>\n    </sort>\n    <layout>\n      <group delimiter=\" \">\n        <number variable=\"citation-number\" prefix=\"[\" suffix=\"]\"/>\n        <text variable=\"title\"/>\n      </group>\n    </layout>\n  </citation>\n  <bibliography>\n    <sort>\n      <key variable=\"citation-number\" sort=\"ascending\"/>\n    </sort>\n    <layout>\n      <text variable=\"citation-number\" prefix=\"[\" suffix=\"] \"/>\n      <text variable=\"title\" />\n    </layout>\n  </bibliography>\n</style>",
+    "input": [
+        {
+            "id": "item-1",
+            "title": "Aaaa (first-cited)",
+            "type": "book"
+        },
+        {
+            "id": "item-2",
+            "title": "Bbbb (second-cited)",
+            "type": "book"
+        },
+        {
+            "id": "item-3",
+            "title": "Zzzz (third-cited)",
+            "type": "book"
+        },
+        {
+            "id": "item-4",
+            "title": "Xxxx (fourth-cited)",
+            "type": "book"
+        }
+    ],
+    "mode": "bibliography",
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">[1] Aaaa (first-cited)</div>\n  <div class=\"csl-entry\">[2] Bbbb (second-cited)</div>\n  <div class=\"csl-entry\">[3] Zzzz (third-cited)</div>\n  <div class=\"csl-entry\">[4] Xxxx (fourth-cited)</div>\n</div>",
+    "tags": false,
+    "version": "1.0"
+}

@@ -1,0 +1,25 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "Titlea"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<style xmlns=\"http://purl.org/net/xbiblio/csl\" class=\"note\" version=\"1.0\" demote-non-dropping-particle=\"sort-only\">\n  <info>\n    <title>Chicago Manual of Style (Full Note w. Bibliography) [delimiter fixes]</title>\n    <id>http://www.zotero.org/styles/chicago-fullnote-bibliography-delimiter-fixes</id>\n    <link href=\"http://www.zotero.org/styles/chicago-fullnote-bibliography-delimiter-fixes\" rel=\"self\"/>\n    <link href=\"http://www.chicagomanualofstyle.org/tools_citationguide.html\" rel=\"documentation\"/>\n    <author>\n      <name>Julian Onions</name>\n      <email>julian.onions@gmail.com</email>\n    </author>\n    <summary>Chicago format with full notes and bibliography (with delimiter fixes)</summary>\n    <category field=\"generic-base\"/>\n    <category citation-format=\"note\"/>\n    <updated>2009-12-04T20:22:16+00:00</updated>\n    <rights>This work is licensed under a Creative Commons Attribution-Share Alike 3.0 License: http://creativecommons.org/licenses/by-sa/3.0/</rights>\n  </info>\n  <citation et-al-min=\"4\" et-al-use-first=\"1\" disambiguate-add-names=\"true\">\n    <layout>\n      <group delimiter=\" \">\n        <choose>\n          <if is-numeric=\"version\">\n            <text value=\"is-numeric is TRUE: \"/>\n          </if>\n          <else>\n            <text value=\"is-numeric is FALSE:\"/>\n          </else>\n        </choose>\n        <number variable=\"version\"/>\n      </group>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "id": "Titlea",
+            "type": "report",
+            "version": "version: 2002, amended effective June 1, 2010, and January 1, 2017"
+        }
+    ],
+    "mode": "citation",
+    "result": "is-numeric is FALSE: version: 2002, amended effective June 1, 2010, and January 1, 2017",
+    "tags": false,
+    "version": "1.0"
+}

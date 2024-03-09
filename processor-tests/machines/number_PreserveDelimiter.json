@@ -1,0 +1,36 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <macro name=\"container-contributors\">\n    <choose>\n      <if type=\"chapter paper-conference\" match=\"any\">\n        <text term=\"in\" suffix=\" \" font-style=\"italic\"/>\n        <names variable=\"editor translator\" delimiter=\", \">\n          <name and=\"text\" initialize-with=\". \" delimiter=\", \"/>\n          <label form=\"long\" prefix=\", \" suffix=\".\"/>\n        </names>\n      </if>\n    </choose>\n  </macro>\n  <macro name=\"secondary-contributors\">\n    <choose>\n      <if type=\"chapter paper-conference\" match=\"none\">\n        <names variable=\"editor translator\" delimiter=\", \">\n          <name and=\"text\" initialize-with=\". \" delimiter=\", \"/>\n          <label prefix=\", \"/>\n        </names>\n      </if>\n    </choose>\n  </macro>\n  <citation>\n    <layout>\n      <group prefix=\". \" delimiter=\" \">\n        <label variable=\"page\" form=\"long\" text-case=\"capitalize-first\"/>\n        <text variable=\"page\"/>\n        <text macro=\"container-contributors\"/>\n        <text variable=\"container-title\"/>\n        <text macro=\"secondary-contributors\"/>\n      </group>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "container-title": "Analysis and interpretation of freshwater fisheries data",
+            "editor": [
+                {
+                    "family": "Stephen",
+                    "given": "Clarence Stephen"
+                },
+                {
+                    "family": "Brown",
+                    "given": "Michael Lawrence"
+                }
+            ],
+            "id": "ITEM-1",
+            "page": "187-228",
+            "type": "chapter"
+        }
+    ],
+    "mode": "citation",
+    "result": ". Pages 187–228 <i>in</i> C. S. Stephen and M. L. Brown, editors. Analysis and interpretation of freshwater fisheries data",
+    "tags": false,
+    "version": "1.0"
+}

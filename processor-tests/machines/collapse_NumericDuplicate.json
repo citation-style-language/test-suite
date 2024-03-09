@@ -1,0 +1,52 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": [
+        [
+            {
+                "id": "ITEM-1"
+            },
+            {
+                "id": "ITEM-2"
+            },
+            {
+                "id": "ITEM-2"
+            },
+            {
+                "id": "ITEM-3"
+            },
+            {
+                "id": "ITEM-4"
+            }
+        ]
+    ],
+    "citations": false,
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"in-text\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation collapse=\"citation-number\">\n    <sort>\n      <key variable=\"citation-number\"/>\n    </sort>\n    <layout prefix=\"(\" suffix=\")\" delimiter=\",\">\n      <text variable=\"citation-number\"/>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "id": "ITEM-1",
+            "title": "Book One",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-2",
+            "title": "Book Two",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-3",
+            "title": "Book Three",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-4",
+            "title": "Book Four",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "(1,2,2–4)",
+    "tags": false,
+    "version": "1.0"
+}

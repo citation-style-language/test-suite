@@ -1,0 +1,90 @@
+{
+    "abbreviations": false,
+    "bibentries": false,
+    "bibsection": false,
+    "citation_items": false,
+    "citations": [
+        [
+            {
+                "citationID": "CITATION-1",
+                "citationItems": [
+                    {
+                        "id": "ITEM-1"
+                    },
+                    {
+                        "id": "ITEM-1"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 1
+                }
+            },
+            [],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-2",
+                "citationItems": [
+                    {
+                        "id": "ITEM-2"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 2
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    1
+                ]
+            ],
+            []
+        ],
+        [
+            {
+                "citationID": "CITATION-3",
+                "citationItems": [
+                    {
+                        "id": "ITEM-2"
+                    },
+                    {
+                        "id": "ITEM-1"
+                    }
+                ],
+                "properties": {
+                    "noteIndex": 3
+                }
+            },
+            [
+                [
+                    "CITATION-1",
+                    1
+                ],
+                [
+                    "CITATION-2",
+                    2
+                ]
+            ],
+            []
+        ]
+    ],
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation near-note-distance=\"0\">\n    <layout delimiter=\"; \">\n      <choose>\n        <if position=\"ibid near-note\" match=\"all\">\n          <text variable=\"title\" prefix=\"Near+Ibid:\"/>\n        </if>\n        <else>\n          <text variable=\"title\" prefix=\"Plain+Vanilla:\"/>\n        </else>\n      </choose>\n    </layout>\n  </citation>\n</style>",
+    "input": [
+        {
+            "id": "ITEM-1",
+            "title": "Book-A",
+            "type": "book"
+        },
+        {
+            "id": "ITEM-2",
+            "title": "Book-B",
+            "type": "book"
+        }
+    ],
+    "mode": "citation",
+    "result": "..[0] Plain+Vanilla:Book-A; Near+Ibid:Book-A\n..[1] Plain+Vanilla:Book-B\n>>[2] Plain+Vanilla:Book-B; Plain+Vanilla:Book-A",
+    "tags": false,
+    "version": "1.0"
+}
