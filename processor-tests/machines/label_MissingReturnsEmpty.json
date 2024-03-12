@@ -10,7 +10,7 @@
         ]
     ],
     "citations": false,
-    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <!-- locale>\n    <term name=\"number\">nummie</term>\n  </locale -->\n  <macro name=\"author\">\n    <names variable=\"author\">\n      <name form=\"short\" />\n    </names>\n  </macro>\n  <citation>\n    <layout delimiter=\"; \">\n      <text macro=\"author\" />\n      <group delimiter=\" \" prefix=\", \">\n        <text term=\"number\"/>\n        <number variable=\"collection-number\"/>\n      </group>\n    </layout>\n  </citation>\n</style>",
+    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <!-- locale>\n    <term name=\"number\">nummie</term>\n  </locale -->\n  <macro name=\"author\">\n    <names variable=\"author\">\n      <name form=\"short\" />\n      <label form=\"long\" prefix=\", \"/>\n    </names>\n  </macro>\n  <citation>\n    <layout delimiter=\"; \">\n      <text macro=\"author\" />\n    </layout>\n  </citation>\n</style>",
     "input": [
         {
             "author": [
@@ -19,7 +19,6 @@
                     "given": "Alan"
                 }
             ],
-            "collection-number": 23,
             "id": "ITEM-1",
             "type": "book"
         }

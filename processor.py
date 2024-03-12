@@ -60,7 +60,7 @@ def fixEndings(s):
 class ApplyLicense:
 
     def __init__(self):
-        self.rex = "(?sm)^^(/\*.*?^\s*\*/\n*)(.*)"
+        self.rex = r"(?sm)^^(/\*.*?^\s*\*/\n*)(.*)"
         m = re.match(self.rex, fixEndings(open( os.path.join("src","load.js")).read()) )
         if m:
             self.license = "%s\n" % m.group(1).strip()
@@ -227,7 +227,7 @@ class CslTest:
         self.CREATORS = ["author","editor","translator","recipient","interviewer"]
         self.CREATORS += ["composer","original-author","container-author","collection-editor"]
         self.RE_ELEMENT = '(?sm)^(.*>>=[^\n]*%s[^\n]+)(.*)(\n<<=.*%s.*)'
-        self.RE_FILENAME = '^[a-z]+_[a-zA-Z0-9]+\.txt$'
+        self.RE_FILENAME = r"^[a-z]+_[a-zA-Z0-9]+\.txt$"
         self.script = os.path.split(sys.argv[0])[1]
         self.pickle = ".".join((os.path.splitext( self.script )[0], "pkl"))
         self.data = {}
@@ -330,7 +330,7 @@ class CslTest:
         tfd,tfilename = tempfile.mkstemp(dir=".")
         os.write(tfd,self.data["csl"].encode('utf8'))
         os.close(tfd)
-        
+
         jfh = os.popen("%s %s -c %s %s" % (self.cp.get("jing", "command"), self.cp.get("jing", "path"),rnc_path,tfilename))
         success = True
         plural = ""
@@ -344,13 +344,13 @@ class CslTest:
                 sys.exit()
             m = re.match(".*:([0-9]+):([0-9]+):  *error:(.*)",line)
             if m:
-              if success:
-                  print("\n##")
-                  print("#### Error%s in CSL for test: %s" % (plural,self.hp))
-                  print("##\n")
-                  success = False
-              print("  %s @ line %s" %(m.group(3).upper(),m.group(1)))
-              plural = "s"
+                if success:
+                    print("\n##")
+                    print("#### Error%s in CSL for test: %s" % (plural,self.hp))
+                    print("##\n")
+                    success = False
+                print("  %s @ line %s" %(m.group(3).upper(),m.group(1)))
+                plural = "s"
         jfh.close()
         os.unlink(tfilename)
         if not success:
@@ -370,8 +370,8 @@ class CslTest:
 
             pickler.dump( (opt, self.pos) )
             sys.exit()
-        
- 
+
+
 if __name__ == "__main__":
 
     from optparse import OptionParser
