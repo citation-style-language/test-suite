@@ -3,7 +3,7 @@ citation
 <<==== MODE ====<<
 
 >>==== RESULT ====>>
-Aalto, 23
+Aalto
 <<==== RESULT ====<<
 
 >>==== CITATION-ITEMS ====>>
@@ -17,7 +17,7 @@ Aalto, 23
 <<==== CITATION-ITEMS ====<<
 
 >>==== CSL ====>>
-<style 
+<style
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
       version="1.0">
@@ -63,4 +63,3 @@ Aalto, 23
 >>===== VERSION =====>>
 1.0
 <<===== VERSION =====<<
-
