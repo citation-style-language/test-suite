@@ -76,7 +76,7 @@
         }
     ],
     "mode": "bibliography",
-    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">John Doe。</div>\n  <div class=\"csl-entry\">——著，Ziggy Zither等點校。</div>\n  <div class=\"csl-entry\">田中太郎, Yossarian Yoda, 等翻譯員。</div>\n</div>",
+    "result": "<div class=\"csl-bib-body\">\n  <div class=\"csl-entry\">John Doe。</div>\n  <div class=\"csl-entry\">——，Ziggy Zither等點校。</div>\n  <div class=\"csl-entry\">田中太郎, Yossarian Yoda, 等翻譯員。</div>\n</div>",
     "tags": false,
     "version": "1.0"
 }
