@@ -6,12 +6,12 @@ citation
 
 
 >>===== RESULT =====>>
-(250BC)
+(250 BC)
 <<===== RESULT =====<<
 
 
 >>===== CSL =====>>
-<style 
+<style
       xmlns="http://purl.org/net/xbiblio/csl"
       class="note"
       version="1.0">
@@ -54,4 +54,3 @@ citation
 >>===== VERSION =====>>
 1.0
 <<===== VERSION =====<<
-
