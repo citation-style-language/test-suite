@@ -74,7 +74,7 @@ Fixture layout
 ##############
 
 The human-readable version of each test fixture is composed in
-the format below.  The five sections ``MODE``,
+the format below.  The four sections ``MODE``,
 ``RESULT``, ``CSL`` and ``INPUT`` are required, and may be 
 arranged in any order within the fixture file.  As the
 sample below illustrates, text outside of the section
