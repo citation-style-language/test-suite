@@ -16,7 +16,7 @@
         ]
     ],
     "citations": false,
-    "csl": "<style \n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation\n    collapse=\"year\">\n    <sort>\n      <key variable=\"issued\"/>\n    </sort>\n    <layout prefix=\"(\" suffix=\")\" delimiter=\", \">\n      <group delimiter=\" \">\n        <names variable=\"author\">\n          <name form=\"short\"/>\n        </names>\n        <date variable=\"issued\">\n          <date-part name=\"year\" />\n        </date>\n      </group>\n    </layout>\n  </citation>\n</style>",
+    "csl": "<style\n      xmlns=\"http://purl.org/net/xbiblio/csl\"\n      class=\"note\"\n      version=\"1.0\">\n  <info>\n    <id />\n    <title />\n    <updated>2009-08-10T04:49:00+09:00</updated>\n  </info>\n  <citation\n    collapse=\"year\">\n    <sort>\n      <key variable=\"issued\"/>\n    </sort>\n    <layout prefix=\"(\" suffix=\")\" delimiter=\", \">\n      <group delimiter=\" \">\n        <names variable=\"author\">\n          <name form=\"short\"/>\n        </names>\n        <date variable=\"issued\">\n          <date-part name=\"year\" />\n        </date>\n      </group>\n    </layout>\n  </citation>\n</style>",
     "input": [
         {
             "author": [
@@ -67,7 +67,7 @@
         }
     ],
     "mode": "citation",
-    "result": "(Smith 325AD, 2000)",
+    "result": "(Smith 325 AD, 2000)",
     "tags": false,
     "version": "1.0"
 }
