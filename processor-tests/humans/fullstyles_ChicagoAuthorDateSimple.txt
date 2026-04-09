@@ -11,7 +11,7 @@ bibliography
   <div class="csl-entry">Doe, John, and Jane Roe. 1991. <i>Book B</i>.</div>
   <div class="csl-entry">Doe, John, Jane Roe, and Alvin Asthma. 1992. <i>Book C</i>.</div>
   <div class="csl-entry">Doe, John, Jane Roe, Alvin Asthma, Bob Bronchitis, Chris Cold, Don Dropsy, Ernie Enteritis, et al. 1993. <i>Book D</i>.</div>
-  <div class="csl-entry">---. 1994. <i>Book E</i>.</div>
+  <div class="csl-entry">Doe, John, Jane Roe, Alvin Asthma, Bob Bronchitis, Chris Cold, Don Dropsy, Ernie Enteritis, et al. 1994. <i>Book E</i>.</div>
 </div>
 <<===== RESULT =====<<
 
